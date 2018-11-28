@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block title %}{{config.SITE_TITLE}}{% endblock %}
+
+{% block content %}
+<!--Start Jumbotron  -->
+<div class="container">
+    <div class="jumbotron bg-light">
+        <h1>{{config.SITE_TITLE}}</h1>
+        <h4 class="font-italic text-secondary">{{config.SITE_SUBTITLE}}</h4>
+        </div>
+<div class="card-columns">
+    <div class="card w-75">
+        <h3 class="card-title">Latest Blog Post</h3>
+     </div>
+    <div class="card w-20">
+        <h3 class="card-title">Latest Social Media Update</h3>
+    </div>
+ </div>
+    <h3>Podcasts</h1>
+
+ <div class="card-deck">
+        <div class="card">Productivity in Tech</div>
+        <div class="card">Dev Otaku</div>
+    </div>
+<div class="p-5">
+<!-- Newsletter Subscription -->
+<form
+  action="https://buttondown.email/api/emails/embed-subscribe/productivityintech"
+  method="post"
+  target="popupwindow"
+  onsubmit="window.open('https://buttondown.email/productivityintech', 'popupwindow')"
+  class="embeddable-buttondown-form">
+  <h4 class="text-primary form-title">All this content in a digestible package in your inbox! </h4>
+  <input type="email" name="email" placeholder="Email" id="bd-email">
+  <input type="hidden" value="1" name="embed"/>
+  <input class="btn btn-primary" type="submit" value="Subscribe" />
+</form>
+<!-- End Newsletter -->
+</div>
+</div>
+{% endblock %}

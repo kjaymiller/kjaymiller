@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block title %}Blog Post{% endblock %}
+{% block content %} 
+<div class="container">
+	    <article>
+    <div class="jumbotron text-light column align-items-bottom" style="background:url('https://images.pexels.com/photos/1563074/pexels-photo-1563074.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')">
+    </div>
+        <h1 class="display-4 text-primary">{{title}}</h1>
+        <small class="text-secondary">{{author}} - <span class="text-primary">{{created}}</span></small>
+        <div class="py-2">
+{{content}} 
+</div>
+    </article>
+    
+    <a href="../blog_posts.html" class="text-primary"><-- Back to Blogs</a>
+</div>
+{% endblock %}
