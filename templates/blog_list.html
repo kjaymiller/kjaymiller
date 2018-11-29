@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container">
+    <div class="jumbotron border-bottom bg-transparent">
+        <h2 class="display-4 text-primary">Blog</h2>
+        <h3 class="font-italic text-secondary">Productivity Musings, Automations, and Reviews</h3>
+    </div>
+    <div class="card-columns">
+        {% for post in title_list %}
+        <div class="card">
+            <a href="blog/{{post['slug']}}.html">
+                <div style="overflow:hidden;">
+            {% if 'featured_image' in post %}
+                    <img class="card-img-top" src="{{post['featured_image']}}">
+            {% endif %}
+                </div>
+                <div class="card-body">
+                    <h2>{{post['title']}}</h2>
+                    {{post['summary']}}
+                </div>
+                <div class="card-footer text-right"><small>{{post['created']}}</small></div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

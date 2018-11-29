@@ -1,0 +1,11 @@
+{
+	"version": "https://jsonfeed.org/version/1",
+	"title": "Productivity In Tech",
+	"home_page_url": "https://productivityintech.com",
+	"feed_url": "https://productivityintech.com/blog/feed.json",
+	"author": {
+		"name": "Jay Miller",
+		"url": "https://twitter.com/kjaymiller"},
+        "items": [
+        ]
+}
