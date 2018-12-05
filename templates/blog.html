@@ -5,10 +5,11 @@
 	    <article>
     <div class="jumbotron text-light column align-items-bottom" style="background:url('https://images.pexels.com/photos/1563074/pexels-photo-1563074.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')">
     </div>
-        <h1 class="display-4 text-primary">{{title}}</h1>
-        <small class="text-secondary">{{author}} - <span class="text-primary">{{created}}</span></small>
+        <h1 class="display-4 text-primary">{{metadata['title']}}</h1>
+        <small class="text-secondary">{{metadata['author']}} - <span
+                class="text-primary">{{metadata['date']}}</span></small>
         <div class="py-2">
-{{content}} 
+{{metadata['content']}} 
 </div>
     </article>
     

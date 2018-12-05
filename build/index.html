@@ -7,36 +7,39 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="/static/css/bootstrap.min.css">
 
-    <title>Productivity in Tech</title>
+    <title>K Jay Miller</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <a class="navbar-brand text-secondary" href="/">Productivity in Tech</a>
+  <a class="navbar-brand text-secondary" href="/">K Jay Miller</a>
 
   <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-      <li class="nav-item active">
-        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-      </li>
+        
       <li class="nav-item">
-        <a class="nav-link" href="#">Coaching</a>
+        <a class="nav-link" href="/blog/category/automation">Automations</a>
       </li>
+      
       <li class="nav-item">
-        <a class="nav-link disabled" href="/posts.html">Blog</a>
+        <a class="nav-link" href="/blog_posts.html">Blog</a>
       </li>
+      
       <li class="nav-item">
-        <a class="nav-link disabled" href="#">Podcast</a>
+        <a class="nav-link" href="/subscribe.html">Newsletter</a>
       </li>
+      
       <li class="nav-item">
-        <a class="nav-link disabled" href="#">Slack</a>
+        <a class="nav-link" href="/contact.html">Contact</a>
       </li>
+      
       <li class="nav-item">
-        <a class="nav-link disabled" href="#">Twitter</a>
+        <a class="nav-link" href="https://productivityintech.com">PIT</a>
       </li>
-    </ul>
+      
+      </ul>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
@@ -47,90 +50,73 @@
     
 <!--Start Jumbotron  -->
 <div class="container">
-    <div class="jumbotron row wrap bg-transparent border-bottom">
-        <div class="col-sm-12 col-lg-7"> <img class="w-100" src="https://s3-us-west-2.amazonaws.com/kjaymiller/images/pit-v3.jpg"></div>
-        <div class="px-5 text-sm-center align-self-center col-sm-12 col-lg-5">
-            <h2 class="text-primary display-3">Live, Code, Work, Be</h2>
-            <h1 class="text-muted">More Productive</h1>
-        </div>
+  <div class="jumbotron bg-light">
+    <h1>K Jay Miller</h1> <h4 class="font-italic text-secondary"> The Corner of Automation, Productivity, and Community</h4>
+  </div>
+  <div class="row flex">
+    <div class="w-50 px-2">
+      <h2> Latest Blog Post </h2>
+      <div class="card p-3">
+	<a href="blog/201805141701.html"> <h3 class = "p-1 card-title text-primary"> </h3></a>
+	<p> <p>Testing if I can post with no title.</p>...</p> <a href="blog/201805141701.html"
+	  class="text-right px-3"> Read More </a>
+	<div>
+	  <div class="">
+	    <h3> Podcasts </h1>
+	    <div class="card-deck">
+	      <div class="card">
+		Productivity in Tech
+	      </div>
+	      <div class="card">
+		Dev Otaku
+	      </div>
+	    </div>
+	  </div>
+	</div>
+      </div>
     </div>
-    <div class="container-fluid  row justify-content-center">
-        <h1 class="col-xs-8 py-3 text-primary display-3">Coming Back <span class="font-weight-normal font-italic text-secondary">Soon...</span></h1>
-        <p class="col py-3 align-self-end font-italic">We're Working on getting everything ready for you.</p>
+    <div class="px-5 w-35">
+      <h3 class=""> Latest Social Media Update </h3>
+      <div class="card">
+      	<p><code>Title:
+Date: 
+Tags: 
+slug: 
+author:
+author_email:
+author_twitter:
+author-mastodon:
+author-micro.blog:
+author-website:
+last update:
+summary:</code></p>
+      </div>
     </div>
-    <div class="container row text-center">
-        <div class="card border-0 col-md-12 col-lg-4 pb-5">
-            <div class="text-primary card-header bg-transparent no-border">
-                <a href="./posts.html"><h3>Blog</h3>
-            </div>
-            <div class="card-img-bottom p-3"><i class="text-secondary fas fa-file-code fa-10x"></i></i></div>
-        </div></a>
-        <div class="card border-0 col-md-12 col-lg-4 pb-5">
-            <div class="card-header text-primary bg-transparent">
-                <h3>Podcast</h3>
-            </div>
-            <div class="card-img-bottom p-3"><i class="text-secondary fas fa-microphone-alt fa-10x"></i></div>
-        </div>
-        <div class="card border-0 col-md-12 col-lg-4 pb-5">
-        <a href="https://www.youtube.com/productivityintech">
-            <div class="card-header bg-transparent text-primary">
-                <h3>Youtube</h3>
-            </div>
-            <div class="card-img-bottom p-3"><i class="text-secondary fab fa-youtube fa-10x"></i></div>
-        </a>
-        </div>
+  </div>
+  <div class="p-5">
+    <!-- Newsletter Subscription -->
+    <form
+      action="https://buttondown.email/api/emails/embed-subscribe/productivityintech"
+      method="post"
+      target="popupwindow"
+      onsubmit="window.open('https://buttondown.email/productivityintech', 'popupwindow')"
+      class="embeddable-buttondown-form">
+      <h4 class="text-primary form-title"> All this content in a digestible package in your inbox! </h4> <input type="email"
+      name="email"
+      placeholder="Email"
+      id="bd-email">
+      <input type="hidden"
+      value="1"
+      name="embed" />
+      <input class="btn btn-primary"
+      type="submit"
+      value="Subscribe" />
+    </form>
+    <!-- End Newsletter -->
 
-                <!-- Begin Mailchimp Signup Form -->
-<form action="https://github.us19.list-manage.com/subscribe/post?u=a436c79abb5676a004d16e684&amp;id=88aa0d60ad" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate col-12 form row align-items-center" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
-            <div class="col-12 form-row">
-                <h4 class="">Get Notified About New Things <span class="font-italic text-black-50"> (Plus productivity and automation tips and tricks)</span></h4>
-                <div class="col-lg-4 p-2">
-                    <input type="text" placeholder="Enter First Name" class="form-control" id="inputName">
-                </div>
-                <div class="col-lg-4 p-2">
-                    <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Enter email">
-                </div>
-                <div class="p-2 col-lg-4"> 
-            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary w-100">
-                </div>
-                <div class="col-lg-8 p-2">
-                    <p id="emailHelp" class="text-primary text-right form-text font-italic">We'll never share your email with anyone else.</p>
-                </div>
-            </div>
-        </form>
-        <div class="card-deck">
-            <div class="card text-center">
-                <div class="card-header text-white bg-primary">
-                    <h2>Coaching</h2>
-                </div>
-                <div class="card-body">
-                    <p class="card-title">Simple Effective Coaching with a Simple Effective Model</p>
-                </div>
-                <div class="card-body">
-                    <h3 class="card-title text-primary border-bottom">Click to Learn More About</h3>
-                    <button class="btn btn-lg btn-block btn-outline-primary border-0" href="#">Individual Coaching</button>
-                    <button class="btn btn-lg btn-block btn-outline-primary border-0" href="#">Group Workshops</button>
-                    <button class="btn btn-lg btn-block btn-outline-primary border-0" href="#">Team Sessions</button>
-                </div>
-            </div>
-            <div class="card text-center">
-                <div class="card-header bg-primary text-white">
-                    <h2 class="card-title">Community</h2>
-                </div>
-                <div class="card-body">
-                    <p class="card-text">Because working together is just more fun!</p>
-                </div>
-                <div class="card-body justify-content-center">
-                    <a href="https://join.slack.com/t/productivedevs/shared_invite/enQtNDcxNDE5NjAzMjM1LTQ1ZWVjNThhNDE4OTY5YmQ1NzQ0ZWM4NDg2MDIyODZhZjg2Yzk4YzMyNmQzMTI2MTRhYTBlMDI4YzkxZTQwYTk"><i class="img-fluid fab fa-slack fa-10x px-2"" style="color:#1DA1F2;"></i></a>
-                        <a href="https://twitter.com/prod_in_tech"><i class="img-fluid fab fa-twitter fa-10x px-2" style="color:#1DA1F2;"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div>
     </div>
-</div>
-
+    
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -140,7 +126,7 @@
     <script defer src="https://use.fontawesome.com/releases/v5.4.1/js/all.js" integrity="sha384-L469/ELG4Bg9sDQbl0hvjMq8pOcqFgkSpwhwnslzvVVGpDjYJ6wJJyYjvG3u8XW7" crossorigin="anonymous"></script>
   </body>
   <footer class="jumbotron mt-5 text-center">
-    Productivity in Tech © 2018
-    Website made with 💙 (and 🐍, 👢) by <a href="https://twitter.com/kjaymiller">kjaymiller</a>
+   <p>KJayMiller.com and Content Property of </br><span class="text-secondary">Productivity in Tech © 2018</span></p>
+   <p class="small">Website made with 💙 (and 🐍, 👢) by <a href="https://twitter.com/kjaymiller">kjaymiller</a></p>
 </footer>
 </html>

@@ -1,47 +1,61 @@
-{% extends 'base.html' %}
-
-{% block title %}{{config.SITE_TITLE}}{% endblock %}
-
-{% block content %}
+{% extends 'base.html'%}
+{% block title%}{{config.SITE_TITLE}}{% endblock%}
+{% block content%}
 <!--Start Jumbotron  -->
 <div class="container">
-    <div class="jumbotron bg-light">
-        <h1>{{config.SITE_TITLE}}</h1>
-        <h4 class="font-italic text-secondary">{{config.SITE_SUBTITLE}}</h4>
-        </div>
-    <h2>Latest Blog Post</h2>
-    <div class="card p-3 w-75">
-        <h3 class="card-title text-primary">{{latest_post['title']}}</h3>
-        <p class="card-body">
-            {{latest_post['summary']}}
-        </p>
-     </div>
-    <!--
-    <div class="card w-20">
-        <h3 class="card-title">Latest Social Media Update</h3>
+  <div class="jumbotron bg-light">
+    <h1>{{config.SITE_TITLE}}</h1> <h4 class="font-italic text-secondary"> {{config.SITE_SUBTITLE}}</h4>
+  </div>
+  <div class="row flex">
+    <div class="w-50 px-2">
+      <h2> Latest Blog Post </h2>
+      <div class="card p-3">
+	<a href="blog/{{latest_post['slug']}}.html"> <h3 class = "p-1 card-title text-primary"> {{latest_post['title']}}</h3></a>
+	<p> {{latest_post['summary']}}</p> <a href="blog/{{latest_post['slug']}}.html"
+	  class="text-right px-3"> Read More </a>
+	<div>
+	  <div class="">
+	    <h3> Podcasts </h1>
+	    <div class="card-deck">
+	      <div class="card">
+		Productivity in Tech
+	      </div>
+	      <div class="card">
+		Dev Otaku
+	      </div>
+	    </div>
+	  </div>
+	</div>
+      </div>
     </div>
-    -->
- </div>
-    <h3>Podcasts</h1>
+    <div class="px-5 w-35">
+      <h3 class=""> Latest Social Media Update </h3>
+      <div class="card">
+      	{{latest_micropost['content']}}
+      </div>
+    </div>
+  </div>
+  <div class="p-5">
+    <!-- Newsletter Subscription -->
+    <form
+      action="https://buttondown.email/api/emails/embed-subscribe/productivityintech"
+      method="post"
+      target="popupwindow"
+      onsubmit="window.open('https://buttondown.email/productivityintech', 'popupwindow')"
+      class="embeddable-buttondown-form">
+      <h4 class="text-primary form-title"> All this content in a digestible package in your inbox! </h4> <input type="email"
+      name="email"
+      placeholder="Email"
+      id="bd-email">
+      <input type="hidden"
+      value="1"
+      name="embed" />
+      <input class="btn btn-primary"
+      type="submit"
+      value="Subscribe" />
+    </form>
+    <!-- End Newsletter -->
 
- <div class="card-deck">
-        <div class="card">Productivity in Tech</div>
-        <div class="card">Dev Otaku</div>
+    <div>
     </div>
-<div class="p-5">
-<!-- Newsletter Subscription -->
-<form
-  action="https://buttondown.email/api/emails/embed-subscribe/productivityintech"
-  method="post"
-  target="popupwindow"
-  onsubmit="window.open('https://buttondown.email/productivityintech', 'popupwindow')"
-  class="embeddable-buttondown-form">
-  <h4 class="text-primary form-title">All this content in a digestible package in your inbox! </h4>
-  <input type="email" name="email" placeholder="Email" id="bd-email">
-  <input type="hidden" value="1" name="embed"/>
-  <input class="btn btn-primary" type="submit" value="Subscribe" />
-</form>
-<!-- End Newsletter -->
-</div>
-</div>
-{% endblock %}
+    {% endblock %}

@@ -1,0 +1,36 @@
+syntax on
+set nocompatible
+set noerrorbells visualbell t_vb=
+au GUIEnter * set visualbell t_vb
+filetype off
+set number
+set modeline
+
+au BufNewFile,BufRead *.py
+    \ set tabstop=4
+    \ softtabstop=4
+    \ shiftwidth=4
+    \ textwidth=79
+    \ expandtab
+    \ autoindent
+    \ fileformat=unix
+
+au BufNewFile,BufRead *.js, *.html, *.css
+    \ set tabstop=2
+    \ softtabstop=2
+    \ shiftwidth=2
+    \ expandtab
+    \ autoindent
+    \ fileformat=unix
+
+call plug#begin('~/.vim/plugged')
+Plug 'klen/python-mode'
+Plug 'vim-scripts/indentpython.vim'
+Plug 'tmhedberg/SimpylFold'
+Plug 'vim-scripts/JavaScript-Indent'
+call plug#end
+
+set foldmethod=indent
+set foldlevel=99
+
+nnoremap <space> za

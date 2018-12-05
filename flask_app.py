@@ -1,9 +1,11 @@
 from pathlib import Path
 from datetime import datetime
-from dateutil.parser import parse 
+from dateutil.parser import parse
 from flask import Flask, render_template, Markup
 from flask_scss import Scss
-from blog_engine.parse_markdown import render_post, JSON_Feed
+from blog_engine.parse_markdown import JSON_Feed
+from blog_engine.render_post import render_post
+from urllib.parse import unquote
 import json
 import config
 import string
@@ -11,42 +13,45 @@ import string
 app = Flask(__name__)
 app.config.from_object('config')
 
-blog = JSON_Feed('blog_feed.json', Path('content'), new=True)
+blog = JSON_Feed('blog_feed.json', Path('content'))
+micro = JSON_Feed('micro_feed.json', Path('content/microblog'))
+
+feeds = {
+        'blog': blog,
+        'micro': micro,
+        }
 
 @app.route("/")
 def index():
-    latest_post = blog.json_object['items'][0]
-    if 'summary' not in latest_post:
-        start_index = 120
-        while latest_post['content'][start_index] not in string.punctuation:
-            start_index += 1
-        latest_post['summary'] = latest_post['content'][:start_index + 1] + '...'
-    latest_post['summary'] = Markup(latest_post['summary'])
-    return render_template('index.html', latest_post=latest_post, config=config)
+    latest_post = blog.latest
+    latest_micropost = micro.latest
+    return render_template(
+            'index.html',
+            config=config,
+            latest_post=latest_post,
+            latest_micropost=latest_micropost,
+            )
 
 
-@app.route("/blog/<slug>.html")
-def blog_post(slug):
-    filename = f'content/{blog.slug_table[slug]}'
-    with open(filename) as f:
-        metadata = render_post(f.read())
-    post_content = Markup(metadata['content'])
-    title = metadata['title']
-    created_time = metadata.get('date', datetime.fromtimestamp(Path(filename).stat().st_mtime).strftime("%Y-%m-%d"))
+@app.route("/<JSON_FEED>/<slug>.html")
+def post(JSON_FEED, slug):
+    metadata = feeds[JSON_FEED].json_object[unquote(slug)]
     author = metadata.get('author', config.AUTHOR)
-    return render_template('blog.html', 
-            content = post_content,
-            title = title,
-            author = author,
-            created = created_time)
+    return render_template('blog.html',
+            metadata = metadata)
 
 
-@app.route("/blog_posts.html")
-def blog_posts():
+@app.route("/<JSON_FEED>_posts.html")
+def blog_posts(JSON_FEED):
+    json_object = feeds[JSON_FEED].json_object
+    sorted_list = sorted(json_object,
+                         key=lambda x: json_object[x]['date'],
+                         reverse=True)
+
     return render_template('blog_list.html',
-    title_list=blog.json_object['items'])
-
-
+                           title_list= sorted_list,
+                           json_object = json_object,
+    )
 if __name__ == '__main__':
     Scss(app, static_dir='static', asset_dir='assets')
     app.run(host='0.0.0.0', port=8000, debug=True)
