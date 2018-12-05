@@ -3,59 +3,72 @@
 {% block content%}
 <!--Start Jumbotron  -->
 <div class="container">
-  <div class="jumbotron bg-light">
-    <h1>{{config.SITE_TITLE}}</h1> <h4 class="font-italic text-secondary"> {{config.SITE_SUBTITLE}}</h4>
-  </div>
-  <div class="row flex">
-    <div class="w-50 px-2">
-      <h2> Latest Blog Post </h2>
-      <div class="card p-3">
-	<a href="blog/{{latest_post['slug']}}.html"> <h3 class = "p-1 card-title text-primary"> {{latest_post['title']}}</h3></a>
-	<p> {{latest_post['summary']}}</p> <a href="blog/{{latest_post['slug']}}.html"
-	  class="text-right px-3"> Read More </a>
-	<div>
-	  <div class="">
-	    <h3> Podcasts </h1>
-	    <div class="card-deck">
-	      <div class="card">
-		Productivity in Tech
-	      </div>
-	      <div class="card">
-		Dev Otaku
-	      </div>
-	    </div>
-	  </div>
-	</div>
-      </div>
-    </div>
-    <div class="px-5 w-35">
-      <h3 class=""> Latest Social Media Update </h3>
-      <div class="card">
-      	{{latest_micropost['content']}}
-      </div>
-    </div>
-  </div>
-  <div class="p-5">
-    <!-- Newsletter Subscription -->
-    <form
-      action="https://buttondown.email/api/emails/embed-subscribe/productivityintech"
-      method="post"
-      target="popupwindow"
-      onsubmit="window.open('https://buttondown.email/productivityintech', 'popupwindow')"
-      class="embeddable-buttondown-form">
-      <h4 class="text-primary form-title"> All this content in a digestible package in your inbox! </h4> <input type="email"
-      name="email"
-      placeholder="Email"
-      id="bd-email">
-      <input type="hidden"
-      value="1"
-      name="embed" />
-      <input class="btn btn-primary"
-      type="submit"
-      value="Subscribe" />
-    </form>
-    <!-- End Newsletter -->
+	<div class="jumbotron row bg-light">
+		<div class="col-lg-8">
+			<h1>{{config.SITE_TITLE}}</h1> <h2 class="font-italic text-secondary"> {{config.SITE_SUBTITLE}}</h2>
+		</div>
+		<!-- Newsletter Subscription -->
+		<form
+			action="https://buttondown.email/api/emails/embed-subscribe/productivityintech"
+			method="post"
+			target="popupwindow"
+			onsubmit="window.open('https://buttondown.email/productivityintech', 'popupwindow')"
+			class="col-lg-3 embeddable-buttondown-form">
+			<h4 class="font-italic font-weight-strong text-primary"> All this content (plus some extra goodies) in a digestible package in your inbox! </h4> <input type="email"
+			name="email"
+			placeholder="Email"
+			id="bd-email">
+			<input type="hidden"
+			value="1"
+			name="embed" />
+			<input class="btn btn-primary my-2"
+			type="submit"
+			value="Subscribe" />
+	</form>
+	<!-- End Newsletter -->
+</div>
+<div class="row flex px-5">
+	<div class="col-md-7 px-2">
+		<div>
+			<h2> Latest Blog Posts</h2>
+			{% for latest_post in latest_post %}
+			<div class="card p-3 my-3">
+				<a href="blog/{{latest_post['slug']}}.html"> <h3 class = "p-1 card-title text-primary"> {{latest_post['title']}}</h3></a>
+				<p> {{latest_post['summary']}}</p> <a href="blog/{{latest_post['slug']}}.html"
+					class="text-right px-3"> Read More </a>
+			</div>
+			{% endfor %}
+		</div>
 
-    <div>
-    </div>
-    {% endblock %}
+		<div class="">
+			<h3> Podcasts </h1>
+			<div class="card-deck">
+				<div class="card">
+					<h4 class="text-primary">Coming Soon</h4>
+					<h4 class="text-light"><a href="https://productivityintech.com">Productivity in Tech</a></h4>
+				</div>
+				<div class="card">
+					<h4 class="text-black">
+					<a href="https://devotaku.com">
+						Dev Otaku
+				</a></h4>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="px-2 col-md-4">
+		<h3 class="text-primary"> Latest Social Media Updates</h3>
+		{% for micropost in latest_micropost %}
+			<div class="card">
+			{{micropost['content']}}
+		</div>
+		{% endfor %}
+		<div class="card my-2 p-3">
+			<h4>Twitter</h4>
+			<a class="twitter-timeline" data-width="300" data-height="800" href="https://twitter.com/kjaymiller/likes?ref_src=twsrc%5Etfw">Tweets Liked by @kjaymiller</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+		</div>
+	</div>
+</div>
+	</div>
+</div>
+{% endblock %}

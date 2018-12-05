@@ -50,35 +50,39 @@
     
 <!--Start Jumbotron  -->
 <div class="container">
-  <div class="jumbotron bg-light">
-    <h1>K Jay Miller</h1> <h4 class="font-italic text-secondary"> The Corner of Automation, Productivity, and Community</h4>
-  </div>
-  <div class="row flex">
-    <div class="w-50 px-2">
-      <h2> Latest Blog Post </h2>
-      <div class="card p-3">
-	<a href="blog/201805141701.html"> <h3 class = "p-1 card-title text-primary"> </h3></a>
-	<p> <p>Testing if I can post with no title.</p>...</p> <a href="blog/201805141701.html"
-	  class="text-right px-3"> Read More </a>
-	<div>
-	  <div class="">
-	    <h3> Podcasts </h1>
-	    <div class="card-deck">
-	      <div class="card">
-		Productivity in Tech
-	      </div>
-	      <div class="card">
-		Dev Otaku
-	      </div>
-	    </div>
-	  </div>
-	</div>
-      </div>
-    </div>
-    <div class="px-5 w-35">
-      <h3 class=""> Latest Social Media Update </h3>
-      <div class="card">
-      	<p><code>Title:
+	<div class="jumbotron row bg-light">
+		<div class="col-lg-8">
+			<h1>K Jay Miller</h1> <h2 class="font-italic text-secondary"> The Corner of Automation, Productivity, and Community</h2>
+		</div>
+		<!-- Newsletter Subscription -->
+		<form
+			action="https://buttondown.email/api/emails/embed-subscribe/productivityintech"
+			method="post"
+			target="popupwindow"
+			onsubmit="window.open('https://buttondown.email/productivityintech', 'popupwindow')"
+			class="col-lg-3 embeddable-buttondown-form">
+			<h4 class="font-italic font-weight-strong text-primary"> All this content (plus some extra goodies) in a digestible package in your inbox! </h4> <input type="email"
+			name="email"
+			placeholder="Email"
+			id="bd-email">
+			<input type="hidden"
+			value="1"
+			name="embed" />
+			<input class="btn btn-primary my-2"
+			type="submit"
+			value="Subscribe" />
+	</form>
+	<!-- End Newsletter -->
+</div>
+<div class="row flex px-5">
+	<div class="col-md-7 px-2">
+		<div>
+			<h2> Latest Blog Posts</h2>
+			
+			<div class="card p-3 my-3">
+				<a href="blog/Testing Partial Data.html"> <h3 class = "p-1 card-title text-primary"> Testing Partial Data</h3></a>
+				<p> <p>Another Test. This one contains only the minimum tags for a blog post (Title)</p>
+<p><code>Title: Testing Partial Data
 Date: 
 Tags: 
 slug: 
@@ -90,33 +94,69 @@ author-micro.blog:
 author-website:
 last update:
 summary:</code></p>
-      </div>
-    </div>
-  </div>
-  <div class="p-5">
-    <!-- Newsletter Subscription -->
-    <form
-      action="https://buttondown.email/api/emails/embed-subscribe/productivityintech"
-      method="post"
-      target="popupwindow"
-      onsubmit="window.open('https://buttondown.email/productivityintech', 'popupwindow')"
-      class="embeddable-buttondown-form">
-      <h4 class="text-primary form-title"> All this content in a digestible package in your inbox! </h4> <input type="email"
-      name="email"
-      placeholder="Email"
-      id="bd-email">
-      <input type="hidden"
-      value="1"
-      name="embed" />
-      <input class="btn btn-primary"
-      type="submit"
-      value="Subscribe" />
-    </form>
-    <!-- End Newsletter -->
+<p>...</p> <a href="blog/Testing Partial Data.html"
+					class="text-right px-3"> Read More </a>
+			</div>
+			
+			<div class="card p-3 my-3">
+				<a href="blog/hello.html"> <h3 class = "p-1 card-title text-primary"> This is a Test</h3></a>
+				<p> This is the first post of the PIT Blog</p> <a href="blog/hello.html"
+					class="text-right px-3"> Read More </a>
+			</div>
+			
+			<div class="card p-3 my-3">
+				<a href="blog/201810022336-itnp.html"> <h3 class = "p-1 card-title text-primary"> I&#39;m an ITNP and I&#39;m okay with that!</h3></a>
+				<p> <p>I'm an ITNP and I'm okay with that.</p>
+<p>About once a year I take the personality test <a href="https://www.16personalities.com/">16pesonalities.com</a>. </p>
+<p>I do this because over time my behavior has changed and now that I'...</p> <a href="blog/201810022336-itnp.html"
+					class="text-right px-3"> Read More </a>
+			</div>
+			
+		</div>
 
-    <div>
-    </div>
-    
+		<div class="">
+			<h3> Podcasts </h1>
+			<div class="card-deck">
+				<div class="card">
+					<h4 class="text-primary">Coming Soon</h4>
+					<h4 class="text-light"><a href="https://productivityintech.com">Productivity in Tech</a></h4>
+				</div>
+				<div class="card">
+					<h4 class="text-black">
+					<a href="https://devotaku.com">
+						Dev Otaku
+				</a></h4>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="px-2 col-md-4">
+		<h3 class="text-primary"> Latest Social Media Updates</h3>
+		
+			<div class="card">
+			<p><code>Title:
+Date: 
+Tags: 
+slug: 
+author:
+author_email:
+author_twitter:
+author-mastodon:
+author-micro.blog:
+author-website:
+last update:
+summary:</code></p>
+		</div>
+		
+		<div class="card my-2 p-3">
+			<h4>Twitter</h4>
+			<a class="twitter-timeline" data-width="300" data-height="800" href="https://twitter.com/kjaymiller/likes?ref_src=twsrc%5Etfw">Tweets Liked by @kjaymiller</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+		</div>
+	</div>
+</div>
+	</div>
+</div>
+
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

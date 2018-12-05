@@ -17,8 +17,10 @@ class JSON_Feed():
     def __init__(self, json_file, content_path):
         self.json_file = json_file
         self.json_object = self.add_json_content(content_path.glob('*.md'))
-        latest = sorted(self.json_object, key=lambda x: self.json_object[x]['date'])[0]
-        self.latest = self.json_object[latest]
+        latest = sorted(self.json_object,
+                        key=lambda x: self.json_object[x]['date'],
+                        reverse=True)[:3]
+        self.latest = [self.json_object[x] for x in latest]
 
 
     def add_json_content(self, content_path):

@@ -28,6 +28,8 @@ def index():
     return render_template(
             'index.html',
             config=config,
+            blog_object = blog.json_object,
+            micro_object = micro.json_object,
             latest_post=latest_post,
             latest_micropost=latest_micropost,
             )
