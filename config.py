@@ -1,5 +1,6 @@
 from collections import namedtuple
 FREEZER_RELATIVE_URLS = True
+FREEZER_DESTINATION = 'site'
 
 SITE_TITLE = "K Jay Miller"
 SITE_SUBTITLE = "The Corner of Automation, Productivity, and Community"
