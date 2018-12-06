@@ -1,18 +1,15 @@
 [[source]]
+name = "pypi"
 url = "https://pypi.org/simple"
 verify_ssl = true
-name = "pypi"
-
-[packages]
-flask = "*"
-frozen-flask = "*"
-markdown = "*"
-flask-scss = "*"
-pipfile = "*"
-dateutil = "*"
-python-dateutil = "*"
 
 [dev-packages]
 
+[packages]
+flask = "*"
+markdown = "*"
+frozen-flask = "*"
+flask-scss = "*"
+
 [requires]
-python_version = "3.7"
+python_version = "3.5"
