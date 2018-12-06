@@ -10,6 +10,7 @@ flask = "*"
 markdown = "*"
 frozen-flask = "*"
 flask-scss = "*"
+python-dateutil = "*"
 
 [requires]
 python_version = "3.5"
