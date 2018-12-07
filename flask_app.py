@@ -19,6 +19,7 @@ blog = JSON_Feed('blog_feed.json', Path('content'))
 micro = JSON_Feed('micro_feed.json', Path('content/microblog'))
 
 feeds = {
+        'pages': pages,
         'blog': blog,
         'micro': micro,
         }

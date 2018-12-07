@@ -14,13 +14,5 @@ Reaching out to me via this form will not add you to any list (except maybe my p
 	<br /> <br /> 
 	<button type="submit" style="width: 20%;">Send</button>
 </form>
-
-
-      </div>
-      </article>
-	    </div>
-	    <div class="col-lg-2 col-lg-pull-2">
-	    </div>
-    </div>
   </div>
 
