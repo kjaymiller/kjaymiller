@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block title %}{{metadata['title']}}{% endblock %}
+{% block content %} 
+<div class="container">
+	<div class="jumbotron">
+		<h1 class="display-4 text-primary">{{metadata['title']}}</h1>
+		<small class="text-secondary">{{metadata['author']}} - <span
+				class="text-primary">{{metadata['date']}}</span></small>
+		<div class="py-2">
+			{{metadata['content']}} 
+		</div>
+	</div>
+
+	<a href="../blog_posts.html" class="text-primary"><-- Back to Blogs</a>
+</div>
+{% endblock %}
