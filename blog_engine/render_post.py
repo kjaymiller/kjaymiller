@@ -29,7 +29,7 @@ def render_post(md_file):
 
     metadata['content'] = Markup(markdown(post))
     metadata['title'] = metadata.get('title', md_file.stem)
-    metadata['slug'] = metadata.get('slug', metadata['title'])
+    metadata['slug'] = metadata.get('slug', metadata['title']).replace(' ','-')
 
     if 'summary' not in metadata:
         start_index = min(280, len(metadata['content'])-1)

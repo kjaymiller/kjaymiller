@@ -5,7 +5,6 @@
         },
         "pipfile-spec": 6,
         "requires": {
-            "python_version": "3.5"
         },
         "sources": [
             {
