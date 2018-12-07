@@ -13,6 +13,8 @@ import string
 app = Flask(__name__)
 app.config.from_object('config')
 
+
+pages = JSON_Feed('', Path('content/pages'))
 blog = JSON_Feed('blog_feed.json', Path('content'))
 micro = JSON_Feed('micro_feed.json', Path('content/microblog'))
 
