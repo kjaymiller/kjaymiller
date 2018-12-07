@@ -4,6 +4,7 @@ from flask_app import app
 from pathlib import Path
 from glob import glob
 from blog_engine.render_post import render_post
+from collections import namedtuple
 from urllib.parse import quote
 
 freezer = Freezer(app)
@@ -15,12 +16,20 @@ def blog_posts():
 
 @freezer.register_generator
 def post():
-    content_path = Path('content')
-    pages = content_path.glob('*.md')
-    for page in pages:
-        metadata = render_post(page)
-        yield {'JSON_FEED': 'blog',
-               'slug': quote(metadata['slug'])}
+    path = namedtuple('path',['dirName', 'dirPath'])
+    blog = path('blog', Path('content'))
+    pages = path('pages', Path('content/pages'))
+    microblog = path('microblog', Path('content/mircoblog'))
+    paths = [blog, pages, microblog]
+
+    for path in paths:
+        pages = path.dirPath.glob('*.md')
+        for page in pages:
+            metadata = render_post(page)
+            yield {
+                   'JSON_FEED': path.dirName,
+                   'slug': quote(metadata['slug'])
+                    }
 
 if __name__ == '__main__':
     freezer.freeze()
