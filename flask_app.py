@@ -42,7 +42,7 @@ def index():
 def post(JSON_FEED, slug):
     metadata = feeds[JSON_FEED].json_object[unquote(slug)]
     author = metadata.get('author', config.AUTHOR)
-    return render_template('blog.html',
+    return render_template(f'{JSON_FEED}.html',
             metadata = metadata)
 
 
