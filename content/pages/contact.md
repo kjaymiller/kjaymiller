@@ -1,4 +1,4 @@
-Title: I'd Love to Chat with You
+Title: I'd Love to Chat with You 💙📥
 slug: contact
 
 I'm a pretty open book, but if you have a question or just want to give some feedback. Please fill out the form below... It will go to my email and we can chat.
