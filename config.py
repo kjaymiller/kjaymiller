@@ -14,6 +14,5 @@ HEADER_LINKS = (
     Link('Blog', '/blog_posts.html'),
     Link('Newsletter', '/subscribe.html'),
     Link('Contact','pages/contact.html'),
-		<small class="text-secondary">{{metadata['author']}} - <span
     Link('PIT', 'https://productivityintech.com'),
 )
