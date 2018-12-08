@@ -21,6 +21,6 @@ Reaching out to me via this form will not add you to any list (except maybe my p
 <h2>Email not your thing?</h2>
 You can reach out to me on Twitter.
 
-<a href="https://twitter.com/intent/tweet?screen_name=kjaymiller&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-related="prod_in_tech" data-show-count="false">Tweet to @kjaymiller</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a href="https://twitter.com/intent/tweet?screen_name=kjaymiller" class="twitter-mention-button" data-related="prod_in_tech" data-show-count="false">Tweet to @kjaymiller</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
 </div>
