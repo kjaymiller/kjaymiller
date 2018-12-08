@@ -19,6 +19,8 @@ Reaching out to me via this form will not add you to any list (except maybe my p
   </div>
 <div class="col-md-4">
 <h2>Email not your thing?</h2>
+You can reach out to me on Twitter.
 
+<a href="https://twitter.com/intent/tweet?screen_name=TwitterDev&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-related="prod_in_tech" data-show-count="false">Tweet to @TwitterDev</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
 </div>
