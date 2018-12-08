@@ -13,6 +13,7 @@ HEADER_LINKS = (
     Link('Automations', '/blog/category/automation'),
     Link('Blog', '/blog_posts.html'),
     Link('Newsletter', '/subscribe.html'),
-    Link('Contact','/contact.html'),
+    Link('Contact','pages/contact.html'),
+		<small class="text-secondary">{{metadata['author']}} - <span
     Link('PIT', 'https://productivityintech.com'),
 )
