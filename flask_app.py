@@ -17,9 +17,13 @@ pages = JSON_Feed(Path('content/pages'))
 blog = JSON_Feed(Path('content'),
                  json_base='blog_feed.json',
                  json_filename='blog.json',
-                 json_title="K Jay Miller")
+                 json_title=config.SITE_TITLE)
 
-micro = JSON_Feed(Path('content/microblog'))
+micro = JSON_Feed(Path('content/microblog'),
+                  json_base='micro_feed.json',
+                  json_filename='micro.json',
+                  json_title=f'{config.SITE_TITLE} - Microblog')
+
 
 feeds = {
         'pages': pages,
