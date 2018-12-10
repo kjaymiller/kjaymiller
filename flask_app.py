@@ -1,6 +1,4 @@
 from pathlib import Path
-from datetime import datetime
-from dateutil.parser import parse
 from flask import Flask, render_template, Markup
 from flask_scss import Scss
 from blog_engine.parse_markdown import JSON_Feed
@@ -14,9 +12,14 @@ app = Flask(__name__)
 app.config.from_object('config')
 
 
-pages = JSON_Feed('', Path('content/pages'))
-blog = JSON_Feed('blog_feed.json', Path('content'))
-micro = JSON_Feed('micro_feed.json', Path('content/microblog'))
+pages = JSON_Feed(Path('content/pages'))
+
+blog = JSON_Feed(Path('content'),
+                 json_base='blog_feed.json',
+                 json_filename='blog.json',
+                 json_title="K Jay Miller")
+
+micro = JSON_Feed(Path('content/microblog'))
 
 feeds = {
         'pages': pages,
@@ -50,7 +53,7 @@ def post(JSON_FEED, slug):
 def blog_posts(JSON_FEED):
     json_object = feeds[JSON_FEED].json_object
     sorted_list = sorted(json_object,
-                         key=lambda x: json_object[x]['date'],
+                         key=lambda x: json_object[x]['date_published'],
                          reverse=True)
 
     return render_template('blog_list.html',

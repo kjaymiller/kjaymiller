@@ -11,5 +11,6 @@ markdown = "*"
 frozen-flask = "*"
 flask-scss = "*"
 python-dateutil = "*"
+arrow = "*"
 
 [requires]

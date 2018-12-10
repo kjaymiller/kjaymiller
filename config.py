@@ -6,6 +6,7 @@ SITE_TITLE = "K Jay Miller"
 SITE_SUBTITLE = "The Corner of Automation, Productivity, and Community"
 SITE_URL = "https://kjaymiller.com"
 AUTHOR = 'KJAYMILLER'
+REGION = 'US/Pacific'
 
 # Header Links
 Link = namedtuple('Link', ['title', 'href'])

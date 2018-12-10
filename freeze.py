@@ -31,5 +31,7 @@ def post():
                    'slug': quote(metadata['slug'])
                     }
 
+
+
 if __name__ == '__main__':
     freezer.freeze()
