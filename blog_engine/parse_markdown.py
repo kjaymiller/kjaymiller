@@ -50,14 +50,26 @@ class JSON_Feed():
         feed['items'] = [self.json_object[item] for item in sorted_items]
         with open(f'static/{filename}', 'w') as outfile:
             json.dump(feed, outfile)
-
-        return feed
-
-
-class Blog(JSON_Feed):
-     def check_for_json_file(json_file):
-         if not Path(json_file).exists():
-            with open(json_file) as f:
-                 return f.write('')
+            outfile.truncate()
+         return feed
 
 
+class MicroBlog(JSON_Feed):
+    def create_feed(self, json_base, filename, title):
+        with open(json_base) as f:
+            feed = json.load(f)
+        feed['title'] = title
+        sorted_items = sorted(self.json_object,
+                    key=lambda x:
+                    arrow.get(self.json_object[x]['date_published']),
+                    reverse=True)
+
+        feed['items'] = [self.strip_title(self.json_object[item]) for item in sorted_items]
+        with open(f'static/{filename}', 'w') as outfile:
+            json.dump(feed, outfile)
+            outfile.truncate()
+         return feed
+
+    def strip_title(self, metadata):
+        metadata['title'] = ''
+        return metadata
