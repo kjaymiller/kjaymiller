@@ -68,7 +68,7 @@ class MicroBlog(JSON_Feed):
         with open(f'static/{filename}', 'w') as outfile:
             json.dump(feed, outfile)
             outfile.truncate()
-         return feed
+        return feed
 
     def strip_title(self, metadata):
         metadata['title'] = ''
