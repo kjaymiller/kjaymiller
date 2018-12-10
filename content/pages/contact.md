@@ -22,6 +22,6 @@ Reaching out to me via this form will not add you to any list (except maybe my p
 You can reach out to me on Twitter.
 
 <a href="https://twitter.com/intent/tweet?screen_name=kjaymiller" class="twitter-mention-button" data-related="prod_in_tech" data-show-count="false">Tweet to @kjaymiller</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<p> For professional inquiries, Please Visit (Productivity in Tech](https://productivityintech.com).</p>
+<p> For professional inquiries, Please Visit <a href="https://productivityintech.com">Productivity in Tech</a>.</p>
 </div>
 </div>
