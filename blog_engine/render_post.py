@@ -20,7 +20,7 @@ def render_post(md_file):
         line_splitter += 1
         line_data = line.split(':', 1)
         metadata[line_data[0].lower()] = line_data[-1].strip()
-        post = '\n'.join(md_content.split('\n')[line_splitter:])
+    post = '\n'.join(md_content.split('\n')[line_splitter:])
 
     # If Date is not defined, you must pull it from the file.
     # If it is defined you need to convert it to a datetime object.
