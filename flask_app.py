@@ -34,15 +34,11 @@ feeds = {
 
 @app.route("/")
 def index():
-    latest_post = blog.latest
-    latest_micropost = micro.latest
     return render_template(
             'index.html',
             config=config,
-            blog_object = blog.json_object,
-            micro_object = micro.json_object,
-            latest_post=latest_post,
-            latest_micropost=latest_micropost,
+            latest_posts=blog.sorted_items(2),
+            latest_micropost=micro.sorted_items(3),
             )
 
 

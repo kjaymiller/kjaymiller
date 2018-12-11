@@ -19,19 +19,20 @@ class JSON_Feed():
         self.content_path = Path(content_path).glob('*.md')
         self.json_object = self.__add_json_content__(self.content_path, title)
 
-    def sorted_items(self, json_object, item_count):
-        latest = sorted(json_object,
-                        key=lambda x:
-                        arrow.get(json_object[x]['date_published']),
-                        reverse=True)[:item_count]
-        return [json_object[x] for x in latest]
-
     def __add_json_content__(self, content_path, title=True):
         json_object = {}
         for md_file in content_path:
             metadata = render_post(md_file, title=title)
             json_object[metadata['slug']] = metadata
         return json_object
+
+    def sorted_items(self, item_count=-1):
+        latest = sorted(self.json_object,
+                        key=lambda x:
+                        arrow.get(self.json_object[x]['date_published']),
+                        reverse=True)[:item_count]
+        return [self.json_object[x] for x in latest]
+
 
 class Blog(JSON_Feed):
     def __init__(self, content_path, title=True, **kwargs):
