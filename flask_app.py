@@ -1,7 +1,7 @@
 from pathlib import Path
 from flask import Flask, render_template
 from flask_scss import Scss
-from blog_engine.parse_markdown import JSON_Feed, MicroBlog
+from blog_engine.parse_markdown import JSON_Feed, Blog
 from blog_engine.render_post import render_post
 from urllib.parse import unquote
 import json
@@ -22,7 +22,8 @@ blog = Blog('content',
 micro = Blog('content/microblog',
              title=False,
              json_base='micro_feed.json',
-             json_filename='micro.json')
+             json_filename='micro.json',
+             json_title=f'{config.SITE_TITLE} - Microblog')
 
 
 feeds = {
