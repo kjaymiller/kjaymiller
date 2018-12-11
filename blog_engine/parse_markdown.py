@@ -15,30 +15,33 @@ import string
 
 
 class JSON_Feed():
-    def __init__(self,
-                 content_path,
-                 json_base='',
-                 json_filename='',
-                 json_title=''):
+    def __init__(content_path, title=True):
+        self.content_path = Path(content_path).glob('*.md')
+        self.json_object = __add_json_content__(title)
 
-        self.json_object = self.add_json_content(content_path.glob('*.md'))
-        latest = sorted(self.json_object,
+    def sorted_items(self, json_object, item_count):
+        latest = sorted(json_object,
                         key=lambda x:
-                        arrow.get(self.json_object[x]['date_published']),
-                        reverse=True)[:3]
-        self.latest = [self.json_object[x] for x in latest]
-        
-        if json_base:
-            self.json_file = self.create_feed(json_base, json_filename, json_title)
+                        arrow.get(json_object[x]['date_published']),
+                        reverse=True)[:item_count]
+        return [json_object[x] for x in latest]
 
-    def add_json_content(self, content_path):
+    def __add_json_content__(self, content_path, title=True):
         json_object = {}
         for md_file in content_path:
-            metadata = render_post(md_file)
+            metadata = render_post(md_file, title=title)
             json_object[metadata['slug']] = metadata
         return json_object
 
-    def create_feed(self, json_base, filename, title):
+class Blog(JSON_Feed):
+    def __init__(self, content_path, title=True, **kwargs):
+        super().__init__(content_path, title)
+        if all([kwargs.get(json_base),
+                kwargs.get(json_filename),
+                kwargs.get(json_title)]):
+            self.json_file = self.create_feed(json_base, json_filename, json_title)
+
+    def create_feed(self, json_base, title):
         with open(json_base) as f:
             feed = json.load(f)
         feed['title'] = title
@@ -46,30 +49,17 @@ class JSON_Feed():
                     key=lambda x:
                     arrow.get(self.json_object[x]['date_published']),
                     reverse=True)
-
-        feed['items'] = [self.json_object[item] for item in sorted_items]
-        with open(f'static/{filename}', 'w') as outfile:
-            json.dump(feed, outfile)
-            outfile.truncate()
+        feed['items'] = sorted_items
         return feed
 
 
-class MicroBlog(JSON_Feed):
-    def create_feed(self, json_base, filename, title):
-        with open(json_base) as f:
-            feed = json.load(f)
-        feed['title'] = title
-        sorted_items = sorted(self.json_object,
-                    key=lambda x:
-                    arrow.get(self.json_object[x]['date_published']),
-                    reverse=True)
-
-        feed['items'] = [self.strip_title(self.json_object[item]) for item in sorted_items]
+    def write_feed(self, feed, filename):
         with open(f'static/{filename}', 'w') as outfile:
             json.dump(feed, outfile)
             outfile.truncate()
-        return feed
 
-    def strip_title(self, metadata):
-        metadata['title'] = ''
-        return metadata
+
+class MicroBlog(Blog):
+    def __init__(self, content_path, **kawrgs):
+        super().__init__(content_path, kwargs, title=False,)
+        self.json_object = self.add_json_content(self.content_path, title=True)

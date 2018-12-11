@@ -1,4 +1,4 @@
-from string import punctuation 
+from string import punctuation
 from flask import Markup
 from markdown import markdown
 from dateutil.parser import parse
@@ -10,7 +10,7 @@ import arrow
 def get_md_time(md_file):
     return arrow.get(md_file.stat().st_ctime, tzinfo=REGION).isoformat()
 
-def render_post(md_file):
+def render_post(md_file, title=True):
     with md_file.open() as f:
         md_content = f.read()
     line_splitter = 0
@@ -30,8 +30,12 @@ def render_post(md_file):
         metadata['date_published'] = get_md_time(md_file)
 
     metadata['content'] = Markup(markdown(post))
-    metadata['title'] = metadata.get('title', md_file.stem)
-    metadata['slug'] = metadata.get('slug', metadata['title']).replace(' ','-')
+    if title:
+        metadata['title'] = metadata.get('title', md_file.stem)
+        metadata['slug'] = metadata.get('slug', metadata['title']).replace(' ','-')
+    else:
+        metadata['title'] = ''
+        metadata['slug'] = metadata['date_published']
 
     if 'summary' not in metadata:
         start_index = min(280, len(metadata['content'])-1)

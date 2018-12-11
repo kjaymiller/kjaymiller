@@ -12,17 +12,17 @@ app = Flask(__name__)
 app.config.from_object('config')
 
 
-pages = JSON_Feed(Path('content/pages'))
+pages = JSON_Feed('content/pages')
 
-blog = JSON_Feed(Path('content'),
-                 json_base='blog_feed.json',
-                 json_filename='blog.json',
-                 json_title=config.SITE_TITLE)
+blog = Blog('content',
+            json_base='blog_feed.json',
+            json_filename='blog.json',
+            json_title=config.SITE_TITLE)
 
-micro = MicroBlog(Path('content/microblog'),
-                  json_base='micro_feed.json',
-                  json_filename='micro.json',
-                  json_title=f'{config.SITE_TITLE} - Microblog')
+micro = Blog('content/microblog',
+             title=False,
+             json_base='micro_feed.json',
+             json_filename='micro.json')
 
 
 feeds = {
@@ -49,8 +49,7 @@ def index():
 def post(JSON_FEED, slug):
     metadata = feeds[JSON_FEED].json_object[unquote(slug)]
     author = metadata.get('author', config.AUTHOR)
-    return render_template(f'{JSON_FEED}.html',
-            metadata = metadata)
+    return render_template(f'{JSON_FEED}.html', metadata = metadata)
 
 
 @app.route("/<JSON_FEED>_posts.html")
