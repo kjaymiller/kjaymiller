@@ -1,3 +1,5 @@
+slug: no-meta-post
+
 This is a second Test. It has nothing. It has none of the following:
 
 ```

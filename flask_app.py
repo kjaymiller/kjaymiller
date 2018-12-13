@@ -28,7 +28,7 @@ micro.write_feed()
 feeds = {
         'pages': pages,
         'blog': blog,
-        'micro': micro,
+        'microblog': micro,
         }
 
 @app.route("/")
@@ -43,9 +43,9 @@ def index():
 
 @app.route("/<JSON_FEED>/<slug>.html")
 def post(JSON_FEED, slug):
-    metadata = feeds[JSON_FEED].json_object[unquote(slug)]
+    metadata = feeds[JSON_FEED].json_object[(slug)]
     author = metadata.get('author', config.AUTHOR)
-    return render_template(f'{JSON_FEED}.html', metadata = metadata)
+    return render_template(f'blog.html', metadata = metadata)
 
 
 @app.route("/<JSON_FEED>_posts.html")
