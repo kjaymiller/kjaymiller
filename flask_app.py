@@ -31,7 +31,7 @@ feeds = {
 @app.route("/<feed>.json")
 def generate_json_feed(feed):
     json_feed = feeds[feed].create_feed()
-    return Response(json_feed, mimetype='application/json')
+    return json.dumps(json_feed), 200, {'content-type':'application/json'}
 
 @app.route("/")
 def index():
