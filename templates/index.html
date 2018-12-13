@@ -60,7 +60,7 @@
 		<h3 class="text-primary"> Latest Social Media Updates</h3>
 		{% for micropost in latest_micropost %}
 			<div class="my-4 p-2 card">
-			{{micropost['content']}}
+			{{micropost['content_html']}}
 		</div>
 		{% endfor %}
 		<div class="card my-2 p-3">

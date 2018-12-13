@@ -53,7 +53,8 @@ class Blog(JSON_Feed):
                     key=lambda x:
                     arrow.get(self.json_object[x]['date_published']),
                     reverse=True)
-        feed['items'] = sorted_items
+        items = sorted_items
+        feed['items'] = items
         return feed
 
 

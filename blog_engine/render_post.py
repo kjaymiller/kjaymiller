@@ -29,7 +29,7 @@ def render_post(md_file, title=True):
     else:
         metadata['date_published'] = get_md_time(md_file)
 
-    metadata['content'] = Markup(markdown(post))
+    metadata['content_html'] = Markup(markdown(post))
     if title:
         metadata['title'] = metadata.get('title', md_file.stem)
         metadata['slug'] = metadata.get('slug', metadata['title']).replace(' ','-')
@@ -38,10 +38,10 @@ def render_post(md_file, title=True):
         metadata['slug'] = metadata['date_published']
 
     if 'summary' not in metadata:
-        start_index = min(280, len(metadata['content'])-1)
-        while metadata['content'][start_index] not in punctuation:
+        start_index = min(280, len(metadata['content_html'])-1)
+        while metadata['content_html'][start_index] not in punctuation:
             start_index -= 1
-        metadata['summary'] = metadata['content'][:start_index + 1] + '...'
+        metadata['summary'] = metadata['content_html'][:start_index + 1] + '...'
 
     metadata['summary'] = Markup(metadata['summary'])
 
