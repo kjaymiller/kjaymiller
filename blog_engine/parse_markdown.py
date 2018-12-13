@@ -44,7 +44,10 @@ class Blog(JSON_Feed):
     def create_feed(self):
         with open(self.json_base) as f:
             feed = json.load(f)
+        feed['title'] = self.json_title
         feed['items'] = self.sorted_items()
+        for item in feed['items']:
+            item.pop('slug')
         return feed
 
 
