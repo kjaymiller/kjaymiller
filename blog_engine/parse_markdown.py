@@ -59,6 +59,5 @@ class Blog(JSON_Feed):
 
 
 class MicroBlog(Blog):
-    def __init__(self, content_path, **kawrgs):
-        super().__init__(content_path, kwargs, title=False,)
-        self.json_object = self.add_json_content(self.content_path, title=True)
+    def __init__(self, content_path, **kwargs):
+        super().__init__(content_path, title=False, **kwargs)

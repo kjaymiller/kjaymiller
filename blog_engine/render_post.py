@@ -30,6 +30,7 @@ def render_post(md_file, title=True):
         metadata['date_published'] = get_md_time(md_file)
 
     metadata['content_html'] = Markup(markdown(post))
+
     if title:
         metadata['title'] = metadata.get('title', md_file.stem)
         metadata['slug'] = metadata.get('slug', metadata['title']).replace(' ','-')
