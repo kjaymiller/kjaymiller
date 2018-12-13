@@ -26,11 +26,11 @@ class JSON_Feed():
             json_object[metadata['slug']] = metadata
         return json_object
 
-    def sorted_items(self, item_count=-1):
+    def sorted_items(self, item_count=None):
         latest = sorted(self.json_object,
                         key=lambda x:
                         arrow.get(self.json_object[x]['date_published']),
-                        reverse=True)[:item_count]
+                        reverse=True)[:item_count] # the default 'None' will cause all items to return
         return [self.json_object[x] for x in latest]
 
 

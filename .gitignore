@@ -2,4 +2,4 @@
 *.swo
 *.pyc
 
-site/
+site
