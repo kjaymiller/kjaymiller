@@ -18,13 +18,13 @@ blog = Blog('content',
             json_base='blog_feed.json',
             json_filename='blog.json',
             json_title=config.SITE_TITLE)
+blog.write_feed()
 
 micro = MicroBlog('content/microblog',
              json_base='micro_feed.json',
              json_filename='micro.json',
              json_title=f'{config.SITE_TITLE} - Microblog')
-
-
+micro.write_feed()
 feeds = {
         'pages': pages,
         'blog': blog,

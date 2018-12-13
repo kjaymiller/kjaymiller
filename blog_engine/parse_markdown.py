@@ -36,28 +36,24 @@ class JSON_Feed():
 
 class Blog(JSON_Feed):
     def __init__(self, content_path, title=True, **kwargs):
-        super().__init__(content_path, title=True)
-        json_base = kwargs.get('json_base', '')
-        json_filename = kwargs.get('json_filename', '')
-        json_title = kwargs.get('json_title', '')
+        super().__init__(content_path, title=title)
+        self.json_base = kwargs.get('json_base', '')
+        self.json_filename = kwargs.get('json_filename', '')
+        self.json_title = kwargs.get('json_title', '')
 
-        if all((json_base, json_filename, json_title)):
-            self.json_file = self.create_feed(json_base, json_title)
-            self.write_feed(self.json_file, json_filename)
-
-    def create_feed(self, json_base, title):
-        with open(json_base) as f:
+    def create_feed(self):
+        with open(self.json_base) as f:
             feed = json.load(f)
         feed['items'] = self.sorted_items()
         return feed
 
 
-    def write_feed(self, feed, filename):
-        with open(f'static/{filename}', 'w') as outfile:
-            json.dump(feed, outfile)
+    def write_feed(self):
+        with open(f'static/{self.json_filename}', 'w') as outfile:
+            json.dump(self.create_feed(), outfile)
             outfile.truncate()
 
 
 class MicroBlog(Blog):
-    def __init__(self, content_path, **kwargs):
-        super().__init__(content_path, title=False, **kwargs)
+    def __init__(self, content_path, title=False, **kwargs):
+        super().__init__(content_path, title=title, **kwargs)

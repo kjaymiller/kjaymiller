@@ -15,6 +15,7 @@ def render_post(md_file, title=True):
         md_content = f.read()
     line_splitter = 0
     metadata = {}
+    metadata['id'] = md_file.stem
     while ':' in md_content.split('\n')[line_splitter]:
         line = md_content.split('\n')[line_splitter]
         line_splitter += 1
