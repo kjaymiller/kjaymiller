@@ -1,5 +1,5 @@
 from pathlib import Path
-from flask import Flask, render_template
+from flask import Flask, render_template, Response
 from flask_scss import Scss
 from blog_engine.parse_markdown import JSON_Feed, Blog, MicroBlog
 from blog_engine.render_post import render_post
@@ -18,18 +18,20 @@ blog = Blog('content',
             json_base='blog_feed.json',
             json_filename='blog.json',
             json_title=config.SITE_TITLE)
-blog.write_feed()
 
 micro = MicroBlog('content/microblog',
              json_base='micro_feed.json',
              json_filename='micro.json',
              json_title=f'{config.SITE_TITLE} - Microblog')
-micro.write_feed()
 feeds = {
         'pages': pages,
         'blog': blog,
         'microblog': micro,
         }
+@app.route("/<feed>.json")
+def generate_json_feed(feed):
+    json_feed = feeds[feed].create_feed()
+    return Response(json_feed, mimetype='application/json')
 
 @app.route("/")
 def index():

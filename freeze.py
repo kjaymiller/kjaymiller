@@ -16,13 +16,11 @@ blog = Blog('content',
             json_base='blog_feed.json',
             json_filename='blog.json',
             json_title=config.SITE_TITLE)
-blog.write_feed()
 
 micro = MicroBlog('content/microblog',
              json_base='micro_feed.json',
              json_filename='micro.json',
              json_title=f'{config.SITE_TITLE} - Microblog')
-micro.write_feed()
 
 feeds = {
         'pages': pages,
@@ -30,9 +28,19 @@ feeds = {
         'microblog': micro,
         }
 
+json_feeds = {
+        'blog': blog,
+        'microblog': micro,
+        }
 @freezer.register_generator
 def blog_posts():
     yield {'JSON_FEED': 'blog'}
+
+
+@freezer.register_generator
+def generate_json_feed():
+    for feed in json_feeds:
+        yield {'feed': feed}
 
 @freezer.register_generator
 def post():
