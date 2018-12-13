@@ -26,7 +26,7 @@ class JSON_Feed():
             json_object[metadata['slug']] = metadata
         return json_object
 
-    def __sorted_items__(self, item_count=-1):
+    def sorted_items(self, item_count=-1):
         latest = sorted(self.json_object,
                         key=lambda x:
                         arrow.get(self.json_object[x]['date_published']),
@@ -48,7 +48,7 @@ class Blog(JSON_Feed):
     def create_feed(self, json_base, title):
         with open(json_base) as f:
             feed = json.load(f)
-        feed['items'] = self.__sorted_items__()
+        feed['items'] = self.sorted_items()
         return feed
 
 
