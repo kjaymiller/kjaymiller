@@ -7,6 +7,9 @@ from config import REGION
 
 import arrow
 
+def get_ct_time(md_file):
+    return arrow.get(md_file.stat().st_ctime, tzinfo=REGION).isoformat()
+
 def get_md_time(md_file):
     return arrow.get(md_file.stat().st_ctime, tzinfo=REGION).isoformat()
 
@@ -26,9 +29,10 @@ def render_post(md_file, title=True):
     # If Date is not defined, you must pull it from the file.
     # If it is defined you need to convert it to a datetime object.
     if 'date' in metadata:
-        metadata['date_published'] = arrow.get(parse(metadata['date'])).isoformat()
+        metadata['date_published'] = metadata['date_modified'] = arrow.get(parse(metadata['date'])).isoformat()
     else:
-        metadata['date_published'] = get_md_time(md_file)
+        metadata['date_published'] = get_ct_time(md_file)
+        metadata['date_modified'] = get_md_time(md_file)
 
     metadata['content_html'] = Markup(markdown(post))
 

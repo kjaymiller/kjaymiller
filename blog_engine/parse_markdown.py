@@ -29,7 +29,7 @@ class JSON_Feed():
     def sorted_items(self, item_count=None):
         latest = sorted(self.json_object,
                         key=lambda x:
-                        arrow.get(self.json_object[x]['date_published']),
+                        arrow.get(self.json_object[x]['date_modified']),
                         reverse=True)[:item_count] # the default 'None' will cause all items to return
         return [self.json_object[x] for x in latest]
 
@@ -49,12 +49,6 @@ class Blog(JSON_Feed):
         for item in feed['items']:
             item.pop('slug')
         return feed
-
-
-    def write_feed(self):
-        with open(f'static/{self.json_filename}', 'w') as outfile:
-            json.dump(self.create_feed(), outfile)
-            outfile.truncate()
 
 
 class MicroBlog(Blog):
