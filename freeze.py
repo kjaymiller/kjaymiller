@@ -32,15 +32,11 @@ json_feeds = {
         'blog': blog,
         'microblog': micro,
         }
+
 @freezer.register_generator
 def blog_posts():
     yield {'JSON_FEED': 'blog'}
 
-
-@freezer.register_generator
-def generate_json_feed():
-    for feed in json_feeds:
-        yield {'feed': feed}
 
 @freezer.register_generator
 def post():
@@ -51,6 +47,12 @@ def post():
                    'JSON_FEED': feed,
                    'slug': article
                     }
+
+@freezer.register_generator
+def generate_json_feed():
+    for feed in json_feeds:
+        yield {'feed': feed}
+
 
 
 
