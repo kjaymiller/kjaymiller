@@ -45,7 +45,7 @@ def post():
         for article in json_object:
             yield {
                    'JSON_FEED': feed,
-                   'slug': article
+                   'id': article
                     }
 
 @freezer.register_generator

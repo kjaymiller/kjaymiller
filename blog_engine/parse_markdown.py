@@ -23,14 +23,14 @@ class JSON_Feed():
         json_object = {}
         for md_file in content_path:
             metadata = render_post(md_file, title=title)
-            json_object[metadata['slug']] = metadata
+            json_object[metadata['id']] = metadata
         return json_object
 
     def sorted_items(self, item_count=None):
         latest = sorted(self.json_object,
                         key=lambda x:
                         arrow.get(self.json_object[x]['date_modified']),
-                        reverse=True)[:item_count] # the default 'None' will cause all items to return
+                        reverse=True)[:item_count] # 'None' causes all to return
         return [self.json_object[x] for x in latest]
 
 
@@ -46,8 +46,6 @@ class Blog(JSON_Feed):
             feed = json.load(f)
         feed['title'] = self.json_title
         feed['items'] = self.sorted_items()
-        for item in feed['items']:
-            item.pop('slug')
         return feed
 
 

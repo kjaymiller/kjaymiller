@@ -43,10 +43,9 @@ def index():
             )
 
 
-@app.route("/<JSON_FEED>/<slug>.html")
-def post(JSON_FEED, slug):
-    metadata = feeds[JSON_FEED].json_object[(slug)]
-    author = metadata.get('author', config.AUTHOR)
+@app.route("/<JSON_FEED>/<id>.html")
+def post(JSON_FEED, id):
+    metadata = feeds[JSON_FEED].json_object[(id)]
     return render_template(f'blog.html', metadata = metadata)
 
 
