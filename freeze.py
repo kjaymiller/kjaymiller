@@ -41,8 +41,7 @@ def blog_posts():
 @freezer.register_generator
 def post():
     for feed in feeds:
-        json_object = feeds[feed].json_object
-        for article in json_object:
+        for article in feeds[feed].json_object:
             yield {
                    'JSON_FEED': feed,
                    'id': article

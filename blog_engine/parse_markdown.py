@@ -29,7 +29,7 @@ class JSON_Feed():
     def sorted_items(self, item_count=None):
         latest = sorted(self.json_object,
                         key=lambda x:
-                        arrow.get(self.json_object[x]['date_modified']),
+                        arrow.get(self.json_object[x]['date_published']),
                         reverse=True)[:item_count] # 'None' causes all to return
         return [self.json_object[x] for x in latest]
 

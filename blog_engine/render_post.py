@@ -12,7 +12,7 @@ def get_ct_time(md_file):
     return arrow.get(md_file.stat().st_ctime, tzinfo=REGION).isoformat()
 
 def get_md_time(md_file):
-    return arrow.get(md_file.stat().st_ctime, tzinfo=REGION).isoformat()
+    return arrow.get(md_file.stat().st_mtime, tzinfo=REGION).isoformat()
 
 json_feed_keys = ('id', 'url', 'external_url', 'title', 'content_html',
         'summary', 'image', 'banner_image', 'date_published', 'date_modified',
