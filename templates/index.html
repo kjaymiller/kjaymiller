@@ -33,8 +33,8 @@
 			<h2 class="text-primary"> Latest Blog Posts</h2>
 			{% for latest_post in latest_posts %}
 			<div class="card p-3 my-3">
-				<a href="blog/{{latest_post['slug']}}.html"> <h3 class = "p-1 card-title text-secondary"> {{latest_post['title']}}</h3></a>
-				<p> {{latest_post['summary']}}</p> <a href="blog/{{latest_post['slug']}}.html"
+				<a href="blog/{{latest_post['id']}}.html"> <h3 class = "p-1 card-title text-secondary"> {{latest_post['title']}}</h3></a>
+				<p> {{latest_post['summary']}}</p> <a href="blog/{{latest_post['id']}}.html"
 					class="text-right px-3"> Read More </a>
 			</div>
 			{% endfor %}
