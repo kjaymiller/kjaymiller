@@ -2,49 +2,76 @@
 Tests the rendering of base page items and their subclasses.
  """ 
 import pytest
+from collections import namedtuple
 from render_engine.content import Page
 from pathlib import Path
 
-def create_page(filename, contents):
-    filepath = tmpdir.join(f'{page}.md')
-    filepath.write(contents)
-    return Page(base_file=filepath)
 
-@pytest.yield_fixture()
-def page(): 
-    pages = {
-        'empty_page': create_page('empty_page', ''),
-        'detailed_page': create_page('detailed_page', ''),
-        'slug_page': create_page('slug_page', 'slug: slug_page_id'),
-        'id_page': create_page('id_page', 'id: id_page_id'),
-        }
-
-    yield page
+pageInfo = namedtuple('pageInfo', ['filename', 'contents'])
 
 
-def test_new_page(page):
+@pytest.mark.parametrize('holder, optional_keys',(
+    ({'foo':'bar'}, ()),
+    ({'biz':'bar'}, ('biz')),
+    ({'biz': 'bar'}, ['biz']),
+    ({'zip': 'bar'}, ('biz', 'zip')),
+    ({'biz': 'bar'}, {'biz'}),
+    ))
+def test_alt_keys(holder, optional_keys):
+    """
+    Tests all three cases of the alt_keys function.
+    Case 1: expected_key is in holder
+    Case 2: one of optional keys is in holder
+    Case 3: neither the expected_key nor any of the optional keeys are in holder and the system_default must be used
+    """
+    from render_engine.content import alt_keys
+    assert alt_keys(holder, optional_keys, 'bar') == 'bar' 
+
+
+@pytest.fixture()
+def create_page(tmpdir):
+    pages = (
+            pageInfo('empty_page', ''),
+            pageInfo('detailed_page', ''),
+            pageInfo('slug_page', 'slug: slug_page_id\n\nThis is the slug Page.'),
+            pageInfo('id_page', 'id: id_page_id\n\nThis is the id Page.'),
+            pageInfo('page_with_title', 'title: The title of the Page\n\nThis is the Title Page.'),
+            )
+    page_items = {}
+    for page in pages:
+        filepath = tmpdir.join(f'{page.filename}.md')
+        filepath.write(page.contents)
+        page_items[page.filename] = Page(base_file=Path(filepath))
+    yield page_items
+
+
+def test_new_page(create_page):
     """Can a Page Item Be Created?"""
-    assert page['empty_page']  
+    assert create_page['empty_page']  
 
-def test_page_with_required_keys(empty_page):
+
+@pytest.mark.parametrize('page,expected_title', (
+                            ('empty_page', ''),
+                            ('page_with_title', 'The title of the Page'),
+                            ))
+def test_page_detects_title_or_empty(create_page, page, expected_title):
     """When Creating a Page item, 
     both an id and title object are created"""
-        
-    assert page['empty_page'].metadata['id']
-    assert any((page['empty_page'].metadata['title'], empty_page.metadata['title']==''))
+    test_page = create_page[page]
+    assert test_page.metadata['title'] == expected_title
 
-def test_page_id_is_stem(empty_page):
+
+@pytest.mark.parametrize('page,key,expected_value', (
+                            ('empty_page', 'id', 'empty_page'),
+                            ('slug_page','id', 'slug_page_id'),
+                            ('id_page', 'id', 'id_page_id'),
+                            ))
+def test_page_id_is_id_slug_or_stem(create_page, page, expected_id):
     """When Creating a Page item, 
-    the 'id' of the item is the stem of the filename.
+    the 'id' is one of three cases:
+    1. the defined 'id'
+    2. the defined 'slug'
+    3. the stem of the file
     """
-    assert empty_page.metadata['id'] == NewPage('empty_page.md').file_path.stem
-
-def test_page_with_id_or_slug_in_file(id_page, slug_page):
-    """When Creating a Page item, 
-    If there is an 'id' or 'slug' in the metadata,
-    the 'id' of the item is the 'id' or 'slug' of the filename.
-    """
-        
-    assert id_page.metadata['id'] == 'id_page_id'
-    assert slug_page.metadata['slug'] == 'slug_plag_id'
-
+    test_page = create_page[page]
+    assert test_page.metadata['id'] == expected_id

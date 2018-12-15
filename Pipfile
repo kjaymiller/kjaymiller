@@ -10,7 +10,8 @@ verify_ssl = false
 
 [dev-packages]
 pytest = "*"
-v = {editable = true,version = "*"}
+v = {version = "*", editable = true}
+pytest-mock = "*"
 
 [packages]
 arrow = "==0.12.1"
