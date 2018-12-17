@@ -10,7 +10,7 @@ verify_ssl = false
 
 [dev-packages]
 pytest = "*"
-v = {version = "*", editable = true}
+v = {editable = true,version = "*"}
 pytest-mock = "*"
 
 [packages]

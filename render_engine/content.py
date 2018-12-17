@@ -26,45 +26,41 @@ def alt_keys(holder, optional_keys, system_default):
     for optional_key in optional_keys:
         if optional_key in holder:
             return holder[optional_key]
-    
-    return system_default        
+
+    return system_default
+
+
 
 class Page():
     def __init__(self, base_file, **kwargs):
         metadata = {}
         self.base_file = base_file
+
         with base_file.open() as f:
-            md_content = f.read()
-        line_splitter = 0
+            md_content = [line.strip('\n') for line in f.readlines()]
+
         metadata = {}
-        md_lines = md_content.split('\n')
 
         match = r'^\w+:'
-        while re.match(match, md_lines[line_splitter], flags=re.MULTILINE): 
-            line = md_lines[line_splitter]
-            line_splitter += 1
+        while re.match(match, md_content[0], flags=re.MULTILINE):
+            line = md_content[0]
 
             line_data = line.split(':', 1)
             key = line_data[0].lower()
             metadata[key] = line_data[-1].strip()
-
-            # if key in json_feed_keys:
-            #    metadata[key] = line_data[-1].strip()
-
-        # post = '\n'.join(md_lines[line_splitter:])
-        # self.'content_html' = Markup(markdown(post))
+            del md_content[0]
 
         metadata['title'] = metadata.get('title', '')
-        metadata['id'] = metadata.get('id', 
+        metadata['id'] = metadata.get('id',
                 alt_keys(metadata, ['slug'], base_file.stem))
-        metadata['date_published'] = get_ct_time(md_file)
-        metadata['date_modified'] = get_md_time(md_file)
-"""
+        metadata['date_published'] = get_ct_time(base_file)
+        metadata['date_modified'] = get_md_time(base_file)
+        self.metadata = metadata
+
+    def __summary_from_content__():
         if 'summary' not in metadata:
             start_index = min(280, len(metadata['content_html'])-1)
             while metadata['content_html'][start_index] not in punctuation:
                 start_index -= 1
             metadata['summary'] = metadata['content_html'][:start_index + 1] + '...'
         metadata['summary'] = Markup(metadata['summary'])
-        """
-        self.metadata = metadata
