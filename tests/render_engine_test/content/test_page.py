@@ -15,17 +15,6 @@ from pathlib import Path
     ({'biz': 'bar'}, {'biz'}),
     ))
 
-def test_alt_keys(holder, optional_keys):
-    """
-    Tests all three cases of the alt_keys function.
-    Case 1: expected_key is in holder
-    Case 2: one of optional keys is in holder
-    Case 3: neither the expected_key nor any of the optional keeys are in holder and the system_default must be used
-    """
-    from render_engine.content import alt_keys
-    assert alt_keys(holder, optional_keys, 'bar') == 'bar'
-
-
 pageInfo = namedtuple('pageInfo', ['filename', 'contents'])
 pageObject = namedtuple('pageObject', ['filename', 'page'])
 
