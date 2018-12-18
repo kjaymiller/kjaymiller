@@ -15,32 +15,36 @@ from pathlib import Path
     ({'biz': 'bar'}, {'biz'}),
     ))
 
-pageInfo = namedtuple('pageInfo', ['filename', 'contents'])
-pageObject = namedtuple('pageObject', ['filename', 'page'])
 
 detail_page = pageInfo('detailed_page', ''),
 slug_page = pageInfo('slug_page', 'slug: slug_page_id\n\nThis is the slug Page.'),
 id_page = pageInfo('id_page', 'id: id_page_id\n\nThis is the id Page.'),
 
-def create_page(tmp_dir, page):
-    filepath = tmp_dir.join(page[0].filename + '.md')
+def create_page(tmpdir, page):
+    filepath = tmpdir.join(page[0].filename + '.md')
     filepath.write(page[0].contents)
-    return pageObject(filepath, Page(base_file=Path(filepath)))
+    return Page(base_file=Path(filepath)))
+    
+
+empty_page = Page('empty_page', ''),
 
 def test_no_empty_page(tmpdir):
     """An empty Page Item cannot be Created?"""
-    empty_page = pageInfo('empty_page', ''),
-    with pytest.raises(IndexError):
-        create_page(tmpdir, empty_page)[-1]
+    with pytest.raises(AttributeError):
+        create_page(tmpdir, empty_page)
 
+@pytest.fixture
+def title_page(tmpdir):
+return create_page('page_with_title', 'title: The title of the Page\n\nThis is the Title Page.'),
 
-title_page = pageInfo('page_with_title', 'title: The title of the Page\n\nThis is the Title Page.'),
-no_title_page = pageInfo('page_with_title', 'This is the No Title Page.'),
+@pytest.fixture
+def no_title_page(tmpdir):
+no_title_page = Page('page_with_title', 'This is the No Title Page.'),
 @pytest.mark.parametrize('page,expected_title', (
                             (no_title_page, ''),
                             (title_page, 'The title of the Page'),
                             ))
-def test_page_detects_title_or_empty(tmpdir, page, expected_title):
+def test_page_detects_title_or_empty(page, expected_title):
     """When Creating a Page item,
     both an id and title object are created"""
     test_page = create_page(tmpdir, page)[-1]
