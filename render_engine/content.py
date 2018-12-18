@@ -21,7 +21,7 @@ class Page():
         while re.match(match, md_content[0], flags=re.MULTILINE):
             line = md_content[0]
 
-            line_data = line.split(':', 1)
+            line_data = line.split(': ', 1)
             key = line_data[0].lower()
             value = line_data[-1]
             setattr(self, f'_{key}', value)
@@ -29,12 +29,13 @@ class Page():
 
         self.title = self.get_title()
         self.id = self.get_id()
-        self.tags = self._tags.split(',')
-        self.__str__ = '\n'.join(md_content())
-        self.params = {key: value for (key,value) in  self.__dict__}
+        self.tags = self.get_tags()
+        self.content = '\n'.join(md_content)
+        self.summary = self.get_summary()
+        self.__str__ = self.content
 
     def _get_ct_time(self, md_file):
-        return arrow.get(md_file.stat().st_ctime, tzinfo=REGION).isoformat()
+        return arrow. get(md_file.stat().st_ctime, tzinfo=REGION).isoformat()
 
     def _get_md_time(self, md_file):
         return arrow.get(md_file.stat().st_mtime, tzinfo=REGION).isoformat()
@@ -44,7 +45,7 @@ class Page():
         """Returns the value of _title, or an empty title if not defined"""
         return getattr(self, '_title', '')
 
-    def get_id(self):
+    def get_id(self): 
         """Returns the value of _id.
         If there is no _id, it returns the value for _slug.
         If neither, it return the stem of the filepath."""
@@ -54,19 +55,19 @@ class Page():
         elif hasattr(self, '_slug'):
             return self._slug
         else:
-            return self.base_file.stem
+             return self.base_file.stem
 
     def get_date_published(self, base_file):
         """Returns the value of _date_published or _date, or created_datetime from
         the system if not defined. NOTE THE SYSTEM DATE IS KNOWN TO CAUSE
         ISSUES WITH FILES THAT WERE COPIED OR TRANSFERRED WITHOUT THEIR
-        METADADTA BEING TRANSFERRED AS WELL"""
+        METADADTA BEING TRANSFER RED AS WELL"""
         if hasattr(self, '_date_published'):
             return self._date_published
         elif hasattr(self, '_date'):
             return self._date
         else:
-            return self._get_cd_time(base_file)
+             return self._get_ct_time(base_file)
 
     def get_date_modified(self, base_file):
         """Returns the value of _date_modified or _update, or the
@@ -74,18 +75,26 @@ class Page():
         the system if not defined. NOTE THE SYSTEM DATE IS KNOWN TO CAUSE
         ISSUES WITH FILES THAT WERE COPIED OR TRANSFERRED WITHOUT THEIR
         METADADTA BEING TRANSFERRED AS WELL"""
+
         if hasattr(self, '_date_modified'):
             return self._date_modified
+        
         elif hasattr(self, '_updated'):
             return self._date
+        
         else:
             return self._get_mt_time(base_file)
-        self.metadata = metadata
 
-    def __summary_from_content__():
-        if 'summary' not in metadata:
-            start_index = min(280, len(metadata['content_html'])-1)
-            while metadata['content_html'][start_index] not in punctuation:
+    def get_tags(self):
+        tags = getattr(self, '_tags', '')
+        return tags.split(',')
+
+    def _summary_from_content(self):
+        start_index = min(280, len(self.content)-1)
+        while self.content[start_index] not in punctuation:
                 start_index -= 1
-            metadata['summary'] = metadata['content_html'][:start_index + 1] + '...'
-        metadata['summary'] = Markup(metadata['summary'])
+        return self.content[:start_index]
+
+    def get_summary(self):
+        return getattr(self, '_summary', self._summary_from_content()) + '...' 
+
