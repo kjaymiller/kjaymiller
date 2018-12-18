@@ -1,3 +1,4 @@
+from pathlib import Path
 from render_engine.valid_keys import JSON_keys
 from string import punctuation
 from flask import Markup
@@ -31,23 +32,23 @@ class Page():
         self.tags = self._tags.split(',')
         self.__str__ = '\n'.join(md_content())
         self.params = {key: value for (key,value) in  self.__dict__}
-        
-    def _get_ct_time(md_file):
+
+    def _get_ct_time(self, md_file):
         return arrow.get(md_file.stat().st_ctime, tzinfo=REGION).isoformat()
 
-    def _get_md_time(md_file):
+    def _get_md_time(self, md_file):
         return arrow.get(md_file.stat().st_mtime, tzinfo=REGION).isoformat()
 
 
     def get_title(self):
         """Returns the value of _title, or an empty title if not defined"""
         return getattr(self, '_title', '')
-    
+
     def get_id(self):
         """Returns the value of _id.
-        If there is no _id, it returns the value for _slug. 
+        If there is no _id, it returns the value for _slug.
         If neither, it return the stem of the filepath."""
-        
+
         if hasattr(self, '_id'):
             return self._id
         elif hasattr(self, '_slug'):
@@ -65,7 +66,7 @@ class Page():
         elif hasattr(self, '_date'):
             return self._date
         else:
-            return _get_cd_time(base_file))
+            return self._get_cd_time(base_file)
 
     def get_date_modified(self, base_file):
         """Returns the value of _date_modified or _update, or the
@@ -78,7 +79,7 @@ class Page():
         elif hasattr(self, '_updated'):
             return self._date
         else:
-            return _get_mt_time(base_file))
+            return self._get_mt_time(base_file)
         self.metadata = metadata
 
     def __summary_from_content__():
