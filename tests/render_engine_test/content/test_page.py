@@ -120,3 +120,17 @@ This is the content of the page."""
 
     def test_no_summary_from_page(self, no_summary_page):
         assert no_summary_page == 'There is no summary on this page...'
+
+
+class TestBlogFeed():
+    def __init__(self):
+        from render_engine.content import Blog
+
+    @pytest.fixture(scope="class")
+    def create_blog_post(self, tmpdir, filename):
+        filepath = tmpdir.join(filename + '.md')
+        filepath.write(contents)
+        return Blog(base_file=Path(filepath))
+
+    def test_blog_object(self):
+        pass

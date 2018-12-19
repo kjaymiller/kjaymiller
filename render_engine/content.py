@@ -19,13 +19,11 @@ class Page():
 
         match = r'^\w+:'
         while re.match(match, md_content[0], flags=re.MULTILINE):
-            line = md_content[0]
-
+            line = md_content.pop(0)
             line_data = line.split(': ', 1)
             key = line_data[0].lower()
             value = line_data[-1]
             setattr(self, f'_{key}', value)
-            del md_content[0]
 
         self.title = self.get_title()
         self.id = self.get_id()
@@ -35,7 +33,7 @@ class Page():
         self.__str__ = self.content
 
     def _get_ct_time(self, md_file):
-        return arrow. get(md_file.stat().st_ctime, tzinfo=REGION).isoformat()
+        return arrow.get(md_file.stat().st_ctime, tzinfo=REGION).isoformat()
 
     def _get_md_time(self, md_file):
         return arrow.get(md_file.stat().st_mtime, tzinfo=REGION).isoformat()
@@ -61,7 +59,8 @@ class Page():
         """Returns the value of _date_published or _date, or created_datetime from
         the system if not defined. NOTE THE SYSTEM DATE IS KNOWN TO CAUSE
         ISSUES WITH FILES THAT WERE COPIED OR TRANSFERRED WITHOUT THEIR
-        METADADTA BEING TRANSFER RED AS WELL"""
+        METADATA BEING TRANSFER READ AS WELL"""
+
         if hasattr(self, '_date_published'):
             return self._date_published
         elif hasattr(self, '_date'):
