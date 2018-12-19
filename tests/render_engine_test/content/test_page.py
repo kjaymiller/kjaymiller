@@ -7,15 +7,6 @@ from render_engine.content import Page, Post
 from pathlib import Path
 
 
-@pytest.mark.parametrize('holder, optional_keys',(
-    ({'foo':'bar'}, ()),
-    ({'biz':'bar'}, ('biz')),
-    ({'biz': 'bar'}, ['biz']),
-    ({'zip': 'bar'}, ('biz', 'zip')),
-    ({'biz': 'bar'}, {'biz'}),
-    ))
-
-
 def create_page(tmpdir, filename, contents):
     filepath = tmpdir.join(filename + '.md')
     filepath.write(contents)
@@ -25,30 +16,31 @@ def test_empty_page(tmpdir):
     with pytest.raises(IndexError):
         return create_page(tmpdir, 'empty_page', '')
 
-@pytest.fixture
-def title_page(tmpdir):
-    title_page = create_page(tmpdir,
-                       'page_with_title',
-                       '''title: The title of the Page
-                       This is  the Title Page.''').title
-    return title_page
+class TestTitleProperty():
+    @pytest.fixture
+    def title_page(self, tmpdir):
+        title_page = create_page(tmpdir,
+                           'page_with_title',
+                           '''title: The title of the Page
+This is  the Title Page.''').title
+        return title_page
 
-@pytest.fixture
-def no_title_page(tmpdir):
-    no_title_page = create_page(tmpdir,
-                                'page_no_title',
-                                'This is the No Title Page.').title
-    return no_title_page
+    @pytest.fixture
+    def no_title_page(self, tmpdir):
+        no_title_page = create_page(tmpdir,
+                                    'page_no_title',                                    
+'This is the No Title Page.').title
+        return no_title_page
 
-def test_page_detects_title(title_page):
-    """When Creating a Page item,
-    both an id and title object are created"""
-    assert title_page == 'The title of the Page'
+    def test_page_detects_title(self, title_page):
+        """When Creating a Page item,
+both an id and title object are created"""
+        assert self.title_page == 'The title of the Page'
 
-def test_no_page_detects_title(no_title_page):
-    """When Creating a Page item,
-    both an id and title object are created"""
-    assert no_title_page == ''
+    def test_no_page_detects_title(self, no_title_page):
+        """When Creating a Page item,
+both an id and title object are created"""
+        assert self.no_title_page == ''
 
 
 class TestIdProperty():
@@ -131,7 +123,7 @@ class TestBlogFeed():
 
     @pytest.fixture
     def basic_post(self, tmpdir):
-        basic_blog_post = 'title:basic_blog_post\n\nThis is a basic blog post.'
+        basic_blog_post = 'title: basic_blog_post\n\nThis is a basic blog post.'
         return self.create_post(tmpdir, 'basic_blog_post', basic_blog_post)
 
     def test_blog_object(self, basic_post):

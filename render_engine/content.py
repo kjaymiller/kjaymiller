@@ -15,21 +15,18 @@ class Page():
     def __init__(self, base_file: Path):
         self.base_file = base_file
         with base_file.open() as f:
-            md_content = [line.strip('\n') for line in f.readlines()]
 
-        match = r'^\w+:'
-        while re.match(match, md_content[0], flags=re.MULTILINE):
-            line = md_content.pop(0)
-            line_data = line.split(': ', 1)
-            key = line_data[0].lower()
-            value = line_data[-1]
-            setattr(self, f'_{key}', value)
-
+            match = r'^\w+:'
+            while line in f.read().split('\n'):
+            while re.match(match, md_content[0], flags=re.MULTILINE):
+                    line = md_content.pop(0)
+                    line_data = line.split(': ', 1)
+                    key = line_data[0].lower()
+                    value = line_data[-1]
+                    setattr(self, f'_{key}', value)
+                self.content = md_content
         self.title = self.get_title()
         self.id = self.get_id()
-        self.tags = self.get_tags()
-        self.content = '\n'.join(md_content)
-        self.summary = self.get_summary()
         self.__str__ = self.content
 
     def _get_ct_time(self, md_file):
@@ -84,6 +81,12 @@ class Page():
         else:
             return self._get_mt_time(base_file)
 
+class Post(Page):
+    def __init__(self, base_file):
+        super().__init__(base_file)
+        self.tags = self.get_tags()
+        self.content = '\n'.join(md_content)
+        self.summary = self.get_summary()
     def get_tags(self):
         tags = getattr(self, '_tags', '')
         return tags.split(',')
@@ -97,6 +100,3 @@ class Page():
     def get_summary(self):
         return getattr(self, '_summary', self._summary_from_content()) + '...' 
 
-
-class Post(Page):
-    pass
