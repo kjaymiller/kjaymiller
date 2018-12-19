@@ -3,7 +3,7 @@ Tests the rendering of base page items and their subclasses.
  """
 import pytest
 from collections import namedtuple
-from render_engine.content import Page, Post
+from render_engine.content import Page
 from pathlib import Path
 
 
@@ -16,31 +16,28 @@ def test_empty_page(tmpdir):
     with pytest.raises(IndexError):
         return create_page(tmpdir, 'empty_page', '')
 
-class TestTitleProperty():
-    @pytest.fixture
-    def title_page(self, tmpdir):
-        title_page = create_page(tmpdir,
-                           'page_with_title',
-                           '''title: The title of the Page
-This is  the Title Page.''').title
-        return title_page
+@pytest.fixture
+def title_page(tmpdir):
+    return create_page(tmpdir,
+           'page_with_title',
+           '''title: The title of the Page
+           This is  the Title Page.''')
 
-    @pytest.fixture
-    def no_title_page(self, tmpdir):
-        no_title_page = create_page(tmpdir,
-                                    'page_no_title',                                    
-'This is the No Title Page.').title
-        return no_title_page
+@pytest.fixture
+def no_title_page(tmpdir):
+    return create_page(tmpdir,
+            'page_no_title',
+            'This is the No Title Page.')
 
-    def test_page_detects_title(self, title_page):
-        """When Creating a Page item,
-both an id and title object are created"""
-        assert self.title_page == 'The title of the Page'
+def test_page_detects_title(title_page):
+    """When Creating a Page item,
+    both an id and title object are created"""
+    assert title_page.title == 'The title of the Page'
 
-    def test_no_page_detects_title(self, no_title_page):
-        """When Creating a Page item,
-both an id and title object are created"""
-        assert self.no_title_page == ''
+def test_no_page_detects_title(no_title_page):
+    """When Creating a Page item,
+    both an id and title object are created"""
+    assert no_title_page.title == ''
 
 
 class TestIdProperty():
@@ -89,7 +86,25 @@ class TestIdProperty():
          """
         assert no_id_page == 'no_id_page'
 
-class TestPageSummaries():
+class TestPost():
+    def __init__(self):
+        from render_engine.content import Blog
+
+    def create_post(self, tmpdir, filename):
+        filepath = tmpdir.join(filename + '.md')
+        filepath.write(contents)
+        return Blog(base_file=Path(filepath))
+
+    @pytest.fixture
+    def basic_post(self):
+        basic_post = '''Title: Basic Blog Post
+This is content for a blog post'''
+        return self.create_post(tmpdir, 'basic_post', basic_blog_post)
+
+    def test_blog_object(self, basic_post):
+        assert basic_post
+
+class TestPostSummary(TestPost):
     """
     When a page is created, a summary can be generated using a summary tag.
     alternatively, it can also be created by calling__summary_from_title__
@@ -100,31 +115,17 @@ class TestPageSummaries():
         summary_page = """title: Summary_page
 summary: this is a summary
 This is the content of the page."""
-        return create_page(tmpdir, 'summary_page', summary_page).summary
+        return self.create_post(tmpdir, 'summary_page', summary_page)
 
     @pytest.fixture
     def no_summary_page(self, tmpdir):
         no_summary_page = 'There is no summary on this page.'
-        return create_page(tmpdir, 'no_summary_page', no_summary_page).summary
+        return self.create_post(tmpdir, 'no_summary_page', no_summary_page)
 
     def test_summary_from_page(self, summary_page):
-        assert summary_page == 'this is a summary...'
+        assert summary_page.summary == 'this is a summary...'
 
     def test_no_summary_from_page(self, no_summary_page):
-        assert no_summary_page == 'There is no summary on this page...'
+        assert no_summary_page.summary == 'There is no summary on this page...'
 
 
-
-class TestBlogFeed():
-    def create_post(self, tmpdir, filename, contents):
-        filepath = tmpdir.join(filename + '.md')
-        filepath.write(contents)
-        return Post(base_file=Path(filepath))
-
-    @pytest.fixture
-    def basic_post(self, tmpdir):
-        basic_blog_post = 'title: basic_blog_post\n\nThis is a basic blog post.'
-        return self.create_post(tmpdir, 'basic_blog_post', basic_blog_post)
-
-    def test_blog_object(self, basic_post):
-        assert basic_post

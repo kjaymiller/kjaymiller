@@ -14,17 +14,16 @@ import re
 class Page():
     def __init__(self, base_file: Path):
         self.base_file = base_file
+        matcher = r'^\w+:'
         with base_file.open() as f:
-
-            match = r'^\w+:'
-            while line in f.read().split('\n'):
-            while re.match(match, md_content[0], flags=re.MULTILINE):
-                    line = md_content.pop(0)
-                    line_data = line.split(': ', 1)
-                    key = line_data[0].lower()
-                    value = line_data[-1]
-                    setattr(self, f'_{key}', value)
-                self.content = md_content
+            md_content = f.readlines()
+            while re.match(matcher, md_content[0]):
+                line = md_content.pop(0)
+                line_data = line.split(': ', 1)
+                key = line_data[0].lower()
+                value = line_data[-1].rstrip('\n')
+                setattr(self, f'_{key}', value)
+            self.content = md_content
         self.title = self.get_title()
         self.id = self.get_id()
         self.__str__ = self.content
