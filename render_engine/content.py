@@ -98,5 +98,5 @@ class Page():
         return getattr(self, '_summary', self._summary_from_content()) + '...' 
 
 
-class Blog(Page):
+class Post(Page):
     pass

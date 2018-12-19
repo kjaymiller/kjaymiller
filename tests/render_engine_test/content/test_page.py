@@ -3,7 +3,7 @@ Tests the rendering of base page items and their subclasses.
  """
 import pytest
 from collections import namedtuple
-from render_engine.content import Page, Blog
+from render_engine.content import Page, Post
 from pathlib import Path
 
 
@@ -122,18 +122,17 @@ This is the content of the page."""
         assert no_summary_page == 'There is no summary on this page...'
 
 
-class TestBlogFeed():
 
+class TestBlogFeed():
     def create_post(self, tmpdir, filename, contents):
         filepath = tmpdir.join(filename + '.md')
         filepath.write(contents)
-        return Blog(base_file=Path(filepath))
+        return Post(base_file=Path(filepath))
 
     @pytest.fixture
     def basic_post(self, tmpdir):
-        basic_post = '''Title: Basic Blog Post
-This is content for a blog post'''
-        return self.create_post(tmpdir, 'basic_post', basic_post)
+        basic_blog_post = 'title:basic_blog_post\n\nThis is a basic blog post.'
+        return self.create_post(tmpdir, 'basic_blog_post', basic_blog_post)
 
     def test_blog_object(self, basic_post):
         assert basic_post
