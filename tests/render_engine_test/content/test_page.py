@@ -3,7 +3,7 @@ Tests the rendering of base page items and their subclasses.
  """
 import pytest
 from collections import namedtuple
-from render_engine.content import Page
+from render_engine.content import Page, Blog
 from pathlib import Path
 
 
@@ -123,19 +123,17 @@ This is the content of the page."""
 
 
 class TestBlogFeed():
-    def __init__(self):
-        from render_engine.content import Blog
 
-    def create_post(self, tmpdir, filename):
+    def create_post(self, tmpdir, filename, contents):
         filepath = tmpdir.join(filename + '.md')
         filepath.write(contents)
         return Blog(base_file=Path(filepath))
 
     @pytest.fixture
-    def basic_post(self):
+    def basic_post(self, tmpdir):
         basic_post = '''Title: Basic Blog Post
 This is content for a blog post'''
-        return self.create_post(tmpdir, 'basic_post', basic_blog_post)
+        return self.create_post(tmpdir, 'basic_post', basic_post)
 
     def test_blog_object(self, basic_post):
         assert basic_post

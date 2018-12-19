@@ -97,3 +97,6 @@ class Page():
     def get_summary(self):
         return getattr(self, '_summary', self._summary_from_content()) + '...' 
 
+
+class Blog(Page):
+    pass
