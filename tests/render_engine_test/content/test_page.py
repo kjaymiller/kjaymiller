@@ -126,11 +126,16 @@ class TestBlogFeed():
     def __init__(self):
         from render_engine.content import Blog
 
-    @pytest.fixture(scope="class")
-    def create_blog_post(self, tmpdir, filename):
+    def create_post(self, tmpdir, filename):
         filepath = tmpdir.join(filename + '.md')
         filepath.write(contents)
         return Blog(base_file=Path(filepath))
 
-    def test_blog_object(self):
-        pass
+    @pytest.fixture
+    def basic_post(self):
+        basic_post = '''Title: Basic Blog Post
+This is content for a blog post'''
+        return self.create_post(tmpdir, 'basic_post', basic_blog_post)
+
+    def test_blog_object(self, basic_post):
+        assert basic_post
