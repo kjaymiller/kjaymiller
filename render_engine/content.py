@@ -108,5 +108,7 @@ class MicroBlogPost(BlogPost):
         super().__init__(base_file)
 
 class PodcastEpisode(BlogPost):
-    def __init__(self, base_file):
+    def __init__(self, base_file, podcast_name: string, episode_number: int):
         super().__init__(base_file)
+
+    
