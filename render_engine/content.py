@@ -11,9 +11,30 @@ import arrow
 import re
 
 
+def get_ct_time(self, md_file):
+    return arrow.get(md_file.stat().st_ctime, tzinfo=region).isoformat()
+
+def get_md_time(self, md_file):
+    return arrow.get(md_file.stat().st_mtime, tzinfo=region).isoformat()
+
 class Page():
-    def __init__(self, base_file: Path):
+    def __init__(self, base_file):
+        # self.id looks for us
+        self._id = None
+        self._slug = None
+
+        # self.date_published looks for us
+        self._date_published = None
+        self._date = None
+
         self.base_file = base_file
+        self.load_from_file(self.base_file) # creates initial properties and self.content
+
+        
+        self.title = getattr(self, '_title', '')
+        self.__str__ = self.content
+
+    def load_from_file(self, base_file):
         matcher = r'^\w+:'
         with base_file.open() as f:
             md_content = f.readlines()
@@ -23,33 +44,11 @@ class Page():
                 key = line_data[0].lower()
                 value = line_data[-1].rstrip('\n')
                 setattr(self, f'_{key}', value)
-            self.content = md_content
-        self.title = self.get_title()
-        self.id = self.get_id()
-        self.__str__ = self.content
+            self.content = '\n'.join(md_content).strip()
 
-    def _get_ct_time(self, md_file):
-        return arrow.get(md_file.stat().st_ctime, tzinfo=REGION).isoformat()
-
-    def _get_md_time(self, md_file):
-        return arrow.get(md_file.stat().st_mtime, tzinfo=REGION).isoformat()
-
-
-    def get_title(self):
-        """Returns the value of _title, or an empty title if not defined"""
-        return getattr(self, '_title', '')
-
-    def get_id(self): 
-        """Returns the value of _id.
-        If there is no _id, it returns the value for _slug.
-        If neither, it return the stem of the filepath."""
-
-        if hasattr(self, '_id'):
-            return self._id
-        elif hasattr(self, '_slug'):
-            return self._slug
-        else:
-             return self.base_file.stem
+    @property
+    def id(self):
+        return self._id or self._slug or self.base_file.stem
 
     def get_date_published(self, base_file):
         """Returns the value of _date_published or _date, or created_datetime from
@@ -62,40 +61,51 @@ class Page():
         elif hasattr(self, '_date'):
             return self._date
         else:
-             return self._get_ct_time(base_file)
+             return self.get_ct_time(base_file)
 
     def get_date_modified(self, base_file):
         """Returns the value of _date_modified or _update, or the
-        modified_datetime from
-        the system if not defined. NOTE THE SYSTEM DATE IS KNOWN TO CAUSE
-        ISSUES WITH FILES THAT WERE COPIED OR TRANSFERRED WITHOUT THEIR
-        METADADTA BEING TRANSFERRED AS WELL"""
+modified_datetime from the system if not defined. NOTE THE SYSTEM 
+DATE IS KNOWN TO CAUSE ISSUES WITH FILES THAT WERE COPIED OR 
+TRANSFERRED WITHOUT THEIR METADADTA BEING TRANSFERRED AS WELL"""
 
         if hasattr(self, '_date_modified'):
             return self._date_modified
         
-        elif hasattr(self, '_updated'):
+        elif hasattr(self, 'updated'):
             return self._date
         
         else:
             return self._get_mt_time(base_file)
 
-class Post(Page):
+class BlogPost(Page):
     def __init__(self, base_file):
         super().__init__(base_file)
         self.tags = self.get_tags()
-        self.content = '\n'.join(md_content)
-        self.summary = self.get_summary()
+        self.summary = getattr(self, '_summary',
+                self.summary_from_content(self.content)) + '...'
+
+
     def get_tags(self):
         tags = getattr(self, '_tags', '')
         return tags.split(',')
 
-    def _summary_from_content(self):
-        start_index = min(280, len(self.content)-1)
-        while self.content[start_index] not in punctuation:
-                start_index -= 1
+    def summary_from_content(self, content):
+        print(len(content))
+        start_index = min(280, len(content) - 1)
+        print(start_index) 
+        while content[start_index] not in punctuation:
+            start_index -= 1
+        
+            if not start_index:
+                  return content
+              
         return self.content[:start_index]
 
-    def get_summary(self):
-        return getattr(self, '_summary', self._summary_from_content()) + '...' 
+class MicroBlogPost(BlogPost):
+    title = ''
+    def __init__(self, base_file):
+        super().__init__(base_file)
 
+class PodcastEpisode(BlogPost):
+    pass
