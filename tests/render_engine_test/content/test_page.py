@@ -165,3 +165,9 @@ class TestMicroBlog():
     def test_page_detects_title(self, title_microblog):
         """MicroBlogs have no title should always equal ''"""
         assert title_microblog.title == ''
+
+class TestPodcastEpisode():
+    def create_entry(self, tmpdir_factory, filename, contents):
+        filepath = tmpdir_factory.mktemp('content').join(filename + '.md')
+        filepath.write(contents)
+        return PodcastEpisode(base_file=Path(filepath))
