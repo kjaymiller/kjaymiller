@@ -1,5 +1,7 @@
+import re
 from pathlib import Path
 from render_engine.valid_keys import JSON_keys
+from render_engine.__init__ import get_md_time, get_ct_time
 from string import punctuation
 from flask import Markup
 from markdown import markdown
@@ -8,14 +10,6 @@ from datetime import datetime
 from config import REGION
 
 import arrow
-import re
-
-
-def get_ct_time(self, md_file):
-    return arrow.get(md_file.stat().st_ctime, tzinfo=region).isoformat()
-
-def get_md_time(self, md_file):
-    return arrow.get(md_file.stat().st_mtime, tzinfo=region).isoformat()
 
 class Page():
     def __init__(self, base_file):
@@ -28,13 +22,10 @@ class Page():
         self._date = None
 
         self.base_file = base_file
-        self.load_from_file(self.base_file) # creates initial properties and self.content
+        self.from_file(base_file) # creates initial properties and self.content
 
         
-        self.title = getattr(self, '_title', '')
-        self.__str__ = self.content
-
-    def load_from_file(self, base_file):
+    def from_file(self, base_file):
         matcher = r'^\w+:'
         with base_file.open() as f:
             md_content = f.readlines()
@@ -45,6 +36,10 @@ class Page():
                 value = line_data[-1].rstrip('\n')
                 setattr(self, f'_{key}', value)
             self.content = '\n'.join(md_content).strip()
+
+        self.title = getattr(self, '_title', '')
+        self.__str__ = self.content
+
 
     @property
     def id(self):
@@ -108,7 +103,7 @@ class MicroBlogPost(BlogPost):
         super().__init__(base_file)
 
 class PodcastEpisode(BlogPost):
-    def __init__(self, base_file, podcast_name: string, episode_number: int):
+    def __init__(self, base_file, podcast_name: str, episode_number: int):
         super().__init__(base_file)
 
     
