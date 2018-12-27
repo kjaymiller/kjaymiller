@@ -9,7 +9,7 @@ def path_crawler(item_type, file_path, extension='.md'):
     """
     Takes a path and parses the files to create the item index
     """
-    items = [item_type(base_file=item) for item in Path(file_path).glob(f'*.{extension}')]
+    items = [item_type(base_file=item) for item in Path(file_path).glob(f'*{extension}')]
     return items
 
 
