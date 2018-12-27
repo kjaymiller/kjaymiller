@@ -12,18 +12,6 @@ class TestPage():
         filepath.write(contents)
         return Page(base_file=Path(filepath))
 
-    @pytest.fixture(scope='class')
-    def standard_page(self, tmpdir_factory):
-        content = '''title: Standard Page
-id: standard-page
-date: December 19, 2018
-
-
-This is a standard page with some metadata and some content.'''
-        return self.create_entry(
-                tmpdir_factory,
-                'standard_page',
-                content)
 
 class TestPageTitle(TestPage):
     @pytest.fixture(scope='class')
@@ -106,26 +94,12 @@ class TestIdProperty(TestPage):
 
 
 class TestPageContent(TestPage):
-    def test_page_content_is_string(self, standard_page):
-       assert standard_page.content == '''This is a standard page with some metadata and some content.'''
+    def test_page_content_is_string(self, standard_path, standard_Page):
+       assert standard_Page.content == '''This is a standard page with some metadata and some content.'''
 
 class TestBlogPost():
-    def create_entry(self, tmpdir_factory, filename, contents):
-        filepath = tmpdir_factory.mktemp('content').join(filename + '.md')
-        filepath.write(contents)
-        return BlogPost(base_file=Path(filepath))
-
-    @pytest.fixture(scope='class')
-    def basic_post(self, tmpdir_factory):
-        basic_blog_post = '''title: Basic Blog Post\nThis is content for a blog post'''
-        return self.create_entry(
-                tmpdir_factory,
-                'basic_post',
-                basic_blog_post,
-                )
-
-    def test_blog_object(self, basic_post):
-        assert basic_post
+    def test_blog_object(self, standard_BlogPost):
+        assert standard_BlogPost
 
 class TestPostSummary(TestBlogPost):
     """
@@ -133,38 +107,18 @@ class TestPostSummary(TestBlogPost):
     alternatively, it can also be created by calling__summary_from_title__
     """
 
-    @pytest.fixture(scope='class')
-    def summary_page(self, tmpdir_factory):
-        summary_page = """title: Summary_page
-summary: this is a summary
-This is the content of the page."""
-        return self.create_entry(tmpdir_factory, 'summary_page', summary_page)
+    def test_summary_from_page(self, complete_BlogPost):
+        summary_page = complete_BlogPost
+        assert summary_page.summary == 'This post has a custom summary...'
 
-    @pytest.fixture(scope='class')
-    def no_summary_page(self, tmpdir_factory):
-        no_summary_page = 'There is no summary on this page.'
-        return self.create_entry(tmpdir_factory, 'no_summary_page', no_summary_page)
-
-    def test_summary_from_page(self, summary_page):
-        assert summary_page.summary == 'this is a summary...'
-
-    def test_no_summary_from_page(self, no_summary_page):
-        assert no_summary_page.summary == 'There is no summary on this page...'
+    def test_no_summary_from_page(self, standard_BlogPost):
+        no_summary_page = standard_BlogPost
+        assert no_summary_page.summary
 
 class TestMicroBlog():
-    def create_entry(self, tmpdir_factory, filename, contents):
-        filepath = tmpdir_factory.mktemp('content').join(filename + '.md')
-        filepath.write(contents)
-        return MicroBlogPost(base_file=Path(filepath))
-
-    @pytest.fixture(scope='class')
-    def title_microblog(self, tmpdir_factory):
-        content = '''This is a microblog post. It should have no title.'''
-        return self.create_entry(tmpdir_factory, 'title_empty_microblog', content)
-
-    def test_page_detects_title(self, title_microblog):
+    def test_page_detects_title(self, standard_MicroBlogPost):
         """MicroBlogs have no title should always equal ''"""
-        assert title_microblog.title == ''
+        assert standard_MicroBlogPost.title == ''
 
 class TestPodcastEpisode():
     def create_entry(self, tmpdir_factory, filename, contents):
