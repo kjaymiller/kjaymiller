@@ -15,8 +15,13 @@ def path_types(standard_Page):
             standard_MicroBlogPost)
 
 class TestPathCrawler():
-    def test_path_crawler(self, standard_file, standard_path):
-        assert path_crawler(item_type=Page, file_path=standard_path)
+    @pytest.parametrize('item_type',
+            [Page, BlogPost, MicroBlogPost]))
+    def test_path_crawler(
+            self,
+            standard_file,
+            standard_path):
+        assert path_crawler(item_type=item_type, file_path=standard_path)
 
     def test_path_crawler_accepts_path_items(self,standard_file,  standard_path):
         assert path_crawler(item_type=Page, file_path=standard_path)[0]
