@@ -3,7 +3,13 @@ from flask_frozen import Freezer
 from flask_app import app
 from pathlib import Path
 from glob import glob
-from blog_engine.parse_markdown import JSON_Feed, Blog, MicroBlog
+from render_engine.content import (
+        BlogPost, 
+        MicroBlogPost,
+        Page,
+        PodcastEpisode,
+        )
+from render_engine.feeds import path_crawler
 from collections import namedtuple
 from urllib.parse import quote
 import config
@@ -11,50 +17,33 @@ import config
 freezer = Freezer(app)
 
 
-pages = JSON_Feed('content/pages')
-blog = Blog('content',
-            json_base='blog_feed.json',
-            json_filename='blog.json',
-            json_title=config.SITE_TITLE)
-
-micro = MicroBlog('content/microblog',
-             json_base='micro_feed.json',
-             json_filename='micro.json',
-             json_title=f'{config.SITE_TITLE} - Microblog')
-
-feeds = {
-        'pages': pages,
-        'blog': blog,
-        'microblog': micro,
+PATHS = {
+        'pages': Page,
+        'blog' : BlogPost, 
+        'podcast':  PodcastEpisode, 
+        'microblog': MicroBlogPost
         }
 
-json_feeds = {
-        'blog': blog,
-        'microblog': micro,
-        }
-
+"""
 @freezer.register_generator
 def blog_posts():
     yield {'JSON_FEED': 'blog'}
-
+"""
 
 @freezer.register_generator
 def post():
-    for feed in feeds:
-        for article in feeds[feed].json_object:
+    for path in PATHS:
+        PATH = PATHS[path]
+        file_path = Path(config.BASE_PATH) / path
+        files = path_crawler(item_type=PATH, file_path=file_path) 
+        
+        for i in files:
             yield {
-                   'JSON_FEED': feed,
-                   'id': article
+                   'path': path,
+                   'id': i.id,
+                   'content': i.content,
+                   'file_item': i,
                     }
-
-@freezer.register_generator
-def generate_json_feed():
-    for feed in json_feeds:
-        yield {'feed': feed}
-
-
-
-
 
 if __name__ == '__main__':
     freezer.freeze()

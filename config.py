@@ -1,4 +1,5 @@
 from collections import namedtuple
+
 FREEZER_RELATIVE_URLS = True
 FREEZER_DESTINATION = 'site'
 
@@ -7,6 +8,7 @@ SITE_SUBTITLE = "The Corner of Automation, Productivity, and Community"
 SITE_URL = "https://kjaymiller.com"
 AUTHOR = 'KJAYMILLER'
 REGION = 'US/Pacific'
+BASE_PATH = 'content'
 
 # Header Links
 Link = namedtuple('Link', ['title', 'href'])

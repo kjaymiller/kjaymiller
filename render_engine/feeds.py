@@ -2,6 +2,14 @@
 Feeds takes objects and creates an arrangement of items and returns a feed.
 """
 import json
+from pathlib import Path
+
+def path_crawler(item_type, file_path, extension='.md'):
+    """
+    Takes a path and parses the files to create the item index
+    """
+    items = [item_type(base_file=item) for item in Path(file_path).glob(f'*{extension}')]
+    return items
 
 class JSONFeed():
     def __init__(self, items=[], expired=False, from_file=None, **kwargs):

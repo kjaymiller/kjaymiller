@@ -3,11 +3,10 @@ from pathlib import Path
 from render_engine.valid_keys import JSON_keys
 from render_engine.__init__ import get_md_time, get_ct_time
 from string import punctuation
-from flask import Markup
+from jinja2 import Markup
 from markdown import markdown
 from dateutil.parser import parse
 from datetime import datetime
-from config import REGION
 
 import arrow
 
@@ -27,7 +26,7 @@ class Page():
         
     def from_file(self, base_file):
         matcher = r'^\w+:'
-        with base_file.open() as f:
+        with open(base_file) as f:
             md_content = f.readlines()
             while re.match(matcher, md_content[0]):
                 line = md_content.pop(0)
@@ -72,6 +71,10 @@ TRANSFERRED WITHOUT THEIR METADADTA BEING TRANSFERRED AS WELL"""
         
         else:
             return self._get_mt_time(base_file)
+
+    @property
+    def html(self):
+        return Markup(markdown(self.content))
 
 class BlogPost(Page):
     def __init__(self, base_file):
