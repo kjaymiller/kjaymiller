@@ -15,7 +15,7 @@ Link = namedtuple('Link', ['title', 'href'])
 HEADER_LINKS = (
     Link('Automations', '/blog/category/automation'),
     Link('Blog', '/blog_posts.html'),
-    Link('Newsletter', 'subscribe.html'),
-    Link('Contact','contact.html'),
+    Link('Newsletter', '/pages/subscribe.html'),
+    Link('Contact','/pages/contact.html'),
     Link('PIT', 'https://productivityintech.com'),
 )
