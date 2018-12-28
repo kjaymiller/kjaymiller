@@ -3,6 +3,8 @@ Generates the files to build out your HTML Path
 """
 import os
 import shutil
+from writer import write_page
+from paginate import paginate
 from pathlib import Path
 from render_engine.content import (
         BlogPost, 
@@ -51,11 +53,6 @@ podcast = path(
 
 PATHS = (pages, blog, podcast, microblog)
 
-def write_page(output_path, filename, content):
-    with open(f'{output_path}/{filename}.html', 'w') as f:
-                f.write(content)
-                return f
-
 def generate():
     # Remove output directory if it exists
     if Path('./output').exists():
@@ -78,5 +75,8 @@ def generate():
                 write_page(p.output_path, i.id, i.html)
             except:
                 continue
+        
+        pages = paginate.paginate(files, 10)
+        paginate.write_paginated_pages(lpages, 'blog_lists.html'
 if __name__=="__main__":
     generate()
