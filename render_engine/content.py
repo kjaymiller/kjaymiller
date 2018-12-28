@@ -3,7 +3,7 @@ from pathlib import Path
 from render_engine.valid_keys import JSON_keys
 from render_engine.__init__ import get_md_time, get_ct_time
 from string import punctuation
-from jinja2 import Markup
+from jinja2 import get_template, Markup
 from markdown import markdown
 from dateutil.parser import parse
 from datetime import datetime
@@ -73,8 +73,10 @@ TRANSFERRED WITHOUT THEIR METADADTA BEING TRANSFERRED AS WELL"""
             return self._get_mt_time(base_file)
 
     @property
-    def html(self):
-        return Markup(markdown(self.content))
+    def html(self, template='page.html'):
+        markup = Markup(markdown(self.content))
+        temp =  env.get_template(template)
+        return temp.render(metadata=self)
 
 class BlogPost(Page):
     def __init__(self, base_file):
