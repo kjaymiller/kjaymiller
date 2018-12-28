@@ -51,6 +51,11 @@ podcast = path(
 
 PATHS = (pages, blog, podcast, microblog)
 
+def write_page(output_path, filename, content):
+    with open(f'{output_path}/{filename}.html', 'w') as f:
+                f.write(content)
+                return f
+
 def generate():
     # Remove output directory if it exists
     if Path('./output').exists():
@@ -69,8 +74,9 @@ def generate():
         file_path = p.content_path
         files = path_crawler(item_type=p.content_type, file_path=file_path) 
         for i in files:
-            with open(f'{p.output_path}/{i.id}.html', 'w') as f:
-                f.write(i.html) 
-
+            try: 
+                write_page(p.output_path, i.id, i.html)
+            except:
+                continue
 if __name__=="__main__":
     generate()

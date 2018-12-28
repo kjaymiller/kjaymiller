@@ -4,8 +4,8 @@ import generators
 generators.generate()
 
 def index():
-    return Page(template='index.html')
-
+    page =  Page(template='index.html').html
+    return generators.write_page('output', 'index', page)
 index()
 
 
