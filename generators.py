@@ -59,7 +59,7 @@ if Path('./output').exists():
 paths = ('output', 'output/microblog', 'output/podcast', 'output/pages')
 
 # Create Static Files
-shutil copy(Path('./static/', './output/static/')
+shutil.copy(Path('./static/'), Path('./output/static/'))
 
 def build():
     for p in paths:
