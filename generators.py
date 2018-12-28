@@ -51,23 +51,26 @@ podcast = path(
 
 PATHS = (pages, blog, podcast, microblog)
 
-# Remove output directory if it exists
-if Path('./output').exists():
-    shutil.rmtree('output')
+def generate():
+    # Remove output directory if it exists
+    if Path('./output').exists():
+        shutil.rmtree('output')
 
-# Create Output File
-paths = ('output/microblog', 'output/podcast', 'output/pages')
+    # Create Output File
+    paths = ('output/microblog', 'output/podcast', 'output/pages')
 
-# Create Static Files
-shutil.copytree(Path('./static/'), Path('./output/static/'))
+    # Create Static Files
+    shutil.copytree(Path('./static/'), Path('./output/static/'))
 
-for p in paths:
-    Path(p).mkdir(parents=True)
+    for p in paths:
+        Path(p).mkdir(parents=True)
 
-for p in PATHS:
-    file_path = p.content_path
-    files = path_crawler(item_type=p.content_type, file_path=file_path) 
-    for i in files:
-        with open(f'{p.output_path}/{i.id}.html', 'w') as f:
-            f.write(i.html) 
+    for p in PATHS:
+        file_path = p.content_path
+        files = path_crawler(item_type=p.content_type, file_path=file_path) 
+        for i in files:
+            with open(f'{p.output_path}/{i.id}.html', 'w') as f:
+                f.write(i.html) 
 
+if __name__=="__main__":
+    generate()

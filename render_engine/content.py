@@ -12,17 +12,18 @@ from datetime import datetime
 import arrow
 
 class Page():
-    def __init__(self, base_file):
+    def __init__(self, base_file=None, template=None):
         # self.id looks for us
         self._id = None
         self._slug = None
-
+        self.template = template
         # self.date_published looks for us
         self._date_published = None
         self._date = None
 
-        self.base_file = base_file
-        self.from_file(base_file) # creates initial properties and self.content
+        if base_file:
+            self.base_file = base_file
+            self.from_file(base_file) # creates initial properties and self.content
 
         
     def from_file(self, base_file):
@@ -75,6 +76,8 @@ TRANSFERRED WITHOUT THEIR METADADTA BEING TRANSFERRED AS WELL"""
 
     @property
     def html(self, template='pages.html'):
+        if self.template:
+            template = self.template
         temp =  env.get_template(template)
         return temp.render(metadata=self, config=config)
 
