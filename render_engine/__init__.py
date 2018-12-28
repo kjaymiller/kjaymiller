@@ -1,7 +1,8 @@
 import re
-from jinja2 import Environment, PackageLoader, select_autoescape
+from jinja2 import Environment, FileSystemLoader, select_autoescape
+
 env = Environment(
-            loader=PackageLoader('./', 'templates'),
+            loader=FileSystemLoader('templates'),
             autoescape=select_autoescape(['html', 'xml'])
 
             )
