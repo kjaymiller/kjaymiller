@@ -4,7 +4,7 @@ Generates the files to build out your HTML Path
 import os
 import shutil
 from writer import write_page
-from paginate import paginate
+import paginate
 from pathlib import Path
 from render_engine.content import (
         BlogPost, 
@@ -77,6 +77,7 @@ def generate():
                 continue
         
         pages = paginate.paginate(files, 10)
-        paginate.write_paginated_pages(lpages, 'blog_lists.html'
+        paginate.write_paginated_pages(pages, 'blog_list.html', config.OUTPUT_PATH)
+
 if __name__=="__main__":
     generate()

@@ -6,6 +6,7 @@ SITE_URL = "https://kjaymiller.com"
 AUTHOR = 'KJAYMILLER'
 REGION = 'US/Pacific'
 BASE_PATH = 'content'
+OUTPUT_PATH = 'output'
 
 # Header Links
 Link = namedtuple('Link', ['title', 'href'])

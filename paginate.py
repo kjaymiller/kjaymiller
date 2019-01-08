@@ -1,6 +1,7 @@
 from itertools import zip_longest
-from render_enging __init__ import env
+from render_engine import env
 from writer import write_page
+import config
 
 def paginate(iterable, items_per_page, fillvalue=None):
     "Collect data into fixed-length chunks or blocks"
@@ -8,8 +9,8 @@ def paginate(iterable, items_per_page, fillvalue=None):
     args = [iter(iterable)] * items_per_page
     return zip_longest(*args, fillvalue=fillvalue) 
 
-def write_paginated_pages(pagination, template, output_path, **kwargs)
-    env =  env.get_template(template)
+def write_paginated_pages(pagination, template, output_path, **kwargs):
+    temp =  env.get_template(template)
     for block in enumerate(pagination):
-        render = temp.render(block=block[1], **kwargs)
-        write_page(output_path, f'_block[0], render)
+        render = temp.render(block=block[1], config=config, **kwargs)
+        write_page(f'{output_path}_block[0]', render)
