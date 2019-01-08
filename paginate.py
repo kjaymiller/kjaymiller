@@ -9,8 +9,8 @@ def paginate(iterable, items_per_page, fillvalue=None):
     args = [iter(iterable)] * items_per_page
     return zip_longest(*args, fillvalue=fillvalue) 
 
-def write_paginated_pages(pagination, template, output_path, **kwargs):
+def write_paginated_pages(pagination, template, **kwargs):
     temp =  env.get_template(template)
     for block in enumerate(pagination):
         render = temp.render(block=block[1], config=config, **kwargs)
-        write_page(f'{output_path}_block[0]', render)
+        write_page(f'{block[1]}_{block[0]}', render)
