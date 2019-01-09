@@ -14,39 +14,29 @@ from render_engine.content import (
         )
 from render_engine.feeds import path_crawler
 import config
-from dataclasses import dataclass
-
-@dataclass
-class path:
-    name: str
-    content_type: Page
-    content_path: Path
-    output_path: Path
 
 
 def generate(paths):
     # Remove output directory if it exists
-    if Path(config.OUTPUT_PATH).exists():
-        shutil.rmtree('output')
-
+    try:
+        shutil.rmtree(config.OUTPUT_PATH)
+    except:
+        pass
+    
     # Create Static Files
-    shutil.copytree(Path('./static/'), Path('./output/static/'))
-
+    shutil.copytree(Path(config.STATIC_PATH),
+            Path(f'{config.OUTPUT_PATH}/{config.STATIC_PATH}')
+            )
 
     for p in paths:
-        Path(p).mkdir(parents=True)
-
-    for p in PATHS:
+        Path(f'{config.OUTPUT_PATH}/{p.output_path}').mkdir(parents=True)
         file_path = p.content_path
         files = path_crawler(item_type=p.content_type, file_path=file_path) 
         for i in files:
-            try: 
-                write_page(f'{p.output_path}/{i.id}', i.html)
-            except:
-                continue
+            write_page(f'{p.output_path}/{i.id}', i.html)
         
         pages = paginate.paginate(files, 10)
-        paginate.write_paginated_pages(pages, 'blog_list.html')
+        paginate.write_paginated_pages(p.name, pages, 'blog_list.html')
 
 if __name__=="__main__":
     generate()
