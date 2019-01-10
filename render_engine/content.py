@@ -51,20 +51,24 @@ class Page():
     def id(self):
         return self._id or self._slug or self.base_file.stem
 
-    def get_date_published(self, base_file):
+    @property
+    def date_published(self):
         """Returns the value of _date_published or _date, or created_datetime from
-        the system if not defined. NOTE THE SYSTEM DATE IS KNOWN TO CAUSE
-        ISSUES WITH FILES THAT WERE COPIED OR TRANSFERRED WITHOUT THEIR
-        METADATA BEING TRANSFER READ AS WELL"""
+the system if not defined. NOTE THE SYSTEM DATE IS KNOWN TO CAUSE
+ISSUES WITH FILES THAT WERE COPIED OR TRANSFERRED WITHOUT THEIR
+METADATA BEING TRANSFER READ AS WELL"""
 
         if hasattr(self, '_date_published'):
             return self._date_published
+
         elif hasattr(self, '_date'):
             return self._date
-        else:
-             return self.get_ct_time(base_file)
 
-    def get_date_modified(self, base_file):
+        else:
+             return get_ct_time(self.base_file)
+
+    @property
+    def updated(self):
         """Returns the value of _date_modified or _update, or the
 modified_datetime from the system if not defined. NOTE THE SYSTEM 
 DATE IS KNOWN TO CAUSE ISSUES WITH FILES THAT WERE COPIED OR 
@@ -75,9 +79,9 @@ TRANSFERRED WITHOUT THEIR METADADTA BEING TRANSFERRED AS WELL"""
         
         elif hasattr(self, 'updated'):
             return self._date
-        
+
         else:
-            return self._get_mt_time(base_file)
+            return get_mt_time(self.base_file)
 
 
 class BlogPost(Page):
