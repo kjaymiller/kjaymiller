@@ -8,7 +8,7 @@
     <div class="card-columns">
         {% for post in post_list %}
         <div class="card">
-            <a href="blog/{{post}}.html">
+            <a href="blog/{{post.id}}.html">
                 <div class="card-body">
 			<h2>{{post.title}}</h2>
                     {{post.summary}}
