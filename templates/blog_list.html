@@ -10,9 +10,9 @@
         {% for post in post_list %}
             <li>
 	        <a href="blog/{{post.id}}.html">
-		<small>{{post.date_published}}</small>
 		<h2>{{post.title}}</h2>
 		</a>
+		<small>{{post.date_published}}</small>
         	{{post.summary}}
 	    </li>
         {% endfor %}
