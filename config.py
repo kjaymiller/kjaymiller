@@ -12,7 +12,7 @@ STATIC_PATH = 'static'
 # Header Links
 Link = namedtuple('Link', ['title', 'href'])
 HEADER_LINKS = (
-    Link('Blog', '/blog_posts_0.html'),
+    Link('Blog', '/blog_0.html'),
     Link('Newsletter', '/pages/subscribe.html'),
     Link('Contact','/pages/contact.html'),
     Link('PIT', 'https://productivityintech.com'),
