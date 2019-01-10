@@ -38,7 +38,7 @@ class Page():
                 setattr(self, f'_{key}', value)
             content = '\n'.join(md_content).strip()
             self.content = content
-            self.markup = Markup(markdown(self.html))
+            self.markup = Markup(markdown(content)
 
         self.title = getattr(self, '_title', '')
         self.__str__ = self.content
