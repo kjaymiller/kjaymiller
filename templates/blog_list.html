@@ -6,19 +6,14 @@
         <h3 class="font-italic text-secondary">Productivity Musings, Automations, and Reviews</h3>
     </div>
     <div class="card-columns">
-        {% for post in title_list %}
+        {% for post in post_list %}
         <div class="card">
             <a href="blog/{{post}}.html">
-                <div style="overflow:hidden;">
-            {% if 'featured_image' in post %}
-                    <img class="card-img-top" src="{{json_object[post]['featured_image']}}">
-            {% endif %}
-                </div>
                 <div class="card-body">
-			<h2>{{json_object[post]['title']}}</h2>
-                    {{json_object[post]['summary']}}
+			<h2>{{post.title}}</h2>
+                    {{post.summary}}
                 </div>
-                <div class="card-footer text-right"><small>{{json_object[post]['created']}}</small></div>
+                <div class="card-footer text-right"><small>{{post.created}}</small></div>
         </div>
         {% endfor %}
     </div>
