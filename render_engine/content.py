@@ -12,7 +12,7 @@ from datetime import datetime
 import arrow
 
 class Page():
-    def __init__(self, base_file=None, template=None):
+    def __init__(self, base_file=None, template='page.html'):
         # self.id looks for us
         self._id = None
         self._slug = None
@@ -25,6 +25,8 @@ class Page():
             self.base_file = base_file
             self.from_file(base_file) # creates initial properties and self.content
 
+        temp =  env.get_template(self.template)
+        self.html = temp.render(metadata=self, config=config)
         
     def from_file(self, base_file):
         matcher = r'^\w+:'
@@ -38,11 +40,12 @@ class Page():
                 setattr(self, f'_{key}', value)
             content = '\n'.join(md_content).strip()
             self.content = content
-            self.markup = markdown(content)
+            self.markup = Markup(markdown(content))
 
         self.title = getattr(self, '_title', '')
         self.__str__ = self.content
-
+        temp =  env.get_template(self.template)
+        self.html = temp.render(metadata=self, config=config)
 
     @property
     def id(self):
@@ -76,20 +79,13 @@ TRANSFERRED WITHOUT THEIR METADADTA BEING TRANSFERRED AS WELL"""
         else:
             return self._get_mt_time(base_file)
 
-    @property
-    def html(self, template='pages.html'):
-        if self.template:
-            template = self.template
-        temp =  env.get_template(template)
-        return temp.render(metadata=self, config=config)
 
 class BlogPost(Page):
-    def __init__(self, base_file):
-        super().__init__(base_file)
+    def __init__(self, base_file, template='blog.html'):
+        super().__init__(base_file, template=template)
         self.tags = self.get_tags()
         self.summary = getattr(self, '_summary',
                 self.summary_from_content(self.content)) + '...'
-
 
     def get_tags(self):
         tags = getattr(self, '_tags', '')
