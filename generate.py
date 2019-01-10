@@ -8,12 +8,12 @@ import generators
 pages = ContentPath(
         name = 'pages',
         content_type = Page,
+        content_path = 'pages'
         )
 
 blog = ContentPath(
         name = 'blog',
         content_type = BlogPost,
-        content_path = 'content',
         )
 
 microblog = ContentPath(
@@ -21,12 +21,7 @@ microblog = ContentPath(
         content_type = MicroBlogPost,
         )
 
-podcast = ContentPath(
-        name = 'podcast',
-        content_type = PodcastEpisode,
-        )
-
-PATHS = (pages, blog, podcast, microblog)
+PATHS = (pages, blog, microblog)
 
 generators.generate(PATHS)
 page =  Page(template='index.html').html
