@@ -88,8 +88,8 @@ class BlogPost(Page):
     def __init__(self, base_file, template='blog.html'):
         super().__init__(base_file, template=template)
         self.tags = self.get_tags()
-        self.summary = getattr(self, '_summary',
-                self.summary_from_content(self.content)) + '...'
+        self.summary = Markup(markdown(getattr(self, '_summary',
+                self.summary_from_content(self.content)) + '...'))
 
     def get_tags(self):
         tags = getattr(self, '_tags', '')
