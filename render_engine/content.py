@@ -20,9 +20,9 @@ class Page():
         # self.date_published looks for us
         self._date_published = None
         self._date = None
-
+        self.base_file = base_file
+        
         if base_file:
-            self.base_file = base_file
             self.from_file(base_file) # creates initial properties and self.content
 
         temp =  env.get_template(self.template)
@@ -58,10 +58,10 @@ the system if not defined. NOTE THE SYSTEM DATE IS KNOWN TO CAUSE
 ISSUES WITH FILES THAT WERE COPIED OR TRANSFERRED WITHOUT THEIR
 METADATA BEING TRANSFER READ AS WELL"""
 
-        if hasattr(self, '_date_published'):
+        if self._date_published:
             return self._date_published
 
-        elif hasattr(self, '_date'):
+        elif '_date':
             return self._date
 
         else:
@@ -74,10 +74,10 @@ modified_datetime from the system if not defined. NOTE THE SYSTEM
 DATE IS KNOWN TO CAUSE ISSUES WITH FILES THAT WERE COPIED OR 
 TRANSFERRED WITHOUT THEIR METADADTA BEING TRANSFERRED AS WELL"""
 
-        if hasattr(self, '_date_modified'):
+        if self._date_modified:
             return self._date_modified
         
-        elif hasattr(self, 'updated'):
+        elif self.updated:
             return self._date
 
         else:
