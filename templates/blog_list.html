@@ -10,10 +10,10 @@
 	<div class="card my-2">
 		<div class="p-2 card-title">
 	        <a href="blog/{{post.id}}.html"><h2>{{post.title}}</h2></a>
+		<small class="text-primary">{{post.date_published}}</small>
         	{{post.summary}}
 		</div>
 		<div class="card-body">
-		<small class="text-primary">{{post.date_published}}</small>
 		</div>
 	</div>
         {% endfor %}
