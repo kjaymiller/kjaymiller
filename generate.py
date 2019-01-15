@@ -24,5 +24,5 @@ microblog = ContentPath(
 PATHS = (pages, blog, microblog)
 
 generators.generate(PATHS)
-page =  Page(template='index.html').html
-generators.write_page('index', page)
+index =  Page(template='index.html').html
+generators.write_page('index', index)
