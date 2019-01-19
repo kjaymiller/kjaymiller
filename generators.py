@@ -12,7 +12,7 @@ from render_engine.content import (
         Page,
         PodcastEpisode,
         )
-from render_engine.feeds import path_crawler
+# from render_engine.feeds import PathCrawler
 import config
 
 
@@ -29,11 +29,13 @@ def generate(paths):
             )
 
     for p in paths:
-        Path(f'{config.OUTPUT_PATH}/{p.output_path}').mkdir(parents=True)
-        file_path = p.content_path
-        files = path_crawler(item_type=p.content_type, file_path=file_path) 
+        file_path = Path(f'{config.OUTPUT_PATH}/{p.output_path}')
+        file_path.mkdir(parents=True)
+        files = [item for item in p.content_path.glob(f'*{p.extension}')]
+        print(files)
         for i in files:
-            write_page(f'{p.output_path}/{i.id}', i.html)
+            page = p.content_type(base_file=i)
+            write_page(f'{p.output_path}/{page.id}', page.html)
         
         pages = paginate.paginate(files, 10)
         paginate.write_paginated_pages(p.name, pages, 'blog_list.html', post_list=files)

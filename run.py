@@ -19,10 +19,14 @@ blog = ContentPath(
 microblog = ContentPath(
         name = 'microblog',
         content_type = MicroBlogPost,
+        content_path = 'microblog',
         )
 
 PATHS = (pages, blog, microblog)
 
-generators.generate(PATHS)
+generators.generate(PATHS) #TODO: Doesn't Render Pages priority:High
+
 index =  Page(template='index.html').html
 generators.write_page('index', index)
+
+print('Ran Successfully')

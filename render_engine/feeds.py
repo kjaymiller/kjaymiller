@@ -3,37 +3,69 @@ Feeds takes objects and creates an arrangement of items and returns a feed.
 """
 import json
 from pathlib import Path
+from render_engine import env
+import config
 
-def path_crawler(item_type, file_path, extension='.md'):
-    """
-    Takes a path and parses the files to create the item index
-    """
-    items = [item_type(base_file=item) for item in Path(file_path).glob(f'*{extension}')]
-    return items
+self.items = [item_type(base_file=item) for item in Path(file_path).glob(f'*{extension}')]
 
-class JSONFeed():
-    def __init__(self, items=[], expired=False, from_file=None, **kwargs):
+class PathCrawler:
+    def __init__(self, item_type, file_path, extension='.md', **kwargs):
+        """Takes a path and parses the files to create the item index"""
+        self.json_feed = self.JSONFeed_metadata(**kwargs)
+        self.json_feed['items'] = self.JSON_feed_items()
+
+    def JSONFeed_metadata(self, **kwargs):
+        feed_data = {
+                'title': kwargs.get('title', config.SITE_TITLE),
+                'home_page_url': kwargs.get('home_page_url', config.SITE_URL),
+                'feed_url': kwargs.get('feed_url'),
+                'version': kwargs.get('version', 'https://jsonfeed.org.version/1'),
+                'icon': kwargs.get('icon', config.ICON),
+                'description': kwargs.get('description', config.SITE_SUBTITLE),
+                'user_comment': kwargs.get('user_comment'),
+                'next_url': kwargs.get('next_url', ), # needs pagination
+                'favicon': kwargs.get('favicon', config.FAVICON),
+                'author': kwargs.get('author',{
+                        'name': config.AUTHOR,
+                        'avatar': config.AUTHOR_IMAGE,
+                        'url': config.AUTHOR_URL,
+                        }),
+                'expired': kwargs.get('expired'),
+                'hubs': kwargs.get('hubs'),
+                }
+
+        filled_feed_data = {x:y for x,y in feed_data.items() if y}
+       
+        return json.dumps(filled_feed_data)
+
+
+def JSON_feed_items(self, items, path):
+    feed_items = []
+    for item in items:
+        items_values = {
+           'id':item.id,
+           'url': f'{path}/{item.id}',
+           'external_url': item.external_url,
+           'title': item.title,
+           'content_html': item.markup, 
+           'summary': item.summary,
+           'date_published': item.date_published,
+           'date_modified': item.date_modified,
+           } 
+
+        other_item_values = (
+                ('image', config.DEFAULT_POST_IMAGE), 
+                ('banner_image', config.DEFAULT_POST_BANNER),
+                ('author', None) 
+            )
         
-        self.items = [item for item in items if items]
-        self.title = kwargs.get('title')
-        self.home_page_url = kwargs.get('home_page_url')
-        self.feed_url = kwargs.get('feed_url')
-        self.version = kwargs.get('version')
-        self.icon = kwargs.get('icon')
-        self.description = kwargs.get('description')
-        self.user_comment = kwargs.get('user_comment')
-        self.next_url = kwargs.get('next_url')
-        self.favicon = kwargs.get('favicon')
-        self.author = kwargs.get('author')
-        self.avatar = kwargs.get('avatar')
-        self.expired = expired
-        self.hubs = kwargs.get('hubs')
-        
-        if from_file:
-            with open(from_file) as f:
-                json_content = f.read()
-                base_file = json.loads(json_content)
-            for key in base_file.keys():
-                setattr(self, key, base_file[key])
+        for other_value in other_item_values:
+            if other_value[0] in other.__dict__.keys():
+                item_values[other_value[0]] = item.__dict__[other_value[0]]
+            elif other_value[1]:
+                item_values[other_value[0]] = other_value[1]
+            else:
+                continue
 
-        self.json = json.dumps(self.__dict__)
+        feed_items.append(item_values)
+    return feed_items 

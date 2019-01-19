@@ -4,10 +4,15 @@ SITE_TITLE = "K Jay Miller"
 SITE_SUBTITLE = "The Corner of Automation, Productivity, and Community"
 SITE_URL = "https://kjaymiller.com"
 AUTHOR = 'KJAYMILLER'
+AUTHOR_EMAIL = 'jay@kjaymiller.com'
+AUTHOR_URL = 'https://kjaymiller.com'
+AUTHOR_IMAGE = ''
 REGION = 'US/Pacific'
 CONTENT_PATH = 'content'
 OUTPUT_PATH = 'output'
 STATIC_PATH = 'static'
+ICON = ''
+FAVICON = ''
 
 # Header Links
 Link = namedtuple('Link', ['title', 'href'])
