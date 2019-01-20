@@ -32,13 +32,20 @@ def generate(paths):
         file_path = Path(f'{config.OUTPUT_PATH}/{p.output_path}')
         file_path.mkdir(parents=True)
         files = [item for item in p.content_path.glob(f'*{p.extension}')]
-        print(files)
+        pages = []
+
+        # write page
         for i in files:
             page = p.content_type(base_file=i)
             write_page(f'{p.output_path}/{page.id}', page.html)
+            pages.append({'id': page.id, 'title': page.title}) 
         
-        pages = paginate.paginate(files, 10)
-        paginate.write_paginated_pages(p.name, pages, 'blog_list.html', post_list=files)
+        print(list(page for page in pages))
+        paginate.write_paginated_pages(
+                name = p.name, 
+                pagination = paginate.paginate(pages, 10), 
+                template = 'blog_list.html', 
+                post_list=pages) #THIS SHOULD BE THE LIST OF FILES (f.name, f.id)
 
 if __name__=="__main__":
     generate()

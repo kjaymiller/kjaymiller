@@ -8,7 +8,8 @@ import generators
 pages = ContentPath(
         name = 'pages',
         content_type = Page,
-        content_path = 'pages'
+        content_path = 'pages',
+        paginate = False,
         )
 
 blog = ContentPath(
@@ -24,7 +25,7 @@ microblog = ContentPath(
 
 PATHS = (pages, blog, microblog)
 
-generators.generate(PATHS) #TODO: Doesn't Render Pages priority:High
+generators.generate(PATHS) #TODO: Doesn't Render Pagination Items
 
 index =  Page(template='index.html').html
 generators.write_page('index', index)

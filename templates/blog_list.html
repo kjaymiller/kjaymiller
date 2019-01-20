@@ -9,7 +9,7 @@
         {% for post in post_list %}
 	<div class="card my-2 px-3">
 		<div class="card-title">
-	        <a href="blog/{{post.id}}.html"><h2>{{post.title}}</h2></a>
+	        <a href="blog/{{post['id']}}.html"><h2>{{post['title']}}</h2></a>
 		</br>
 		<small class="text-primary">{{post.date_published}}</small>
 		</div>
