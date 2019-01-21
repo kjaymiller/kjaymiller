@@ -39,33 +39,33 @@ class PathCrawler:
         return json.dumps(filled_feed_data)
 
 
-def JSON_feed_items(self, items, path):
-    feed_items = []
-    for item in items:
-        items_values = {
-           'id':item.id,
-           'url': f'{path}/{item.id}',
-           'external_url': item.external_url,
-           'title': item.title,
-           'content_html': item.markup, 
-           'summary': item.summary,
-           'date_published': item.date_published,
-           'date_modified': item.date_modified,
-           } 
+    def JSON_feed_items(self, items, path):
+        feed_items = []
+        for item in items:
+            items_values = {
+               'id':item.id,
+               'url': f'{path}/{item.id}',
+               'external_url': item.external_url,
+               'title': item.title,
+               'content_html': item.markup, 
+               'summary': item.summary,
+               'date_published': item.date_published,
+               'date_modified': item.date_modified,
+               } 
 
-        other_item_values = (
-                ('image', config.DEFAULT_POST_IMAGE), 
-                ('banner_image', config.DEFAULT_POST_BANNER),
-                ('author', None) 
-            )
-        
-        for other_value in other_item_values:
-            if other_value[0] in other.__dict__.keys():
-                item_values[other_value[0]] = item.__dict__[other_value[0]]
-            elif other_value[1]:
-                item_values[other_value[0]] = other_value[1]
-            else:
-                continue
+            other_item_values = (
+                    ('image', config.DEFAULT_POST_IMAGE), 
+                    ('banner_image', config.DEFAULT_POST_BANNER),
+                    ('author', None) 
+                )
+            
+            for other_value in other_item_values:
+                if other_value[0] in other.__dict__.keys():
+                    item_values[other_value[0]] = item.__dict__[other_value[0]]
+                elif other_value[1]:
+                    item_values[other_value[0]] = other_value[1]
+                else:
+                    continue
 
-        feed_items.append(item_values)
-    return feed_items 
+            feed_items.append(item_values)
+        return feed_items 

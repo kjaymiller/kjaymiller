@@ -12,7 +12,7 @@ from datetime import datetime
 import arrow
 
 class Page():
-    def __init__(self, base_file=None, template='page.html'):
+    def __init__(self, base_file=None, template='page.html', **kwargs):
         # self.id looks for us
         self._id = None
         self._slug = None
@@ -25,7 +25,7 @@ class Page():
             self.from_file(base_file) # creates initial properties and self.content
 
         temp =  env.get_template(self.template)
-        self.html = temp.render(metadata=self, config=config)
+        self.html = temp.render(metadata=self, config=config, **kwargs)
         
     def from_file(self, base_file):
         matcher = r'^\w+:'
