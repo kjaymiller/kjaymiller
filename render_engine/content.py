@@ -17,6 +17,7 @@ class Page():
         self._id = None
         self._slug = None
         self.template = template
+        self._date_published = None
         # self.date_published looks for us
         self._date = None
         self.base_file = base_file
@@ -45,22 +46,24 @@ class Page():
         self.__str__ = self.content
         temp =  env.get_template(self.template)
         self.html = temp.render(metadata=self, config=config) 
+        self.date_published = self.get_date_published()
 
     @property
     def id(self):
         return self._id or self._slug or self.base_file.stem
     
-    @property
-    def date_published(self):
+    def get_date_published(self):
         """Returns the value of _date_published or _date, or created_datetime from
 the system if not defined. NOTE THE SYSTEM DATE IS KNOWN TO CAUSE
 ISSUES WITH FILES THAT WERE COPIED OR TRANSFERRED WITHOUT THEIR
 METADATA BEING TRANSFER READ AS WELL"""
 
         if self._date_published:
+            print("None")
             return self._date_published
 
-        elif '_date':
+        elif self._date:
+            print("Using '_date'")
             return self._date
 
         else:

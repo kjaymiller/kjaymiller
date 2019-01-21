@@ -46,5 +46,6 @@ def generate(path):
                 template = 'blog_list.html', 
                 post_list=pages) #THIS SHOULD BE THE LIST OF FILES (f.name, f.id)
     return pages
+
 if __name__=="__main__":
     generate()

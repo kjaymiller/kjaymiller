@@ -44,7 +44,7 @@ podcast_block = (
             'img': '',
             }
             )
-latest_posts = sorted(blog_posts, page.date_published, reverse=True)
+latest_posts = sorted(blog_posts, key=lambda page: page.date_published, reverse=True)
 index =  Page(template='index.html', podcast_block=podcast_block, latest_posts=latest_posts).html
 write_page('index', index)
 
