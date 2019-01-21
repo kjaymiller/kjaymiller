@@ -8,7 +8,6 @@ def paginate(iterable, items_per_page, fillvalue=None):
     # grouper('ABCDEFG', 3, 'x') --> ABC DEF Gxx"
     args = [iter(iterable)] * items_per_page
     iterable = zip_longest(*args, fillvalue=fillvalue) 
-    print(iterable)
     return iterable
 
 def write_paginated_pages(name, pagination, template, **kwargs):
