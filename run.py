@@ -2,7 +2,9 @@ import config
 from pathlib import Path
 from render_engine.content import Page, BlogPost, MicroBlogPost, PodcastEpisode
 from _path import ContentPath
-from generators import generate, write_page
+from generators import generate, gen_static, write_page
+import shutil
+
 
 
 pages = ContentPath(
@@ -15,6 +17,7 @@ pages = ContentPath(
 blog = ContentPath(
         name = 'blog',
         content_type = BlogPost,
+        output_path = 'blog',
         )
 
 microblog = ContentPath(
@@ -23,9 +26,13 @@ microblog = ContentPath(
         content_path = 'microblog',
         )
 
+shutil.rmtree(Path(config.OUTPUT_PATH))
+
 pages = generate(pages)
 blog_posts = generate(blog)
 microblogs = generate(microblog)
+
+gen_static()
 
 podcast_block = (
             {
@@ -44,6 +51,7 @@ podcast_block = (
             'img': '',
             }
             )
+
 latest_posts = sorted(blog_posts, key=lambda page: page.date_published, reverse=True)
 index =  Page(template='index.html', podcast_block=podcast_block, latest_posts=latest_posts).html
 write_page('index', index)
