@@ -18,7 +18,6 @@ class Page():
         self._slug = None
         self.template = template
         # self.date_published looks for us
-        self._date_published = None
         self._date = None
         self.base_file = base_file
         
@@ -45,12 +44,12 @@ class Page():
         self.title = getattr(self, '_title', '')
         self.__str__ = self.content
         temp =  env.get_template(self.template)
-        self.html = temp.render(metadata=self, config=config)
+        self.html = temp.render(metadata=self, config=config) 
 
     @property
     def id(self):
         return self._id or self._slug or self.base_file.stem
-
+    
     @property
     def date_published(self):
         """Returns the value of _date_published or _date, or created_datetime from

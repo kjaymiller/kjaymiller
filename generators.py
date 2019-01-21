@@ -40,12 +40,12 @@ def generate(paths):
             write_page(f'{p.output_path}/{page.id}', page.html)
             pages.append({'id': page.id, 'title': page.title}) 
         
-        print(list(page for page in pages))
-        paginate.write_paginated_pages(
-                name = p.name, 
-                pagination = paginate.paginate(pages, 10), 
-                template = 'blog_list.html', 
-                post_list=pages) #THIS SHOULD BE THE LIST OF FILES (f.name, f.id)
+        if p.paginate:
+            paginate.write_paginated_pages(
+                    name = p.name, 
+                    pagination = paginate.paginate(pages, 10), 
+                    template = 'blog_list.html', 
+                    post_list=pages) #THIS SHOULD BE THE LIST OF FILES (f.name, f.id)
 
 if __name__=="__main__":
     generate()
