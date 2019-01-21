@@ -2,7 +2,7 @@ import config
 from pathlib import Path
 from render_engine.content import Page, BlogPost, MicroBlogPost, PodcastEpisode
 from _path import ContentPath
-import generators
+from generators import generate, write_page
 
 
 pages = ContentPath(
@@ -23,25 +23,28 @@ microblog = ContentPath(
         content_path = 'microblog',
         )
 
-PATHS = (pages, blog, microblog)
-
-generators.generate(PATHS) #TODO: Doesn't Render Pagination Items
+generate(pages)
+generate(blog)
+generate(microblog)
 
 podcast_block = (
             {
             'title': 'Productivity in Tech Podcast',
             'url': 'https://productivityintech.transistor.fm',
+            'img': '',
             }, 
             {
             'title': 'Dev Otaku',
             'url':'https://devotaku.transistor.fm',
-                }, 
+            'img':'',
+            }, 
             {
             'title': 'Ask a Brit',
             'url': 'https://askabrit.us',
+            'img': '',
             }
             )
 index =  Page(template='index.html', podcast_block=podcast_block).html
-generators.write_page('index', index)
+write_page('index', index)
 
 print('Ran Successfully')
