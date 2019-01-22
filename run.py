@@ -29,9 +29,13 @@ microblog = ContentPath(
 
 shutil.rmtree(Path(config.OUTPUT_PATH))
 
+blog_categories = {}
+microblog_categories = {}
+
 pages = generate(pages)
-blog_posts = generate(blog)
-microblog_posts = generate(microblog)
+blog_posts = generate(blog, category=blog_categories)
+microblog_posts = generate(microblog, microblog_categories)
+
 
 gen_static()
 

@@ -4,6 +4,7 @@ Generates the files to build out your HTML Path
 import os
 import shutil
 from writer import write_page
+from categories import add_to_categories
 import paginate
 from pathlib import Path
 from render_engine.content import (
@@ -26,7 +27,7 @@ def gen_static():
     static_path = Path(config.STATIC_PATH)
     shutil.copytree(static_path, Path(f'{config.OUTPUT_PATH}/static'))
 
-def generate(path):
+def generate(path, category=None):
     # Create Static Files
     remove_path(path)
     file_path = Path(f'{config.OUTPUT_PATH}/{path.output_path}')
@@ -46,4 +47,8 @@ def generate(path):
                 pagination = paginate.paginate(pages, 10), 
                 template = 'blog_list.html', 
                 post_list=pages) #THIS SHOULD BE THE LIST OF FILES (f.name, f.id)
+
+    if category:
+        add_to_categories(pages, category)
+
     return pages
