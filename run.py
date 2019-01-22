@@ -54,7 +54,7 @@ podcast_block = (
 
 latest_posts = sorted(blog_posts, key=lambda page: page.date_published, reverse=True)
 latest_microposts = sorted(microblog_posts, key=lambda page: page.date_published, reverse=True)
-index =  Page(template='index.html', podcast_block=podcast_block, latest_posts=latest_posts).html
+index =  Page(template='index.html', podcast_block=podcast_block, latest_microposts=latest_microposts, latest_posts=latest_posts).html
 write_page('index', index)
 
 print('Ran Successfully')
