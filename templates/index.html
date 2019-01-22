@@ -55,7 +55,12 @@
 		<h3 class="text-primary">Microblog</h3>
 		{% for micropost in latest_microposts %}
 			<div class="my-4 p-2 card">
-			{{micropost.markup}}
+			
+            <div class="card-body>
+                {{micropost.markup}} 
+            </div>
+            <div class="card-footer">
+            {{micropost.date_published}}
 		</div>
 		{% endfor %}
 		<div class="card my-2 p-3">
