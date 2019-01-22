@@ -60,3 +60,7 @@ def index():
     return Page(template='index.html', podcast_block=podcast_block, latest_microposts=latest_microposts, latest_posts=latest_posts).html
 
 print('Ran Successfully')
+
+
+
+index()
