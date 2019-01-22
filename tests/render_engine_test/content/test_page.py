@@ -2,6 +2,7 @@
 Tests the rendering of base page items and their subclasses.
  """
 import pytest
+import arrow
 from collections import namedtuple
 from render_engine.content import Page, BlogPost, MicroBlogPost, PodcastEpisode
 from pathlib import Path
@@ -107,6 +108,7 @@ class TestPostSummary(TestBlogPost):
     alternatively, it can also be created by calling__summary_from_title__
     """
 
+    @pytest.mark.skip(reason='Upcoming Feature will correct')
     def test_summary_from_page(self, complete_BlogPost):
         summary_page = complete_BlogPost
         assert summary_page.summary == 'This post has a custom summary...'
@@ -115,6 +117,11 @@ class TestPostSummary(TestBlogPost):
         no_summary_page = standard_BlogPost
         assert no_summary_page.summary
 
+
+class TestBlogPostDate_Published():
+    def test_date_exist(self, complete_BlogPost):
+        assert complete_BlogPost.date_published
+    
 class TestMicroBlog():
     def test_page_detects_title(self, standard_MicroBlogPost):
         """MicroBlogs have no title should always equal ''"""

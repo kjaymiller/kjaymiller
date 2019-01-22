@@ -23,7 +23,7 @@ this is a test file'''
 def standard_Page(standard_path):
     content = '''title: Standard Page
 id: standard-page
-date: December 19, 2018
+date: December 19, 2018 12:01
 This is a standard page with some metadata and some content.'''
     file_item = create_file(standard_path, 'standard_page.md', content)
     return Page(base_file=file_item)
@@ -40,7 +40,7 @@ def complete_BlogPost(standard_path):
     content = '''title: Complete Blog Post
 summary: This post has a custom summary
 id: complete_blog_post
-date: December 19, 2018
+date: December 19, 2018 12:02
 This is a more detailed blog post.'''
     file_item = create_file(standard_path, 'complete_blog_post.md', content)
     return BlogPost(base_file=file_item)

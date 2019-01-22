@@ -59,15 +59,15 @@ ISSUES WITH FILES THAT WERE COPIED OR TRANSFERRED WITHOUT THEIR
 METADATA BEING TRANSFER READ AS WELL"""
 
         if self._date_published:
-            print("None")
-            return self._date_published
+            date = arrow.get(self._date_published, config.TIME_FORMAT)
 
         elif self._date:
-            print("Using '_date'")
-            return self._date
+            date = arrow.get(self._date, config.TIME_FORMAT)
 
         else:
-             return get_ct_time(self.base_file)
+             date = get_ct_time(self.base_file)
+
+        return date.format(config.TIME_FORMAT)
 
     @property
     def updated(self):
@@ -77,14 +77,15 @@ DATE IS KNOWN TO CAUSE ISSUES WITH FILES THAT WERE COPIED OR
 TRANSFERRED WITHOUT THEIR METADADTA BEING TRANSFERRED AS WELL"""
 
         if self._date_modified:
-            return self._date_modified
+            date = arrow.get(self._date_modified, config.TIME_FORMAT)
         
         elif self.updated:
-            return self._date
+            date = arrow.get(self._date, config.TIME_FORMAT)
 
         else:
-            return get_mt_time(self.base_file)
+            date = get_mt_time(self.base_file)
 
+        return date.format('MMMM DD, YYYY HH:MM')
 
 class BlogPost(Page):
     def __init__(self, base_file, template='blog.html'):
