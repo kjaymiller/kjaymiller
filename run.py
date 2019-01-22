@@ -2,7 +2,8 @@ import config
 from pathlib import Path
 from render_engine.content import Page, BlogPost, MicroBlogPost, PodcastEpisode
 from _path import ContentPath
-from generators import generate, gen_static, write_page
+from writer import writer
+from generators import generate, gen_static
 import shutil
 
 
@@ -52,9 +53,10 @@ podcast_block = (
             }
             )
 
-latest_posts = sorted(blog_posts, key=lambda page: page.date_published, reverse=True)
-latest_microposts = sorted(microblog_posts, key=lambda page: page.date_published, reverse=True)
-index =  Page(template='index.html', podcast_block=podcast_block, latest_microposts=latest_microposts, latest_posts=latest_posts).html
-write_page('index', index)
+@writer(route='index')
+def index():
+    latest_posts = sorted(blog_posts, key=lambda page: page.date_published, reverse=True)
+    latest_microposts = sorted(microblog_posts, key=lambda page: page.date_published, reverse=True)
+    return Page(template='index.html', podcast_block=podcast_block, latest_microposts=latest_microposts, latest_posts=latest_posts).html
 
 print('Ran Successfully')
