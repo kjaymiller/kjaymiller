@@ -27,17 +27,17 @@ def gen_static():
     static_path = Path(config.STATIC_PATH)
     shutil.copytree(static_path, Path(f'{config.OUTPUT_PATH}/static'))
 
-def generate(path, category=None):
+def generate(path, categories=None, tags=None):
     # Create Static Files
     remove_path(path)
     file_path = Path(f'{config.OUTPUT_PATH}/{path.output_path}')
     file_path.mkdir(parents=True)
     files = [item for item in path.content_path.glob(f'*{path.extension}')]
-    pages = []
 
     # write page
-    for i in files:
-        page = path.content_type(base_file=i)
+    pages = []
+    for _ in files:
+        page = path.content_type(base_file=_)
         write_page(f'{path.output_path}/{page.id}', page.html)
         pages.append(page) 
     
@@ -48,7 +48,10 @@ def generate(path, category=None):
                 template = 'blog_list.html', 
                 post_list=pages) #THIS SHOULD BE THE LIST OF FILES (f.name, f.id)
 
-    if category:
+    if categories != None:
         add_to_categories(pages, category)
+
+    if tags != None:
+        add_to_tags(pages, tags)
 
     return pages
