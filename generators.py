@@ -32,14 +32,13 @@ def generate(path):
     file_path = Path(f'{config.OUTPUT_PATH}/{path.output_path}')
     file_path.mkdir(parents=True)
     files = [item for item in path.content_path.glob(f'*{path.extension}')]
-    page_dict = {}
+    page_dict = path.__dict__
 
     # write page
     pages = []
     for i in files:
         page = path.content_type(base_file=i)
         write_page(f'{path.output_path}/{page.id}', page.html)
-
         pages.append(page) 
     
     page_dict['pages'] = pages

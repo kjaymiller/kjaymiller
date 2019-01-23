@@ -14,6 +14,8 @@ OUTPUT_PATH = 'output'
 STATIC_PATH = 'static'
 ICON = ''
 FAVICON = ''
+DEFAULT_POST_IMAGE = ''
+DEFAULT_POST_BANNER = ''
 
 # Header Links
 Link = namedtuple('Link', ['title', 'href'])

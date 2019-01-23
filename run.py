@@ -1,11 +1,16 @@
 import config
 from pathlib import Path
-from render_engine.content import Page, BlogPost, MicroBlogPost, PodcastEpisode
+from render_engine.content import (
+        Page, 
+        BlogPost,
+        MicroBlogPost,
+        PodcastEpisode,
+        )
+from render_engine.feeds import json_feed
 from _path import ContentPath
 from writer import write_page, writer
-from generators import generate, gen_static
+from generators import generate, gen_static 
 import shutil
-
 
 
 pages = ContentPath(
@@ -64,15 +69,18 @@ def index():
     latest_microposts = sorted(microblog_posts['pages'], key=lambda page: page.date_published, reverse=True)
     return Page(template='index.html', podcast_block=podcast_block, latest_microposts=latest_microposts, latest_posts=latest_posts).html
 
+
 def topic(topic, topic_list):
     return Page(template='categories.html', topic_list=topic[topic_list]).html
 
 index()
 
-topics = (('blog/categories', blog_posts, 'categories'),
-        ('blog/tags', blog_posts, 'tags'),
-        ('microblog/categories', microblog_posts, 'categories'),
-        ('microblog/tags', microblog_posts, 'tags'))
+topics = ((blog_posts, 'categories'),
+        (blog_posts, 'tags'),
+        (microblog_posts, 'categories'),
+        (microblog_posts, 'tags'))
 
 for _ in topics:
-    write_page(_[0], topic(_[1], _[2]))
+    output_path = _[0]['output_path']
+    write_page(output_path, topic(_[0], _[1]))
+    
