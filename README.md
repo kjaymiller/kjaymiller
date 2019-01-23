@@ -18,5 +18,5 @@ Pages at their core are extremely simple but by subclassing into different types
 
 #### _Examples of Page Objects:_
 - Blog Posts
-_ Micro Blog Posts
+- Micro Blog Posts
 - Podcast Episodes
