@@ -18,8 +18,13 @@ class Page():
         self._slug = None
         self.template = template
         self._date_published = None
+        self._date_modified = None
+        self._category = 'Uncategorized'
+
         # self.date_published looks for us
         self._date = None
+        self._updated = None
+
         self.base_file = base_file
         
         if base_file:
@@ -47,6 +52,7 @@ class Page():
         temp =  env.get_template(self.template)
         self.html = temp.render(metadata=self, config=config) 
         self.date_published = self.get_date_published()
+        self.date_modified = self.get_date_modified()
 
     @property
     def id(self):
@@ -69,8 +75,7 @@ METADATA BEING TRANSFER READ AS WELL"""
 
         return date.format(config.TIME_FORMAT)
 
-    @property
-    def updated(self):
+    def get_date_modified(self):
         """Returns the value of _date_modified or _update, or the
 modified_datetime from the system if not defined. NOTE THE SYSTEM 
 DATE IS KNOWN TO CAUSE ISSUES WITH FILES THAT WERE COPIED OR 
@@ -79,11 +84,11 @@ TRANSFERRED WITHOUT THEIR METADADTA BEING TRANSFERRED AS WELL"""
         if self._date_modified:
             date = arrow.get(self._date_modified, config.TIME_FORMAT)
         
-        elif self.updated:
+        elif self._updated:
             date = arrow.get(self._date, config.TIME_FORMAT)
 
         else:
-            date = get_mt_time(self.base_file)
+            date = get_md_time(self.base_file)
 
         return date.format('MMMM DD, YYYY HH:MM')
 
