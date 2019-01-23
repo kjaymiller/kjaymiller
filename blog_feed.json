@@ -1,8 +1,0 @@
-{
-	"version": "https://jsonfeed.org/version/1",
-	"home_page_url": "https://kjaymiller.com",
-	"feed_url": "https://kjaymiller.com/static/blog.json",
-	"author": {
-		"name": "Jay Miller",
-		"url": "https://twitter.com/kjaymiller"}
-}
