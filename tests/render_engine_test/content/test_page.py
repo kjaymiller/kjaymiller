@@ -4,7 +4,7 @@ Tests the rendering of base page items and their subclasses.
 import pytest
 import arrow
 from collections import namedtuple
-from render_engine.content import Page, BlogPost, MicroBlogPost, PodcastEpisode
+from pages.content import Page, BlogPost, MicroBlogPost, PodcastEpisode
 from pathlib import Path
 
 class TestPage():

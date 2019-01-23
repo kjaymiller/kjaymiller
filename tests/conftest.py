@@ -1,5 +1,5 @@
 import pytest
-from render_engine.content import Page, BlogPost, MicroBlogPost
+from pages.content import Page, BlogPost, MicroBlogPost
 
 @pytest.fixture(scope="session")
 def standard_path(tmp_path_factory):
