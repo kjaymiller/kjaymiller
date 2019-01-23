@@ -4,8 +4,6 @@ Generates the files to build out your HTML Path
 import os
 import shutil
 from writer import write_page
-from categories import add_to_categories
-from tags import add_to_tags
 import paginate
 from pathlib import Path
 from render_engine.content import (
@@ -54,13 +52,13 @@ def generate(path):
                 post_list=pages) 
 
     if path.categories:
-        categories = {}
-        page_dict['categories'] = add_to_categories(pages, categories)
+        page_dict['categories'] = set((p._category for p in pages))
          
-    if path.tags:
-        tags = {}
-        page_dict['tags'] = add_to_tags(pages, tags)
+    
+    if path.categories:
+        page_dict['tags'] = set()
+        for p in pages:
+            page_dict['tags'].update(set((tag for tag in p.tags)))
+            
 
-    return {
-            'pages': pages, 
-            }
+    return page_dict

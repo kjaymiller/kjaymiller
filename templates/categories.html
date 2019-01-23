@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+    {% for topic in topic_list %}
+    <ul>
+        <li>{{topic}}</li>
+    </ul>
+    {% endfor %}
+
+{% endblock %}

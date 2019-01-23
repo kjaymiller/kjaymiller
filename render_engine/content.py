@@ -18,6 +18,8 @@ class Page():
         self._slug = None
         self.template = template
         self._date_published = None
+        self._category = 'Uncategorized'
+
         # self.date_published looks for us
         self._date = None
         self.base_file = base_file
