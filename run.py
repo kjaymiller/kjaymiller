@@ -12,27 +12,22 @@ from generators import gen_static
 from writer import write_page, writer
 
 
-pages = Collection(
-        name = 'pages',
-        content_type = Page,
-        content_path = 'pages',
-        )
-
-blog = Collection(
-        name = 'blog',
-        content_type = BlogPost,
-        output_path = 'blog',
-        )
-
-microblog = Collection(
-        name = 'microblog',
-        content_type = MicroBlogPost,
-        content_path = 'microblog',
-        )
+pages = Collection(name='pages', content_type=Page, content_path='pages')
+blog = Collection(name='blog', content_type=BlogPost, output_path='blog')
+microblog = Collection(name='microblog', content_type=MicroBlogPost, content_path='microblog', output_path='microblog')
 
 shutil.rmtree(Path(config.OUTPUT_PATH))
 
-@writer(route='index')
+# build static pages
+gen_static()
+ 
+page_collections = pages, blog, microblog
+for collection in page_collections:
+    collection.output_path.mkdir(parents=True, exist_ok=True)
+    for page in collection.pages:
+        write_page(f'{collection.output_path}/{page.id}.html', page.html)
+
+@writer(route='index.html')
 def index():
     podcast_block = (
                 {
@@ -52,21 +47,7 @@ def index():
                 }
                 )
 
-    latest_posts = sorted(blog_posts['pages'], key=lambda page: page.date_published, reverse=True)
-    latest_microposts = sorted(microblog_posts['pages'], key=lambda page: page.date_published, reverse=True)
+    latest_posts = sorted(blog.pages, key=lambda page: page.date_published, reverse=True)
+    latest_microposts = sorted(microblog.pages, key=lambda page: page.date_published, reverse=True)
     return Page(template='index.html', podcast_block=podcast_block, latest_microposts=latest_microposts, latest_posts=latest_posts).html
 index()
-
-# Create Category and Tags
-topics = ((blog_posts, 'categories'),
-        (blog_posts, 'tags'),
-        (microblog_posts, 'categories'),
-        (microblog_posts, 'tags'))
-
-
-def topic(topic, topic_list):
-    return Page(template='categories.html', topic_list=topic[topic_list]).html
-
-for _ in topics:
-    output_path = _[0]['output_path']
-    write_page(f'{output_path}/{_[1]}', topic(_[0], _[1]))

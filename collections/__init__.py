@@ -9,8 +9,7 @@ class Collection:
         self.extension = kwargs.get('extension', '.md')
         content_path = kwargs.get('content_path', '')
         self.content_path = Path(f'{config.CONTENT_PATH}/{content_path}')
-        output_path = kwargs.get('output_path', self.name)
-        self.output_path = Path(f'{output_path}')
+        self.output_path = Path(f'{config.OUTPUT_PATH}/'+ kwargs.get('output_path', ''))
         pages = self.content_path.glob('*.md')
         self.pages = [self.content_type(base_file=p) for p in pages]
                 
