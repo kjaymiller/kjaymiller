@@ -1,47 +1,36 @@
 import config
 import shutil
 from pathlib import Path
-from _path import ContentPath
+from Collections import Collection
 from pages.content import (
         Page, 
         BlogPost,
         MicroBlogPost,
         PodcastEpisode,
         )
-from generators import generate, gen_static 
+from generators import gen_static 
 from writer import write_page, writer
 
 
-pages = ContentPath(
+pages = Collection(
         name = 'pages',
         content_type = Page,
         content_path = 'pages',
-        paginate = False,
         )
 
-blog = ContentPath(
+blog = Collection(
         name = 'blog',
         content_type = BlogPost,
         output_path = 'blog',
-        categories = True,
-        tags = True,
         )
 
-microblog = ContentPath(
+microblog = Collection(
         name = 'microblog',
         content_type = MicroBlogPost,
         content_path = 'microblog',
-        categories = True,
-        tags = True,
         )
 
 shutil.rmtree(Path(config.OUTPUT_PATH))
-
-pages = generate(pages)
-blog_posts = generate(blog)
-microblog_posts = generate(microblog)
-
-gen_static()
 
 @writer(route='index')
 def index():
