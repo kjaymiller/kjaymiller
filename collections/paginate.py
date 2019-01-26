@@ -13,5 +13,5 @@ def paginate(iterable, items_per_page, fillvalue=None):
 def write_paginated_pages(name, pagination, template, path, **kwargs):
     temp =  env.get_template(template)
     for block in enumerate(pagination):
-        render = temp.render(post_list=block[1], config=config, **kwargs)
+        render = temp.render(post_list=[b for b in block[1] if b], config=config, **kwargs)
         write_page(f'{path}/{name}_{block[0]}.html', render)
