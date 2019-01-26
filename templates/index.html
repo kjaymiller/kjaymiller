@@ -57,8 +57,8 @@
         <ul>
             {% for item in what_im_block %}
             <li>
-                <a href="{% item['url'] %}">
-                    {% item['name'] %}
+                <a href="{{ item['url'] }}">
+                    {{ item['name'] }}
                 </a>
             </li>
             {% endfor %}
