@@ -1,4 +1,5 @@
 import config
+from collections import defaultdict
 from pages.content import Page
 from pathlib import Path
 
@@ -23,11 +24,15 @@ class Collection:
         
     @property
     def categories(self):
-        return set((p._category for p in self.pages))
+        d = defaultdict(list)
+        for p in self.pages:
+            d[p._category].append(p) 
+        return d
 
     @property
     def tags(self):
-        tag_list = set()
+        d = defaultdict(list)
         for p in self.pages:
-            tag_list.update(set((tag for tag in p.tags)))
-        return tag_list
+            for tag in p.tags:
+                d[tag].append(p)
+        return d
