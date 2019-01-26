@@ -3,6 +3,7 @@ import shutil
 from pathlib import Path
 from Collections import Collection
 from collections import defaultdict
+from Collections.paginate import write_paginated_pages
 from pages.content import (
         Page, 
         BlogPost,
@@ -52,10 +53,14 @@ def index():
     latest_microposts = sorted(microblog.pages, key=lambda page: page.date_published, reverse=True)
     return Page(template='index.html', podcast_block=podcast_block, latest_microposts=latest_microposts, latest_posts=latest_posts).html
 
+def pagination():
+    page_groups = blog, microblog
+    for page in page_groups:
+        write_paginated_pages(page.name, page.paginate, template='blog_list.html')
 
-def paginations():
-    pages = blog, microblog
-    for page in pages:
+def categorization():
+    page_groups = blog, microblog
+    for page in page_groups:
         category_filename = f'{page.output_path}/categories'
         category_path = Path(category_filename)
         category_path.mkdir(parents=True, exist_ok=True)
@@ -71,4 +76,5 @@ def paginations():
             write_page(f'{tag_path}/{tag}.html', Page(template='blog_list.html', post_list=page.categories[category], output_path=page.output_path).html)
 
 index()
-paginations()
+categorization()
+pagination()

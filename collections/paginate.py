@@ -1,5 +1,5 @@
 from itertools import zip_longest
-from render_engine import env
+from environment import env
 from writer import write_page
 import config
 
@@ -13,5 +13,5 @@ def paginate(iterable, items_per_page, fillvalue=None):
 def write_paginated_pages(name, pagination, template, **kwargs):
     temp =  env.get_template(template)
     for block in enumerate(pagination):
-        render = temp.render(block=block[1], config=config, **kwargs)
-        write_page(f'{name}_{block[0]}', render)
+        render = temp.render(post_list=block[1], config=config, **kwargs)
+        write_page(f'{config.OUTPUT_PATH}/{name}_{block[0]}.html', render)
