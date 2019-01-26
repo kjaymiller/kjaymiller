@@ -56,7 +56,7 @@ def index():
 def pagination():
     page_groups = blog, microblog
     for page in page_groups:
-        write_paginated_pages(page.name, page.paginate, template='blog_list.html')
+        write_paginated_pages(page.name, page.paginate, path=page.output_path, template='blog_list.html')
 
 def categorization():
     page_groups = blog, microblog
