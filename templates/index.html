@@ -50,13 +50,16 @@
     </div>
     <div class="">
         <h3>What I'm...</h3>
-        {% for block_item in what_im_block %}
         <ul>
+        {% for block_item in what_im_block %}
             <li>
                 <a href="{% block_item['url'] %}">
                     {% block_item['name'] %}
                 </a>
             </li>
+            {% endblock %}
+        </ul>
+    
     </div>
 		<div id="twitter-card" class="card mx-3 p-3">
 			<h4>Twitter</h4>
