@@ -55,10 +55,10 @@
     <div class="">
         <h3>What I'm...</h3>
         <ul>
-            {% for block_item in what_im_block %}
+            {% for item in what_im_block %}
             <li>
-                <a href="{% block_item['url'] %}">
-                    {% block_item['name'] %}
+                <a href="{% item['url'] %}">
+                    {% item['name'] %}
                 </a>
             </li>
             {% endfor %}
