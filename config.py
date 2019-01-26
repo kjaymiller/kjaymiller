@@ -20,7 +20,7 @@ DEFAULT_POST_BANNER = ''
 # Header Links
 Link = namedtuple('Link', ['title', 'href'])
 HEADER_LINKS = (
-    Link('Blog', '/blog_0.html'),
+    Link('Blog', '/blog/blog_0.html'),
     Link('Newsletter', '/subscribe.html'),
     Link('Contact','/contact.html'),
     Link('PIT', 'https://productivityintech.com'),
