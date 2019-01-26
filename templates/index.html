@@ -6,52 +6,56 @@
 {% block content%}
 <!--Start Jumbotron  -->
 <div class="container">
-	<div class="jumbotron row bg-transparent border-bottom border-primary">
-            <h2 class="font-italic"> {{config.SITE_SUBTITLE}}</h2>
-		</div>
+    <div class="jumbotron row bg-transparent border-bottom border-primary">
+        <h2 class="font-italic"> {{config.SITE_SUBTITLE}}</h2>
+    </div>
 </div>
 <div class="row flex px-5 justify-content-around">
-	<div class="col-md-6 px-1">
-		<div>
-			<h2 class="text-primary"> Latest Blog Posts</h2>
-			{% for latest_post in latest_posts %}
-			<div class="card p-3 my-3">
-				<a href="blog/{{latest_post.id}}.html"> <h3 class = "p-1 card-title text-secondary"> {{latest_post.title}}</h3></a>
-				<p> {{latest_post['summary']}}</p> <a href="blog/{{latest_post['id']}}.html"
-					class="text-right px-3"> Read More </a>
-			</div>
-			{% endfor %}
-		</div>
-
-		<div class="">
-			<h3> Podcasts </h1>
-            {% for podcast in podcast_block %}
-			<div class="card-deck align-items-center">
-				<div class="p-2 card">
-                    <h4 class=""><a class="text-secondary" href="{{podcast['url']}}">{{podcast['title']}}</a></h4>
-				</div>
-			</div>
+    <div class="col-md-6 px-1">
+        <div>
+            <h2 class="text-primary"> Latest Blog Posts</h2>
+            {% for latest_post in latest_posts %}
+            <div class="card p-3 my-3">
+                <a href="blog/{{latest_post.id}}.html">
+                    <h3 class = "p-1 card-title text-secondary">
+                        {{latest_post.title}}
+                    </h3>
+                </a>
+                <p> {{latest_post['summary']}}</p> <a href="blog/{{latest_post['id']}}.html"
+                                                      class="text-right px-3"> Read More </a>
+            </div>
             {% endfor %}
-		</div>
-	<div id="microblog-widget" class="px-2 my-3">
-		<h3 class="text-primary">Microblog</h3>
-		{% for micropost in latest_microposts %}
-			<div class="my-4 p-2 card">
-			
-            <div class="card-body">
-                {{micropost.markup}} 
+        </div>
+
+        <div class="">
+            <h3> Podcasts </h1>
+            {% for podcast in podcast_block %}
+            <div class="card-deck align-items-center">
+                <div class="p-2 card">
+                    <h4 class=""><a class="text-secondary" href="{{podcast['url']}}">{{podcast['title']}}</a></h4>
+                </div>
             </div>
-            <div class="card-footer">
-            {{micropost.date_published}}
-		</div>
+            {% endfor %}
+        </div>
+        <div id="microblog-widget" class="px-2 my-3">
+            <h3 class="text-primary">Microblog</h3>
+            {% for micropost in latest_microposts %}
+            <div class="my-4 p-2 card">
+
+                <div class="card-body">
+                    {{micropost.markup}} 
+                </div>
+                <div class="card-footer">
+                    {{micropost.date_published}}
+                </div>
             </div>
-		{% endfor %}
-	</div>
+            {% endfor %}
+        </div>
     </div>
     <div class="">
         <h3>What I'm...</h3>
         <ul>
-        {% for block_item in what_im_block %}
+            {% for block_item in what_im_block %}
             <li>
                 <a href="{% block_item['url'] %}">
                     {% block_item['name'] %}
@@ -59,36 +63,36 @@
             </li>
             {% endfor %}
         </ul>
-    
+
     </div>
-		<div id="twitter-card" class="card mx-3 p-3">
-			<h4>Twitter</h4>
-			<a class="twitter-timeline" data-width="300" data-height="800" href="https://twitter.com/kjaymiller/likes?ref_src=twsrc%5Etfw">Tweets Liked by @kjaymiller</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-		</div>
-	</div>
+    <div id="twitter-card" class="card mx-3 p-3">
+        <h4>Twitter</h4>
+        <a class="twitter-timeline" data-width="300" data-height="800" href="https://twitter.com/kjaymiller/likes?ref_src=twsrc%5Etfw">Tweets Liked by @kjaymiller</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
 </div>
-	</div>
+</div>
+</div>
 </div>
 
 <div class="jumbotron">
-		<!-- Newsletter Subscription -->
-		<form
-			action="https://buttondown.email/api/emails/embed-subscribe/productivityintech"
-			method="post"
-			target="popupwindow"
-			onsubmit="window.open('https://buttondown.email/productivityintech', 'popupwindow')"
-			class="embeddable-buttondown-form px-5">
-			<h4 class="font-italic font-weight-strong text-primary"> All this content (plus some extra goodies) in a digestible package in your inbox! </h4> <input type="email"
-			name="email"
-			placeholder="Email"
-			id="bd-email">
-			<input type="hidden"
-			value="1"
-			name="embed" />
-			<input class="btn align-right btn-primary my-2"
-			type="submit"
-			value="Subscribe" />
-	</form>
-	<!-- End Newsletter -->
+    <!-- Newsletter Subscription -->
+    <form
+     action="https://buttondown.email/api/emails/embed-subscribe/productivityintech"
+     method="post"
+     target="popupwindow"
+     onsubmit="window.open('https://buttondown.email/productivityintech', 'popupwindow')"
+     class="embeddable-buttondown-form px-5">
+        <h4 class="font-italic font-weight-strong text-primary"> All this content (plus some extra goodies) in a digestible package in your inbox! </h4> <input type="email"
+                                                                                                                                                                name="email"
+                                                                                                                                                                placeholder="Email"
+                                                                                                                                                                id="bd-email">
+        <input type="hidden"
+               value="1"
+               name="embed" />
+        <input class="btn align-right btn-primary my-2"
+               type="submit"
+               value="Subscribe" />
+    </form>
+    <!-- End Newsletter -->
 </div>
 {% endblock %}
