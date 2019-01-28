@@ -56,10 +56,11 @@
         <div id="What-im">
             <h3>What I'm...</h3>
                 {% for section in what_im_block %}
-                <h4> {{section}} </h4>
+		
+        	<div class="card">
+                <h4 class="card-title"> {{section}} </h4>
             <ul>
                 {% for item in what_im_block[section] %}
-                <li>
                     <a href="{{ item['url'] }}" class="text-secondary">
 			    <img src="{{ item['image'] }}" alt={{ item['title'] }}>
                     </a>
