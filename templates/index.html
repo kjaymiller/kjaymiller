@@ -55,9 +55,9 @@
     <div>
         <div class="">
             <h3>What I'm...</h3>
-            <ul>
                 {% for section in what_im_block %}
                 <h2> {{section}} </h2>
+            <ul>
                 {% for item in section %}
                 <li>
                     <a href="{{ item['url'] }}">
@@ -65,8 +65,8 @@
                     </a>
                 </li>
                 {% endfor %}
-                {% endfor %}
             </ul>
+                {% endfor %}
 
         </div>
         <div id="twitter-card" class="card mx-3 p-3">
