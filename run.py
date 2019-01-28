@@ -33,7 +33,7 @@ for collection in page_collections:
 def index():
     what_im_block = ({
         'playing': [
-            {'title': "Hearthstone",, 'url':'https://playhearthstone.com/en-us/', 'image':'https://dsc.cloud/kjmScreenshots/iu.jpeg'},  
+            {'title': "Hearthstone", 'url':'https://playhearthstone.com/en-us/', 'image':'https://dsc.cloud/kjmScreenshots/iu.jpeg'},  
             {'title': 'Puyo Puyo Tertris', 'url': 'https://amzn.to/2RTv4oP', 'image':'https://kjaymiller.s3-us-west-2.amazonaws.com/images/sega_home_page-banner_4.jpg'}
             {'title': 'Tetris Effect', 'url': 'https://amzn.to/2Wo4BOX', 'image':'https://kjaymiller.s3-us-west-2.amazonaws.com/images/nonvolcanic-unstatically-sloughy-fribbling.jpg'}], 
         'reading': [
