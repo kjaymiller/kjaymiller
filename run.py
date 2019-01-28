@@ -31,6 +31,17 @@ for collection in page_collections:
 
 @writer(route='index.html')
 def index():
+    what_im_block = ({
+        'playing': [
+            {'title': "Hearthstone",, 'url':'https://playhearthstone.com/en-us/', 'image':'https://dsc.cloud/kjmScreenshots/iu.jpeg'},  
+            {'title': 'Puyo Puyo Tertris', 'url': 'https://amzn.to/2RTv4oP', 'image':'https://kjaymiller.s3-us-west-2.amazonaws.com/images/sega_home_page-banner_4.jpg'}
+            {'title': 'Tetris Effect', 'url': 'https://amzn.to/2Wo4BOX', 'image':'https://kjaymiller.s3-us-west-2.amazonaws.com/images/nonvolcanic-unstatically-sloughy-fribbling.jpg'}], 
+        'reading': [
+            {'title': 'The Bullet Journal Method',
+             'url': 'https://bulletjournal.com/pages/book',
+             'image': 'https://cdn.shopify.com/s/files/1/0882/3478/files/Book_1320dabd-bc26-436d-9bc3-0f1741e91716_1200x.png?v=1531840787'}],
+            })
+
     podcast_block = (
                 {
                 'title': 'Productivity in Tech Podcast',
@@ -51,7 +62,10 @@ def index():
 
     latest_posts = sorted(blog.pages, key=lambda page: page.date_published, reverse=True)
     latest_microposts = sorted(microblog.pages, key=lambda page: page.date_published, reverse=True)
-    return Page(template='index.html', podcast_block=podcast_block, latest_microposts=latest_microposts, latest_posts=latest_posts).html
+    return Page(template='index.html', 
+            what_im_block=what_im_block, 
+            podcast_block=podcast_block, 
+            latest_microposts=latest_microposts, latest_posts=latest_posts).html
 
 def pagination():
     page_groups = blog, microblog

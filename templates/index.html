@@ -56,12 +56,15 @@
         <div class="">
             <h3>What I'm...</h3>
             <ul>
-                {% for item in what_im_block %}
+                {% for section in what_im_block %}
+                <h2> {{section}} </h2>
+                {% for item in section %}
                 <li>
                     <a href="{{ item['url'] }}">
                         {{ item['name'] }}
                     </a>
                 </li>
+                {% endfor %}
                 {% endfor %}
             </ul>
 
