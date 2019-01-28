@@ -54,13 +54,13 @@
     </div>
     <div>
         <div class="">
-            <h3>What I'm...</h3>
+            <h2>What I'm...</h2>
                 {% for section in what_im_block %}
-                <h2> {{section}} </h2>
+                <h3> {{section}} </h3>
             <ul>
                 {% for item in what_im_block[section] %}
                 <li>
-                    <a href="{{ item['url'] }}">
+                    <a href="{{ item['url'] }}" class="text-dark">
                         {{ item['title'] }}
                     </a>
                 </li>
