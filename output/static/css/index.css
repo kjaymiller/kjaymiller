@@ -2,5 +2,6 @@
     max-width: 100%;
 }
 #what-im img {
-max-width: 45%
+max-width: 45%;
+max-heigth: 125px;
 }
