@@ -53,7 +53,7 @@
         </div>
     </div>
     <div>
-        <div class="">
+        <div id="What-im">
             <h2>What I'm...</h2>
                 {% for section in what_im_block %}
                 <h3> {{section}} </h3>
@@ -61,7 +61,7 @@
                 {% for item in what_im_block[section] %}
                 <li>
                     <a href="{{ item['url'] }}" class="text-secondary">
-                        {{ item['title'] }}
+			    <img src="{{ item['image'] }}" alt={{ item['title'] }}>
                     </a>
                 </li>
                 {% endfor %}
