@@ -4,5 +4,5 @@
 
 *.tar
 
-package.json
+.ropeproject
 node_modules
