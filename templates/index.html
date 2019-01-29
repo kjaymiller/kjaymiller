@@ -13,15 +13,16 @@
             <h2 class="text-primary"> Latest Blog Posts</h2>
             <div class="row">
                 {% for latest_post in latest_posts %}
-                <div class="card col-lg-3 col-sm-5">
+                <div class="card col-lg-3 m-2 col-sm-5">
+
                 <a href="blog/{{latest_post['id']}}.html">
                     {% if latest_post.image %}
                     <img src="{{latest_post.image}}" class="card-img-top">
 		</a>
-
                     {% endif %}
+		    
                         <h4 class="p-1 card-title text-dark">
-                <a href="blog/{{latest_post['id']}}.html">
+                <a href="blog/{{latest_post['id']}}.html text-dark">
                             {{latest_post.title}}
 		</a>
                         </h4>
