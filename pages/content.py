@@ -19,6 +19,7 @@ class Page():
         self._date_published = None
         self._date_modified = None
         self._category = 'Uncategorized'
+        self._image = None
 
         # self.date_published looks for us
         self._date = None
@@ -93,8 +94,7 @@ TRANSFERRED WITHOUT THEIR METADADTA BEING TRANSFERRED AS WELL"""
 
     @property
     def image(self):
-        return self.image or None
-
+        return self._image
 
 class BlogPost(Page):
     def __init__(self, base_file, template='blog.html'):
