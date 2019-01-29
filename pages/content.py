@@ -42,7 +42,7 @@ class Page():
                 key = line_data[0].lower()
                 value = line_data[-1].rstrip()
                 setattr(self, f'_{key}', value)
-            content = '\n'.join(md_content).strip()
+            content = '\n'.join(md_content[1:]).strip()
             self.content = content
             self.markup = Markup(markdown(content))
 
