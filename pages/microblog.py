@@ -1,5 +1,5 @@
 from pages.blog import BlogPost
-
+from pages.page import get_ct_time
 
 class MicroBlogPost(BlogPost):
     title = ''
