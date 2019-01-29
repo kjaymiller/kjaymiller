@@ -109,7 +109,7 @@ class BlogPost(Page):
 
     def summary_from_content(self, content):
         print(len(content))
-        start_index = min(280, len(content) - 1)
+        start_index = min(l40, len(content) - 1)
         print(start_index) 
         while content[start_index] not in punctuation:
             start_index -= 1
