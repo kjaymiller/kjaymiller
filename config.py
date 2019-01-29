@@ -1,7 +1,7 @@
 from collections import namedtuple
 
 SITE_TITLE = "K Jay Miller"
-SITE_SUBTITLE = "The Corner of Automation, Productivity, and Community"
+SITE_SUBTITLE = "On the Corner of Automation, Productivity, and Community"
 SITE_URL = "https://kjaymiller.com"
 AUTHOR = 'KJAYMILLER'
 AUTHOR_EMAIL = 'jay@kjaymiller.com'
