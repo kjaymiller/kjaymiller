@@ -18,6 +18,7 @@ class Page():
         self.template = template
         self._date_published = None
         self._date_modified = None
+        self.image = None
         self._category = 'Uncategorized'
 
         # self.date_published looks for us
