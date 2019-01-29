@@ -92,6 +92,9 @@ TRANSFERRED WITHOUT THEIR METADADTA BEING TRANSFERRED AS WELL"""
 
         return date.format('MMMM DD, YYYY HH:MM')
 
+    @property
+    def image(self):
+        return self._image or self.image
 class BlogPost(Page):
     def __init__(self, base_file, template='blog.html'):
         super().__init__(base_file, template=template)
