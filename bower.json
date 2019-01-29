@@ -1,0 +1,15 @@
+{
+  "name": "kjaymiller.com_flask",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "https://github.com/kjaymiller/kjaymiller.com_flask",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

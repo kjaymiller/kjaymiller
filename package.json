@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "gul": "^1.0.0",
+    "gulp-bower": "0.0.14",
+    "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {
+    "bower": "^1.8.8"
+  }
+}
