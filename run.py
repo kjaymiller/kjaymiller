@@ -62,17 +62,17 @@ def index():
                 {
                 'title': 'Productivity in Tech Podcast',
                 'url': 'https://productivityintech.transistor.fm',
-                'img': 'https://kjaymiller.s3-us-west-2.amazonaws.com/images/pit-podcast.png',
+                'image': 'https://kjaymiller.s3-us-west-2.amazonaws.com/images/pit-podcast.png',
                 }, 
                 {
                 'title': 'Dev Otaku',
                 'url':'https://devotaku.transistor.fm',
-                'img':'https://kjaymiller.s3-us-west-2.amazonaws.com/images/bebop.png',
+                'image':'https://kjaymiller.s3-us-west-2.amazonaws.com/images/bebop.png',
                 }, 
                 {
                 'title': 'Ask a Brit',
                 'url': 'https://askabrit.us',
-                'img': 'https://kjaymiller.s3-us-west-2.amazonaws.com/images/AskABritv4.png',
+                'image': 'https://kjaymiller.s3-us-west-2.amazonaws.com/images/AskABritv4.png',
                 }
                 )
 
