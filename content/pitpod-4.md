@@ -1,7 +1,7 @@
-Title: [Podcast] Ask a Brit Ep 4: I don't know who that is!
+Title: [Podcast] PIT Podcast Ep 4: A Native Indi Creating An Indie Shop in Indi(ana)
 date: January 28, 2019 21:00
 url: https://productivityintech.transistor.fm/episodes/an-native-indi-creating-an-indie-shop-in-indi-ana
-image: https://askabrit.transistor.fm/episodes/i-dont-know-who-that-i://kjaymiller.s3-us-west-2.amazonaws.com/images/pit-podcast.png 
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/pit-podcast.png 
 
 My guest this week was Mike Young. 
 
