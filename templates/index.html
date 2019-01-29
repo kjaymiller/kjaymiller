@@ -10,78 +10,77 @@
         <h2 class="font-italic"> {{config.SITE_SUBTITLE}}</h2>
     </div>
 </div>
-<div class="row flex px-5 justify-content-around">
-    <div class="col-md-6 px-1">
-        <div>
+<div class="row flex px-4 justify-content-around">
+    <div class="col-md-7 px-1">
             <h2 class="text-primary"> Latest Blog Posts</h2>
             <div class="card-deck">
-            {% for latest_post in latest_posts %}
-            <div class="card p-3 col-md-6 col-lg-3 my-3">
-                {% if latest_post.image %}
-                <img src="{{latest_post.image}}" class="card-img">
-                {% endif %}
-                <a href="blog/{{latest_post.id}}.html">
-                    <h3 class = "p-1 card-title text-secondary">
-                        {{latest_post.title}}
-                    </h3>
-                </a>
-                <p> {{latest_post['summary']}}</p> <a href="blog/{{latest_post['id']}}.html"
-                                                      class="text-right px-3"> Read More </a>
-            </div>
-            {% endfor %}
-        </div>
-
-        <div id="podcasts" class="">
-            <h3 class="text-primary"> Podcasts </h1>
-            <div class=" card-deck ">
-            {% for podcast in podcast_block %}
-                <div class="p-2 card">
-                    <a class="text-secondary" href="{{podcast['url']}}">
-                    <img class="card-img" src="{{podcast['image']}}" alt="{{podcast['title']}}">
+                {% for latest_post in latest_posts %}
+                <div class="card p-3 col-md-6 col-lg-3 my-3">
+                    {% if latest_post.image %}
+                    <img src="{{latest_post.image}}" class="card-img">
+                    {% endif %}
+                    <a href="blog/{{latest_post.id}}.html">
+                        <h3 class = "p-1 card-title text-secondary">
+                            {{latest_post.title}}
+                        </h3>
                     </a>
+                    <p> {{latest_post['summary']}}</p> <a href="blog/{{latest_post['id']}}.html"
+                                                          class="text-right px-3"> Read More </a>
                 </div>
-            {% endfor %}
-            </div>
-        </div>
-        <div id="microblog-widget" class="px-2 my-3">
-            <h3 class="text-primary">Microblog</h3>
-            {% for micropost in latest_microposts %}
-            <div class="my-4 p-2 card">
-
-                <div class="card-body">
-                    {{micropost.markup}} 
-                </div>
-                <div class="card-footer">
-                    {{micropost.date_published}}
-                </div>
-            </div>
-            {% endfor %}
-        </div>
-    </div>
-    <div id="What-im" class="col-md-3">
-        <h3 class="text-primary">What I'm...</h3>
-        {% for section in what_im_block %}
-
-        <div class="card p-1 my-1">
-            <h4 class="card-title"> {{section}} </h4>
-            <ul>
-                {% for item in what_im_block[section] %}
-                <a href="{{ item['url'] }}" class="text-secondary">
-                    <img src="{{ item['image'] }}" alt={{ item['title'] }}>
-                </a>
-                </li>
                 {% endfor %}
-            </ul>
+            </div>
 
+            <div id="podcasts" class="">
+                <h3 class="text-primary"> Podcasts </h1>
+                <div class=" card-deck ">
+                    {% for podcast in podcast_block %}
+                    <div class="p-2 card">
+                        <a class="text-secondary" href="{{podcast['url']}}">
+                            <img class="card-img" src="{{podcast['image']}}" alt="{{podcast['title']}}">
+                        </a>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div id="microblog-widget" class="px-2 my-3">
+                <h3 class="text-primary">Microblog</h3>
+                {% for micropost in latest_microposts %}
+                <div class="my-4 p-2 card">
+
+                    <div class="card-body">
+                        {{micropost.markup}} 
+                    </div>
+                    <div class="card-footer">
+                        {{micropost.date_published}}
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
         </div>
+        <div id="What-im" class="col-md-3">
+            <h3 class="text-primary">What I'm...</h3>
+            {% for section in what_im_block %}
+
+            <div class="card p-1 my-1">
+                <h4 class="card-title"> {{section}} </h4>
+                <ul>
+                    {% for item in what_im_block[section] %}
+                    <a href="{{ item['url'] }}" class="text-secondary">
+                        <img src="{{ item['image'] }}" alt={{ item['title'] }}>
+                    </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+
+            </div>
             {% endfor %}
             What else am I doing? Check my NowNowNow Page! (Coming Soon!)
-        <div id="twitter-card" class="card mx-3 p-3">
-            <h4>Twitter</h4>
-            <a class="twitter-timeline" data-width="300" data-height="800" href="https://twitter.com/kjaymiller/likes?ref_src=twsrc%5Etfw">Tweets Liked by @kjaymiller</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <div id="twitter-card" class="card mx-3 p-3">
+                <h4>Twitter</h4>
+                <a class="twitter-timeline" data-width="300" data-height="800" href="https://twitter.com/kjaymiller/likes?ref_src=twsrc%5Etfw">Tweets Liked by @kjaymiller</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
         </div>
     </div>
-</div>
 </div>
 </div>
 </div>
