@@ -30,7 +30,7 @@
         <div id="podcasts" class="">
             <h3 class="text-primary"> Podcasts </h1>
             {% for podcast in podcast_block %}
-            <div class="card-deck col-md-5 align-items-center">
+            <div class="card-deck justify-content-around">
                 <div class="p-2 card">
                     <a class="text-secondary" href="{{podcast['url']}}">
                     <img class="card-img" src="{{podcast['image']}}" alt="{{podcast['title']}}">
