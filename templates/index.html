@@ -32,7 +32,9 @@
             {% for podcast in podcast_block %}
             <div class="card-deck align-items-center">
                 <div class="p-2 card">
-                    <h4 class=""><a class="text-secondary" href="{{podcast['url']}}">{{podcast['title']}}</a></h4>
+                    <a class="text-secondary" href="{{podcast['url']}}">
+                    <img class="card-img" src="{{podcast['image']}}" alt="{{podcast['title']}}">
+                    </a>
                 </div>
             </div>
             {% endfor %}
