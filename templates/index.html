@@ -15,8 +15,8 @@
                 {% for latest_post in latest_posts %}
                 <div class="card">
                 <a href="blog/{{latest_post['id']}}.html">
-                    {% if latest_post['image'] %}
-                    <img src="{{latest_post['image']}}" class="card-img">
+                    {% if image in latest_post %}
+                    <img src="{{latest_post.image}}" class="card-img">
                     {% endif %}
                         <h4 class="p-1 card-title text-secondary">
                             {{latest_post.title}}
