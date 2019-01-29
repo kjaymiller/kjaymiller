@@ -4,11 +4,10 @@ from pathlib import Path
 from ContentCollections import Collection
 from collections import defaultdict
 from ContentCollections.paginate import write_paginated_pages
-from pages.content import (
+from pages import (
         Page, 
         BlogPost,
         MicroBlogPost,
-        PodcastEpisode,
         )
 from generators import gen_static 
 from writer import write_page, writer

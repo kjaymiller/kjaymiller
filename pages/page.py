@@ -4,11 +4,15 @@ import arrow
 from datetime import datetime
 from jinja2 import Markup
 from pathlib import Path
-from string import punctuation
 from markdown import markdown
-from pages import get_md_time, get_ct_time
 from environment import env
 
+def get_ct_time(md_file):
+    return arrow.get(md_file.stat().st_ctime, tzinfo=config.REGION).format(config.TIME_FORMAT)
+
+def get_md_time(md_file):
+    return arrow.get(md_file.stat().st_mtime,
+            tzinfo=config.REGION).format(config.TIME_FORMAT)
 
 class Page():
     def __init__(self, base_file=None, template='page.html', **kwargs):
@@ -96,14 +100,3 @@ TRANSFERRED WITHOUT THEIR METADADTA BEING TRANSFERRED AS WELL"""
     def image(self):
         return self._image
 
-
-class MicroBlogPost(BlogPost):
-    title = ''
-    def __init__(self, base_file):
-        super().__init__(base_file)
-
-class PodcastEpisode(BlogPost):
-    def __init__(self, base_file, podcast_name: str, episode_number: int):
-        super().__init__(base_file)
-
-    

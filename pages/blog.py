@@ -1,3 +1,9 @@
+from jinja2 import Markup
+from string import punctuation
+from markdown import markdown
+from pages.page import Page
+
+
 class BlogPost(Page):
     def __init__(self, base_file, template='blog.html'):
         super().__init__(base_file, template=template)
