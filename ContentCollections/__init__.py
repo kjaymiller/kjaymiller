@@ -14,7 +14,8 @@ class Collection:
         self.output_path = Path(f'{config.OUTPUT_PATH}/'+ kwargs.get('output_path', ''))
         page_glob = self.content_path.glob('*.md')
         pages = [self.content_type(base_file=p) for p in page_glob]
-        self.posts = sorted(pages, key=lambda page: page.date_published, reverse=True)
+        self.pages = sorted(pages, key=lambda page: page.date_published, reverse=True)
+
     @property
     def paginate(self):
         "Collect data into fixed-length chunks or blocks"
