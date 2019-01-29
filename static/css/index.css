@@ -3,7 +3,8 @@
 }
 
 #podcasts img {
-    max-height: 100px;
+    max-width: 125px;
+    max-height: 125px;
 }
 #what-im img {
     max-height: 125px;
