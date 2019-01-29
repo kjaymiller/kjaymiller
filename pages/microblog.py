@@ -6,6 +6,7 @@ class MicroBlogPost(BlogPost):
     title = ''
     def __init__(self, base_file):
         super().__init__(base_file)
+        self.date_published = self.get_date_published()
     
     
     def get_date_published(self):
