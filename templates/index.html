@@ -70,9 +70,9 @@
 			{% for section in what_im_block %}
 
 			<div class="p-1 my-1">
-				<hr>
 				<div class="column my-2 p-2">
 					<h4 class="card-title"> {{section}} </h4>
+				<hr>
 					{% for item in what_im_block[section] %}
 					<div class="my-2 ">
 						<a href="{{ item['url'] }}" class="text-secondary">
