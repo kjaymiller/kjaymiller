@@ -52,11 +52,11 @@
             {% endfor %}
         </div>
     </div>
-    <div id="What-im">
+    <div id="What-im" class="col-md-4">
         <h3 class="text-primary">What I'm...</h3>
         {% for section in what_im_block %}
 
-        <div class="card col-md-3 p-1 my-1">
+        <div class="card p-1 my-1">
             <h4 class="card-title"> {{section}} </h4>
             <ul>
                 {% for item in what_im_block[section] %}
