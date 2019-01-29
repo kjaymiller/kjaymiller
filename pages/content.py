@@ -93,7 +93,7 @@ TRANSFERRED WITHOUT THEIR METADADTA BEING TRANSFERRED AS WELL"""
 
     @property
     def image(self):
-        return self._image or None
+        return self.image or None
 
 
 class BlogPost(Page):
