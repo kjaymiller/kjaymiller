@@ -77,7 +77,6 @@ def index():
 
     latest_posts = sorted(blog.pages, key=lambda page: page.date_published, reverse=True)
     latest_microposts = sorted(microblog.pages, key=lambda page: page.date_published, reverse=True)
-    print ([p.date_published for p in latest_microposts])
     return Page(template='index.html', 
             what_im_block=what_im_block, 
             podcast_block=podcast_block, 
