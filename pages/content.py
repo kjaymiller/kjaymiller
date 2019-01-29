@@ -42,8 +42,8 @@ class Page():
                 key = line_data[0].lower()
                 value = line_data[-1].rstrip()
                 setattr(self, f'_{key}', value)
-            content = '\n'.join(md_content[1:]).strip()
-            self.content = content
+            content = '\n'.join(md_content)
+            self.content = content.strip('\n')
             self.markup = Markup(markdown(content))
 
         self.title = getattr(self, '_title', '')
