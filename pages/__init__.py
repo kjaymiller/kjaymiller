@@ -1,4 +1,5 @@
-import arrow
-from pages.page import Page
-from pages.blog import BlogPost
-from pages.microblog import MicroBlogPost
+from .page import Page
+from .blog import BlogPost
+from .microblog import MicroBlogPost
+from .collection import Collection
+

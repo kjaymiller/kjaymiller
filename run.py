@@ -1,13 +1,13 @@
 import config
 import shutil
 from pathlib import Path
-from ContentCollections import Collection
 from collections import defaultdict
-from ContentCollections.paginate import write_paginated_pages
+from pages.paginate import write_paginated_pages
 from pages import (
         Page, 
         BlogPost,
         MicroBlogPost,
+        Collection,
         )
 from generators import gen_static 
 from writer import write_page, writer
