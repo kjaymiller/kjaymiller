@@ -20,7 +20,11 @@ METADATA BEING TRANSFER READ AS WELL"""
             date = arrow.get(self._date, config.TIME_FORMAT)
 
         elif self.base_file:
-            if arrow.get(self.base_file.stem, 'YYYYMMDDHHmm')
+            try: 
+                date = arrow.get(self.base_file.stem, 'YYYYMMDDHHmm'):
+                    
+            except:
+                date = get_ct_time(self.base_file)
 
         else:
              date = get_ct_time(self.base_file)
