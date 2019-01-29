@@ -28,13 +28,14 @@
 					</h4>
 					<div class="card-body">
 						<p> {{latest_post['summary']}}</p>
+            <p class="align-right">
+          <a href="blog/{{latest_post['id']}}.html">
+            Read More</p>
+            </a>
 					</div>
-					<p class='card-footer'>
-					<a href="blog/{{latest_post['id']}}.html">
-						Read More</p>
-					</a>
-
-				</div>
+				
+          <small="card-footer">{{latest_post.date_published}}
+        </div>
 				{% endfor %}
 			</div>
 
