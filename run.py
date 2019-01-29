@@ -71,7 +71,7 @@ def index():
                 }, 
                 {
                 'title': 'Ask a Brit',
-                'url': 'https://askabrit.us',
+                'url': 'https://askabrit.transistor.fm',
                 'image': 'https://kjaymiller.s3-us-west-2.amazonaws.com/images/AskABritv4.png',
                 }
                 )
