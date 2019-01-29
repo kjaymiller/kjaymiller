@@ -29,7 +29,7 @@
 
         <div id="podcasts" class="">
             <h3 class="text-primary"> Podcasts </h1>
-            <div class="flex row justify-content-around">
+            <div class="flex card-deck ">
             {% for podcast in podcast_block %}
                 <div class="p-2 card">
                     <a class="text-secondary" href="{{podcast['url']}}">
