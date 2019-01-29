@@ -4,3 +4,5 @@
 
 *.tar
 
+package.json
+node_modules
