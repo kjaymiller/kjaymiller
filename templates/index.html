@@ -70,9 +70,9 @@
 			{% for section in what_im_block %}
 
 			<div class="p-1 my-1">
-				<h4 class="card-title"> {{section}} </h4>
 				<hr>
 				<div class="column my-2 p-2">
+					<h4 class="card-title"> {{section}} </h4>
 					{% for item in what_im_block[section] %}
 					<div class="my-2 ">
 						<a href="{{ item['url'] }}" class="text-secondary">
@@ -84,13 +84,13 @@
 				{% endfor %}
 			</div>
 		</div>
-				<div id="twitter-card" class="card mx-3 p-3">
-					<h4>Twitter</h4>
-					<a class="twitter-timeline" data-width="300" data-height="800" href="https://twitter.com/kjaymiller/likes?ref_src=twsrc%5Etfw">Tweets Liked by @kjaymiller</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-				</div>
-			</div>
+		<div id="twitter-card" class="card p-3">
+			<h4>Twitter</h4>
+			<a class="twitter-timeline" data-width="300" data-height="800" href="https://twitter.com/kjaymiller/likes?ref_src=twsrc%5Etfw">Tweets Liked by @kjaymiller</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 		</div>
 	</div>
+</div>
+</div>
 
 <div class="jumbotron">
 	<!-- Newsletter Subscription -->
