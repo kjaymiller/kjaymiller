@@ -13,16 +13,14 @@
             <h2 class="text-primary"> Latest Blog Posts</h2>
             <div class="card-deck">
                 {% for latest_post in latest_posts %}
-                <a href="blog/{{latest_post['id']}}.html">
                 <div class="card p-3 col-md-6 col-lg-3 my-3">
+                <a href="blog/{{latest_post['id']}}.html">
                     {% if latest_post['image'] %}
                     <img src="{{latest_post['image']}}" class="card-img">
                     {% endif %}
-                    <a href="blog/{{latest_post.id}}.html">
                         <h3 class = "p-1 card-title text-secondary">
                             {{latest_post.title}}
                         </h3>
-                    </a>
                     <p> {{latest_post['summary']}}</p>
                     <p class='card-footer'>Read More</p>
                 </a>
