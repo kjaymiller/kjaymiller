@@ -8,10 +8,10 @@
 <div class="container">
   <h1 class="text-primary display-5 font-italic"> {{config.SITE_SUBTITLE}}</h1>
   <hr>
-  <div class="flex px-4 justify-content-around">
+  <div class="rows flex px-4 justify-content-around">
     <div class="col-md-8 p-1">
       <h2 class="text-gray"> Latest Blog Posts</h2>
-      <div class="row">
+      <div class="rows">
         {% for latest_post in latest_posts %}
         <div class="card col-xl-3 m-2 col-lg-5">
           {% if latest_post.image %}
