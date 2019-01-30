@@ -6,111 +6,110 @@
 {% block content%}
 <!--Start Jumbotron  -->
 <div class="container">
-	<h1 class="text-primary display-5 font-italic"> {{config.SITE_SUBTITLE}}</h1>
-	<hr>
-	<div class="row flex px-4 justify-content-around">
-		<div class="col-md-8 p-1">
-			<h2 class="text-gray"> Latest Blog Posts</h2>
-			<div class="row">
-				{% for latest_post in latest_posts %}
-				<div class="card col-xl-3 m-2 col-lg-5">
-
-					<a href="blog/{{latest_post['id']}}.html">
-						{% if latest_post.image %}
-						<img src="{{latest_post.image}}" class="card-img-top">
-					</a>
-					{% endif %}
-
-						<a href="blog/{{latest_post['id']}}.html" class="text-dark">
-              <h4 class="card-title">{{latest_post.title}}</h4>
-						</a>
-					<div class="card-body">
-						<p> {{latest_post['summary']}}</p>
-            <p class="align-right">
+  <h1 class="text-primary display-5 font-italic"> {{config.SITE_SUBTITLE}}</h1>
+  <hr>
+  <div class="row flex px-4 justify-content-around">
+    <div class="col-md-8 p-1">
+      <h2 class="text-gray"> Latest Blog Posts</h2>
+      <div class="row">
+        {% for latest_post in latest_posts %}
+        <div class="card col-xl-3 m-2 col-lg-5">
+          {% if latest_post.image %}
+          <img src="{{latest_post.image}}" class="card-img-top">
           <a href="blog/{{latest_post['id']}}.html">
-            Read More</p>
+          </a>
+          {% endif %}
+          <div class="card-img-overlay">
+            <a href="blog/{{latest_post['id']}}.html" class="text-dark">
+              <h4 class="card-title">{{latest_post.title}}</h4>
             </a>
-					</div>
-          <small="card-footer">
-            {{latest_post.date_published}}
-          </small>
-        </div>
-				{% endfor %}
-			</div>
-
-			<div id="podcasts" class="mt-3">
-				<h3 class="text-gray"> Podcasts </h3>
-				<div class=" card-deck ">
-					{% for podcast in podcast_block %}
-					<div class="p-2 card">
-						<a class="text-secondary" href="{{podcast['url']}}">
-							<img class="card-img" src="{{podcast['image']}}" alt="{{podcast['title']}}">
-						</a>
-					</div>
-					{% endfor %}
-				</div>
-			</div>
-			<div id="microblog-widget" class="px-2 my-3">
-				<h3 class="text-primary">Microblog</h3>
-				{% for micropost in latest_microposts %}
-				<div class="my-4 p-2 card">
-
-					<div class="card-body">
-						{{micropost.markup}} 
-					</div>
-					<div class="card-footer">
-            <small>
-              {{micropost.date_published}}
+            <div class="card-body">
+              <p> {{latest_post['summary']}}</p>
+              <p class="align-right">
+              <a href="blog/{{latest_post['id']}}.html">
+                Read More</p>
+              </a>
+            </div>
+            <small="card-footer">
+              {{latest_post.date_published}}
             </small>
-					</div>
-				</div>
-				{% endfor %}
-			</div>
-		</div>
-		<div id="What-im" class="col-md-3">
-			<h3 class="">What I'm...</h3>
-			{% for section in what_im_block %}
+          </div>
+          {% endfor %}
+        </div>
 
-			<div class="p-1 my-1">
-				<div class="column my-2 p-2">
-					<h4 class="card-title"> {{section}} </h4>
-					<hr>
-					{% for item in what_im_block[section] %}
-					<div class="my-2 ">
-						<a href="{{ item['url'] }}" class="text-secondary">
-							<img src="{{ item['image'] }}" alt={{ item['title'] }}>
-						</a>
-					</div>
-					{% endfor %}
-				</div>
-				{% endfor %}
-			</div>
-		</div>
-		<div id="twitter-card" class="card p-3">
-			<h4>Twitter</h4>
-			<a class="twitter-timeline" data-width="300" data-height="800" href="https://twitter.com/kjaymiller/likes?ref_src=twsrc%5Etfw">Tweets Liked by @kjaymiller</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-		</div>
-	</div>
-	<div class="jumbotron">
-		<!-- Newsletter Subscription -->
-		<form
-      action="https://buttondown.email/api/emails/embed-subscribe/productivityintech"
-      method="post"
-      target="popupwindow"
-      onsubmit="window.open('https://buttondown.email/productivityintech', 'popupwindow')"
-      class="embeddable-buttondown-form px-5">
-			<h4 class="font-italic font-weight-strong text-primary"> All this content (plus some extra goodies) in a digestible package in your inbox! </h4> <input type="email"
-																			   name="email"
-		      placeholder="Email"
-	id="bd-email">
-			<input type="hidden"
-	  value="1"
-   name="embed" />
-			<input class="btn align-right btn-primary my-2"
-	  type="submit"
-   value="Subscribe" />
-		</form>
-		<!-- End Newsletter -->
-	</div>
-</div>
-{% endblock %}
+        <div id="podcasts" class="mt-3">
+          <h3 class="text-gray"> Podcasts </h3>
+          <div class=" card-deck ">
+            {% for podcast in podcast_block %}
+            <div class="p-2 card">
+              <a class="text-secondary" href="{{podcast['url']}}">
+                <img class="card-img" src="{{podcast['image']}}" alt="{{podcast['title']}}">
+              </a>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+        <div id="microblog-widget" class="px-2 my-3">
+          <h3 class="text-primary">Microblog</h3>
+          {% for micropost in latest_microposts %}
+          <div class="my-4 p-2 card">
+
+            <div class="card-body">
+              {{micropost.markup}} 
+            </div>
+            <div class="card-footer">
+              <small>
+                {{micropost.date_published}}
+              </small>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div id="What-im" class="col-md-3">
+        <h3 class="">What I'm...</h3>
+        {% for section in what_im_block %}
+
+        <div class="p-1 my-1">
+          <div class="column my-2 p-2">
+            <h4 class="card-title"> {{section}} </h4>
+            <hr>
+            {% for item in what_im_block[section] %}
+            <div class="my-2 ">
+              <a href="{{ item['url'] }}" class="text-secondary">
+                <img src="{{ item['image'] }}" alt={{ item['title'] }}>
+              </a>
+            </div>
+            {% endfor %}
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div id="twitter-card" class="card p-3">
+        <h4>Twitter</h4>
+        <a class="twitter-timeline" data-width="300" data-height="800" href="https://twitter.com/kjaymiller/likes?ref_src=twsrc%5Etfw">Tweets Liked by @kjaymiller</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+    </div>
+    <div class="jumbotron">
+      <!-- Newsletter Subscription -->
+      <form
+         action="https://buttondown.email/api/emails/embed-subscribe/productivityintech"
+         method="post"
+         target="popupwindow"
+         onsubmit="window.open('https://buttondown.email/productivityintech', 'popupwindow')"
+         class="embeddable-buttondown-form px-5">
+        <h4 class="font-italic font-weight-strong text-primary"> All this content (plus some extra goodies) in a digestible package in your inbox! </h4> <input type="email"
+                                                                                                                                                                name="email"
+                                                                                                                                                                placeholder="Email"
+                                                                                                                                                                id="bd-email">
+        <input type="hidden"
+               value="1"
+               name="embed" />
+        <input class="btn align-right btn-primary my-2"
+               type="submit"
+               value="Subscribe" />
+      </form>
+      <!-- End Newsletter -->
+    </div>
+  </div>
+  {% endblock %}
