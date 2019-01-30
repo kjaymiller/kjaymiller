@@ -7,3 +7,7 @@
 #what-im img {
     max-height: 125px;
 }
+
+.jumbotron img {
+	max-width: 100%;
+}
