@@ -8,12 +8,12 @@
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
         {% for link in config.HEADER_LINKS %}
         {% if link.links %}
-        <li class="nav-item-dropdown">
+        <li class="nav-item-dropdown px-2">
             <a data-toggle="dropdown" href="{{link.href}}" role="button" aria-haspopup="true" aria-expanded="false" >
         <a class="nav-link" href="{{link.href}}">{{link.name}}</a>
       </li>
       {% else %}
-      <li class="nav-item">
+      <li class="nav-item px-2">
           <a href="{{link.url}}">
               {{link.name}}
           </a>
