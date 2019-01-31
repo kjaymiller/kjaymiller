@@ -25,18 +25,18 @@
       <h2 class="text-gray"> More Blog Posts</h2>
       <div class="">
         {% for latest_post in latest_posts %}
-        <div class="card row" >
+        <div class="card" >
           {% if latest_post.image %}
           <img src="{{latest_post.image}}" class="col-sm-2">
           <a href="blog/{{latest_post['id']}}.html">
           </a>
           {% endif %}
-          <p class="col-sm-7">
+          <p class="">
             <a href="blog/{{latest_post['id']}}.html" class="text-dark">
               <b class="card-title">{{latest_post.title}}</b>
             </a>
           </p>
-            <small="card-footer">
+            <small>
               {{latest_post.date_published}}
             </small>
           </div>
