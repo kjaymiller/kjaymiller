@@ -10,12 +10,12 @@
         {% if link.links %}
         <li class="nav-item-dropdown">
             <a data-toggle="dropdown" href="{{link.href}}" role="button" aria-haspopup="true" aria-expanded="false" >
-        <a class="nav-link" href="{{link.href}}">{{link.title}}</a>
+        <a class="nav-link" href="{{link.href}}">{{link.name}}</a>
       </li>
       {% else %}
       <li class="nav-item">
           <a href="{{link.url}}">
-              {{link.title}}
+              {{link.name}}
           </a>
      </li>
           {% endif %}
