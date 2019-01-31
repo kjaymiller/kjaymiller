@@ -25,8 +25,8 @@ class Link:
         self.links = links
 
 HEADER_LINKS = (
-    Link('Blog', '/blog/blog_0.html'),
-    Link('Newsletter', '/subscribe.html'),
+    Link(name='Blog', url='/blog/blog_0.html'),
+    Link(name='Newsletter', url='/subscribe.html'),
     Link('Contact','/contact.html'),
     Link('PIT', 'https://productivityintech.com'),
     Link('Podcasts', links=[Link('Prodyctivity in Tech Podcast', 'https://productivityintech.transistor.fm'),
