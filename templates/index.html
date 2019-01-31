@@ -25,7 +25,7 @@
       <h2 class="text-gray"> More Blog Posts</h2>
       <div class="column">
         {% for latest_post in latest_posts %}
-        <div class="card row">
+        <div class="card" >
           {% if latest_post.image %}
           <img src="{{latest_post.image}}" class="col-xs-4">
           <a href="blog/{{latest_post['id']}}.html">
