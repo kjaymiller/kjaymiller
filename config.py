@@ -1,4 +1,4 @@
-from collections import namedtuple
+from dataclasses import dataclass
 
 SITE_TITLE = "K Jay Miller"
 SITE_SUBTITLE = "On the Corner of Automation, Productivity, and Community"
@@ -18,10 +18,19 @@ DEFAULT_POST_IMAGE = ''
 DEFAULT_POST_BANNER = ''
 
 # Header Links
-Link = namedtuple('Link', ['title', 'href'])
+class Link:
+    def __init__(self, name, url='', links=[]):
+        self.name = name
+        self.url = url
+        self.links = links
+
 HEADER_LINKS = (
     Link('Blog', '/blog/blog_0.html'),
     Link('Newsletter', '/subscribe.html'),
     Link('Contact','/contact.html'),
     Link('PIT', 'https://productivityintech.com'),
+    Link('Podcasts', links=[Link('Prodyctivity in Tech Podcast', 'https://productivityintech.transistor.fm'),
+                           Link('Ask A Brit', 'https://askabrit.transistor.fm'),
+                           Link('Dev Otaku', 'https://devotaku.transistor.fm')
+                           ])
 )

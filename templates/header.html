@@ -7,9 +7,17 @@
   <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
         {% for link in config.HEADER_LINKS %}
-      <li class="nav-item">
+        {% if link.links %}
+        <li class="nav-item-dropdown">
+            <a data-toggle="dropdown" href="{{link.href}}" role="button" aria-haspopup="true" aria-expanded="false" >
         <a class="nav-link" href="{{link.href}}">{{link.title}}</a>
       </li>
+      {% else %}
+      <li class="nav-item">
+          <a href={{link.url}}
+      </li>
+          {% endif %}
+        
       {% endfor %}
       </ul>
       <!--
