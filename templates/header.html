@@ -14,8 +14,10 @@
       </li>
       {% else %}
       <li class="nav-item">
-          <a href={{link.url}}
-      </li>
+          <a href="{{link.url}}">
+              {{link.title}}
+          </a>
+     </li>
           {% endif %}
         
       {% endfor %}
