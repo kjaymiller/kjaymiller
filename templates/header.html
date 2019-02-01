@@ -14,7 +14,7 @@
                 </a>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                         {% for link_item in link.links %}
-                        <a class="dropdown-item" href="#">{{link_item.name}}</a>
+                        <a class="dropdown-item" href="{{link_item.url}}">{{link_item.name}}</a>
                         {% endfor %}
                     </div>
             </li>
