@@ -30,8 +30,9 @@ HEADER_LINKS = (
     Link(name='Newsletter', url='/subscribe.html'),
     Link('Contact','/contact.html'),
     Link('PIT', 'https://productivityintech.com'),
-    Link('Podcasts', links=[Link('Productivity in Tech Podcast', 'https://productivityintech.transistor.fm'),
-                           Link('Ask A Brit', 'https://askabrit.transistor.fm'),
-                           Link('Dev Otaku', 'https://devotaku.transistor.fm')
+    Link('Podcasts', links=[
+        Link('Productivity in Tech Podcast', 'https://productivityintech.transistor.fm', image="https://s3-us-west-2.amazonaws.com/kjaymiller/images/pit-podcast.png"),
+                            Link('Ask A Brit', 'https://askabrit.transistor.fm'),
+                            Link('Dev Otaku', 'https://devotaku.transistor.fm')
                            ])
 )
