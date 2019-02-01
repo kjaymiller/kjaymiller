@@ -1,40 +1,40 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <a class="navbar-brand text-secondary" href="/">{{config.SITE_TITLE}}</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand text-secondary" href="/">{{config.SITE_TITLE}}</a>
 
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-        {% for link in config.HEADER_LINKS %}
-        {% if link.links %}
-        <li class="nav-item-dropdown px-2">
-            <a data-toggle="dropdown" href="{{link.href}}" role="button" aria-haspopup="true" aria-expanded="false" >
-            {{link.name}}
-            </a>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              {% for link.item in link.links %}
-              <a class="dropdown-item" href="#"> Item 1 </a>
-              <a class="dropdown-item" href="#"> Item 2 </a>
-              <a class="dropdown-item" href="#"> Item 3 </a>
-              {% endfor %}
-              </div>
-      </li>
-      {% else %}
-      <li class="nav-item px-2">
-          <a href="{{link.url}}">
-              {{link.name}}
-          </a>
-     </li>
-          {% endif %}
-        
-      {% endfor %}
-      </ul>
-      <!--
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-      -->
-  </div>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            {% for link in config.HEADER_LINKS %}
+            {% if link.links %}
+            <li class="nav-item-dropdown px-2">
+                <a data-toggle="dropdown" href="{{link.href}}" role="button" aria-haspopup="true" aria-expanded="false" >
+                    {{link.name}}
+                </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        {% for link_item in link.links %}
+                        <a class="dropdown-item" href="#"> Item 1 </a>
+                        <a class="dropdown-item" href="#"> Item 2 </a>
+                        <a class="dropdown-item" href="#"> Item 3 </a>
+                        {% endfor %}
+                    </div>
+            </li>
+            {% else %}
+            <li class="nav-item px-2">
+                <a href="{{link.url}}">
+                    {{link.name}}
+                </a>
+            </li>
+            {% endif %}
+
+            {% endfor %}
+        </ul>
+        <!--
+            <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        -->
+    </div>
 </nav>
