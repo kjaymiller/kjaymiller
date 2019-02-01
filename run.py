@@ -57,30 +57,12 @@ def index():
             ],
             })
 
-    podcast_block = (
-                {
-                'title': 'Productivity in Tech Podcast',
-                'url': 'https://productivityintech.transistor.fm',
-                'image': 'https://kjaymiller.s3-us-west-2.amazonaws.com/images/pit-podcast.png',
-                }, 
-                {
-                'title': 'Dev Otaku',
-                'url':'https://devotaku.transistor.fm',
-                'image':'https://kjaymiller.s3-us-west-2.amazonaws.com/images/bebop.png',
-                }, 
-                {
-                'title': 'Ask a Brit',
-                'url': 'https://askabrit.transistor.fm',
-                'image': 'https://kjaymiller.s3-us-west-2.amazonaws.com/images/AskABritv4.png',
-                }
-                )
 
     latest_posts = sorted(blog.pages, key=lambda page: page.date_published, reverse=True)
     latest_microposts = sorted(microblog.pages, key=lambda page: page.date_published, reverse=True)
     return Page(template='index.html', 
             what_im_block=what_im_block, 
             featured_post=latest_posts[0],
-            podcast_block=podcast_block, 
             latest_microposts=latest_microposts, latest_posts=latest_posts[1:]).html
 
 def pagination():
