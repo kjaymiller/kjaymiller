@@ -14,7 +14,13 @@
                 </a>
                     <div class="dropdown-menu row" aria-labelledby="dropdownMenuLink">
                         {% for sublink in link.links %}
-                        <img width="15px" src="{{sublink.image}}"> <a class="dropdown-item" href="{{sublink.url}}">{{sublink.name}}</a>
+                        <span class="row">
+                            <div>
+                        <img width="15px" src="{{sublink.image}}"> 
+                            </div>
+                            <div>
+                                <a class="dropdown-item" href="{{sublink.url}}">{{sublink.name}}</a>
+                            </div>
                         {% endfor %}
                     </div>
             </li>
