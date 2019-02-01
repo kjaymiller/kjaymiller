@@ -19,10 +19,11 @@ DEFAULT_POST_BANNER = ''
 
 # Header Links
 class Link:
-    def __init__(self, name, url='', links=[]):
+    def __init__(self, name, url='', image='', links=[]):
         self.name = name
         self.url = url
         self.links = links
+        self.image = image
 
 HEADER_LINKS = (
     Link(name='Blog', url='/blog/blog_0.html'),

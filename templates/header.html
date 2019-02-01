@@ -12,9 +12,9 @@
                 <a data-toggle="dropdown" href="{{link.href}}" role="button" aria-haspopup="true" aria-expanded="false" >
                     {{link.name}}
                 </a>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        {% for link_item in link.links %}
-                        <a class="dropdown-item" href="{{link_item.url}}">{{link_item.name}}</a>
+                    <div class="dropdown-menu row" aria-labelledby="dropdownMenuLink">
+                        {% for sublink in link.links %}
+                        <img width="15px" src="{{sublink.url}}"> <a class="dropdown-item" href="{{sublink.url}}">{{link_item.name}}</a>
                         {% endfor %}
                     </div>
             </li>
