@@ -148,10 +148,8 @@ You can reach out to me on Twitter.
     <script src="/static/js/bootstrap.min.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.4.1/js/all.js" integrity="sha384-L469/ELG4Bg9sDQbl0hvjMq8pOcqFgkSpwhwnslzvVVGpDjYJ6wJJyYjvG3u8XW7" crossorigin="anonymous"></script>
     <script type="text/javascript">
-    $('ul.nav li.dropdown').hover(function() {
-  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
-}, function() {
-  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+    $('.nav-item-dropdown').hover(function() {
+  $(this).attr("aria-expanded", "true")
   });
     </script>
   <footer class="jumbotron mt-5 text-center">
