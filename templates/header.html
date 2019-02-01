@@ -12,6 +12,7 @@
                 <a data-toggle="dropdown" href="{{link.href}}" role="button" aria-haspopup="true" aria-expanded="false" >
                     {{link.name}}
                 </a>
+            </li>
                     <div class="dropdown-menu" class="col-sm-4" aria-labelledby="dropdownMenuLink">
                         {% for sublink in link.links %}
                         <a class="dropdown-item" href="{{sublink.url}}">
@@ -20,7 +21,6 @@
                         </a>
                         {% endfor %}
                     </div>
-            </li>
             {% else %}
             <li class="nav-item px-2">
                 <a href="{{link.url}}">
