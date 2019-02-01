@@ -1,4 +1,4 @@
-from dataclasses import dataclass
+from links import Link
 
 SITE_TITLE = "K Jay Miller"
 SITE_SUBTITLE = "On the Corner of Automation, Productivity, and Community"
@@ -17,13 +17,6 @@ FAVICON = ''
 DEFAULT_POST_IMAGE = ''
 DEFAULT_POST_BANNER = ''
 
-# Header Links
-class Link:
-    def __init__(self, name, url='', image='', links=[]):
-        self.name = name
-        self.url = url
-        self.links = links
-        self.image = image
 
 HEADER_LINKS = (
     Link(name='Blog', url='/blog/blog_0.html'),
@@ -32,9 +25,11 @@ HEADER_LINKS = (
     Link('PIT', 'https://productivityintech.com'),
     Link('Podcasts', links=[
                         Link(name='Productivity in Tech Podcast', 
-                            url = 'https://productivityintech.transistor.fm', 
+                            url='https://productivityintech.transistor.fm', 
                             image="https://s3-us-west-2.amazonaws.com/kjaymiller/images/pit-podcast.png"),
-                        Link('Ask A Brit', 'https://askabrit.transistor.fm'),
+                        Link(name='Ask A Brit', 
+                            url='https://askabrit.transistor.fm',
+                            image='https://kjaymiller.s3-us-west-2.amazonaws.com/images/AskABritv4.png'),
                         Link('Dev Otaku', 'https://devotaku.transistor.fm')
                            ])
 )
