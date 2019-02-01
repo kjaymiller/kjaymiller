@@ -83,15 +83,15 @@
           <div class="column my-2 p-2">
             <h4 class="card-title"> {{section}} </h4>
             <hr>
+            <ul>
             {% for item in what_im_block[section] %}
-            <div class="my-2 row">
-              <div>
-                <a href="{{ item['url'] }}" class="text-secondary">
+            <li>
+              <a href="{{ item['url'] }}" class="text-secondary">
                   <b>{{item['title']}}</b>
                 </a>
-              </div>
-            </div>
+            </li>
             {% endfor %}
+            </ul>
           </div>
           {% endfor %}
         </div>
