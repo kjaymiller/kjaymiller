@@ -14,12 +14,8 @@
                 </a>
                     <div class="dropdown-menu" class="col-sm-4" aria-labelledby="dropdownMenuLink">
                         {% for sublink in link.links %}
-                            <div>
                         <img width="15px" src="{{sublink.image}}"> 
-                            </div>
-                            <div>
                                 <a class="dropdown-item" href="{{sublink.url}}">{{sublink.name}}</a>
-                            </div>
                         {% endfor %}
                     </div>
             </li>
