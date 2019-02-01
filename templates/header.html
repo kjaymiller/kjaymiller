@@ -10,7 +10,14 @@
         {% if link.links %}
         <li class="nav-item-dropdown px-2">
             <a data-toggle="dropdown" href="{{link.href}}" role="button" aria-haspopup="true" aria-expanded="false" >
-        <a class="nav-link" href="{{link.href}}">{{link.name}}</a>
+            {{link.name}}
+            </a>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              {% for link.item in link.links %}
+              <a class="dropdown-item" href="#"> Item 1 </a>
+              <a class="dropdown-item" href="#"> Item 2 </a>
+              <a class="dropdown-item" href="#"> Item 3 </a>
+              </div>
       </li>
       {% else %}
       <li class="nav-item px-2">
