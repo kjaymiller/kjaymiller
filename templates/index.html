@@ -48,27 +48,6 @@
         {% endfor %}
       </div>
 
-      <!-- Microblog Section -->
-      <div id="col-md-3 microblog-widget" class="px-2 my-3">
-        <h2 class="text-primary">Microblog</h2>
-
-        {% for micropost in latest_microposts %}
-        <div class="my-4 p-2 card">
-          <div class="card-body">
-            {{micropost.markup}} 
-          </div>
-
-          <div class="card-footer">
-            <small>
-              {{micropost.date_published}}
-            </small>
-          </div>
-
-        </div>
-        {% endfor %}
-
-      </div>
-    </div>
       <!-- What I'm Section -->
       <div id="What-im" class="mx-3 col-md-4">
         <h3 class="">What I'm...</h3>
@@ -114,4 +93,26 @@
       <!-- End Newsletter -->
     </div>
   </div>
+
+      <!-- Microblog Section -->
+      <div id="col-md-3 microblog-widget" class="px-2 my-3">
+        <h2 class="text-primary">Microblog</h2>
+
+        {% for micropost in latest_microposts %}
+        <div class="my-4 p-2 card">
+          <div class="card-body">
+            {{micropost.markup}} 
+          </div>
+
+          <div class="card-footer">
+            <small>
+              {{micropost.date_published}}
+            </small>
+          </div>
+
+        </div>
+        {% endfor %}
+
+      </div>
+    </div>
   {% endblock %}
