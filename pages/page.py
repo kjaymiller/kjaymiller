@@ -19,23 +19,29 @@ class Page():
         # self.id looks for us
         self._id = None
         self._slug = None
-        self.template = template
         self._date_published = None
         self._date_modified = None
         self._category = 'Uncategorized'
         self._image = None
+        
+        if template:
+            self._template = template
 
         # self.date_published looks for us
         self._date = None
         self._updated = None
 
+
         self.base_file = base_file
-        
         if base_file:
             self.from_file(base_file) # creates initial properties and self.content
-
-        temp =  env.get_template(self.template)
+            self.markup = Markup(markdown(self.content))
+        temp =  env.get_template(self._template)
+        self.title = getattr(self, '_title', '')
+        self.date_published = self.get_date_published()
+        self.date_modified = self.get_date_modified()
         self.html = temp.render(metadata=self, config=config, **kwargs)
+
         
     def from_file(self, base_file):
         matcher = r'^\w+:'
@@ -47,16 +53,7 @@ class Page():
                 key = line_data[0].lower()
                 value = line_data[-1].rstrip()
                 setattr(self, f'_{key}', value)
-            content = '\n'.join(md_content)
-            self.content = content.strip('\n')
-            self.markup = Markup(markdown(content))
-
-        self.title = getattr(self, '_title', '')
-        self.__str__ = self.content
-        temp =  env.get_template(self.template)
-        self.html = temp.render(metadata=self, config=config) 
-        self.date_published = self.get_date_published()
-        self.date_modified = self.get_date_modified()
+            self.content = ''.join(md_content).strip('\n')
 
     @property
     def id(self):
@@ -68,16 +65,18 @@ the system if not defined. NOTE THE SYSTEM DATE IS KNOWN TO CAUSE
 ISSUES WITH FILES THAT WERE COPIED OR TRANSFERRED WITHOUT THEIR
 METADATA BEING TRANSFER READ AS WELL"""
 
-        if self._date_published:
-            date = arrow.get(self._date_published, config.TIME_FORMAT)
+        if self.base_file:
 
-        elif self._date:
-            date = arrow.get(self._date, config.TIME_FORMAT)
+            if self._date_published:
+                date = arrow.get(self._date_published, config.TIME_FORMAT)
 
-        else:
-             date = get_ct_time(self.base_file)
+            elif self._date:
+                date = arrow.get(self._date, config.TIME_FORMAT)
 
-        return date.format(config.TIME_FORMAT)
+            else: 
+                 date = get_ct_time(self.base_file)
+
+            return date.format(config.TIME_FORMAT)
 
     def get_date_modified(self):
         """Returns the value of _date_modified or _update, or the
@@ -85,16 +84,17 @@ modified_datetime from the system if not defined. NOTE THE SYSTEM
 DATE IS KNOWN TO CAUSE ISSUES WITH FILES THAT WERE COPIED OR 
 TRANSFERRED WITHOUT THEIR METADADTA BEING TRANSFERRED AS WELL"""
 
-        if self._date_modified:
-            date = arrow.get(self._date_modified, config.TIME_FORMAT)
-        
-        elif self._updated:
-            date = arrow.get(self._date, config.TIME_FORMAT)
+        if self.base_file:
+            if self._date_modified:
+                date = arrow.get(self._date_modified, config.TIME_FORMAT)
+            
+            elif self._updated:
+                date = arrow.get(self._date, config.TIME_FORMAT)
 
-        else:
-            date = get_md_time(self.base_file)
+            else: 
+                date = get_md_time(self.base_file)
 
-        return date.format('MMMM DD, YYYY HH:MM')
+            return date.format(config.TIME_FORMAT)
 
     @property
     def image(self):
