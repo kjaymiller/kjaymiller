@@ -23,7 +23,8 @@ class Page():
         self._date_modified = None
         self._category = 'Uncategorized'
         self._image = None
-        
+        self.summary = None
+
         if template:
             self._template = template
 
@@ -41,7 +42,6 @@ class Page():
         self.date_published = self.get_date_published()
         self.date_modified = self.get_date_modified()
         self.html = temp.render(metadata=self, config=config, **kwargs)
-
         
     def from_file(self, base_file):
         matcher = r'^\w+:'

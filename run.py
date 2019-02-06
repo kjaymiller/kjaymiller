@@ -9,7 +9,6 @@ from pages import (
         BlogPost,
         MicroBlogPost,
         Collection,
-        feeds,
         )
 from generators import gen_static 
 from writer import write_page, writer
@@ -93,7 +92,7 @@ def categorization():
 def feed_gen():
     page_groups = blog, microblog 
     for page in page_groups:
-        with open('{page.name}.json', 'w') as fp:
+        with open(f'{page.output_path}/{page.name}.json', 'w') as fp:
             json.dump(page.json_feed, fp)
 
 index()

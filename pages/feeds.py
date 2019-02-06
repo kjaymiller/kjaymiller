@@ -7,7 +7,7 @@ from pathlib import Path
 from environment import env
 
 
-def generate_from_metadata(config=config, items, path, **kwargs):
+def generate_from_metadata( items, path,config=config, **kwargs):
     feed_data = {
             'title': kwargs.get('title', config.SITE_TITLE),
             'home_page_url': kwargs.get('home_page_url', config.SITE_URL),
