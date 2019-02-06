@@ -4,10 +4,10 @@ Feeds takes objects and creates an arrangement of items and returns a feed.
 import json
 import config
 from pathlib import Path
-from render_engine import env
+from environment import env
 
 
-def json_metadata(config=config, **kwargs):
+def generate_from_metadata(config=config, items, path, **kwargs):
     feed_data = {
             'title': kwargs.get('title', config.SITE_TITLE),
             'home_page_url': kwargs.get('home_page_url', config.SITE_URL),
@@ -28,10 +28,8 @@ def json_metadata(config=config, **kwargs):
             }
 
     filled_feed_data = {x:y for x,y in feed_data.items() if y}
-    return json.dumps(filled_feed_data)
 
 
-def json_feed_items(items, path):
     feed_items = []
     for item in items:
         items_values = {
@@ -60,9 +58,5 @@ def json_feed_items(items, path):
                 continue
 
             feed_items.append(item_values)
-        return feed_items
-
-def json_feed(items, path, config=config, **kwargs):
-    json_feed = json.loads(json_feed)
-    json_feed['items'] = feed_items
-    return json_feed
+    filled_feed_data['items'] = feed_items
+    return json.dumps(filled_feed_data)

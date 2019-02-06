@@ -1,4 +1,5 @@
 import config
+import json
 import shutil
 from pathlib import Path
 from collections import defaultdict
@@ -8,6 +9,7 @@ from pages import (
         BlogPost,
         MicroBlogPost,
         Collection,
+        feeds,
         )
 from generators import gen_static 
 from writer import write_page, writer
@@ -87,6 +89,14 @@ def categorization():
         for tag in page.tags:
             write_page(f'{tag_path}/{tag}.html', Page(template='blog_list.html', post_list=page.categories[category], output_path=page.output_path).html)
 
+
+def feed_gen():
+    page_groups = blog, microblog 
+    for page in page_groups:
+        with open('{page.name}.json', 'w') as fp:
+            json.dump(page.json_feed, fp)
+
 index()
 categorization()
 pagination()
+feed_gen()

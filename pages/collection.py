@@ -1,8 +1,10 @@
 import config
+import json
 from collections import defaultdict
 from itertools import zip_longest
-from pages import Page
+from pages import Page 
 from pathlib import Path
+from pages.feeds import generate_from_metadata, json_feed_items
 
 class Collection:
     def __init__(self, **kwargs):
@@ -38,3 +40,9 @@ class Collection:
             for tag in p.tags:
                 d[tag].append(p)
         return d
+
+    @property
+    def json_feed(self):
+        feed = generate_from_metadata() 
+        feed['items'] = json_feed_items(self.pages, self.output_path)
+        return json.dumps(feed)

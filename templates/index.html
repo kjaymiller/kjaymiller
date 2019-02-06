@@ -15,14 +15,19 @@
       <!-- Latest Post Section -->
       <div class="jumbotron row">
         <div class="col-sm-4">
+            <a href="{{featured_post.link}}">
           <img src="{{featured_post.image}}">
+            </a>
         </div>
 
         <div class="col-sm-7">
+            <a href="{{featured_post.link}}">
           <h2>{{featured_post.title}}</h2>
+            </a>
           <p>{{featured_post.summary}}</p>
+
           <p class="text-right">
-          <a href="{{featured_post.id}}">Read More</a>
+          <a href="{{featured_post.link}}">Read More</a>
           </p>
         </div>
 
