@@ -8,7 +8,7 @@ import arrow
 
 def rfc3339(time):
     rfc_time = arrow.get(time, config.TIME_FORMAT).format('YYYY-MM-DDTHH:MM:SSZ')
-    return rfc_time + 'Z'
+    return rfc_time 
      
     return 
 class Collection:
