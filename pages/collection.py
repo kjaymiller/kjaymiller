@@ -4,6 +4,7 @@ from collections import defaultdict
 from itertools import zip_longest
 from pages import Page 
 from pathlib import Path
+import arrow
 
 class Collection:
     def __init__(self, **kwargs):
@@ -77,8 +78,8 @@ class Collection:
            'title': item.title,
            'content_html': item.markup, 
            'summary': item.summary,
-           'date_published': item.date_published,
-           'date_modified': item.date_modified,
+           'date_published': arrow.get(item.date_published, config.TIME_FORMAT).isoformat(),
+           'date_modified': arrow.get(item.date_modified, config.TIME_FORMAT).isoformat(),
            } 
 
         other_item_values = (
