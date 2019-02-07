@@ -5,6 +5,7 @@ from itertools import zip_longest
 from pages import Page 
 from pathlib import Path
 import arrow
+from rfc3339 import rfc3339
 
 class Collection:
     def __init__(self, **kwargs):
@@ -78,8 +79,10 @@ class Collection:
            'title': item.title,
            'content_html': item.markup, 
            'summary': item.summary,
-           'date_published': arrow.get(item.date_published, config.TIME_FORMAT).isoformat(),
-           'date_modified': arrow.get(item.date_modified, config.TIME_FORMAT).isoformat(),
+           'date_published': arrow.get(item.date_published,
+               config.TIME_FORMAT).format('%Y-%m-%dT%H:%M:%S%z'),
+           'date_modified': arrow.get(item.date_modified,
+               config.TIME_FORMAT).format('%Y-%m-%dT%H:%M:%S%z'),
            } 
 
         other_item_values = (
