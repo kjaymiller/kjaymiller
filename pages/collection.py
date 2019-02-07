@@ -80,9 +80,9 @@ class Collection:
            'content_html': item.markup, 
            'summary': item.summary,
            'date_published': arrow.get(item.date_published,
-               config.TIME_FORMAT).format('%Y-%m-%dT%H:%M:%S%z'),
+               config.TIME_FORMAT).format('YYYY-MM-DDTHH:MM:SSZ'),
            'date_modified': arrow.get(item.date_modified,
-               config.TIME_FORMAT).format('%Y-%m-%dT%H:%M:%S%z'),
+               config.TIME_FORMAT).format('YYYY-MM-DDTHH:MM:SSZ'),
            } 
 
         other_item_values = (
