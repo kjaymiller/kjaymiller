@@ -21,7 +21,7 @@ class Collection:
         self.content_path = Path(f'{config.CONTENT_PATH}/{content_path}')
         self.output_path = Path(f'{config.OUTPUT_PATH}/'+ kwargs.get('output_path', ''))
         page_glob = self.content_path.glob('*.md')
-        pages = [self.content_type(base_file=p) for p in page_glob]
+        pages = [self.content_type(base_file=p, output_path=self.output_path) for p in page_glob]
         self.pages = sorted(pages, key=lambda page: page.date_published, reverse=True)
         self.json_feed = self.generate_from_metadata()
 

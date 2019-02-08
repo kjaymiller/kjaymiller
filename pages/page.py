@@ -15,7 +15,7 @@ def get_md_time(md_file):
             tzinfo=config.REGION).format(config.TIME_FORMAT)
 
 class Page():
-    def __init__(self, base_file=None, template='page.html', **kwargs):
+    def __init__(self, base_file=None, output_path, template='page.html', **kwargs):
         # self.id looks for us
         self._id = None
         self._slug = None
@@ -42,6 +42,7 @@ class Page():
         self.date_published = self.get_date_published()
         self.date_modified = self.get_date_modified()
         self.html = temp.render(metadata=self, config=config, **kwargs)
+        self.href = f'{output_path}/{id}'
         
     def from_file(self, base_file):
         matcher = r'^\w+:'
