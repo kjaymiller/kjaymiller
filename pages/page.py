@@ -15,7 +15,7 @@ def get_md_time(md_file):
             tzinfo=config.REGION).format(config.TIME_FORMAT)
 
 class Page():
-    def __init__(self, base_file=None, output_path, template='page.html', **kwargs):
+    def __init__(self,  output_path, base_file=None, template='page.html', **kwargs):
         # self.id looks for us
         self._id = None
         self._slug = None
