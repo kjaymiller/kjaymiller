@@ -16,19 +16,19 @@
       <div class="jumbotron row">
         {% if featured_post.image %}
         <div class="col-sm-4">
-            <a href="{{featured_post.url}}">
+            <a href="{{featured_post.href}}">
           <img src="{{featured_post.image}}">
             </a>
         </div>
         {% endif %}
         <div class="col-sm-7">
-            <a href="{{featured_post.url}}">
+            <a href="{{featured_post.href}}">
           <h2>{{featured_post.title}}</h2>
             </a>
           <p>{{featured_post.summary}}</p>
 
           <p class="text-right">
-          <a href="{{featured_post.url}}">Read More</a>
+          <a href="{{featured_post.href}}">Read More</a>
           </p>
         </div>
 

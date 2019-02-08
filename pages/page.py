@@ -15,7 +15,7 @@ def get_md_time(md_file):
             tzinfo=config.REGION).format(config.TIME_FORMAT)
 
 class Page():
-    def __init__(self,  output_path, base_file=None, template='page.html', **kwargs):
+    def __init__(self,  output_path=config.OUTPUT_PATH, base_file=None, template='page.html', **kwargs):
         # self.id looks for us
         self._id = None
         self._slug = None
@@ -34,15 +34,17 @@ class Page():
 
 
         self.base_file = base_file
+        
         if base_file:
             self.from_file(base_file) # creates initial properties and self.content
             self.markup = Markup(markdown(self.content))
+
+        self.output_path = output_path
         temp =  env.get_template(self._template)
         self.title = getattr(self, '_title', '')
         self.date_published = self.get_date_published()
         self.date_modified = self.get_date_modified()
         self.html = temp.render(metadata=self, config=config, **kwargs)
-        self.href = f'{output_path}/{id}'
         
     def from_file(self, base_file):
         matcher = r'^\w+:'
@@ -59,7 +61,11 @@ class Page():
     @property
     def id(self):
         return self._id or self._slug or self.base_file.stem
-    
+
+    @property
+    def href(self):
+        return f'{self.output_path}/{self.id}'
+
     def get_date_published(self):
         """Returns the value of _date_published or _date, or created_datetime from
 the system if not defined. NOTE THE SYSTEM DATE IS KNOWN TO CAUSE

@@ -11,7 +11,6 @@ def rfc3339(time):
             config.TIME_FORMAT).format('YYYY-MM-DDTHH:MM:SSZZ')
     return rfc_time 
      
-    return 
 class Collection:
     def __init__(self, **kwargs):
         self.name = kwargs.get('name')
