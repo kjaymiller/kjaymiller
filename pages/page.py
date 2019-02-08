@@ -64,7 +64,7 @@ class Page():
 
     @property
     def href(self):
-        return f'{self.output_path}/{self.id}'
+        return f'{self.output_path.stem}/{self.id}'
 
     def get_date_published(self):
         """Returns the value of _date_published or _date, or created_datetime from
