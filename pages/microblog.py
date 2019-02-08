@@ -6,8 +6,8 @@ from pages.page import get_ct_time
 
 class MicroBlogPost(BlogPost):
     title = ''
-    def __init__(self, base_file):
-        super().__init__(base_file)
+    def __init__(self, base_file, output_path):
+        super().__init__(base_file, outptu_path)
         self.date_published = self.get_date_published()
     
     
