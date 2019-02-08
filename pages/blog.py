@@ -5,7 +5,7 @@ from pages.page import Page
 
 
 class BlogPost(Page):
-    def __init__(self, base_file output_path, template='blog.html'):
+    def __init__(self, base_file, output_path, template='blog.html'):
         super().__init__(base_file, output_path, template=template)
         self.tags = self.get_tags()
         self.summary = Markup(markdown(getattr(self, '_summary',
