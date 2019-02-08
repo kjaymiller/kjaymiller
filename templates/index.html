@@ -14,12 +14,13 @@
 
       <!-- Latest Post Section -->
       <div class="jumbotron row">
+        {% if featured_post.image %}
         <div class="col-sm-4">
             <a href="{{featured_post.link}}">
           <img src="{{featured_post.image}}">
             </a>
         </div>
-
+        {% endif %}
         <div class="col-sm-7">
             <a href="{{featured_post.link}}">
           <h2>{{featured_post.title}}</h2>
