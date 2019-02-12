@@ -96,6 +96,8 @@ def feed_gen():
         with open(f'{page.output_path}/{page.name}.json', 'w') as fp:
             json.dump(page.json_feed, fp)
 
+        with open(f'{page.output_path}/{page.name}.rss', 'w') as rss:
+            rss.write(page.rss_feed)
 index()
 categorization()
 pagination()
