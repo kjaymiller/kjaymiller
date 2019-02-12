@@ -10,8 +10,8 @@ from pages import (
         MicroBlogPost,
         Collection,
         )
-from generators import gen_static 
-from writer import write_page, writer
+from pages.generators import gen_static 
+from pages.writer import write_page, writer
 
 
 pages = Collection(name='pages', content_type=Page, content_path='pages')
