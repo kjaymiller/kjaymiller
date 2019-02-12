@@ -8,7 +8,7 @@
 
 <item>
 <title>JSON Feeds are now available!</title>
-<description><p>JSON Feeds are now available for the <a href="https://kjaymiller.com/blog/blog.json">blog</a> and <a href="https://kjaymiller.com/blog/blog.json">microblog</a></p></description>
+<description><![CDATA[<p>JSON Feeds are now available for the <a href="https://kjaymiller.com/blog/blog.json">blog</a> and <a href="https://kjaymiller.com/blog/blog.json">microblog</a></p>]]></description>
 <guid>json_feeds_now_available</guid>
 <pubDate>Fri, 08 Feb, 2019 +00:00+00:00</pubDate>
 </item>

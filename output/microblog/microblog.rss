@@ -8,7 +8,7 @@
 
 <item>
 <title></title>
-<description><p>testing the <code>PathCrawler</code> to see if content must exist.</p></description>
+<description><![CDATA[<p>testing the <code>PathCrawler</code> to see if content must exist.</p>]]></description>
 <guid>201901152227</guid>
 <pubDate>Tue, 15 Jan, 2019 +00:00+00:00</pubDate>
 </item>
