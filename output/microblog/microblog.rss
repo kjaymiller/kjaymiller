@@ -8,9 +8,10 @@
 
 <item>
 <title></title>
-<description><![CDATA[<p>testing the <code>PathCrawler</code> to see if content must exist.</p>]]></description>
-<guid>https://kjaymiller.com/output/microblog/201901152227</guid>
-<pubDate>Tue, 15 Jan 2019 22:01:00 +0000</pubDate>
+<description><![CDATA[<p>The <a href="https://github.com/kjaymiller">Render Engine</a> rss feed functionality for blogging has been implemented. It is in early testing but if you can sign up for the <a href="https://kjaymiller.com/blog/blog.rss">blog's rss feed</a> and <a href="https://kjaymiller.com/microblog/microblog.rss">microblog feed</a>.</p>
+<p>Of course you can also subscribe to the site's <a href="../blog">JSON Feeds</a>!</p>]]></description>
+<guid>https://kjaymiller.com/output/microblog/201902121801</guid>
+<pubDate>Tue, 12 Feb 2019 18:02:00 +0000</pubDate>
 </item>
 
 </channel>
