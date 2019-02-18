@@ -70,7 +70,7 @@ def index():
             key=lambda page: page.date_published, reverse=True)[:3]
     return Page(template='index.html', 
             what_im_block=what_im_block, 
-            featured_post=latest_posts[0],
+            featured_post=latest_posts[-1],
             latest_microposts=latest_microposts, latest_posts=latest_posts[1:]).html
 
 def pagination():
