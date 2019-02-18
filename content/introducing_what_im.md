@@ -1,6 +1,7 @@
 title: Introducing the What I'm Podcast!
 date: February 18, 2019 11:31
 slug: introducing-what-im-podcast
+image: https://s3-us-west-2.amazonaws.com/kjaymiller/images/whatimpodcast.JPG
 category: Announcements
 tags: podcasts
 
