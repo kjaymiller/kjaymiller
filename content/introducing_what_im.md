@@ -13,6 +13,7 @@ The podcast is an extension of the "What I'm" Section on the home page. I've alw
 I'm actively keeping this podcast off of major networks in effort to convice people that ultimately, you don't need to really on the heavy hitters like *Spotify* and *Apple*. You can subscribe via this [rss link](https://feeds.transistor.fm/what-i-m-podcast-with-jay-miller). 
 
 
+![](https://s3-us-west-2.amazonaws.com/kjaymiller/images/whatimpodcast.JPG)
 
 [0]: https://kjaymiller.transistor.fm
 [1]: https://kjaymiller.transistor.fm/episodes/i-ve-been-sick-i-must-have-caught-the-apple-bug
