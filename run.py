@@ -39,6 +39,11 @@ def index():
                 'image':'https://dsc.cloud/kjmScreenshots/iu.jpeg',
                 },
             {
+                'title': 'Tetris99',
+                'url': 'https://www.nintendo.com/games/detail/tetris-99-switch',
+                'image':'https://kjaymiller.s3-us-west-2.amazonaws.com/images/sega_home_page-banner_4.jpg',
+                },
+            {
                 'title': 'Puyo Puyo Tertris',
                 'url': 'https://amzn.to/2RTv4oP',
                 'image':'https://kjaymiller.s3-us-west-2.amazonaws.com/images/sega_home_page-banner_4.jpg',
