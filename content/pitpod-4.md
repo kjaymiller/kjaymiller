@@ -1,4 +1,4 @@
-Title: [Podcast] PIT Podcast Ep 4: A Native Indi Creating An Indie Shop in Indi(ana)
+title: [Podcast] PIT Podcast Ep 4: A Native Indi Creating An Indie Shop in Indi(ana)
 date: January 28, 2019 21:00
 url: https://productivityintech.transistor.fm/episodes/an-native-indi-creating-an-indie-shop-in-indi-ana
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/pit-podcast.png 

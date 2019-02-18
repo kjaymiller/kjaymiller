@@ -1,4 +1,5 @@
 Title: [Podcast] PIT Podcast Ep 5: What Companies AND Candidates can do Better in the Hiring Process with John Knox
+date: February 04, 2019 08:00
 _url: https://share.transistor.fm/s/dc4ab395
 
 This week on the Productivity in Tech Podcast, I spoke with John Knox.
