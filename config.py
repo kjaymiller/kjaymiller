@@ -29,6 +29,9 @@ HEADER_LINKS = (
                         Link(name='Ask A Brit', 
                             url='https://askabrit.transistor.fm',
                             image='https://kjaymiller.s3-us-west-2.amazonaws.com/images/AskABritv4.png'),
-                        Link('Dev Otaku', 'https://devotaku.transistor.fm')
+                        Link(name='Dev Otaku', url='https://devotaku.transistor.fm')
+                        Link(name="What I'm with Jay Miller",
+                            image="https://s3-us-west-2.amazonaws.com/kjaymiller/images/whatimpodcast.JPG",
+                            url='https://kjaymiller.transistor.fm')
                            ])
 )
