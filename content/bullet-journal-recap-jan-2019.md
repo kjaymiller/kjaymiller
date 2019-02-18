@@ -1,4 +1,5 @@
 Title: January 2019 Bullet Journal Recap
+Date: February 01, 2019 4:00PM
 Category: Analog
 Tags: Bullet Journal, Reflection
 
