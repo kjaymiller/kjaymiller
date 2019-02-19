@@ -2,7 +2,6 @@ import config
 import json
 import shutil
 from pathlib import Path
-from collections import defaultdict
 from pages.paginate import write_paginated_pages
 from pages import (
         Page, 
