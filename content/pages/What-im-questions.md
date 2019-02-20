@@ -9,7 +9,9 @@ You can have your question answered on the what I'm podcast by doing one of thre
 [Tweet at me (@kjaymiller)](https://twitter.com/home?status=Hey%20%40kjaymiller!%20%3CYOUR%20QUESTION%20HERE%3E%20%23whatim) with #whatim.
 
 ## 2. Via this convenient little form. 
-This form will grant me 2 emails to you. One thanking you for the question and letting you know that I got it!
+This form will grant me **2** emails to you. 
+
+One thanking you for the question and letting you know that I got it!
 
 The other one is my answer. 
 
@@ -29,6 +31,6 @@ The other one is my answer.
 		        </p>
 			</form>
 
-I will ask if you want to join my newsletter in both emails, but if you say no or don't reply to either message, That's all you will here from me. (Unless I want you to be a guest on my SOLO SHOW to explain your question!)
+I will ask if you want to join my newsletter in both emails, but if you say no or don't reply to either message, That's all you will hear from me. _(Unless I want you to be a guest on my SOLO SHOW to explain your question!)_
 
 
