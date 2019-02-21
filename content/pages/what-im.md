@@ -1,10 +1,15 @@
-title: The What I'm Podcast"
+title: Listen to the What I'm Podcast
 slug: what-im
 
 The What I'm podcast is a daily(ish) podcast where I just talk about what's been going on in the world and in my life.
 
-**Subscribe to the Podcast**
+![What-I'm Logo](src="https://s3-us-west-2.amazonaws.com/kjaymiller/images/whatimpodcast.JPG")
+
+
+### Subscribe to the Podcast
 [Subscribe to the RSS Feed](https://feeds.transistor.fm/what-i-m-podcast-with-jay-miller)
+
+This is an *Underground Podcast* and is not listed in       
 
 ## If you want to know what I'm up to. Just ask! 
 
