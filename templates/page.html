@@ -1,6 +1,12 @@
 {% extends 'base.html' %}
 {% block title %}{{metadata.title}}{% endblock %}
-{% block head %}<link rel="sylesheet" href="https://kjaymiller.com/static/css/page.css">
+{% block head %}
+<style>
+  img {
+    max-width:60%;
+    max-height: 300px;
+  }
+</style>
 {% endblock %}
 {% block content %} 
 <div class="container">
