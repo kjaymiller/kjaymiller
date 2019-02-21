@@ -1,7 +1,9 @@
-title: Ask Me "What I'm ______!"
+title: The What I'm Podcast"
 slug: what-im-question
 
-If you have any questions for me. Just ask! 
+The What I'm podcast is a daily(ish) podcast where I just talk about what's been going on in the world and in my life.
+
+### If you want to know what I'm up to. Just ask! 
 
 You can have your question answered on the what I'm podcast by doing one of three things.
 
@@ -31,6 +33,6 @@ The other one is my answer.
 		        </p>
 			</form>
 
-I will ask if you want to join my newsletter in both emails, but if you say no or don't reply to either message, That's all you will hear from me. _(Unless I want you to be a guest on my SOLO SHOW to explain your question!)_
+I will ask if you want to join my newsletter in both emails. If you say no or don't reply to either message, that's all you will hear from me. _(Unless I want you to be a guest on my SOLO SHOW to explain your question!)_
 
 
