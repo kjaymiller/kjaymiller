@@ -3,14 +3,17 @@ slug: what-im
 
 The What I'm podcast is a daily(ish) podcast where I just talk about what's been going on in the world and in my life.
 
-### If you want to know what I'm up to. Just ask! 
+**Subscribe to the Podcast**
+[Subscribe to the RSS Feed](https://feeds.transistor.fm/what-i-m-podcast-with-jay-miller)
+
+## If you want to know what I'm up to. Just ask! 
 
 You can have your question answered on the what I'm podcast by doing one of three things.
 
-## 1. Via Twitter
+### 1. Via Twitter
 [Tweet at me (@kjaymiller)](https://twitter.com/home?status=Hey%20%40kjaymiller!%20%3CYOUR%20QUESTION%20HERE%3E%20%23whatim) with #whatim.
 
-## 2. Via this convenient little form. 
+### 2. Via this convenient little form. 
 This form will grant me **2** emails to you. 
 
 One thanking you for the question and letting you know that I got it!
