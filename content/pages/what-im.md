@@ -16,13 +16,16 @@ This is an *Underground Podcast* and is not listed in
 [Tweet at me (@kjaymiller)](https://twitter.com/home?status=Hey%20%40kjaymiller!%20%3CYOUR%20QUESTION%20HERE%3E%20%23whatim) with *#whatim.*
 
 <div class="jumbotron">
-###  or Via this convenient little form. 
+<h3> Or Via this convenient little form. </h3>
+<p>
 This form will grant me **2** emails to you. 
-
+</p>
+<p>
 One thanking you for the question and letting you know that I got it!
-
+</p>
+<p>
 The other one is my answer. 
-
+</p>
 	<form name="contact" netlify>
 	  <p>
 	      <label>Name <input type="text" name="name" /></label>
