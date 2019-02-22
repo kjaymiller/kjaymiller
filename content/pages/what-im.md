@@ -13,19 +13,16 @@ This is an *Underground Podcast* and is not listed in
 
 ## If you want to know what I'm up to. Just ask! 
 
-You can have your question answered on the what I'm podcast by doing one of three things.
+[Tweet at me (@kjaymiller)](https://twitter.com/home?status=Hey%20%40kjaymiller!%20%3CYOUR%20QUESTION%20HERE%3E%20%23whatim) with *#whatim.*
 
-### 1. Via Twitter
-[Tweet at me (@kjaymiller)](https://twitter.com/home?status=Hey%20%40kjaymiller!%20%3CYOUR%20QUESTION%20HERE%3E%20%23whatim) with #whatim.
-
-### 2. Via this convenient little form. 
+<div class="jumbotron">
+###  or Via this convenient little form. 
 This form will grant me **2** emails to you. 
 
 One thanking you for the question and letting you know that I got it!
 
 The other one is my answer. 
 
-<div class="jumbotron">
 	<form name="contact" netlify>
 	  <p>
 	      <label>Name <input type="text" name="name" /></label>
