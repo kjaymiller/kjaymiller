@@ -5,7 +5,6 @@ The What I'm podcast is a daily(ish) podcast where I just talk about what's been
 
 ![What-Im Logo](https://s3-us-west-2.amazonaws.com/kjaymiller/images/whatimpodcast.JPG)
 
-
 ### Subscribe to the Podcast
 [<i class='uil uil-rss'></i>Subscribe to the RSS Feed](https://feeds.transistor.fm/what-i-m-podcast-with-jay-miller)
 
