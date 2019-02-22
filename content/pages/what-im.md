@@ -3,7 +3,7 @@ slug: what-im
 
 <div class="row">
 <img alt="What-Im Logo" src="https://s3-us-west-2.amazonaws.com/kjaymiller/images/whatimpodcast.JPG">
-<p>
+<p class="col-md-5">
 The What I'm podcast is a daily(ish) podcast where I just talk about what's been going on in the world and in my life.
 </p>
 </div>
