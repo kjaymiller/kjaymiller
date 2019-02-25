@@ -1,3 +1,4 @@
 python3 -m pip install pipenv
-pipenv shell
+python3 -m pipenv shell
+pipenv install
 python run.py
