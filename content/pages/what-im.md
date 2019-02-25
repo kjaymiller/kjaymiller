@@ -9,7 +9,7 @@ The What I'm podcast is a daily(ish) podcast where I just talk about what's been
 </div>
 
 ### Subscribe to the Podcast
-[<i class='uil uil-rss'></i>Subscribe to the RSS Feed](https://feeds.transistor.fm/what-i-m-podcast-with-jay-miller)
+[Subscribe to the RSS Feed](https://feeds.transistor.fm/what-i-m-podcast-with-jay-miller)
 
 This is an *Underground Podcast* and is not listed in the Apple, Google, or Spotify Podcast Directories.      
 
