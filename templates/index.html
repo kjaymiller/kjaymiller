@@ -25,6 +25,11 @@
             <a href="{{featured_post.href}}">
           <h2>{{featured_post.title}}</h2>
             </a>
+            {% if featured_post._link %}
+            <a href="{{featured_post._link}}">
+              <i class="fas fa-link"></i>{{featured_post._link}}
+            </a>
+            {% endif %}
           <p>{{featured_post.summary}}</p>
 
           <p class="text-right">
