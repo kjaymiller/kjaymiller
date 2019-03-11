@@ -55,9 +55,8 @@ def index():
             ], 
         'reading': [
             {
-                'title': 'The Bullet Journal Method',
-                'url': 'https://bulletjournal.com/pages/book',
-                'image': 'https://cdn.shopify.com/s/files/1/0882/3478/files/Book_1320dabd-bc26-436d-9bc3-0f1741e91716_1200x.png?v=1531840787',
+                'title': 'One Small Step Can Change Your Life',
+                'url': 'https://amzn.to/2XTWvyv',
                 },
             ],
             })
