@@ -13,6 +13,10 @@
     max-height: 50px;
 }
 
+#microblog img{
+	max-height: 250px;
+}
+
 .jumbotron img {
 	max-width: 100%;
 }
