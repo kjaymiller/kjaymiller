@@ -5,7 +5,7 @@ tags: anxiety, depression
 
 Recently I've been on a tear with new podcasts, live streams, and communities.
 
-My secret is these are all cries for help. 
+My secret is these are all _cries for help_. 
 
 Not in a life threatening way, but in the stuck in an axiety induced feedback loop. 
 
