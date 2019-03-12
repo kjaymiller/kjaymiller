@@ -10,7 +10,6 @@ My secret is these are all cries for help.
 Not in a life threatening way, but in the stuck in an axiety induced feedback loop. 
 
 ![Questionable Content Comic by Jeph Jacques](https://questionablecontent.net/comics/3953.png)
-<small>Questionable Content Comic by Jeph Jacques</small>
 
 I've learned over time that my compulsion tick when going through a period of high anxiety is to do more. There is also a level of tension that is created in the process. I tend to buck against authority. Forget about things that are of some importance. And be more _fatalistic_ and irrational towards things not going according to plan. 
 
@@ -27,6 +26,7 @@ I'm telling you this to remind you that it is something that people deal with an
 It took me seeing a mental health professional and a level of medication before I became aware of this. I hope you will read this and think about that ambitious person in your life (other than me) and just check up on them. They may look like they are doing great on the inside, but they may also be asking for help. 
 
 **NOTE**:
+
 I understand that this seems super dark. Me writing about it helps tto analyze my thoughts and make sense of things.
 
 I can't say that I'm 100% okay, but getting this out does help and helping more people to understand helps even more. 
