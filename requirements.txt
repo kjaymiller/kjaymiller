@@ -1,7 +1,5 @@
 -i https://pypi.org/simple
 --trusted-host pypi.org
---extra-index-url https://files.pythonhosted.org
---trusted-host files.pythonhosted.org
 arrow==0.12.1
 certifi==2018.11.29
 click==7.0
@@ -11,7 +9,6 @@ markdown==3.0.1
 markupsafe==1.1.0
 pathlib==1.0.1
 pipenv==2018.11.26
-pyscss==1.3.5
 python-dateutil==2.7.5
 six==1.11.0
 virtualenv-clone==0.4.0
