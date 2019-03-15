@@ -3,7 +3,7 @@
 }
 
 .card img {
-    max-height: 100%;
+    max-height: 450px;
 }
 
 #podcasts img {
@@ -11,10 +11,6 @@
 
 #what-im img {
     max-height: 50px;
-}
-
-#microblog img{
-	max-height: 250px;
 }
 
 .jumbotron img {
