@@ -6,134 +6,136 @@
 {% block content%}
 <!--Start Jumbotron  -->
 <div class="container">
-  <h1 class="text-primary display-5 font-italic"> {{config.SITE_SUBTITLE}}</h1>
-  <hr>
-  <div class="row px-4">
-    <!-- Left Section -->
-    <div class="col-md-7 p-1">
+	<h1 class="text-primary display-5 font-italic"> {{config.SITE_SUBTITLE}}</h1>
+	<hr>
+	<div class="row px-4">
+		<!-- Left Section -->
+		<div class="col-md-7 p-1">
 
-      <!-- Latest Post Section -->
-      <div class="jumbotron row">
-        <h2>Featured Post</h2>
-        {% if featured_post.image %}
-        <div class="col-sm-4">
-            <a href="{{featured_post.href}}">
-          <img src="{{featured_post.image}}">
-            </a>
-        </div>
-        {% endif %}
-        <div class="col-sm-7">
-            <a href="{{featured_post.href}}">
-          <h2>{{featured_post.title}}</h2>
-            </a>
-            {% if featured_post._link %}
-            <a href="{{featured_post._link}}">
-              <i class="fas fa-link"></i>{{featured_post._link}}
-            </a>
-            {% endif %}
-          <p>{{featured_post.summary}}</p>
+			<!-- Latest Post Section -->
+			<div class="jumbotron">
+				<h2>Featured Post</h2>
+				<div class="row">
+					{% if featured_post.image %}
+					<div class="col-sm-4">
+						<a href="{{featured_post.href}}">
+							<img src="{{featured_post.image}}">
+						</a>
+					</div>
+					{% endif %}
+					<div class="col-sm-7">
+						<a href="{{featured_post.href}}">
+							<h2>{{featured_post.title}}</h2>
+						</a>
+						{% if featured_post._link %}
+						<a href="{{featured_post._link}}">
+							<i class="fas fa-link"></i>{{featured_post._link}}
+						</a>
+						{% endif %}
+						<p>{{featured_post.summary}}</p>
 
-          <p class="text-right">
-          <a href="{{featured_post.href}}">Read More</a>
-          </p>
-        </div>
+						<p class="text-right">
+						<a href="{{featured_post.href}}">Read More</a>
+						</p>
+					</div>
 
-      </div>
+				</div>
+			</div>
 
-      <!-- Blog Post Section -->
-      <h3 class="text-gray"> More Blog Posts</h3>
-      <div class="row">
-        {% for latest_post in latest_posts %}
+				<!-- Blog Post Section -->
+				<h3 class="text-gray"> More Blog Posts</h3>
+				<div class="row">
+					{% for latest_post in latest_posts %}
 
-        <!-- Blog Post Card --> 
-        <div class="card col-md-5 col-lg-3 p-2 m-2" >
+					<!-- Blog Post Card --> 
+					<div class="card col-md-5 col-lg-3 p-2 m-2" >
 
-          <a href="{{latest_post.href}}" class="text-dark">
-            <b class="card-title">{{latest_post.title}}</b>
-          </a>
+						<a href="{{latest_post.href}}" class="text-dark">
+							<b class="card-title">{{latest_post.title}}</b>
+						</a>
 
-          <small>
-            {{latest_post.date_published}}
-          </small>
-        </div>
+						<small>
+							{{latest_post.date_published}}
+						</small>
+					</div>
 
-        {% endfor %}
-      </div>
-    </div>
-      <!-- What I'm Section -->
-      <div id="What-im" class="mx-4 col-md-4">
-        <h3 class="">What I'm...</h3>
-        {% for section in what_im_block %}
+					{% endfor %}
+				</div>
+			</div>
+			<!-- What I'm Section -->
+			<div id="What-im" class="mx-4 col-md-4">
+				<h3 class="">What I'm...</h3>
+				{% for section in what_im_block %}
 
-        <div class="p-1 my-1">
-          <div class="column my-2 p-2">
-            <h4 class="card-title"> {{section}} </h4>
-            <hr>
-            <ul>
-            {% for item in what_im_block[section] %}
-            <li>
-              <a href="{{ item['url'] }}" class="text-secondary">
-                  <b>{{item['title']}}</b>
-                </a>
-            </li>
-            {% endfor %}
-            </ul>
-            <div> 
-            </div>
-          </div>
-          {% endfor %}
-              <p>
+				<div class="p-1 my-1">
+					<div class="column my-2 p-2">
+						<h4 class="card-title"> {{section}} </h4>
+						<hr>
+						<ul>
+							{% for item in what_im_block[section] %}
+							<li>
+								<a href="{{ item['url'] }}" class="text-secondary">
+									<b>{{item['title']}}</b>
+								</a>
+							</li>
+							{% endfor %}
+						</ul>
+						<div> 
+						</div>
+					</div>
+					{% endfor %}
+					<p>
 
-                                          Check out the <a
-                                          href="/what-im">What I'm Podcast</a>
-              </p>
-        </div>
-      </div>
-    <div class="jumbotron">
-      <!-- Newsletter Subscription -->
-      <form
-         action="https://buttondown.email/api/emails/embed-subscribe/productivityintech"
-         method="post"
-         target="popupwindow"
-         onsubmit="window.open('https://buttondown.email/productivityintech', 'popupwindow')"
-         class="embeddable-buttondown-form px-3">
-        <p class="font-italic font-weight-strong text-primary"> All this content (plus some extra goodies) in a digestible package in your inbox! </p>
-        <input type="email"
-               name="email"
-               placeholder="Email"
-               id="bd-email">
+					Check out the <a
+							      href="/what-im">What I'm Podcast</a>
+					</p>
+				</div>
+			</div>
+			<div class="jumbotron">
+				<!-- Newsletter Subscription -->
+				<form
+					action="https://buttondown.email/api/emails/embed-subscribe/productivityintech"
+					method="post"
+					target="popupwindow"
+					onsubmit="window.open('https://buttondown.email/productivityintech', 'popupwindow')"
+					class="embeddable-buttondown-form px-3">
+					<p class="font-italic font-weight-strong text-primary"> All this content (plus some extra goodies) in a digestible package in your inbox! </p>
+					<input type="email"
+					       name="email"
+					       placeholder="Email"
+					       id="bd-email">
 
-        <input type="hidden"
-               value="1"
-               name="embed" />
+					<input type="hidden"
+					       value="1"
+					       name="embed" />
 
-        <input class="btn align-right btn-primary my-2"
-               type="submit"
-               value="Subscribe" />
-      </form>
-      <!-- End Newsletter -->
-    </div>
-  </div>
+					<input class="btn align-right btn-primary my-2"
+					       type="submit"
+					       value="Subscribe" />
+				</form>
+				<!-- End Newsletter -->
+			</div>
+		</div>
 
-      <!-- Microblog Section -->
-      <div id="col-md-3 microblog" class="px-2 my-3">
-        <h2 class="text-primary">Microblog</h2>
+		<!-- Microblog Section -->
+		<div id="col-md-3 microblog" class="px-2 my-3">
+			<h2 class="text-primary">Microblog</h2>
 
-        {% for micropost in latest_microposts %}
-        <div class="my-4 p-2 card">
-          <div class="card-body">
-            {{micropost.markup}} 
-          </div>
+			{% for micropost in latest_microposts %}
+			<div class="my-4 p-2 card">
+				<div class="card-body">
+					{{micropost.markup}} 
+				</div>
 
-          <div class="card-footer">
-            <small>
-              {{micropost.date_published}}
-            </small>
-          </div>
+				<div class="card-footer">
+					<small>
+						{{micropost.date_published}}
+					</small>
+				</div>
 
-        </div>
-        {% endfor %}
+			</div>
+			{% endfor %}
 
-      </div>
-    </div>
-  {% endblock %}
+		</div>
+	</div>
+	{% endblock %}
