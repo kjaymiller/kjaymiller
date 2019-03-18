@@ -31,8 +31,8 @@ what_im_block = ({
             ], 
 
         'reading': 
-                'icon': 'fas fa-book'
-                'items': [
+        'icon': 'fas fa-book',
+        'items': [
             {   
                 'title': 'One Small Step Can Change Your Life',
                 'url': 'https://amzn.to/2XTWvyv',
