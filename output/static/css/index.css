@@ -9,4 +9,7 @@
 #podcasts img {
 }
 
-#what-im img {max-width: 100%}
+#what-im img {
+	max-width: 100%;
+	max-height: 250px;
+}
