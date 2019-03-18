@@ -5,7 +5,9 @@
 
 				<div class="p-1 my-1">
 					<div class="column my-2 p-2">
-            <h4 class="card-title"> {{section}} <i class="{{section['icon']}}"></i> </h4>
+            <h4 class="card-title">{{ section }} 
+              <i class="{{what_im_block[section]['icon'] }}"></i>
+            </h4>
 						<hr>
 						<ul>
 							{% for item in what_im_block[section]['items'] %}
