@@ -28,7 +28,8 @@ what_im_block = {
                 'title': 'Tetris Effect',
                 'url': 'https://amzn.to/2Wo4BOX',
                 }
-            ], 
+            ],
+        },
 
         'reading': {
             'icon': 'fas fa-book',
@@ -38,5 +39,5 @@ what_im_block = {
                     'url': 'https://amzn.to/2XTWvyv',
                     },
                 ],
-            }
+            },
         }
