@@ -7,6 +7,7 @@
 
 {% block content%}
 <!--Start Jumbotron  -->
+<div class="container">
   <h1 class="text-primary display-5 font-italic"> {{config.SITE_SUBTITLE}}</h1>
   <hr>
   {% include 'what_im.html' %}
@@ -19,7 +20,7 @@
         <h2>Featured Post</h2>
         <div class="row">
           {% if featured_post.image %}
-          
+
           <div class="col-sm-4">
             <a href="{{featured_post.href}}">
               <img src="{{featured_post.image}}">
@@ -31,90 +32,89 @@
             <a href="{{featured_post.href}}">
               <h2>{{featured_post.title}}</h2>
             </a>
-          
+
             {% if featured_post._link %}
             <a href="{{featured_post._link}}">
               <i class="fas fa-link"></i>{{featured_post._link}}
             </a>
             {% endif %}
-            
+
             <p>{{featured_post.summary}}</p>
 
             <p class="text-right">
             <a href="{{featured_post.href}}">Read More</a>
             </p>
           </div>
-        
+
         </div>
       </div>
     </div>
-          <!-- Blog Post Section -->
-          <div id="More Posts Section" class="col-lg-4">
-            <h3 class="text-gray"> More Blog Posts</h3>
-            <div class="column">
-              {% for latest_post in latest_posts %}
+    <!-- Blog Post Section -->
+    <div id="More Posts Section" class="col-lg-4">
+      <h3 class="text-gray"> More Blog Posts</h3>
+      <div class="column">
+        {% for latest_post in latest_posts %}
 
-              <!-- Blog Post Card --> 
-              <div class="card" >
+        <!-- Blog Post Card --> 
+        <div class="card" >
 
-                <a href="{{latest_post.href}}" class="text-dark">
-                  <b class="card-title">{{latest_post.title}}</b>
-                </a>
+          <a href="{{latest_post.href}}" class="text-dark">
+            <b class="card-title">{{latest_post.title}}</b>
+          </a>
 
-                <small>
-                  {{latest_post.date_published}}
-                </small>
-              </div>
-
-              {% endfor %}
-            </div>
-          </div>
+          <small>
+            {{latest_post.date_published}}
+          </small>
         </div>
 
-          <div class="jumbotron">
-            <!-- Newsletter Subscription -->
-            <form
-               action="https://buttondown.email/api/emails/embed-subscribe/productivityintech"
-               method="post"
-               target="popupwindow"
-               onsubmit="window.open('https://buttondown.email/productivityintech', 'popupwindow')"
-               class="embeddable-buttondown-form px-3">
-              <p class="font-italic font-weight-strong text-primary"> All this content (plus some extra goodies) in a digestible package in your inbox! </p>
-              <input type="email"
-                     name="email"
-                     placeholder="Email"
-                     id="bd-email">
+        {% endfor %}
+      </div>
+    </div>
+  </div>
 
-              <input type="hidden"
-                     value="1"
-                     name="embed" />
+  <div class="jumbotron">
+    <!-- Newsletter Subscription -->
+    <form
+       action="https://buttondown.email/api/emails/embed-subscribe/productivityintech"
+       method="post"
+       target="popupwindow"
+       onsubmit="window.open('https://buttondown.email/productivityintech', 'popupwindow')"
+       class="embeddable-buttondown-form px-3">
+      <p class="font-italic font-weight-strong text-primary"> All this content (plus some extra goodies) in a digestible package in your inbox! </p>
+      <input type="email"
+             name="email"
+             placeholder="Email"
+             id="bd-email">
 
-              <input class="btn align-right btn-primary my-2"
-                     type="submit"
-                     value="Subscribe" />
-            </form>
-            <!-- End Newsletter -->
-          </div>
-        </div>
+      <input type="hidden"
+             value="1"
+             name="embed" />
 
-        <!-- Microblog Section -->
-        <div id="col-md-3 microblog" class="px-2 my-3">
-          <h2 class="text-primary">Microblog</h2>
+      <input class="btn align-right btn-primary my-2"
+             type="submit"
+             value="Subscribe" />
+    </form>
+    <!-- End Newsletter -->
+  </div>
 
-          {% for micropost in latest_microposts %}
-          <div class="my-4 p-2 card">
-            <div class="card-body">
-              {{micropost.markup}} 
-            </div>
+<!-- Microblog Section -->
+<div id="col-md-3 microblog" class="px-2 my-3">
+  <h2 class="text-primary">Microblog</h2>
 
-            <div class="card-footer">
-              <small>
-                {{micropost.date_published}}
-              </small>
-            </div>
+  {% for micropost in latest_microposts %}
+  <div class="my-4 p-2 card">
+    <div class="card-body">
+      {{micropost.markup}} 
+    </div>
 
-          </div>
-          {% endfor %}
+    <div class="card-footer">
+      <small>
+        {{micropost.date_published}}
+      </small>
+    </div>
 
-        </div>
-      {% endblock %}
+  </div>
+  {% endfor %}
+
+</div>
+{% endblock %}
