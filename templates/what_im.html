@@ -1,11 +1,10 @@
 <!-- What I'm Section -->
 <div id="What-im" class="jumbotron">
   <h3 class="">What I'm...</h3>
-<div id="" class="row mx-4">
-  {% for section in what_im_block %}
+  <div id="" class="row mx-4">
+    {% for section in what_im_block %}
 
-  <div class="p-1 my-1 col-lg-3">
-    <div class="row my-2 p-2">
+    <div class="p-1 my-1 col-lg-3">
       <h4 class="card-title">{{ section }} 
         <i class="{{what_im_block[section]['icon'] }}"></i>
       </h4>
@@ -19,13 +18,10 @@
         </li>
         {% endfor %}
       </ul>
-      <div> 
-      </div>
-    </div>
   </div>
   {% endfor %}
-<h3>  Check out the <a
+  <h3 class="align-right">  Check out the <a
                                       href="/what-im">What I'm Podcast</a>
-</h3>
+  </h3>
 </div>
 </div>
