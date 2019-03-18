@@ -1,6 +1,6 @@
 what_im_block = {
         'Drinking': {
-            'icon': 'fas fa-mug-hot', 
+            'icon': 'fas fa-coffee', 
             'items': [
                 {
                     'title': 'Intelligentsia - Frequency Blend',
