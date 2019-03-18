@@ -1,4 +1,4 @@
-what_im_block = ({
+what_im_block = {
     'drinking': {
         'icon': 'fas fa-mug-hot', 
         'items': [
@@ -38,4 +38,5 @@ what_im_block = ({
                     'url': 'https://amzn.to/2XTWvyv',
                     },
                 ],
-            })
+            }
+        }
