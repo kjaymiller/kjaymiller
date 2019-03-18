@@ -62,35 +62,9 @@
 					{% endfor %}
 				</div>
 			</div>
-			<!-- What I'm Section -->
-			<div id="What-im" class="mx-4 col-md-4">
-				<h3 class="">What I'm...</h3>
-				{% for section in what_im_block %}
+      
+      {% include 'what_im.html' %}
 
-				<div class="p-1 my-1">
-					<div class="column my-2 p-2">
-						<h4 class="card-title"> {{section}} </h4>
-						<hr>
-						<ul>
-							{% for item in what_im_block[section] %}
-							<li>
-								<a href="{{ item['url'] }}" class="text-secondary">
-									<b>{{item['title']}}</b>
-								</a>
-							</li>
-							{% endfor %}
-						</ul>
-						<div> 
-						</div>
-					</div>
-					{% endfor %}
-					<p>
-
-					Check out the <a
-							      href="/what-im">What I'm Podcast</a>
-					</p>
-				</div>
-			</div>
 			<div class="jumbotron">
 				<!-- Newsletter Subscription -->
 				<form
