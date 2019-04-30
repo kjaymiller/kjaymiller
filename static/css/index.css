@@ -1,3 +1,7 @@
+img {
+	max-width: 100%;
+}
+
 .card-body img {
     max-width: 100%;
 }

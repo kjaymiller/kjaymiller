@@ -6,6 +6,7 @@ what_im_block = {
                     'title': 'Intelligentsia - Frequency Blend',
                     'url': 'https://www.intelligentsiacoffee.com/frequency-blend',
                     },
+            'image': 'https://kjaymiller.s3-us-west-2.amazonaws.com/images/Photo-2019-03-15-08-33-1552664022.JPG'
                 ],
             },
 
