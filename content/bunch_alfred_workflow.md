@@ -24,7 +24,7 @@ This plus smart use of the [_File Filter_][1] in Alfred's workflow feature allow
 
 The workflow is available on [Packal][3] to modify via my [Github Repo][2]
 
-[0]: "My Productivity in Tech Podcast Interview with Brett" https://productivityintech.transistor.fm/episodes/podcast-ground-surfing-with-brett-terpstra
-[1]: "Alfred's File Filter Input" https://www.alfredapp.com/help/workflows/inputs/file-filter/
-[2]: "Bunch Repo on Github" https://github.com/kjaymiller/Bunch_Alfred
-[3]: "Bunch Workflow on Packal" http://www.packal.org/workflow/bunch-quick-launch
+[0]: https://productivityintech.transistor.fm/episodes/podcast-ground-surfing-with-brett-terpstra
+[1]: https://www.alfredapp.com/help/workflows/inputs/file-filter/
+[2]: https://github.com/kjaymiller/Bunch_Alfred
+[3]: http://www.packal.org/workflow/bunch-quick-launch
