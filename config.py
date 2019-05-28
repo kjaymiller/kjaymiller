@@ -25,10 +25,10 @@ HEADER_LINKS = (
     Link('YouTube',
     'https://www.youtube.com/channel/UCjoJU65IbXkKXsNqydro05Q?view_as=subscriber'),
     Link('Podcasts', links=[
-                        Link(name='Productivity in Tech Podcast', 
-                            url='https://productivityintech.transistor.fm', 
+                        Link(name='Productivity in Tech Podcast',
+                            url='https://productivityintech.transistor.fm',
                             image="https://s3-us-west-2.amazonaws.com/kjaymiller/images/pit-podcast.png"),
-                        Link(name='Ask A Brit', 
+                        Link(name='Ask A Brit',
                             url='https://askabrit.transistor.fm',
                             image='https://kjaymiller.s3-us-west-2.amazonaws.com/images/AskABritv4.png'),
                         Link(name='Dev Otaku',
@@ -36,6 +36,6 @@ HEADER_LINKS = (
                         Link(name="What I'm with Jay Miller",
                             image="https://s3-us-west-2.amazonaws.com/kjaymiller/images/whatimpodcast.JPG",
                             url='https://kjaymiller.transistor.fm')
-                           ])
-    Link(name='Projects', url='/projects')
+                           ]),
+    Link(name='Projects', url='/projects'),
 )
