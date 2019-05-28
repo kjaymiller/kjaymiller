@@ -37,4 +37,5 @@ HEADER_LINKS = (
                             image="https://s3-us-west-2.amazonaws.com/kjaymiller/images/whatimpodcast.JPG",
                             url='https://kjaymiller.transistor.fm')
                            ])
+    Link(name='Projects', url='/projects')
 )
