@@ -1,5 +1,5 @@
 from links import Link
-
+from content_types import *
 SITE_TITLE = "K Jay Miller"
 SITE_SUBTITLE = "On the Corner of Automation, Productivity, and Community"
 SITE_URL = "https://kjaymiller.com"
@@ -17,6 +17,9 @@ FAVICON = ''
 DEFAULT_POST_IMAGE = ''
 DEFAULT_POST_BANNER = ''
 
+CONTENT_TYPES = (pages, projects, blog) # removed microblog
+CATEGORIZED = blog,
+PAGINATION = blog,
 
 HEADER_LINKS = (
     Link(name='Blog', url='/blog/blog_0.html'),
