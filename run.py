@@ -20,10 +20,13 @@ for collection in content_types.CONTENT_TYPES:
     for page in collection.pages:
         write_page(f'{collection.output_path}/{page.id}.html', page.html)
 
+
 @writer(route='index.html')
 def index():
     return Page(template='index.html',
             what_im_block=what_im_block,
+            ).html
+
 
 def pagination():
     page_groups = content_types.PAGINATION
