@@ -24,7 +24,6 @@ HEADER_LINKS = (
     Link('Contact','/contact.html'),
     Link('YouTube',
     'https://www.youtube.com/channel/UCjoJU65IbXkKXsNqydro05Q?view_as=subscriber'),
-    Link(name='Projects', url='/projects'),
     Link('Podcasts', links=[
                         Link(name='Productivity in Tech Podcast',
                             url='https://productivityintech.transistor.fm',
