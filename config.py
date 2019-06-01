@@ -1,5 +1,6 @@
 from links import Link
 from content_types import *
+
 SITE_TITLE = "K Jay Miller"
 SITE_SUBTITLE = "On the Corner of Automation, Productivity, and Community"
 SITE_URL = "https://kjaymiller.com"

@@ -14,7 +14,7 @@ shutil.rmtree(Path(config.OUTPUT_PATH), ignore_errors=True)
 
 # build static pages
 gen_static()
-for collection in config.CONTENT_TYPES
+for collection in config.CONTENT_TYPES:
     collection.output_path.mkdir(parents=True, exist_ok=True)
     for page in collection.pages:
         write_page(f'{collection.output_path}/{page.id}.html', page.html)
