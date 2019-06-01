@@ -49,25 +49,5 @@
   -->
   <!-- End Newsletter -->
 
-  <!-- Microblog Section -->
-  <div id="col-md-3 microblog" class="px-2 my-3">
-    <h2 class="text-primary">Microblog</h2>
-
-    {% for micropost in latest_microposts %}
-    <div class="my-4 p-2 card">
-      <div class="card-body">
-        {{micropost.markup}} 
-      </div>
-
-      <div class="card-footer">
-        <small>
-          {{micropost.date_published}}
-        </small>
-      </div>
-
-    </div>
-    {% endfor %}
-
-  </div>
 </div>
   {% endblock %}
