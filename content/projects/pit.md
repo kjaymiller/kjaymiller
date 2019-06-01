@@ -2,10 +2,11 @@ Title: Productivity in Tech
 slug: prod_in_tech
 date: May 31, 2019 22:39
 updated: May 31, 2019 22:39
+link: https://productivityintech.com
 
 
-Productivity in Tech (or PIT for short) is the longest _still running_ project
-for me. 
+[Productivity in Tech](https://productivityintech.com) (or PIT for short) is the longest _still running_ project
+for me.
 
 It started with the [podcast](https://productivityintech.transistor.fm) where I talked apps (my love and hate for them) and
 then moved into my fascination with people working beyond the apps. 
