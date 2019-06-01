@@ -24,7 +24,7 @@ shutil.rmtree(Path(config.OUTPUT_PATH), ignore_errors=True)
 # build static pages
 gen_static()
  
-page_collections = pages, blog, microblog
+page_collections = pages, blog, microblog, projects
 for collection in page_collections:
     collection.output_path.mkdir(parents=True, exist_ok=True)
     for page in collection.pages:
