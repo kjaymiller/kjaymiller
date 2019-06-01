@@ -19,8 +19,7 @@ projects = Collection(name='projects', content_type=Page, content_path='projects
 blog = Collection(name='blog', content_type=BlogPost, output_path='blog')
 microblog = Collection(name='microblog', content_type=MicroBlogPost, content_path='microblog', output_path='microblog')
 
-if Path(config.OUTPUT_PATH).exists:
-    shutil.rmtree(Path(config.OUTPUT_PATH))
+shutil.rmtree(Path(config.OUTPUT_PATH), ignore_errors=True)
 
 # build static pages
 gen_static()
