@@ -15,6 +15,7 @@ from blocks import what_im_block
 
 
 pages = Collection(name='pages', content_type=Page, content_path='pages')
+projects = Collection(name='projects', content_type=Page, content_path='projects', output_path='projects')
 blog = Collection(name='blog', content_type=BlogPost, output_path='blog')
 microblog = Collection(name='microblog', content_type=MicroBlogPost, content_path='microblog', output_path='microblog')
 
@@ -33,9 +34,9 @@ for collection in page_collections:
 def index():
     latest_posts = blog.pages[:4]
     latest_microposts = microblog.pages[:3] 
-            
-    return Page(template='index.html', 
-            what_im_block=what_im_block, 
+
+    return Page(template='index.html',
+            what_im_block=what_im_block,
             featured_post=latest_posts[0],
             latest_microposts=latest_microposts, latest_posts=latest_posts[1:]).html
 
