@@ -2,9 +2,7 @@ Title: Bunch for Alfred
 Updated: May 31, 2019 21:59
 date: May 31, 2019 21:59
 
-This workflow takes advantage of Brett Terpstra's [Bunch Application](https://brettterpstra.com/projects/bunch/). 
-
-Bunch is a workspace loader that you can use to quickly open/close applications, urls, documents, and more to come. 
+This workflow takes advantage of Brett Terpstra's [Bunch Application](https://brettterpstra.com/projects/bunch/). Bunch is a workspace loader that you can use to quickly open/close applications, urls, documents, and more to come. 
 
 This workflow utilizes Bunch's [CLI script](https://gist.github.com/ttscoff/07820820270759b5ce98b06521877a54)
 
@@ -15,18 +13,16 @@ This workflow utilizes Bunch's [CLI script](https://gist.github.com/ttscoff/0782
 * `b <bunch>` - Toggles the selected bunch
 
 ### MODIFIERS (+ Return)
-|Modifier| Description|
-|---|---|
-|CMD |Forces Open the Bunch|
-|Control|Forces Closed the Applications listed in the bunch.|
-|Shift|Opens the Bunch file to be edited|
+* CMD - Forces Open the Bunch
+* Control - Forces Closed the Applications listed in the bunch.
+* Shift - Opens the Bunch file to be edited
 
 * `bedit <bunch>` - Opens the Bunch file to be edited
-* `bsettings:refresh` - Refreshes your Bunch List 
+* `bsettings:refresh` - Refreshes your Bunch List
 * `bsettings:bunches_dir` - Reveals the contents of the current bunches directory
   * Modifier `cmd` - opens the prompt to change the bunches directory. (YOU WILL NEED TO REFRESH YOUR BUNCH LIST)
 * `bsettings:help` - Opens the [github page](https://github.com/kjaymiller/Bunch_Alfred)
- 
+
 
 ## Change Log
 ### 2019-05-31.0
