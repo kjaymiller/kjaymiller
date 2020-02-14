@@ -7,15 +7,15 @@
 <div class="container">
     <article>
         <div class="row">
-            {% if metadata.image %}
-            <img src="{{metadata.image}}" class="featured_image">
+            {% if image %}
+            <img src="{{image}}" class="featured_image">
             {% endif %}
-            <h1 class="text-primary">{{metadata.title}}</h1>
+            <h1 class="text-primary">{{title}}</h1>
         </div>
-        <small class="text-secondary">{{metadata.author}} - <span
-               class="text-primary">{{metadata.date_published}}</span></small>
+        <small class="text-secondary">{{author}} - <span
+               class="text-primary">{{date_published}}</span></small>
         <div class="py-2">
-            {{metadata.markup}} 
+            {{markup}} 
         </div>
     </article>
 

@@ -1,5 +1,5 @@
 {% extends 'base.html'%}
-{% block title%}{{config.SITE_TITLE}}{% endblock%}
+{% block title%}{{SITE_TITLE}}{% endblock%}
 
 {% block head %}
 <link rel="stylesheet" type="text/css" href="/static/css/index.css">
@@ -11,63 +11,5 @@
   <img
      src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/Personal_Branding_twitter_cover.png">
 </div>
-<hr>
+{% endblock %}
 
-<!-- Full Jumbotron -->
-  <div class="d-md-block p-4 my-2 d-lg-none jumbotron jumbotron-fluid">
-    {% include 'full-jumbotron.html' %}
-  </div>
-<!--Start Jumbotron  -->
-<div class="d-md-none d-lg-block p-2 my-2">
-  {% include 'what_im.html' %}
-  {% include 'lg-screen-jumbotron.html' %}
-</div>
-  <!-- Newsletter Subscription -->
-  <!--
-    <div class="jumbotron">
-    <form
-    action="https://buttondown.email/api/emails/embed-subscribe/productivityintech"
-    method="post"
-    target="popupwindow"
-    onsubmit="window.open('https://buttondown.email/productivityintech', 'popupwindow')"
-    class="embeddable-buttondown-form px-3">
-    <p class="font-italic font-weight-strong text-primary"> All this content (plus some extra goodies) in a digestible package in your inbox! </p>
-    <input type="email"
-    name="email"
-    placeholder="Email"
-    id="bd-email">
-
-    <input type="hidden"
-    value="1"
-    name="embed" />
-
-    <input class="btn align-right btn-primary my-2"
-    type="submit"
-    value="Subscribe" />
-    </form>
-    </div>
-  -->
-  <!-- End Newsletter -->
-
-  <!-- Microblog Section -->
-  <div id="col-md-3 microblog" class="px-2 my-3">
-    <h2 class="text-primary">Microblog</h2>
-
-    {% for micropost in latest_microposts %}
-    <div class="my-4 p-2 card">
-      <div class="card-body">
-        {{micropost.markup}} 
-      </div>
-
-      <div class="card-footer">
-        <small>
-          {{micropost.date_published}}
-        </small>
-      </div>
-
-    </div>
-    {% endfor %}
-
-  </div>
-</div>
-  {% endblock %}

@@ -2,11 +2,11 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand text-secondary" href="/">{{config.SITE_TITLE}}</a>
+    <a class="navbar-brand text-secondary" href="/">{{SITE_TITLE}}</a>
 
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="navbar-nav mr-auto mt-lg-0">
-            {% for link in config.HEADER_LINKS %}
+            {% for link in HEADER_LINKS %}
             {% if link.links %}
             <li class="nav-item-dropdown px-2">
                 <a data-toggle="dropdown" href="{{link.href}}" role="button" aria-haspopup="true" aria-expanded="false" >

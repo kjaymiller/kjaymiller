@@ -1,5 +1,6 @@
 Title: Quickly Set Your Environment with Bunch and Alfred
 Tags: Brett Terpstra, Bunch, Alfred, Workflow
+Date: October 01, 2019 11:00AM
 
 [Bunch](https://brettterpstra.com/projects/bunch/) is an environment setup/teardown tool by the [mad genius and yoga maestro of the internet][0] Brett Terpstra.
 
