@@ -1,0 +1,7 @@
+.featured_image{
+    max-height: 300px;
+}
+
+img {
+	max-width: 75%;
+}
