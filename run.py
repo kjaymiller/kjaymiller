@@ -7,7 +7,7 @@ from render_engine.links import Link
 
 HEADER_LINKS = (
     Link(name='Blog', url='/all_posts.html'),
-    Link(name='MicroBlog', url='https://micro.blog/kjaymiller),
+    Link(name='MicroBlog', url='https://micro.blog/kjaymiller'),
     Link(name='Newsletter', url='/newsletter'),
     Link(name='Productivity in Tech', url='https://productivityintech.com'),
     Link(name='Contact', url='/contact'),

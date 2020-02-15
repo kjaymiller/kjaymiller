@@ -1,0 +1,28 @@
+title: Podcasts
+slug: podcasts
+
+## Active Podcasts
+- Bob's TavernCast
+
+## Shows on Hiatus
+<div class="tiles">
+<div class="tile is-ancestor">
+<div class="tile is-parent">
+<div class="tile is-child">
+  Ask a Brit w/ Jay and Jay
+</div>
+<div class="tile is-child">
+ DevOtaku
+</div>
+<div class="tile is-child">
+ Productivity in Tech Podcast
+</div>
+<div class="tile is-child">
+ A Geeky Family Podcast
+</div>
+<div class="tile is-child">
+ What I'm Podcast
+</div>
+</div>
+</div>
+
