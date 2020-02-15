@@ -1,6 +1,0 @@
-[submodule "pages"]
-	path = pages
-	url = https://github.com/kjaymiller/render_engine.git
-[submodule "pagesls"]
-	path = pagesls
-	url = https://github.com/kjaymiller/render_engine.git
