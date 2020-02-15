@@ -12,6 +12,7 @@ TavernCast](https://images-internal.transistor.fm/images/show/5833/medium_157427
 </div>
 </div>
 </div>
+</div>
 
 ## Shows on Hiatus
 <div class="tiles">
@@ -22,16 +23,17 @@ TavernCast](https://images-internal.transistor.fm/images/show/5833/medium_157427
   Jay](https://images-internal.transistor.fm/images/show/801/medium_1546460933-artwork.jpg)](https://www.askabrit.us)
 </div>
 <div class="tile is-child">
- DevOtaku
+ [![DevOtaku](https://images-internal.transistor.fm/images/show/826/medium_1546728223-artwork.jpg)](https://devotaku.transistor.fm)
 </div>
 <div class="tile is-child">
- Productivity in Tech Podcast
+ [![Productivity in Tech Podcast](https://images-internal.transistor.fm/images/show/799/medium_1561758687-artwork.jpg)](https://podcast.productivityintech.com)
 </div>
 <div class="tile is-child">
- A Geeky Family Podcast
+ [![A Geeky Family Podcast](https://images-internal.transistor.fm/images/show/1398/medium_1552486793-artwork.jpg)](https://geekyfamily.transistor.fm)
 </div>
 <div class="tile is-child">
- What I'm Podcast
+ [What I'm Podcast](https://images-internal.transistor.fm/images/show/1226/medium_1550518016-artwork.jpg)](https://kjaymiller.transistor.fm)
+</div>
 </div>
 </div>
 </div>
