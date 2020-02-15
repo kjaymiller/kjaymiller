@@ -18,7 +18,8 @@ TavernCast](https://images-internal.transistor.fm/images/show/5833/medium_157427
 <div class="tile is-ancestor">
 <div class="tile is-parent">
 <div class="tile is-child">
-  Ask a Brit w/ Jay and Jay
+  [![Ask a Brit w/ Jay and
+  Jay](https://images-internal.transistor.fm/images/show/801/medium_1546460933-artwork.jpg)](https://www.askabrit.us)
 </div>
 <div class="tile is-child">
  DevOtaku
