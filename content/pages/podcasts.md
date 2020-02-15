@@ -3,7 +3,6 @@ slug: podcasts
 
 <div class="container">
 <h2 class="subtitle">Active Podcasts</h2>
-<div class="tiles">
 <div class="tile is-ancestor">
 <div class="tile is-parent">
 <div class="tile is-child">
@@ -12,11 +11,9 @@ slug: podcasts
 </div>
 </div>
 </div>
-</div>
 
 <div class="container">
 <h2 class="subtitle">Shows on Hiatus</h2>
-<div class="tiles">
 <div class="tile is-ancestor">
 <div class="tile is-parent">
 <div class="tile is-child">
@@ -33,7 +30,6 @@ slug: podcasts
 </div>
 <div class="tile is-child">
 <a href="https://kjaymiller.transistor.fm"><img src="https://images-internal.transistor.fm/images/show/1226/medium_1550518016-artwork.jpg" alt="What Im Podcast" /></a>
-</div>
 </div>
 </div>
 </div>
