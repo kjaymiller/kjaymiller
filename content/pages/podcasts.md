@@ -1,7 +1,8 @@
 title: Podcasts
 slug: podcasts
 
-## Active Podcasts
+<div class="container">
+<h2 class="subtitle">Active Podcasts</h2>
 <div class="tiles">
 <div class="tile is-ancestor">
 <div class="tile is-parent">
@@ -14,13 +15,13 @@ TavernCast](https://images-internal.transistor.fm/images/show/5833/medium_157427
 </div>
 </div>
 
-## Shows on Hiatus
+<div class="container">
+<h2 class="subtitle">Shows on Hiatus</h2>
 <div class="tiles">
 <div class="tile is-ancestor">
 <div class="tile is-parent">
 <div class="tile is-child">
-  [![Ask a Brit w/ Jay and
-  Jay](https://images-internal.transistor.fm/images/show/801/medium_1546460933-artwork.jpg)](https://www.askabrit.us)
+  [![Ask a Brit w/ Jay and Jay](https://images-internal.transistor.fm/images/show/801/medium_1546460933-artwork.jpg)](https://www.askabrit.us)
 </div>
 <div class="tile is-child">
  [![DevOtaku](https://images-internal.transistor.fm/images/show/826/medium_1546728223-artwork.jpg)](https://devotaku.transistor.fm)
