@@ -6,9 +6,8 @@ slug: podcasts
 <div class="tile is-ancestor">
 <div class="tile is-parent">
 <div class="tile is-child">
-![Bob's
-TavernCast](https://images-internal.transistor.fm/images/show/5833/medium_1574279200-artwork.jpg)
-Bob's TavernCast
+[![Bob's
+TavernCast](https://images-internal.transistor.fm/images/show/5833/medium_1574279200-artwork.jpg)](https://bobs.tavern.pub)
 </div>
 </div>
 </div>
