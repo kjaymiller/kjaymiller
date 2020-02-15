@@ -4,5 +4,7 @@
 
 *.tar
 
+bin
+lib
 .ropeproject
 node_modules
