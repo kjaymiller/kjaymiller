@@ -1,6 +1,7 @@
 title: Podcasts
 slug: podcasts
 
+<section class="section">
 <div class="container">
 <h2 class="subtitle">Active Podcasts</h2>
 <div class="tile is-ancestor">
@@ -11,7 +12,9 @@ slug: podcasts
 </div>
 </div>
 </div>
+</section>
 
+<section class="section">
 <div class="container">
 <h2 class="subtitle">Shows on Hiatus</h2>
 <div class="tile is-ancestor">
@@ -33,4 +36,4 @@ slug: podcasts
 </div>
 </div>
 </div>
-
+</section>
