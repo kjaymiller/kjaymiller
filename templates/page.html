@@ -1,16 +1,5 @@
 {% extends 'base.html' %}
-{% block title %}{{title}}{% endblock %}
-{% block head %}
-<style>
-  img {
-    max-width:60%;
-    max-height: 300px;
-      float: left;
-        padding: 0 2em;
-  }
-
-</style>
-{% endblock %}
+{% block title %}{{title}} - {{SITE_TITLE}}{% endblock %}
 {% block content %} 
 <div class="container">
 	<div class="jumbotron">
