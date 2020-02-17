@@ -2,31 +2,10 @@
     <a class="navbar-brand has-text-white" href="/">{{SITE_TITLE}}</a>
 
     <div class="navbar-menu" id="">
-        <ul class="navbar-nav mr-auto mt-lg-0">
             {% for link in HEADER_LINKS %}
-            {% if link.links %}
-            <li class="nav-item-dropdown px-2">
-                <a data-toggle="dropdown" href="{{link.href}}" role="button" aria-haspopup="true" aria-expanded="false" >
+                <a class="navbar-item px-2" href="{{link.url}}">
                     {{link.name}}
                 </a>
-                    <div class="dropdown-menu" class="col-sm-4" aria-labelledby="dropdownMenuLink">
-                        {% for sublink in link.links %}
-                        <a class="dropdown-item" href="{{sublink.url}}">
-                          <img width="15px" src="{{sublink.image}}">
-                          {{sublink.name}}
-                        </a>
-                        {% endfor %}
-            </li>
-                    </div>
-            {% else %}
-            <li class="navbar-item px-2">
-                <a href="{{link.url}}">
-                    {{link.name}}
-                </a>
-            </li>
-            {% endif %}
-
             {% endfor %}
-        </ul>
     </div>
 </nav>
