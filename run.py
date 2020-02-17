@@ -11,6 +11,8 @@ HEADER_LINKS = (
     Link(name='Newsletter', url='/newsletter'),
     Link(name='Productivity in Tech', url='https://productivityintech.com'),
     Link(name='Contact', url='/contact'),
+    Link(name='Podcasts', url='/podcasts.html'),
+    Link(name='GitHub', url='https://github.com/kjaymiller'),
     Link(name='YouTube', url='https://www.youtube.com/channel/UCjoJU65IbXkKXsNqydro05Q'),
     )
 
