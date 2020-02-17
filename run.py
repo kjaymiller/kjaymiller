@@ -35,5 +35,6 @@ class Pages(Collection):
 @mysite.register_collection
 class Blog(Blog):
     routes = ['', '/blog']
+    template = "blog.html"
 
 mysite.render(dry_run=False)
