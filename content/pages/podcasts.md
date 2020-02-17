@@ -1,7 +1,7 @@
 title: Podcasts
 slug: podcasts
 
-<h2 class="subtitle">Active Podcasts</h2>
+<h2 class="subtitle is-2">Active Podcasts</h2>
 <section class="section">
 <div class="level">
 <div class="level-item">
@@ -12,7 +12,7 @@ slug: podcasts
 </div>
 </section>
 
-<h2 class="subtitle">Shows on Hiatus</h2>
+<h2 class="subtitle is-2">Shows on Hiatus</h2>
 <section class="section">
 <div class="columns">
 <div class="column">
