@@ -7,7 +7,9 @@
     <article>
         <div class="hero">
             {% if image %}
-            <img src="{{image}}" class="featured_image">
+            <figure class="image is-16by9">
+              <img src="{{image}}" class="featured_image">
+            </figure>
             {% endif %}
             <h1 class="title">{{title}}</h1>
         </div>
