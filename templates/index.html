@@ -35,7 +35,12 @@
       <div class="tile is-parent">
     {% for post in posts %}
         <div class="tile is-child">
-          <a href="/blog/{{post.slug}}">{{post.title}}</a>
+          {% if post.image %}
+          <figure class="image is-128x128">
+            <img src="{{post.image}}">
+          </figure>
+          {% endif %}
+          <a class="subtitle is-4" href="/blog/{{post.slug}}">{{post.title}}</a>
         </div>
     {% endfor %}
       </div>
