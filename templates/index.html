@@ -31,15 +31,15 @@
 <section class="section">
   <div class="container">
     <h1 class="title is-3">Latest Posts</h1>
-    {% for post in posts %}
     <div class="tile is-ancestor">
       <div class="tile is-parent">
+    {% for post in posts %}
         <div class="tile is-child">
           <a href="/blog/{{post.slug}}">{{post.title}}</a>
         </div>
+    {% endfor %}
       </div>
     </div>
-    {% endfor %}
   </div>
 </section>
 {% endblock %}
