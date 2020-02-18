@@ -32,7 +32,13 @@
   <div class="container">
     <h1 class="title is-3">Latest Posts</h1>
     {% for post in posts %}
-    <a href="/blog/{{post.slug}}">{{post.title}}</a>
+    <div class="tile is-ancestor">
+      <div class="tile is-parent">
+        <div class="tile is-child">
+          <a href="/blog/{{post.slug}}">{{post.title}}</a>
+        </div>
+      </div>
+    </div>
     {% endfor %}
   </div>
 </section>
