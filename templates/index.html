@@ -28,4 +28,13 @@
   </div>
 </div>
 </section>
+<section class="section">
+  <div class="container">
+    <h1 class="title is-3">Latest Posts</h1>
+    {% for post in posts %}
+    <a href="/blog/{{post.slug}}">{{post.title}}</a>
+    {% endfor %}
+  </div>
+</section>
 {% endblock %}
+

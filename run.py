@@ -1,4 +1,5 @@
 import logging
+import pendulum
 from render_engine import Site, Page, Collection
 from render_engine.blog import Blog
 from render_engine.links import Link
@@ -21,12 +22,6 @@ mysite.SITE_TITLE = '(K)Jay Miller'
 mysite.SITE_LINK = 'https://kjaymiller.com'
 mysite.HEADER_LINKS = HEADER_LINKS
 
-@mysite.register_route
-class Index(Page):
-    template = "index.html"
-    slug = "index.html"
-
-
 @mysite.register_collection
 class Pages(Collection):
     routes = ["", "pages"]
@@ -38,5 +33,21 @@ class Pages(Collection):
 class Blog(Blog):
     routes = ['', '/blog']
     template = "blog.html"
+
+
+@mysite.register_route
+class Index(Page):
+    template = "index.html"
+    slug = "index.html"
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.posts = list(
+                sorted(
+                    mysite.collections['Blog'].pages, 
+                    key=lambda x:pendulum.parse(x.date_published, strict=False),
+                    reverse=True)
+            )[:5]
+
 
 mysite.render(dry_run=False)
