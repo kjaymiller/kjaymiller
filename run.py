@@ -1,6 +1,7 @@
 import logging
 import pendulum
 from render_engine import Site, Page, Collection
+from render_engine.microblog import MicroBlog
 from render_engine.blog import Blog
 from render_engine.links import Link
 
@@ -34,6 +35,11 @@ class Blog(Blog):
     routes = ['', '/blog']
     template = "blog.html"
 
+@mysite.register_collection
+class MicroBlog(MicroBlog):
+    routes = ['/microblog']
+    template = "blog.html"
+    content_path = "content/microblog"
 
 @mysite.register_route
 class Index(Page):
