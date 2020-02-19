@@ -54,6 +54,11 @@ class Index(Page):
                     key=lambda x:pendulum.parse(x.date_published, strict=False),
                     reverse=True)
             )[:5]
+        self.microblog_posts = list(
+                sorted(
+                    mysite.collections['MicroBlog'].pages,
+                    key=lambda x:x.sortable_date,
+                    reverse=True)[:5]
 
 
 mysite.render(dry_run=False)
