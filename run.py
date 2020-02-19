@@ -51,7 +51,7 @@ class Index(Page):
         self.posts = list(
                 sorted(
                     mysite.collections['Blog'].pages,
-                    key=lambda x:pendulum.parse(x.date_published, strict=False),
+                    key=lambda x:x.sortable_date,
                     reverse=True)
             )[:5]
 
