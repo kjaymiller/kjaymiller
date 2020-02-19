@@ -6,18 +6,18 @@
     <description></description>
 
 <item>
-  <description><![CDATA[<p>Fixed a few issues wiht rss on my static site generator. I expect to be posting posting a lot more now. ^_^</p>
-<p><img alt="yay-tears" src="https://media0.giphy.com/media/axu6dFuca4HKM/giphy.gif" /></p>]]></description>
-
-<pubDate>Wed, 19 Feb 2020 10:10:00 -0800</pubDate><guid isPermaLink="false">202021910100</guid></item><item>
   <description><![CDATA[<p>New Coffee Alert ☕ 🚨
 PT's Coffee - <a href="https://www.ptscoffee.com/collections/coffee/products/flatlander">Flatlander</a></p>
 <p><img alt="PTCoffee1" src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/PTsCoffee1.jpeg" />
 <img alt="PTCoffee2" src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/PTCoffee2.jpeg" /></p>
 <p>#WhatImDrinking #Coffee</p>]]></description>
 
-<pubDate>Wed, 19 Feb 2020 13:16:00 -0800</pubDate><guid isPermaLink="false">202021913160</guid></item><item>
+<pubDate>Wed, 19 Feb 2020 13:16:00 +0000</pubDate><guid isPermaLink="false">202021913160</guid></item><item>
   <description><![CDATA[<p>Testing 1, 2, 3</p>]]></description>
 
-<pubDate>Tue, 18 Feb 2020 13:41:00 -0800</pubDate><guid isPermaLink="false">202021813410</guid></item></channel>
+<pubDate>Tue, 18 Feb 2020 13:41:00 +0000</pubDate><guid isPermaLink="false">202021813410</guid></item><item>
+  <description><![CDATA[<p>Fixed a few issues wiht rss on my static site generator. I expect to be posting posting a lot more now. ^_^</p>
+<p><img alt="yay-tears" src="https://media0.giphy.com/media/axu6dFuca4HKM/giphy.gif" /></p>]]></description>
+
+<pubDate>Wed, 19 Feb 2020 10:10:00 +0000</pubDate><guid isPermaLink="false">202021910100</guid></item></channel>
 </rss>
