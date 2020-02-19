@@ -5,8 +5,12 @@ slug: podcasts
 <section class="section">
 <div class="level">
 <div class="level-item">
-<figure class="image is-248x248">
+<figure class="image">
 <a href="https://kjaymiller.transistor.fm"><img alt="Bob's TavernCast" src="https://images-internal.transistor.fm/images/show/5833/medium_1574279200-artwork.jpg"></a>
+</figure>
+<div class="level-item">
+<figure class="image">
+<a href="https://podcast.productivityintech.com"><img src="https://images-internal.transistor.fm/images/show/799/medium_1561758687-artwork.jpg" alt="Productivity in Tech Podcast" /></a>
 </figure>
 </div>
 </div>
@@ -25,10 +29,6 @@ slug: podcasts
 <a href="https://devotaku.transistor.fm"><img src="https://images-internal.transistor.fm/images/show/826/medium_1546728223-artwork.jpg" alt="DevOtaku" /></a>
 </figure>
 </div>
-<div class="column">
-<figure class="image">
-<a href="https://podcast.productivityintech.com"><img src="https://images-internal.transistor.fm/images/show/799/medium_1561758687-artwork.jpg" alt="Productivity in Tech Podcast" /></a>
-</figure>
 </div>
 <div class="column">
 <figure class="image">
