@@ -1,4 +1,7 @@
 {% extends 'base.html' %}
+{% block head %}
+<link rel="stylesheet" type="text/css" href="/static/css/microblog_archive.css">
+{% endblock %}
 {% block title %}{{title}}{% endblock %}
 {% block content %}
 <section class="section">
@@ -19,9 +22,8 @@
     {% endif %}
 		<div class="column">
 			<div class="container">
-			<a href="/microblog/{{post.slug}}"><p class="has-text-weight-semibold">
+			<p class="content has-text-weight-semibold">
         {{post.content}}</p>
-      </a>
 		</div>
     <footer class="container footer has-text-left">
 			<strong>Date:</strong> {{post.date_published}}
