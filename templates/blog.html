@@ -11,9 +11,11 @@
               <img src="{{image}}" class="featured_image">
             </figure>
             {% endif %}
-            <h1 class="title">{{title}}</h1>
-            <div class="hero-foot">
-              <small class="is-small">{{author}} - {{sortable_date.strftime('%B %d, %Y %I: %M %p')}}</small>
+            <div class="container">
+              <h1 class="title">{{title}}</h1>
+              <div class="hero-foot">
+                <small class="is-small">{{author}} - {{sortable_date.strftime('%B %d, %Y %I: %M %p')}}</small>
+              </div>
             </div>
         </section>
 
