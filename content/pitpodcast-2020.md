@@ -1,7 +1,7 @@
 title: The PIT Podcast 2020 Season
 slug: pitpodcast-2020-begins
 date: 18 Feb 2020 11:51PM
-image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/pit-v3-podcast-16x9.png
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/pit-v3-banner.jpg
 
 I'm happy to announce that the Productivity in Tech Podcast is back in action!
 
