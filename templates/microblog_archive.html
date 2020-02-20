@@ -1,10 +1,9 @@
 {% extends 'base.html' %}
+{% block title %}{{title}}{% endblock %}
 {% block content %}
 <section class="section">
   <div class="container">
-			<h2 class="title is-1 has-text-info">Blog</h2>
-        {% if pages %}
-        <h2 class="subtitle is-5">There are {{pages|length}} Posts</h2>
+    <h2 class="title is-1 has-text-info">{{title}}</h2>
         {% for post in pages %}
 			<div class="tile is-parent">
 	<article class="tile is-child box">
@@ -31,9 +30,6 @@
 	</article>
 		</div>
         {% endfor %}
-        {% else %}
-        <h2 class="subtitle is-3">Sorry, No Posts Have Been Loaded Yet</h2>
-        {% endif %}
     </div>
 </div>
 </div>
