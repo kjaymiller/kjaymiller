@@ -15,8 +15,11 @@
               <h1 class="title is-2 has-text-font-weight-semibold">{{title}}</h1>
             </div>
               <section class="hero-foot">
-                <div class="container">
-                <small class="is-small">{{author}} {{sortable_date.strftime('%B %d, %Y %I: %M %p')}}</small>
+                <nav class="navbar">
+                  <div class="navbar-brand">
+                    <p class="navbar-item">
+                    <small class="is-small">{{author}} {{sortable_date.strftime('%B %d, %Y %I: %M %p')}}</small>
+                    </p>
                 </div>
               </section>
         </section>
