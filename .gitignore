@@ -8,3 +8,6 @@ bin
 lib
 .ropeproject
 node_modules
+
+lib64
+shared
