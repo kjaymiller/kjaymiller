@@ -14,7 +14,7 @@
             <h1 class="title">{{title}}</h1>
         </div>
         <small class="subtitle">{{author}} - <span
-               class="subtitle is-4">{{date_published}}</span></small>
+               class="subtitle is-4">{{sortable_date.strftime('%B %d, %Y %I: %M %p')}}</span></small>
         <div class="content">
             {{content}} 
         </div>
