@@ -53,7 +53,7 @@ class Index(Page):
                     mysite.collections['Blog'].pages,
                     key=lambda x:x.date,
                     reverse=True)
-            )[:5]
+            )[:4]
 
         self.microblog_posts = list(
                 sorted(

@@ -38,17 +38,18 @@
     <h1 class="title is-3">Latest Posts</h1>
     <div class="columns is-multiline">
     {% for post in posts %}
-          <div class="column tile is-3 box">
+          <div class="column tile is-3">
           {% if post.image %}
-          <figure class="image is-3by1">
-            <img src="{{post.image}}">
-          </figure>
+          <div class="box">
+            <figure class="image is-3by1">
+              <img src="{{post.image}}">
+            </figure>
           {% endif %}
           <a class="subtitle is-4" href="/blog/{{post.slug}}">{{post.title}}</a>
         </div>
+        </div>
     {% endfor %}
       </div>
-    </div>
     <div class="container">
       <h2><a href="/all_posts">View Older Posts</a></h2>
     </div>
