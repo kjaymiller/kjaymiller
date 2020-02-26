@@ -66,8 +66,10 @@
     <div class="columns is-multiline">
             {% for post in microblog_posts %}
               <div class="column tile is-4">
-                <div class="content box">
+                <div>
+                  <div class="content box">
                   {{post.content}}
+                  </div>
                 <div class="hero is-light">
                     {{post.date.strftime('%B %d, %Y %I:%M %p')}}
                   </div>
