@@ -60,18 +60,17 @@
     <h1 class="title is-3">Microblog Posts</h1>
         <div class="tile is-ancestor">
           <div class="tile is-parent">
-    {% for post in microblog_posts %}
-            <div class="tile is-child is-4">
-            <div class="content">
-              {{post.content}}
-            </div>
-          <section class="hero is-light">
-            <div class="container">
-            {{post.date.strftime('%B %d, %Y %I:%M %p')}}
-          </div>
-          </section>
-        </div>
-        </div>
+            {% for post in microblog_posts %}
+              <div class="tile is-child is-4">
+                <div class="content">
+                  {{post.content}}
+                </div>
+                <section class="hero is-light">
+                  <div class="container">
+                    {{post.date.strftime('%B %d, %Y %I:%M %p')}}
+                  </div>
+                </section>
+              </div>
     {% endfor %}
     </div>
     </div>
