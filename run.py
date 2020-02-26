@@ -14,7 +14,7 @@ HEADER_LINKS = (
     Link(name='Productivity in Tech', url='https://productivityintech.com'),
     Link(name='Contact', url='/contact'),
     Link(name='Podcasts', url='/podcasts.html'),
-    Link(name='GitHub', url='https://github.com/kjaymiller'),
+    Link(name='GitHub', url='https://github.com/kjaymiller', icon="fab fa-github"),
     Link(name='YouTube', url='https://www.youtube.com/channel/UCjoJU65IbXkKXsNqydro05Q'),
     )
 

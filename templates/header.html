@@ -5,9 +5,16 @@
   </div>
   <div class="navbar-menu" id="">
             {% for link in HEADER_LINKS %}
+              {% if link.icon %}
+              <span class="icon">
+                <icon class="{{link.icon}}">
+                </icon>
+              </span>
+              {% else %}
                 <a class="navbar-item px-2" href="{{link.url}}">
                     {{link.name}}
                 </a>
+              {% endif %}
             {% endfor %}
     </div>
 </nav>
