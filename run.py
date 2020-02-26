@@ -16,6 +16,7 @@ HEADER_LINKS = (
     Link(name='Podcasts', url='/podcasts.html'),
     Link(name='GitHub', url='https://github.com/kjaymiller', icon="fab fa-github"),
     Link(name='YouTube', url='https://www.youtube.com/channel/UCjoJU65IbXkKXsNqydro05Q', icon="fab fa-youtube"),
+    Link(name='Twitter', url='https://twitter.com/kjaymiller', icon="fab fa-twitter"),
     )
 
 mysite = Site(strict=True)
