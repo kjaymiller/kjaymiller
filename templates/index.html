@@ -58,9 +58,9 @@
 <section class="section">
   <div class="container posts">
     <h1 class="title is-3">Microblog Posts</h1>
-    <div class="columns">
-      <div class="column box">
+    <div class="columns is-multiline">
             {% for post in microblog_posts %}
+              <div class="column tile is-4 box">
                 <div class="content">
                   {{post.content}}
                 </div>
@@ -70,6 +70,7 @@
                   </div>
                 </section>
               </div>
+    </div>
     {% endfor %}
     </div>
     </div>
