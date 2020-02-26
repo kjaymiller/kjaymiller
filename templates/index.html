@@ -1,5 +1,5 @@
 {% extends 'base.html'%}
-{% block title%}{{SITE_TITLE}}{% endblock%}
+{% block title%}{% endblock%}
 
 {% block head %}
 <link rel="stylesheet" type="text/css" href="/static/css/index.css">
@@ -31,8 +31,10 @@
 </section>
 
 <section class="section">
-  <div class="hero is-grey-lighter">
-    {% include 'newsletter.html' %}
+  <div class="container">
+    <div class="hero">
+      {% include 'newsletter.html' %}
+    </div>
   </div>
 </section>
 
