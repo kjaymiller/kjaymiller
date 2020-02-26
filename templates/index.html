@@ -59,10 +59,8 @@
   <div class="container posts">
     <h1 class="title is-3">Microblog Posts</h1>
     <div class="columns">
-        <div class="tile is-ancestor">
-          <div class="tile is-parent">
+      <div class="column box">
             {% for post in microblog_posts %}
-              <div class="tile is-child is-4">
                 <div class="content">
                   {{post.content}}
                 </div>
