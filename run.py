@@ -17,7 +17,7 @@ HEADER_LINKS = (
     Link(name='GitHub', url='https://github.com/kjaymiller', icon="fab fa-github"),
     Link(name='YouTube', url='https://www.youtube.com/channel/UCjoJU65IbXkKXsNqydro05Q', icon="fab fa-youtube"),
     Link(name='Twitter', url='https://twitter.com/kjaymiller', icon="fab fa-twitter"),
-    Link(name='Micro.Blog', url='https://micro.blog/kjaymiller', icon="fab-microblog"),
+    Link(name='Micro.Blog', url='https://micro.blog/kjaymiller', icon="fab fa-microblog"),
     )
 
 mysite = Site(strict=True)
