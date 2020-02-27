@@ -10,6 +10,7 @@ from render_engine.links import Link
 HEADER_LINKS = (
     Link(name='Blog', url='/all_posts.html'),
     Link(name='MicroBlog', url='/all_microblog_posts.html'),
+    Link(name='Talks', url='/conference-talks.html'),
     Link(name='Newsletter', url='https://buttondown.email/productivityintech'),
     Link(name='Productivity in Tech', url='https://productivityintech.com'),
     Link(name='Contact', url='/contact'),
