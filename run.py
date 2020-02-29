@@ -5,8 +5,6 @@ from render_engine.microblog import MicroBlog
 from render_engine.blog import Blog
 from render_engine.links import Link
 
-# logging.basicConfig(level=logging.INFO)
-
 HEADER_LINKS = (
     Link(name='Blog', url='/all_posts.html'),
     Link(name='MicroBlog', url='/all_microblog_posts.html'),
