@@ -3,12 +3,12 @@ slug: podcasts
 
 <h2 class="subtitle is-2">Active Podcasts</h2>
 <section class="section">
-<div class="level">
-<div class="level-item">
+<div class="columns">
+<div class="column">
 <figure class="image is-128x128">
 <a href="https://kjaymiller.transistor.fm"><img alt="Bob's TavernCast" src="https://images-internal.transistor.fm/images/show/5833/medium_1574279200-artwork.jpg"></a>
 </figure>
-<div class="level-item">
+<div class="column">
 <figure class="image is-128x128">
 <a href="https://podcast.productivityintech.com"><img src="https://images-internal.transistor.fm/images/show/799/medium_1561758687-artwork.jpg" alt="Productivity in Tech Podcast" /></a>
 </figure>
