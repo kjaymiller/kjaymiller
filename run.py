@@ -30,11 +30,18 @@ class Pages(Collection):
     content_path = "content/pages"
     template = "page.html"
 
-
 @mysite.register_collection
 class Blog(Blog):
     routes = ['', '/blog']
     template = "blog.html"
+
+
+@mysite.register_collection
+class Talks(Collection):
+    routes = ['', '/talks']
+    content_path = 'content/talks'
+    template = "blog.html"
+
 
 @mysite.register_collection
 class MicroBlog(MicroBlog):
