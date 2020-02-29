@@ -3,11 +3,6 @@ slug: wheel
 date: 29 Feb 2020 9AM
 footer: kjaymiller.com/talks/wheel | @kjaymiller
 
-# [fit] Reinvent the Wheel 
-## [fit] \(And Add Spikes to It!\)
-
-#### Jay Miller
-
 
 ^ Does anyone know what this is?
 No, it's not a torture device.
@@ -15,7 +10,9 @@ It's rotary tiller wheel.
 
 ^ I want to show you that for many of us, our use of python is like creating this over and over again.
 
-![right fit](https://i.etsystatic.com/8481945/r/il/6f56be/840739313/il_1588xN.840739313_31r0.jpg)
+----
+
+![fit](https://i.etsystatic.com/8481945/r/il/6f56be/840739313/il_1588xN.840739313_31r0.jpg)
 
 ---
 ## Jay Miller (@kjaymiller)
@@ -24,9 +21,12 @@ It's rotary tiller wheel.
 
 ![left Profile](https://s3-us-west-2.amazonaws.com/kjaymiller/images/kjaymiller_profile_photo.JPG)
 
+
+^ I'll be in around and to chat.
+
 ---
 
-## I'm sick 😷
+## I'm ~~sick~~ recovering 😷
 
 ### ✉️ email me - (jay@productivityintech.com)
 ###![twitter](https://marketingland.com/wp-content/ml-loads/2013/01/Twitter-logo-300x299.png) - @kjaymiller
@@ -34,6 +34,7 @@ It's rotary tiller wheel.
 
 
 ^ In fear of getting others sick, I'm going to ask that you don't chat with me. In fact I'll be leaving after this talk, so I would love to chat about your thoughts on this, but please email me or tweet at me.
+
 
 ---
 
@@ -72,8 +73,6 @@ It's rotary tiller wheel.
 
 # Pain Driven Development*
 
----
-
 ![inline fit pain scale](https://deviq.com/wp-content/uploads/CodePainScale-1024x629.png)
 
 ## Just for Processes, Not Code
@@ -84,8 +83,8 @@ It's rotary tiller wheel.
 
 ---
 
-## Examples:
- - Loading Mission Critical Networking Scripts to a Distributed SatCom Network to send messages in preparation for an approaching typhoon.
+## PITA Examples:
+ - Loading Mission Critical Networking Scripts in preparation for an approaching typhoon.
  - Modifying ~50,000 items to an ecommerce platform on a quarterly basis (Thank you `openpyxl`, `request-Threads`)
  - Getting data from hundreds of podcast episodes and adding content to YouTube (Thank you `feedparser`, `Jinja2`)
 
@@ -107,12 +106,17 @@ It's rotary tiller wheel.
 
 [^pandas]: https://www.fastcompany.com/3030877/businesses-can-now-use-the-same-stats-language-as-universities-thanks-to-pandas
 
+
+^ many people using python outside of traditional spaces have to have pretty good imaginations.
+
 ---
 
 ![imagination fit](https://media3.giphy.com/media/eLAHxY9cYXdO8/giphy.gif)
 
 
 ---
+
+# What is invention?
 
 > Invention is 
 > 93% perspiration 
@@ -124,12 +128,16 @@ It's rotary tiller wheel.
 
 ---
 
-![fit column uber](https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Uber_logo_2018.svg/1024px-Uber_logo_2018.svg.png)
-![fit airbnb](https://assets.entrepreneur.com/content/3x2/1300/1405612741-airbnb-why-new-logo.jpg)
-![fit fb](https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Facebook_logo_36x36.svg/1200px-Facebook_logo_36x36.svg.png)
-![fit google](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png)
+# For those that don't get paid to think about python, 
+  We don't know when we are reinventing the wheel.
 
 ---
+
+## Story Time: Code Kata
+### `maketrans` (aka my mortal enemy)
+
+---
+
 
 ![fit](https://i.etsystatic.com/8481945/r/il/6f56be/840739313/il_1588xN.840739313_31r0.jpg)
 
@@ -149,9 +157,6 @@ It's rotary tiller wheel.
 
 [^1]: "Antique Wheels" by Nick / KC7CBF is licensed under CC BY-NC 2.0 
 
----
-
-# It's my job to make _rotary tillers_
 
 ---
 # It's _OUR_ job to make _rotary tillers_
@@ -225,12 +230,15 @@ It's rotary tiller wheel.
 # [fit] The ~~Golden~~ Amber Rule!
 
 ---
+
 # [fit] The  ~~Golden Amber~~ Yellowish Colored Rule
 
 - Keep
 - It
 - Stupid
 - Simple
+
+^ I prefer this saying over "Keep it Simple Stupid". 
 
 ![right kiss](https://www.trbimg.com/img-5c781388/turbine/ct-ott-kiss-united-center-0301)
 
@@ -305,11 +313,37 @@ It's rotary tiller wheel.
 
 ---
 
+![fit](https://dsc.cloud/kjmScreenshots/pb-ENlhwjSJyz.png)
+![fit](https://dsc.cloud/kjmScreenshots/Safari-Screenshot-2020-02-28-21.10.59.jpg)
+
+---
+
 Render Engine (The Idea)
 
 - Static Site Generation with Flask Like Flexibility
 - Use tools like `Markdown`, `Jinja`
 - So _un-opinionated_ you could make it w/e you wanted.
+
+---
+
+## Site - A Collection of Pages and Collections
+
+![inline fit](https://kjaymiller.s3-us-west-2.amazonaws.com/images/pb-HOBMj9qmOd.png)
+
+* global variables and things
+
+---
+
+```python
+from render_engine import Site, Page, Collection
+
+mysite = Site()
+
+<SITE CODE>
+
+mysite.render()
+
+```
 
 ---
 
@@ -387,8 +421,6 @@ class Pages(Collection):
 ```
 
 ---
-
----
 ```python
 class Collection:
     engine = ''
@@ -425,35 +457,7 @@ class Blog(Collection):
 
 ---
 
-## Site - A Collection of Pages and Collections
-
-![inline fit](https://kjaymiller.s3-us-west-2.amazonaws.com/images/pb-HOBMj9qmOd.png)
-
-### global variables and things
-
----
-
-```python
-from render_engine import Site, Page, Collection
-
-mysite = Site()
-
-<SITE CODE>
-
-mysite.render()
-
-```
-
----
-
-## DRY
-
-### Don't Repeat Yourself
-
-
 ![hoe](https://live.staticflickr.com/4120/4868633152_385d551f54_b.jpg)
-
-[^1]: "IMG_0728" by Anne-Marie Bouché is licensed under CC BY-NC-SA 2.0 
 
 ![wheel](https://live.staticflickr.com/8313/7940002894_c614cdf833_b.jpg)
 
@@ -466,27 +470,49 @@ mysite.render()
 
 ## Things to Think About in Adding Spikes to a Wheel
 
-- Make sure you are allowed to (Licensing)
+----
+
+![fit right](https://dsc.cloud/kjmScreenshots/Safari-Screenshot-2020-02-29-08.02.49.jpg)
+
+## Make sure you are allowed to (Licensing)
+### and make sure you allow others
   - <https://choosealicense.com>
 
 ---
 
 ## Make sure your wheel is sturdy
   
+- Pick Tools that are well supported
 - Longevity != Sturdiness
-- Code Coverage
-- `pytest-cov`, `coverage`
+- Testing & Code Coverage
+- `pytest`, `unittest`, `pytest-cov`, `coverage`
+
+![right fit](https://i2.wp.com/motivated.life/wp-content/uploads/2015/07/32546-squarewheels-2.jpg)
 
 ---
 
 ![left](https://dsc.cloud/kjmScreenshots/CleanShot-2020-02-28-at-21.35.23-2x.png)
 
+
+# Tools for Calculating Complexity
 * Wily
-* ReadtheDocs
+
+
+# Tools for Documenting your Work
+* [ReadtheDocs](https://readthedocs.org)
+* Sphinx/MkDocs
+* pdoc/napoleon
 
 ---
 
 ## Think Outside the Box!
+### You have my permission FWIW
+
+---
+
+### Jay Miller
+## ReInvent the Wheel and Add Spikes to It
+#### (I'll be in the hallway)
 
 [^pain scale]: https://deviq.com/pain-driven-development/
 
