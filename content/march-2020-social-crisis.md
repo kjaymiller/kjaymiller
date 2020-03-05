@@ -6,6 +6,7 @@ I'm so confused. What are people yelling about.
 I scrolled through a twitter thread about asking people to have a side by side comparison of candidate x and candidate y in regards their benefit to an underrepresented group. 
 
 The responses were:
+
 - people praising OP for their bravery
 - people shouting "What about candidate z?"
 - people talking about what candidate x/y did NOT do, not what they did do
