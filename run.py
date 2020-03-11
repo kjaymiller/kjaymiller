@@ -17,6 +17,7 @@ HEADER_LINKS = (
     Link(name='YouTube', url='https://www.youtube.com/channel/UCjoJU65IbXkKXsNqydro05Q', icon="fab fa-youtube"),
     Link(name='Twitter', url='https://twitter.com/kjaymiller', icon="fab fa-twitter"),
     Link(name='Micro.Blog', url='https://micro.blog/kjaymiller', icon="fab fa-microblog"),
+    Link(name='Resume', url='static/flies/Jay_Miller_-_Software_Engineer.pdf'),
     )
 
 mysite = Site(strict=True)
