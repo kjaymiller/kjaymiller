@@ -20,12 +20,6 @@ mysite.SITE_TITLE = 'Jay Miller'
 mysite.SITE_URL = 'https://kjaymiller.com'
 mysite.HEADER_LINKS = HEADER_LINKS
 
-@mysite.register_route
-class Index(Page):
-    template = "index.html"
-    slug = "index.html"
-
-
 @mysite.register_collection
 class Pages(Collection):
     routes = ["", "pages"]
@@ -39,10 +33,17 @@ class Blog(Blog):
     template = 'archive.html'
     subcollections = ['category', 'tags']
 
+
 @mysite.register_collection
 class MicroBlog(MicroBlog):
     routes = ['/microblog']
     template = 'archive.html'
+
+
+@mysite.register_route
+class Index(Page):
+    template = "index.html"
+    slug = "index.html"
 
 
 mysite.render(dry_run=False)
