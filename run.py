@@ -45,5 +45,4 @@ class MicroBlog(MicroBlog):
     template = 'archive.html'
 
 
-print([x.slug for x in mysite.routes])
 mysite.render(dry_run=False)
