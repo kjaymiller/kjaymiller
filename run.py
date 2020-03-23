@@ -8,11 +8,12 @@ from render_engine.links import Link
 
 HEADER_LINKS = (
     Link(name='Blog', url='/all_posts.html'),
-    Link(name='MicroBlog', url='https://micro.blog/kjaymiller'),
-    Link(name='Newsletter', url='/newsletter'),
+    Link(name='MicroBlog', url='https://micro.blog/kjaymiller',
+    icon='fab fa-microblog'),
     Link(name='Productivity in Tech', url='https://productivityintech.com'),
-    Link(name='Contact', url='/contact'),
+    Link(name='Contact', url='/contact', icon='fas fa-paperplane'),
     Link(name='YouTube', url='https://www.youtube.com/channel/UCjoJU65IbXkKXsNqydro05Q'),
+    Link(name='Twitch', url='https://twitch.tv/kjaymiller'),
     )
 
 mysite = Site(strict=True)
