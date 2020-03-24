@@ -11,7 +11,7 @@ HEADER_LINKS = (
     Link(name='MicroBlog', url='https://micro.blog/kjaymiller',
     icon='fab fa-microblog'),
     Link(name='Productivity in Tech', url='https://productivityintech.com'),
-    Link(name='Contact', url='/contact', icon='fas fa-paperplane'),
+    Link(name='Contact', url='/contact', icon='fas fa-paper-plane'),
     Link(name='YouTube', url='https://www.youtube.com/channel/UCjoJU65IbXkKXsNqydro05Q'),
     Link(name='Twitch', url='https://twitch.tv/kjaymiller'),
     )
