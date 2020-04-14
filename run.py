@@ -28,18 +28,16 @@ class Pages(Collection):
     template = "page.html"
 
 
+
 @mysite.register_collection
-class Blog(Blog):
+class blog(Blog):
     routes = ['', '/blog']
     template = 'blog.html'
-    subcollections = ['category', 'tags']
-
 
 @mysite.register_collection
-class MicroBlog(MicroBlog):
+class microBlog(MicroBlog):
     routes = ['/microblog']
     template = 'blog.html'
-
 
 @mysite.register_route
 class Index(Page):
