@@ -39,6 +39,7 @@ class blog(Blog):
 class microBlog(MicroBlog):
     routes = ['/microblog']
     template = 'blog.html'
+    archive_template = 'microblog_archive.html'
 
 @mysite.register_route
 class Index(Page):
