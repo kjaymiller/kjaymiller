@@ -49,8 +49,8 @@ class Index(Page):
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        self.microblog_posts = mysite.collections['MicroBlog'].pages
-        self.blog_posts = mysite.collections['Blog'].pages
+        self.microblog_posts = mysite.collections['MicroBlog'].pages[:5]
+        self.blog_posts = mysite.collections['Blog'].pages[:5]
 
 
 mysite.render(dry_run=False)
