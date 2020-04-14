@@ -14,6 +14,7 @@ HEADER_LINKS = (
     Link(name='Contact', url='/contact', icon='fas fa-paper-plane'),
     Link(name='YouTube', url='https://www.youtube.com/channel/UCjoJU65IbXkKXsNqydro05Q'),
     Link(name='Twitch', url='https://twitch.tv/kjaymiller'),
+    Link(name='Resume', url='/static/files/Jay_Miller_-_Software_Engineer.pdf'),
     )
 
 mysite = Site(strict=True)
