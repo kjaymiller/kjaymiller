@@ -36,7 +36,8 @@ class blog(Blog):
     subcollections = ['category', 'tags']
 
 @mysite.register_collection
-class microBlog(MicroBlog):
+class MicroBlog(MicroBlog):
+    content_path = 'content/microblog'
     routes = ['/microblog']
     template = 'blog.html'
     archive_template = 'microblog_archive.html'
