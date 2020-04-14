@@ -43,9 +43,11 @@
     <h1 class="title is-3">Latest Posts</h1>
     <div class="columns is-multiline">
       {% for post in blog_posts %}
-      <h1 class="title">
-        <a href="/blog/{{post.slug}}">{{post.title}}</a>
-      </h1>
+      <div class="column is-4 box">
+        <h1 class="title">
+          <a href="/blog/{{post.slug}}">{{post.title}}</a>
+        </h1>
+      </div>
       {% endfor %}
          <p class="content has-text-right">
           <a href="/all_posts">View Older Posts</a>
