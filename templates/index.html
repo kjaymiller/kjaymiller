@@ -43,10 +43,17 @@
     <h1 class="title is-3">Latest Posts</h1>
     <div class="columns is-multiline">
       {% for post in blog_posts %}
-      <div class="column is-4 box">
-        {% if post.image %}
-          <img src="post.image">
-        {% endif %}
+      <div class="column is-4">
+        <div class="card">
+
+          {% if post.image %}
+            <div class="card-image">
+              <figure class="image">
+                <img src="{{post.image}}">
+              </figure>
+            </div>
+          {% endif %}
+
         <h1 class="title">
           <a href="/blog/{{post.slug}}">{{post.title}}</a>
         </h1>
