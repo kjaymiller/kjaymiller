@@ -2,8 +2,10 @@ title: Fish Resources
 slug: fish-resources
 date: 14 Apr 2020 08:19
 
+<div class="notification">
 ## Update:
 Due to a lack of support by some services that I use very regularly, I have stopped using fish and have gone back to zsh.
+</div>
 
 I do a lot of work in the terminal. I understand that for many it's the lack of glitz and glamour that keeps people away from it, and while the majority of my computer usage is in some GUI, there are still many things that I can do much faster using a script that I can launch from my terminal.
 
