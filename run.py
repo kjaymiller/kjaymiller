@@ -7,7 +7,7 @@ from render_engine.links import Link
 # logging.basicConfig(level=logging.INFO)
 
 HEADER_LINKS = (
-    Link(name='Blog', url='/all_posts.html'),
+    Link(name='Blog', url='/all_blog_posts.html'),
     Link(name='MicroBlog', url='https://micro.blog/kjaymiller',
     icon='fab fa-microblog'),
     Link(name='Productivity in Tech', url='https://productivityintech.com'),
