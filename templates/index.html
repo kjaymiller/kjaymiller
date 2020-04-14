@@ -45,7 +45,7 @@
       {% for post in blog_posts %}
       <div class="column is-4">
         <div class="card">
-          <div class="card-content">
+          <div class="card-title">
             <h1 class="title">
               <a href="/blog/{{post.slug}}">{{post.title}}</a>
             </h1>
@@ -58,16 +58,19 @@
               </figure>
             </div>
           {% endif %}
+
           <div class="card-footer">
             <div class="card-footer-item">
               {{post.date_friendly}}
             </div>
-        </div>
+          </div>
       </div>
       {% endfor %}
+      <div class="column is-2">
          <p class="content has-text-right">
           <a href="/all_posts">View Older Posts</a>
         </p>
+      </div>
       </div>
     </div>
 </section>
