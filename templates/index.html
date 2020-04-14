@@ -44,6 +44,9 @@
     <div class="columns is-multiline">
       {% for post in blog_posts %}
       <div class="column is-4 box">
+        {% if post.image %}
+          <img src="post.image">
+        {% endif %}
         <h1 class="title">
           <a href="/blog/{{post.slug}}">{{post.title}}</a>
         </h1>
