@@ -30,7 +30,7 @@ class Pages(Collection):
 
 
 @mysite.register_collection
-class blog(Blog):
+class Blog(Blog):
     routes = ['', '/blog']
     template = 'blog.html'
     subcollections = ['category', 'tags']
@@ -46,6 +46,11 @@ class MicroBlog(MicroBlog):
 class Index(Page):
     template = "index.html"
     slug = "index.html"
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.microblog_posts = mysite.collections['MicroBlog'].pages
+        self.blog_posts = mysite.collections['Blog'].pages
 
 
 mysite.render(dry_run=False)
