@@ -4,7 +4,7 @@ date: 14 Apr 2020 08:19
 
 <div class="notification is-dark">
 <div class="content">
-<h2 class="has-text-gray-lighter">Update:</h2>
+<h2 class="has-text-light">Update:</h2>
 <p>Due to a lack of support by some services that I use very regularly, I have stopped using fish and have gone back to zsh.</p>
 </div>
 </div>
