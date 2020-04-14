@@ -33,6 +33,7 @@ class Pages(Collection):
 class blog(Blog):
     routes = ['', '/blog']
     template = 'blog.html'
+    subcollections = ['category', 'tags']
 
 @mysite.register_collection
 class microBlog(MicroBlog):
