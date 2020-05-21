@@ -7,6 +7,7 @@ from render_engine.links import Link
 HEADER_LINKS = (
     Link(name='About', url='/about.html'),
     Link(name='Blog', url='/all_blog_posts.html'),
+    Link(name='Projects', url='/projects.html'),
     Link(name='MicroBlog', url='https://micro.blog/kjaymiller',
     icon='fab fa-microblog'),
     Link(name='Productivity in Tech', url='https://productivityintech.com'),
@@ -39,14 +40,6 @@ class Pages(Collection):
     routes = ["", "pages"]
     content_path = "content/pages"
     template = "page.html"
-
-
-@mysite.register_collection
-class Projects(Collection):
-    routes = ["", "projects"]
-    content_path = "content/projects"
-    template = "page.html"
-    has_archive = True
 
 
 @mysite.register_collection
