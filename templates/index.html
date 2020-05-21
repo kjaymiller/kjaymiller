@@ -9,9 +9,10 @@
 <section class="section">
   <div class="">
     <h1 class="title">Podcasts</h1>
+    <div class="columns">
     {% for podcast in PODCASTS %}
 
-  <div class="">
+  <div class="column">
     <a href="{{podcast.url}}">
       <img src="{{podcast.image}}">
     </a>
