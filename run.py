@@ -5,6 +5,7 @@ from render_engine.links import Link
 
 
 HEADER_LINKS = (
+    Link(name='About', url='/about.html'),
     Link(name='Blog', url='/all_blog_posts.html'),
     Link(name='MicroBlog', url='https://micro.blog/kjaymiller',
     icon='fab fa-microblog'),
