@@ -130,11 +130,9 @@ This means helping develoeprs who are helping developers.</p>
 
         // Get the target from the "data-target" attribute
         const target = navBurger.dataset.target;
-        const $target = document.getElementById(target);
 
         // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
         navBurger.classList.toggle('is-active');
-        $target.classList.toggle('is-active');
 
         var navMenu = document.querySelector('navbar-menu');
         navMenu.classList.toggle('is-visible');
