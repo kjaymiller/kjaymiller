@@ -12,6 +12,7 @@ HEADER_LINKS = (
     Link(name='Contact', url='/contact', icon='fas fa-paper-plane'),
     Link(name='YouTube', url='https://www.youtube.com/channel/UCjoJU65IbXkKXsNqydro05Q'),
     Link(name='Twitch', url='https://twitch.tv/kjaymiller'),
+    Link(name='Projects', url='/projects'),
     Link(name='Resume', url='/static/files/Jay_Miller_-_Software_Engineer.pdf'),
     )
 
@@ -32,6 +33,7 @@ class Projects(Collection):
     routes = ["", "projects"]
     content_path = "content/projects"
     template = "page.html"
+    has_archive = True
 
 
 @mysite.register_collection
