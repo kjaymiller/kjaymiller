@@ -30,7 +30,7 @@ class Pages(Collection):
 @mysite.register_collection
 class Projects(Collection):
     routes = ["", "projects"]
-    content_path = "content/pages"
+    content_path = "content/projects"
     template = "page.html"
 
 

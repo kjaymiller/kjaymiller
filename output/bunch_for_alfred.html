@@ -9,7 +9,7 @@
     <script src="https://kit.fontawesome.com/4ac674b58e.js" crossorigin="anonymous"></script>
     
     <title>
-      I&#39;d Love to Chat with You 💙📥 - Jay Miller- Jay Miller
+      Bunch for Alfred - Jay Miller- Jay Miller
     </title>
   </head>
   <body>
@@ -84,38 +84,47 @@
   <div class="container">
   <section class="hero is-light">
     <div class="hero-body">
-      <h1 class="title">I&#39;d Love to Chat with You 💙📥</h1>
+      <h1 class="title">Bunch for Alfred</h1>
     </div>
   </section>
     </div>
 
   <section class="section">
   <div class="container content">
-		<div class="row">
-<div class="col-md-7">
-I'm a pretty open book, but if you have a question or just want to give some feedback. Please fill out the form below... It will go to my email and we can chat.
-
-If you would like to here my thoughts in your inbox regularly, You can also Subscribe to my Newsletter.
-
-Reaching out to me via this form will not add you to any list (except maybe my personal contacts).
-
-<form method="POST" action="https://formspree.io/kjaymiller@gmail.com">
-    <br /> <br />  <input type="text" name="Name" placeholder="Your Name" style="width: 30%;">
-    <br> <br />  <input type="email" name="email" placeholder="Your email" style="width: 30%;">
-    <br /> <br />  <textarea name="message" style="min-width: 50%; height: 150px;" placeholder="Your message"></textarea>
-    <br /> <br /> 
-    <button type="submit" style="width: 20%;">Send</button>
-</form>
-  </div>
-<div class="col-md-4">
-<h2>Email not your thing?</h2>
-<p>
-You can reach out to me on Twitter.
-
-<a href="https://twitter.com/intent/tweet?screen_name=kjaymiller" class="twitter-mention-button" data-related="prod_in_tech" data-show-count="false">Tweet to @kjaymiller</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
-<p> For professional inquiries, Please Visit <a href="https://productivityintech.com">Productivity in Tech</a>.</p>
-</div>
-</div> 
+		<p>This workflow takes advantage of Brett Terpstra's <a href="https://brettterpstra.com/projects/bunch/">Bunch Application</a>. Bunch is a workspace loader that you can use to quickly open/close applications, urls, documents, and more to come. </p>
+<p>This workflow utilizes Bunch's <a href="https://gist.github.com/ttscoff/07820820270759b5ce98b06521877a54">CLI script</a></p>
+<h2>Directions:</h2>
+<ul>
+<li><code>b - Top Level Bunch Selector</code></li>
+<li><code>b &lt;bunch&gt;</code> - Toggles the selected bunch</li>
+</ul>
+<h3>MODIFIERS (+ Return)</h3>
+<ul>
+<li>CMD - Forces Open the Bunch</li>
+<li>Control - Forces Closed the Applications listed in the bunch.</li>
+<li>
+<p>Shift - Opens the Bunch file to be edited</p>
+</li>
+<li>
+<p><code>bedit &lt;bunch&gt;</code> - Opens the Bunch file to be edited</p>
+</li>
+<li><code>bsettings:refresh</code> - Refreshes your Bunch List</li>
+<li><code>bsettings:bunches_dir</code> - Reveals the contents of the current bunches directory</li>
+<li>Modifier <code>cmd</code> - opens the prompt to change the bunches directory. (YOU WILL NEED TO REFRESH YOUR BUNCH LIST)</li>
+<li><code>bsettings:help</code> - Opens the <a href="https://github.com/kjaymiller/Bunch_Alfred">github page</a></li>
+</ul>
+<h2>Change Log</h2>
+<h3>2019-05-31.0</h3>
+<p>Huge overhaul of the workflow. This workflow no longer runs off the url scheme and now runs off the CLI that Brett and a few others have created. </p>
+<p>This change will allow for greater flexibility and speed with the application.</p>
+<p>I've also changed the refresh call to now be contained in a single javascript for automation script instead of many steps. This was just for a cleaner look.</p>
+<ul>
+<li>CHANGED <code>b - Top Level Bunch Selector</code> Now displays the active bunches</li>
+<li>Changed: <code>b &lt;bunch filename&gt;</code> - Runs the Selected Bunch</li>
+<li>REMOVED: <code>b display &lt;bunch filename&gt;</code> - Displays the contents of the Bunch in Large Text</li>
+<li>CHANGED <code>b edit &lt;bunch filename&gt;</code> - Now `bedit <bunch name></li>
+<li>CHANGED <code>b refresh</code> -now bsettings:refresh (also now done with javascript for automation)</li>
+</ul> 
   </div>
   </section>
 </section>
