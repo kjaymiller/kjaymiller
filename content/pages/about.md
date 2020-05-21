@@ -20,9 +20,9 @@ I've pursued knowledge around many things include:
 - Marketing
 - Content Creation
 
-## History
-
 These go beyond hobbies in that I've done some form of professional work in all of these, taking many principles from each and applying them in unique ways. 
+
+## History
 
 I grew up in Tennessee, moving to Georgia as a teenager. My family grew up fishing, bowling, and enjoying Tennessee Sports. My grandfather allowed me to learn about computing on his gateway 2000 PC. He also showed me my favorite video game of all time, Tetris.
 
