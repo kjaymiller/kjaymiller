@@ -1,10 +1,8 @@
-import logging
 from render_engine import Site, Page, Collection
 from render_engine.blog import Blog
 from render_engine.microblog import MicroBlog
 from render_engine.links import Link
 
-# logging.basicConfig(level=logging.INFO)
 
 HEADER_LINKS = (
     Link(name='Blog', url='/all_blog_posts.html'),
@@ -28,6 +26,12 @@ class Pages(Collection):
     content_path = "content/pages"
     template = "page.html"
 
+
+@mysite.register_collection
+class Projects(Collection):
+    routes = ["", "projects"]
+    content_path = "content/pages"
+    template = "page.html"
 
 
 @mysite.register_collection
