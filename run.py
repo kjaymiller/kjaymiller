@@ -6,14 +6,12 @@ from render_engine.links import Link
 
 HEADER_LINKS = (
     Link(name='About', url='/about.html'),
-    Link(name='Blog', url='/all_blog_posts.html'),
+    Link(name='Blog', url='/all_blog.html'),
     Link(name='Projects', url='/projects.html'),
+    Link(name='Productivity in Tech', url='https://productivityintech.com'),
     Link(name='MicroBlog', url='https://micro.blog/kjaymiller',
     icon='fab fa-microblog'),
-    Link(name='Productivity in Tech', url='https://productivityintech.com'),
-    Link(name='Contact', url='/contact', icon='fas fa-paper-plane'),
-    Link(name='YouTube', url='https://www.youtube.com/channel/UCjoJU65IbXkKXsNqydro05Q'),
-    Link(name='Twitch', url='https://twitch.tv/kjaymiller'),
+    Link(name='Twitch', url='https://twitch.tv/kjaymiller', icon='fab fa-twitch'),
     Link(
         name="Github",
         url="https://github.com/kjaymiller",
