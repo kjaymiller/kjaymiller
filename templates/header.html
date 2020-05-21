@@ -3,6 +3,11 @@
     <a class="" href="/">{{SITE_TITLE}}</a>
   </div>
 <nav class="navbar">
+<a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+  <span aria-hidden="true"></span>
+  <span aria-hidden="true"></span>
+  <span aria-hidden="true"></span>
+</a>
   <div class="navbar-menu" id="">
             {% for link in HEADER_LINKS %}
                 <a class="navbar-item px-2" href="{{link.url}}">
@@ -17,10 +22,5 @@
             {% endfor %}
     </div>
 </nav>
-<a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
-  <span aria-hidden="true"></span>
-  <span aria-hidden="true"></span>
-  <span aria-hidden="true"></span>
-</a>
 
 </div>
