@@ -138,7 +138,7 @@
      <a href="https://twitter.com/kjaymiller" rel="me"><span class="icon"><i class="fab fa-twitter"></i></span></a>
   </div>
 </footer>
-    <script type="text/javscript">
+    <script>
       const navBurger = document.querySelector('.navbar-burger');
 
       navBurger.addEventListener('click', () => {
@@ -151,6 +151,8 @@
         navBurger.classList.toggle('is-active');
         $target.classList.toggle('is-active');
 
+        var navMenu = document.querySelector('navbar-menu');
+        navMenu.classList.toggle('is-visible');
       });
 
     </script>
