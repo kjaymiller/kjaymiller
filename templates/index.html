@@ -7,6 +7,19 @@
 
 {% block content%}
 <section class="section">
+    {% for podcast in PODCASTS %}
+
+  <div class="">
+    <a href="{{podcast.url}}">
+      <img src="{{podcast.image}}">
+    </a>
+    <h1 class="title is-2">
+      <a href="{{podcast.url}}">{{podcast.name}}</a>
+    </h1>
+  </div>
+    {% endfor %}
+</section>
+<section class="section">
   <div class="container posts">
     <h1 class="title is-2">Latest Posts</h1>
     <div class="columns is-multiline">

@@ -20,6 +20,15 @@ mysite = Site(strict=True)
 mysite.SITE_TITLE = 'Jay Miller'
 mysite.SITE_URL = 'https://kjaymiller.com'
 mysite.HEADER_LINKS = HEADER_LINKS
+mysite.PODCASTS = [
+        Link(
+            name="Bob's Taverncast",
+            url='https://bobstavern.pub',
+            image="https://images-internal.transistor.fm/images/show/5833/medium_1574279200-artwork.jpg",
+            ),
+        Link(name="PIT Podcast", url='https://podcast.productivityintech.com',
+            image="https://images-internal.transistor.fm/images/show/799/medium_1561758687-artwork.jpg"),
+        ]
 
 @mysite.register_collection
 class Pages(Collection):
