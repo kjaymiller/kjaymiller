@@ -1,3 +1,4 @@
+import logging
 from render_engine import Site, Page, Collection
 from render_engine.blog import Blog
 from render_engine.microblog import MicroBlog
@@ -65,4 +66,5 @@ class Index(Page):
         self.blog_posts = mysite.collections['Blog'].pages[:5]
 
 
+logging.warning([x.date for x in mysite.collections['Blog'].archive.pages])
 mysite.render(dry_run=False)
