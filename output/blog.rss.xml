@@ -1,0 +1,276 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>(K) Jay Miller - RSS Feed</title>
+    <link>https://kjaymiller.com</link>
+    <description></description>
+    <atom:link href="https://kjaymiller.com"LINK rel="self" type="application/rss+xml" />
+
+<item>
+<title>Announcing The PIT Podcast 2020 Season!</title>  <description><![CDATA[<p>I'm happy to announce that the Productivity in Tech Podcast is back in action!</p>
+<p><img alt="pit-logo" src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/pit-v3-podcast.jpg" /></p>
+<p>I was close to not publishing but I changed my mind after being scheduled to appear on two different podcasts. </p>
+<p>This Season (known as the 2020 Season) will be all about Me and My projects and productivity. </p>
+<p>The <a href="https://podcast.productivityintech.com/s2020/1">first episode</a> is out and you can listen on my <a href="https://podcast.productivityintech.com/s2020/1">transistor page</a> or in your podcast player.</p>]]></description>
+
+<link>https://kjaymiller.com//pitpodcast-2020-begins</link>
+<pubDate>Tue, 18 Feb 2020 23:51:00 -0800</pubDate><guid isPermaLink="false">pitpodcast-2020-begins</guid></item><item>
+<title>App Camp 4 Girls and App Launch Map (with a move in the middle) w/ Aleen Simms</title>  <description><![CDATA[<p><a href="https://appcamp4girls.com/">App Camp 4 Girls</a><strong><br />
+</strong><a href="https://applaunchmap.com/">App Launch Map</a><br />
+<strong>Some (Other) things we mentioned.</strong></p>
+<ul>
+<li><a href="https://theweeklyreview.fm/">The weekly review - Jean MacDonald (Co-founder of App Camp for girls)</a></li>
+<li><a href="https://www.notion.so/">Notion</a></li>
+<li>
+<p><a href="https://fullfocusplanner.com/">Full focus planner</a>
+<strong>Follow Aleen</strong></p>
+</li>
+<li>
+<p><a href="https://aleenmean.com/">AleenMean.com</a></p>
+</li>
+<li><a href="https://twitter.com/aleen">@Aleen - Twitter</a>
+<strong><br />
+Support Productivity in Tech and Get Access to the Aftershow!<br />
+</strong>Become a <a href="https://productivityintech.com/memberships">PIT Premium Member</a> ($10/month/$100/year)<strong><br />
+</strong><br />
+Join our new <a href="https://discourse.productivityintech.com/">Discourse</a> and Tell us your thoughts!  </li>
+</ul>
+<p><strong><a href="Https://ko-fi.com/jayandjaymedia">★ Support this podcast by donating ★</a></strong></p>]]></description>
+
+<link>https://kjaymiller.com//pitpod-aleen</link>
+<pubDate>Mon, 11 Mar 2019 08:00:00 -0700</pubDate><guid isPermaLink="false">pitpod-aleen</guid></item><item>
+<title>[Podcast] Ask a Brit Ep 4: I don&#39;t know who that is!</title>  <description><![CDATA[<p>In this episode, I ask Jamie if the UK is still the beacon of world pop culture?</p>]]></description>
+
+<link>https://kjaymiller.com//[podcast]_ask_a_brit_ep_4:_i_don&#39;t_know_who_that_is!</link>
+<pubDate>Mon, 28 Jan 2019 20:00:00 -0800</pubDate><guid isPermaLink="false">[podcast]_ask_a_brit_ep_4:_i_don&#39;t_know_who_that_is!</guid></item><item>
+<title>JSON Feeds are now available!</title>  <description><![CDATA[<p>JSON Feeds are now available for the <a href="https://kjaymiller.com/blog/blog.json">blog</a> and <a href="https://kjaymiller.com/blog/blog.json">microblog</a></p>]]></description>
+
+<link>https://kjaymiller.com//json_feeds_are_now_available!</link>
+<pubDate>Fri, 08 Feb 2019 11:34:00 -0800</pubDate><guid isPermaLink="false">json_feeds_are_now_available!</guid></item><item>
+<title>Quickly Set Your Environment with Bunch and Alfred</title>  <description><![CDATA[<p><a href="https://brettterpstra.com/projects/bunch/">Bunch</a> is an environment setup/teardown tool by the <a href="https://productivityintech.transistor.fm/episodes/podcast-ground-surfing-with-brett-terpstra">mad genius and yoga maestro of the internet</a> Brett Terpstra.</p>
+<p>Bunch uses small configuration files to quickly manipulate your desktop environment. </p>
+<p>With it you can:</p>
+<ul>
+<li>Open/Close/Focus Applications, Files, and URLs</li>
+<li>Run shell and Applescript scripts to expand the functionality event more</li>
+</ul>
+<p>Because I prefer to keep my hands on the keyboard and the Application's main method of use is the Dock, I opted to take advantage of Bunch's URL-Scheme. </p>
+<p><code>x-bunch://open?bunch=[Bunch Name]</code></p>
+<p>This plus smart use of the <a href="https://www.alfredapp.com/help/workflows/inputs/file-filter/"><em>File Filter</em></a> in Alfred's workflow feature allowed me to quickly setup an <a href="https://github.com/kjaymiller/Bunch_Alfred">Alfred Workflow</a> that not only lets you run your bunches but also lets you:</p>
+<ul>
+<li>Display the Config File of the Bunch.</li>
+<li>Edit the Bunch in your default application.</li>
+<li>Refresh your Bunches (After making a change)</li>
+</ul>
+<p>The workflow is available on <a href="http://www.packal.org/workflow/bunch-quick-launch">Packal</a> to modify via my <a href="https://github.com/kjaymiller/Bunch_Alfred">Github Repo</a></p>]]></description>
+
+<link>https://kjaymiller.com//quickly_set_your_environment_with_bunch_and_alfred</link>
+<pubDate>Tue, 01 Oct 2019 11:00:00 -0700</pubDate><guid isPermaLink="false">quickly_set_your_environment_with_bunch_and_alfred</guid></item><item>
+<title>My Anxiety Makes Me Get Things Done</title>  <description><![CDATA[<p>Recently I've been on a tear with new podcasts, live streams, and communities.</p>
+<p>My secret is these are all <em>cries for help</em>. </p>
+<p>Not in a life threatening way, but in the stuck in an axiety induced feedback loop. </p>
+<p><img alt="Questionable Content Comic by Jeph Jacques" src="https://questionablecontent.net/comics/3953.png" /></p>
+<p>I've learned over time that my compulsion tick when going through a period of high anxiety is to do more. There is also a level of tension that is created in the process. I tend to buck against authority. Forget about things that are of some importance. And be more <em>fatalistic</em> and irrational towards things not going according to plan. </p>
+<h3>Does this invalidate all of the things that I'm Making?</h3>
+<p><em>HELL TO THE NAW NAW NAW</em></p>
+<p>It just puts things into perspective. When I get anxious I build more things to distract me from the things that are causing the anxiety. These are usually things on my list of things I would like to do and I'm more passionate about them in that time than I will ever be. </p>
+<p>I will devote hours and hours to those things to avoid the things causing anxiety.</p>
+<h3>Why are you telling us this?</h3>
+<p>I'm telling you this to remind you that it is something that people deal with and often those people that are creative are using their creativity and entreprenuerial spirit as a way to mask a pain that is deep and often not fully understood. </p>
+<p>It took me seeing a mental health professional and a level of medication before I became aware of this. I hope you will read this and think about that ambitious person in your life (other than me) and just check up on them. They may look like they are doing great on the inside, but they may also be asking for help. </p>
+<p><strong>NOTE</strong>:</p>
+<p>I understand that this seems super dark. Me writing about it helps tto analyze my thoughts and make sense of things.</p>
+<p>I can't say that I'm 100% okay, but getting this out does help and helping more people to understand helps even more. </p>
+<p><img alt="" src="https://media2.giphy.com/media/5ArJanyCfxgiY/giphy.gif" /></p>]]></description>
+
+<link>https://kjaymiller.com//anxiety-based-gtd</link>
+<pubDate>Mon, 25 Mar 2019 10:42:00 -0700</pubDate><guid isPermaLink="false">anxiety-based-gtd</guid></item><item>
+<title>Introducing the What I&#39;m Podcast!</title>  <description><![CDATA[<p>In the past few weeks, I've been working on getting another (Yes another Podcast) up and running. In the spirit of "JUST DO IT ALREADY!!", I have launched the <a href="https://kjaymiller.transistor.fm"><em>What I'm Podcast</em></a></p>
+<p>The podcast is an extension of the "What I'm" Section on the home page. I've always liked letting people know what I've been up to and I hope with this I'll be able to flex my creativity muscles with this show.</p>
+<p><a href="https://kjaymiller.transistor.fm/episodes/i-ve-been-sick-i-must-have-caught-the-apple-bug">Episode 1</a> is up and I am putting together content to determine if this will be a weekly update or more frequently. </p>
+<p>I'm actively keeping this podcast off of major networks in effort to convice people that ultimately, you don't need to really on the heavy hitters like <em>Spotify</em> and <em>Apple</em>. You can subscribe via this <a href="https://feeds.transistor.fm/what-i-m-podcast-with-jay-miller">rss link</a>. </p>
+<p><img alt="" src="https://s3-us-west-2.amazonaws.com/kjaymiller/images/whatimpodcast.JPG" /></p>]]></description>
+
+<link>https://kjaymiller.com//introducing-what-im-podcast</link>
+<pubDate>Mon, 18 Feb 2019 11:31:00 -0800</pubDate><guid isPermaLink="false">introducing-what-im-podcast</guid></item><item>
+<title>Jamie is a Form Group</title>  <description><![CDATA[<p>This is a test</p>]]></description>
+
+<link>https://kjaymiller.com//jamie_is_a_form_group</link>
+<pubDate>Tue, 01 Jan 2019 12:00:00 -0800</pubDate><guid isPermaLink="false">jamie_is_a_form_group</guid></item><item>
+<title>Friends have been my Greatest Asset!</title>  <description><![CDATA[<p>I've been letting folks know about my <a href="https://productivityintech.com/coaching">coaching</a> and <a href="https://productivityintech.com/editing">editing</a> services more and more these days. </p>
+<p>It's been a slow progressing growth. This is a good thing as I still have a day job and wouldn't be able to handle a massive influx of clients, but 6 months into this being a full business, I've learned something extremely valuable. </p>
+<h2>Your best clients and promoters are the ones you've been establishing a relationship with for a while.</h2>
+<p>I've had a handful of coaching clients. Many coaching leads. I've also done some marketing services and some editing for folks as well. </p>
+<p>100% of my clients are either someone I know and interact with on a regular basis <strong>or</strong> they were recommended by the aforementioned person.</p>
+<p>While I have received many leads and people promising to check out my services and get back to me. This seems to only happen when there is a relationship that has already been established.</p>
+<p>I know I'm not telling you anything innovative here but I didn't realize the value of relationship building when it comes to finding clients. </p>
+<h2>Ways to do this</h2>
+<h3>1.  Establish yourself as a Professional in the field and Connect with other professionals.</h3>
+<p><img alt="" src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/adult-brainstorming-communication-1181421.jpg" />
+<small>photo credit #wocintechchat</small></p>
+<p>One of the biggest networks that I have been able to tap into is working with other developers that have podcasts. We have a slack workspace that we all hang out in. It started out as just a handful of us but now there are over 50 people in there. </p>
+<p>Each of them have their own reach and their own network. 
+I've had them refer some of their audience to me when they are looking for a coaching client. </p>
+<p>I've also worked with a few of them as an editor when they need help with something. </p>
+<h3>2. Nurture Strong Relationships with the Noguchi Method</h3>
+<p>Some relationships are easy to maintain and others are more of a chore. I like to treat my relationships similar to the <a href="https://unclutterer.com/2014/06/03/the-noguchi-filing-system/">Noguchi Filing Method</a>. </p>
+<p>The Noguchi Filing Method is simple. When you take out a file. Move it to the top of the stack (or front of the line) When you put it back. 
+<img alt="" src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/active-adult-beautiful-1799244.jpg" /></p>
+<p>I do this in my head. The people that I just interacted with I try to interact with more. Over time you will connect with people that are receptive to maintaining a good relationship with you. Those will be the same people that will recommend you to potential clients or reach out to you if they have a need. </p>
+<h3>3. Don't be afraid to ask those that you know (nicely)</h3>
+<p>I got my first client by sending the following message to about 50 of my podcasting friends.</p>
+<blockquote>
+<p>I've been working to bring PIT back at the beginning of 2019 (I have some coding things that need to get done first)</p>
+<p>Also, PIT is now a business (officially). Aside from the podcast, I am doing content creation, coaching, and "unicorn" services.</p>
+<p>I was inspired by Kathy Campbell. My goal is to just help people where I can. </p>
+<p>Here is a list of the services I provide.</p>
+<p>My skills include:
+- social media
+- recording videos and screencasts
+- podcast editing and recording
+- community management
+- newsletter publishing</p>
+<p>Do you have any ideas how I may be of any help?</p>
+<p>Also if you know of anyone that I could help out with those things or individual or group productivity coaching, I would love an introduction.</p>
+</blockquote>
+<p>Everyone that I sent this to kindly replied that they either couldn't help me, or they would keep an eye and ear out. </p>
+<p>I didn't get upset I just said okay and continued to maintain a good relationship with them.</p>
+<p>One person did have a need and to this day they have been my most consistent and biggest client. They've lead me to many other leads and clients that I've received over time.</p>
+<p>The other thing about doing this that has been great is that now when I send out a message about some service I'm offering, it is that group of people that often like and repost that message to their audience. </p>
+<p>================</p>
+<p>None of these things are all that time intensive and none of them leave you with this <em>grimy</em> feeling as if you are peddling to your friends. Your "inner-circle" doesn't want to see you fail. In fact, they will be your biggest fan. It's up to you to nurture those relationships and make sure that you let them know of ways that they can help.</p>]]></description>
+
+<link>https://kjaymiller.com//friends_have_been_my_greatest_asset!</link>
+<pubDate>Wed, 17 Apr 2019 09:24:00 -0700</pubDate><guid isPermaLink="false">friends_have_been_my_greatest_asset!</guid></item><item>
+<title>January 2019 Bullet Journal Recap</title>  <description><![CDATA[<p>Late last year I made the decision to go full time analog productivity. To me this was a return to my <em>Midori Traveller's Notebook</em> and less reliability on mobile applications to keep track of things. </p>
+<p>With January being a new year I thought it would be a great time to really do my best and dig in on this process. I didn't realize that I was going to be extremely busy with things and that my notebook would be crucial in keeping my sanity. </p>
+<h3>What went well</h3>
+<p>Since I've been reading [<em>The Bullet Journal Method</em>][bullet journal] by Ryder Carrol, I really wanted to make things very simple. This meant reducing the amount of things that I tracked. I had previously tried to keep up with logging my food, how many times I fell into a tunnel of distraction, my water intake, and many other things. No more of that. </p>
+<p>This time I wrote down all the things I wanted to track and in <em>Marie Kondo</em> style, and tried to reduce the list to only things that were "essential" to the art of bullet journaling and things that I knew I wanted to make a habit of. </p>
+<p>With the rebirth of the [Productivity in Tech Podcast][pitpodcast] and the creation of [Ask a Brit][aab] I wanted to make sure that I was publishing consistently. I also wanted to track how often I coded and read, two things that I tended to rely on momentum to be consistent with.</p>
+<p>Another big convept that helped me more than I thought it would was the idea behind threading. This was simply adding an arrow to the left followed by the page number of the continued thought. Also I add an arrow to the right and the page number for the next page I take the thought to. This makes it rather easy to add reference to items, which allows me to retrive information faster (and fill out my index, which I am terrible about).  </p>
+<h3>What didn't go so well</h3>
+<p>There is still one area that I haven't fully is my management of a calendar. I had some big dates to remember for this year and I wasn't quite sure how to manage it with more and more going into my notebook. My podcast schedule is completely digital as it is tracked using calendly, google calendar, and Notion. Hopefully Notion will provide some kind of integration with G-Suite so that I don't have to manage this in multiple places. While I could just keep everything in my google calendar, I really don't rely on it as much as you think, but I haven't gotten into the habit of transferring items into my Analog calendar. This caused for some double-scheduling that could have been easily avoided. </p>
+<p>Another failed experiment was abandoning the daily spread for a weekly theme. I quickly have to revert to this as I would have things that would stretch across several pages (and days) This meant that I was doing more unneccessary flipping through pages instead of just doing a daily review and transfer of information that helped me to prepare myself through the day. </p>
+<h3>My thoughts going into February</h3>
+<p>February is going to be a test on consistency for me. I've proven that I can work from my notebook like I used to. As this trust has returned, I can continue to focus on adding more and more content and collections into it. I also think my current notebook will fill up in the middle of the month which will bring about a migration which I will definitely talk about at that time.</p>]]></description>
+
+<link>https://kjaymiller.com//january_2019_bullet_journal_recap</link>
+<pubDate>Fri, 01 Feb 2019 16:00:00 -0800</pubDate><guid isPermaLink="false">january_2019_bullet_journal_recap</guid></item><item>
+<title>Travel, Parenting, and ADHD with Heidi Waterhouse</title>  <description><![CDATA[<p>Heidi is a Developer Advocate for <a href="https://www.launchdarkly.com/">Launch Darkly</a>.  </p>
+<p>Heidi travels all over the world and is away from home more than half of the month.  </p>
+<p>In this conversation, Heidi shares with how she’s able to parent, prepare, and connect with her co-workers while always being on the go.  </p>
+<p><strong><br />
+Links:</strong></p>
+<ul>
+<li><a href="https://twitter.com/Wiredferret">Follow Heidi on Twitter</a></li>
+<li><a href="https://www.launchdarkly.com/">Launch Darkly</a></li>
+<li><a href="https://www.youtube.com/watch?v=hEVW67KSwwo">I Have ADD and So Can Ooh, Shiny! - Youtube</a></li>
+</ul>
+<p>Support the Productivity in Tech podcast and other independent podcasts at <a href="https:ko-fi.com/JayandJayMedia">https:ko-fi.com/JayandJayMedia</a>.  </p>
+<p>OR  </p>
+<p>Consider joining the <a href="https://productivityintech.com/memberships">PIT Premium Membership</a></p>
+<p><strong><a href="Https://ko-fi.com/jayandjaymedia">★ Support this podcast by donating ★</a></strong></p>]]></description>
+
+<link>https://kjaymiller.com//travel,_parenting,_and_adhd_with_heidi_waterhouse</link>
+<pubDate>Mon, 04 Mar 2019 18:05:00 -0800</pubDate><guid isPermaLink="false">travel,_parenting,_and_adhd_with_heidi_waterhouse</guid></item><item>
+<title>[Podcast] PIT Podcast Ep 5: What Companies AND Candidates can do Better in the Hiring Process with John Knox</title>  <description><![CDATA[<p>This week on the Productivity in Tech Podcast, I spoke with John Knox.</p>
+<p>John left Evernote in Austin, TX to join his partner in Minneapolis, MN. </p>
+<p>We talk about what it was like searching for a job and what Companies and Candidates can do better in the hiring process. </p>
+<p>Sign up for the newsletter to get access to the Aftershow where John interviews me!
+<a href="https://buttondown.email/productivityintech">https://buttondown.email/productivityintech</a></p>]]></description>
+
+<link>https://kjaymiller.com//[podcast]_pit_podcast_ep_5:_what_companies_and_candidates_can_do_better_in_the_hiring_process_with_john_knox</link>
+<pubDate>Mon, 04 Feb 2019 08:00:00 -0800</pubDate><guid isPermaLink="false">[podcast]_pit_podcast_ep_5:_what_companies_and_candidates_can_do_better_in_the_hiring_process_with_john_knox</guid></item><item>
+<title>Fish Resources</title>  <description><![CDATA[<div class="notification is-dark">
+<div class="content">
+<h2 class="has-text-light">Update:</h2>
+<p>Due to a lack of support by some services that I use very regularly, I have stopped using fish and have gone back to zsh.</p>
+</div>
+</div>
+
+<p>I do a lot of work in the terminal. I understand that for many it's the lack of glitz and glamour that keeps people away from it, and while the majority of my computer usage is in some GUI, there are still many things that I can do much faster using a script that I can launch from my terminal.</p>
+<p>Fish (Short for Friendly Interactive Shell) was a great attempt to add some modern-ness to the terminal environment. That said it has been around since the 90's as this boutique experience that some love, many ignore, and even more fear. </p>
+<p>Well, fear not. Here are a few links that can help introduce you to fish and help you get out the gate quickly.</p>
+<h3>NOTE: This is just a list. I am not doing a review of these items.</h3>
+<h2>GitHub Repos</h2>
+<ul>
+<li><a href="https://github.com/jorgebucaran/awesome-fish">jorgebucaran/awesome-fish: A curated list of packages, prompts, and resources for the fish shell.</a></li>
+<li><a href="https://github.com/joseluisq/gitnow">joseluisq/gitnow: Speed up your Git workflow.</a></li>
+<li><a href="https://github.com/laughedelic/pisces">laughedelic/pisces: ♓️Fish shell plugin that helps you to work with paired symbols in the command line</a></li>
+<li><a href="https://github.com/fishpkg/fish-git-util">fishpkg/fish-git-util: Convenient git utility functions for the fish shell</a></li>
+<li><a href="https://github.com/danhper/fish-ssh-agent">danhper/fish-ssh-agent</a></li>
+<li><a href="https://github.com/rodrigobdz/fish-apple-touchbar">rodrigobdz/fish-apple-touchbar: ⚡Supercharge your touchbar with fish 🐠</a></li>
+<li><a href="https://github.com/jorgebucaran/fish-cookbook">jorgebucaran/fish-cookbook: Tips and recipes for fish, from shell to plate.</a></li>
+<li><a href="https://jvns.ca/blog/2017/04/23/the-fish-shell-is-awesome/">The fish shell is awesome - Julia Evans</a></li>
+</ul>
+<h2>Blog Posts</h2>
+<ul>
+<li><a href="https://flaviocopes.com/fish-shell/">The Fish Shell</a></li>
+<li><a href="https://mvolkmann.github.io/fish-article/">The fish Shell</a></li>
+<li><a href="https://brettterpstra.com/2019/10/11/branching-out-from-bash-fishing-expedition/">Branching out from Bash: Fishing expedition - BrettTerpstra.com</a></li>
+<li><a href="https://dev.to/jukben/why-you-should-give-a-chance-to-fish-shell-5a0l">Why you should give a chance to Fish shell - DEV Community 👩‍💻👨‍💻</a></li>
+</ul>
+<h2>Obligatory DDG Search</h2>
+<p>This isn't a complete list. If you find any that I should look into, let me know.</p>]]></description>
+
+<link>https://kjaymiller.com//fish-resources</link>
+<pubDate>Tue, 14 Apr 2020 08:19:00 -0700</pubDate><guid isPermaLink="false">fish-resources</guid></item><item>
+<title>[Podcast] PIT Podcast Ep 4: A Native Indi Creating An Indie Shop in Indi(ana)</title>  <description><![CDATA[<p>My guest this week was Mike Young. </p>
+<p>Mike is the CEO of Pear Circuit which works to help create technology solutions for startups and non-profits who want to make the world better than it was before. </p>
+<p>In this conversation, we discuss what it's like to build a business outside of Silicon Valley.</p>]]></description>
+
+<link>https://kjaymiller.com//[podcast]_pit_podcast_ep_4:_a_native_indi_creating_an_indie_shop_in_indi(ana)</link>
+<pubDate>Mon, 28 Jan 2019 21:00:00 -0800</pubDate><guid isPermaLink="false">[podcast]_pit_podcast_ep_4:_a_native_indi_creating_an_indie_shop_in_indi(ana)</guid></item><item>
+<title>I Can&#39;t Be the Only One Seeing This</title>  <description><![CDATA[<p>What are people yelling about?</p>
+<p>I scrolled through a twitter thread about asking people to give a side by side comparison of candidate x and candidate y in regarding how their policy affected underrepresented groups. </p>
+<p>The responses were:</p>
+<ul>
+<li>people praising the OP for their bravery</li>
+<li>people shouting "What about candidate z?"</li>
+<li>people talking about what candidate x/y did NOT do</li>
+<li>People posting out of context quotes and pictures furthering their own agenda</li>
+</ul>
+<p>The fear I have is, for all I know someone was genuinely hoping to learn, and instead was shouted at. In the end NOTHING OF SUBSTANCE WAS PROVIDED.</p>
+<p>I don't even know looked at the thread. Maybe I was hoping for an inkling of humanity? ¯_(ツ)_/¯</p>
+<p><img alt="My thoughts" src="https://media1.giphy.com/media/ZbUOH7pbDiNSmU1x4o/giphy.gif" /></p>
+<p>I'm considering checking out from ALL SOCIAL MEDIA. I wonder if the perks (sense of community, networking opportunities, learning from amazing folks) are worth dealing with the things I don't care about. I want to hear about so many things. </p>
+<ul>
+<li>Great new podcasts from people struggling with their Productivity</li>
+<li>Podcasts of people that are so in love with a topic that they will wax poetic to an audience of 4 on a regular basis</li>
+<li>Cats doing amazing tricks</li>
+<li>Videos of people failing so hard</li>
+<li>Great Tutorials on Minecraft Redstone Techniques</li>
+<li>Comprehensive Guides on How to Make Amazing Coffee when you don't have a thermometer, gooseneck kettle</li>
+<li>People motivation folks around them that are crying out for help</li>
+<li>People crying out for help!</li>
+<li>People that are openly doubt their knowledge but are still putting themselves out there because they hope people will support them.</li>
+<li>People building things to learn and are wanting feedback</li>
+<li>People Passionate about building automation tools to solve their unique and quirky problems</li>
+</ul>
+<p>The guys at <a href="https://internetfriends.show">Internet Friends</a> proposed a wonderful way that twitter would be more appealing.</p>
+<p>"I want a social media service that lets people post all they want and the ALGORITHM gives you the best 100 posts that day."</p>
+<p>To expand on that, I would love it so that you can only see the replies. If they are hateful, you can block them and never hear from them again. Most people only reply for attention so I doubt they would reply unless they really wanted to connect with you.</p>
+<p>I've met so many wonderful people. I've seen so many wonderful things, and it's been because of social media, but I'm tired.</p>
+<ul>
+<li>I'm tired of being sold to (and I'm a Marketer). </li>
+<li>I'm tired of being told to yell at people. </li>
+</ul>
+<p>I'm just SO TIRED. 😭</p>
+<p>Dear Social Media Companies:
+    I don't care about followers anymore.</p>
+<pre><code>Don't allow me to follow people, allow me to follow ideas and inspiration.
+
+I know this doesn't help your agenda. I know you don't care about me. I don't affect your bottom line.
+
+Don't you realize the pain you cause people? Does that mean nothing to you?
+</code></pre>
+<p>Another tear-filled, anxiety-stricken day. I'm exhausted. I feel I've aged 30 years in the last 10. I want respite, but at the same time, giving up all of this means losing connection all the wonderful people and benefits I can only find online through DMs. </p>
+<p>I'm literally digging through mountains of excrement to find the occasional life changing connections.</p>
+<p>I'm okay, I'm just disappearing for a while.</p>
+<p>The perfect end to this rant is the exact response I would expect from my fellow millennials. </p>
+<p>... OK BOOMER ...</p>]]></description>
+
+<link>https://kjaymiller.com//march-2020-crisis-social-issues</link>
+<pubDate>Thu, 05 Mar 2020 13:58:00 -0800</pubDate><guid isPermaLink="false">march-2020-crisis-social-issues</guid></item></channel>
+</rss>
