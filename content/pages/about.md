@@ -8,7 +8,7 @@ after) and I will probably always go by Jay. Enough about that...
 
 ## I'm a Multipotentialite
 
-What is a [multipotialite]? 
+What is a [multipotentialite]?
 
 In short, think of me as a renaissance artist.
 
@@ -20,7 +20,7 @@ I've pursued knowledge around many things include:
 - Marketing
 - Content Creation
 
-These go beyond hobbies in that I've done some form of professional work in all of these, taking many principles from each and applying them in unique ways. 
+These go beyond hobbies in that I've done some form of professional work in all of these, taking many principles from each and applying them in unique ways.
 
 ## History
 
