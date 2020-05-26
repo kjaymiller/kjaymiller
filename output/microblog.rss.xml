@@ -7,6 +7,11 @@
     <atom:link href="https://kjaymiller.com/microblog.rss.xml" rel="self" type="application/rss+xml" />
 
 <item>
+  <description><![CDATA[<p>Funny how you do a newsletter to avoid doing a bonus podcast episode just to do
+both and about 5 short blog posts all in one sitting..... lol.</p>]]></description>
+
+<link>https://kjaymiller.commicroblog/202052523500</link>
+<pubDate>Mon, 25 May 2020 23:50:00 -0700</pubDate><guid isPermaLink="false">202052523500</guid></item><item>
   <description><![CDATA[<p>Fixed a few issues wiht rss on my static site generator. I expect to be posting posting a lot more now. ^_^</p>
 <p><img alt="yay-tears" src="https://media0.giphy.com/media/axu6dFuca4HKM/giphy.gif" /></p>]]></description>
 
