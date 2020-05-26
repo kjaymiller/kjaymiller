@@ -1,10 +1,21 @@
 <section class="section">
   <div class="container">
-    <h1 class="title is-4">Latest Blog Posts</h1>
+      <h1 class="title is-4">Latest Blog Posts</h1>
     {% set featured_post  = blog_posts[0] %}
 
-    <h2 class="title is-5">{{featured_post.title}}</h2>
-   {% for post in blog_posts[1:] %}
+    <div class="columns">
+      {% if featured_post %}
+      <div class="column">
+        <img class="featured-post-image" src="{{featured_post.image}}">
+      </div>
+      {% endif %}
+      <div class="column">
+      <h2 class="title is-5">{{featured_post.title}}</h2>
+      <div class="content">
+        {{featured_post.summary}}
+      </div>
+      </div>
+       {% for post in blog_posts[1:] %}
        <td>
           <h1 class="title is-4">
             <a href="/blog/{{post.slug}}">{{post.title}}</a>
