@@ -4,8 +4,8 @@
     {% set featured_post  = blog_posts[0] %}
 
     <div class="columns is-centered">
-      {% if featured_post %}
-        <div class="column">
+      {% if featured_post.image %}
+       <div class="column">
           <img class="featured-post-image" src="{{featured_post.image}}">
         </div>
       {% endif %}
