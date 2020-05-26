@@ -18,6 +18,7 @@ HEADER_LINKS = (
         url="https://github.com/kjaymiller",
         icon='fab fa-github'),
     Link(name='Resume', url='/static/files/Jay_Miller_-_Software_Engineer.pdf'),
+    Link(name='Newsletter', url='https://buttondown.email/productivityintech'),
     )
 
 mysite = Site(strict=True)
