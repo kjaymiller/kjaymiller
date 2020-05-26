@@ -33,6 +33,8 @@ mysite.PODCASTS = [
             ),
         Link(name="PIT Podcast", url='https://podcast.productivityintech.com',
             image="https://images-internal.transistor.fm/images/show/799/medium_1561758687-artwork.jpg"),
+        Link(name="TekTok Podcast", url='https://www.tekside.net/tektok',
+            image="https://images.squarespace-cdn.com/content/v1/511f025be4b09463c75fdc0e/1578770769608-WISTMD3GBO7J5FL34THW/ke17ZwdGBToddI8pDm48kNDA1KKPnejvrc8aNB1h53BZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PI_O0QXaCfy1WSgXfW7kCtZfhqU1lZMakzDgTpPIGZH6sKMshLAGzx4R3EDFOm1kBS/9AED1D17-64AB-4D39-A378-69B38D4A6BD9.jpeg?format=300w"),
         ]
 
 @mysite.register_collection
