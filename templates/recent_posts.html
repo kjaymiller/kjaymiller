@@ -15,18 +15,19 @@
         {{featured_post.summary}}
       </div>
       </div>
+      </div>
+       <div class="columns is-multiline is-centered">
        {% for post in blog_posts[1:] %}
-       <td>
+         <div class="column">
           <h1 class="title is-4">
             <a href="/blog/{{post.slug}}">{{post.title}}</a>
           </h1>
-       </td>
-       <td>
-          {{post.date_friendly}}
-       </td>
-     </tr>
+          <h2 class="subtitle is-5">
+            {{post.date_friendly}}
+          </h2>
+         </div>
       {% endfor %}
-      </table>
+      </div>
     <p class='has-text-right'>
       <a href="/all_posts">View Older Posts</a>
     </p>
