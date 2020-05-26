@@ -1,4 +1,4 @@
-< section class="section">
+<section class="section">
   <div class="container">
     <h1 class="title is-4">Latest Blog Posts</h1>
     {% set featured_post  = blog_posts[0] %}
@@ -11,7 +11,8 @@
       {% endif %}
 
       <div class="column">
-        <h2 class="title is-1">{{featured_post.title}}</h2>
+        <h2 class="title is-1"><a
+            href="{{featured_post.url}}">{{featured_post.title}}</a></h2>
         <div class="content">
           {{featured_post.summary}}
         </div>
@@ -30,8 +31,8 @@
          </div>
       {% endfor %}
       </div>
-    <p class='has-text-right'>
+   <p class="has-text-right">
       <a href="/all_posts">View Older Posts</a>
     </p>
-    </div>
+  </div>
 </section>
