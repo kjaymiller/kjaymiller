@@ -5,9 +5,12 @@
     {% for podcast in PODCASTS %}
 
   <div class="column">
-    <a href="{{podcast.url}}">
-      <img class="podcast-image" src="{{podcast.image}}">
-    </a>
+    <figure class="figure">
+      <a href="{{podcast.url}}">
+        <img class="podcast-image" src="{{podcast.image}}">
+      </a>
+    <figure>
+
     <h1 class="title is-5">
       <a href="{{podcast.url}}">{{podcast.name}}</a>
     </h1>
