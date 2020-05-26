@@ -1,10 +1,9 @@
 title: Announcing Transcriptor
 date: 25 May 2020 22:32
 
+## This was the launch month for [Transcriptor]. This is a helper package that I use for doing transcriptions for PIT Clients.
 
-_This was the launch month for [Transcriptor]. This is a helper package that I use for doing transcriptions for PIT Clients._
-
-Transcriptions can be accomplished in a plethora of ways, but in order to do it, you need to have a good idea of how to work with the results from your transcription engine. While I usually use [Amazon Transcribe], I have used [Google Could Services Speech to Text] and I would love to look into the [Microsoft Azure] and [Wit.Ai]. All of these systems use their own schema for your task and your results.
+Transcriptions can be accomplished in a plethora of ways, but in order to do it, you need to have a good idea of how to work with the results from your transcription engine. While I usually use [Amazon Transcribe](https://aws.amazon.com/transcribe/), I have used [Google Could Services Speech to Text](https://cloud.google.com/speech-to-text/) and I would love to look into the [Microsoft Azure](https://azure.microsoft.com/en-us/services/cognitive-services/speech-to-text/) and [Wit.Ai](https://wit.ai). All of these systems use their own schema for your task and your results.
 
 The goal of transcriptor is to create a single Job object that is responsible (currently) for handling the results in a consistent object-oriented way. By using it, I've been able to create some clarity in my coding projects for folks and reduced the amount of copying and pasting across the board.
 
