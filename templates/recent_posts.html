@@ -1,0 +1,23 @@
+<section class="section">
+  <div class="container">
+    <h1 class="title is-4">Latest Blog Posts</h1>
+    {% set featured_post  = blog_posts[0] %}
+
+    <h2 class="title is-5">{{featured_post.title}}</h2>
+   {% for post in blog_posts[1:] %}
+       <td>
+          <h1 class="title is-4">
+            <a href="/blog/{{post.slug}}">{{post.title}}</a>
+          </h1>
+       </td>
+       <td>
+          {{post.date_friendly}}
+       </td>
+     </tr>
+      {% endfor %}
+      </table>
+    <p class='has-text-right'>
+      <a href="/all_posts">View Older Posts</a>
+    </p>
+    </div>
+</section>
