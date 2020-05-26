@@ -1,5 +1,6 @@
 .featured_image{
     max-width: 1024px;
+    max-height: 500px;
 }
 
 img {
