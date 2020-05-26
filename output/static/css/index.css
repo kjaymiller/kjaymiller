@@ -10,8 +10,8 @@
     max-height: 450px;
 }
 
-.podcast-image img {
-    max-width: 100px;
+img.podcast-image {
+    max-width: 250px;
 }
 
 #what-im img {
