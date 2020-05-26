@@ -6,6 +6,7 @@ slug: projects
 
 - [Productivity in Tech Podcast](https://podcast.productivityintech.com)
 - [Bob's TavernCast](https://bobstavern.pub)
+- [TekTok Podcast](https://www.tekside.net/tektok)
 
 
 # Packages
