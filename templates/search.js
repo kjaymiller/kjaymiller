@@ -59,6 +59,6 @@ function hideSearchResultList() {
 
 document.querySelector('.menu-search').
   addEventListener('input', search).
-  addEventListener('focusout', hideSearchResultList)
+  addEventListener('blur', hideSearchResultList)
 </script>
 
