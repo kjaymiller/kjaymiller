@@ -334,8 +334,8 @@ const fuse = fetch('/search.json')
     return response.json();
   })
   .then(function (data) {
-    const f = new Fuse(data, options);
-    return f
+    let fuse = new Fuse(data, options);
+    return data
   })
   .catch(function (err) {
     console.log(err);
