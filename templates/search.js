@@ -57,7 +57,7 @@ function hideSearchResultList() {
   document.querySelector('.search-results').classList.remove('is-visible')
 };
 
-document.write('.menu-search').
+document.querySelector('.menu-search').
   addEventListener('input', search).
   addEventListener('focusout', hideSearchResultList)
 </script>
