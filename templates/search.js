@@ -19,8 +19,8 @@ const fuse = fetch('/search.json')
     return response.json();
   })
   .then(function (data) {
-    const fuse = new Fuse(data, options);
-    return data
+    const f = new Fuse(data, options);
+    return f
   })
   .catch(function (err) {
     console.log(err);
