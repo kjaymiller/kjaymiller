@@ -335,6 +335,7 @@ function search(phrase){
     return response.json()})
   .then(function (data) {
       let fuse = new Fuse(data, options);
+      console.log(fuse)
       console.log(fuse.search(phrase))
       return fuse.search(phrase)
   })
