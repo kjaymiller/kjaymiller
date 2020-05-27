@@ -1,12 +1,15 @@
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.0.0"></script>
 <script type="text/javascript">
+var list = [];
+
 fetch('/search.json')
   .then(function (response) {
     return response.json();
   })
   .then(function (data) {
-    appendData(data);
+    list = data
     console.log(data)
+    return data
   })
   .catch(function (err) {
     console.log(err);
@@ -26,7 +29,7 @@ const options = {
   // keys: [],
 };
 
-const fuse = new Fuse(data, options);
+const fuse = new Fuse(list, options);
 
 </script>
 
