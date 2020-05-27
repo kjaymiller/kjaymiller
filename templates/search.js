@@ -25,6 +25,10 @@ function search(){
     return null
   }
 
+  else {
+    showSearchResultList();
+  }
+
   fetch('/search.json')
   .then(function (response){
     return response.json()})
@@ -36,7 +40,7 @@ function search(){
         console.log([result.item.title, result.item.url])
     }
       else {
-        console.log([result.item.url])
+        console.log([result.item._content.substring(0, 15) + '...', result.item.url])
     }
   }
   })
@@ -45,5 +49,16 @@ function search(){
   });
 };
 
+function showSearchResultList() {
+  document.querySelector('.search-results').classList.add('is-visible')
+};
+
+function hideSearchResultList() {
+  document.querySelector('.search-results').classList.remove('is-visible')
+};
+
+document.write('.menu-search').
+  addEventListener('input', search).
+  addEventListener('focusout', hideSearchResultList)
 </script>
 
