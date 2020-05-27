@@ -57,8 +57,7 @@ function hideSearchResultList() {
   document.querySelector('.search-results').classList.remove('is-visible')
 };
 
-document.querySelector('.menu-search').
-  addEventListener('input', search).
-  addEventListener('blur', hideSearchResultList)
+document.querySelector('.menu-search').addEventListener('input', search)
+ document.querySelector('.menu-search').addEventListener('blur', hideSearchResultList)
 </script>
 
