@@ -334,9 +334,10 @@ function search(phrase){
   .then(function (response){
     return response.json()})
   .then(function (data) {
-      let fuse = new Fuse(data, options)
-      return fuse.search(phrase)}
-  )
+      let fuse = new Fuse(data, options);
+      console.log(fuse.search(phrase))
+      return fuse.search(phrase)
+  })
   .catch(function (err) {
     console.log(err);
   });
