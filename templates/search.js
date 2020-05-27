@@ -38,6 +38,7 @@ function search(){
 
     for (let result of results.slice(0,5)){
       addSearchResult(result);
+    }
   })
   .catch(function (err) {
     console.log(err);
