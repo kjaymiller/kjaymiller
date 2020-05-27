@@ -77,6 +77,6 @@ function addSearchResult(result){
 }
 
 document.querySelector('.menu-search').addEventListener('input', search)
- document.querySelector('.menu-search').addEventListener('blur', hideSearchResultList)
+document.querySelector('.menu-search').addEventListener('focusout', hideSearchResultList)
 </script>
 
