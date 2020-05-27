@@ -26,7 +26,10 @@ const options = {
   // threshold: 0.6,
   // distance: 100,
   // useExtendedSearch: false,
-  // keys: [],
+  keys: [
+    'title',
+    '_content',
+  ],
 };
 
 const fuse = new Fuse(list, options);
