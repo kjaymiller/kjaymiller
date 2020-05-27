@@ -26,7 +26,7 @@ function search(phrase){
       let fuse = new Fuse(data, options);
       results = fuse.search(phrase)
     for (let result of results){
-      console.log(result.title)
+      console.log(result)
     }
   })
   .catch(function (err) {
