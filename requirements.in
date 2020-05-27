@@ -1,12 +1,1 @@
-click==7.1.1
-Jinja2==2.11.1
-Markdown==3.2.1
-MarkupSafe==1.1.1
-more-itertools==8.2.0
-pendulum==2.1.0
-pip-tools==4.5.1
-python-dateutil==2.8.1
-pytzdata==2019.3
--e git+git@github.com:kjaymiller/render_engine.git@7004490441a435c051fedb9c8791b835721cf4a1#egg=render_engine
-six==1.14.0
-typer==0.1.0
+render-engine
