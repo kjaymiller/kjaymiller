@@ -27,11 +27,10 @@ function search(phrase){
       results = fuse.search(phrase)
     for (let result of results){
       if (result.item.title) {
-        console.log(result.item.title)
+        console.log([result.item.title, result.item.url])
     }
       else {
-        var slug = result.item.routes[0] + '/' + result.item.slug;
-        console.log(slug)
+        console.log([result.item.url])
     }
   }
   })
