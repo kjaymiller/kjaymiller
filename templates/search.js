@@ -61,11 +61,11 @@ function addSearchResult(result){
       a.href = result.item.url;
 
       if (result.item.title) {
-        var linkText = document.createNodeText(result.item.title)
+        var linkText = document.createTextNode(result.item.title)
     }
 
       else {
-        var linkText = document.createNodeText(result.item._content.substring(0, 15) + '...')
+        var linkText = document.createTextNode(result.item._content.substring(0, 15) + '...')
     }
 
       a.appendChild(linkText)
