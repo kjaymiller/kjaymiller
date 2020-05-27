@@ -46,11 +46,12 @@ function search(){
 };
 
 function showSearchResultList() {
-  document.querySelector('.search-results').classList.add('is-visible')
+  document.querySelector('.search-results').classList.add('is-visible');
 };
 
 function hideSearchResultList() {
-  document.querySelector('.search-results').classList.remove('is-visible')
+  document.querySelector('.search-results').classList.remove('is-visible');
+  document.querySelector('.search-results').innerHTML = '';
 };
 
 function addSearchResult(result){
