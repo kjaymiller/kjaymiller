@@ -5,3 +5,7 @@ body {
 .is-visible {
   display: block !important;
 }
+
+.search-results {
+  display: none;
+}
