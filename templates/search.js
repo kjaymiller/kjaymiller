@@ -38,6 +38,7 @@ function search(){
       results = fuse.search(phrase)
 
     for (let result of results.slice(0,5)){
+      document.querySelector('.search-results').innerHTML = '';
       addSearchResult(result);
     }
   })
@@ -53,7 +54,6 @@ function showSearchResultList() {
 function hideSearchResultList() {
   document.querySelector('.search-results').classList.remove('is-visible');
   document.querySelector('.search-results').classList.add('is-hidden');
-  document.querySelector('.search-results').innerHTML = '';
 };
 
 function addSearchResult(result){
