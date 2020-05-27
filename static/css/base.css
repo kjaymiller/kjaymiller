@@ -6,6 +6,9 @@ body {
   display: block !important;
 }
 
+.is-hidden {
+  display: hidden !important;
+}
 .search-results {
   display: none;
 }

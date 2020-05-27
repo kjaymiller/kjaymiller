@@ -22,6 +22,7 @@ function search(){
   const phrase = document.querySelector('.menu-search').value
 
   if (phrase.length < 3) {
+    hideSearchResultList();
     return null
   }
 
@@ -51,6 +52,7 @@ function showSearchResultList() {
 
 function hideSearchResultList() {
   document.querySelector('.search-results').classList.remove('is-visible');
+  document.querySelector('.search-results').classList.add('is-hidden');
   document.querySelector('.search-results').innerHTML = '';
 };
 
