@@ -20,8 +20,8 @@ function search(phrase){
     return response.json()})
   .then(function (data) {
       let fuse = new Fuse(data, options)
-      return fuse.search(phrase))
-  })
+      return fuse.search(phrase)}
+  )
   .catch(function (err) {
     console.log(err);
   });
