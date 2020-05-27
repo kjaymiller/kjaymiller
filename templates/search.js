@@ -28,7 +28,7 @@ const options = {
   // useExtendedSearch: false,
   keys: [
     'title',
-    '_content',
+    '_content'
   ],
 };
 
