@@ -14,18 +14,14 @@ const options = {
   // useExtendedSearch: false,
 };
 
-fetch('/search.json')
+var data = await fetch('/search.json')
   .then(function (response) {
     return response.json();
-  })
-  .then(function (data) {
-    let fuse = new Fuse(data, options);
-    return data
   })
   .catch(function (err) {
     console.log(err);
   });
 
-
+const fuse = new Fuse(data, options);
 </script>
 
