@@ -331,7 +331,8 @@ const options = {
 
 function search(phrase){
   fetch('/search.json')
-  .then(response => response.json())
+  .then(function (response){
+    response.json()})
   .then(function (data) {
       let fuse = new Fuse(data, options)
       return fuse.search(phrase)
