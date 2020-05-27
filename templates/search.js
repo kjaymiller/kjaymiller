@@ -34,7 +34,7 @@ function search(phrase){
         console.log(slug)
     }
   }
-  )
+  })
   .catch(function (err) {
     console.log(err);
   });
