@@ -329,7 +329,7 @@ const options = {
   // useExtendedSearch: false,
 };
 
-var data = await fetch('/search.json')
+var data = fetch('/search.json')
   .then(function (response) {
     return response.json();
   })
