@@ -341,9 +341,15 @@ function search(phrase){
       let fuse = new Fuse(data, options);
       results = fuse.search(phrase)
     for (let result of results){
-      console.log(result.item.title)
+      if (result.item.title) {
+        console.log(result.item.title)
     }
-  })
+      else {
+        var slug = result.item.routes[0] + '/' + result.item.slug;
+        console.log(slug)
+    }
+  }
+  )
   .catch(function (err) {
     console.log(err);
   });
