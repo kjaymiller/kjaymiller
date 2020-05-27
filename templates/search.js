@@ -28,9 +28,5 @@ const options = {
 
 const fuse = new Fuse(data, options);
 
-// Change the pattern
-const pattern = ""
-
-return fuse.search(pattern)
 </script>
 
