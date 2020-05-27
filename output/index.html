@@ -329,7 +329,7 @@ const options = {
   // useExtendedSearch: false,
 };
 
-const fuse = fetch('/search.json')
+fetch('/search.json')
   .then(function (response) {
     return response.json();
   })
