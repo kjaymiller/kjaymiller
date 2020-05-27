@@ -329,13 +329,18 @@ const options = {
   // useExtendedSearch: false,
 };
 
-var fuseData = fetch('/search.json')
+function search(phrase){
+  fetch('/search.json')
   .then(response => response.json())
+  .then(function (data) {
+      let fuse = new Fuse(data, options)
+      return fuse.search(phrase)
+  })
   .catch(function (err) {
     console.log(err);
   });
+};
 
-const fuse = new Fuse(fuseData, options);
 </script>
 
 
