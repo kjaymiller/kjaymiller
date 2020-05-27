@@ -35,14 +35,9 @@ function search(){
   .then(function (data) {
       let fuse = new Fuse(data, options);
       results = fuse.search(phrase)
-    for (let result of results){
-      if (result.item.title) {
-        console.log([result.item.title, result.item.url])
-    }
-      else {
-        console.log([result.item._content.substring(0, 15) + '...', result.item.url])
-    }
-  }
+
+    for (let result of results.slice(0,5)){
+      addSearchResult(result);
   })
   .catch(function (err) {
     console.log(err);
@@ -56,6 +51,28 @@ function showSearchResultList() {
 function hideSearchResultList() {
   document.querySelector('.search-results').classList.remove('is-visible')
 };
+
+function addSearchResult(result){
+      var div = document.createElement('div');
+      div.className = 'navbar-item';
+
+      var a = document.createElement('a');
+      a.href = result.item.url;
+
+      if (result.item.title) {
+        var linkText = document.createNodeText(result.item.title)
+    }
+
+      else {
+        var linkText = document.createNodeText(result.item._content.substring(0, 15) + '...')
+    }
+
+      a.appendChild(linkText)
+      div.appendChild(a)
+
+      document.querySelector('.search-results').appendChild(div)
+
+}
 
 document.querySelector('.menu-search').addEventListener('input', search)
  document.querySelector('.menu-search').addEventListener('blur', hideSearchResultList)
