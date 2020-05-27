@@ -18,7 +18,13 @@ const options = {
   ]
 };
 
-function search(phrase){
+function search(){
+  const phrase = document.querySelector('.menu-search').value
+
+  if (phrase.length < 3) {
+    return null
+  }
+
   fetch('/search.json')
   .then(function (response){
     return response.json()})
