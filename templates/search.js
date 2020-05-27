@@ -37,8 +37,9 @@ function search(){
       let fuse = new Fuse(data, options);
       results = fuse.search(phrase)
 
+    document.querySelector('.search-results').innerHTML = '';
+
     for (let result of results.slice(0,5)){
-      document.querySelector('.search-results').innerHTML = '';
       addSearchResult(result);
     }
   })
