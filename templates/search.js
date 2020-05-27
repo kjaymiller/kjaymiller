@@ -12,6 +12,10 @@ const options = {
   // threshold: 0.6,
   // distance: 100,
   // useExtendedSearch: false,
+  keys: [
+    'title',
+    '_content'
+  ]
 };
 
 function search(phrase){
