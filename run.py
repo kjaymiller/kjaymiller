@@ -11,7 +11,7 @@ HEADER_LINKS = (
     Link(name='Blog', url='/all_posts.html'),
     Link(name='Projects', url='/projects.html'),
     Link(name='Resume', url='/static/files/Jay_Miller_-_Software_Engineer.pdf'),
-    Link(name='Newsletter', url='/newsletter'),
+    Link(name='Newsletter', url='/subscribe'),
     )
 
 mysite = Site(strict=True)
