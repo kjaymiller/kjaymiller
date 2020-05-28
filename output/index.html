@@ -374,6 +374,10 @@ function showSearchResultList() {
 };
 
 function hideSearchResultList() {
+  if (document.querySelector('.search-results').innerHTML) {
+      return null
+  }
+
   document.querySelector('.search-results').classList.remove('is-visible');
   document.querySelector('.search-results').classList.add('is-hidden');
 };
