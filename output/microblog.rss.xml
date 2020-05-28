@@ -106,7 +106,7 @@ PT's Coffee - <a href="https://www.ptscoffee.com/collections/coffee/products/fla
 <link>https://kjaymiller.com/microblog/202022614150</link>
 <pubDate>Wed, 26 Feb 2020 14:15:00 -0800</pubDate><guid isPermaLink="false">202022614150</guid></item><item>
   <description><![CDATA[<p>My Netlify build is trying to load my building structure only because my repo has a <code>requirements.txt</code>.  No <code>runtime.txt</code> and no build options. I render content locally and have the output be the only thing that Netlify serves. </p>
-<p>This to started happening yesterday.</p>]]></description>
+<p>This started happening yesterday.</p>]]></description>
 
 <link>https://kjaymiller.com/microblog/20205289550</link>
 <pubDate>Thu, 28 May 2020 09:55:00 -0700</pubDate><guid isPermaLink="false">20205289550</guid></item></channel>
