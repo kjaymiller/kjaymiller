@@ -319,7 +319,35 @@ of a date.</p>
   </div>
   </div>
 </section>
-<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.0.0"></script>
+
+    <footer class="footer">
+  <div class="container has-text-center">
+   <p class="container has-text-center">Kjaymiller.com, property of </br><span class="text-secondary">Productivity in Tech © 2018</span></p>
+   <p class="container has-text-center">Website made with 💙 (and 🐍, 👢) by <a href="https://twitter.com/kjaymiller">kjaymiller</a></p>
+     <a href="/blog.rss"><span class="icon"><i class="fas fa-rss"></i></a>
+     <a href="https://micro.blog/kjaymiller" rel="me">Micro.blog</a>
+     <a href="https://twitter.com/kjaymiller" rel="me"><span class="icon"><i class="fab fa-twitter"></i></span></a>
+  </div>
+</footer>
+    <script>
+      const navBurger = document.querySelector('.navbar-burger');
+
+      navBurger.addEventListener('click', () => {
+
+        // Get the target from the "data-target" attribute
+        const target = navBurger.dataset.target;
+
+        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+        navBurger.classList.toggle('is-active');
+
+        const navMenu = document.querySelector('.navbar-menu');
+        console.log(navMenu);
+        navMenu.classList.toggle('is-visible');
+      });
+
+    </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.0.0"></script>
 <script type="text/javascript">
 
 const options = {
@@ -408,33 +436,6 @@ document.querySelector('.menu-search').addEventListener('input', search)
 document.querySelector('.menu-search').addEventListener('focusout', hideSearchResultList)
 </script>
 
-
-    <footer class="footer">
-  <div class="container has-text-center">
-   <p class="container has-text-center">Kjaymiller.com, property of </br><span class="text-secondary">Productivity in Tech © 2018</span></p>
-   <p class="container has-text-center">Website made with 💙 (and 🐍, 👢) by <a href="https://twitter.com/kjaymiller">kjaymiller</a></p>
-     <a href="/blog.rss"><span class="icon"><i class="fas fa-rss"></i></a>
-     <a href="https://micro.blog/kjaymiller" rel="me">Micro.blog</a>
-     <a href="https://twitter.com/kjaymiller" rel="me"><span class="icon"><i class="fab fa-twitter"></i></span></a>
-  </div>
-</footer>
-    <script>
-      const navBurger = document.querySelector('.navbar-burger');
-
-      navBurger.addEventListener('click', () => {
-
-        // Get the target from the "data-target" attribute
-        const target = navBurger.dataset.target;
-
-        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-        navBurger.classList.toggle('is-active');
-
-        const navMenu = document.querySelector('.navbar-menu');
-        console.log(navMenu);
-        navMenu.classList.toggle('is-visible');
-      });
-
-    </script>
   </body>
 
 </html>
