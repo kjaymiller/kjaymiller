@@ -6,6 +6,9 @@ nav.navbar {
   padding: 1em 2em;
 }
 
+.navbar-brand {
+  padding-top: 1em;
+}
 .is-visible {
   display: block !important;
 }
