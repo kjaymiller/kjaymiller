@@ -3,8 +3,7 @@ body {
 }
 
 nav.navbar {
-  margin: 0 2em;
-  padding: 1em 0;
+  padding: 1em 2em;
 }
 
 .is-visible {
