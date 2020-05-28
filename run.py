@@ -27,7 +27,7 @@ mysite.PODCASTS = [
         Link(name="PIT Podcast", url='https://podcast.productivityintech.com',
             image="https://kjaymiller.s3-us-west-2.amazonaws.com/images/pitpodcast_logo_256.jpg"),
         Link(name="TekTok Podcast", url='https://www.tekside.net/tektok',
-            image="https://kjaymiller.s3-us-west-2.amazonaws.com/images/tektok_256.jpg"),
+            image="https://kjaymiller.s3-us-west-2.amazonaws.com/images/tektok_256.jpeg"),
         ]
 mysite.search = Fuse
 
