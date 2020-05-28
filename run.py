@@ -57,8 +57,9 @@ class Index(Page):
     template = "index.html"
     slug = "index.html"
 
+
     def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
+        super().__init__(*args, no_index=True, **kwargs)
         self.microblog_posts = mysite.collections['MicroBlog'].archive.pages[:5]
         self.blog_posts = mysite.collections['Blog'].archive.pages[:5]
 
