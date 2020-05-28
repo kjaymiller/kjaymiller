@@ -10,16 +10,8 @@ HEADER_LINKS = (
     Link(name='About', url='/about.html'),
     Link(name='Blog', url='/all_posts.html'),
     Link(name='Projects', url='/projects.html'),
-    Link(name='Productivity in Tech', url='https://productivityintech.com'),
-    Link(name='MicroBlog', url='https://micro.blog/kjaymiller',
-    icon='fab fa-microblog'),
-    Link(name='Twitch', url='https://twitch.tv/kjaymiller', icon='fab fa-twitch'),
-    Link(
-        name="Github",
-        url="https://github.com/kjaymiller",
-        icon='fab fa-github'),
     Link(name='Resume', url='/static/files/Jay_Miller_-_Software_Engineer.pdf'),
-    Link(name='Newsletter', url='https://buttondown.email/productivityintech'),
+    Link(name='Newsletter', url='/newsletter'),
     )
 
 mysite = Site(strict=True)
