@@ -7,7 +7,7 @@ nav.navbar {
 }
 
 .navbar-brand {
-  padding-top: 1em;
+  padding-top: .5em;
 }
 .is-visible {
   display: block !important;
