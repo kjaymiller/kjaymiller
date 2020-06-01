@@ -1,4 +1,5 @@
 title: Can we fix this?
+slug: can-we-fix-this
 date: 01 Jun 2020 08:17
 tags: Police Brutality, racism
 
