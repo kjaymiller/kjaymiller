@@ -15,7 +15,7 @@ That's it.
 
 My thought is if you can fix number 2. Then you can improve the these "Dangerous" communities and ultimately destroy the PR stunt that has been hurting black folks for the last couple hundred years
 
-## How Do You Fix Number 2?
+### How Do You Fix Number 2?
 
 Make education accessible (cheaper) or you make it less important.
 
@@ -25,8 +25,8 @@ My chance came from my experience in the Armed Forces. That is not something tha
 
 I will put it clearly...
 
-HIRE MORE PEOPLE OF COLOR AND PAY ALL PEOPLE BASED ON PROVEN EXPERIENCE, NOT EDUCATION.
+**HIRE MORE PEOPLE OF COLOR AND PAY ALL PEOPLE BASED ON PROVEN EXPERIENCE, NOT EDUCATION.**
 
 It won't solve the problems tomorrow (That's for legislation and representation in our government to do.) But it will do something to reduce the wage gap in America. It will make our communities better and more affluent (and reduce crime).
 
-> "We can't pull ourselves up by our bootstraps if we can't afford boots." - Someone that at one point couldn't afford boots.
+> "_We can't pull ourselves up by our bootstraps if we can't afford boots._" - Someone that at one point couldn't afford boots.
