@@ -56,7 +56,7 @@ class MicroBlog(MicroBlog):
 @mysite.register_route
 class Index(Page):
     template = "index.html"
-    slug = "index.html"
+    slug = "index"
 
 
     def __init__(self, *args, **kwargs):
@@ -64,4 +64,24 @@ class Index(Page):
         self.microblog_posts = mysite.collections['MicroBlog'].archive.pages[:5]
         self.blog_posts = mysite.collections['Blog'].archive.pages[:5]
 
+@mysite.register_route
+class Tags(Page):
+    template = "lists.html"
+    slug = "tags"
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, no_index=True, **kwargs)
+        self.list_section = mysite.subcollections['tags']
+
+@mysite.register_route
+class Categories(Page):
+    template = "categories.html"
+    slug = "categories"
+
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, no_index=True, **kwargs)
+        self.list_section = mysite.subcollections['category']
+
 mysite.render(dry_run=False)
+print(mysite.subcollections)

@@ -1,7 +1,9 @@
 title: Can we fix this?
 slug: can-we-fix-this
 date: 01 Jun 2020 08:17
-tags: Police Brutality, racism
+tags: police brutality, racism
+
+
 I have been mostly silent in this time, mostly as I needed time to think
 about what I would like to see come out of all this.
 

@@ -1,5 +1,7 @@
 title: Announcing Transcriptor
 date: 25 May 2020 22:32
+category: programming
+tags: transcriptor
 
 ## This was the launch month for [Transcriptor]. This is a helper package that I use for doing transcriptions for PIT Clients.
 
