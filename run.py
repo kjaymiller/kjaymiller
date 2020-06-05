@@ -42,6 +42,7 @@ class Pages(Collection):
 class Blog(Blog):
     routes = ['', '/blog']
     template = 'blog.html'
+    content_path = 'content'
     subcollections = ['category', 'tags']
 
 @mysite.register_collection
