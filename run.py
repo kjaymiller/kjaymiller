@@ -63,5 +63,4 @@ class Index(Page):
         self.microblog_posts = mysite.collections['MicroBlog'].archive.pages[:5]
         self.blog_posts = mysite.collections['Blog'].archive.pages[:5]
 
-
 mysite.render(dry_run=False)

@@ -1,4 +1,4 @@
-title: May 2020 - Monthly Catchup 
+title: May 2020 - Monthly Catchup
 date: 25 May 2020 23:40
 
 _This post is also available via my [Newsletter](https://buttondown.email/productivityintech)._
