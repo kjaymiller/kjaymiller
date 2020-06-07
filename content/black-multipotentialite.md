@@ -4,7 +4,9 @@ tags: multipotentialite, individualist
 category: life
 
 > Stay in Your Lane. - NRA to Emergency Room Doctors
+
 > Shut up and Dribble. - Laura Ingraham
+
 > Why does every black actor gotta Rap Some, I don't know. All I know is I'm the Best one. - Donald Glover aka Childish Gambino.
 
 
