@@ -50,10 +50,12 @@ In my first job, I was told to devote all my energy to the job... NO.
 * I host a range of [podcasts](/podcasts) from tech to gaming.
 * I'm a member of an Esports organization and [stream regularly](https://twitch.tv/kjaymiller).
 
-My coding skills help me automate and optimize my day job. My day job skills,
-challenge me to think differently and shake up stale thought. My podcasting and
-streaming skills gave me the ability to identify ways that I could help my
-side-business clients in their content-creating journey.
+My _coding_ skills help me **automate** and **optimize** my day job.
+
+My _day job_ skills, challenge me to **think differently** and **shake up stale thought**.
+
+My _podcasting_ and _streaming_ skills gave me the ability to identify ways that **I could help my
+side-business clients** in **their** content-creating journey.
 
 They may not seem connected at first, but it is ALL the things I do that
 qualifies me to do what I do, how I do it. 
