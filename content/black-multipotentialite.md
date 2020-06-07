@@ -3,11 +3,13 @@ date: 06 Jun 2020 22:24
 tags: multipotentialite, individualist
 category: life
 
-> Stay in Your Lane. - NRA to Emergency Room Doctors
+> _Stay in Your Lane._ - NRA to Emergency Room Doctors
 
-> Shut up and Dribble. - Laura Ingraham
 
-> Why does every black actor gotta Rap Some, I don't know. All I know is I'm the Best one. - Donald Glover aka Childish Gambino.
+> _Shut up and Dribble._ - Laura Ingraham
+
+
+> _Why does every black actor gotta rap some. I don't know. All I know is I'm the best one._ - Donald Glover aka Childish Gambino.
 
 
 Some of us are born knowing what we will do. I have worked for family-owned companies where the son grew up in the warehouse learning what he could so that one day he would run the show.
