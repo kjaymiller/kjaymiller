@@ -3,13 +3,13 @@ date: 06 Jun 2020 22:24
 tags: multipotentialite, individualist
 category: life
 
-> _Stay in Your Lane._ - NRA to Emergency Room Doctors
+> _Stay in Your Lane._ - NRA to Emergency Room Doctors<br><br>
 
 
-> _Shut up and Dribble._ - Laura Ingraham
+> _Shut up and Dribble._ - Laura Ingraham<br><br>
 
 
-> _Why does every black actor gotta rap some. I don't know. All I know is I'm the best one._ - Donald Glover aka Childish Gambino.
+> _Why does every black actor gotta rap some. I don't know. All I know is I'm the best one._ - Donald Glover aka Childish Gambino.<br><br>
 
 
 Some of us are born knowing what we will do. I have worked for family-owned companies where the son grew up in the warehouse learning what he could so that one day he would run the show.
@@ -22,11 +22,11 @@ I joined the Marine Corps.
 
 ### But Why
 
-> For what is a man, what has he got?
-> If not himself, then he has naught
-> To say the things he truly feels
-> And not the words of one who kneels
-> The record shows, I took the blows
+> For what is a man, what has he got?<br>
+> If not himself, then he has naught<br>
+> To say the things he truly feels<br>
+> And not the words of one who kneels<br>
+> The record shows, I took the blows<br>
 > And did it my way - My Way, Frank Sinatra
 
 I have never wanted to do a thing because that is how it's been done. I've never wanted to walk the path that was paved for me. 
