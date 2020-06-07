@@ -66,5 +66,5 @@ Donald Glover became one of the most influential black artists in America by com
 
 Janelle Monae has done something similar by not just making music but making a statement in her sound, and videos. Her message made her a clear choice for portraying one of Black America's most notable mathematicians, Mary Jackson.
 
-My child will grow up one seeing me doing what I want and enjoying it, and maybe I will inspire her to do the same.
+My child will grow up seeing me doing what I want and enjoying it, and maybe I will inspire her to do the same.
 
