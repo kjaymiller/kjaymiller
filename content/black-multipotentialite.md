@@ -8,11 +8,11 @@ category: life
 > Why does every black actor gotta Rap Some, I don't know. All I know is I'm the Best one. - Donald Glover aka Childish Gambino.
 
 
-Some of us are born knowing what we will do. I have worked for family owned companies where the son grew up in the warehouse learning what he could so that one day he would run the show.
+Some of us are born knowing what we will do. I have worked for family-owned companies where the son grew up in the warehouse learning what he could so that one day he would run the show.
 
 For many of us, the only family legacy is filled with gang involvement, drug dealing, and a life of violence.
 
-For me it was a legacy of military, but that was still something that I was not sold on. In fact my military career came from being tired of living in self-placed poverty and the desire not to return to college. Still my Father was in the Army, my grandfather was in the Army, so I did what any respectable young man with a history of Army veterans would do. 
+For me, it was a legacy of the military, but that was still something that I was not sold on. My military career came from being tired of living in self-placed poverty and the desire not to return to college. Still, my father was in the Army, my grandfather was in the Army, so I did what any respectable young man with a history of Army veterans would do. 
 
 I joined the Marine Corps.
 
@@ -29,9 +29,9 @@ I have never wanted to do a thing because that is how it's been done. I've never
 
 In my opinion, being told, "I can't" is the biggest motivator.
 
-When I was getting out of the military, I was told, I'd never find a job (I Got one). When I married young I was told I'd regret it (No Regrets).
+When I was getting out of the military, I was told, I'd never find a job (I got one). When I married young I was told I'd regret it (No Regrets).
 
-In my first job I was told to devote all my energy to the job.... NO.
+In my first job, I was told to devote all my energy to the job... NO.
 
 ### I do a lot.
 
@@ -44,15 +44,16 @@ In my first job I was told to devote all my energy to the job.... NO.
 My coding skills help me automate and optimize my day job. My day job skills,
 challenge me to think differently and shake up stale thought. My podcasting and
 streaming skills gave me the ability to identify ways that I could help my
-side-business clients in their own content creating journey.
+side-business clients in their content-creating journey.
 
 They may not seem connected at first, but it is ALL the things I do that
 qualifies me to do what I do, how I do it. 
 
 I know it's a lot, but the people that inspired me, are the people that made careers doing the things they enjoyed and finding ways to connect the dots. 
 
-Donald Glover became one of the most influential black artists in America by combining his ability to act with an ability to direct, and create amazing and thoughtful music.
+Donald Glover became one of the most influential black artists in America by combining his ability to act with an ability to direct and create amazing and thoughtful music.
 
-Janelle Monae has done something similar by not just making music but making a statement in her sound, and videos. Her message made her a clear choise for potraying one of Black America's most notable mathmeticians, Mary Jackson.
+Janelle Monae has done something similar by not just making music but making a statement in her sound, and videos. Her message made her a clear choice for portraying one of Black America's most notable mathematicians, Mary Jackson.
 
 My child will grow up one seeing me doing what I want and enjoying it, and maybe I will inspire her to do the same.
+
