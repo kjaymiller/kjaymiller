@@ -1,42 +1,15 @@
-{% extends 'base.html' %}
-{% block title %}{{title}}{% endblock %}
-{% block content %}
-<section class="section">
-  <div class="container">
-    <h2 class="title is-1 has-text-info">{{title}}</h2>
-        {% if pages %}
-        <h2 class="subtitle is-5">There are {{pages|length}} Posts</h2>
-        {% for post in pages %}
-			<div class="tile is-parent">
-	<article class="tile is-child box">
-
-		<div class="columns">
-    {% if post.image %}
-		<div class="column is-narrow">
-    <figure class="image">
-			<a href="{{post.slug}}"><img class="level-item" style="max-width: 350px;" src="{{post.image}}"></a>
-    </figure>
-		</a>
-		</div>
-    {% endif %}
-		<div class="column">
-			<div class="container">
-			<a href="/{{post.slug}}"><p class="subtitle is-3 has-text-info
-        has-text-weight-semibold">{{post.title}}</p>
-      </a>
-		</div>
-    <footer class="container footer has-text-left">
-      <strong>Date:</strong> {{post.date_friendly}}
-    </footer>
-		</div>
-	</article>
-		</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>All Posts - {{SITE_TITLE}}</title>
+</head>
+<body>
+  <h1>All Posts<h1>  
+      <ul>
+        {% for page in pages %}
+        <li><a href="/{{page.slug}}">{{page.title}}</a></li>
         {% endfor %}
-        {% else %}
-        <h2 class="subtitle is-3">Sorry, No Posts Have Been Loaded Yet</h2>
-        {% endif %}
-    </div>
-</div>
-</div>
-</section>
-{% endblock %}
+      </ul>
+</body>
+</html>
