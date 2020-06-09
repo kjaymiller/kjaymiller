@@ -47,7 +47,7 @@ In my first job, I was told to devote all my energy to the job... NO.
 * I work a Day job.
 * I manage a [side business](https://productivityintech.com) helping people in tech with Marketing and Digital Content Production.
 * I [write code](https://github.com/kjaymiller).
-* I host a range of [podcasts](/podcasts) from tech to gaming.
+* I host a range of [podcasts](/projects) from tech to gaming.
 * I'm a member of an Esports organization and [stream regularly](https://twitch.tv/kjaymiller).
 
 My _coding_ skills help me **automate** and **optimize** my day job.
