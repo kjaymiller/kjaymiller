@@ -54,6 +54,14 @@ of a date.</p>
 
 <link>https://kjaymiller.com/microblog/20205221500</link>
 <pubDate>Fri, 22 May 2020 15:00:00 -0700</pubDate><guid isPermaLink="false">20205221500</guid></item><item>
+  <description><![CDATA[<p>minor update to render engine. You can now quickly build your setup using
+<code>render-engine-quickstart</code>. </p>
+<p><strong>WARNING</strong> this will overwrite any  <code>run.py</code> that you have set up. </p>
+<p>This should be fixed in some subsequent updates. That and a few
+other things.</p>]]></description>
+
+<link>https://kjaymiller.com/microblog/20206820580</link>
+<pubDate>Mon, 08 Jun 2020 20:58:00 -0700</pubDate><guid isPermaLink="false">20206820580</guid></item><item>
   <description><![CDATA[<p>New Coffee Alert ☕ 🚨
 PT's Coffee - <a href="https://www.ptscoffee.com/collections/coffee/products/flatlander">Flatlander</a></p>
 <p><img alt="PTCoffee1" src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/PTsCoffee1.jpeg" />
