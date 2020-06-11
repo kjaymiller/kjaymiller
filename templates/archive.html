@@ -1,15 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>All Posts - {{SITE_TITLE}}</title>
-</head>
-<body>
-  <h1>All Posts<h1>  
-      <ul>
-        {% for page in pages %}
-        <li><a href="/{{page.slug}}">{{page.title}}</a></li>
+{% extends 'base.html' %}
+{% block title %}{{title}}{% endblock %}
+{% block content %}
+{% block head %}
+<link rel="stylesheet" type="text/css" href="/static/css/microblog_archive.css">
+{% endblock %}
+<section class="section">
+  <div class="container">
+    <h2 class="title is-1 has-text-info">{{title}}</h2>
+        {% for post in pages %}
+			<div class="tile is-parent">
+	<article class="tile is-child box">
+
+		<div class="columns">
+		<div class="column">
+			<div class="container">
+        <h2 class="title is-5"><a href="{{post.slug}}">{{post.title}}</a></h2>
+		</div>
+    <div class="hero has-text-left">
+			<strong>Date:</strong> {{post.date_friendly}}
+		</div>
+    <div class="container">
+      <script type="text/javascript" src="https://micro.blog/conversation.js?url={{SITE_LINK}}/{{post.slug}}"></script> 
+    </div>
+	</article>
+		</div>
         {% endfor %}
-      </ul>
-</body>
-</html>
+    </div>
+</div>
+</div>
+</section>
+{% endblock %}
