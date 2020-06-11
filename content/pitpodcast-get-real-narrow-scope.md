@@ -20,8 +20,8 @@ This is an important PIT Reflection. In it I do share a little productivity, but
 * [Nested Folders](https://nestedfolderspodcast.com)
 * [Company of One](https://amzn.to/30zxAE6) (Affiliate Link)
 * [Micro.Blog](https://micro.blog)
-* [Transcriptor](https://pypi.org/project/transcriptor)
-* [Render-Engine](https://pypi.org/project/render-engine)
+* [Transcriptor - PyPI](https://pypi.org/project/transcriptor)
+* [Render-Engine - PyPI](https://pypi.org/project/render-engine)
 
 ## Transcription
 
