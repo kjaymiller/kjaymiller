@@ -1,5 +1,6 @@
 title: [PIT Podcast] Getting Real and Narrowing Scope
 slug: pit-podcast-getting-real-and-narrowing-scope
+github: https://github.com/kjaymiller/kjaymiller.com_flask/blob/master/content/pitpodcast-get-real-narrow-scope.md
 tags: transcription, shownotes
 date: 11 Jun 2020 08:37
 category: Productivity in Tech Podcast
@@ -12,11 +13,13 @@ category: Productivity in Tech Podcast
 This is an important PIT Reflection. In it I do share a little productivity, but more importantly, I talk about some code decisions and ultimately what the future looks like for this podcast.
 
 
-## Links
+### Links
 
 * [DevonThink - DevonTechnologies](https://www.devontechnologies.com/apps/devonthink)
 * [Miro](https://miro.com)
 * [Nested Folders](https://nestedfolderspodcast.com)
+* [Company of One](https://amzn.to/30zxAE6) (Affiliate Link)
+* [Micro.Blog](https://micro.blog)
 
 ## Transcription
 
@@ -26,11 +29,11 @@ What's up, everybody?
 
 00:00:19:
 
-J. Miller here back with a so low pit reflection type thing for the first half of June 2020. this year has sucked royally.
+Jay Miller here back with a solo PIT Reflection type thing for the first half of June 2020. this year has sucked royally.
 
 00:00:32:
 
-I don't even want to get into this. Um, all of the individual things that have happened in 2020 have just been nightmares had best.
+I don't even want to get into this. Um, all of the individual things that have happened in 2020 have just been nightmarish at best.
 
 00:00:46:
 
@@ -238,7 +241,7 @@ I mean, just you zoom.
 
 00:09:08:
 
-Or I think in my last consultation call, I like, I think we just use facetime and then, ah, you know, as we were talking, you know, we're both at and stuff into it so that I mean, that's cool by itself.
+Or I think in my last consultation call, I like, I think we just use facetime and then, as we were talking, you know, we're both adding stuff into it so that's cool by itself.
 
 00:09:21:
 
@@ -326,11 +329,11 @@ Um, there's a excellent book that I've been reading on and off, you know, for th
 
 00:10:52:
 
-Called Company of One by Paul Jarvis.
+Called _Company of One__ by Paul Jarvis.
 
 00:10:55:
 
-I think that there is an amazing idea at an amazing benefit to imposing a limit of scalability on yourself and on your company.
+I think that there is an amazing idea and an amazing benefit to imposing a limit of scalability on yourself and on your company.
 
 00:11:09:
 
@@ -462,7 +465,7 @@ You know, Al Gore, Uh, or out was What is it?
 
 00:16:28:
 
-Yeah, Al Gore as either Al Gore or Al Gloria.
+Yeah, Al Gore as either Algora or Algoria.
 
 00:16:31:
 
@@ -470,15 +473,11 @@ Something like that.
 
 00:16:31:
 
-I think it's Al Gore.
+I think it's Algora.
 
 00:16:33:
 
-And because I wasn't saying, Hey, everybody, here's a platform that, you know, you give me $10 a month and I host your static site.
-
-00:16:45:
-
-You know, feed.
+And because I wasn't saying, "Hey, everybody, here's a platform that, you know, you give me $10 a month and I host your static site."
 
 00:16:45:
 
@@ -486,7 +485,7 @@ And there's nothing wrong with people that are doing that.
 
 00:16:47:
 
-You know, shout out to the whole micro dot blawg service and man Reese and Gene McDonald and the other people that are a part of making that a reality.
+You know, shout out to the whole micro.blog service and Manton Reese and Jene McDonald and the other people that are a part of making that a reality.
 
 00:16:56:
 
