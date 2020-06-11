@@ -1,6 +1,6 @@
 title: [PIT Podcast] Getting Real and Narrowing Scope
 slug: pit-podcast-getting-real-and-narrowing-scope
-tags: transcription
+tags: transcription, shownotes
 date: 11 Jun 2020 08:37
 category: Productivity in Tech Podcast
 
