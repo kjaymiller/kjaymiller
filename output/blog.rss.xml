@@ -184,7 +184,7 @@ qualifies me to do what I do, how I do it. </p>
 <p>This is an important PIT Reflection. In it I do share a little productivity, but more importantly, I talk about some code decisions and ultimately what the future looks like for this podcast.</p>
 <h3>Links</h3>
 <ul>
-<li><a href="https://www.devontechnologies.com/apps/devonthink">DevonThink - DevonTechnologies</a></li>
+<li><a href="https://www.devontechnologies.com/apps/devonthink">DEVONthink - DevonTechnologies</a></li>
 <li><a href="https://miro.com">Miro</a></li>
 <li><a href="https://nestedfolderspodcast.com">Nested Folders</a></li>
 <li><a href="https://amzn.to/30zxAE6">Company of One</a> (Affiliate Link)</li>
@@ -219,7 +219,7 @@ qualifies me to do what I do, how I do it. </p>
 <p>00:03:57:</p>
 <p>Didn't leave it like the company I stopped using.</p>
 <p>00:03:59:</p>
-<p>The application is the adoption of DevonThink now, DevonThink, is one of these tools that I think that a lot of people are intimidated by one.</p>
+<p>The application is the adoption of DEVONthink now, DEVONthink, is one of these tools that I think that a lot of people are intimidated by one.</p>
 <p>00:04:13:</p>
 <p>It's an expensive tool.</p>
 <p>00:04:15:</p>
@@ -228,13 +228,13 @@ qualifies me to do what I do, how I do it. </p>
 <p>Oh, boy, A suspensive.</p>
 <p>It's like fountain pen money expensive.</p>
 <p>00:04:23:</p>
-<p>The thing I like about Devonhink is I don't have to question where I put a thing.</p>
+<p>The thing I like about DEVONthink is I don't have to question where I put a thing.</p>
 <p>00:04:31:</p>
 <p>I deal with a lot of files between the day job, the side business and the other ambitions and inspirations that I have.</p>
 <p>00:04:42:</p>
 <p>So for me, it is important that when I'm looking for a thing, I can find it with relative ease.</p>
 <p>00:04:51:</p>
-<p>DevonThink allows me to do that.</p>
+<p>DEVONthink allows me to do that.</p>
 <p>00:04:54:</p>
 <p>It does its job really well.</p>
 <p>00:04:58:</p>
@@ -252,9 +252,9 @@ qualifies me to do what I do, how I do it. </p>
 <p>00:06:01:</p>
 <p>So again, I'm not gonna go into too much detail about this.</p>
 <p>00:06:03:</p>
-<p>If you've been looking at DevonThink you'd know all the stuff that I could talk about with it?</p>
+<p>If you've been looking at DEVONthink you'd know all the stuff that I could talk about with it?</p>
 <p>00:06:09:</p>
-<p>Um, if you aren't looking into DevonThink unless you just genuinely have a problem with maintaining lots and lots of files and documents and things like that over a long period of time.</p>
+<p>Um, if you aren't looking into DEVONthink unless you just genuinely have a problem with maintaining lots and lots of files and documents and things like that over a long period of time.</p>
 <p>00:06:22:</p>
 <p>Or you're just fed up with Evernote as a whole and its inability to, um, not move like a giant green elephant in a china shop, you know, then I mean, give it a try.</p>
 <p>00:06:37:</p>
@@ -266,7 +266,7 @@ qualifies me to do what I do, how I do it. </p>
 <p>00:06:42:</p>
 <p>They have, um a lot of people that air again, much more avid users shout out to the Nested Folders podcast.</p>
 <p>00:06:50:</p>
-<p>They did a great to show seriess on how they both use. DevonThink in their own systems.</p>
+<p>They did a great to show seriess on how they both use. DEVONthink in their own systems.</p>
 <p>00:06:59:</p>
 <p>One, uh, uses it more of, ah, file cabinet, the other one more of ah ah, thought companion.</p>
 <p>00:07:10:</p>
@@ -316,19 +316,19 @@ qualifies me to do what I do, how I do it. </p>
 <p>00:09:55:</p>
 <p>I mean, it is it's still basically render engine and transcript.</p>
 <p>00:09:59:</p>
-<p>Or for me, I do believe the last time we had a conversation like this transcript her waas still just a jangle app now it is no longer jingle app.</p>
+<p>Or for me, I do believe the last time we had a conversation like this transcriptor was still just a Django app now it is no longer Django app.</p>
 <p>00:10:09:</p>
-<p>It is a python package.</p>
+<p>It is a <a href="https://pypi.org/project/transcriptor/">python package</a>.</p>
 <p>00:10:13:</p>
 <p>Yes, but he s the best way to put it.</p>
 <p>00:10:16:</p>
-<p>At the end of the day, I realized that I don't want to build a SAS AB.</p>
+<p>At the end of the day, I realized that I don't want to build a SaaS app.</p>
 <p>00:10:21:</p>
 <p>I know that there are a bunch of people out there.</p>
 <p>00:10:23:</p>
-<p>They're like, Oh, yeah, SAS applications.</p>
+<p>They're like, "Oh, yeah, SaaS applications!"</p>
 <p>00:10:25:</p>
-<p>That's passive income and smart revenue.</p>
+<p>"That's passive income and smart revenue."</p>
 <p>00:10:28:</p>
 <p>And there's a whole conversation to have about that.</p>
 <p>00:10:31:</p>
@@ -348,9 +348,9 @@ qualifies me to do what I do, how I do it. </p>
 <p>00:10:55:</p>
 <p>I think that there is an amazing idea and an amazing benefit to imposing a limit of scalability on yourself and on your company.</p>
 <p>00:11:09:</p>
-<p>And here's Here's what I mean, if I use pit transcript er, as you know, we'll pick transcript of the Django app.</p>
+<p>And here's Here's what I mean, if I use pit transcriptor, as you know, we'll pick transcript of the Django app.</p>
 <p>00:11:17:</p>
-<p>It's It's a great tool that allows anybody to sign up for an account and start doing transcriptions and Ultimately, I'm eating the cost, which means I'm having to charge people memberships, which means I am now in the business of customer service.</p>
+<p>It's a great tool that allows anybody to sign up for an account and start doing transcriptions and Ultimately, I'm eating the cost, which means I'm having to charge people memberships, which means I am now in the business of customer service.</p>
 <p>00:11:31:</p>
 <p>I'm in the business of tech support, and I am in the business of having to explain to people why Amazon transcribe does some of the things that it does because of how it does it.</p>
 <p>00:11:44:</p>
@@ -364,7 +364,7 @@ qualifies me to do what I do, how I do it. </p>
 <p>00:12:22:</p>
 <p>There is a level of support that I'm willing to give, but a lot of that is I can now define the scope of the application of the package that I'm supporting.</p>
 <p>00:12:37:</p>
-<p>If I decide that the transcript or packages on Lee going to support a ws transcribe, then okay, I have the ability to do that if I decide that transcript er is not going to support custom vocabulary.</p>
+<p>If I decide that the transcript or packages on Lee going to support AWS Transcribe, then okay, I have the ability to do that if I decide that transcriptor is not going to support custom vocabulary.</p>
 <p>00:13:03:</p>
 <p>I can do that if I and these are all things that I have chosen to do.</p>
 <p>00:13:13:</p>
@@ -384,13 +384,13 @@ qualifies me to do what I do, how I do it. </p>
 <p>00:14:25:</p>
 <p>A pack same thing with render engine render engine by default as a static side generator is designed to be very flexible, but because I'm not selling static sites is a service.</p>
 <p>00:14:45:</p>
-<p>I'm Onley providing a system for generating sites.</p>
+<p>I'm only providing a system for generating sites.</p>
 <p>00:14:52:</p>
 <p>That is a level of insight that I don't have to provide.</p>
 <p>00:14:56:</p>
-<p>I don't have to teach people proper s CEO.</p>
+<p>I don't have to teach people proper SEO.</p>
 <p>00:14:59:</p>
-<p>I don't have to teach people proper CD in usage and compression of images and things like that.</p>
+<p>I don't have to teach people proper CDN usage and compression of images and things like that.</p>
 <p>00:15:05:</p>
 <p>My system does not care about these things.</p>
 <p>00:15:09:</p>
@@ -400,7 +400,7 @@ qualifies me to do what I do, how I do it. </p>
 <p>00:15:30:</p>
 <p>Um, that's all done on the client side.</p>
 <p>00:15:34:</p>
-<p>Basically, you supply a JavaScript package with a Jason Output and you can search that file poor content.</p>
+<p>Basically, you supply a JavaScript package with a JSON Output and you can search that file poor content.</p>
 <p>00:15:46:</p>
 <p>Now they're probably better ways to do it.</p>
 <p>00:15:50:</p>
@@ -620,11 +620,11 @@ qualifies me to do what I do, how I do it. </p>
 <p>00:27:39:</p>
 <p>If you want to reach out to me, there's a couple ways you can do it.</p>
 <p>00:27:43:</p>
-<p>You can a hit me up on Twitter.</p>
+<p>You can A) hit me up on Twitter.</p>
 <p>00:27:45:</p>
-<p>I met KJ Why Miller b.</p>
+<p>I'm <a href="https://twitter.com/kjaymiller">@kjaymiller</a>.</p>
 <p>00:27:48:</p>
-<p>You can email me at info at product of the Imtech dot com or C You could go to my website k j a y miller dot com.</p>
+<p>You can B) email me at info at productivityintech dot com, or C) You could go to my website <a href="https://kjaymiller.com">kjaymiller.com</a>.</p>
 <p>00:27:57:</p>
 <p>Uh, there might be a contact button there.</p>
 <p>00:28:00:</p>
