@@ -12,8 +12,9 @@
 
 	<article class="box">
     {% if post.category %}
-    <span class="is-size-7"><a
-          href="/{{post.category}}/all_posts">{{post.category}}</a></span>
+      <span class="is-size-7">
+        <a href="/{{post.category}}/all_posts">{{post.category}}</a>
+      </span>
     {% endif %}
 
 		<div class="columns">
@@ -25,7 +26,7 @@
       </div>
       {% endif %}
       <div class="column">
-        <h2 class="title is-5"><a href="{{post.slug}}">{{post.title}}</a></h2>
+        <h2 class="title is-5"><a href="{{post.url}}">{{post.title}}</a></h2>
       </div>
     </div>
     <div class="columns">
@@ -42,9 +43,8 @@
       </div>
       {% endif %}
     </div>
-		</div>
 	</article>
-    {% endfor %}
+  {% endfor %}
     </div>
 </div>
 </div>
