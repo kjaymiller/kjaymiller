@@ -12,7 +12,8 @@
 
 	<article class="box">
     {% if post.category %}
-      <span class="has-text-small">{{post.category}}</span>
+    <span class="is-size-7"><a
+          href="/{{post.category}}/all_posts">{{post.category}}</a></span>
     {% endif %}
 
 		<div class="columns">
