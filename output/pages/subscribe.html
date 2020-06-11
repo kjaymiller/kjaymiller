@@ -5,14 +5,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<!-- Bootstrap CSS -->
+<!-- BULMA CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
     <script src="https://kit.fontawesome.com/4ac674b58e.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" type="text/css" href="/static/css/base.css">
     
     <title>
-       - (K) Jay Miller
+      Subscribe to my newsletter! 🗞📨📬- (K) Jay Miller
     </title>
   </head>
   <body class="has-navbar-fixed-top">
@@ -74,7 +74,38 @@
 
 </div>
 </section>
-     
+    
+<section class="section">
+  <div class="container">
+    <h1 class="title">Subscribe to my newsletter! 🗞📨📬</h1>
+    <article class=content>
+    <p>Here are a few things that you will get when you subscribe.</p>
+<ul>
+<li>Updates on all the fun things I'm working on.</li>
+<li>Automation and workflow breakdowns.</li>
+<li>A direct line to me! (Your buddy, your pal!)</li>
+</ul>
+<p><form
+    action="https://buttondown.email/api/emails/embed-subscribe/productivityintech"
+    method="post"
+    target="popupwindow"
+    onsubmit="window.open('https://buttondown.email/productivityintech', 'popupwindow')"
+    class="col-lg-3 embeddable-buttondown-form">
+    <h4 class="font-italic font-weight-strong text-primary"> All this content (plus some extra goodies) in a digestible package in your inbox! </h4> <input type="email"
+    name="email"
+    placeholder="Email"
+    id="bd-email">
+    <input type="hidden"
+    value="1"
+    name="embed" />
+    <input class="btn btn-primary my-2"
+    type="submit"
+    value="Subscribe" />
+</form></p>
+    </article>
+  </div>
+</section>
+
     <footer class="footer">
   <div class="container has-text-centered">
     <p> kjaymiller.com</p>
@@ -107,7 +138,7 @@
         const target = navBurger.dataset.target;
 
         // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-        navBurger.classList.toggle('is-active');
+         navBurger.classList.toggle('is-active');
 
         const navMenu = document.querySelector('.navbar-menu');
         console.log(navMenu);
@@ -208,35 +239,3 @@ document.querySelector('.menu-search').addEventListener('focusout', hideSearchRe
   </body>
 
 </html>
-
-
-<section class="section">
-  <div class="container">
-    <h1 class="title">Subscribe to my newsletter! 🗞📨📬</h1>
-    <article class=content>
-    <p>Here are a few things that you will get when you subscribe.</p>
-<ul>
-<li>Updates on all the fun things I'm working on.</li>
-<li>Automation and workflow breakdowns.</li>
-<li>A direct line to me! (Your buddy, your pal!)</li>
-</ul>
-<p><form
-    action="https://buttondown.email/api/emails/embed-subscribe/productivityintech"
-    method="post"
-    target="popupwindow"
-    onsubmit="window.open('https://buttondown.email/productivityintech', 'popupwindow')"
-    class="col-lg-3 embeddable-buttondown-form">
-    <h4 class="font-italic font-weight-strong text-primary"> All this content (plus some extra goodies) in a digestible package in your inbox! </h4> <input type="email"
-    name="email"
-    placeholder="Email"
-    id="bd-email">
-    <input type="hidden"
-    value="1"
-    name="embed" />
-    <input class="btn btn-primary my-2"
-    type="submit"
-    value="Subscribe" />
-</form></p>
-    </article>
-  </div>
-</section>
