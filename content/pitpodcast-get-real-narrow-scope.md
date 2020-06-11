@@ -15,7 +15,7 @@ This is an important PIT Reflection. In it I do share a little productivity, but
 
 ### Links
 
-* [DevonThink - DevonTechnologies](https://www.devontechnologies.com/apps/devonthink)
+* [DEVONthink - DevonTechnologies](https://www.devontechnologies.com/apps/devonthink)
 * [Miro](https://miro.com)
 * [Nested Folders](https://nestedfolderspodcast.com)
 * [Company of One](https://amzn.to/30zxAE6) (Affiliate Link)
@@ -79,7 +79,7 @@ Didn't leave it like the company I stopped using.
 
 00:03:59:
 
-The application is the adoption of DevonThink now, DevonThink, is one of these tools that I think that a lot of people are intimidated by one.
+The application is the adoption of DEVONthink now, DEVONthink, is one of these tools that I think that a lot of people are intimidated by one.
 
 00:04:13:
 
@@ -97,7 +97,7 @@ It's like fountain pen money expensive.
 
 00:04:23:
 
-The thing I like about Devonhink is I don't have to question where I put a thing.
+The thing I like about DEVONthink is I don't have to question where I put a thing.
 
 00:04:31:
 
@@ -109,7 +109,7 @@ So for me, it is important that when I'm looking for a thing, I can find it with
 
 00:04:51:
 
-DevonThink allows me to do that.
+DEVONthink allows me to do that.
 
 00:04:54:
 
@@ -145,11 +145,11 @@ So again, I'm not gonna go into too much detail about this.
 
 00:06:03:
 
-If you've been looking at DevonThink you'd know all the stuff that I could talk about with it?
+If you've been looking at DEVONthink you'd know all the stuff that I could talk about with it?
 
 00:06:09:
 
-Um, if you aren't looking into DevonThink unless you just genuinely have a problem with maintaining lots and lots of files and documents and things like that over a long period of time.
+Um, if you aren't looking into DEVONthink unless you just genuinely have a problem with maintaining lots and lots of files and documents and things like that over a long period of time.
 
 00:06:22:
 
@@ -173,7 +173,7 @@ They have, um a lot of people that air again, much more avid users shout out to 
 
 00:06:50:
 
-They did a great to show seriess on how they both use. DevonThink in their own systems.
+They did a great to show seriess on how they both use. DEVONthink in their own systems.
 
 00:06:59:
 
@@ -273,11 +273,11 @@ I mean, it is it's still basically render engine and transcript.
 
 00:09:59:
 
-Or for me, I do believe the last time we had a conversation like this transcript her waas still just a jangle app now it is no longer jingle app.
+Or for me, I do believe the last time we had a conversation like this transcriptor was still just a Django app now it is no longer Django app.
 
 00:10:09:
 
-It is a python package.
+It is a [python package](https://pypi.org/project/transcriptor/).
 
 00:10:13:
 
@@ -285,7 +285,7 @@ Yes, but he s the best way to put it.
 
 00:10:16:
 
-At the end of the day, I realized that I don't want to build a SAS AB.
+At the end of the day, I realized that I don't want to build a SaaS app.
 
 00:10:21:
 
@@ -293,11 +293,11 @@ I know that there are a bunch of people out there.
 
 00:10:23:
 
-They're like, Oh, yeah, SAS applications.
+They're like, "Oh, yeah, SaaS applications!"
 
 00:10:25:
 
-That's passive income and smart revenue.
+"That's passive income and smart revenue."
 
 00:10:28:
 
@@ -337,11 +337,11 @@ I think that there is an amazing idea and an amazing benefit to imposing a limit
 
 00:11:09:
 
-And here's Here's what I mean, if I use pit transcript er, as you know, we'll pick transcript of the Django app.
+And here's Here's what I mean, if I use pit transcriptor, as you know, we'll pick transcript of the Django app.
 
 00:11:17:
 
-It's It's a great tool that allows anybody to sign up for an account and start doing transcriptions and Ultimately, I'm eating the cost, which means I'm having to charge people memberships, which means I am now in the business of customer service.
+It's a great tool that allows anybody to sign up for an account and start doing transcriptions and Ultimately, I'm eating the cost, which means I'm having to charge people memberships, which means I am now in the business of customer service.
 
 00:11:31:
 
@@ -369,7 +369,7 @@ There is a level of support that I'm willing to give, but a lot of that is I can
 
 00:12:37:
 
-If I decide that the transcript or packages on Lee going to support a ws transcribe, then okay, I have the ability to do that if I decide that transcript er is not going to support custom vocabulary.
+If I decide that the transcript or packages on Lee going to support AWS Transcribe, then okay, I have the ability to do that if I decide that transcriptor is not going to support custom vocabulary.
 
 00:13:03:
 
@@ -409,7 +409,7 @@ A pack same thing with render engine render engine by default as a static side g
 
 00:14:45:
 
-I'm Onley providing a system for generating sites.
+I'm only providing a system for generating sites.
 
 00:14:52:
 
@@ -417,11 +417,11 @@ That is a level of insight that I don't have to provide.
 
 00:14:56:
 
-I don't have to teach people proper s CEO.
+I don't have to teach people proper SEO.
 
 00:14:59:
 
-I don't have to teach people proper CD in usage and compression of images and things like that.
+I don't have to teach people proper CDN usage and compression of images and things like that.
 
 00:15:05:
 
@@ -441,7 +441,7 @@ Um, that's all done on the client side.
 
 00:15:34:
 
-Basically, you supply a JavaScript package with a Jason Output and you can search that file poor content.
+Basically, you supply a JavaScript package with a JSON Output and you can search that file poor content.
 
 00:15:46:
 
@@ -881,15 +881,15 @@ If you want to reach out to me, there's a couple ways you can do it.
 
 00:27:43:
 
-You can a hit me up on Twitter.
+You can A) hit me up on Twitter.
 
 00:27:45:
 
-I met KJ Why Miller b.
+I'm [@kjaymiller](https://twitter.com/kjaymiller).
 
 00:27:48:
 
-You can email me at info at product of the Imtech dot com or C You could go to my website k j a y miller dot com.
+You can B) email me at info at productivityintech dot com, or C) You could go to my website [kjaymiller.com](https://kjaymiller.com).
 
 00:27:57:
 
