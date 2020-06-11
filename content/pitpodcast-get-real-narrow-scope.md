@@ -4,6 +4,9 @@ tags: transcription, shownotes
 date: 11 Jun 2020 08:37
 category: Productivity in Tech Podcast
 
+<iframe width="100%" height="180" frameborder="no" scrolling="no" seamless src="https://share.transistor.fm/e/2d916493"></iframe>
+
+
 ## Shownotes
 
 This is an important PIT Reflection. In it I do share a little productivity, but more importantly, I talk about some code decisions and ultimately what the future looks like for this podcast.
