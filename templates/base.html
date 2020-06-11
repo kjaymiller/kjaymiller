@@ -12,7 +12,8 @@
     <link rel="stylesheet" type="text/css" href="/static/css/base.css">
     {% block head %}{% endblock %}
     <title>
-      {% block title %} {% endblock %}- {{SITE_TITLE}}
+      {% if title != index %}
+      {% block title %} {% endblock %} - {% endif %}{{SITE_TITLE}}
     </title>
   </head>
   <body class="has-navbar-fixed-top">
