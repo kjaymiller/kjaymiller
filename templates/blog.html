@@ -6,6 +6,11 @@
 <div class="container">
     <article>
         <section class="hero is-light">
+          {% if category %}
+          <div class="hero-head">
+            <small>{{category}}</small>
+          </div>
+          {% endif %}
             {% if image %}
             <figure class="image">
               <img src="{{image}}" class="featured_image">
@@ -18,7 +23,16 @@
                 <nav class="navbar">
                   <div class="navbar-brand">
                     <p class="navbar-item">
+                    {% if author %}
                     <small class="is-small">{{author}}</small>
+                    {% else %}
+                    <small class="is-small">{{SITE_AUTHOR}}</small>
+                    </p>
+                    {% endif %}
+                    <p class="navbar-item">
+                    {% for tag in tags %}
+                    <small class="tag">{{tag}}</small>
+                    {% endfor %}
                     </p>
                 </div>
               </section>

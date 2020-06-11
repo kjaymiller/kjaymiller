@@ -17,6 +17,7 @@ HEADER_LINKS = (
 mysite = Site(strict=True)
 mysite.SITE_TITLE = '(K) Jay Miller'
 mysite.SITE_URL = 'https://kjaymiller.com'
+mysite.AUTHOR = 'Jay Miller'
 mysite.HEADER_LINKS = HEADER_LINKS
 mysite.PODCASTS = [
         Link(
