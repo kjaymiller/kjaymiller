@@ -11,15 +11,15 @@
         {% for post in pages %}
 
 	<article class="box">
-    {% if category %}
-      <span class="has-text-small">{{category}}</span>
+    {% if post.category %}
+      <span class="has-text-small">{{post.category}}</span>
     {% endif %}
 
 		<div class="columns">
-      {% if image %}
+      {% if post.image %}
       <div class="column">
         <figure class="image is-128x128">
-          <img src="{{image}}">
+          <img src="{{post.image}}">
         </figure>
       </div>
       {% endif %}
@@ -31,9 +31,9 @@
       <div class="column is-narrow">
         <strong>Date:</strong> {{post.date_friendly}}
       </div>
-      {% if tags %}
+      {% if post.tags %}
       <div class="column is-narrow">
-      {% for tag in tags %}
+      {% for tag in post.tags %}
       <span class="tag">
         {{tag}}
       </span>
