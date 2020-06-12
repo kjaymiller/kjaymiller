@@ -3,5 +3,6 @@
 <h1>{{title}}</h1>
   <h2>{{list_item}}</h2>
     {% for list_item in list_section %}
+    <a href="/{{list_item}}/all_posts">{{list_item}}</a>
   {% endfor %}
 {% endblock %}
