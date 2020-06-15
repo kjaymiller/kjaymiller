@@ -36,6 +36,7 @@
                   </small>
                   </p>
                   {% endif %}
+                  {% if tags %}
                     <p class="navbar-item">
                     <strong>Tags: </strong>
                     {% for tag in tags %}
@@ -44,6 +45,7 @@
                     </small>
                     {% endfor %}
                     </p>
+                    {% endif %}
                 </div>
               </section>
         </section>
