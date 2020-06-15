@@ -1,21 +1,18 @@
-<section class="section">
-  <div class="container">
-    <h1 class="title is-3">You can hear me on</h1>
-    <div class="level">
-    {% for podcast in PODCASTS %}
+  <div class="level">
+  {% for podcast in PODCASTS %}
 
   <div class="level-item">
     <div class="podcast-wrapper">
       <a href="{{podcast.url}}">
         <img class="podcast-image" src="{{podcast.image}}">
       </a>
+
       <div class="wrapper">
         <div class="wrapper-text">
           <a class="has-text-white" href="{{podcast.url}}">{{podcast.name}}</a>
         </div>
       </div>
+
     </div>
 
-  </div>
     {% endfor %}
-</section>
