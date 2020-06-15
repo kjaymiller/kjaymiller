@@ -6,10 +6,12 @@
 
   <div class="level-item">
     <div class="podcast-wrapper">
-      <img class="podcast-image" src="{{podcast.image}}">
+      <a src="{{podcast.url}}">
+        <img class="podcast-image" src="{{podcast.image}}">
+      </a>
       <div class="wrapper">
         <div class="wrapper-text">
-          {{podcast.name}}
+          <a src="{{podcast.url}}">{{podcast.name}}</a>
         </div>
       </div>
     </div>
