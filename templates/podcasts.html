@@ -5,15 +5,15 @@
     {% for podcast in PODCASTS %}
 
   <div class="level-item">
-    <figure class="figure is-128x128">
-      <a href="{{podcast.url}}">
-        <img class="podcast-image is-rounded" src="{{podcast.image}}">
-      </a>
-    <figure>
+    <div class="podcast-wrapper">
+      <img class="podcast-image" src="{{podcast.image}}">
+      <div class="wrapper">
+        <div class="wrapper-text">
+          {{podcast.name}}
+        </div>
+      </div>
+    </div>
 
-    <h1 class="title is-5">
-      <a href="{{podcast.url}}">{{podcast.name}}</a>
-    </h1>
   </div>
     {% endfor %}
 </section>

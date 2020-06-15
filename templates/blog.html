@@ -6,11 +6,6 @@
 <div class="container">
     <article>
         <section class="hero is-light">
-          {% if category %}
-          <div class="hero-head">
-            <small>{{category}}</small>
-          </div>
-          {% endif %}
             {% if image %}
             <figure class="image">
               <img src="{{image}}" class="featured_image">
@@ -18,20 +13,29 @@
             {% endif %}
             <div class="hero-body">
               <h1 class="title is-2 has-text-font-weight-semibold">{{title}}</h1>
+              <div class="columns">
+                <p class="column is-narrow">
+              {% if author %}
+              <small class="is-small">{{author}}</small>
+              {% else %}
+              <small class="is-small">{{AUTHOR}}</small>
+              {% endif %}
+              </p>
+              <p class="column is-narrow">
+              {{date_friendly}}
+              </p>
+
             </div>
               <section class="hero-foot">
                 <nav class="navbar">
                   <div class="navbar-brand">
+                  {% if category %}
+                  <small class="navbar-item"><strong>Category: </strong>{{category}}</small>
+                  {% endif %}
                     <p class="navbar-item">
-                    {% if author %}
-                    <small class="is-small">{{author}}</small>
-                    {% else %}
-                    <small class="is-small">{{SITE_AUTHOR}}</small>
-                    </p>
-                    {% endif %}
-                    <p class="navbar-item">
+                    <strong>Tags: </strong>
                     {% for tag in tags %}
-                    <small class="tag">{{tag}}</small>
+                    <small class="tag is-gray-lighter is-small">{{tag}}</small>
                     {% endfor %}
                     </p>
                 </div>
