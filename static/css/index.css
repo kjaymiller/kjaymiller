@@ -47,4 +47,10 @@ max-width: 100%;
   background-color: #000;
   background-color: rgba(0, 0, 0, .6);
   padding: 1em;
+  opacity: .25em;
+  transition: opacity .3s ease-in-out;
+}
+
+.wrapper-text:hover {
+  opacity: 1;
 }
