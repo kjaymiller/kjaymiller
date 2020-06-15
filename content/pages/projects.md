@@ -1,5 +1,6 @@
 title: Projects
 slug: projects
+template: podcasts.html
 
 
 ## Podcasts
