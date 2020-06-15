@@ -31,13 +31,17 @@
                   <div class="navbar-brand">
                   {% if category %}
                   <p class="navbar-item"><strong>Category: </strong><small
-                     class="tag is-dark">{{category}}</small>
+                     class="tag is-dark">
+                    <a href="/{{category}}/all-posts">{{category}}</a>
+                  </small>
                   </p>
                   {% endif %}
                     <p class="navbar-item">
                     <strong>Tags: </strong>
                     {% for tag in tags %}
-                    <small class="tag is-gray-lighter is-small">{{tag}}</small>
+                    <small class="tag is-gray-lighter is-small">
+                      <a ref="/{{tag}}/all-posts">{{tag}}</a>
+                    </small>
                     {% endfor %}
                     </p>
                 </div>
