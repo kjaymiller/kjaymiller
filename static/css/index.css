@@ -1,17 +1,17 @@
 .posts img {
-	max-width: 20em;
+  max-width: 20em;
 }
 
 .card-body img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .card img {
-    max-height: 450px;
+  max-height: 450px;
 }
 
 img.podcast-image {
-    max-width: 250px;
+    max-width: 300px;
     border-radius: 5px;
     display:block;
 }
@@ -40,7 +40,7 @@ max-width: 100%;
   bottom: 0;
   color: #eee;
   width: 100%;
-  opacity: .25em;
+  opacity: .25;
   transition: opacity .3s ease-in-out;
 }
 
