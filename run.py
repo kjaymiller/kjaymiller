@@ -75,7 +75,7 @@ class Tags(Page):
         super().__init__(*args, no_index=True, **kwargs)
         self.list_section = sorted(
                 mysite.subcollections['tags'],
-                key=lambda x:x,
+                key=lambda x:x.lower(),
                 )
 
 @mysite.register_route
