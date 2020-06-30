@@ -3,11 +3,14 @@ date: 30 Jun 2020 08:00
 slug: pitpodcast-melaniec-2020
 category: Productivity in Tech Podcast
 tags: transcriptions, shownotes, podcast
+github: https://github.com/kjaymiller/kjaymiller.com_flask/blob/master/content/melaniec-2020.md
 
 I had the privilege of meeting Melanie C. very early in my python career. She
 was work on what would be known as five up app and learning Django. In this
 episode we talk about some of the problems we face and how that has led
 Melanie to force inject some happy into the lives of many many people. 
+
+<iframe width="100%" height="180" frameborder="no" scrolling="no" seamless src="https://share.transistor.fm/e/11a624da"></iframe>
 
 ## Links
 - [FiveUp](https://fiveupapp.com)
