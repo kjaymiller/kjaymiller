@@ -173,24 +173,22 @@
   </div>
 </footer>
     <script>
-      const navBurger = document.querySelector('.navbar-burger');
+  const navBurger = document.querySelector('.navbar-burger');
 
-      navBurger.addEventListener('click', () => {
+  navBurger.addEventListener('click', () => {
 
-        // Get the target from the "data-target" attribute
-        const target = navBurger.dataset.target;
+    // Get the target from the "data-target" attribute
+    const target = navBurger.dataset.target;
 
-        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-         navBurger.classList.toggle('is-active');
+    // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+     navBurger.classList.toggle('is-active');
 
-        const navMenu = document.querySelector('.navbar-menu');
-        console.log(navMenu);
-        navMenu.classList.toggle('is-visible');
-      });
-
-    </script>
-
-  <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.0.0"></script>
+    const navMenu = document.querySelector('.navbar-menu');
+    console.log(navMenu);
+    navMenu.classList.toggle('is-visible');
+  });
+</script>
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.0.0"></script>
 <script type="text/javascript">
 
 const options = {

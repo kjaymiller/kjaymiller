@@ -123,6 +123,10 @@
   </li>
 
   <li class="subtitle is-4">
+    <a href="/podcast/all_posts">podcast</a>
+  </li>
+
+  <li class="subtitle is-4">
     <a href="/podcasts/all_posts">podcasts</a>
   </li>
 
@@ -148,6 +152,10 @@
 
   <li class="subtitle is-4">
     <a href="/transcription/all_posts">transcription</a>
+  </li>
+
+  <li class="subtitle is-4">
+    <a href="/transcriptions/all_posts">transcriptions</a>
   </li>
 
   <li class="subtitle is-4">
@@ -186,24 +194,22 @@
   </div>
 </footer>
     <script>
-      const navBurger = document.querySelector('.navbar-burger');
+  const navBurger = document.querySelector('.navbar-burger');
 
-      navBurger.addEventListener('click', () => {
+  navBurger.addEventListener('click', () => {
 
-        // Get the target from the "data-target" attribute
-        const target = navBurger.dataset.target;
+    // Get the target from the "data-target" attribute
+    const target = navBurger.dataset.target;
 
-        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-         navBurger.classList.toggle('is-active');
+    // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+     navBurger.classList.toggle('is-active');
 
-        const navMenu = document.querySelector('.navbar-menu');
-        console.log(navMenu);
-        navMenu.classList.toggle('is-visible');
-      });
-
-    </script>
-
-  <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.0.0"></script>
+    const navMenu = document.querySelector('.navbar-menu');
+    console.log(navMenu);
+    navMenu.classList.toggle('is-visible');
+  });
+</script>
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.0.0"></script>
 <script type="text/javascript">
 
 const options = {
