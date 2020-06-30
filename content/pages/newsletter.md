@@ -17,6 +17,7 @@ Here are a few things that you will get when you subscribe.
   <div class="field is-grouped">
   <div class="control">
   <input type="email"
+  class="input"
 	name="email"
 	placeholder="Email"
 	id="bd-email">
@@ -25,7 +26,7 @@ Here are a few things that you will get when you subscribe.
 	value="1"
 	name="embed" />
   <div class="control">
-	<input class="is-button is-link"
+	<input class="button is-link"
 	type="submit"
 	value="Subscribe" />
   </div>
