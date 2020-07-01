@@ -53,6 +53,7 @@
   {% for category in subcollections['category']|sort(attribute='title') %}
   <div class="tags is-small has-addons">
     <span class="tag is-dark"><a
+          class="has-text-white"
         href="/{{category.title|lower}}/{{category.archive_slug}}">{{category.title|title}}</a></span>
     <span class="tag">{{category.pages|length}}</span>
   </div>
