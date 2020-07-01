@@ -8,12 +8,19 @@ I'm happy to announce that subcollections are now supported in render_engine
 
 ```
 @mysite.register_collection
+
 class Blog(Blog):
+
     routes = ['', '/blog']
+
     template = 'blog.html'
+
     archive_template = 'archive.html'
+
     archive_slug = 'all_posts.html'
+
     content_path = 'content'
+
     subcollections = ['category', 'tags']
 ```
 

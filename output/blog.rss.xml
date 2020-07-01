@@ -1659,14 +1659,22 @@ Check out her amazing python talks!</li>
 <pubDate>Tue, 30 Jun 2020 08:00:00 -0700</pubDate><guid isPermaLink="false">pitpodcast-melaniec-2020</guid></item><item>
 <title>SubCollections now available in Render Engine</title>  <description><![CDATA[<p><strong>Version Update: 2020.07.02</strong>
 I'm happy to announce that subcollections are now supported in render_engine</p>
-<p><code>@mysite.register_collection
-class Blog(Blog):
-    routes = ['', '/blog']
-    template = 'blog.html'
-    archive_template = 'archive.html'
-    archive_slug = 'all_posts.html'
-    content_path = 'content'
-    subcollections = ['category', 'tags']</code></p>
+<p>```
+@mysite.register_collection</p>
+<p>class Blog(Blog):</p>
+<pre><code>routes = ['', '/blog']
+
+template = 'blog.html'
+
+archive_template = 'archive.html'
+
+archive_slug = 'all_posts.html'
+
+content_path = 'content'
+
+subcollections = ['category', 'tags']
+</code></pre>
+<p>```</p>
 <p><strong>SubCollections</strong> create a new collection from pages that has the specified value. SubCollections are of the same type as their parent so if you are using a <code>Blog</code> object , you will get access to feeds natively for each SubCollection.</p>
 <h3>Other Minor Updates Include</h3>
 <ul>
