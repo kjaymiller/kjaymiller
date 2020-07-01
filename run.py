@@ -48,11 +48,6 @@ class Blog(Blog):
     content_path = 'content'
     subcollections = ['category', 'tags']
 
-    def __init__(self):
-        super().__init__()
-        self.tags = self.subcollection('tags')
-        self.category = self.subcollection('category')
-
 @mysite.register_collection
 class MicroBlog(MicroBlog):
     content_path = 'content/microblog'
