@@ -4,6 +4,7 @@ slug: pitpodcast-melaniec-2020
 category: Productivity in Tech Podcast
 tags: transcriptions, shownotes, podcast
 github: https://github.com/kjaymiller/kjaymiller.com_flask/blob/master/content/melaniec-2020.md
+image: https://s3-us-west-2.amazonaws.com/kjaymiller/images/pitpodcast-hellomelaniec.png
 
 I had the privilege of meeting Melanie C. very early in my python career. She
 was work on what would be known as five up app and learning Django. In this
