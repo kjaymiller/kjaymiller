@@ -1,13 +1,14 @@
 {% extends 'base.html' %}
 {% block title %}{{title}}{% endblock %}
 {% block style %}
+  <link rel="stylesheet"  type="text/css" href="/static/css/blog.css">
 {% endblock %}
 {% block content %} 
 <div class="container">
     <article>
         <section class="hero is-light">
             {% if image %}
-            <figure class="image">
+            <figure class="image banner">
               <img src="{{image}}" class="featured_image">
             </figure>
             {% endif %}
