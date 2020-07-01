@@ -48,6 +48,11 @@ class Blog(Blog):
     content_path = 'content'
     subcollections = ['category', 'tags']
 
+    def __init__(self):
+        super().__init__()
+        self.tags = self.subcollection('tags')
+        self.category = self.subcollection('category')
+
 @mysite.register_collection
 class MicroBlog(MicroBlog):
     content_path = 'content/microblog'
@@ -65,18 +70,6 @@ class Index(Page):
         super().__init__(*args, no_index=True, **kwargs)
         self.microblog_posts = mysite.collections['MicroBlog'].archive.pages[:5]
         self.blog_posts = mysite.collections['Blog'].archive.pages[:5]
-
-@mysite.register_route
-class Tags(Page):
-    template = "lists.html"
-    slug = "tags"
-
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, no_index=True, **kwargs)
-        self.list_section = sorted(
-                mysite.subcollections['tags'],
-                key=lambda x:x.lower(),
-                )
 
 @mysite.register_route
 class Categories(Page):

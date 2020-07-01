@@ -1,10 +1,11 @@
 {% extends 'base.html' %}
 {% block title %}{{title}}{% endblock %}
-{% block content %}
 {% block head %}
 <link rel="stylesheet" type="text/css" href="/static/css/microblog_archive.css">
 {% endblock %}
-<section class="section">
+{% block content %}
+<div class="columns is-centered">
+  <div class="column is-8">
     <h2 class="title is-1 has-text-info">{{title}}</h2>
 
     <div class="container">
@@ -43,10 +44,19 @@
       </div>
       {% endif %}
     </div>
-	</article>
+</article>
   {% endfor %}
     </div>
 </div>
+<div class="column box is-2 is-hidden-mobile">
+  <h3 class="subtitle is-3">Categories<h3>
+  {% for category in subcollections['category']|sort(attribute='title') %}
+  <div class="tags is-small has-addons">
+    <span class="tag is-dark"><a
+        href="/{{category.title|lower}}/{{category.archive_slug}}">{{category.title}}</a></span>
+    <span class="tag">{{category.pages|length}}</span>
+  </div>
+{% endfor %}
 </div>
-</section>
+</div>
 {% endblock %}
