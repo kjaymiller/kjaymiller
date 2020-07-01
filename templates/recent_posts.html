@@ -3,7 +3,7 @@
     <h1 class="title is-4">Latest Blog Post</h1>
     {% set featured_post  = blog_posts[0] %}
 
-    <div class="columns is-centered">
+    <div class="columns is-vcentered is-centered">
       {% if featured_post.image %}
        <div class="column">
           <img class="featured-post-image" src="{{featured_post.image}}">
