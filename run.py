@@ -60,9 +60,10 @@ class MicroBlog(MicroBlog):
 class Index(Page):
     template = "index.html"
     slug = "index"
+    no_index = True
 
     def __init__(self, *args, **kwargs):
-        super().__init__(*args, no_index=True, **kwargs)
+        super().__init__(*args, **kwargs)
         self.microblog_posts = mysite.collections['MicroBlog'].archive.pages[:5]
         self.blog_posts = mysite.collections['Blog'].archive.pages[:5]
 
@@ -70,9 +71,10 @@ class Index(Page):
 class Categories(Page):
     template = "lists.html"
     slug = "categories"
+    no_index = True
 
     def __init__(self, *args, **kwargs):
-        super().__init__(*args, no_index=True, **kwargs)
+        super().__init__(*args, **kwargs)
         self.list_section = mysite.subcollections['category']
 
 mysite.render(dry_run=False)
