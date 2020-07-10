@@ -19,7 +19,7 @@ jobs:
           architecture: "x64"
 
       - name: Install Requirements
-        run: pip install -r ./requirements.txt
+        run: pip install render-engine
 
       - name: Generate new website
         run: python run.py
