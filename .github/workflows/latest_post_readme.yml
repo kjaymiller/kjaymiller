@@ -9,6 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # All the Prep Work
       - name: Checkout Main
         uses: actions/checkout@v2
 
@@ -18,7 +19,7 @@ jobs:
           python-version: "3.7"
           architecture: "x64"
 
-      - name: Install Feedparser & Jinja
+      - name: Install Feedparser & Jinja2
         run: pip install feedparser jinja2
 
       - name: Update Readme
