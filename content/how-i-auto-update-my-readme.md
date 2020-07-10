@@ -15,7 +15,7 @@ Inspired by [Simon Willison's](https://simonwillison.net/2020/Jul/10/self-updati
 
 Armed with the power of python (_and anime on my side_), I setout to do something similar. This is a look at the first steps of me automating my Github Profile.
 
-## Step 1: Rename the repo my website to a repo named after my GitHub username
+### Step 1: Rename the repo my website to a repo named after my GitHub username
 
 This is easy enough. Just rename the repo (in Github) to your username.
 Remember this has to be exact and it is case-sensitive.
@@ -24,13 +24,13 @@ You can do this in the settings menu of your repo. You don't have to change the
 directory names or anything like that on a local machine. (I'm not sure if you
 are using a Git Client other than the cli).
 
-## Step 2: Create a copy of your existing readme as a template
+### Step 2: Create a copy of your existing readme as a template
 
 My goal was to create my README using a Jinja2 and Github Actions. For that I
 would need a template to render. So since most of the data was the same I just
 copied my existing README.
 
-## Step 3: Add Dynamic Content using Jinja2 Variables
+### Step 3: Add Dynamic Content using Jinja2 Variables
 
 
 Starting out I wanted to show my latest blog post and my latest podcast episode
@@ -43,8 +43,7 @@ rendering a template is much easier to edit and understand. Also, the compute
 time for Github Actions is free and this doesn't need to be the most
 performance conscious program. Also I like Jinja2, so there is also that 🙃.
 
-```
-
+```markdown
 # From README_template.md
 
 You can see what he's posting about at <https://kjaymiller.com>.
@@ -54,16 +53,15 @@ You can see what he's posting about at <https://kjaymiller.com>.
 **Latest Productivity in Tech Podcast Episode - [{{latest_podcast_post.title}}]({{latest_podcast_post.link}})**
 
 ## Active Projects
-
 ```
 
-## Step 4: Build your script to get the data and write the up to date README.md
+### Step 4: Build your script to get the data and write the up to date README.md
 
 This script is pretty simple once you know what you're looking for. I'm using
 the feedparser plugin to parse the rss feeds and then returning the title and
 link for the latest episode.
 
-```
+```python
 def get_latest_post(rss_feed):
     f = feedparser.parse(rss_feed)
     latest_post = sorted(f['entries'], key=lambda x:x['published_parsed'])[-1]
@@ -76,7 +74,7 @@ def get_latest_post(rss_feed):
 Then you set the template to the text of your template file.
  then write the rendered text to your README.
 
-```
+```python
 # update readme
 template = Template(Path('./README_template.md').read_text())
 Path('./README.md').write_text(
@@ -95,14 +93,13 @@ simple to setup.
 You can look at the [.yml file] I'm not going to talk about the setup of this
 because most of it is prep stuff. Here's the important bit.
 
-```
+```yaml
 # in steps:
 - name: Install Feedparser & Jinja2
   run: pip install feedparser jinja2
 
 - name: Update Readme
   run: python ./.github/actions/update_readme.py
-
 ```
 
 Basically it's installing the things I need and then running the script (I
