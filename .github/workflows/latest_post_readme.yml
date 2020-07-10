@@ -10,12 +10,10 @@ jobs:
 
     steps:
       - name: Install Feedparser
+      - uses: actions/checkout@v2
+
+      - name: Install Feedparser
       - run: pip install feedparser
 
       - name: Update Readme
-      - run: python3 .github/actions/update_readme.py
-
-      - name: refresh README
-      - run: |
-          git config user.name "Automated Publisher"
-          git config user.email "actions@users.noreply.github.com"
+      - run: python3 ./.github/actions/update_readme.py
