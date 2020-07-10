@@ -36,5 +36,5 @@ on github.
 
 Thank you to them and all others that have supported my work!
 
-[Render Engine](https://render-engine.site)
-[Transcriptor](https://pypi.org/project/transcriptor)
+[Render Engine]: https://render-engine.site
+[Transcriptor]: https://pypi.org/project/transcriptor
