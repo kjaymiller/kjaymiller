@@ -21,7 +21,7 @@ jobs:
       - name: Install Requirements
         run: pip install -r ./requirements.txt
 
-      - name: Update Readme
+      - name: Generate new website
         run: python run.py
 
       - name: load to github
