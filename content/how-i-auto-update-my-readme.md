@@ -90,7 +90,7 @@ Path('./README.md').write_text(
 I'm not the best at Github Actions. Luckily for me, this action was super
 simple to setup. 
 
-You can look at the [.yml file] I'm not going to talk about the setup of this
+You can look at the [.yml file](https://github.com/kjaymiller/kjaymiller/blob/master/.github/workflows/latest_post_readme.yml) I'm not going to talk about the setup of this
 because most of it is prep stuff. Here's the important bit.
 
 ```yaml
