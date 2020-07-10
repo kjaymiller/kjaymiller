@@ -9,11 +9,20 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Install Feedparser
+      - name: Checkout Main
         uses: actions/checkout@v2
 
       - name: Install Feedparser
-        run: pip install feedparser
+        run: pip install -U feedparser
 
       - name: Update Readme
         run: python3 ./.github/actions/update_readme.py
+
+      - name: load to github
+        run: |
+          git config user.name "Automated Publisher"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          timestamp=$(date -u)
+          git commit -m ":robot: Automated update README: ${timestamp}" || exit 0
+          git push
