@@ -10,10 +10,10 @@ jobs:
 
     steps:
       - name: Install Feedparser
-      - uses: actions/checkout@v2
+        uses: actions/checkout@v2
 
       - name: Install Feedparser
-      - run: pip install feedparser
+        run: pip install feedparser
 
       - name: Update Readme
-      - run: python3 ./.github/actions/update_readme.py
+        run: python3 ./.github/actions/update_readme.py
