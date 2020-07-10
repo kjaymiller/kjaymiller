@@ -8,10 +8,10 @@ With Render Engine, you work with classes that build from one another to create
 web-sites quickly that you can use for prototypes for full time use!
 
 #### Links
-- [website][Render Engine]
-- [pypi](https://pypi.org/project/render-engine)
+- [render-engine.site (website)][Render Engine]
+- [PyPI](https://pypi.org/project/render-engine)
 - [docs](https://render-engine.readthedocs.io)
-- [github](https://github.com/kjaymiller/render-engine)
+- [GitHub](https://github.com/kjaymiller/render-engine)
 
 ### [Transcriptor]
 [Transcriptor's] goal is to make working with machine-generated transcriptions
@@ -22,8 +22,8 @@ Currently Supported - AWS
 Future Support Planned - Google Cloud Services
 
 #### Links
-- [pypi][Transcriptor]
-- [github](https://github.com/kjaymiller/transcriptor)
+- [PyPI][Transcriptor]
+- [GitHub](https://github.com/kjaymiller/transcriptor)
 
 ## Sponsors
 This and much of the work that I do is made possible by those that sponsor me
