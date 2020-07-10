@@ -30,5 +30,6 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add -A
           timestamp=$(date -u)
+          git pull
           git commit -m ":robot: Automated New Blog Post: ${timestamp}" || exit 0
           git push
