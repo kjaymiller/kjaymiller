@@ -14,8 +14,8 @@
             {% endif %}
             <div class="hero-body">
               <h1 class="title is-2
-                          has-text-font-weight-semibold">{{title}}</h1>{% if
-                        link %}<a href="{{link}}">🔗</a>{% endif %}
+                          has-text-font-weight-semibold">{{title}}{% if
+                        link %}<a href="{{link}}">🔗</a>{% endif %}</h1>
               <div class="columns">
                 <p class="column is-narrow">
               {% if author %}
@@ -58,6 +58,12 @@
           <p class="content">If you see a way to make this better, you can
           submit a PR on the <a href="{{github}}">Github Page for this
             Article</a></p>
+        </div>
+        {% endif %}
+
+        {% if link %}
+        <div class="notification is-small">
+          <a href="{{link}}">{{link}}</a>
         </div>
         {% endif %}
         <section class="section">
