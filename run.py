@@ -15,8 +15,7 @@ HEADER_LINKS = (
     Link(name='Newsletter', url='/subscribe'),
     )
 
-mysite = Site(strict=True)
-mysite.timezone = 'US/Pacific'
+mysite = Site(strict=True, timezone='US/Pacific')
 mysite.SITE_TITLE = '(K) Jay Miller'
 mysite.SITE_URL = 'https://kjaymiller.com'
 mysite.AUTHOR = 'Jay Miller'
