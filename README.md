@@ -12,4 +12,4 @@ on github.
 ### Sponsors
 - [Brian Douglas](https://github.com/bdougie)
 - [Anthony Shaw](https://github.com/toneybaloney)
-- [Carol Willing](https://github.com/carolwilling)
+- [Carol Willing](https://github.com/willingc)
