@@ -2,7 +2,7 @@ Jay Miller is a software devleoper, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [The Disparity of Black Shootings in NYC](https://kjaymiller.com/the_disparity_of_black_shootings_in_nyc)**
+**Latest Post - [{{latest_post.title}}]({{latest_post.link}})**
 
 
 ## Active Projects
