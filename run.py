@@ -6,6 +6,7 @@ from render_engine.links import Link
 from render_engine.search import Fuse
 
 
+
 HEADER_LINKS = (
     Link(name='About', url='/about.html'),
     Link(name='Blog', url='/all_posts.html'),
@@ -15,6 +16,7 @@ HEADER_LINKS = (
     )
 
 mysite = Site(strict=True)
+mysite.timezone = 'US/Pacific'
 mysite.SITE_TITLE = '(K) Jay Miller'
 mysite.SITE_URL = 'https://kjaymiller.com'
 mysite.AUTHOR = 'Jay Miller'
