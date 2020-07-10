@@ -1,5 +1,7 @@
-Title: How I AutoUpdate My Github README using GitHub Actions in 10 Easy Steps
+Title: How I AutoUpdate My Github README using GitHub Actions in 5 Easy Steps
 date: 10 Jul 2020 15:16
+category: coding
+tags: github, github actions, python, automation
 
 A new phenominon in the developer space is now the 🌟_secret_🌟 README.md
 trick. If you have a repository with the EXACT (case-sensitive) name as your username, it will display the contents of that readme onto your GitHub profile.
