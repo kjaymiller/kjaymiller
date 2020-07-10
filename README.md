@@ -4,7 +4,7 @@ You can see what he's posting about at <https://kjaymiller.com>.
 
 **Latest Post - [The Disparity of Black Shootings in NYC](https://kjaymiller.com/the_disparity_of_black_shootings_in_nyc)**
 
-**Latest Productivity in Tech Podcast Episode - [PIT Reflection: Github Sponsors, Talking to Mentors, and Writing Docs](https://kjaymiller.com/the_disparity_of_black_shootings_in_nyc)**
+**Latest Productivity in Tech Podcast Episode - [PIT Reflection: Github Sponsors, Talking to Mentors, and Writing Docs](https://share.transistor.fm/s/e73edebb)**
 
 ## Active Projects
 
