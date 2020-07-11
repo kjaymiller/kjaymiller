@@ -34,7 +34,7 @@ copied my existing README.
 
 
 Starting out I wanted to show my latest blog post and my latest podcast episode
-from [Productivity in Tech Podcast]. We will create a python script that does
+from [Productivity in Tech Podcast](https://podcast.productivityiintech.com). We will create a python script that does
 this, but we needed to add the variables that Jinja2 would use for the dynamic
 data.
 
