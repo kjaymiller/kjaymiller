@@ -85,7 +85,7 @@ Path('./README.md').write_text(
         )
 ```
 
-## Step 5 Setup your Github Actions File
+## Step 5: Setup your Github Actions File
 
 I'm not the best at Github Actions. Luckily for me, this action was super
 simple to setup. 
