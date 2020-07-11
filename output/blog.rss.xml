@@ -2180,7 +2180,7 @@ link for the latest episode.</p>
         <span class="p">)</span>
 </code></pre></div>
 
-<h2>Step 5 Setup your Github Actions File</h2>
+<h2>Step 5: Setup your Github Actions File</h2>
 
 <p>I'm not the best at Github Actions. Luckily for me, this action was super
 simple to setup. </p>
