@@ -45,9 +45,10 @@ class Blog(Blog):
     routes = ['', '/blog']
     template = 'blog.html'
     archive_template = 'archive.html'
-    archive_slug = 'all_posts.html'
+    archive_slug = 'all_posts'
     content_path = 'content'
     subcollections = ['category', 'tags']
+    paginated = True
 
 @mysite.register_collection
 class MicroBlog(MicroBlog):
@@ -56,6 +57,7 @@ class MicroBlog(MicroBlog):
     template = 'blog.html'
     archive_template = 'microblog_archive.html'
     archive_slug = 'all_microblog_posts'
+    paginated = True
 
 @mysite.register_route
 class Index(Page):
@@ -65,8 +67,10 @@ class Index(Page):
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        self.microblog_posts = mysite.collections['MicroBlog'].archive.pages[:5]
-        self.blog_posts = mysite.collections['Blog'].archive.pages[:5]
+        # logging.warning(mysite.collections['MicroBlog'].archive[0])
+        # logging.warning(mysite.collections['Blog'].archive[0])
+        self.microblog_posts = mysite.collections['MicroBlog'].archive[0].pages[:5]
+        self.blog_posts = mysite.collections['Blog'].archive[0].pages[:5]
 
 @mysite.register_route
 class Categories(Page):
@@ -76,6 +80,7 @@ class Categories(Page):
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
+        # logging.warning(mysite.subcollections)
         self.list_section = mysite.subcollections['category']
 
 mysite.render(dry_run=False)

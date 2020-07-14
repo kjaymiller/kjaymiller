@@ -661,39 +661,19 @@ I
 
 Melanie 00:21:12:
 
-So I came to the python, meet up with this, you know, kind of baby idea. This python script, Um, and then someone was like, oh, built the Django
+So I came to the Python meet up with this, you know, kind of baby idea, this python script, Um, and then someone was like, oh, built the Django
 
 Melanie 00:21:22:
 
-and I was like,
-
-Melanie 00:21:24:
-
-all right, you know, like,
+and I was like, all right, you know, like,
 
 Melanie 00:21:26:
 
-and then it was just like months of being like I don't know what I'm doing
-
-Melanie 00:21:33:
-
-at all and just going home and, like, suffering through, you know, trying to go through this development process and figure it was going on like
+and then it was just like months of being like I don't know what I'm doing at all and just going home and, like, suffering through, you know, trying to go through this development process and figure it was going on like
 
 Melanie 00:21:43:
 
-I didn't know it at the time, and I do now. It's kind of both comforting and in theory, ating that, like hours, hours and hours, days, weeks of developers time are spent over, like
-
-Melanie 00:21:57:
-
-a semi colon in the wrong place. You know, like
-
-Melanie 00:22:02:
-
-just a single character, you know, or just this, these the tiniest thing. So, you know, I went to months of that and then
-
-Melanie 00:22:12:
-
-eventually got it. Somewhat working was very buggy at first. Um, it is still kind of bugging. Actually Had someone report above a couple weeks ago, and I I almost have it. Thanks, but, uh,
+I didn't know it at the time, and I do now. It's kind of both comforting and in infuriating that like hours, hours, and hours, days, weeks of developers time are spent over, like a semi colon in the wrong place. You know, like just a single character, you know, or just this, these the tiniest thing. So, you know, I went two months of that and then eventually got it somewhat working. It was very buggy at first. Um, it is still kind of bugging. Actually Had someone report above a couple weeks ago, and I I almost have it. Thanks, but, uh,
 
 Melanie 00:22:27:
 
@@ -705,7 +685,7 @@ We need bugs in life, I guess.
 
 Melanie 00:22:33:
 
-Yeah. I mean,
+Yeah. I mean...No.
 
 Melanie 00:22:36:
 
