@@ -2,7 +2,7 @@ title: PIT Podcast: A Surplus of Happy with Melanie C.
 date: 30 Jun 2020 08:00
 slug: pitpodcast-melaniec-2020
 category: Productivity in Tech Podcast
-tags: transcriptions, shownotes, podcast
+tags: transcriptions, shownotes
 github: https://github.com/kjaymiller/kjaymiller.com_flask/blob/master/content/melaniec-2020.md
 image: https://s3-us-west-2.amazonaws.com/kjaymiller/images/pitpodcast-hellomelaniec.png
 
