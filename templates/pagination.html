@@ -11,12 +11,12 @@
         {% for p in collections['Blog'].archive %}
           {% if p.page_index == page_index %}
             <li>
-              <a class="pagination-link is-current" aria-label="Page
+              <a href="{slug}_{page_index}" class="pagination-link is-current" aria-label="Page
                                                                   {{p.page_index}}">{{p.page_index}}</a>
             </li>
           {% else %}
             <li>
-              <a class="pagination-link" aria-label="Goto page
+              <a href="{slug}_{page_index}"class="pagination-link" aria-label="Goto page
                                                        {{p.page_index}}">{{p.page_index}}</a>
             </li>
           {% endif %}
