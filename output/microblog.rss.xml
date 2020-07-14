@@ -92,7 +92,8 @@ PT's Coffee - <a href="https://www.ptscoffee.com/collections/coffee/products/fla
 
 <link>https://kjaymiller.com/microblog/20206511280</link>
 <pubDate>Fri, 05 Jun 2020 11:28:00 -0700</pubDate><guid isPermaLink="false">20206511280</guid></item><item>
-  <description><![CDATA[<p>I've been working on the next feature for [Render Engine], Pagination.</p>
+  <description><![CDATA[<p>I've been working on the next feature for <a href="https://render-engine.site">Render
+Engine</a> – Pagination.</p>
 
 <p>I do think this will be the last feature for a while. I really need to update
 docs and tests. I ran into many issues with this one.</p>
