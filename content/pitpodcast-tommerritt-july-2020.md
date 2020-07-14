@@ -2,21 +2,21 @@ title: PIT Podcast: Effectively Doing a Lot with Tom Merritt
 slug: pitpodcast-tom-merrit-july-2020
 date: 14 Jul 2020 11:32
 category: Productivity in Tech Podcast
-tags: transcriptions, shownotes
+tags: transcriptions
 image: https://s3-us-west-2.amazonaws.com/kjaymiller/images/tommerritt-pitpodcast%20custom%20covers-v3.jpg
 github: https://github.com/kjaymiller/kjaymiller.com_flask/blob/master/content/pitpodcast-tommerritt-july2020.md
 
 <iframe width="100%" height="180" frameborder="no" scrolling="no" seamless src="https://share.transistor.fm/e/671c723f"></iframe>
 
-Transcription
+## Transcription
 
 Jay 00:00:20:
 
-What's up everybody? J. Miller here bringing another productivity's intact podcast. I hope that your day has been great, and I hope that the conversation that I'm about tohave will make it even better on the line with me Today I have the host of the I Don't know if it's the first, but it is definitely in the
+What's up everybody? Jay Miller here bringing another Productivity in Tech Podcast. I hope that your day has been great, and I hope that the conversation that I'm about tohave will make it even better on the line with me Today I have the host of the I Don't know if it's the first, but it is definitely in the
 
 Jay 00:00:42:
 
-1st 3 podcasts that I ever listened to. Um, Tom married. He is the host of the daily Take New show. He is also the co host work Insanity. Current Geek East Meets West. He is a published author of The Pilot X Series, the second book Trigger, Now available for digital download. And he is also a contributor to Tech Republic.
+1st 3 podcasts that I ever listened to. Tom Merritt. He is the host of the Daily Tech News Show. He is also the co host work Insanity. Current Geek East Meets West. He is a published author of The Pilot X Series, the second book Trigger, Now available for digital download. And he is also a contributor to Tech Republic.
 
 Jay 00:01:08:
 
