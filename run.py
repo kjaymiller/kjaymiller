@@ -9,7 +9,7 @@ from render_engine.search import Fuse
 
 HEADER_LINKS = (
     Link(name='About', url='/about.html'),
-    Link(name='Blog', url='/all_posts.html'),
+    Link(name='Blog', url='/all_posts_0.html'),
     Link(name='Projects', url='/projects.html'),
     Link(name='Resume', url='/static/files/Jay_Miller_-_Software_Engineer.pdf'),
     Link(name='Newsletter', url='/subscribe'),
