@@ -10,7 +10,7 @@
                                  1)}}" {% if
       page_index == pages_length - 1 %}disabled{% endif %}>Next Page</a>
       <ul class="pagination-list">
-        {% for p in collections['Blog'].archive %}
+        {% for p in collections[title].archive %}
           {% if p.page_index == page_index %}
             <li>
               <a href="{{p.slug}}" class="pagination-link is-current" aria-label="Page
