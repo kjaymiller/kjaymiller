@@ -2,9 +2,9 @@ Jay Miller is a software devleoper, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [How I AutoUpdate My Github README using GitHub Actions in 5 Easy Steps](https://kjaymiller.com/how_i_autoupdate_my_github_readme_using_github_actions_in_5_easy_steps)**
+**Latest Post - [I Was Selected as a Mentee for the First Podcast Mentorship Cohort](https://kjaymiller.com/podcast-mentorship-mentee)**
 
-**Latest Productivity in Tech Podcast Episode - [PIT Reflection: Github Sponsors, Talking to Mentors, and Writing Docs](https://share.transistor.fm/s/e73edebb)**
+**Latest Productivity in Tech Podcast Episode - [Effectively Doing a Lot with Tom Merritt](https://share.transistor.fm/s/671c723f)**
 
 ## Active Projects
 
