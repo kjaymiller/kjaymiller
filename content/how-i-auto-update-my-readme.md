@@ -34,7 +34,7 @@ copied my existing README.
 
 
 Starting out I wanted to show my latest blog post and my latest podcast episode
-from [Productivity in Tech Podcast]. We will create a python script that does
+from [Productivity in Tech Podcast](https://podcast.productivityiintech.com). We will create a python script that does
 this, but we needed to add the variables that Jinja2 would use for the dynamic
 data.
 
@@ -85,7 +85,7 @@ Path('./README.md').write_text(
         )
 ```
 
-## Step 5 Setup your Github Actions File
+## Step 5: Setup your Github Actions File
 
 I'm not the best at Github Actions. Luckily for me, this action was super
 simple to setup. 
