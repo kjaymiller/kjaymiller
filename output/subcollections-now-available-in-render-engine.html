@@ -16,7 +16,7 @@
 
     <title>
       
-      Quickly Set Your Environment with Bunch and Alfred - (K) Jay Miller
+      SubCollections now available in Render Engine - (K) Jay Miller
     </title>
   </head>
   <body class="has-navbar-fixed-top">
@@ -83,9 +83,13 @@
     <article>
         <section class="hero is-light">
             
+            <figure class="image banner">
+              <img src="https://s3-us-west-2.amazonaws.com/kjaymiller/images/render-engine-subcollections.png" class="featured_image">
+            </figure>
+            
             <div class="hero-body">
               <h1 class="title is-2
-                          has-text-font-weight-semibold">Quickly Set Your Environment with Bunch and Alfred</h1>
+                          has-text-font-weight-semibold">SubCollections now available in Render Engine</h1>
               <div class="columns">
                 <p class="column is-narrow">
               
@@ -93,7 +97,7 @@
               
               </p>
               <p class="column is-narrow">
-              Oct 01, 2019 11:00 AM
+              Jul 01, 2020 14:43 PM
               </p>
 
             </div>
@@ -101,24 +105,18 @@
                 <nav class="navbar">
                   <div class="navbar-brand">
                   
+                  <p class="navbar-item"><strong>Category: </strong><small
+                     class="tag is-dark">
+                    <a href="/Render Engine/all_posts">Render Engine</a>
+                  </small>
+                  </p>
+                  
                   
                     <p class="navbar-item">
                     <strong>Tags: </strong>
                     
                     <small class="tag is-gray-lighter is-small">
-                      <a ref="/brett terpstra/all_posts">brett terpstra</a>
-                    </small>
-                    
-                    <small class="tag is-gray-lighter is-small">
-                      <a ref="/bunch/all_posts">bunch</a>
-                    </small>
-                    
-                    <small class="tag is-gray-lighter is-small">
-                      <a ref="/alfred/all_posts">alfred</a>
-                    </small>
-                    
-                    <small class="tag is-gray-lighter is-small">
-                      <a ref="/workflow/all_posts">workflow</a>
+                      <a ref="/update/all_posts">update</a>
                     </small>
                     
                     </p>
@@ -132,32 +130,16 @@
         
         <section class="section">
           <div class="content">
-            <p><a href="https://brettterpstra.com/projects/bunch/">Bunch</a> is an environment setup/teardown tool by the <a href="https://productivityintech.transistor.fm/episodes/podcast-ground-surfing-with-brett-terpstra">mad genius and yoga maestro of the internet</a> Brett Terpstra.</p>
+            **Version Update: 2020.07.02**
+I&#39;m happy to announce that subcollections are now supported in render_engine
 
-<p>Bunch uses small configuration files to quickly manipulate your desktop environment. </p>
+![subcollection-code](https://s3-us-west-2.amazonaws.com/kjaymiller/images/render-engine-subcollections.png)
 
-<p>With it you can:</p>
+**SubCollections** create a new collection from pages that has the specified value. SubCollections are of the same type as their parent so if you are using a `Blog` object , you will get access to feeds natively for each SubCollection.
 
-<ul>
-<li>Open/Close/Focus Applications, Files, and URLs</li>
-<li>Run shell and Applescript scripts to expand the functionality event more</li>
-</ul>
+### Other Minor Updates Include
 
-<p>Because I prefer to keep my hands on the keyboard and the Application's main method of use is the Dock, I opted to take advantage of Bunch's URL-Scheme. </p>
-
-<pre><code>x-bunch://open?bunch=[Bunch Name]
-</code></pre>
-
-<p>This plus smart use of the <a href="https://www.alfredapp.com/help/workflows/inputs/file-filter/"><em>File Filter</em></a> in Alfred's workflow feature allowed me to quickly setup an <a href="https://github.com/kjaymiller/Bunch_Alfred">Alfred Workflow</a> that not only lets you run your bunches but also lets you:</p>
-
-<ul>
-<li>Display the Config File of the Bunch.</li>
-<li>Edit the Bunch in your default application.</li>
-<li>Refresh your Bunches (After making a change)</li>
-</ul>
-
-<p>The workflow is available on <a href="http://www.packal.org/workflow/bunch-quick-launch">Packal</a> to modify via my <a href="https://github.com/kjaymiller/Bunch_Alfred">Github Repo</a></p>
- 
+- access to all collections and subcollections throughout the entire site template - e.g. `{% for page in collections[&#39;blog&#39;].pages %}` or `{{subcollections[&#39;category&#39;]}}` 
           </div>
         </section>
       </article>

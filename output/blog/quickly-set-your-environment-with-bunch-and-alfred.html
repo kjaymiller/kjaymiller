@@ -16,7 +16,7 @@
 
     <title>
       
-      Announcing Transcriptor - (K) Jay Miller
+      Quickly Set Your Environment with Bunch and Alfred - (K) Jay Miller
     </title>
   </head>
   <body class="has-navbar-fixed-top">
@@ -85,7 +85,7 @@
             
             <div class="hero-body">
               <h1 class="title is-2
-                          has-text-font-weight-semibold">Announcing Transcriptor</h1>
+                          has-text-font-weight-semibold">Quickly Set Your Environment with Bunch and Alfred</h1>
               <div class="columns">
                 <p class="column is-narrow">
               
@@ -93,7 +93,7 @@
               
               </p>
               <p class="column is-narrow">
-              May 25, 2020 22:32 PM
+              Oct 01, 2019 11:00 AM
               </p>
 
             </div>
@@ -101,18 +101,24 @@
                 <nav class="navbar">
                   <div class="navbar-brand">
                   
-                  <p class="navbar-item"><strong>Category: </strong><small
-                     class="tag is-dark">
-                    <a href="/programming/all_posts">programming</a>
-                  </small>
-                  </p>
-                  
                   
                     <p class="navbar-item">
                     <strong>Tags: </strong>
                     
                     <small class="tag is-gray-lighter is-small">
-                      <a ref="/transcriptor/all_posts">transcriptor</a>
+                      <a ref="/brett terpstra/all_posts">brett terpstra</a>
+                    </small>
+                    
+                    <small class="tag is-gray-lighter is-small">
+                      <a ref="/bunch/all_posts">bunch</a>
+                    </small>
+                    
+                    <small class="tag is-gray-lighter is-small">
+                      <a ref="/alfred/all_posts">alfred</a>
+                    </small>
+                    
+                    <small class="tag is-gray-lighter is-small">
+                      <a ref="/workflow/all_posts">workflow</a>
                     </small>
                     
                     </p>
@@ -126,24 +132,33 @@
         
         <section class="section">
           <div class="content">
-            <h2>This was the launch month for [Transcriptor]. This is a helper package that I use for doing transcriptions for PIT Clients.</h2>
+            [Bunch](https://brettterpstra.com/projects/bunch/) is an environment setup/teardown tool by the [mad genius and yoga maestro of the internet][0] Brett Terpstra.
 
-<p>Transcriptions can be accomplished in a plethora of ways, but in order to do it, you need to have a good idea of how to work with the results from your transcription engine. While I usually use <a href="https://aws.amazon.com/transcribe/">Amazon Transcribe</a>, I have used <a href="https://cloud.google.com/speech-to-text/">Google Could Services Speech to Text</a> and I would love to look into the <a href="https://azure.microsoft.com/en-us/services/cognitive-services/speech-to-text/">Microsoft Azure</a> and <a href="https://wit.ai">Wit.Ai</a>. All of these systems use their own schema for your task and your results.</p>
+Bunch uses small configuration files to quickly manipulate your desktop environment. 
 
-<p>The goal of transcriptor is to create a single Job object that is responsible (currently) for handling the results in a consistent object-oriented way. By using it, I've been able to create some clarity in my coding projects for folks and reduced the amount of copying and pasting across the board.</p>
+With it you can:
 
-<p><strong>FAQ:</strong></p>
+* Open/Close/Focus Applications, Files, and URLs
+* Run shell and Applescript scripts to expand the functionality event more
 
-<ul>
-<li><em>Can you use it?</em> <strong>At your own risk, sure.</strong></li>
-<li><em>Is it documented?</em> <strong>Not Yet</strong></li>
-<li><em>Is it stable?</em> <strong>I wouldn't say that...</strong></li>
-<li><em>Is it open source?</em> <strong>Of course it is!</strong></li>
-<li><em>Am I accepting contributions</em> </li>
-</ul>
+Because I prefer to keep my hands on the keyboard and the Application&#39;s main method of use is the Dock, I opted to take advantage of Bunch&#39;s URL-Scheme. 
 
-<p>I am accepting testing and documentation PRs, I'm also looking at incoming issues and If you have a fix (Not a Feature Request), I will accept after testing and reviews.</p>
- 
+```
+x-bunch://open?bunch=[Bunch Name]
+```
+
+This plus smart use of the [_File Filter_][1] in Alfred&#39;s workflow feature allowed me to quickly setup an [Alfred Workflow][2] that not only lets you run your bunches but also lets you:
+
+* Display the Config File of the Bunch.
+* Edit the Bunch in your default application.
+* Refresh your Bunches (After making a change)
+
+The workflow is available on [Packal][3] to modify via my [Github Repo][2]
+
+[0]: https://productivityintech.transistor.fm/episodes/podcast-ground-surfing-with-brett-terpstra
+[1]: https://www.alfredapp.com/help/workflows/inputs/file-filter/
+[2]: https://github.com/kjaymiller/Bunch_Alfred
+[3]: http://www.packal.org/workflow/bunch-quick-launch 
           </div>
         </section>
       </article>
