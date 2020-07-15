@@ -7,42 +7,1392 @@
     <atom:link href="https://kjaymiller.com/blog.rss.xml" rel="self" type="application/rss+xml" />
 
 <item>
-<title>SubCollections now available in Render Engine</title>  <description><![CDATA[**Version Update: 2020.07.02**
-I&#39;m happy to announce that subcollections are now supported in render_engine
+<title>Announcing The PIT Podcast 2020 Season!</title>  <description><![CDATA[I&#39;m happy to announce that the Productivity in Tech Podcast is back in action!
 
-![subcollection-code](https://s3-us-west-2.amazonaws.com/kjaymiller/images/render-engine-subcollections.png)
+![pit-logo](https://kjaymiller.s3-us-west-2.amazonaws.com/images/pit-v3-podcast.jpg)
 
-**SubCollections** create a new collection from pages that has the specified value. SubCollections are of the same type as their parent so if you are using a `Blog` object , you will get access to feeds natively for each SubCollection.
+I was close to not publishing but I changed my mind after being scheduled to appear on two different podcasts. 
 
-### Other Minor Updates Include
+This Season (known as the 2020 Season) will be all about Me and My projects and productivity. 
 
-- access to all collections and subcollections throughout the entire site template - e.g. `{% for page in collections[&#39;blog&#39;].pages %}` or `{{subcollections[&#39;category&#39;]}}`]]></description>
+The [first episode][episode-link] is out and you can listen on my [transistor page][episode-link] or in your podcast player.
 
-<link>https://kjaymiller.com/subcollections-now-available-in-render-engine</link>
-<pubDate>Wed, 01 Jul 2020 14:43:00 -0700</pubDate><guid isPermaLink="false">subcollections-now-available-in-render-engine</guid></item><item>
-<title>January 2019 Bullet Journal Recap</title>  <description><![CDATA[Late last year I made the decision to go full time analog productivity. To me this was a return to my _Midori Traveller&#39;s Notebook_ and less reliability on mobile applications to keep track of things. 
+[episode-link]: https://podcast.productivityintech.com/s2020/1]]></description>
 
-With January being a new year I thought it would be a great time to really do my best and dig in on this process. I didn&#39;t realize that I was going to be extremely busy with things and that my notebook would be crucial in keeping my sanity. 
+<link>https://kjaymiller.com/pitpodcast-2020-begins</link>
+<pubDate>Tue, 18 Feb 2020 23:51:00 -0800</pubDate><guid isPermaLink="false">pitpodcast-2020-begins</guid></item><item>
+<title>App Camp 4 Girls and App Launch Map (with a move in the middle) w/ Aleen Simms</title>  <description><![CDATA[[App Camp 4 Girls](https://appcamp4girls.com/)**  
+**[App Launch Map](https://applaunchmap.com/)  
+**Some (Other) things we mentioned.**
 
-### What went well
-Since I&#39;ve been reading [_The Bullet Journal Method_][bullet journal] by Ryder Carrol, I really wanted to make things very simple. This meant reducing the amount of things that I tracked. I had previously tried to keep up with logging my food, how many times I fell into a tunnel of distraction, my water intake, and many other things. No more of that. 
+  * [The weekly review - Jean MacDonald (Co-founder of App Camp for girls)](https://theweeklyreview.fm/)
+  * [Notion](https://www.notion.so/)
+  * [Full focus planner](https://fullfocusplanner.com/)
+**Follow Aleen**
 
-This time I wrote down all the things I wanted to track and in _Marie Kondo_ style, and tried to reduce the list to only things that were &#34;essential&#34; to the art of bullet journaling and things that I knew I wanted to make a habit of. 
+  * [AleenMean.com](https://aleenmean.com/)
+  * [@Aleen - Twitter](https://twitter.com/aleen)
+**  
+Support Productivity in Tech and Get Access to the Aftershow!  
+**Become a [PIT Premium Member](https://productivityintech.com/memberships) ($10/month/$100/year)**  
+**  
+Join our new [Discourse](https://discourse.productivityintech.com/) and Tell us your thoughts!  
+  
 
-With the rebirth of the [Productivity in Tech Podcast][pitpodcast] and the creation of [Ask a Brit][aab] I wanted to make sure that I was publishing consistently. I also wanted to track how often I coded and read, two things that I tended to rely on momentum to be consistent with.
 
-Another big convept that helped me more than I thought it would was the idea behind threading. This was simply adding an arrow to the left followed by the page number of the continued thought. Also I add an arrow to the right and the page number for the next page I take the thought to. This makes it rather easy to add reference to items, which allows me to retrive information faster (and fill out my index, which I am terrible about).  
+**[★ Support this podcast by donating ★](Https://ko-fi.com/jayandjaymedia)**]]></description>
 
-### What didn&#39;t go so well
-There is still one area that I haven&#39;t fully is my management of a calendar. I had some big dates to remember for this year and I wasn&#39;t quite sure how to manage it with more and more going into my notebook. My podcast schedule is completely digital as it is tracked using calendly, google calendar, and Notion. Hopefully Notion will provide some kind of integration with G-Suite so that I don&#39;t have to manage this in multiple places. While I could just keep everything in my google calendar, I really don&#39;t rely on it as much as you think, but I haven&#39;t gotten into the habit of transferring items into my Analog calendar. This caused for some double-scheduling that could have been easily avoided. 
+<link>https://kjaymiller.com/pitpod-aleen</link>
+<pubDate>Mon, 11 Mar 2019 08:00:00 -0700</pubDate><guid isPermaLink="false">pitpod-aleen</guid></item><item>
+<title>Quick Productivity Tip - The Upcoming Family Agenda</title>  <description><![CDATA[I&#39;ve recently been doing weekly reviews with my wife (GTD addicts calm down, not that kind of review). Mostly we just cover my schedule and plan our meals for the week. This has been amazing for us as it gets us on the same page and eliminates any last minute decisions. 
 
-Another failed experiment was abandoning the daily spread for a weekly theme. I quickly have to revert to this as I would have things that would stretch across several pages (and days) This meant that I was doing more unneccessary flipping through pages instead of just doing a daily review and transfer of information that helped me to prepare myself through the day. 
+Also, I&#39;m not always thinking about what my wife has on her schedule. So this allows me to check the _Family Calendar_ and make sure that anything that will impact the family or our routine is on there. I also put our weekly meal plan in OmniFocus with the tag: _Dinner_.
 
-### My thoughts going into February
-February is going to be a test on consistency for me. I&#39;ve proven that I can work from my notebook like I used to. As this trust has returned, I can continue to focus on adding more and more content and collections into it. I also think my current notebook will fill up in the middle of the month which will bring about a migration which I will definitely talk about at that time.]]></description>
+![screenshot of dinner](https://kjaymiller.s3-us-west-2.amazonaws.com/images/CleanShot-2020-05-25-at-22.50.08.png)]]></description>
 
-<link>https://kjaymiller.com/january-2019-bullet-journal-recap</link>
-<pubDate>Fri, 01 Feb 2019 16:00:00 -0800</pubDate><guid isPermaLink="false">january-2019-bullet-journal-recap</guid></item><item>
+<link>https://kjaymiller.com/qtp-family-agenda</link>
+<pubDate>Mon, 25 May 2020 22:59:00 -0700</pubDate><guid isPermaLink="false">qtp-family-agenda</guid></item><item>
+<title>How Can White People Help Black People. What is the Real Problem</title>  <description><![CDATA[The following is an excerpt from a personal conversation I had.
+
+Not to be the Subject matter black guy or anything but a couple of years of research and several years of living has taught me this:
+
+1. Black communities are considered dangerous because of generalizations and scare tactics. Not every black neighborhood is the same depiction of South Central LA and most neighborhoods are so gentrified that black people can&#39;t afford to live in their communities anymore.
+2. There are extreme wage and education disparities between black and white families. Something to the tune of about $150,000.
+3. We can&#39;t blame &#34;fathers not being in the homes&#34;. Black fathers are more likely to attend family functions and are likely to stay married longer than their white counterparts.
+4. White Americans don&#39;t know this, because the only glimpse of Black America is what they see on TV in the news or what they&#39;ve been told for generations.
+
+That&#39;s it.
+
+My thought is if you can fix number 2. Then you can improve the these &#34;Dangerous&#34; communities and ultimately destroy the PR stunt that has been hurting black folks for the last couple hundred years
+
+### How Do You Fix Number 2?
+
+Make education accessible (cheaper) or you make it less important.
+
+As someone with over a decade of experience in the tech space. I was able to do that because someone gave me a chance and I proved them right.
+
+My chance came from my experience in the Armed Forces. That is not something that all people of color will have.
+
+I will put it clearly...
+
+**HIRE MORE PEOPLE OF COLOR AND PAY ALL PEOPLE BASED ON PROVEN EXPERIENCE, NOT EDUCATION.**
+
+It won&#39;t solve the problems tomorrow (That&#39;s for legislation and representation in our government to do.) But it will do something to reduce the wage gap in America. It will make our communities better and more affluent (and reduce crime).
+
+&gt; &#34;_We can&#39;t pull ourselves up by our bootstraps if we can&#39;t afford boots._&#34; - Someone that at one point couldn&#39;t afford boots.]]></description>
+
+<link>https://kjaymiller.com/helping-black-people</link>
+<pubDate>Thu, 04 Jun 2020 08:58:00 -0700</pubDate><guid isPermaLink="false">helping-black-people</guid></item><item>
+<title>[Podcast] Ask a Brit Ep 4: I don&#39;t know who that is!</title>  <description><![CDATA[In this episode, I ask Jamie if the UK is still the beacon of world pop culture?]]></description>
+
+<link>https://kjaymiller.com/podcast-ask-a-brit-ep-4-i-don-t-know-who-that-is</link>
+<pubDate>Mon, 28 Jan 2019 20:00:00 -0800</pubDate><guid isPermaLink="false">podcast-ask-a-brit-ep-4-i-don-t-know-who-that-is</guid></item><item>
+<title>How I AutoUpdate My Github README using GitHub Actions in 5 Easy Steps</title>  <description><![CDATA[A new phenominon in the developer space is now the 🌟_secret_🌟 README.md
+trick. If you have a repository with the EXACT (case-sensitive) name as your username, it will display the contents of that readme onto your GitHub profile.
+
+Some folks have done really cool things with it, including setting up your own
+Myspace-esque top8 (including Tom!).
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Check it out. I made MySpace but on &lt;a href=&#34;https://twitter.com/github?ref_src=twsrc%5Etfw&#34;&gt;@github&lt;/a&gt;.&lt;a href=&#34;https://t.co/p4DWP4DxRR&#34;&gt;https://t.co/p4DWP4DxRR&lt;/a&gt; - My list is power by a GitHub Action workflow 😏 &lt;a href=&#34;https://t.co/PN80mFCqOE&#34;&gt;pic.twitter.com/PN80mFCqOE&lt;/a&gt;&lt;/p&gt;&amp;mdash; Brian Douglas (@bdougieYO) &lt;a href=&#34;https://twitter.com/bdougieYO/status/1281699715466199040?ref_src=twsrc%5Etfw&#34;&gt;July 10, 2020&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+Inspired by [Simon Willison&#39;s](https://simonwillison.net/2020/Jul/10/self-updating-profile-readme/) amazing self-updating profile, I wanted to do something similar.
+
+Armed with the power of python (_and anime on my side_), I setout to do something similar. This is a look at the first steps of me automating my Github Profile.
+
+### Step 1: Rename the repo my website to a repo named after my GitHub username
+
+This is easy enough. Just rename the repo (in Github) to your username.
+Remember this has to be exact and it is case-sensitive.
+
+You can do this in the settings menu of your repo. You don&#39;t have to change the
+directory names or anything like that on a local machine. (I&#39;m not sure if you
+are using a Git Client other than the cli).
+
+### Step 2: Create a copy of your existing readme as a template
+
+My goal was to create my README using a Jinja2 and Github Actions. For that I
+would need a template to render. So since most of the data was the same I just
+copied my existing README.
+
+### Step 3: Add Dynamic Content using Jinja2 Variables
+
+
+Starting out I wanted to show my latest blog post and my latest podcast episode
+from [Productivity in Tech Podcast](https://podcast.productivityiintech.com). We will create a python script that does
+this, but we needed to add the variables that Jinja2 would use for the dynamic
+data.
+
+You could do something like a search and replace, but I feel like just
+rendering a template is much easier to edit and understand. Also, the compute
+time for Github Actions is free and this doesn&#39;t need to be the most
+performance conscious program. Also I like Jinja2, so there is also that 🙃.
+
+```markdown
+# From README_template.md
+
+You can see what he&#39;s posting about at &lt;https://kjaymiller.com&gt;.
+
+**Latest Post - [{{latest_post.title}}]({{latest_post.link}})**
+
+**Latest Productivity in Tech Podcast Episode - [{{latest_podcast_post.title}}]({{latest_podcast_post.link}})**
+
+## Active Projects
+```
+
+### Step 4: Build your script to get the data and write the up to date README.md
+
+This script is pretty simple once you know what you&#39;re looking for. I&#39;m using
+the feedparser plugin to parse the rss feeds and then returning the title and
+link for the latest episode.
+
+```python
+def get_latest_post(rss_feed):
+    f = feedparser.parse(rss_feed)
+    latest_post = sorted(f[&#39;entries&#39;], key=lambda x:x[&#39;published_parsed&#39;])[-1]
+    return {
+            &#39;title&#39;: latest_post[&#39;title&#39;],
+            &#39;link&#39;: latest_post[&#39;link&#39;],
+            }
+```
+
+Then you set the template to the text of your template file.
+ then write the rendered text to your README.
+
+```python
+# update readme
+template = Template(Path(&#39;./README_template.md&#39;).read_text())
+Path(&#39;./README.md&#39;).write_text(
+        template.render(
+            latest_post=get_latest_post(rss_feed),
+            latest_podcast_post=get_latest_post(podcast_url),
+            )
+        )
+```
+
+## Step 5: Setup your Github Actions File
+
+I&#39;m not the best at Github Actions. Luckily for me, this action was super
+simple to setup. 
+
+You can look at the [.yml file](https://github.com/kjaymiller/kjaymiller/blob/master/.github/workflows/latest_post_readme.yml) I&#39;m not going to talk about the setup of this
+because most of it is prep stuff. Here&#39;s the important bit.
+
+```yaml
+# in steps:
+- name: Install Feedparser &amp; Jinja2
+  run: pip install feedparser jinja2
+
+- name: Update Readme
+  run: python ./.github/actions/update_readme.py
+```
+
+Basically it&#39;s installing the things I need and then running the script (I
+saved the script in that folder, but you don&#39;t really have to as long as its in
+your repo).
+
+After that, you add some commands to update your repo and you&#39;re off to the
+races.
+
+I have mine setup to update on a github push in that repo, but in the future I
+will probably setup the file on a schedule to also update when I push something
+new (Future Post...Probably).
+
+[Productivity in Tech Podcast]: https://podcast.productivityintech.com]]></description>
+
+<link>https://kjaymiller.com/how-i-autoupdate-my-github-readme-using-github-actions-in-5-easy-steps</link>
+<pubDate>Fri, 10 Jul 2020 15:16:00 -0700</pubDate><guid isPermaLink="false">how-i-autoupdate-my-github-readme-using-github-actions-in-5-easy-steps</guid></item><item>
+<title>Can we fix this?</title>  <description><![CDATA[I have been mostly silent in this time, mostly as I needed time to think
+about what I would like to see come out of all this.
+
+## How to Fix Racism
+
+Racism is all over the world. Some places still believe in structural genocide. We are not saying that we are the only ones. We are just saying that for too long we&#39;ve been told one thing which is not true. That we are considered equal by those in power.
+
+I don&#39;t think that people can be systemically hindered for generations and
+become equal in about 75 years without radical assistance from those in power.
+Instead, through the aggressive policing, racist legislature, and unjust
+punishment those that have can keep theirs and those without are never
+able to gain any amount of legitimate growth.
+
+Force the sharing of wealth, give more opportunity to those that
+are disadvantaged. If you are already doing this, good, do more. The richest
+person of color in America is about 148 on the list of top 200 and he&#39;s the
+only one. Black people don&#39;t even have a seat at the table.
+
+If you complain that they didn&#39;t do anything to earn their wealth, most likely
+(considering wealth is usually generational), I would argue the same goes for
+you.
+
+## On Rioting
+
+In my lifetime I have been caught stealing. Simply put a white male some years my senior, broke into my house and my truck and stole from me.
+Furthermore, my landlord, amid nasty divorce chose to evict me
+from my apartment due to water damage from HIS FAULTY AC UNIT that I had asked
+to be repaired. He cited my broken stove (which was broken when I moved in) and
+the fact that I had (with his permission) painted the walls with chalk paint
+and had decorated it with friends as the reason. I decided to get my things back but instead of from them, I took
+them from the Walton Family (WALMART). I was arrested for shoplifting at the
+age of 17 for stealing a pair of gloves and some chapstick. I was put in a cop
+car over a pair of gloves and some chapstick.
+
+Meanwhile in Africa, where Western Education would tell you they are underdeveloped,
+uneducated and rely on our benevolence to survive which is simply untrue, you
+have pioneers and innovators that are making a difference in their local
+communities and in the world, many of these are women-led, like the Nation
+of Rwanda who has shortened the gender wage and job gap through strict
+government oversight after the crisis left many of their young men dead.
+
+It took massive amounts of violence to finally spark change. Our country is
+founded on this notion. We did not get what we want so we stole, and we
+murdered until we got it.
+
+We did this to the first peoples, we did it to the British, we did it to
+ourselves (see civil war).
+
+Now when we do it and we are labeled terrorists and have the leaders of our
+nation call us Terrorists.
+
+While I choose not to destroy the things that some have worked to build and
+maintain. I do not blame those that choose to. They are merely copying
+the example that has been set before them but the founders of our nation and those
+that murdered and looted us for years in white hoods and police badges while
+the rest of society looked away.
+
+## On The Legal System
+
+In regards to a racist system, it will be hard to say anything that people who
+have the potential to make a difference will respond to. So I&#39;ll just layout
+my wishes:
+
+* A federal mandate towards more stringent investigations when unarmed suspects are gunned down
+* More racial and gender diversity in police forces
+* Mandatory implicit bias checks and training
+* Harsher penalties for body cams not being properly charged or on when making
+  an arrest.
+* The elimination of the stand your ground and citizens arrest laws
+
+These ideas are mostly from conversations with folks that have asked me how
+they can best help. If you want to help, be an advocate and ally for those that
+can&#39;t advocate for themselves. Stand up for those that can&#39;t afford to stand up
+for themselves. Punish those that punish unjustly. And be willing to listen when we do speak up.]]></description>
+
+<link>https://kjaymiller.com/can-we-fix-this</link>
+<pubDate>Mon, 01 Jun 2020 08:17:00 -0700</pubDate><guid isPermaLink="false">can-we-fix-this</guid></item><item>
+<title>In Defense of the Black Multi-Potentialite</title>  <description><![CDATA[&gt; _Stay in Your Lane._ - NRA to Emergency Room Doctors
+
+
+&gt; _Shut up and Dribble._ - Laura Ingraham
+
+
+&gt; _Why does every black actor gotta rap some. I don&#39;t know. All I know is I&#39;m the best one._ - Donald Glover aka Childish Gambino.
+
+
+Some of us are born knowing what we will do. I have worked for family-owned companies where the son grew up in the warehouse learning what he could so that one day he would run the show.
+
+For many of us, the only family legacy is filled with gang involvement, drug dealing, and a life of violence.
+
+For me, it was a legacy of the military, but that was still something that I was not sold on. My military career came from being tired of living in self-placed poverty and the desire not to return to college. Still, my father was in the Army, my grandfather was in the Army, so I did what any respectable young man with a history of Army veterans would do. 
+
+I joined the Marine Corps.
+
+### But Why
+
+&gt; For what is a man, what has he got?
+
+&gt; If not himself, then he has naught
+
+&gt; To say the things he truly feels
+
+&gt; And not the words of one who kneels
+
+&gt; The record shows, I took the blows
+
+&gt; And did it my way - My Way, Frank Sinatra
+
+I have never wanted to do a thing because that is how it&#39;s been done. I&#39;ve never wanted to walk the path that was paved for me. 
+
+In my opinion, being told, &#34;I can&#39;t&#34; is the biggest motivator.
+
+When I was getting out of the military, I was told, I&#39;d never find a job (I got one). When I married young I was told I&#39;d regret it (No Regrets).
+
+In my first job, I was told to devote all my energy to the job... NO.
+
+### I do a lot.
+
+* I work a Day job.
+* I manage a [side business](https://productivityintech.com) helping people in tech with Marketing and Digital Content Production.
+* I [write code](https://github.com/kjaymiller).
+* I host a range of [podcasts](/projects) from tech to gaming.
+* I&#39;m a member of an Esports organization and [stream regularly](https://twitch.tv/kjaymiller).
+
+My _coding_ skills help me **automate** and **optimize** my day job.
+
+My _day job_ skills, challenge me to **think differently** and **shake up stale thought**.
+
+My _podcasting_ and _streaming_ skills gave me the ability to identify ways that **I could help my
+side-business clients** in **their** content-creating journey.
+
+They may not seem connected at first, but it is ALL the things I do that
+qualifies me to do what I do, how I do it. 
+
+I know it&#39;s a lot, but the people that inspired me, are the people that made careers doing the things they enjoyed and finding ways to connect the dots. 
+
+Donald Glover became one of the most influential black artists in America by combining his ability to act with an ability to direct and create amazing and thoughtful music.
+
+Janelle Monae has done something similar by not just making music but making a statement in her sound, and videos. Her message made her a clear choice for portraying one of Black America&#39;s most notable mathematicians, Mary Jackson.
+
+My child will grow up seeing me doing what I want and enjoying it, and maybe I will inspire her to do the same.]]></description>
+
+<link>https://kjaymiller.com/in-defense-of-the-black-multi-potentialite</link>
+<pubDate>Sat, 06 Jun 2020 22:24:00 -0700</pubDate><guid isPermaLink="false">in-defense-of-the-black-multi-potentialite</guid></item><item>
+<title>[PIT Podcast] Getting Real and Narrowing Scope</title>  <description><![CDATA[&lt;iframe width=&#34;100%&#34; height=&#34;180&#34; frameborder=&#34;no&#34; scrolling=&#34;no&#34; seamless src=&#34;https://share.transistor.fm/e/2d916493&#34;&gt;&lt;/iframe&gt;
+
+
+## Shownotes
+
+This is an important PIT Reflection. In it I do share a little productivity, but more importantly, I talk about some code decisions and ultimately what the future looks like for this podcast.
+
+
+### Links
+
+* [DEVONthink - DevonTechnologies](https://www.devontechnologies.com/apps/devonthink)
+* [Miro](https://miro.com)
+* [Nested Folders](https://nestedfolderspodcast.com)
+* [Company of One](https://amzn.to/30zxAE6) (Affiliate Link)
+* [Micro.Blog](https://micro.blog)
+* [Transcriptor - PyPI](https://pypi.org/project/transcriptor)
+* [Render-Engine - PyPI](https://pypi.org/project/render-engine)
+
+## Transcription
+
+00:00:18:
+
+What&#39;s up, everybody?
+
+00:00:19:
+
+Jay Miller here back with a solo PIT Reflection type thing for the first half of June 2020. this year has sucked royally.
+
+00:00:32:
+
+I don&#39;t even want to get into this. Um, all of the individual things that have happened in 2020 have just been nightmarish at best.
+
+00:00:46:
+
+So this is going to be more of a productivity&#39;s side thought exercise for me, and I hope that it will engage your mind a little bit as we sit down and talk.
+
+That said, it is gonna be a little bit off the head. I have some notes and I&#39;ll use those notes. But ultimately, I&#39;m just using them to riff off of.
+
+00:01:13:
+
+So let&#39;s start with a couple of things. First of all, productivity&#39;s in general. What am I doing, Productivity wise?
+
+Um, if you would have asked me this question yesterday, I would have told you something different. I am jumping back to the notebook. I go to the notebook like probably once a year. I&#39;m gonna try to do a full year.
+
+00:01:38:
+
+Don&#39;t at me. Don&#39;t challenge me. Don&#39;t do any of those things the way that I see it productivity tools, productivity, apps, productivity. All of those things should be used for you to do your best work. None of these tools should be considered a Bible or any type of gospel for you to breach or proselytize on others.
+
+00:02:06:
+
+In fact, I&#39;m not using this podcast to preach or proselytize my own productivity method. I am merely telling people how I am doing a thing in hopes that if someone else that is doing something similar here, is it that I might be able to inspire them to try something that works for them or for them to reach out to me and let me know of something that did work for them without any obligation to join the Church of Notion or Rome research or obsidian or all these other apps that said, Let&#39;s jump into this.
+
+00:02:51:
+
+What absolute using. Like I said, up until today, when I said, You know what, we need to get back on our analog light, our BuJo-esque system.
+
+00:03:03:
+
+I would have said I was using OmniFocus. Um, I think for right now I I don&#39;t really have too much stuff in OmniFocus. That will make it hard to transition.
+
+00:03:19:
+
+I wasn&#39;t really using OmniFocus as the power tool that most people use it as, um, it was simply a way for me to differ things so that I didn&#39;t have to look at him.
+
+Good thing is a notebook and a piece of paper kind of does the same thing. I just don&#39;t need to look at it now.
+
+00:03:39:
+
+One of the biggest apps that I have jumped on. Probably the biggest change in my workflow since leaving Evernote back in 2000 and what, 10? Yeah, I think 2010 was when I left Evernote or not.
+
+00:03:57:
+
+Didn&#39;t leave it like the company I stopped using.
+
+00:03:59:
+
+The application is the adoption of DEVONthink now, DEVONthink, is one of these tools that I think that a lot of people are intimidated by one.
+
+00:04:13:
+
+It&#39;s an expensive tool.
+
+00:04:15:
+
+I get that. Yeah, it&#39;s expensive.
+
+00:04:17:
+
+Oh, boy, A suspensive.
+
+It&#39;s like fountain pen money expensive.
+
+00:04:23:
+
+The thing I like about DEVONthink is I don&#39;t have to question where I put a thing.
+
+00:04:31:
+
+I deal with a lot of files between the day job, the side business and the other ambitions and inspirations that I have.
+
+00:04:42:
+
+So for me, it is important that when I&#39;m looking for a thing, I can find it with relative ease.
+
+00:04:51:
+
+DEVONthink allows me to do that.
+
+00:04:54:
+
+It does its job really well.
+
+00:04:58:
+
+And the thing that makes it different from, you know, another power tool that I use Drafts or Evernote or again, like a Notion or Rome Research kind of tool is that one.
+
+00:05:15:
+
+It beats all the cloud tools because it&#39;s designed to work with my local machine.
+
+00:05:21:
+
+So adding some order to my chaotic system.
+
+00:05:26:
+
+The other thing that it does is it make some connections and allows me to easily connect things that should be connected.
+
+00:05:39:
+
+And it allows me to look at different things from many different schools of thought, which isn&#39;t always the best way to do things.
+
+00:05:54:
+
+But when you need to, it is amazing.
+
+00:06:01:
+
+So again, I&#39;m not gonna go into too much detail about this.
+
+00:06:03:
+
+If you&#39;ve been looking at DEVONthink you&#39;d know all the stuff that I could talk about with it?
+
+00:06:09:
+
+Um, if you aren&#39;t looking into DEVONthink unless you just genuinely have a problem with maintaining lots and lots of files and documents and things like that over a long period of time.
+
+00:06:22:
+
+Or you&#39;re just fed up with Evernote as a whole and its inability to, um, not move like a giant green elephant in a china shop, you know, then I mean, give it a try.
+
+00:06:37:
+
+There&#39;s a free trial.
+
+00:06:38:
+
+Give it a shot.
+
+00:06:39:
+
+I mean, if you really want to talk about it, they have a forum.
+
+00:06:42:
+
+They have, um a lot of people that air again, much more avid users shout out to the Nested Folders podcast.
+
+00:06:50:
+
+They did a great to show seriess on how they both use. DEVONthink in their own systems.
+
+00:06:59:
+
+One, uh, uses it more of, ah, file cabinet, the other one more of ah ah, thought companion.
+
+00:07:10:
+
+But there&#39;s an app that I wanted to talk about a little bit from the business side, and this is after I haven&#39;t used a hun.
+
+00:07:23:
+
+But I&#39;ve used it.
+
+00:07:25:
+
+And when I have used it, it has had a really good effect.
+
+00:07:30:
+
+Uh, I used to do business meetings any type of any time I was doing, like a client consultation.
+
+00:07:36:
+
+I would use something like notion.
+
+00:07:39:
+
+Um, I&#39;m a firm believer in the idea of shared notes are better when you&#39;re able to collaborate on them.
+
+00:07:50:
+
+The one problem that I had with notion initially was that you know, you get us up in account, you got to give them access, they can watch, you do stuff, and that&#39;s cool.
+
+00:07:59:
+
+But ultimately, it doesn&#39;t feel as inviting for someone that&#39;s not a part of your team to come in and start working with you.
+
+00:08:07:
+
+And there was also, like the pricing question and things like that.
+
+00:08:10:
+
+But for the last couple of consultations that I&#39;ve had, I have used a tool called Miro. MIRO is an interesting little tool.
+
+00:08:22:
+
+It is basically a collaborative white board, and it&#39;s designed to be a collaborative white board. One of the things I like about is that it also gives you a section for your notes. It allows you to attach things. It allows you to collect a bunch of stuff under one umbrella.
+
+00:08:38:
+
+I mean, imagine having a giant whiteboard and being able to just have everybody writing on it and asking questions and commenting and doing things like that.
+
+00:08:49:
+
+I really like it, Um, especially for like a consultation type thing.
+
+00:08:57:
+
+I haven&#39;t used it at the premium level where they have stuff like of voice and video chat and stuff like that.
+
+00:09:06:
+
+I mean, just you zoom.
+
+00:09:08:
+
+Or I think in my last consultation call, I like, I think we just use facetime and then, as we were talking, you know, we&#39;re both adding stuff into it so that&#39;s cool by itself.
+
+00:09:21:
+
+But yeah, I mean, again, just this isn&#39;t an attempt to get people to try stuff.
+
+00:09:27:
+
+It&#39;s more of Ah, hey, here&#39;s something that if you haven&#39;t heard about it and it&#39;s something that it suits you, then sure, why not take a crack at it?
+
+00:09:34:
+
+It&#39;s not gonna be life changing for someone unless it is the exact thing that they&#39;re looking for.
+
+00:09:42:
+
+So we&#39;ve talked a little bit about the productivity side of things.
+
+00:09:47:
+
+Let&#39;s jump into the projects.
+
+00:09:51:
+
+Ah, but to do nothings really changed much on the project side of life.
+
+00:09:55:
+
+I mean, it is it&#39;s still basically render engine and transcript.
+
+00:09:59:
+
+Or for me, I do believe the last time we had a conversation like this transcriptor was still just a Django app now it is no longer Django app.
+
+00:10:09:
+
+It is a [python package](https://pypi.org/project/transcriptor/).
+
+00:10:13:
+
+Yes, but he s the best way to put it.
+
+00:10:16:
+
+At the end of the day, I realized that I don&#39;t want to build a SaaS app.
+
+00:10:21:
+
+I know that there are a bunch of people out there.
+
+00:10:23:
+
+They&#39;re like, &#34;Oh, yeah, SaaS applications!&#34;
+
+00:10:25:
+
+&#34;That&#39;s passive income and smart revenue.&#34;
+
+00:10:28:
+
+And there&#39;s a whole conversation to have about that.
+
+00:10:31:
+
+But that is not me.
+
+00:10:33:
+
+What I enjoy doing more than anything is helping people directly by me providing a service to them.
+
+00:10:41:
+
+Now I know that&#39;s not scalable.
+
+00:10:43:
+
+I understand that.
+
+00:10:45:
+
+I don&#39;t care.
+
+00:10:46:
+
+Um, there&#39;s a excellent book that I&#39;ve been reading on and off, you know, for the last who knows how long.
+
+00:10:52:
+
+Called _Company of One__ by Paul Jarvis.
+
+00:10:55:
+
+I think that there is an amazing idea and an amazing benefit to imposing a limit of scalability on yourself and on your company.
+
+00:11:09:
+
+And here&#39;s Here&#39;s what I mean, if I use pit transcriptor, as you know, we&#39;ll pick transcript of the Django app.
+
+00:11:17:
+
+It&#39;s a great tool that allows anybody to sign up for an account and start doing transcriptions and Ultimately, I&#39;m eating the cost, which means I&#39;m having to charge people memberships, which means I am now in the business of customer service.
+
+00:11:31:
+
+I&#39;m in the business of tech support, and I am in the business of having to explain to people why Amazon transcribe does some of the things that it does because of how it does it.
+
+00:11:44:
+
+And there are a lot of different things that Amazon transcribe Google Cloud Platform or Google Cloud Services and Microsoft Azure.
+
+00:11:54:
+
+All of these services do certain things because they have to in order to scale at the level that they want to scale.
+
+00:12:03:
+
+But what&#39;s the alternative here?
+
+00:12:07:
+
+I could build a system that allows me personally to do transcriptions at a rate that I can afford in that I could maintain and by providing it as a python package.
+
+00:12:22:
+
+There is a level of support that I&#39;m willing to give, but a lot of that is I can now define the scope of the application of the package that I&#39;m supporting.
+
+00:12:37:
+
+If I decide that the transcript or packages on Lee going to support AWS Transcribe, then okay, I have the ability to do that if I decide that transcriptor is not going to support custom vocabulary.
+
+00:13:03:
+
+I can do that if I and these are all things that I have chosen to do.
+
+00:13:13:
+
+If I decide that transcript is only going to focus on the resulted output of a transcription job and not the actual processing of the job itself, I conduce that.
+
+00:13:29:
+
+And by doing that, I narrow the scope that I am responsible for to my clients.
+
+00:13:38:
+
+I&#39;m Onley responsible for the actual job that they&#39;re paying me to do.
+
+00:13:47:
+
+They&#39;re not paying me to maintain a python packages or maintaining Meteo or they&#39;re paying me too.
+
+00:13:52:
+
+Provide them with a transcription.
+
+00:13:57:
+
+And the developers that are using the tool that I have built are I mean, they&#39;re not paying me at all, but they&#39;re relying on me, too.
+
+00:14:10:
+
+Provide a level of knowledge and service about the platform, or about the system that I have created all while while having the ability to take it and make it their own because it is an open source.
+
+00:14:25:
+
+A pack same thing with render engine render engine by default as a static side generator is designed to be very flexible, but because I&#39;m not selling static sites is a service.
+
+00:14:45:
+
+I&#39;m only providing a system for generating sites.
+
+00:14:52:
+
+That is a level of insight that I don&#39;t have to provide.
+
+00:14:56:
+
+I don&#39;t have to teach people proper SEO.
+
+00:14:59:
+
+I don&#39;t have to teach people proper CDN usage and compression of images and things like that.
+
+00:15:05:
+
+My system does not care about these things.
+
+00:15:09:
+
+It does not benefit them anyway.
+
+00:15:11:
+
+The only way that we were able to integrate sire like a search capability, like for those who don&#39;t know, one of the big achievements of he had this year for render engine is the integration in with a fuse dot Js, which is a static site search.
+
+00:15:30:
+
+Um, that&#39;s all done on the client side.
+
+00:15:34:
+
+Basically, you supply a JavaScript package with a JSON Output and you can search that file poor content.
+
+00:15:46:
+
+Now they&#39;re probably better ways to do it.
+
+00:15:50:
+
+I&#39;m sure you could offload that to another service, but my assumption is if you&#39;re building static sites, you have a certain thought about offloading stuff to third party service.
+
+00:16:07:
+
+Um, but, you know, part of my thought pattern was Do I want to support looter?
+
+00:16:14:
+
+Another static site search engine do I want to support, um, elastic search and do I want to support?
+
+00:16:23:
+
+You know, Al Gore, Uh, or out was What is it?
+
+00:16:28:
+
+Yeah, Al Gore as either Algora or Algoria.
+
+00:16:31:
+
+Something like that.
+
+00:16:31:
+
+I think it&#39;s Algora.
+
+00:16:33:
+
+And because I wasn&#39;t saying, &#34;Hey, everybody, here&#39;s a platform that, you know, you give me $10 a month and I host your static site.&#34;
+
+00:16:45:
+
+And there&#39;s nothing wrong with people that are doing that.
+
+00:16:47:
+
+You know, shout out to the whole micro.blog service and Manton Reese and Jene McDonald and the other people that are a part of making that a reality.
+
+00:16:56:
+
+Um, that&#39;s just not me.
+
+00:16:58:
+
+That&#39;s just not what I&#39;m aiming to do.
+
+00:17:01:
+
+I would much rather make sure stuff that I&#39;m doing is compatible with what they&#39;re doing.
+
+00:17:06:
+
+And they have really made that easy.
+
+00:17:07:
+
+So again, big shout out to them.
+
+00:17:12:
+
+So I guess in this rambling that is kind of my big take away in this whole conversation is there&#39;s something to say about the idea of controlling the scope of your projects, and that is something that I am learning more and more of as I get older and as I want to do more things while having more responsibilities is, I have to be able to control the scope of what I&#39;m doing.
+
+00:17:50:
+
+So the big pit question for you that I want to hear about, whether it&#39;s on Twitter or whether you want to email me at info it productivity in tech dot com is how are you controlling the scope of the things that you&#39;re doing?
+
+00:18:13:
+
+And furthermore, what can you do in order to begin controlling the scope of some things that might have gotten out of control?
+
+00:18:30:
+
+I&#39;m gonna leave it there because the last, you know, five minutes or so of this little podcast thing, it&#39;s going to be devoted to a little bit of, ah administration work here.
+
+00:18:45:
+
+So I&#39;ve been thinking more and more about Pitt as a community, as a group of people Maurin Mawr during this time with racial injustice and things like that happening.
+
+00:19:04:
+
+Have I not been more proud of the black community that I&#39;ve been a part of, you know, obviously from birth, but also the vocal community and the amount of ally ship that I have around me and that has made me want to value the people within that community.
+
+00:19:29:
+
+More and more now, I&#39;m still not sure how that involves pit, but what I have learned is that I want to be able to support of the things and the people that are doing amazing things more and more.
+
+00:19:50:
+
+And by doing that, I have to have the support of the community.
+
+00:19:55:
+
+So here is my I thought I would be willing toe have more conversations like this on a regular basis if there were some form of feedback one, there has to be feedback on it.
+
+00:20:23:
+
+I don&#39;t I don&#39;t mind shouting into the either, but the actual time it takes tow, edit and record this.
+
+00:20:29:
+
+And I mean, even the editing isn&#39;t much, but I cough a lot.
+
+00:20:32:
+
+I&#39;m an asthmatic.
+
+00:20:32:
+
+I&#39;m a chronic asthmatic.
+
+00:20:34:
+
+There&#39;s a lot of coughing that&#39;s involved in a lot of people.
+
+00:20:36:
+
+Sometimes here and then sometimes don&#39;t hear, depending on my mood.
+
+00:20:43:
+
+One.
+
+00:20:44:
+
+There&#39;s got to be feedback in the term and in actual like conversation.
+
+00:20:51:
+
+I&#39;m only sharing this stuff with you because I want to start a conversation.
+
+00:20:58:
+
+If there&#39;s no desire for a conversation to be had then I have no reason to continues speaking about it.
+
+00:21:10:
+
+The other side is it has to make sense from a time value perspective.
+
+00:21:18:
+
+As some may noticed, I have upped the transparency of me searching for, um, I want to say a job, but searching for a way to provide for my family?
+
+00:21:33:
+
+No, I have a job.
+
+00:21:36:
+
+I&#39;m not worried about getting fired today, at least, and pit is still growing.
+
+00:21:43:
+
+I mean, last year was the best year for pit, which I mean.
+
+00:21:47:
+
+Luckily, the company&#39;s only two years old, so you know, hopefully, hopefully we can continue moving in a positive direction.
+
+00:21:58:
+
+But the time that it takes to record this I&#39;m currently sitting at 22 minutes, 39 seconds.
+
+00:22:05:
+
+I think on the actual recording, it&#39;s like 22 minutes, five seconds, something like that.
+
+00:22:10:
+
+But I was working on a transcription before I started doing this, and I said, You know what?
+
+00:22:16:
+
+I really need to get that thing done.
+
+00:22:17:
+
+So if I&#39;m going to do more things like that, I need to make sure that I&#39;m not taking away time from my family without it making sense from a from a value perspective.
+
+00:22:37:
+
+So what does that mean?
+
+00:22:41:
+
+Does that mean there&#39;s gonna be a patri on?
+
+00:22:42:
+
+No.
+
+00:22:43:
+
+Does that mean there&#39;s gonna be ah member full or something like that?
+
+00:22:47:
+
+No, I don&#39;t know what it means at the moment.
+
+00:22:51:
+
+What I&#39;m looking for is one person.
+
+00:22:56:
+
+I&#39;m looking for a couple things.
+
+00:22:57:
+
+I&#39;m looking for two people to listen to this and tell me that they heard it.
+
+00:23:02:
+
+They enjoyed it or they heard it and they didn&#39;t enjoy it.
+
+00:23:05:
+
+And here&#39;s why.
+
+00:23:06:
+
+Or they heard it.
+
+00:23:06:
+
+And I&#39;m an idiot or whatever.
+
+00:23:09:
+
+The other thing I want to hear is someone say I have heard this.
+
+00:23:13:
+
+I appreciate it.
+
+00:23:15:
+
+It brought me value.
+
+00:23:17:
+
+And I want to, in some way, shape or form compensate you for the value that you&#39;ve put out.
+
+00:23:27:
+
+Now, if you feel like you can&#39;t afford that, by all means, I understand I&#39;m not even saying that you have to feel obligated to give me money.
+
+00:23:39:
+
+I am saying that if this truly brings value to you and you feel like you would be willing to do something to ensure that this value continued to happen, I need to know, because otherwise all I&#39;m doing is wasting my time and my energy putting something out there that no one&#39;s listening to now, the pit podcast as a whole.
+
+00:24:07:
+
+The interviews they will still happen because I enjoy.
+
+00:24:09:
+
+I enjoy the conversations.
+
+00:24:12:
+
+At the present time, I have five six interviews scheduled in like the next month.
+
+00:24:24:
+
+I can stretch those out for the remainder of the year, and that will be the entire pit season.
+
+00:24:30:
+
+Or I can release them on a bi weekly, maybe even weekly basis, like we used to back in the good old days.
+
+00:24:40:
+
+But I&#39;m not going to do that at the stake of my sanity, knowing that it&#39;s not going to make an impact in anyone&#39;s life or knowing that the people who are consuming it are just using.
+
+00:24:54:
+
+It is background noise.
+
+00:24:55:
+
+I cannot do that.
+
+00:24:57:
+
+So here&#39;s the promise that I&#39;m making today as I&#39;m recording this and this will be released is June 10th.
+
+00:25:05:
+
+If by June 20th we have one pledge to somehow pay for this service, you know, pay for this podcast, not even not even monetarily.
+
+00:25:21:
+
+Maybe it&#39;s just in terms of like, Hey, I promise that if you put in episode, I will retweet it and I will reply with a comment.
+
+00:25:30:
+
+I am okay with that being the currency.
+
+00:25:33:
+
+I love your money.
+
+00:25:34:
+
+But if you don&#39;t have it, I understand.
+
+00:25:37:
+
+Some of us just don&#39;t have it.
+
+00:25:40:
+
+And if I have two people that can just say Hey, you know what?
+
+00:25:44:
+
+I really enjoyed the conversation.
+
+00:25:45:
+
+I really enjoyed the thought piece.
+
+00:25:47:
+
+This is what I did like.
+
+00:25:48:
+
+This is what I didn&#39;t like.
+
+00:25:49:
+
+Maybe a little too much preaching at the end.
+
+00:25:53:
+
+Whatever it is.
+
+00:25:55:
+
+10 days.
+
+00:25:57:
+
+I will talk about this every single day.
+
+00:25:59:
+
+I will tweet it out every single day.
+
+00:26:01:
+
+I will give it my full up.
+
+00:26:03:
+
+Do a transcription for it.
+
+00:26:05:
+
+I will do everything possible to make sure that people hear this.
+
+00:26:13:
+
+And if again, two people tell me, Give me some feedback.
+
+00:26:19:
+
+One person pledges some type of either money or effort in terms of a currency.
+
+00:26:27:
+
+Then I will continue to do this and I will pledge to release the episodes that I&#39;m recording at a bi weekly basis.
+
+00:26:33:
+
+Starting out if we get more than that and I feel like I can truly start doing this on a weekly basis, then by all means, that&#39;s awesome.
+
+00:26:40:
+
+But if not, I have to think about the effort that I&#39;m putting in, and I have to think about the find that it&#39;s taking away from my family and things like that.
+
+00:26:54:
+
+I have no problem with it.
+
+00:26:55:
+
+My family has no problem with it, but ultimately we and by we I mean me.
+
+00:27:02:
+
+I I want to share this content with you, but I don&#39;t want it to fall on deaf ears, and I don&#39;t want it to just be background noise for someone&#39;s commute.
+
+00:27:12:
+
+I want to be something that they take in and that they value.
+
+00:27:15:
+
+So that&#39;s my pledge to you.
+
+00:27:16:
+
+Like I said, two pieces of feedback.
+
+00:27:18:
+
+One pledge.
+
+00:27:19:
+
+If you can make that happen, then the podcasts interviews will go on a biweekly schedule, and I will probably supplement the interviews with more thoughts like this, just less preachiness on the back end.
+
+00:27:31:
+
+But that&#39;s gonna do it for this week.
+
+00:27:33:
+
+I have been your, um, speaker and your hose J.
+
+00:27:39:
+
+Miller.
+
+00:27:39:
+
+If you want to reach out to me, there&#39;s a couple ways you can do it.
+
+00:27:43:
+
+You can A) hit me up on Twitter.
+
+00:27:45:
+
+I&#39;m [@kjaymiller](https://twitter.com/kjaymiller).
+
+00:27:48:
+
+You can B) email me at info at productivityintech dot com, or C) You could go to my website [kjaymiller.com](https://kjaymiller.com).
+
+00:27:57:
+
+Uh, there might be a contact button there.
+
+00:28:00:
+
+There might not be?
+
+00:28:01:
+
+No, actually.
+
+00:28:02:
+
+Now, you can&#39;t really do that when there&#39;s no contact button.
+
+00:28:04:
+
+I&#39;m also a microdot.
+
+00:28:05:
+
+Blawg at KJ.
+
+00:28:07:
+
+Why Miller, if you use microdot block instead of Twitter.
+
+00:28:10:
+
+But if you want to be invited into our privates like channel, I&#39;ll bet you.
+
+00:28:15:
+
+But if I like, If I like the cut of your jib, then sure, we&#39;ll bring you in.
+
+00:28:21:
+
+Um, once we have enough, people will start an open conversation about how we can make this work financially.
+
+00:28:31:
+
+I&#39;m open to doing more things like this, whether they&#39;re a live stream, whether we&#39;re having, like, voice, call, conversation, stuff or whatever.
+
+00:28:40:
+
+But more than anything, I just want to make sure that people are hearing this and that people are getting something out of it.
+
+00:28:46:
+
+But that&#39;s gonna do it for this time.
+
+00:28:49:
+
+I&#39;m Jay Miller.
+
+00:28:49:
+
+Thank you so much for listening.
+
+00:28:52:
+
+Uh, thank you to Nadir Omowale for the use of his music a &#34;hustler in spite of myself&#34; for the intro and outro music.
+
+00:28:59:
+
+And of course, I hope for the last 29 minutes and five seconds that we have been productive.
+
+00:29:06:
+
+Thank you so much.
+
+00:29:08:
+
+I will talk to you next time.]]></description>
+
+<link>https://kjaymiller.com/pit-podcast-getting-real-and-narrowing-scope</link>
+<pubDate>Thu, 11 Jun 2020 08:37:00 -0700</pubDate><guid isPermaLink="false">pit-podcast-getting-real-and-narrowing-scope</guid></item><item>
+<title>Quickly Set Your Environment with Bunch and Alfred</title>  <description><![CDATA[[Bunch](https://brettterpstra.com/projects/bunch/) is an environment setup/teardown tool by the [mad genius and yoga maestro of the internet][0] Brett Terpstra.
+
+Bunch uses small configuration files to quickly manipulate your desktop environment. 
+
+With it you can:
+
+* Open/Close/Focus Applications, Files, and URLs
+* Run shell and Applescript scripts to expand the functionality event more
+
+Because I prefer to keep my hands on the keyboard and the Application&#39;s main method of use is the Dock, I opted to take advantage of Bunch&#39;s URL-Scheme. 
+
+```
+x-bunch://open?bunch=[Bunch Name]
+```
+
+This plus smart use of the [_File Filter_][1] in Alfred&#39;s workflow feature allowed me to quickly setup an [Alfred Workflow][2] that not only lets you run your bunches but also lets you:
+
+* Display the Config File of the Bunch.
+* Edit the Bunch in your default application.
+* Refresh your Bunches (After making a change)
+
+The workflow is available on [Packal][3] to modify via my [Github Repo][2]
+
+[0]: https://productivityintech.transistor.fm/episodes/podcast-ground-surfing-with-brett-terpstra
+[1]: https://www.alfredapp.com/help/workflows/inputs/file-filter/
+[2]: https://github.com/kjaymiller/Bunch_Alfred
+[3]: http://www.packal.org/workflow/bunch-quick-launch]]></description>
+
+<link>https://kjaymiller.com/quickly-set-your-environment-with-bunch-and-alfred</link>
+<pubDate>Tue, 01 Oct 2019 11:00:00 -0700</pubDate><guid isPermaLink="false">quickly-set-your-environment-with-bunch-and-alfred</guid></item><item>
+<title>My Anxiety Makes Me Get Things Done</title>  <description><![CDATA[Recently I&#39;ve been on a tear with new podcasts, live streams, and communities.
+
+My secret is these are all _cries for help_. 
+
+Not in a life threatening way, but in the stuck in an axiety induced feedback loop. 
+
+![Questionable Content Comic by Jeph Jacques](https://questionablecontent.net/comics/3953.png)
+
+I&#39;ve learned over time that my compulsion tick when going through a period of high anxiety is to do more. There is also a level of tension that is created in the process. I tend to buck against authority. Forget about things that are of some importance. And be more _fatalistic_ and irrational towards things not going according to plan. 
+
+### Does this invalidate all of the things that I&#39;m Making?
+*HELL TO THE NAW NAW NAW*
+
+It just puts things into perspective. When I get anxious I build more things to distract me from the things that are causing the anxiety. These are usually things on my list of things I would like to do and I&#39;m more passionate about them in that time than I will ever be. 
+
+I will devote hours and hours to those things to avoid the things causing anxiety.
+
+### Why are you telling us this?
+I&#39;m telling you this to remind you that it is something that people deal with and often those people that are creative are using their creativity and entreprenuerial spirit as a way to mask a pain that is deep and often not fully understood. 
+
+It took me seeing a mental health professional and a level of medication before I became aware of this. I hope you will read this and think about that ambitious person in your life (other than me) and just check up on them. They may look like they are doing great on the inside, but they may also be asking for help. 
+
+**NOTE**:
+
+I understand that this seems super dark. Me writing about it helps tto analyze my thoughts and make sense of things.
+
+I can&#39;t say that I&#39;m 100% okay, but getting this out does help and helping more people to understand helps even more. 
+
+![](https://media2.giphy.com/media/5ArJanyCfxgiY/giphy.gif)]]></description>
+
+<link>https://kjaymiller.com/anxiety-based-gtd</link>
+<pubDate>Mon, 25 Mar 2019 10:42:00 -0700</pubDate><guid isPermaLink="false">anxiety-based-gtd</guid></item><item>
+<title>Announcing Transcriptor</title>  <description><![CDATA[## This was the launch month for [Transcriptor]. This is a helper package that I use for doing transcriptions for PIT Clients.
+
+Transcriptions can be accomplished in a plethora of ways, but in order to do it, you need to have a good idea of how to work with the results from your transcription engine. While I usually use [Amazon Transcribe](https://aws.amazon.com/transcribe/), I have used [Google Could Services Speech to Text](https://cloud.google.com/speech-to-text/) and I would love to look into the [Microsoft Azure](https://azure.microsoft.com/en-us/services/cognitive-services/speech-to-text/) and [Wit.Ai](https://wit.ai). All of these systems use their own schema for your task and your results.
+
+The goal of transcriptor is to create a single Job object that is responsible (currently) for handling the results in a consistent object-oriented way. By using it, I&#39;ve been able to create some clarity in my coding projects for folks and reduced the amount of copying and pasting across the board.
+
+**FAQ:**
+
+* _Can you use it?_ **At your own risk, sure.**
+* _Is it documented?_ **Not Yet**
+* _Is it stable?_ **I wouldn&#39;t say that...**
+* _Is it open source?_ **Of course it is!**
+* _Am I accepting contributions_ 
+ 
+I am accepting testing and documentation PRs, I&#39;m also looking at incoming issues and If you have a fix (Not a Feature Request), I will accept after testing and reviews.
+
+[Transcriptor]: https://pypi.org/project/transcriptor]]></description>
+
+<link>https://kjaymiller.com/announcing-transcriptor</link>
+<pubDate>Mon, 25 May 2020 22:32:00 -0700</pubDate><guid isPermaLink="false">announcing-transcriptor</guid></item><item>
 <title>PIT Podcast: A Surplus of Happy with Melanie C.</title>  <description><![CDATA[I had the privilege of meeting Melanie C. very early in my python career. She
 was work on what would be known as five up app and learning Django. In this
 episode we talk about some of the problems we face and how that has led
@@ -1850,1371 +3200,19 @@ Jay 00:56:49:
 
 <link>https://kjaymiller.com/pitpodcast-melaniec-2020</link>
 <pubDate>Tue, 30 Jun 2020 08:00:00 -0700</pubDate><guid isPermaLink="false">pitpodcast-melaniec-2020</guid></item><item>
-<title>Can we fix this?</title>  <description><![CDATA[I have been mostly silent in this time, mostly as I needed time to think
-about what I would like to see come out of all this.
+<title>SubCollections now available in Render Engine</title>  <description><![CDATA[**Version Update: 2020.07.02**
+I&#39;m happy to announce that subcollections are now supported in render_engine
 
-## How to Fix Racism
+![subcollection-code](https://s3-us-west-2.amazonaws.com/kjaymiller/images/render-engine-subcollections.png)
 
-Racism is all over the world. Some places still believe in structural genocide. We are not saying that we are the only ones. We are just saying that for too long we&#39;ve been told one thing which is not true. That we are considered equal by those in power.
+**SubCollections** create a new collection from pages that has the specified value. SubCollections are of the same type as their parent so if you are using a `Blog` object , you will get access to feeds natively for each SubCollection.
 
-I don&#39;t think that people can be systemically hindered for generations and
-become equal in about 75 years without radical assistance from those in power.
-Instead, through the aggressive policing, racist legislature, and unjust
-punishment those that have can keep theirs and those without are never
-able to gain any amount of legitimate growth.
+### Other Minor Updates Include
 
-Force the sharing of wealth, give more opportunity to those that
-are disadvantaged. If you are already doing this, good, do more. The richest
-person of color in America is about 148 on the list of top 200 and he&#39;s the
-only one. Black people don&#39;t even have a seat at the table.
+- access to all collections and subcollections throughout the entire site template - e.g. `{% for page in collections[&#39;blog&#39;].pages %}` or `{{subcollections[&#39;category&#39;]}}`]]></description>
 
-If you complain that they didn&#39;t do anything to earn their wealth, most likely
-(considering wealth is usually generational), I would argue the same goes for
-you.
-
-## On Rioting
-
-In my lifetime I have been caught stealing. Simply put a white male some years my senior, broke into my house and my truck and stole from me.
-Furthermore, my landlord, amid nasty divorce chose to evict me
-from my apartment due to water damage from HIS FAULTY AC UNIT that I had asked
-to be repaired. He cited my broken stove (which was broken when I moved in) and
-the fact that I had (with his permission) painted the walls with chalk paint
-and had decorated it with friends as the reason. I decided to get my things back but instead of from them, I took
-them from the Walton Family (WALMART). I was arrested for shoplifting at the
-age of 17 for stealing a pair of gloves and some chapstick. I was put in a cop
-car over a pair of gloves and some chapstick.
-
-Meanwhile in Africa, where Western Education would tell you they are underdeveloped,
-uneducated and rely on our benevolence to survive which is simply untrue, you
-have pioneers and innovators that are making a difference in their local
-communities and in the world, many of these are women-led, like the Nation
-of Rwanda who has shortened the gender wage and job gap through strict
-government oversight after the crisis left many of their young men dead.
-
-It took massive amounts of violence to finally spark change. Our country is
-founded on this notion. We did not get what we want so we stole, and we
-murdered until we got it.
-
-We did this to the first peoples, we did it to the British, we did it to
-ourselves (see civil war).
-
-Now when we do it and we are labeled terrorists and have the leaders of our
-nation call us Terrorists.
-
-While I choose not to destroy the things that some have worked to build and
-maintain. I do not blame those that choose to. They are merely copying
-the example that has been set before them but the founders of our nation and those
-that murdered and looted us for years in white hoods and police badges while
-the rest of society looked away.
-
-## On The Legal System
-
-In regards to a racist system, it will be hard to say anything that people who
-have the potential to make a difference will respond to. So I&#39;ll just layout
-my wishes:
-
-* A federal mandate towards more stringent investigations when unarmed suspects are gunned down
-* More racial and gender diversity in police forces
-* Mandatory implicit bias checks and training
-* Harsher penalties for body cams not being properly charged or on when making
-  an arrest.
-* The elimination of the stand your ground and citizens arrest laws
-
-These ideas are mostly from conversations with folks that have asked me how
-they can best help. If you want to help, be an advocate and ally for those that
-can&#39;t advocate for themselves. Stand up for those that can&#39;t afford to stand up
-for themselves. Punish those that punish unjustly. And be willing to listen when we do speak up.]]></description>
-
-<link>https://kjaymiller.com/can-we-fix-this</link>
-<pubDate>Mon, 01 Jun 2020 08:17:00 -0700</pubDate><guid isPermaLink="false">can-we-fix-this</guid></item><item>
-<title>May 2020 - Monthly Catchup</title>  <description><![CDATA[_This post is also available via my [Newsletter](https://buttondown.email/productivityintech)._
-
-# Monthly Catchup 
-
-Speaking of Ketchup, here are some [Artisan Ketchup Ideas](https://sharedappetite.com/recipes/10-creative-artisan-ketchup-flavors/).
-
-## Productivity in Tech Podcast
-
-This month on the [PIT Podcast] I interviewed my good internet friend [Christina Morrillo](https://twitter.com/divinetechygirl).
-
-[![pit podcast](https://s3-us-west-2.amazonaws.com/kjaymiller/images/pit-v3.jpg)][PIT Podcast]
-
-## The Biz
-Business has been good. I&#39;ll be talking about this in my [premium newsletter] where I break down how I run my business, the workflows the code, the everything (but the clients). 
-
-## Productivity
-&#34;_In these Troubled Times_&#34; 🤮
-
-Just Kidding. Times are Tough. It&#39;s been tough for me as well. I found out my mother had COVID-19. She has since recovered. That&#39;s all I&#39;ll say about that. 
-
-I&#39;ve been on the day job working from home. For those that don&#39;t know, my immune system is compromised from my time in the Marines. That said I cough enough to scare people into staying clear of me. I think that is going to be coming to an end soon, although I feel like I&#39;ve been more productive since.
-
-This Month, I purchased [DevonThink](https://devontechnologies.com/apps/devonthink). I don&#39;t love or hate using it, which gives me a confident feeling that I&#39;ll use it as a tool and not fiddle with it all that much. My current strategy is to just add things to it and then clean it up once a week/month/haven&#39;t really decided yet. I&#39;ve also looked at some of the other [DevonTechnologies](https://devontechnologies.com) Tools. I will have some quick thoughts maybe released as a blog post in the near future. I was even able to convince my friends on the [TekTok Podcast] to join me on it.
-
-![DevonThink](https://kjaymiller.s3-us-west-2.amazonaws.com/images/CleanShot-2020-05-25-at-23.34.03.png)
-
-## Posts
-
-- [Quick Productivity Tip - Walk and Talks](https://kjaymiller.com/quick_productivity_tip_-_walk_and_talks)
-- [Quick Productivity Tip - The Upcoming Family Agenda](https://kjaymiller.com/qtp-family-agenda)
-
-## Projects
-
-### Render Engine 
-* Made a few changes to clean up URL&#39;s. This was because once upon a time I would add links to my PIT Podcast titles to my [personal blog]
-* Fixed my RSS Feeds (Finally). They did change so if you are interested you can subscribe to them here or on my website.
-* Support for Categories and Tags
-
-### Transcriptor
-I launched Transcriptor this past month. Check out the [announcement post], to learn more. 
-
-### Episde-DL
-
-[Episode-DL](https://pypi.org/project/Episode-DL/) is just a little utility that I added to PyPI because I tend to need to download mp3&#39;s from RSS feeds all the time. This isn&#39;t some ground breaking tool and really just has three functions. All in all, this was just a way for me to remember how I do something that I don&#39;t have to do all the time, but I do enough that this helped.
-
-### Following Me
-You can reach me on Twitter, Micro.Blog, or My Website. You can also just reply to this email. I&#39;d love to hear from you.
-
-If you have an RSS Reader that you use. Consider Subscribing to my [Blog] or [Microblog].
-
-[personal blog]: https://kjaymiller.com/all_posts
-[Blog]: https://kjaymiller.com/blog.rss.xml
-[MicroBlog]: https://kjaymiller.com/microblog.rss.xml
-[Twitch]: https://twitch.tv/kjaymiller
-[PIT Podcast]: https://podcast.productivityintech.com/s2020/5
-[Transcriptor]: https://pypi.org/project/transcriptor
-[announcement post]: https://kjaymiller.com/announcing_transcriptor
-[TekTok Podcast]: https://www.tekside.net/tektok/2020/5/12/hl180iov0tpnl3rs0jlbu8q1efb0yu
-[premium newsletter]: https://buttondown.email/pitpremium]]></description>
-
-<link>https://kjaymiller.com/may-2020-monthly-catchup</link>
-<pubDate>Mon, 25 May 2020 23:40:00 -0700</pubDate><guid isPermaLink="false">may-2020-monthly-catchup</guid></item><item>
-<title>Friends have been my Greatest Asset!</title>  <description><![CDATA[I&#39;ve been letting folks know about my [coaching](https://productivityintech.com/coaching) and [editing](https://productivityintech.com/editing) services more and more these days. 
-
-It&#39;s been a slow progressing growth. This is a good thing as I still have a day job and wouldn&#39;t be able to handle a massive influx of clients, but 6 months into this being a full business, I&#39;ve learned something extremely valuable. 
-
-## Your best clients and promoters are the ones you&#39;ve been establishing a relationship with for a while.
-
-I&#39;ve had a handful of coaching clients. Many coaching leads. I&#39;ve also done some marketing services and some editing for folks as well. 
-
-100% of my clients are either someone I know and interact with on a regular basis **or** they were recommended by the aforementioned person.
-
-While I have received many leads and people promising to check out my services and get back to me. This seems to only happen when there is a relationship that has already been established.
-
-I know I&#39;m not telling you anything innovative here but I didn&#39;t realize the value of relationship building when it comes to finding clients. 
-
-## Ways to do this
-### 1.  Establish yourself as a Professional in the field and Connect with other professionals.
-
-![](https://kjaymiller.s3-us-west-2.amazonaws.com/images/adult-brainstorming-communication-1181421.jpg)
-&lt;small&gt;photo credit #wocintechchat&lt;/small&gt;
-
-One of the biggest networks that I have been able to tap into is working with other developers that have podcasts. We have a slack workspace that we all hang out in. It started out as just a handful of us but now there are over 50 people in there. 
-
-Each of them have their own reach and their own network. 
-I&#39;ve had them refer some of their audience to me when they are looking for a coaching client. 
-
-I&#39;ve also worked with a few of them as an editor when they need help with something. 
-
-### 2. Nurture Strong Relationships with the Noguchi Method
-Some relationships are easy to maintain and others are more of a chore. I like to treat my relationships similar to the [Noguchi Filing Method](https://unclutterer.com/2014/06/03/the-noguchi-filing-system/). 
-
-The Noguchi Filing Method is simple. When you take out a file. Move it to the top of the stack (or front of the line) When you put it back. 
-![](https://kjaymiller.s3-us-west-2.amazonaws.com/images/active-adult-beautiful-1799244.jpg)
-
-I do this in my head. The people that I just interacted with I try to interact with more. Over time you will connect with people that are receptive to maintaining a good relationship with you. Those will be the same people that will recommend you to potential clients or reach out to you if they have a need. 
-
-### 3. Don&#39;t be afraid to ask those that you know (nicely)
-I got my first client by sending the following message to about 50 of my podcasting friends.
-
-&gt; I&#39;ve been working to bring PIT back at the beginning of 2019 (I have some coding things that need to get done first)
-
-&gt; Also, PIT is now a business (officially). Aside from the podcast, I am doing content creation, coaching, and &#34;unicorn&#34; services.
-
-&gt; I was inspired by Kathy Campbell. My goal is to just help people where I can. 
-
-&gt; Here is a list of the services I provide.
-
-&gt; My skills include:
-&gt; - social media
-&gt; - recording videos and screencasts
-&gt; - podcast editing and recording
-&gt; - community management
-&gt; - newsletter publishing
-
-&gt; Do you have any ideas how I may be of any help?
- 
-&gt; Also if you know of anyone that I could help out with those things or individual or group productivity coaching, I would love an introduction.
- 
-Everyone that I sent this to kindly replied that they either couldn&#39;t help me, or they would keep an eye and ear out. 
-
-I didn&#39;t get upset I just said okay and continued to maintain a good relationship with them.
-
-One person did have a need and to this day they have been my most consistent and biggest client. They&#39;ve lead me to many other leads and clients that I&#39;ve received over time.
-
-The other thing about doing this that has been great is that now when I send out a message about some service I&#39;m offering, it is that group of people that often like and repost that message to their audience. 
-
-================
-
-None of these things are all that time intensive and none of them leave you with this _grimy_ feeling as if you are peddling to your friends. Your &#34;inner-circle&#34; doesn&#39;t want to see you fail. In fact, they will be your biggest fan. It&#39;s up to you to nurture those relationships and make sure that you let them know of ways that they can help.]]></description>
-
-<link>https://kjaymiller.com/friends-have-been-my-greatest-asset</link>
-<pubDate>Wed, 17 Apr 2019 09:24:00 -0700</pubDate><guid isPermaLink="false">friends-have-been-my-greatest-asset</guid></item><item>
-<title>How I AutoUpdate My Github README using GitHub Actions in 5 Easy Steps</title>  <description><![CDATA[A new phenominon in the developer space is now the 🌟_secret_🌟 README.md
-trick. If you have a repository with the EXACT (case-sensitive) name as your username, it will display the contents of that readme onto your GitHub profile.
-
-Some folks have done really cool things with it, including setting up your own
-Myspace-esque top8 (including Tom!).
-
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Check it out. I made MySpace but on &lt;a href=&#34;https://twitter.com/github?ref_src=twsrc%5Etfw&#34;&gt;@github&lt;/a&gt;.&lt;a href=&#34;https://t.co/p4DWP4DxRR&#34;&gt;https://t.co/p4DWP4DxRR&lt;/a&gt; - My list is power by a GitHub Action workflow 😏 &lt;a href=&#34;https://t.co/PN80mFCqOE&#34;&gt;pic.twitter.com/PN80mFCqOE&lt;/a&gt;&lt;/p&gt;&amp;mdash; Brian Douglas (@bdougieYO) &lt;a href=&#34;https://twitter.com/bdougieYO/status/1281699715466199040?ref_src=twsrc%5Etfw&#34;&gt;July 10, 2020&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-
-Inspired by [Simon Willison&#39;s](https://simonwillison.net/2020/Jul/10/self-updating-profile-readme/) amazing self-updating profile, I wanted to do something similar.
-
-Armed with the power of python (_and anime on my side_), I setout to do something similar. This is a look at the first steps of me automating my Github Profile.
-
-### Step 1: Rename the repo my website to a repo named after my GitHub username
-
-This is easy enough. Just rename the repo (in Github) to your username.
-Remember this has to be exact and it is case-sensitive.
-
-You can do this in the settings menu of your repo. You don&#39;t have to change the
-directory names or anything like that on a local machine. (I&#39;m not sure if you
-are using a Git Client other than the cli).
-
-### Step 2: Create a copy of your existing readme as a template
-
-My goal was to create my README using a Jinja2 and Github Actions. For that I
-would need a template to render. So since most of the data was the same I just
-copied my existing README.
-
-### Step 3: Add Dynamic Content using Jinja2 Variables
-
-
-Starting out I wanted to show my latest blog post and my latest podcast episode
-from [Productivity in Tech Podcast](https://podcast.productivityiintech.com). We will create a python script that does
-this, but we needed to add the variables that Jinja2 would use for the dynamic
-data.
-
-You could do something like a search and replace, but I feel like just
-rendering a template is much easier to edit and understand. Also, the compute
-time for Github Actions is free and this doesn&#39;t need to be the most
-performance conscious program. Also I like Jinja2, so there is also that 🙃.
-
-```markdown
-# From README_template.md
-
-You can see what he&#39;s posting about at &lt;https://kjaymiller.com&gt;.
-
-**Latest Post - [{{latest_post.title}}]({{latest_post.link}})**
-
-**Latest Productivity in Tech Podcast Episode - [{{latest_podcast_post.title}}]({{latest_podcast_post.link}})**
-
-## Active Projects
-```
-
-### Step 4: Build your script to get the data and write the up to date README.md
-
-This script is pretty simple once you know what you&#39;re looking for. I&#39;m using
-the feedparser plugin to parse the rss feeds and then returning the title and
-link for the latest episode.
-
-```python
-def get_latest_post(rss_feed):
-    f = feedparser.parse(rss_feed)
-    latest_post = sorted(f[&#39;entries&#39;], key=lambda x:x[&#39;published_parsed&#39;])[-1]
-    return {
-            &#39;title&#39;: latest_post[&#39;title&#39;],
-            &#39;link&#39;: latest_post[&#39;link&#39;],
-            }
-```
-
-Then you set the template to the text of your template file.
- then write the rendered text to your README.
-
-```python
-# update readme
-template = Template(Path(&#39;./README_template.md&#39;).read_text())
-Path(&#39;./README.md&#39;).write_text(
-        template.render(
-            latest_post=get_latest_post(rss_feed),
-            latest_podcast_post=get_latest_post(podcast_url),
-            )
-        )
-```
-
-## Step 5: Setup your Github Actions File
-
-I&#39;m not the best at Github Actions. Luckily for me, this action was super
-simple to setup. 
-
-You can look at the [.yml file](https://github.com/kjaymiller/kjaymiller/blob/master/.github/workflows/latest_post_readme.yml) I&#39;m not going to talk about the setup of this
-because most of it is prep stuff. Here&#39;s the important bit.
-
-```yaml
-# in steps:
-- name: Install Feedparser &amp; Jinja2
-  run: pip install feedparser jinja2
-
-- name: Update Readme
-  run: python ./.github/actions/update_readme.py
-```
-
-Basically it&#39;s installing the things I need and then running the script (I
-saved the script in that folder, but you don&#39;t really have to as long as its in
-your repo).
-
-After that, you add some commands to update your repo and you&#39;re off to the
-races.
-
-I have mine setup to update on a github push in that repo, but in the future I
-will probably setup the file on a schedule to also update when I push something
-new (Future Post...Probably).
-
-[Productivity in Tech Podcast]: https://podcast.productivityintech.com]]></description>
-
-<link>https://kjaymiller.com/how-i-autoupdate-my-github-readme-using-github-actions-in-5-easy-steps</link>
-<pubDate>Fri, 10 Jul 2020 15:16:00 -0700</pubDate><guid isPermaLink="false">how-i-autoupdate-my-github-readme-using-github-actions-in-5-easy-steps</guid></item><item>
-<title>How Can White People Help Black People. What is the Real Problem</title>  <description><![CDATA[The following is an excerpt from a personal conversation I had.
-
-Not to be the Subject matter black guy or anything but a couple of years of research and several years of living has taught me this:
-
-1. Black communities are considered dangerous because of generalizations and scare tactics. Not every black neighborhood is the same depiction of South Central LA and most neighborhoods are so gentrified that black people can&#39;t afford to live in their communities anymore.
-2. There are extreme wage and education disparities between black and white families. Something to the tune of about $150,000.
-3. We can&#39;t blame &#34;fathers not being in the homes&#34;. Black fathers are more likely to attend family functions and are likely to stay married longer than their white counterparts.
-4. White Americans don&#39;t know this, because the only glimpse of Black America is what they see on TV in the news or what they&#39;ve been told for generations.
-
-That&#39;s it.
-
-My thought is if you can fix number 2. Then you can improve the these &#34;Dangerous&#34; communities and ultimately destroy the PR stunt that has been hurting black folks for the last couple hundred years
-
-### How Do You Fix Number 2?
-
-Make education accessible (cheaper) or you make it less important.
-
-As someone with over a decade of experience in the tech space. I was able to do that because someone gave me a chance and I proved them right.
-
-My chance came from my experience in the Armed Forces. That is not something that all people of color will have.
-
-I will put it clearly...
-
-**HIRE MORE PEOPLE OF COLOR AND PAY ALL PEOPLE BASED ON PROVEN EXPERIENCE, NOT EDUCATION.**
-
-It won&#39;t solve the problems tomorrow (That&#39;s for legislation and representation in our government to do.) But it will do something to reduce the wage gap in America. It will make our communities better and more affluent (and reduce crime).
-
-&gt; &#34;_We can&#39;t pull ourselves up by our bootstraps if we can&#39;t afford boots._&#34; - Someone that at one point couldn&#39;t afford boots.]]></description>
-
-<link>https://kjaymiller.com/helping-black-people</link>
-<pubDate>Thu, 04 Jun 2020 08:58:00 -0700</pubDate><guid isPermaLink="false">helping-black-people</guid></item><item>
-<title>[Podcast] PIT Podcast Ep 4: A Native Indi Creating An Indie Shop in Indi(ana)</title>  <description><![CDATA[My guest this week was Mike Young. 
-
-Mike is the CEO of Pear Circuit which works to help create technology solutions for startups and non-profits who want to make the world better than it was before. 
-
-In this conversation, we discuss what it&#39;s like to build a business outside of Silicon Valley.]]></description>
-
-<link>https://kjaymiller.com/podcast-pit-podcast-ep-4-a-native-indi-creating-an-indie-shop-in-indi-ana</link>
-<pubDate>Mon, 28 Jan 2019 21:00:00 -0800</pubDate><guid isPermaLink="false">podcast-pit-podcast-ep-4-a-native-indi-creating-an-indie-shop-in-indi-ana</guid></item><item>
-<title>My Anxiety Makes Me Get Things Done</title>  <description><![CDATA[Recently I&#39;ve been on a tear with new podcasts, live streams, and communities.
-
-My secret is these are all _cries for help_. 
-
-Not in a life threatening way, but in the stuck in an axiety induced feedback loop. 
-
-![Questionable Content Comic by Jeph Jacques](https://questionablecontent.net/comics/3953.png)
-
-I&#39;ve learned over time that my compulsion tick when going through a period of high anxiety is to do more. There is also a level of tension that is created in the process. I tend to buck against authority. Forget about things that are of some importance. And be more _fatalistic_ and irrational towards things not going according to plan. 
-
-### Does this invalidate all of the things that I&#39;m Making?
-*HELL TO THE NAW NAW NAW*
-
-It just puts things into perspective. When I get anxious I build more things to distract me from the things that are causing the anxiety. These are usually things on my list of things I would like to do and I&#39;m more passionate about them in that time than I will ever be. 
-
-I will devote hours and hours to those things to avoid the things causing anxiety.
-
-### Why are you telling us this?
-I&#39;m telling you this to remind you that it is something that people deal with and often those people that are creative are using their creativity and entreprenuerial spirit as a way to mask a pain that is deep and often not fully understood. 
-
-It took me seeing a mental health professional and a level of medication before I became aware of this. I hope you will read this and think about that ambitious person in your life (other than me) and just check up on them. They may look like they are doing great on the inside, but they may also be asking for help. 
-
-**NOTE**:
-
-I understand that this seems super dark. Me writing about it helps tto analyze my thoughts and make sense of things.
-
-I can&#39;t say that I&#39;m 100% okay, but getting this out does help and helping more people to understand helps even more. 
-
-![](https://media2.giphy.com/media/5ArJanyCfxgiY/giphy.gif)]]></description>
-
-<link>https://kjaymiller.com/anxiety-based-gtd</link>
-<pubDate>Mon, 25 Mar 2019 10:42:00 -0700</pubDate><guid isPermaLink="false">anxiety-based-gtd</guid></item><item>
-<title>[PIT Podcast] Getting Real and Narrowing Scope</title>  <description><![CDATA[&lt;iframe width=&#34;100%&#34; height=&#34;180&#34; frameborder=&#34;no&#34; scrolling=&#34;no&#34; seamless src=&#34;https://share.transistor.fm/e/2d916493&#34;&gt;&lt;/iframe&gt;
-
-
-## Shownotes
-
-This is an important PIT Reflection. In it I do share a little productivity, but more importantly, I talk about some code decisions and ultimately what the future looks like for this podcast.
-
-
-### Links
-
-* [DEVONthink - DevonTechnologies](https://www.devontechnologies.com/apps/devonthink)
-* [Miro](https://miro.com)
-* [Nested Folders](https://nestedfolderspodcast.com)
-* [Company of One](https://amzn.to/30zxAE6) (Affiliate Link)
-* [Micro.Blog](https://micro.blog)
-* [Transcriptor - PyPI](https://pypi.org/project/transcriptor)
-* [Render-Engine - PyPI](https://pypi.org/project/render-engine)
-
-## Transcription
-
-00:00:18:
-
-What&#39;s up, everybody?
-
-00:00:19:
-
-Jay Miller here back with a solo PIT Reflection type thing for the first half of June 2020. this year has sucked royally.
-
-00:00:32:
-
-I don&#39;t even want to get into this. Um, all of the individual things that have happened in 2020 have just been nightmarish at best.
-
-00:00:46:
-
-So this is going to be more of a productivity&#39;s side thought exercise for me, and I hope that it will engage your mind a little bit as we sit down and talk.
-
-That said, it is gonna be a little bit off the head. I have some notes and I&#39;ll use those notes. But ultimately, I&#39;m just using them to riff off of.
-
-00:01:13:
-
-So let&#39;s start with a couple of things. First of all, productivity&#39;s in general. What am I doing, Productivity wise?
-
-Um, if you would have asked me this question yesterday, I would have told you something different. I am jumping back to the notebook. I go to the notebook like probably once a year. I&#39;m gonna try to do a full year.
-
-00:01:38:
-
-Don&#39;t at me. Don&#39;t challenge me. Don&#39;t do any of those things the way that I see it productivity tools, productivity, apps, productivity. All of those things should be used for you to do your best work. None of these tools should be considered a Bible or any type of gospel for you to breach or proselytize on others.
-
-00:02:06:
-
-In fact, I&#39;m not using this podcast to preach or proselytize my own productivity method. I am merely telling people how I am doing a thing in hopes that if someone else that is doing something similar here, is it that I might be able to inspire them to try something that works for them or for them to reach out to me and let me know of something that did work for them without any obligation to join the Church of Notion or Rome research or obsidian or all these other apps that said, Let&#39;s jump into this.
-
-00:02:51:
-
-What absolute using. Like I said, up until today, when I said, You know what, we need to get back on our analog light, our BuJo-esque system.
-
-00:03:03:
-
-I would have said I was using OmniFocus. Um, I think for right now I I don&#39;t really have too much stuff in OmniFocus. That will make it hard to transition.
-
-00:03:19:
-
-I wasn&#39;t really using OmniFocus as the power tool that most people use it as, um, it was simply a way for me to differ things so that I didn&#39;t have to look at him.
-
-Good thing is a notebook and a piece of paper kind of does the same thing. I just don&#39;t need to look at it now.
-
-00:03:39:
-
-One of the biggest apps that I have jumped on. Probably the biggest change in my workflow since leaving Evernote back in 2000 and what, 10? Yeah, I think 2010 was when I left Evernote or not.
-
-00:03:57:
-
-Didn&#39;t leave it like the company I stopped using.
-
-00:03:59:
-
-The application is the adoption of DEVONthink now, DEVONthink, is one of these tools that I think that a lot of people are intimidated by one.
-
-00:04:13:
-
-It&#39;s an expensive tool.
-
-00:04:15:
-
-I get that. Yeah, it&#39;s expensive.
-
-00:04:17:
-
-Oh, boy, A suspensive.
-
-It&#39;s like fountain pen money expensive.
-
-00:04:23:
-
-The thing I like about DEVONthink is I don&#39;t have to question where I put a thing.
-
-00:04:31:
-
-I deal with a lot of files between the day job, the side business and the other ambitions and inspirations that I have.
-
-00:04:42:
-
-So for me, it is important that when I&#39;m looking for a thing, I can find it with relative ease.
-
-00:04:51:
-
-DEVONthink allows me to do that.
-
-00:04:54:
-
-It does its job really well.
-
-00:04:58:
-
-And the thing that makes it different from, you know, another power tool that I use Drafts or Evernote or again, like a Notion or Rome Research kind of tool is that one.
-
-00:05:15:
-
-It beats all the cloud tools because it&#39;s designed to work with my local machine.
-
-00:05:21:
-
-So adding some order to my chaotic system.
-
-00:05:26:
-
-The other thing that it does is it make some connections and allows me to easily connect things that should be connected.
-
-00:05:39:
-
-And it allows me to look at different things from many different schools of thought, which isn&#39;t always the best way to do things.
-
-00:05:54:
-
-But when you need to, it is amazing.
-
-00:06:01:
-
-So again, I&#39;m not gonna go into too much detail about this.
-
-00:06:03:
-
-If you&#39;ve been looking at DEVONthink you&#39;d know all the stuff that I could talk about with it?
-
-00:06:09:
-
-Um, if you aren&#39;t looking into DEVONthink unless you just genuinely have a problem with maintaining lots and lots of files and documents and things like that over a long period of time.
-
-00:06:22:
-
-Or you&#39;re just fed up with Evernote as a whole and its inability to, um, not move like a giant green elephant in a china shop, you know, then I mean, give it a try.
-
-00:06:37:
-
-There&#39;s a free trial.
-
-00:06:38:
-
-Give it a shot.
-
-00:06:39:
-
-I mean, if you really want to talk about it, they have a forum.
-
-00:06:42:
-
-They have, um a lot of people that air again, much more avid users shout out to the Nested Folders podcast.
-
-00:06:50:
-
-They did a great to show seriess on how they both use. DEVONthink in their own systems.
-
-00:06:59:
-
-One, uh, uses it more of, ah, file cabinet, the other one more of ah ah, thought companion.
-
-00:07:10:
-
-But there&#39;s an app that I wanted to talk about a little bit from the business side, and this is after I haven&#39;t used a hun.
-
-00:07:23:
-
-But I&#39;ve used it.
-
-00:07:25:
-
-And when I have used it, it has had a really good effect.
-
-00:07:30:
-
-Uh, I used to do business meetings any type of any time I was doing, like a client consultation.
-
-00:07:36:
-
-I would use something like notion.
-
-00:07:39:
-
-Um, I&#39;m a firm believer in the idea of shared notes are better when you&#39;re able to collaborate on them.
-
-00:07:50:
-
-The one problem that I had with notion initially was that you know, you get us up in account, you got to give them access, they can watch, you do stuff, and that&#39;s cool.
-
-00:07:59:
-
-But ultimately, it doesn&#39;t feel as inviting for someone that&#39;s not a part of your team to come in and start working with you.
-
-00:08:07:
-
-And there was also, like the pricing question and things like that.
-
-00:08:10:
-
-But for the last couple of consultations that I&#39;ve had, I have used a tool called Miro. MIRO is an interesting little tool.
-
-00:08:22:
-
-It is basically a collaborative white board, and it&#39;s designed to be a collaborative white board. One of the things I like about is that it also gives you a section for your notes. It allows you to attach things. It allows you to collect a bunch of stuff under one umbrella.
-
-00:08:38:
-
-I mean, imagine having a giant whiteboard and being able to just have everybody writing on it and asking questions and commenting and doing things like that.
-
-00:08:49:
-
-I really like it, Um, especially for like a consultation type thing.
-
-00:08:57:
-
-I haven&#39;t used it at the premium level where they have stuff like of voice and video chat and stuff like that.
-
-00:09:06:
-
-I mean, just you zoom.
-
-00:09:08:
-
-Or I think in my last consultation call, I like, I think we just use facetime and then, as we were talking, you know, we&#39;re both adding stuff into it so that&#39;s cool by itself.
-
-00:09:21:
-
-But yeah, I mean, again, just this isn&#39;t an attempt to get people to try stuff.
-
-00:09:27:
-
-It&#39;s more of Ah, hey, here&#39;s something that if you haven&#39;t heard about it and it&#39;s something that it suits you, then sure, why not take a crack at it?
-
-00:09:34:
-
-It&#39;s not gonna be life changing for someone unless it is the exact thing that they&#39;re looking for.
-
-00:09:42:
-
-So we&#39;ve talked a little bit about the productivity side of things.
-
-00:09:47:
-
-Let&#39;s jump into the projects.
-
-00:09:51:
-
-Ah, but to do nothings really changed much on the project side of life.
-
-00:09:55:
-
-I mean, it is it&#39;s still basically render engine and transcript.
-
-00:09:59:
-
-Or for me, I do believe the last time we had a conversation like this transcriptor was still just a Django app now it is no longer Django app.
-
-00:10:09:
-
-It is a [python package](https://pypi.org/project/transcriptor/).
-
-00:10:13:
-
-Yes, but he s the best way to put it.
-
-00:10:16:
-
-At the end of the day, I realized that I don&#39;t want to build a SaaS app.
-
-00:10:21:
-
-I know that there are a bunch of people out there.
-
-00:10:23:
-
-They&#39;re like, &#34;Oh, yeah, SaaS applications!&#34;
-
-00:10:25:
-
-&#34;That&#39;s passive income and smart revenue.&#34;
-
-00:10:28:
-
-And there&#39;s a whole conversation to have about that.
-
-00:10:31:
-
-But that is not me.
-
-00:10:33:
-
-What I enjoy doing more than anything is helping people directly by me providing a service to them.
-
-00:10:41:
-
-Now I know that&#39;s not scalable.
-
-00:10:43:
-
-I understand that.
-
-00:10:45:
-
-I don&#39;t care.
-
-00:10:46:
-
-Um, there&#39;s a excellent book that I&#39;ve been reading on and off, you know, for the last who knows how long.
-
-00:10:52:
-
-Called _Company of One__ by Paul Jarvis.
-
-00:10:55:
-
-I think that there is an amazing idea and an amazing benefit to imposing a limit of scalability on yourself and on your company.
-
-00:11:09:
-
-And here&#39;s Here&#39;s what I mean, if I use pit transcriptor, as you know, we&#39;ll pick transcript of the Django app.
-
-00:11:17:
-
-It&#39;s a great tool that allows anybody to sign up for an account and start doing transcriptions and Ultimately, I&#39;m eating the cost, which means I&#39;m having to charge people memberships, which means I am now in the business of customer service.
-
-00:11:31:
-
-I&#39;m in the business of tech support, and I am in the business of having to explain to people why Amazon transcribe does some of the things that it does because of how it does it.
-
-00:11:44:
-
-And there are a lot of different things that Amazon transcribe Google Cloud Platform or Google Cloud Services and Microsoft Azure.
-
-00:11:54:
-
-All of these services do certain things because they have to in order to scale at the level that they want to scale.
-
-00:12:03:
-
-But what&#39;s the alternative here?
-
-00:12:07:
-
-I could build a system that allows me personally to do transcriptions at a rate that I can afford in that I could maintain and by providing it as a python package.
-
-00:12:22:
-
-There is a level of support that I&#39;m willing to give, but a lot of that is I can now define the scope of the application of the package that I&#39;m supporting.
-
-00:12:37:
-
-If I decide that the transcript or packages on Lee going to support AWS Transcribe, then okay, I have the ability to do that if I decide that transcriptor is not going to support custom vocabulary.
-
-00:13:03:
-
-I can do that if I and these are all things that I have chosen to do.
-
-00:13:13:
-
-If I decide that transcript is only going to focus on the resulted output of a transcription job and not the actual processing of the job itself, I conduce that.
-
-00:13:29:
-
-And by doing that, I narrow the scope that I am responsible for to my clients.
-
-00:13:38:
-
-I&#39;m Onley responsible for the actual job that they&#39;re paying me to do.
-
-00:13:47:
-
-They&#39;re not paying me to maintain a python packages or maintaining Meteo or they&#39;re paying me too.
-
-00:13:52:
-
-Provide them with a transcription.
-
-00:13:57:
-
-And the developers that are using the tool that I have built are I mean, they&#39;re not paying me at all, but they&#39;re relying on me, too.
-
-00:14:10:
-
-Provide a level of knowledge and service about the platform, or about the system that I have created all while while having the ability to take it and make it their own because it is an open source.
-
-00:14:25:
-
-A pack same thing with render engine render engine by default as a static side generator is designed to be very flexible, but because I&#39;m not selling static sites is a service.
-
-00:14:45:
-
-I&#39;m only providing a system for generating sites.
-
-00:14:52:
-
-That is a level of insight that I don&#39;t have to provide.
-
-00:14:56:
-
-I don&#39;t have to teach people proper SEO.
-
-00:14:59:
-
-I don&#39;t have to teach people proper CDN usage and compression of images and things like that.
-
-00:15:05:
-
-My system does not care about these things.
-
-00:15:09:
-
-It does not benefit them anyway.
-
-00:15:11:
-
-The only way that we were able to integrate sire like a search capability, like for those who don&#39;t know, one of the big achievements of he had this year for render engine is the integration in with a fuse dot Js, which is a static site search.
-
-00:15:30:
-
-Um, that&#39;s all done on the client side.
-
-00:15:34:
-
-Basically, you supply a JavaScript package with a JSON Output and you can search that file poor content.
-
-00:15:46:
-
-Now they&#39;re probably better ways to do it.
-
-00:15:50:
-
-I&#39;m sure you could offload that to another service, but my assumption is if you&#39;re building static sites, you have a certain thought about offloading stuff to third party service.
-
-00:16:07:
-
-Um, but, you know, part of my thought pattern was Do I want to support looter?
-
-00:16:14:
-
-Another static site search engine do I want to support, um, elastic search and do I want to support?
-
-00:16:23:
-
-You know, Al Gore, Uh, or out was What is it?
-
-00:16:28:
-
-Yeah, Al Gore as either Algora or Algoria.
-
-00:16:31:
-
-Something like that.
-
-00:16:31:
-
-I think it&#39;s Algora.
-
-00:16:33:
-
-And because I wasn&#39;t saying, &#34;Hey, everybody, here&#39;s a platform that, you know, you give me $10 a month and I host your static site.&#34;
-
-00:16:45:
-
-And there&#39;s nothing wrong with people that are doing that.
-
-00:16:47:
-
-You know, shout out to the whole micro.blog service and Manton Reese and Jene McDonald and the other people that are a part of making that a reality.
-
-00:16:56:
-
-Um, that&#39;s just not me.
-
-00:16:58:
-
-That&#39;s just not what I&#39;m aiming to do.
-
-00:17:01:
-
-I would much rather make sure stuff that I&#39;m doing is compatible with what they&#39;re doing.
-
-00:17:06:
-
-And they have really made that easy.
-
-00:17:07:
-
-So again, big shout out to them.
-
-00:17:12:
-
-So I guess in this rambling that is kind of my big take away in this whole conversation is there&#39;s something to say about the idea of controlling the scope of your projects, and that is something that I am learning more and more of as I get older and as I want to do more things while having more responsibilities is, I have to be able to control the scope of what I&#39;m doing.
-
-00:17:50:
-
-So the big pit question for you that I want to hear about, whether it&#39;s on Twitter or whether you want to email me at info it productivity in tech dot com is how are you controlling the scope of the things that you&#39;re doing?
-
-00:18:13:
-
-And furthermore, what can you do in order to begin controlling the scope of some things that might have gotten out of control?
-
-00:18:30:
-
-I&#39;m gonna leave it there because the last, you know, five minutes or so of this little podcast thing, it&#39;s going to be devoted to a little bit of, ah administration work here.
-
-00:18:45:
-
-So I&#39;ve been thinking more and more about Pitt as a community, as a group of people Maurin Mawr during this time with racial injustice and things like that happening.
-
-00:19:04:
-
-Have I not been more proud of the black community that I&#39;ve been a part of, you know, obviously from birth, but also the vocal community and the amount of ally ship that I have around me and that has made me want to value the people within that community.
-
-00:19:29:
-
-More and more now, I&#39;m still not sure how that involves pit, but what I have learned is that I want to be able to support of the things and the people that are doing amazing things more and more.
-
-00:19:50:
-
-And by doing that, I have to have the support of the community.
-
-00:19:55:
-
-So here is my I thought I would be willing toe have more conversations like this on a regular basis if there were some form of feedback one, there has to be feedback on it.
-
-00:20:23:
-
-I don&#39;t I don&#39;t mind shouting into the either, but the actual time it takes tow, edit and record this.
-
-00:20:29:
-
-And I mean, even the editing isn&#39;t much, but I cough a lot.
-
-00:20:32:
-
-I&#39;m an asthmatic.
-
-00:20:32:
-
-I&#39;m a chronic asthmatic.
-
-00:20:34:
-
-There&#39;s a lot of coughing that&#39;s involved in a lot of people.
-
-00:20:36:
-
-Sometimes here and then sometimes don&#39;t hear, depending on my mood.
-
-00:20:43:
-
-One.
-
-00:20:44:
-
-There&#39;s got to be feedback in the term and in actual like conversation.
-
-00:20:51:
-
-I&#39;m only sharing this stuff with you because I want to start a conversation.
-
-00:20:58:
-
-If there&#39;s no desire for a conversation to be had then I have no reason to continues speaking about it.
-
-00:21:10:
-
-The other side is it has to make sense from a time value perspective.
-
-00:21:18:
-
-As some may noticed, I have upped the transparency of me searching for, um, I want to say a job, but searching for a way to provide for my family?
-
-00:21:33:
-
-No, I have a job.
-
-00:21:36:
-
-I&#39;m not worried about getting fired today, at least, and pit is still growing.
-
-00:21:43:
-
-I mean, last year was the best year for pit, which I mean.
-
-00:21:47:
-
-Luckily, the company&#39;s only two years old, so you know, hopefully, hopefully we can continue moving in a positive direction.
-
-00:21:58:
-
-But the time that it takes to record this I&#39;m currently sitting at 22 minutes, 39 seconds.
-
-00:22:05:
-
-I think on the actual recording, it&#39;s like 22 minutes, five seconds, something like that.
-
-00:22:10:
-
-But I was working on a transcription before I started doing this, and I said, You know what?
-
-00:22:16:
-
-I really need to get that thing done.
-
-00:22:17:
-
-So if I&#39;m going to do more things like that, I need to make sure that I&#39;m not taking away time from my family without it making sense from a from a value perspective.
-
-00:22:37:
-
-So what does that mean?
-
-00:22:41:
-
-Does that mean there&#39;s gonna be a patri on?
-
-00:22:42:
-
-No.
-
-00:22:43:
-
-Does that mean there&#39;s gonna be ah member full or something like that?
-
-00:22:47:
-
-No, I don&#39;t know what it means at the moment.
-
-00:22:51:
-
-What I&#39;m looking for is one person.
-
-00:22:56:
-
-I&#39;m looking for a couple things.
-
-00:22:57:
-
-I&#39;m looking for two people to listen to this and tell me that they heard it.
-
-00:23:02:
-
-They enjoyed it or they heard it and they didn&#39;t enjoy it.
-
-00:23:05:
-
-And here&#39;s why.
-
-00:23:06:
-
-Or they heard it.
-
-00:23:06:
-
-And I&#39;m an idiot or whatever.
-
-00:23:09:
-
-The other thing I want to hear is someone say I have heard this.
-
-00:23:13:
-
-I appreciate it.
-
-00:23:15:
-
-It brought me value.
-
-00:23:17:
-
-And I want to, in some way, shape or form compensate you for the value that you&#39;ve put out.
-
-00:23:27:
-
-Now, if you feel like you can&#39;t afford that, by all means, I understand I&#39;m not even saying that you have to feel obligated to give me money.
-
-00:23:39:
-
-I am saying that if this truly brings value to you and you feel like you would be willing to do something to ensure that this value continued to happen, I need to know, because otherwise all I&#39;m doing is wasting my time and my energy putting something out there that no one&#39;s listening to now, the pit podcast as a whole.
-
-00:24:07:
-
-The interviews they will still happen because I enjoy.
-
-00:24:09:
-
-I enjoy the conversations.
-
-00:24:12:
-
-At the present time, I have five six interviews scheduled in like the next month.
-
-00:24:24:
-
-I can stretch those out for the remainder of the year, and that will be the entire pit season.
-
-00:24:30:
-
-Or I can release them on a bi weekly, maybe even weekly basis, like we used to back in the good old days.
-
-00:24:40:
-
-But I&#39;m not going to do that at the stake of my sanity, knowing that it&#39;s not going to make an impact in anyone&#39;s life or knowing that the people who are consuming it are just using.
-
-00:24:54:
-
-It is background noise.
-
-00:24:55:
-
-I cannot do that.
-
-00:24:57:
-
-So here&#39;s the promise that I&#39;m making today as I&#39;m recording this and this will be released is June 10th.
-
-00:25:05:
-
-If by June 20th we have one pledge to somehow pay for this service, you know, pay for this podcast, not even not even monetarily.
-
-00:25:21:
-
-Maybe it&#39;s just in terms of like, Hey, I promise that if you put in episode, I will retweet it and I will reply with a comment.
-
-00:25:30:
-
-I am okay with that being the currency.
-
-00:25:33:
-
-I love your money.
-
-00:25:34:
-
-But if you don&#39;t have it, I understand.
-
-00:25:37:
-
-Some of us just don&#39;t have it.
-
-00:25:40:
-
-And if I have two people that can just say Hey, you know what?
-
-00:25:44:
-
-I really enjoyed the conversation.
-
-00:25:45:
-
-I really enjoyed the thought piece.
-
-00:25:47:
-
-This is what I did like.
-
-00:25:48:
-
-This is what I didn&#39;t like.
-
-00:25:49:
-
-Maybe a little too much preaching at the end.
-
-00:25:53:
-
-Whatever it is.
-
-00:25:55:
-
-10 days.
-
-00:25:57:
-
-I will talk about this every single day.
-
-00:25:59:
-
-I will tweet it out every single day.
-
-00:26:01:
-
-I will give it my full up.
-
-00:26:03:
-
-Do a transcription for it.
-
-00:26:05:
-
-I will do everything possible to make sure that people hear this.
-
-00:26:13:
-
-And if again, two people tell me, Give me some feedback.
-
-00:26:19:
-
-One person pledges some type of either money or effort in terms of a currency.
-
-00:26:27:
-
-Then I will continue to do this and I will pledge to release the episodes that I&#39;m recording at a bi weekly basis.
-
-00:26:33:
-
-Starting out if we get more than that and I feel like I can truly start doing this on a weekly basis, then by all means, that&#39;s awesome.
-
-00:26:40:
-
-But if not, I have to think about the effort that I&#39;m putting in, and I have to think about the find that it&#39;s taking away from my family and things like that.
-
-00:26:54:
-
-I have no problem with it.
-
-00:26:55:
-
-My family has no problem with it, but ultimately we and by we I mean me.
-
-00:27:02:
-
-I I want to share this content with you, but I don&#39;t want it to fall on deaf ears, and I don&#39;t want it to just be background noise for someone&#39;s commute.
-
-00:27:12:
-
-I want to be something that they take in and that they value.
-
-00:27:15:
-
-So that&#39;s my pledge to you.
-
-00:27:16:
-
-Like I said, two pieces of feedback.
-
-00:27:18:
-
-One pledge.
-
-00:27:19:
-
-If you can make that happen, then the podcasts interviews will go on a biweekly schedule, and I will probably supplement the interviews with more thoughts like this, just less preachiness on the back end.
-
-00:27:31:
-
-But that&#39;s gonna do it for this week.
-
-00:27:33:
-
-I have been your, um, speaker and your hose J.
-
-00:27:39:
-
-Miller.
-
-00:27:39:
-
-If you want to reach out to me, there&#39;s a couple ways you can do it.
-
-00:27:43:
-
-You can A) hit me up on Twitter.
-
-00:27:45:
-
-I&#39;m [@kjaymiller](https://twitter.com/kjaymiller).
-
-00:27:48:
-
-You can B) email me at info at productivityintech dot com, or C) You could go to my website [kjaymiller.com](https://kjaymiller.com).
-
-00:27:57:
-
-Uh, there might be a contact button there.
-
-00:28:00:
-
-There might not be?
-
-00:28:01:
-
-No, actually.
-
-00:28:02:
-
-Now, you can&#39;t really do that when there&#39;s no contact button.
-
-00:28:04:
-
-I&#39;m also a microdot.
-
-00:28:05:
-
-Blawg at KJ.
-
-00:28:07:
-
-Why Miller, if you use microdot block instead of Twitter.
-
-00:28:10:
-
-But if you want to be invited into our privates like channel, I&#39;ll bet you.
-
-00:28:15:
-
-But if I like, If I like the cut of your jib, then sure, we&#39;ll bring you in.
-
-00:28:21:
-
-Um, once we have enough, people will start an open conversation about how we can make this work financially.
-
-00:28:31:
-
-I&#39;m open to doing more things like this, whether they&#39;re a live stream, whether we&#39;re having, like, voice, call, conversation, stuff or whatever.
-
-00:28:40:
-
-But more than anything, I just want to make sure that people are hearing this and that people are getting something out of it.
-
-00:28:46:
-
-But that&#39;s gonna do it for this time.
-
-00:28:49:
-
-I&#39;m Jay Miller.
-
-00:28:49:
-
-Thank you so much for listening.
-
-00:28:52:
-
-Uh, thank you to Nadir Omowale for the use of his music a &#34;hustler in spite of myself&#34; for the intro and outro music.
-
-00:28:59:
-
-And of course, I hope for the last 29 minutes and five seconds that we have been productive.
-
-00:29:06:
-
-Thank you so much.
-
-00:29:08:
-
-I will talk to you next time.]]></description>
-
-<link>https://kjaymiller.com/pit-podcast-getting-real-and-narrowing-scope</link>
-<pubDate>Thu, 11 Jun 2020 08:37:00 -0700</pubDate><guid isPermaLink="false">pit-podcast-getting-real-and-narrowing-scope</guid></item><item>
-<title>Jamie is a Form Group</title>  <description><![CDATA[This is a test]]></description>
-
-<link>https://kjaymiller.com/jamie-is-a-form-group</link>
-<pubDate>Tue, 01 Jan 2019 12:00:00 -0800</pubDate><guid isPermaLink="false">jamie-is-a-form-group</guid></item><item>
+<link>https://kjaymiller.com/subcollections-now-available-in-render-engine</link>
+<pubDate>Wed, 01 Jul 2020 14:43:00 -0700</pubDate><guid isPermaLink="false">subcollections-now-available-in-render-engine</guid></item><item>
 <title>I Was Selected as a Mentee for the First Podcast Mentorship Cohort</title>  <description><![CDATA[I&#39;m a firm believer that it is incredibly hard to be a _self taught_ anything.
 
 In fact one of the **easiest** ways to learn is sharing and learning from others.
@@ -3253,6 +3251,10 @@ Check out each of the members and their projects.
 
 <link>https://kjaymiller.com/podcast-mentorship-mentee</link>
 <pubDate>Tue, 14 Jul 2020 12:08:00 -0700</pubDate><guid isPermaLink="false">podcast-mentorship-mentee</guid></item><item>
+<title>Jamie is a Form Group</title>  <description><![CDATA[This is a test]]></description>
+
+<link>https://kjaymiller.com/jamie-is-a-form-group</link>
+<pubDate>Tue, 01 Jan 2019 12:00:00 -0800</pubDate><guid isPermaLink="false">jamie-is-a-form-group</guid></item><item>
 <title>The Disparity of Black Shootings in NYC</title>  <description><![CDATA[There is a huge disparity in the number of Black Americans and shooting
 incidents. Developer [Wayne Jones](https://twitter.com/wayneoflife) along with
 a team of folks built this beautiful dashboard to highlight the disparity of
@@ -3262,111 +3264,6 @@ violenve in Black communities in NYC.
 
 <link>https://kjaymiller.com/the-disparity-of-black-shootings-in-nyc</link>
 <pubDate>Fri, 10 Jul 2020 09:37:00 -0700</pubDate><guid isPermaLink="false">the-disparity-of-black-shootings-in-nyc</guid></item><item>
-<title>Fish Resources</title>  <description><![CDATA[&lt;div class=&#34;notification is-dark&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;h2 class=&#34;has-text-light&#34;&gt;Update:&lt;/h2&gt;
-&lt;p&gt;Due to a lack of support by some services that I use very regularly, I have stopped using fish and have gone back to zsh.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-I do a lot of work in the terminal. I understand that for many it&#39;s the lack of glitz and glamour that keeps people away from it, and while the majority of my computer usage is in some GUI, there are still many things that I can do much faster using a script that I can launch from my terminal.
-
-Fish (Short for Friendly Interactive Shell) was a great attempt to add some modern-ness to the terminal environment. That said it has been around since the 90&#39;s as this boutique experience that some love, many ignore, and even more fear. 
-
-Well, fear not. Here are a few links that can help introduce you to fish and help you get out the gate quickly.
-
-### NOTE: This is just a list. I am not doing a review of these items.
-
-## GitHub Repos 
-
-- [jorgebucaran/awesome-fish: A curated list of packages, prompts, and resources for the fish shell.](https://github.com/jorgebucaran/awesome-fish)
-- [joseluisq/gitnow: Speed up your Git workflow.](https://github.com/joseluisq/gitnow)
-- [laughedelic/pisces: ♓️Fish shell plugin that helps you to work with paired symbols in the command line](https://github.com/laughedelic/pisces)
-- [fishpkg/fish-git-util: Convenient git utility functions for the fish shell](https://github.com/fishpkg/fish-git-util)
-- [danhper/fish-ssh-agent](https://github.com/danhper/fish-ssh-agent)
-- [rodrigobdz/fish-apple-touchbar: ⚡Supercharge your touchbar with fish 🐠](https://github.com/rodrigobdz/fish-apple-touchbar)
-- [jorgebucaran/fish-cookbook: Tips and recipes for fish, from shell to plate.](https://github.com/jorgebucaran/fish-cookbook)
-- [The fish shell is awesome - Julia Evans](https://jvns.ca/blog/2017/04/23/the-fish-shell-is-awesome/)
-
-## Blog Posts
-
-- [The Fish Shell](https://flaviocopes.com/fish-shell/)
-- [The fish Shell](https://mvolkmann.github.io/fish-article/)
-- [Branching out from Bash: Fishing expedition - BrettTerpstra.com](https://brettterpstra.com/2019/10/11/branching-out-from-bash-fishing-expedition/)
-- [Why you should give a chance to Fish shell - DEV Community 👩‍💻👨‍💻](https://dev.to/jukben/why-you-should-give-a-chance-to-fish-shell-5a0l)
-
-## Obligatory DDG Search
-
-This isn&#39;t a complete list. If you find any that I should look into, let me know.]]></description>
-
-<link>https://kjaymiller.com/fish-resources</link>
-<pubDate>Tue, 14 Apr 2020 08:19:00 -0700</pubDate><guid isPermaLink="false">fish-resources</guid></item><item>
-<title>App Camp 4 Girls and App Launch Map (with a move in the middle) w/ Aleen Simms</title>  <description><![CDATA[[App Camp 4 Girls](https://appcamp4girls.com/)**  
-**[App Launch Map](https://applaunchmap.com/)  
-**Some (Other) things we mentioned.**
-
-  * [The weekly review - Jean MacDonald (Co-founder of App Camp for girls)](https://theweeklyreview.fm/)
-  * [Notion](https://www.notion.so/)
-  * [Full focus planner](https://fullfocusplanner.com/)
-**Follow Aleen**
-
-  * [AleenMean.com](https://aleenmean.com/)
-  * [@Aleen - Twitter](https://twitter.com/aleen)
-**  
-Support Productivity in Tech and Get Access to the Aftershow!  
-**Become a [PIT Premium Member](https://productivityintech.com/memberships) ($10/month/$100/year)**  
-**  
-Join our new [Discourse](https://discourse.productivityintech.com/) and Tell us your thoughts!  
-  
-
-
-**[★ Support this podcast by donating ★](Https://ko-fi.com/jayandjaymedia)**]]></description>
-
-<link>https://kjaymiller.com/pitpod-aleen</link>
-<pubDate>Mon, 11 Mar 2019 08:00:00 -0700</pubDate><guid isPermaLink="false">pitpod-aleen</guid></item><item>
-<title>Announcing Transcriptor</title>  <description><![CDATA[## This was the launch month for [Transcriptor]. This is a helper package that I use for doing transcriptions for PIT Clients.
-
-Transcriptions can be accomplished in a plethora of ways, but in order to do it, you need to have a good idea of how to work with the results from your transcription engine. While I usually use [Amazon Transcribe](https://aws.amazon.com/transcribe/), I have used [Google Could Services Speech to Text](https://cloud.google.com/speech-to-text/) and I would love to look into the [Microsoft Azure](https://azure.microsoft.com/en-us/services/cognitive-services/speech-to-text/) and [Wit.Ai](https://wit.ai). All of these systems use their own schema for your task and your results.
-
-The goal of transcriptor is to create a single Job object that is responsible (currently) for handling the results in a consistent object-oriented way. By using it, I&#39;ve been able to create some clarity in my coding projects for folks and reduced the amount of copying and pasting across the board.
-
-**FAQ:**
-
-* _Can you use it?_ **At your own risk, sure.**
-* _Is it documented?_ **Not Yet**
-* _Is it stable?_ **I wouldn&#39;t say that...**
-* _Is it open source?_ **Of course it is!**
-* _Am I accepting contributions_ 
- 
-I am accepting testing and documentation PRs, I&#39;m also looking at incoming issues and If you have a fix (Not a Feature Request), I will accept after testing and reviews.
-
-[Transcriptor]: https://pypi.org/project/transcriptor]]></description>
-
-<link>https://kjaymiller.com/announcing-transcriptor</link>
-<pubDate>Mon, 25 May 2020 22:32:00 -0700</pubDate><guid isPermaLink="false">announcing-transcriptor</guid></item><item>
-<title>Travel, Parenting, and ADHD with Heidi Waterhouse</title>  <description><![CDATA[Heidi is a Developer Advocate for [Launch Darkly](https://www.launchdarkly.com/).  
-  
-Heidi travels all over the world and is away from home more than half of the month.  
-  
-In this conversation, Heidi shares with how she’s able to parent, prepare, and connect with her co-workers while always being on the go.  
-  
-**  
-Links:**
-
-  * [Follow Heidi on Twitter](https://twitter.com/Wiredferret)
-  * [Launch Darkly](https://www.launchdarkly.com/)
-  * [I Have ADD and So Can Ooh, Shiny! - Youtube](https://www.youtube.com/watch?v=hEVW67KSwwo)
-  
-Support the Productivity in Tech podcast and other independent podcasts at [https:ko-fi.com/JayandJayMedia](https:ko-fi.com/JayandJayMedia).  
-  
-OR  
-  
-Consider joining the [PIT Premium Membership](https://productivityintech.com/memberships)
-
-**[★ Support this podcast by donating ★](Https://ko-fi.com/jayandjaymedia)**]]></description>
-
-<link>https://kjaymiller.com/travel-parenting-and-adhd-with-heidi-waterhouse</link>
-<pubDate>Mon, 04 Mar 2019 18:05:00 -0800</pubDate><guid isPermaLink="false">travel-parenting-and-adhd-with-heidi-waterhouse</guid></item><item>
 <title>PIT Podcast: Effectively Doing a Lot with Tom Merritt</title>  <description><![CDATA[&lt;iframe width=&#34;100%&#34; height=&#34;180&#34; frameborder=&#34;no&#34; scrolling=&#34;no&#34; seamless src=&#34;https://share.transistor.fm/e/671c723f&#34;&gt;&lt;/iframe&gt;
 
 ## Transcription
@@ -3925,28 +3822,199 @@ I&#39;m ready.]]></description>
 
 <link>https://kjaymiller.com/pitpodcast-tom-merrit-july-2020</link>
 <pubDate>Tue, 14 Jul 2020 11:32:00 -0700</pubDate><guid isPermaLink="false">pitpodcast-tom-merrit-july-2020</guid></item><item>
-<title>Quick Productivity Tip - The Upcoming Family Agenda</title>  <description><![CDATA[I&#39;ve recently been doing weekly reviews with my wife (GTD addicts calm down, not that kind of review). Mostly we just cover my schedule and plan our meals for the week. This has been amazing for us as it gets us on the same page and eliminates any last minute decisions. 
+<title>Quick Productivity Tip - Walk and Talks</title>  <description><![CDATA[Since the Quarantine, I&#39;ve been goign on two weekly walks with a couple of PIT
+Premium Members.
 
-Also, I&#39;m not always thinking about what my wife has on her schedule. So this allows me to check the _Family Calendar_ and make sure that anything that will impact the family or our routine is on there. I also put our weekly meal plan in OmniFocus with the tag: _Dinner_.
+This allows me to do a few things.
 
-![screenshot of dinner](https://kjaymiller.s3-us-west-2.amazonaws.com/images/CleanShot-2020-05-25-at-22.50.08.png)]]></description>
+- Catch up/Learn more with members of my community
+- Get some exercise
+- Vent about whatever it is I need to vent about.
 
-<link>https://kjaymiller.com/qtp-family-agenda</link>
-<pubDate>Mon, 25 May 2020 22:59:00 -0700</pubDate><guid isPermaLink="false">qtp-family-agenda</guid></item><item>
-<title>Announcing The PIT Podcast 2020 Season!</title>  <description><![CDATA[I&#39;m happy to announce that the Productivity in Tech Podcast is back in action!
+I&#39;ve been struggling to keep weight off as my asthma has been worsening with
+the weight gain. If my friends are not available, I tend to take this route
+with my headphones in and use the time to decompress or just think about
+things. Also the time away from my computer really helps.
 
-![pit-logo](https://kjaymiller.s3-us-west-2.amazonaws.com/images/pit-v3-podcast.jpg)
+![the route I take](https://kjaymiller.s3-us-west-2.amazonaws.com/images/CleanShot-2020-05-25-at-23.01.11.png)]]></description>
 
-I was close to not publishing but I changed my mind after being scheduled to appear on two different podcasts. 
+<link>https://kjaymiller.com/quick-productivity-tip-walk-and-talks</link>
+<pubDate>Mon, 25 May 2020 23:01:00 -0700</pubDate><guid isPermaLink="false">quick-productivity-tip-walk-and-talks</guid></item><item>
+<title>Friends have been my Greatest Asset!</title>  <description><![CDATA[I&#39;ve been letting folks know about my [coaching](https://productivityintech.com/coaching) and [editing](https://productivityintech.com/editing) services more and more these days. 
 
-This Season (known as the 2020 Season) will be all about Me and My projects and productivity. 
+It&#39;s been a slow progressing growth. This is a good thing as I still have a day job and wouldn&#39;t be able to handle a massive influx of clients, but 6 months into this being a full business, I&#39;ve learned something extremely valuable. 
 
-The [first episode][episode-link] is out and you can listen on my [transistor page][episode-link] or in your podcast player.
+## Your best clients and promoters are the ones you&#39;ve been establishing a relationship with for a while.
 
-[episode-link]: https://podcast.productivityintech.com/s2020/1]]></description>
+I&#39;ve had a handful of coaching clients. Many coaching leads. I&#39;ve also done some marketing services and some editing for folks as well. 
 
-<link>https://kjaymiller.com/pitpodcast-2020-begins</link>
-<pubDate>Tue, 18 Feb 2020 23:51:00 -0800</pubDate><guid isPermaLink="false">pitpodcast-2020-begins</guid></item><item>
+100% of my clients are either someone I know and interact with on a regular basis **or** they were recommended by the aforementioned person.
+
+While I have received many leads and people promising to check out my services and get back to me. This seems to only happen when there is a relationship that has already been established.
+
+I know I&#39;m not telling you anything innovative here but I didn&#39;t realize the value of relationship building when it comes to finding clients. 
+
+## Ways to do this
+### 1.  Establish yourself as a Professional in the field and Connect with other professionals.
+
+![](https://kjaymiller.s3-us-west-2.amazonaws.com/images/adult-brainstorming-communication-1181421.jpg)
+&lt;small&gt;photo credit #wocintechchat&lt;/small&gt;
+
+One of the biggest networks that I have been able to tap into is working with other developers that have podcasts. We have a slack workspace that we all hang out in. It started out as just a handful of us but now there are over 50 people in there. 
+
+Each of them have their own reach and their own network. 
+I&#39;ve had them refer some of their audience to me when they are looking for a coaching client. 
+
+I&#39;ve also worked with a few of them as an editor when they need help with something. 
+
+### 2. Nurture Strong Relationships with the Noguchi Method
+Some relationships are easy to maintain and others are more of a chore. I like to treat my relationships similar to the [Noguchi Filing Method](https://unclutterer.com/2014/06/03/the-noguchi-filing-system/). 
+
+The Noguchi Filing Method is simple. When you take out a file. Move it to the top of the stack (or front of the line) When you put it back. 
+![](https://kjaymiller.s3-us-west-2.amazonaws.com/images/active-adult-beautiful-1799244.jpg)
+
+I do this in my head. The people that I just interacted with I try to interact with more. Over time you will connect with people that are receptive to maintaining a good relationship with you. Those will be the same people that will recommend you to potential clients or reach out to you if they have a need. 
+
+### 3. Don&#39;t be afraid to ask those that you know (nicely)
+I got my first client by sending the following message to about 50 of my podcasting friends.
+
+&gt; I&#39;ve been working to bring PIT back at the beginning of 2019 (I have some coding things that need to get done first)
+
+&gt; Also, PIT is now a business (officially). Aside from the podcast, I am doing content creation, coaching, and &#34;unicorn&#34; services.
+
+&gt; I was inspired by Kathy Campbell. My goal is to just help people where I can. 
+
+&gt; Here is a list of the services I provide.
+
+&gt; My skills include:
+&gt; - social media
+&gt; - recording videos and screencasts
+&gt; - podcast editing and recording
+&gt; - community management
+&gt; - newsletter publishing
+
+&gt; Do you have any ideas how I may be of any help?
+ 
+&gt; Also if you know of anyone that I could help out with those things or individual or group productivity coaching, I would love an introduction.
+ 
+Everyone that I sent this to kindly replied that they either couldn&#39;t help me, or they would keep an eye and ear out. 
+
+I didn&#39;t get upset I just said okay and continued to maintain a good relationship with them.
+
+One person did have a need and to this day they have been my most consistent and biggest client. They&#39;ve lead me to many other leads and clients that I&#39;ve received over time.
+
+The other thing about doing this that has been great is that now when I send out a message about some service I&#39;m offering, it is that group of people that often like and repost that message to their audience. 
+
+================
+
+None of these things are all that time intensive and none of them leave you with this _grimy_ feeling as if you are peddling to your friends. Your &#34;inner-circle&#34; doesn&#39;t want to see you fail. In fact, they will be your biggest fan. It&#39;s up to you to nurture those relationships and make sure that you let them know of ways that they can help.]]></description>
+
+<link>https://kjaymiller.com/friends-have-been-my-greatest-asset</link>
+<pubDate>Wed, 17 Apr 2019 09:24:00 -0700</pubDate><guid isPermaLink="false">friends-have-been-my-greatest-asset</guid></item><item>
+<title>January 2019 Bullet Journal Recap</title>  <description><![CDATA[Late last year I made the decision to go full time analog productivity. To me this was a return to my _Midori Traveller&#39;s Notebook_ and less reliability on mobile applications to keep track of things. 
+
+With January being a new year I thought it would be a great time to really do my best and dig in on this process. I didn&#39;t realize that I was going to be extremely busy with things and that my notebook would be crucial in keeping my sanity. 
+
+### What went well
+Since I&#39;ve been reading [_The Bullet Journal Method_][bullet journal] by Ryder Carrol, I really wanted to make things very simple. This meant reducing the amount of things that I tracked. I had previously tried to keep up with logging my food, how many times I fell into a tunnel of distraction, my water intake, and many other things. No more of that. 
+
+This time I wrote down all the things I wanted to track and in _Marie Kondo_ style, and tried to reduce the list to only things that were &#34;essential&#34; to the art of bullet journaling and things that I knew I wanted to make a habit of. 
+
+With the rebirth of the [Productivity in Tech Podcast][pitpodcast] and the creation of [Ask a Brit][aab] I wanted to make sure that I was publishing consistently. I also wanted to track how often I coded and read, two things that I tended to rely on momentum to be consistent with.
+
+Another big convept that helped me more than I thought it would was the idea behind threading. This was simply adding an arrow to the left followed by the page number of the continued thought. Also I add an arrow to the right and the page number for the next page I take the thought to. This makes it rather easy to add reference to items, which allows me to retrive information faster (and fill out my index, which I am terrible about).  
+
+### What didn&#39;t go so well
+There is still one area that I haven&#39;t fully is my management of a calendar. I had some big dates to remember for this year and I wasn&#39;t quite sure how to manage it with more and more going into my notebook. My podcast schedule is completely digital as it is tracked using calendly, google calendar, and Notion. Hopefully Notion will provide some kind of integration with G-Suite so that I don&#39;t have to manage this in multiple places. While I could just keep everything in my google calendar, I really don&#39;t rely on it as much as you think, but I haven&#39;t gotten into the habit of transferring items into my Analog calendar. This caused for some double-scheduling that could have been easily avoided. 
+
+Another failed experiment was abandoning the daily spread for a weekly theme. I quickly have to revert to this as I would have things that would stretch across several pages (and days) This meant that I was doing more unneccessary flipping through pages instead of just doing a daily review and transfer of information that helped me to prepare myself through the day. 
+
+### My thoughts going into February
+February is going to be a test on consistency for me. I&#39;ve proven that I can work from my notebook like I used to. As this trust has returned, I can continue to focus on adding more and more content and collections into it. I also think my current notebook will fill up in the middle of the month which will bring about a migration which I will definitely talk about at that time.]]></description>
+
+<link>https://kjaymiller.com/january-2019-bullet-journal-recap</link>
+<pubDate>Fri, 01 Feb 2019 16:00:00 -0800</pubDate><guid isPermaLink="false">january-2019-bullet-journal-recap</guid></item><item>
+<title>Travel, Parenting, and ADHD with Heidi Waterhouse</title>  <description><![CDATA[Heidi is a Developer Advocate for [Launch Darkly](https://www.launchdarkly.com/).  
+  
+Heidi travels all over the world and is away from home more than half of the month.  
+  
+In this conversation, Heidi shares with how she’s able to parent, prepare, and connect with her co-workers while always being on the go.  
+  
+**  
+Links:**
+
+  * [Follow Heidi on Twitter](https://twitter.com/Wiredferret)
+  * [Launch Darkly](https://www.launchdarkly.com/)
+  * [I Have ADD and So Can Ooh, Shiny! - Youtube](https://www.youtube.com/watch?v=hEVW67KSwwo)
+  
+Support the Productivity in Tech podcast and other independent podcasts at [https:ko-fi.com/JayandJayMedia](https:ko-fi.com/JayandJayMedia).  
+  
+OR  
+  
+Consider joining the [PIT Premium Membership](https://productivityintech.com/memberships)
+
+**[★ Support this podcast by donating ★](Https://ko-fi.com/jayandjaymedia)**]]></description>
+
+<link>https://kjaymiller.com/travel-parenting-and-adhd-with-heidi-waterhouse</link>
+<pubDate>Mon, 04 Mar 2019 18:05:00 -0800</pubDate><guid isPermaLink="false">travel-parenting-and-adhd-with-heidi-waterhouse</guid></item><item>
+<title>[Podcast] PIT Podcast Ep 5: What Companies AND Candidates can do Better in the Hiring Process with John Knox</title>  <description><![CDATA[This week on the Productivity in Tech Podcast, I spoke with John Knox.
+
+John left Evernote in Austin, TX to join his partner in Minneapolis, MN. 
+
+We talk about what it was like searching for a job and what Companies and Candidates can do better in the hiring process. 
+
+Sign up for the newsletter to get access to the Aftershow where John interviews me!
+&lt;https://buttondown.email/productivityintech&gt;]]></description>
+
+<link>https://kjaymiller.com/podcast-pit-podcast-ep-5-what-companies-and-candidates-can-do-better-in-the-hiring-process-with-john-knox</link>
+<pubDate>Mon, 04 Feb 2019 08:00:00 -0800</pubDate><guid isPermaLink="false">podcast-pit-podcast-ep-5-what-companies-and-candidates-can-do-better-in-the-hiring-process-with-john-knox</guid></item><item>
+<title>Fish Resources</title>  <description><![CDATA[&lt;div class=&#34;notification is-dark&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;h2 class=&#34;has-text-light&#34;&gt;Update:&lt;/h2&gt;
+&lt;p&gt;Due to a lack of support by some services that I use very regularly, I have stopped using fish and have gone back to zsh.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+I do a lot of work in the terminal. I understand that for many it&#39;s the lack of glitz and glamour that keeps people away from it, and while the majority of my computer usage is in some GUI, there are still many things that I can do much faster using a script that I can launch from my terminal.
+
+Fish (Short for Friendly Interactive Shell) was a great attempt to add some modern-ness to the terminal environment. That said it has been around since the 90&#39;s as this boutique experience that some love, many ignore, and even more fear. 
+
+Well, fear not. Here are a few links that can help introduce you to fish and help you get out the gate quickly.
+
+### NOTE: This is just a list. I am not doing a review of these items.
+
+## GitHub Repos 
+
+- [jorgebucaran/awesome-fish: A curated list of packages, prompts, and resources for the fish shell.](https://github.com/jorgebucaran/awesome-fish)
+- [joseluisq/gitnow: Speed up your Git workflow.](https://github.com/joseluisq/gitnow)
+- [laughedelic/pisces: ♓️Fish shell plugin that helps you to work with paired symbols in the command line](https://github.com/laughedelic/pisces)
+- [fishpkg/fish-git-util: Convenient git utility functions for the fish shell](https://github.com/fishpkg/fish-git-util)
+- [danhper/fish-ssh-agent](https://github.com/danhper/fish-ssh-agent)
+- [rodrigobdz/fish-apple-touchbar: ⚡Supercharge your touchbar with fish 🐠](https://github.com/rodrigobdz/fish-apple-touchbar)
+- [jorgebucaran/fish-cookbook: Tips and recipes for fish, from shell to plate.](https://github.com/jorgebucaran/fish-cookbook)
+- [The fish shell is awesome - Julia Evans](https://jvns.ca/blog/2017/04/23/the-fish-shell-is-awesome/)
+
+## Blog Posts
+
+- [The Fish Shell](https://flaviocopes.com/fish-shell/)
+- [The fish Shell](https://mvolkmann.github.io/fish-article/)
+- [Branching out from Bash: Fishing expedition - BrettTerpstra.com](https://brettterpstra.com/2019/10/11/branching-out-from-bash-fishing-expedition/)
+- [Why you should give a chance to Fish shell - DEV Community 👩‍💻👨‍💻](https://dev.to/jukben/why-you-should-give-a-chance-to-fish-shell-5a0l)
+
+## Obligatory DDG Search
+
+This isn&#39;t a complete list. If you find any that I should look into, let me know.]]></description>
+
+<link>https://kjaymiller.com/fish-resources</link>
+<pubDate>Tue, 14 Apr 2020 08:19:00 -0700</pubDate><guid isPermaLink="false">fish-resources</guid></item><item>
+<title>[Podcast] PIT Podcast Ep 4: A Native Indi Creating An Indie Shop in Indi(ana)</title>  <description><![CDATA[My guest this week was Mike Young. 
+
+Mike is the CEO of Pear Circuit which works to help create technology solutions for startups and non-profits who want to make the world better than it was before. 
+
+In this conversation, we discuss what it&#39;s like to build a business outside of Silicon Valley.]]></description>
+
+<link>https://kjaymiller.com/podcast-pit-podcast-ep-4-a-native-indi-creating-an-indie-shop-in-indi-ana</link>
+<pubDate>Mon, 28 Jan 2019 21:00:00 -0800</pubDate><guid isPermaLink="false">podcast-pit-podcast-ep-4-a-native-indi-creating-an-indie-shop-in-indi-ana</guid></item><item>
 <title>I Can&#39;t Be the Only One Seeing This</title>  <description><![CDATA[What are people yelling about?
 
 I scrolled through a twitter thread about asking people to give a side by side comparison of candidate x and candidate y in regarding how their policy affected underrepresented groups. 
@@ -4013,134 +4081,66 @@ The perfect end to this rant is the exact response I would expect from my fellow
 
 <link>https://kjaymiller.com/march-2020-crisis-social-issues</link>
 <pubDate>Thu, 05 Mar 2020 13:58:00 -0800</pubDate><guid isPermaLink="false">march-2020-crisis-social-issues</guid></item><item>
-<title>[Podcast] PIT Podcast Ep 5: What Companies AND Candidates can do Better in the Hiring Process with John Knox</title>  <description><![CDATA[This week on the Productivity in Tech Podcast, I spoke with John Knox.
+<title>May 2020 - Monthly Catchup</title>  <description><![CDATA[_This post is also available via my [Newsletter](https://buttondown.email/productivityintech)._
 
-John left Evernote in Austin, TX to join his partner in Minneapolis, MN. 
+# Monthly Catchup 
 
-We talk about what it was like searching for a job and what Companies and Candidates can do better in the hiring process. 
+Speaking of Ketchup, here are some [Artisan Ketchup Ideas](https://sharedappetite.com/recipes/10-creative-artisan-ketchup-flavors/).
 
-Sign up for the newsletter to get access to the Aftershow where John interviews me!
-&lt;https://buttondown.email/productivityintech&gt;]]></description>
+## Productivity in Tech Podcast
 
-<link>https://kjaymiller.com/podcast-pit-podcast-ep-5-what-companies-and-candidates-can-do-better-in-the-hiring-process-with-john-knox</link>
-<pubDate>Mon, 04 Feb 2019 08:00:00 -0800</pubDate><guid isPermaLink="false">podcast-pit-podcast-ep-5-what-companies-and-candidates-can-do-better-in-the-hiring-process-with-john-knox</guid></item><item>
-<title>Quick Productivity Tip - Walk and Talks</title>  <description><![CDATA[Since the Quarantine, I&#39;ve been goign on two weekly walks with a couple of PIT
-Premium Members.
+This month on the [PIT Podcast] I interviewed my good internet friend [Christina Morrillo](https://twitter.com/divinetechygirl).
 
-This allows me to do a few things.
+[![pit podcast](https://s3-us-west-2.amazonaws.com/kjaymiller/images/pit-v3.jpg)][PIT Podcast]
 
-- Catch up/Learn more with members of my community
-- Get some exercise
-- Vent about whatever it is I need to vent about.
+## The Biz
+Business has been good. I&#39;ll be talking about this in my [premium newsletter] where I break down how I run my business, the workflows the code, the everything (but the clients). 
 
-I&#39;ve been struggling to keep weight off as my asthma has been worsening with
-the weight gain. If my friends are not available, I tend to take this route
-with my headphones in and use the time to decompress or just think about
-things. Also the time away from my computer really helps.
+## Productivity
+&#34;_In these Troubled Times_&#34; 🤮
 
-![the route I take](https://kjaymiller.s3-us-west-2.amazonaws.com/images/CleanShot-2020-05-25-at-23.01.11.png)]]></description>
+Just Kidding. Times are Tough. It&#39;s been tough for me as well. I found out my mother had COVID-19. She has since recovered. That&#39;s all I&#39;ll say about that. 
 
-<link>https://kjaymiller.com/quick-productivity-tip-walk-and-talks</link>
-<pubDate>Mon, 25 May 2020 23:01:00 -0700</pubDate><guid isPermaLink="false">quick-productivity-tip-walk-and-talks</guid></item><item>
-<title>[Podcast] Ask a Brit Ep 4: I don&#39;t know who that is!</title>  <description><![CDATA[In this episode, I ask Jamie if the UK is still the beacon of world pop culture?]]></description>
+I&#39;ve been on the day job working from home. For those that don&#39;t know, my immune system is compromised from my time in the Marines. That said I cough enough to scare people into staying clear of me. I think that is going to be coming to an end soon, although I feel like I&#39;ve been more productive since.
 
-<link>https://kjaymiller.com/podcast-ask-a-brit-ep-4-i-don-t-know-who-that-is</link>
-<pubDate>Mon, 28 Jan 2019 20:00:00 -0800</pubDate><guid isPermaLink="false">podcast-ask-a-brit-ep-4-i-don-t-know-who-that-is</guid></item><item>
-<title>Quickly Set Your Environment with Bunch and Alfred</title>  <description><![CDATA[[Bunch](https://brettterpstra.com/projects/bunch/) is an environment setup/teardown tool by the [mad genius and yoga maestro of the internet][0] Brett Terpstra.
+This Month, I purchased [DevonThink](https://devontechnologies.com/apps/devonthink). I don&#39;t love or hate using it, which gives me a confident feeling that I&#39;ll use it as a tool and not fiddle with it all that much. My current strategy is to just add things to it and then clean it up once a week/month/haven&#39;t really decided yet. I&#39;ve also looked at some of the other [DevonTechnologies](https://devontechnologies.com) Tools. I will have some quick thoughts maybe released as a blog post in the near future. I was even able to convince my friends on the [TekTok Podcast] to join me on it.
 
-Bunch uses small configuration files to quickly manipulate your desktop environment. 
+![DevonThink](https://kjaymiller.s3-us-west-2.amazonaws.com/images/CleanShot-2020-05-25-at-23.34.03.png)
 
-With it you can:
+## Posts
 
-* Open/Close/Focus Applications, Files, and URLs
-* Run shell and Applescript scripts to expand the functionality event more
+- [Quick Productivity Tip - Walk and Talks](https://kjaymiller.com/quick_productivity_tip_-_walk_and_talks)
+- [Quick Productivity Tip - The Upcoming Family Agenda](https://kjaymiller.com/qtp-family-agenda)
 
-Because I prefer to keep my hands on the keyboard and the Application&#39;s main method of use is the Dock, I opted to take advantage of Bunch&#39;s URL-Scheme. 
+## Projects
 
-```
-x-bunch://open?bunch=[Bunch Name]
-```
+### Render Engine 
+* Made a few changes to clean up URL&#39;s. This was because once upon a time I would add links to my PIT Podcast titles to my [personal blog]
+* Fixed my RSS Feeds (Finally). They did change so if you are interested you can subscribe to them here or on my website.
+* Support for Categories and Tags
 
-This plus smart use of the [_File Filter_][1] in Alfred&#39;s workflow feature allowed me to quickly setup an [Alfred Workflow][2] that not only lets you run your bunches but also lets you:
+### Transcriptor
+I launched Transcriptor this past month. Check out the [announcement post], to learn more. 
 
-* Display the Config File of the Bunch.
-* Edit the Bunch in your default application.
-* Refresh your Bunches (After making a change)
+### Episde-DL
 
-The workflow is available on [Packal][3] to modify via my [Github Repo][2]
+[Episode-DL](https://pypi.org/project/Episode-DL/) is just a little utility that I added to PyPI because I tend to need to download mp3&#39;s from RSS feeds all the time. This isn&#39;t some ground breaking tool and really just has three functions. All in all, this was just a way for me to remember how I do something that I don&#39;t have to do all the time, but I do enough that this helped.
 
-[0]: https://productivityintech.transistor.fm/episodes/podcast-ground-surfing-with-brett-terpstra
-[1]: https://www.alfredapp.com/help/workflows/inputs/file-filter/
-[2]: https://github.com/kjaymiller/Bunch_Alfred
-[3]: http://www.packal.org/workflow/bunch-quick-launch]]></description>
+### Following Me
+You can reach me on Twitter, Micro.Blog, or My Website. You can also just reply to this email. I&#39;d love to hear from you.
 
-<link>https://kjaymiller.com/quickly-set-your-environment-with-bunch-and-alfred</link>
-<pubDate>Tue, 01 Oct 2019 11:00:00 -0700</pubDate><guid isPermaLink="false">quickly-set-your-environment-with-bunch-and-alfred</guid></item><item>
-<title>In Defense of the Black Multi-Potentialite</title>  <description><![CDATA[&gt; _Stay in Your Lane._ - NRA to Emergency Room Doctors
+If you have an RSS Reader that you use. Consider Subscribing to my [Blog] or [Microblog].
 
+[personal blog]: https://kjaymiller.com/all_posts
+[Blog]: https://kjaymiller.com/blog.rss.xml
+[MicroBlog]: https://kjaymiller.com/microblog.rss.xml
+[Twitch]: https://twitch.tv/kjaymiller
+[PIT Podcast]: https://podcast.productivityintech.com/s2020/5
+[Transcriptor]: https://pypi.org/project/transcriptor
+[announcement post]: https://kjaymiller.com/announcing_transcriptor
+[TekTok Podcast]: https://www.tekside.net/tektok/2020/5/12/hl180iov0tpnl3rs0jlbu8q1efb0yu
+[premium newsletter]: https://buttondown.email/pitpremium]]></description>
 
-&gt; _Shut up and Dribble._ - Laura Ingraham
-
-
-&gt; _Why does every black actor gotta rap some. I don&#39;t know. All I know is I&#39;m the best one._ - Donald Glover aka Childish Gambino.
-
-
-Some of us are born knowing what we will do. I have worked for family-owned companies where the son grew up in the warehouse learning what he could so that one day he would run the show.
-
-For many of us, the only family legacy is filled with gang involvement, drug dealing, and a life of violence.
-
-For me, it was a legacy of the military, but that was still something that I was not sold on. My military career came from being tired of living in self-placed poverty and the desire not to return to college. Still, my father was in the Army, my grandfather was in the Army, so I did what any respectable young man with a history of Army veterans would do. 
-
-I joined the Marine Corps.
-
-### But Why
-
-&gt; For what is a man, what has he got?
-
-&gt; If not himself, then he has naught
-
-&gt; To say the things he truly feels
-
-&gt; And not the words of one who kneels
-
-&gt; The record shows, I took the blows
-
-&gt; And did it my way - My Way, Frank Sinatra
-
-I have never wanted to do a thing because that is how it&#39;s been done. I&#39;ve never wanted to walk the path that was paved for me. 
-
-In my opinion, being told, &#34;I can&#39;t&#34; is the biggest motivator.
-
-When I was getting out of the military, I was told, I&#39;d never find a job (I got one). When I married young I was told I&#39;d regret it (No Regrets).
-
-In my first job, I was told to devote all my energy to the job... NO.
-
-### I do a lot.
-
-* I work a Day job.
-* I manage a [side business](https://productivityintech.com) helping people in tech with Marketing and Digital Content Production.
-* I [write code](https://github.com/kjaymiller).
-* I host a range of [podcasts](/projects) from tech to gaming.
-* I&#39;m a member of an Esports organization and [stream regularly](https://twitch.tv/kjaymiller).
-
-My _coding_ skills help me **automate** and **optimize** my day job.
-
-My _day job_ skills, challenge me to **think differently** and **shake up stale thought**.
-
-My _podcasting_ and _streaming_ skills gave me the ability to identify ways that **I could help my
-side-business clients** in **their** content-creating journey.
-
-They may not seem connected at first, but it is ALL the things I do that
-qualifies me to do what I do, how I do it. 
-
-I know it&#39;s a lot, but the people that inspired me, are the people that made careers doing the things they enjoyed and finding ways to connect the dots. 
-
-Donald Glover became one of the most influential black artists in America by combining his ability to act with an ability to direct and create amazing and thoughtful music.
-
-Janelle Monae has done something similar by not just making music but making a statement in her sound, and videos. Her message made her a clear choice for portraying one of Black America&#39;s most notable mathematicians, Mary Jackson.
-
-My child will grow up seeing me doing what I want and enjoying it, and maybe I will inspire her to do the same.]]></description>
-
-<link>https://kjaymiller.com/in-defense-of-the-black-multi-potentialite</link>
-<pubDate>Sat, 06 Jun 2020 22:24:00 -0700</pubDate><guid isPermaLink="false">in-defense-of-the-black-multi-potentialite</guid></item></channel>
+<link>https://kjaymiller.com/may-2020-monthly-catchup</link>
+<pubDate>Mon, 25 May 2020 23:40:00 -0700</pubDate><guid isPermaLink="false">may-2020-monthly-catchup</guid></item></channel>
 </rss>
