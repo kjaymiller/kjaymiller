@@ -15,7 +15,7 @@ HEADER_LINKS = (
     Link(name='Newsletter', url='/subscribe'),
     )
 
-mysite = Site(strict=True, timezone='US/Pacific')
+mysite = Site(timezone='US/Pacific')
 mysite.SITE_TITLE = '(K) Jay Miller'
 mysite.SITE_URL = 'https://kjaymiller.com'
 mysite.AUTHOR = 'Jay Miller'
@@ -38,7 +38,6 @@ class Pages(Collection):
     routes = ["", "pages"]
     content_path = "content/pages"
     template = "page.html"
-
 
 @mysite.register_collection
 class Blog(Blog):
