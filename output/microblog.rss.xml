@@ -7,40 +7,33 @@
     <atom:link href="https://kjaymiller.com/microblog.rss.xml" rel="self" type="application/rss+xml" />
 
 <item>
+<title>NewPage</title>  <description><![CDATA[I need a brain!! 🧠
+
+![brain post](https://kjaymiller.s3-us-west-2.amazonaws.com/images/NeedABrain.jpeg)]]></description>
+
+<link>https://kjaymiller.com/microblog/202022015290</link>
+<pubDate>Thu, 20 Feb 2020 15:29:00 -0800</pubDate><guid isPermaLink="false">202022015290</guid></item><item>
+<title>NewPage</title>  <description><![CDATA[[![Questionable Content Post for 12 Jun 2020](https://questionablecontent.net/comics/4285.png)](https://questionablecontent.net/comics/4285)
+
+That&#39;s also what we call them. I have a long history of dating white girls. Now
+I&#39;m happily married to one and we have a beautiful little light-skinned girl. I
+know the people that follow me don&#39;t have a problem, but I always feel
+obligated to let folks know I&#39;m treat black folks that got a problem with that
+the same wy I do white folks...]]></description>
+
+<link>https://kjaymiller.com/microblog/20206112270</link>
+<pubDate>Thu, 11 Jun 2020 22:07:00 -0700</pubDate><guid isPermaLink="false">20206112270</guid></item><item>
 <title>NewPage</title>  <description><![CDATA[And just like that if you already have the files that you are requesting, the
 quickstart will skip that step.]]></description>
 
 <link>https://kjaymiller.com/microblog/20206821330</link>
 <pubDate>Mon, 08 Jun 2020 21:33:00 -0700</pubDate><guid isPermaLink="false">20206821330</guid></item><item>
-<title>NewPage</title>  <description><![CDATA[Funny how you do a newsletter to avoid doing a bonus podcast episode just to do
-both and about 5 short blog posts all in one sitting..... lol.]]></description>
-
-<link>https://kjaymiller.com/microblog/202052523500</link>
-<pubDate>Mon, 25 May 2020 23:50:00 -0700</pubDate><guid isPermaLink="false">202052523500</guid></item><item>
 <title>NewPage</title>  <description><![CDATA[Fixed a few issues wiht rss on my static site generator. I expect to be posting posting a lot more now. ^_^
 
 ![yay-tears](https://media0.giphy.com/media/axu6dFuca4HKM/giphy.gif)]]></description>
 
 <link>https://kjaymiller.com/microblog/202021910100</link>
 <pubDate>Wed, 19 Feb 2020 10:10:00 -0800</pubDate><guid isPermaLink="false">202021910100</guid></item><item>
-<title>NewPage</title>  <description><![CDATA[Another test. I will prolly delete these afterwards.]]></description>
-
-<link>https://kjaymiller.com/microblog/202021914210</link>
-<pubDate>Wed, 19 Feb 2020 14:21:00 -0800</pubDate><guid isPermaLink="false">202021914210</guid></item><item>
-<title>NewPage</title>  <description><![CDATA[![filename](https://kjaymiller.s3-us-west-2.amazonaws.com/images/CleanShot-2020-03-05-at-14.00.11-2x.png)
-
-I defintely have an issue if this is how I&#39;m naming blog posts...]]></description>
-
-<link>https://kjaymiller.com/microblog/2020351420</link>
-<pubDate>Thu, 05 Mar 2020 14:02:00 -0800</pubDate><guid isPermaLink="false">2020351420</guid></item><item>
-<title>NewPage</title>  <description><![CDATA[Very Cool, but like 2 minutes into it. My head was really tired. Still a great #Ally tool for people that need it. May even use to scroll. 
-
-![Hawkeye](https://uploads-ssl.webflow.com/5e235a4005541e88936fd2cd/5e4f2464566ac687e948a9da_hero.png)
-
-[Hawkeye - Head Control for Mac](https://www.usehawkeye.com/access-mac)]]></description>
-
-<link>https://kjaymiller.com/microblog/20202219330</link>
-<pubDate>Fri, 21 Feb 2020 09:33:00 -0800</pubDate><guid isPermaLink="false">20202219330</guid></item><item>
 <title>NewPage</title>  <description><![CDATA[Decided to make a little fun project with Python.
 
 It would use `pendulum` to give a list of times until the next occurance
@@ -52,24 +45,6 @@ Keep 👀&#39;s out for it.]]></description>
 
 <link>https://kjaymiller.com/microblog/20203216250</link>
 <pubDate>Mon, 02 Mar 2020 16:25:00 -0800</pubDate><guid isPermaLink="false">20203216250</guid></item><item>
-<title>NewPage</title>  <description><![CDATA[[![Questionable Content Post for 12 Jun 2020](https://questionablecontent.net/comics/4285.png)](https://questionablecontent.net/comics/4285)
-
-That&#39;s also what we call them. I have a long history of dating white girls. Now
-I&#39;m happily married to one and we have a beautiful little light-skinned girl. I
-know the people that follow me don&#39;t have a problem, but I always feel
-obligated to let folks know I&#39;m treat black folks that got a problem with that
-the same wy I do white folks...]]></description>
-
-<link>https://kjaymiller.com/microblog/20206112270</link>
-<pubDate>Thu, 11 Jun 2020 22:07:00 -0700</pubDate><guid isPermaLink="false">20206112270</guid></item><item>
-<title>NewPage</title>  <description><![CDATA[Been writing more and more because of this. People have mentioned that they have enjoyed getting to know me through my posts.
-
-Well, learn why I do ALL the things I do.
-
-&lt;https://kjaymiller.com/in_defense_of_the_black_multi-potentialite&gt;]]></description>
-
-<link>https://kjaymiller.com/microblog/20206623190</link>
-<pubDate>Sat, 06 Jun 2020 23:19:00 -0700</pubDate><guid isPermaLink="false">20206623190</guid></item><item>
 <title>NewPage</title>  <description><![CDATA[### Render Engine Minor Update:
 
 I think I finally fixed the [render engine] feed.
@@ -84,22 +59,10 @@ Also I&#39;ve been working on a lot of things so I&#39;ll just drop this here.
 
 <link>https://kjaymiller.com/microblog/20205221500</link>
 <pubDate>Fri, 22 May 2020 15:00:00 -0700</pubDate><guid isPermaLink="false">20205221500</guid></item><item>
-<title>NewPage</title>  <description><![CDATA[minor update to render engine. You can now quickly build your setup using
-`render-engine-quickstart`. 
+<title>NewPage</title>  <description><![CDATA[Just the beggining but I now have a [Coffee Page](https://kjaymiller.com/coffee.html), that I hope to update regularly. ☕]]></description>
 
-**WARNING** this will overwrite any  `run.py` that you have set up. 
-
-This should be fixed in some subsequent updates. That and a few
-other things.]]></description>
-
-<link>https://kjaymiller.com/microblog/20206820580</link>
-<pubDate>Mon, 08 Jun 2020 20:58:00 -0700</pubDate><guid isPermaLink="false">20206820580</guid></item><item>
-<title>NewPage</title>  <description><![CDATA[Because I&#39;m not one to expose myself to the arguments, I release my thoughts about Hey and why I&#39;m just not that impressed. On the PIT Bonus Feed. 
-
-To listen join the Productivity in Tech Slack channel [24 Hour invite link](https://join.slack.com/t/productivityintech/shared_invite/zt-fcrt67es-y5XaPsnd7CDT9AG~AetL0g)]]></description>
-
-<link>https://kjaymiller.com/microblog/202062119390</link>
-<pubDate>Sun, 21 Jun 2020 19:39:00 -0700</pubDate><guid isPermaLink="false">202062119390</guid></item><item>
+<link>https://kjaymiller.com/microblog/2020321250</link>
+<pubDate>Mon, 02 Mar 2020 12:05:00 -0800</pubDate><guid isPermaLink="false">2020321250</guid></item><item>
 <title>NewPage</title>  <description><![CDATA[New Coffee Alert ☕ 🚨
 PT&#39;s Coffee - [Flatlander](https://www.ptscoffee.com/collections/coffee/products/flatlander)
 
@@ -110,28 +73,93 @@ PT&#39;s Coffee - [Flatlander](https://www.ptscoffee.com/collections/coffee/prod
 
 <link>https://kjaymiller.com/microblog/202021913160</link>
 <pubDate>Wed, 19 Feb 2020 13:16:00 -0800</pubDate><guid isPermaLink="false">202021913160</guid></item><item>
-<title>NewPage</title>  <description><![CDATA[I need a brain!! 🧠
+<title>NewPage</title>  <description><![CDATA[My Netlify build is trying to load my building structure only because my repo has a `requirements.txt`.  No `runtime.txt` and no build options. I render content locally and have the output be the only thing that Netlify serves. 
 
-![brain post](https://kjaymiller.s3-us-west-2.amazonaws.com/images/NeedABrain.jpeg)]]></description>
+This started happening yesterday.]]></description>
 
-<link>https://kjaymiller.com/microblog/202022015290</link>
-<pubDate>Thu, 20 Feb 2020 15:29:00 -0800</pubDate><guid isPermaLink="false">202022015290</guid></item><item>
-<title>NewPage</title>  <description><![CDATA[Testing 1, 2, 3]]></description>
+<link>https://kjaymiller.com/microblog/20205289550</link>
+<pubDate>Thu, 28 May 2020 09:55:00 -0700</pubDate><guid isPermaLink="false">20205289550</guid></item><item>
+<title>NewPage</title>  <description><![CDATA[While I do transcriptions for podcasters as a part of my business, I wanted to share how I generate my base transcription files using AmazonAWS.
 
-<link>https://kjaymiller.com/microblog/202021813410</link>
-<pubDate>Tue, 18 Feb 2020 13:41:00 -0800</pubDate><guid isPermaLink="false">202021813410</guid></item><item>
-<title>NewPage</title>  <description><![CDATA[Personal site is now using [Conversation.JS](https://help.micro.blog/2020/conversation-js/) from micro.blog!
+&lt;https://github.com/productivity-in-tech/pit-transcription-cli&gt;]]></description>
 
-I&#39;ve been a long opponent of comments buts I think the MB community is wonderful (and strongly moderated) so I&#39;m taking that chance.]]></description>
+<link>https://kjaymiller.com/microblog/20206511280</link>
+<pubDate>Fri, 05 Jun 2020 11:28:00 -0700</pubDate><guid isPermaLink="false">20206511280</guid></item><item>
+<title>NewPage</title>  <description><![CDATA[I&#39;ve been working on the next feature for [Render
+Engine](https://render-engine.site) – Pagination.
 
-<link>https://kjaymiller.com/microblog/20202261170</link>
-<pubDate>Wed, 26 Feb 2020 11:07:00 -0800</pubDate><guid isPermaLink="false">20202261170</guid></item><item>
+I do think this will be the last feature for a while. I really need to update
+docs and tests. I ran into many issues with this one.]]></description>
+
+<link>https://kjaymiller.com/microblog/20207141560</link>
+<pubDate>Tue, 14 Jul 2020 15:06:00 -0700</pubDate><guid isPermaLink="false">20207141560</guid></item><item>
+<title>NewPage</title>  <description><![CDATA[Put out a newsletter, they said. It&#39;ll be quick, they said.
+
+![updates](https://kjaymiller.s3-us-west-2.amazonaws.com/images/CleanShot-2020-05-25-at-23.57.51.png)]]></description>
+
+<link>https://kjaymiller.com/microblog/202052523580</link>
+<pubDate>Mon, 25 May 2020 23:58:00 -0700</pubDate><guid isPermaLink="false">202052523580</guid></item><item>
+<title>NewPage</title>  <description><![CDATA[Funny how you do a newsletter to avoid doing a bonus podcast episode just to do
+both and about 5 short blog posts all in one sitting..... lol.]]></description>
+
+<link>https://kjaymiller.com/microblog/202052523500</link>
+<pubDate>Mon, 25 May 2020 23:50:00 -0700</pubDate><guid isPermaLink="false">202052523500</guid></item><item>
 <title>NewPage</title>  <description><![CDATA[Having fun writing docs for render engine.. Also it has a new home 🏠.
 
 &lt;https://render-engine.site&gt;]]></description>
 
 <link>https://kjaymiller.com/microblog/20207616310</link>
 <pubDate>Mon, 06 Jul 2020 16:31:00 -0700</pubDate><guid isPermaLink="false">20207616310</guid></item><item>
+<title>NewPage</title>  <description><![CDATA[Testing Mobile Upload. Using Drafts and Shortcuts.]]></description>
+
+<link>https://kjaymiller.com/microblog/202021914130</link>
+<pubDate>Wed, 19 Feb 2020 14:13:00 -0800</pubDate><guid isPermaLink="false">202021914130</guid></item><item>
+<title>NewPage</title>  <description><![CDATA[You can now support my developer work in PIT through GitHub Sponsors.
+
+Sponsoring my work helps me build more tools I use to help developer creators. 
+
+&lt;https://github.com/sponsors/kjaymiller&gt;]]></description>
+
+<link>https://kjaymiller.com/microblog/2020729460</link>
+<pubDate>Thu, 02 Jul 2020 09:46:00 -0700</pubDate><guid isPermaLink="false">2020729460</guid></item><item>
+<title>NewPage</title>  <description><![CDATA[**[Render Engine v. 2020.5.5](https://pypi.org/project/render-engine/2020.5.5) is available with native search functionality.** Documentation and blog posts added to task list.]]></description>
+
+<link>https://kjaymiller.com/microblog/202052811260</link>
+<pubDate>Thu, 28 May 2020 11:26:00 -0700</pubDate><guid isPermaLink="false">202052811260</guid></item><item>
+<title>NewPage</title>  <description><![CDATA[minor update to render engine. You can now quickly build your setup using
+`render-engine-quickstart`. 
+
+**WARNING** this will overwrite any  `run.py` that you have set up. 
+
+This should be fixed in some subsequent updates. That and a few
+other things.]]></description>
+
+<link>https://kjaymiller.com/microblog/20206820580</link>
+<pubDate>Mon, 08 Jun 2020 20:58:00 -0700</pubDate><guid isPermaLink="false">20206820580</guid></item><item>
+<title>NewPage</title>  <description><![CDATA[Testing 1, 2, 3]]></description>
+
+<link>https://kjaymiller.com/microblog/202021813410</link>
+<pubDate>Tue, 18 Feb 2020 13:41:00 -0800</pubDate><guid isPermaLink="false">202021813410</guid></item><item>
+<title>NewPage</title>  <description><![CDATA[![filename](https://kjaymiller.s3-us-west-2.amazonaws.com/images/CleanShot-2020-03-05-at-14.00.11-2x.png)
+
+I defintely have an issue if this is how I&#39;m naming blog posts...]]></description>
+
+<link>https://kjaymiller.com/microblog/2020351420</link>
+<pubDate>Thu, 05 Mar 2020 14:02:00 -0800</pubDate><guid isPermaLink="false">2020351420</guid></item><item>
+<title>NewPage</title>  <description><![CDATA[Personal site is now using [Conversation.JS](https://help.micro.blog/2020/conversation-js/) from micro.blog!
+
+I&#39;ve been a long opponent of comments buts I think the MB community is wonderful (and strongly moderated) so I&#39;m taking that chance.]]></description>
+
+<link>https://kjaymiller.com/microblog/20202261170</link>
+<pubDate>Wed, 26 Feb 2020 11:07:00 -0800</pubDate><guid isPermaLink="false">20202261170</guid></item><item>
+<title>NewPage</title>  <description><![CDATA[Adding todos in my docstrings is a great way to manage things you want to do in your code without you muddying up your project manager.
+
+Of course once you commit to working on them you should really add them to your _trusted system_.
+
+![docstrings](https://kjaymiller.s3-us-west-2.amazonaws.com/images/CleanShot-2020-02-26-at-14.13.25-2x.png)]]></description>
+
+<link>https://kjaymiller.com/microblog/202022614150</link>
+<pubDate>Wed, 26 Feb 2020 14:15:00 -0800</pubDate><guid isPermaLink="false">202022614150</guid></item><item>
 <title>NewPage</title>  <description><![CDATA[Not sure which is more important. 
 
 - Fixing Bugs
@@ -143,64 +171,36 @@ I&#39;ve been a long opponent of comments buts I think the MB community is wonde
 
 <link>https://kjaymiller.com/microblog/20202201170</link>
 <pubDate>Thu, 20 Feb 2020 11:07:00 -0800</pubDate><guid isPermaLink="false">20202201170</guid></item><item>
-<title>NewPage</title>  <description><![CDATA[You can now support my developer work in PIT through GitHub Sponsors.
-
-Sponsoring my work helps me build more tools I use to help developer creators. 
-
-&lt;https://github.com/sponsors/kjaymiller&gt;]]></description>
-
-<link>https://kjaymiller.com/microblog/2020729460</link>
-<pubDate>Thu, 02 Jul 2020 09:46:00 -0700</pubDate><guid isPermaLink="false">2020729460</guid></item><item>
-<title>NewPage</title>  <description><![CDATA[Testing Mobile Upload. Using Drafts and Shortcuts.]]></description>
-
-<link>https://kjaymiller.com/microblog/202021914130</link>
-<pubDate>Wed, 19 Feb 2020 14:13:00 -0800</pubDate><guid isPermaLink="false">202021914130</guid></item><item>
-<title>NewPage</title>  <description><![CDATA[Put out a newsletter, they said. It&#39;ll be quick, they said.
-
-![updates](https://kjaymiller.s3-us-west-2.amazonaws.com/images/CleanShot-2020-05-25-at-23.57.51.png)]]></description>
-
-<link>https://kjaymiller.com/microblog/202052523580</link>
-<pubDate>Mon, 25 May 2020 23:58:00 -0700</pubDate><guid isPermaLink="false">202052523580</guid></item><item>
-<title>NewPage</title>  <description><![CDATA[I&#39;ve been working on the next feature for [Render
-Engine](https://render-engine.site) – Pagination.
-
-I do think this will be the last feature for a while. I really need to update
-docs and tests. I ran into many issues with this one.]]></description>
-
-<link>https://kjaymiller.com/microblog/20207141560</link>
-<pubDate>Tue, 14 Jul 2020 15:06:00 -0700</pubDate><guid isPermaLink="false">20207141560</guid></item><item>
-<title>NewPage</title>  <description><![CDATA[Just the beggining but I now have a [Coffee Page](https://kjaymiller.com/coffee.html), that I hope to update regularly. ☕]]></description>
-
-<link>https://kjaymiller.com/microblog/2020321250</link>
-<pubDate>Mon, 02 Mar 2020 12:05:00 -0800</pubDate><guid isPermaLink="false">2020321250</guid></item><item>
 <title>NewPage</title>  <description><![CDATA[Been having woes with YouTube with my clients. I do wish there was an IndieWeb version. 
 
 ![Youtube Studio](https://kjaymiller.s3-us-west-2.amazonaws.com/images/CleanShot-2020-02-21-at-09.02.15-2x.png)]]></description>
 
 <link>https://kjaymiller.com/microblog/2020221980</link>
 <pubDate>Fri, 21 Feb 2020 09:08:00 -0800</pubDate><guid isPermaLink="false">2020221980</guid></item><item>
-<title>NewPage</title>  <description><![CDATA[While I do transcriptions for podcasters as a part of my business, I wanted to share how I generate my base transcription files using AmazonAWS.
+<title>NewPage</title>  <description><![CDATA[Very Cool, but like 2 minutes into it. My head was really tired. Still a great #Ally tool for people that need it. May even use to scroll. 
 
-&lt;https://github.com/productivity-in-tech/pit-transcription-cli&gt;]]></description>
+![Hawkeye](https://uploads-ssl.webflow.com/5e235a4005541e88936fd2cd/5e4f2464566ac687e948a9da_hero.png)
 
-<link>https://kjaymiller.com/microblog/20206511280</link>
-<pubDate>Fri, 05 Jun 2020 11:28:00 -0700</pubDate><guid isPermaLink="false">20206511280</guid></item><item>
-<title>NewPage</title>  <description><![CDATA[Adding todos in my docstrings is a great way to manage things you want to do in your code without you muddying up your project manager.
+[Hawkeye - Head Control for Mac](https://www.usehawkeye.com/access-mac)]]></description>
 
-Of course once you commit to working on them you should really add them to your _trusted system_.
+<link>https://kjaymiller.com/microblog/20202219330</link>
+<pubDate>Fri, 21 Feb 2020 09:33:00 -0800</pubDate><guid isPermaLink="false">20202219330</guid></item><item>
+<title>NewPage</title>  <description><![CDATA[Another test. I will prolly delete these afterwards.]]></description>
 
-![docstrings](https://kjaymiller.s3-us-west-2.amazonaws.com/images/CleanShot-2020-02-26-at-14.13.25-2x.png)]]></description>
+<link>https://kjaymiller.com/microblog/202021914210</link>
+<pubDate>Wed, 19 Feb 2020 14:21:00 -0800</pubDate><guid isPermaLink="false">202021914210</guid></item><item>
+<title>NewPage</title>  <description><![CDATA[Been writing more and more because of this. People have mentioned that they have enjoyed getting to know me through my posts.
 
-<link>https://kjaymiller.com/microblog/202022614150</link>
-<pubDate>Wed, 26 Feb 2020 14:15:00 -0800</pubDate><guid isPermaLink="false">202022614150</guid></item><item>
-<title>NewPage</title>  <description><![CDATA[My Netlify build is trying to load my building structure only because my repo has a `requirements.txt`.  No `runtime.txt` and no build options. I render content locally and have the output be the only thing that Netlify serves. 
+Well, learn why I do ALL the things I do.
 
-This started happening yesterday.]]></description>
+&lt;https://kjaymiller.com/in_defense_of_the_black_multi-potentialite&gt;]]></description>
 
-<link>https://kjaymiller.com/microblog/20205289550</link>
-<pubDate>Thu, 28 May 2020 09:55:00 -0700</pubDate><guid isPermaLink="false">20205289550</guid></item><item>
-<title>NewPage</title>  <description><![CDATA[**[Render Engine v. 2020.5.5](https://pypi.org/project/render-engine/2020.5.5) is available with native search functionality.** Documentation and blog posts added to task list.]]></description>
+<link>https://kjaymiller.com/microblog/20206623190</link>
+<pubDate>Sat, 06 Jun 2020 23:19:00 -0700</pubDate><guid isPermaLink="false">20206623190</guid></item><item>
+<title>NewPage</title>  <description><![CDATA[Because I&#39;m not one to expose myself to the arguments, I release my thoughts about Hey and why I&#39;m just not that impressed. On the PIT Bonus Feed. 
 
-<link>https://kjaymiller.com/microblog/202052811260</link>
-<pubDate>Thu, 28 May 2020 11:26:00 -0700</pubDate><guid isPermaLink="false">202052811260</guid></item></channel>
+To listen join the Productivity in Tech Slack channel [24 Hour invite link](https://join.slack.com/t/productivityintech/shared_invite/zt-fcrt67es-y5XaPsnd7CDT9AG~AetL0g)]]></description>
+
+<link>https://kjaymiller.com/microblog/202062119390</link>
+<pubDate>Sun, 21 Jun 2020 19:39:00 -0700</pubDate><guid isPermaLink="false">202062119390</guid></item></channel>
 </rss>
