@@ -6,6 +6,7 @@ from render_engine.links import Link
 from render_engine.search import Fuse
 
 class site(Site):
+    strict = True
     HEADER_LINKS = (
         Link(name='About', url='/about.html'),
         Link(name='Blog', url='/all_posts_0.html'),
