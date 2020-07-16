@@ -5,34 +5,34 @@ from render_engine.microblog import MicroBlog
 from render_engine.links import Link
 from render_engine.search import Fuse
 
+class site(Site):
+    HEADER_LINKS = (
+        Link(name='About', url='/about.html'),
+        Link(name='Blog', url='/all_posts_0.html'),
+        Link(name='Projects', url='/projects.html'),
+        Link(name='Resume', url='/static/files/Jay_Miller_-_Software_Engineer.pdf'),
+        Link(name='Newsletter', url='/subscribe'),
+        )
 
+    timezone = 'US/Pacific'
+    SITE_TITLE = '(K) Jay Miller'
+    SITE_URL = 'https://kjaymiller.com'
+    AUTHOR = 'Jay Miller'
+    HEADER_LINKS = HEADER_LINKS
+    PODCASTS = [
+            Link(
+                name="Bob's Taverncast",
+                url='https://bobstavern.pub',
+                image="https://kjaymiller.s3-us-west-2.amazonaws.com/images/bobstavern_256.jpg",
+                ),
+            Link(name="PIT Podcast", url='https://podcast.productivityintech.com',
+                image="https://kjaymiller.s3-us-west-2.amazonaws.com/images/pitpodcast_logo_256.jpg"),
+            Link(name="TekTok Podcast", url='https://www.tekside.net/tektok',
+                image="https://kjaymiller.s3-us-west-2.amazonaws.com/images/tektok_256.jpeg"),
+            ]
+    search = Fuse
 
-HEADER_LINKS = (
-    Link(name='About', url='/about.html'),
-    Link(name='Blog', url='/all_posts_0.html'),
-    Link(name='Projects', url='/projects.html'),
-    Link(name='Resume', url='/static/files/Jay_Miller_-_Software_Engineer.pdf'),
-    Link(name='Newsletter', url='/subscribe'),
-    )
-
-mysite = Site(timezone='US/Pacific')
-mysite.SITE_TITLE = '(K) Jay Miller'
-mysite.SITE_URL = 'https://kjaymiller.com'
-mysite.AUTHOR = 'Jay Miller'
-mysite.HEADER_LINKS = HEADER_LINKS
-mysite.PODCASTS = [
-        Link(
-            name="Bob's Taverncast",
-            url='https://bobstavern.pub',
-            image="https://kjaymiller.s3-us-west-2.amazonaws.com/images/bobstavern_256.jpg",
-            ),
-        Link(name="PIT Podcast", url='https://podcast.productivityintech.com',
-            image="https://kjaymiller.s3-us-west-2.amazonaws.com/images/pitpodcast_logo_256.jpg"),
-        Link(name="TekTok Podcast", url='https://www.tekside.net/tektok',
-            image="https://kjaymiller.s3-us-west-2.amazonaws.com/images/tektok_256.jpeg"),
-        ]
-mysite.search = Fuse
-
+mysite = site()
 @mysite.register_collection
 class Pages(Collection):
     routes = ["", "pages"]
