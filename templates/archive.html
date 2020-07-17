@@ -48,17 +48,26 @@
   {% endfor %}
     </div>
 </div>
-<div class="column box is-2 is-hidden-mobile">
-  <h3 class="subtitle is-3">Categories<h3>
-  {% for category in subcollections['category']|sort(attribute='title') %}
-  <div class="tags is-small has-addons">
-    <span class="tag is-dark"><a
-          class="has-text-white"
-        href="/{{category.title|lower}}/{{category.archive_slug}}">{{category.title|title}}</a></span>
-    <span class="tag">{{category.pages|length}}</span>
+<div class="column is-2 is-hidden-mobile">
+  {% for collection in collection.get_subcollections() %}
+      <div class="box">
+        <h3 class="subtitle is-4">{{collection[0]|title}}</h3>
+        {% for t, topic in collection[1].items() %}
+        <div class="tags has-addons">
+          <div class="tag is-dark">
+            <a class="has-text-white" href="/{{t|lower}}-0">{{t}}</a>
+          </div>
+          <div class="tag">
+            {{topic|length}}
+          </div>
+        </div>
+      {% endfor%}
+      </div>
+
+      {% endfor%}
   </div>
-{% endfor %}
-</div>
-</div>
+  </div>
+
+
 {% include 'pagination.html'%}
 {% endblock %}

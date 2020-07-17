@@ -72,15 +72,4 @@ class Index(Page):
         self.microblog_posts = mysite.collections['MicroBlog'].archive[0].pages[:5]
         self.blog_posts = mysite.collections['Blog'].archive[0].pages[:5]
 
-@mysite.register_route
-class Categories(Page):
-    template = "lists.html"
-    slug = "categories"
-    no_index = True
-
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
-        # logging.warning(mysite.subcollections)
-        self.list_section = mysite.subcollections['category']
-
 mysite.render(dry_run=False)

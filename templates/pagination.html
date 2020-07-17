@@ -2,26 +2,25 @@
   <div class="container">
     <h2 class="subtitle">Jump to Page</h2>
     <nav class="pagination" role="navigation">
-      <a class="pagination-previous" href="{{slug|replace(page_index,
-                                     page_index-1)}}" {% if
-      page_index == 0 %}disabled{% endif %}>Previous</a>
+      <a class="pagination-previous" href="{{slug|replace(page_index[0],
+                                     page_index[0]-1)}}" {% if
+      page_index[0] == 0 %}disabled{% endif %}>Previous</a>
       {% set pages_length = collections['Blog'].pages|length %}
-      <a class="pagination-next" href="{{slug|replace(page_index, page_index +
+      <a class="pagination-next" href="{{slug|replace(page_index[0], page_index[0] +
                                  1)}}" {% if
-      page_index == pages_length - 1 %}disabled{% endif %}>Next Page</a>
+      page_index[0] == pages_length - 1 %}disabled{% endif %}>Next Page</a>
       <ul class="pagination-list">
-        {% for p in collections[title].archive %}
-          {% if p.page_index == page_index %}
-            <li>
-              <a href="{{p.slug}}" class="pagination-link is-current" aria-label="Page
-                                                                  {{p.page_index}}">{{p.page_index}}</a>
-            </li>
+        {% for p in range(page_index[1]) %}
+          {% set page = p + 1 %}
+        <li>
+          {% if p == page_index[1] %}
+              <a href="{{slug|replace(page_index[0], p)}}" class="pagination-link is-current" aria-label="Page
+                                                                  {{page}}">{{page}}</a>
           {% else %}
-            <li>
-              <a href="{{p.slug}}"class="pagination-link" aria-label="Goto page
-                                                       {{p.page_index}}">{{p.page_index}}</a>
-            </li>
+              <a href="{{slug|replace(page_index[0], p)}}" class="pagination-link" aria-label="Goto page
+                                                       {{page}}">{{page}}</a>
           {% endif %}
+        </li>
         {% endfor %}
       </ul>
     </nav>

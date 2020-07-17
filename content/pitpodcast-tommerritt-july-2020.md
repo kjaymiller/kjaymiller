@@ -4,7 +4,7 @@ date: 14 Jul 2020 11:32
 category: Productivity in Tech Podcast
 tags: transcriptions
 image: https://s3-us-west-2.amazonaws.com/kjaymiller/images/tommerritt-pitpodcast%20custom%20covers-v3.jpg
-github: https://github.com/kjaymiller/kjaymiller.com_flask/blob/master/content/pitpodcast-tommerritt-july2020.md
+github: https://github.com/kjaymiller/kjaymiller/blob/master/content/pitpodcast-tommerritt-july-2020.md
 
 <iframe width="100%" height="180" frameborder="no" scrolling="no" seamless src="https://share.transistor.fm/e/671c723f"></iframe>
 

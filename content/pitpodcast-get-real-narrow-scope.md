@@ -1,6 +1,6 @@
 title: [PIT Podcast] Getting Real and Narrowing Scope
 slug: pit-podcast-getting-real-and-narrowing-scope
-github: https://github.com/kjaymiller/kjaymiller.com_flask/blob/master/content/pitpodcast-get-real-narrow-scope.md
+github: https://github.com/kjaymiller/kjaymiller.com/blob/master/content/pitpodcast-get-real-narrow-scope.md
 tags: transcription, shownotes
 date: 11 Jun 2020 08:37
 category: Productivity in Tech Podcast
