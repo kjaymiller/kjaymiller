@@ -9,7 +9,7 @@ class site(Site):
     strict = True
     HEADER_LINKS = (
         Link(name='About', url='/about.html'),
-        Link(name='Blog', url='/all_posts_0.html'),
+        Link(name='Blog', url='/blog-0.html'),
         Link(name='Projects', url='/projects.html'),
         Link(name='Resume', url='/static/files/Jay_Miller_-_Software_Engineer.pdf'),
         Link(name='Newsletter', url='/subscribe'),
