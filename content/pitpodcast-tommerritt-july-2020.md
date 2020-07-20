@@ -2,7 +2,7 @@ title: PIT Podcast: Effectively Doing a Lot with Tom Merritt
 slug: pitpodcast-tom-merrit-july-2020
 date: 14 Jul 2020 11:32
 category: Productivity in Tech Podcast
-tags: transcriptions
+tags: transcriptions, podcast
 image: https://s3-us-west-2.amazonaws.com/kjaymiller/images/tommerritt-pitpodcast%20custom%20covers-v3.jpg
 github: https://github.com/kjaymiller/kjaymiller/blob/master/content/pitpodcast-tommerritt-july-2020.md
 
