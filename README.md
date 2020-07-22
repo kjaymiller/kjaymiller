@@ -4,7 +4,7 @@ You can see what he's posting about at <https://kjaymiller.com>.
 
 **Latest Post - [I Was Selected as a Mentee for the First Podcast Mentorship Cohort](https://kjaymiller.com/podcast-mentorship-mentee)**
 
-**Latest Productivity in Tech Podcast Episode - [Effectively Doing a Lot with Tom Merritt](https://share.transistor.fm/s/671c723f)**
+**Latest Productivity in Tech Podcast Episode - [The Importance of Design in Your Projects - PIT Reflection](https://share.transistor.fm/s/eab96500)**
 
 ## Active Projects
 
