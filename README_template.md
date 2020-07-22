@@ -17,7 +17,7 @@ web-sites quickly that you can use for prototypes for full time use!
 - [render-engine.site (website)][Render Engine]
 - [PyPI](https://pypi.org/project/render-engine)
 - [docs](https://render-engine.readthedocs.io)
-- [GitHub](https://github.com/kjaymiller/render-engine)
+- [GitHub](https://github.com/kjaymiller/render_engine)
 
 ### [Transcriptor]
 [Transcriptor's] goal is to make working with machine-generated transcriptions
