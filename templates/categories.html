@@ -1,10 +1,18 @@
-{% extends 'base.html' %}
-{% block content %}
-    <div class="content">
-      <ul>
-    {% for topic in topic_list %}
-        <li>{{topic}}</li>
-    {% endfor %}
-      </ul>
-    </div>
-{% endblock %}
+<div class="column is-3 is-mobile-hidden">
+  {% for topic in subcollections %}
+  <div class="box">
+    <h2 class="subtitle">{{topic}}</h2>
+      <div class="field is-grouped is-grouped-multiline">
+        {% for subcollection in subcollections[topic] %}
+        <div class="control">
+          <div class="tags has-addons">
+            <div class="tag is-dark"><a href="{{topic.slug}}"
+                class="has-text-white">{{subcollection.title}}</a></div>
+            <div class="tag">{{subcollection.pages|length}}</div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+  </div>
+  {% endfor %}
+</div>

@@ -5,7 +5,7 @@
 {% endblock %}
 {% block content %}
 <div class="columns is-centered">
-  <div class="column is-8">
+  <div class="column is-5">
     <h2 class="title is-1 has-text-info">{{title}}</h2>
 
     <div class="container">
@@ -48,9 +48,9 @@
   {% endfor %}
     </div>
 </div>
+{% include 'categories.html' %}
   </div>
-  </div>
-
-
 {% include 'pagination.html'%}
+  </div>
+
 {% endblock %}
