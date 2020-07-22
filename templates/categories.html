@@ -1,4 +1,4 @@
-<div class="column is-3 is-mobile-hidden">
+<{{subcollection.archive[0].slug}}div class="column is-3 is-mobile-hidden">
   {% for topic in subcollections %}
   <div class="box">
     <h2 class="subtitle">{{topic}}</h2>
@@ -6,7 +6,7 @@
         {% for subcollection in subcollections[topic] %}
         <div class="control">
           <div class="tags has-addons">
-            <div class="tag is-dark"><a href="{{topic.slug}}"
+           <div class="tag is-dark"><a href="{{subcollection.archive[0].slug}}"
                 class="has-text-white">{{subcollection.title}}</a></div>
             <div class="tag">{{subcollection.pages|length}}</div>
           </div>
