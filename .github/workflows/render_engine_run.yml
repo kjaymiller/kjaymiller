@@ -2,7 +2,7 @@ name: Render Engine Run
 # This workflow checks my blog for the latest posts
 #
 
-on: []
+on: [push]
 
 jobs:
   build:
