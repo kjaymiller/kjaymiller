@@ -6,3 +6,7 @@
 img {
 	max-width: 75%;
 }
+
+.footnotes hr {
+    height: 2em;
+}
