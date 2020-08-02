@@ -4,7 +4,7 @@ You can see what he's posting about at <https://kjaymiller.com>.
 
 **Latest Post - [Multipotentiality vs Mindfulness](https://kjaymiller.com/multipotentiality-vs-mindfulness)**
 
-**Latest Productivity in Tech Podcast Episode - [The Importance of Design in Your Projects - PIT Reflection](https://share.transistor.fm/s/eab96500)**
+**Latest Productivity in Tech Podcast Episode - [Better than Fixing Computers with Cecil Phillip](https://share.transistor.fm/s/0d96699e)**
 
 ## Active Projects
 
