@@ -1,5 +1,5 @@
-<section class="section">
-  <div class="container">
+	<div class="hero is-fullheight">
+		<div class="hero-body">
     <h1 class="title is-4">Latest Blog Post</h1>
     {% set featured_post  = blog_posts[0] %}
 
@@ -18,8 +18,10 @@
           {{featured_post.summary}}
         </div>
       </div>
-      </div>
+		</div>
+	</div>
 
+<section class="section">
     <h2 class="title is-4">More Posts</h1>
        <div class="columns is-multiline is-centered">
        {% for post in blog_posts[1:] %}
