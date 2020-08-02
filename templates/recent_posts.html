@@ -1,6 +1,5 @@
 	<div class="hero is-fullheight">
 		<div class="hero-body">
-    <h1 class="title is-4">Latest Blog Post</h1>
     {% set featured_post  = blog_posts[0] %}
 
     <div class="columns is-vcentered is-centered">
@@ -17,6 +16,7 @@
         <div class="content">
           {{featured_post.summary}}
         </div>
+				<h1 class="title is-4"><span class="icon"><i class="fas fa-chevron-down"></i></span></h1>
       </div>
 		</div>
 	</div>
