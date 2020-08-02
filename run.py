@@ -13,6 +13,7 @@ class site(Site):
         Link(name='Projects', url='/projects.html'),
         Link(name='Resume', url='/static/files/Jay_Miller_-_Software_Engineer.pdf'),
         Link(name='Newsletter', url='/subscribe'),
+        Link(name='Contact', url="/contact"),
         )
 
     timezone = 'US/Pacific'
