@@ -1,9 +1,25 @@
+import feedparser
 import logging
 from render_engine import Site, Page, Collection
 from render_engine.blog import Blog
 from render_engine.microblog import MicroBlog
 from render_engine.links import Link
 from render_engine.search import Fuse
+
+def get_latest_post(rss_feed):
+    f = feedparser.parse(rss_feed)
+    latest_post = sorted(f['entries'], key=lambda x:x['published_parsed'])[-1]
+    return {
+            'title': latest_post['title'],
+            'link': latest_post['link'],
+            }
+
+class PodcastLink(Link):
+    def __init__(self, name, url, image, feed):
+        super().__init__(name=name, url=url, image=image)
+        self.latest_post = get_latest_post(feed)
+
+
 
 class site(Site):
     strict = True
@@ -22,17 +38,23 @@ class site(Site):
     AUTHOR = 'Jay Miller'
     HEADER_LINKS = HEADER_LINKS
     PODCASTS = [
-            Link(
+            PodcastLink(
                 name="Bob's Taverncast",
                 url='https://bobstavern.pub',
                 image="https://kjaymiller.s3-us-west-2.amazonaws.com/images/bobstavern_256.jpg",
+                feed='https://feeds.transistor.fm/bobs-taverncast-a-hearthstone-battlegrounds-podcast',
                 ),
-            Link(name="PIT Podcast", url='https://podcast.productivityintech.com',
-                image="https://kjaymiller.s3-us-west-2.amazonaws.com/images/pitpodcast_logo_256.jpg"),
-            Link(name="TekTok Podcast", url='https://www.tekside.net/tektok',
-                image="https://kjaymiller.s3-us-west-2.amazonaws.com/images/tektok_256.jpeg"),
-            ]
+            PodcastLink(name="PIT Podcast", url='https://podcast.productivityintech.com',
+                image="https://kjaymiller.s3-us-west-2.amazonaws.com/images/pitpodcast_logo_256.jpg",
+                feed='https://feeds.transistor.fm/productivity-in-tech-podcast',
+                ),
+
+            PodcastLink(name="TekTok Podcast", url='https://www.tekside.net/tektok',
+                image="https://kjaymiller.s3-us-west-2.amazonaws.com/images/tektok_256.jpeg",
+                feed='http://tekside.net/tektok?format=rss'),
+                ]
     search = Fuse
+
 
 mysite = site()
 @mysite.register_collection
@@ -72,5 +94,6 @@ class Index(Page):
         # logging.warning(mysite.collections['Blog'].archive[0])
         self.microblog_posts = mysite.collections['MicroBlog'].archive[0].pages[:5]
         self.blog_posts = mysite.collections['Blog'].archive[0].pages[:5]
+
 
 mysite.render(dry_run=False)
