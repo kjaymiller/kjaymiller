@@ -2,7 +2,7 @@ Jay Miller is a software devleoper, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [Focused Podcast Episode #105: Living the Multipotentialite Life, with Jay Miller](https://kjaymiller.com/focused-105)**
+**Latest Post - [Transcriptor now Supports SRT Upload and Conversion](https://kjaymiller.com/transcriptor-now-supports-srt-upload-and-conversion)**
 
 **Latest Productivity in Tech Podcast Episode - [PIT Reflections: A Million Childrens Recitals and Helping Making Transcriptions Accessible](https://share.transistor.fm/s/7c0b3a42)**
 
