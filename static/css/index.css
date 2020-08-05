@@ -14,7 +14,7 @@ img.podcast-image {
     max-width: 300px;
     border-radius: 5px;
     display:block;
-    border: 1px #333 solid;
+    border: 1px #666 solid;
 }
 
 .podcast-wrapper {
@@ -34,8 +34,6 @@ img.podcast-image {
 
 .wrapper-text {
   width: 100%;
-  background-color: #000;
-  background-color: rgba(0, 0, 0, .1);
   padding: 1em;
 }
 
@@ -45,7 +43,6 @@ img.podcast-image {
 }
 
 .wrapper h1 {
-  opacity: 1;
 }
 
 @media only screen and (max-width: 500px) {
