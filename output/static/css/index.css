@@ -43,9 +43,6 @@ img.podcast-image {
   background-color: #000;
 }
 
-.wrapper h1 {
-}
-
 .animated-arrow {
   animation: spin 2s ease-out 1s 1;
 }
