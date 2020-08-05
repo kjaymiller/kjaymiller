@@ -3,6 +3,7 @@ image: https://relayfm.s3.amazonaws.com/uploads/broadcast/image_2x/34/focused_ar
 slug: focused-105
 tags: guest-appearance, podcast, relay.fm
 link: https://www.relay.fm/focused/105
+date: 04 Aug 2020 21:33
 
 I had the privilege of being a guest on the [Focused Podcast](https://www.relay.fm/focused/105).
 
