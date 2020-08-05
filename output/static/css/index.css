@@ -47,6 +47,9 @@ img.podcast-image {
   animation: spin 2s ease-out 1s 1;
 }
 
+.microblog-content img {
+  max-width: 100%;
+}
 @keyframes spin {
   65% {
     opacity: 0;
@@ -60,5 +63,3 @@ img.podcast-image {
     opacity: 0;
   }
 }
-
-
