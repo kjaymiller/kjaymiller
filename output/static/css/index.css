@@ -48,7 +48,12 @@ img.podcast-image {
 }
 
 @keyframes spin {
-  65% {transform: rotate(375deg);}
+  65% {
+    opacity: 0;
+  transform: rotate(375deg);}
+  95% {
+    opacity: 1;
+  }
 }
 @media only screen and (max-width: 500px) {
   .wrapper {
