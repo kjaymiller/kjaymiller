@@ -3,6 +3,7 @@ slug: pit-reflection-aug-8
 date: 04 Aug 2020 21:22
 tags: pit-reflection, talks
 category: Productivity in Tech Podcast
+github: https://github.com/kjaymiller/kjaymiller/blob/master/content/pit-reflection-4-aug-2020.md
 
 
 PIT Reflections 2020-Aug-04
