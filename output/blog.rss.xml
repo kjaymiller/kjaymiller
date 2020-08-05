@@ -34,6 +34,35 @@
 
 <link>https://kjaymiller.com/january-2019-bullet-journal-recap</link>
 <pubDate>Fri, 01 Feb 2019 16:00:00 -0800</pubDate><guid isPermaLink="false">january-2019-bullet-journal-recap</guid></item><item>
+<title>Transcriptor now Supports SRT Upload and Conversion</title>  <description><![CDATA[<p>A few weeks ago, I was tasked with a new transcription project.</p>
+
+<p>The project was to create subtitles for a few videos with the intention of expanding the job to several hours of work if the work was good enough quality. While I was certain that I could figure it out, <em>Transcriptor</em> was designed for custom text templates, not the standard SRT format. So instead of doing manual conversion of these files I decided to put the work in to make <em>Transcriptor</em> support both the importing and exporting of SRT files. This meant also for the first time working with the end_times in text markers and focusing on getting timing down to the exact word. </p>
+
+<p>While there were wonderful options to work with SRT files I knew that I would want to build my own variation of an SRT engine. This was mostly because of future plans for transcriptor which for the first time I'm putting out there. </p>
+
+<p>You can create a <code>Job</code> object from an srt using <code>Job.from_srt()</code>. and passing in the filepath of the object.</p>
+
+<div class="codehilite"><pre><span></span><code><span class="kn">from</span> <span class="nn">transcriptor</span> <span class="kn">import</span> <span class="n">Job</span>
+
+<span class="n">NewSRTJob</span> <span class="o">=</span> <span class="n">Job</span><span class="o">.</span><span class="n">from_srt</span><span class="p">(</span><span class="s1">&#39;./srt_file.srt&#39;</span><span class="p">)</span>
+</code></pre></div>
+
+<p>This give you the ability to create new objects from this job (currently a text transcription file). You also have the ability to break down the transcription word by word and by marker. This gives you the ability to apply shifts to all or some of the srt files without having to re-index the project.</p>
+
+<div class="codehilite"><pre><span></span><code><span class="k">for</span> <span class="n">marker</span> <span class="ow">in</span> <span class="n">NewSRTJob</span><span class="o">.</span><span class="n">markers</span><span class="p">:</span>
+    <span class="n">marker</span><span class="o">.</span><span class="n">start_time</span> <span class="o">+=</span> <span class="mf">2.0</span>
+    <span class="n">marker</span><span class="o">.</span><span class="n">end_time</span> <span class="o">-=</span> <span class="mf">2.0</span>
+
+<span class="n">Path</span><span class="p">(</span><span class="s1">&#39;shifted_srt_file.srt&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">write_text</span><span class="p">(</span><span class="n">NewSRTJob</span><span class="o">.</span><span class="n">srt</span><span class="p">)</span>
+</code></pre></div>
+
+<p>SRT support is avaiable on versions of <em>Transcriptor</em> since the version series of 2020.07. You can start using <em>Transcriptor</em> by installing the package from PyPI.</p>
+
+<p><code>pip install transcriptor</code></p>
+]]></description>
+
+<link>https://kjaymiller.com/transcriptor-now-supports-srt-upload-and-conversion</link>
+<pubDate>Wed, 05 Aug 2020 13:37:00 -0700</pubDate><guid isPermaLink="false">transcriptor-now-supports-srt-upload-and-conversion</guid></item><item>
 <title>Travel, Parenting, and ADHD with Heidi Waterhouse</title>  <description><![CDATA[<p>Heidi is a Developer Advocate for <a href="https://www.launchdarkly.com/">Launch Darkly</a>.  </p>
 
 <p>Heidi travels all over the world and is away from home more than half of the month.  </p>
