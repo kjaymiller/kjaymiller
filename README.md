@@ -2,7 +2,7 @@ Jay Miller is a software devleoper, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [Multipotentiality vs Mindfulness](https://kjaymiller.com/multipotentiality-vs-mindfulness)**
+**Latest Post - [PIT Reflections: A Million Children's Recitals](https://kjaymiller.com/pit-reflection-aug-8)**
 
 **Latest Productivity in Tech Podcast Episode - [PIT Reflections: A Million Childrens Recitals and Helping Making Transcriptions Accessible](https://share.transistor.fm/s/7c0b3a42)**
 
