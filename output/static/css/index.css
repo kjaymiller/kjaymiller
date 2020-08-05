@@ -46,8 +46,17 @@ img.podcast-image {
 .wrapper h1 {
 }
 
+.animated-arrow {
+  animation: spin 2s ease-out 1s 1;
+}
+
+@keyframes spin {
+  65% {transform: rotate(375deg);}
+}
 @media only screen and (max-width: 500px) {
   .wrapper {
     opacity: 0;
   }
 }
+
+
