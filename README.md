@@ -4,7 +4,7 @@ You can see what he's posting about at <https://kjaymiller.com>.
 
 **Latest Post - [Multipotentiality vs Mindfulness](https://kjaymiller.com/multipotentiality-vs-mindfulness)**
 
-**Latest Productivity in Tech Podcast Episode - [Better than Fixing Computers with Cecil Phillip](https://share.transistor.fm/s/0d96699e)**
+**Latest Productivity in Tech Podcast Episode - [PIT Reflections: A Million Childrens Recitals and Helping Making Transcriptions Accessible](https://share.transistor.fm/s/7c0b3a42)**
 
 ## Active Projects
 
