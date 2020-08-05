@@ -1,3 +1,4 @@
+
 	<div class="hero is-fullheight">
 		<div class="hero-body">
     {% set featured_post  = blog_posts[0] %}
@@ -16,12 +17,13 @@
         <div class="content">
           {{featured_post.summary}}
         </div>
-				<h1 class="title is-4"><span class="icon"><i class="fas fa-chevron-down"></i></span></h1>
       </div>
 		</div>
+    <h1 class="title is-4"><span class="icon"><i class="fas fa-chevron-down"></i></span></h1>
 	</div>
 
 <section class="section">
+  <div class="container">
     <h2 class="title is-4">More Posts</h1>
        <div class="columns is-multiline is-centered">
        {% for post in blog_posts[1:] %}
@@ -39,4 +41,5 @@
       <a href="/all_posts_0">View Older Posts</a>
     </p>
   </div>
+</div>
 </section>
