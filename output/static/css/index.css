@@ -47,11 +47,15 @@ max-width: 100%;
 .wrapper-text {
   width: 100%;
   background-color: #000;
-  background-color: rgba(0, 0, 0, .6);
+  background-color: rgba(0, 0, 0, .1);
   padding: 1em;
 }
 
 .wrapper:hover {
+  opacity: 1;
+}
+
+.wrapper h1 {
   opacity: 1;
 }
 
