@@ -20,7 +20,6 @@ class PodcastLink(Link):
         self.latest_post = get_latest_post(feed)
 
 
-
 class site(Site):
     strict = True
     HEADER_LINKS = (
@@ -45,7 +44,7 @@ class site(Site):
                 feed='https://feeds.transistor.fm/bobs-taverncast-a-hearthstone-battlegrounds-podcast',
                 ),
             PodcastLink(name="PIT Podcast", url='https://podcast.productivityintech.com',
-                image="https://kjaymiller.s3-us-west-2.amazonaws.com/images/pitpodcast_logo_256.jpg",
+                image="https://s3-us-west-2.amazonaws.com/kjaymiller/images/pit-logo-v4.jpg",
                 feed='https://feeds.transistor.fm/productivity-in-tech-podcast',
                 ),
 

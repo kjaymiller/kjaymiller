@@ -10,7 +10,10 @@
       <div class="wrapper">
         <div class="wrapper-text">
           <a class="has-text-white" href="{{podcast.url}}">{{podcast.name}}</a>
-          <h2 class="has-text-weight-bold has-text-white subtitle is-5">{{podcast.latest_post.title}}</h2>
+          <div class="tag is-small is-dark has-text-white my-2">Latest Post</div>
+          <h2 class="has-text-weight-bold  subtitle is-5">
+            <a href="{{podcast.latest_post.link}}" class="has-text-white">
+              {{podcast.latest_post.title}}</a></h2>
         </div>
       </div>
     </div>
