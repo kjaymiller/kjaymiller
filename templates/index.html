@@ -24,14 +24,12 @@
     <div class="columns is-multiline">
             {% for post in microblog_posts %}
               <div class="column tile is-4">
-                <div>
                   <div class="microblog-content content box">
                     {{post.content}}
                     <p class="content has-text-right">
                       {{post.date_friendly}}
                     </p>
                   </div>
-                </div>
               </div>
     {% endfor %}
     </div>
