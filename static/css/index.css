@@ -47,9 +47,6 @@ img.podcast-image {
   animation: spin 2s ease-out 1s 1;
 }
 
-.microblog-content .content {
-  max-width: 100%;
-}
 .microblog-content img {
   max-width: 100%;
 }
