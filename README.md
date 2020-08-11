@@ -2,7 +2,7 @@ Jay Miller is a software devleoper, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [Transcriptor now Supports SRT Upload and Conversion](https://kjaymiller.com/transcriptor-now-supports-srt-upload-and-conversion)**
+**Latest Post - [PIT Podcast: How Developer Advocacy is Changing with Joe Karlsson](https://kjaymiller.com/pit-podcast-joe-karlsson)**
 
 **Latest Productivity in Tech Podcast Episode - [How Developer Advocacy is Changing with Joe Karlsson](https://share.transistor.fm/s/a642c630)**
 
