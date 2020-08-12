@@ -3,30 +3,35 @@ date: 12 Aug 2020 07:18
 category: Opinions
 tags: politics, Tik Tok, WeChat
 
-Looking at some of the evidence that has been brought against these companies is based on features that app authentication and hardware providers have made accessible to app developers. Examples include:
+The allegations of abuse from Tik Tok and WeChat stem from features that data made accessible by other app developers. These Examples include:
 
 - Allowing third-party access to friend data
 - Allowing connection between users in support requests
 - Providing device and network tracking information
 
-The thing about this that makes me upset is that these companies are playing by the rules and getting punished for it.
+This makes me upset that these companies are playing by the rules but getting punished for it.
 
 Like Tim Cook told Congress at the latest hearing. "If you don't like how we're doing things, change the rules."
 
-I look forward to the investigation that will show that there are companies all over the world that are doing the same thing with the data that Facebook and other social media companies with "LogIn With..." functionality expose. 
+I look forward to the investigation that will show that there are companies all over the world that are doing the same thing with the data that Facebook and other social media companies with "Login With..." functionality.
 
 ## My Suggested Action
 
-- Make it illegal for your data to be given to third parties without your explicit consent at the time of transfer.
+**Make it illegal for companies to sell your data to third-parties**
 
-I understand that technology using network and location data to surface relevant information is pushing innovation and allows for things like Uber and Yelp to work. However, I do think that this information should not be made available outside of the company.
+I understand that network and location-based data is pushing current app innovation. It allows for things like Uber and Yelp to work. I do think that this information should not be available outside of the company.
 
 ## Why Won't They Do This?
 
-I believe this will make it possible to surface ads based on information while making information about individuals protected against those that would benefit from it without the consent of the individual. 
+This will make it possible to surface ads based on information without selling that information.
 
-It also creates a level of protection from our[^1] government as we would be notified when our information is given to law enforcement and surveillance organizations from companies. That is why this would never happen. In a world where governments are trying to pass laws to force backdoors into their encryption, no government wants to give up the right to spy on folks. 
+It also creates a level of protection from our government[^1]. Our information would only pass to surveillance organizations from companies with a court order.
+
+**That is why this would never happen.** 
+
+Governments are trying to pass laws forcing backdoors into their encryption. No government wants to give up the right to spy on folks. 
 
 In Short, America wants to spy on you. They just don't want others to do the same. 🙃
 
-[^1]: If not apparent, I'm in the US. 
+[^1]: If not clear, I'm in the US. 
+
