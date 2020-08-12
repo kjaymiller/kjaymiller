@@ -3,6 +3,7 @@ slug: twitch-player-live-only
 category: Code
 tags: twitch, javascript, KISS
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/purple-background-twitch-embed.png
+date: 12 Aug 2020 11:27
 
 I wanted to write this to show that the easiest answer can often elude us. 
 
