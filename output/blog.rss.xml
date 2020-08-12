@@ -1656,6 +1656,62 @@ Podcast</a> so subscribe today.</p>
 
 <link>https://kjaymiller.com/multipotentiality-vs-mindfulness</link>
 <pubDate>Thu, 23 Jul 2020 17:08:00 -0700</pubDate><guid isPermaLink="false">multipotentiality-vs-mindfulness</guid></item><item>
+<title>How I Made My Twitch Player Appear on My Site Only When I&#39;m Live</title>  <description><![CDATA[<p>I wanted to write this to show that the easiest answer can often elude us. </p>
+
+<p>If I asked you to add a twitch frame to a website and make it only appear when you were live, how would you do it?</p>
+
+<h2>Embedding the Twitch Frame</h2>
+
+<p>Following the <a href="https://dev.twitch.tv/docs/embed/everything">documentation</a> from Twitch, I copied the example code, adjusted the width and the height<sup class="footnote-ref" id="fnref-1"><a href="#fn-1">1</a></sup>, and changed the <code>channel-id</code> to my Twitch username.</p>
+
+<h2>Checking the Live Status</h2>
+
+<p>After spending an hour on stream trying to build a twitch app, I opted for the more low-tech solution. </p>
+
+<div class="codehilite"><pre><span></span><code><span class="k">if</span> <span class="p">(</span><span class="nx">player</span><span class="p">.</span><span class="nx">getPlayerState</span><span class="p">().</span><span class="nx">currentTime</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s1">&#39;#twitch-block&#39;</span><span class="p">).</span><span class="nx">style</span><span class="p">.</span><span class="nx">display</span> <span class="o">=</span> <span class="s1">&#39;initial&#39;</span><span class="p">;</span>
+  <span class="p">}</span>
+
+  <span class="k">else</span> <span class="p">{</span>
+    <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s1">&#39;#twitch-block&#39;</span><span class="p">).</span><span class="nx">style</span><span class="p">.</span><span class="nx">display</span><span class="o">=</span><span class="s2">&quot;None&quot;</span><span class="p">;</span>
+  <span class="p">}</span>
+</code></pre></div>
+
+<p>There were a few reasons:</p>
+
+<ul>
+<li>The javascript was easy.</li>
+<li>The authentication stuff is hard to stream (in a secure way)</li>
+<li>RateLimits and things</li>
+<li>THE JAVASCRIPT WAS EASY</li>
+</ul>
+
+<p>The hardest part about building this listener was keeping it simple. You could add event listeners and things and you could use webhooks and all that stuff. Another option is to look at the <code>currentTime</code> value. When you are not streaming, <code>player.getPlayerState().currentTime == 0</code><sup class="footnote-ref" id="fnref-2"><a href="#fn-2">2</a></sup>. This means that I can set  <code>display="None"</code> on the element that holds the twitch player. Allowing my website to act like the embed was never there<sup class="footnote-ref" id="fnref-3"><a href="#fn-3">3</a></sup>. </p>
+
+<p>Don't forget to add an amazing purple background so it looks fantastic!</p>
+
+<p><img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/purple-background-twitch-embed.png" alt="embed with a beautiful background" /></p>
+
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn-1">
+<p>Which I still a little confused on how that present in a responsive way&#160;<a href="#fnref-1" class="footnoteBackLink" title="Jump back to footnote 1 in the text.">&#8617;</a></p>
+</li>
+
+<li id="fn-2">
+<p>I don't know if this is the case if you are hosting someone sooooo... Your mileage may vary.&#160;<a href="#fnref-2" class="footnoteBackLink" title="Jump back to footnote 2 in the text.">&#8617;</a></p>
+</li>
+
+<li id="fn-3">
+<p>There could be some performance issues with this, but ultimately if there is the player would not load which means that the block wouldn't take up any space.&#160;<a href="#fnref-3" class="footnoteBackLink" title="Jump back to footnote 3 in the text.">&#8617;</a></p>
+</li>
+</ol>
+</div>
+]]></description>
+
+<link>https://kjaymiller.com/twitch-player-live-only</link>
+<pubDate>Wed, 12 Aug 2020 11:27:00 -0700</pubDate><guid isPermaLink="false">twitch-player-live-only</guid></item><item>
 <title>Jamie is a Form Group</title>  <description><![CDATA[<p>This is a test</p>
 ]]></description>
 
