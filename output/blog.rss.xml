@@ -1661,6 +1661,15 @@ Podcast</a> so subscribe today.</p>
 
 <link>https://kjaymiller.com/jamie-is-a-form-group</link>
 <pubDate>Tue, 01 Jan 2019 12:00:00 -0800</pubDate><guid isPermaLink="false">jamie-is-a-form-group</guid></item><item>
+<title>The &#34;Problem&#34; with rewriting tasks in your Bullet Journal</title>  <description><![CDATA[<p>I was recently asked about the headache of re-writing things in my Bullet Journal. I have a really interesting trick in fixing that. </p>
+
+<p>I just do the task so I don't have to write it down more than once or twice. If I have to write it down more than twice, I really have to convince myself that is a task that is worth me thinking about at the moment to the point that I need to keep it in my notebook until it rears it's head again. </p>
+
+<p>This idea is similar to that of Mitch Hedberg's joke about convincing himself that a joke just wasn't that funny (Which now I can't seem to find so I have to believe that I have <em>Mandela Effected</em> myself.) Similarly, I can often convince myself to just do the thing instead of writing it down for the <em>umpteenth</em> time or I can just strike it and say, "This isn't important".</p>
+]]></description>
+
+<link>https://kjaymiller.com/rewriting-bujo-tasks</link>
+<pubDate>Wed, 12 Aug 2020 07:11:00 -0700</pubDate><guid isPermaLink="false">rewriting-bujo-tasks</guid></item><item>
 <title>January 2019 Bullet Journal Recap</title>  <description><![CDATA[<p>Late last year I made the decision to go full time analog productivity. To me this was a return to my <em>Midori Traveller's Notebook</em> and less reliability on mobile applications to keep track of things. </p>
 
 <p>With January being a new year I thought it would be a great time to really do my best and dig in on this process. I didn't realize that I was going to be extremely busy with things and that my notebook would be crucial in keeping my sanity. </p>
@@ -7452,5 +7461,47 @@ Links:</em>*</p>
 ]]></description>
 
 <link>https://kjaymiller.com/announcing-transcriptor</link>
-<pubDate>Mon, 25 May 2020 22:32:00 -0700</pubDate><guid isPermaLink="false">announcing-transcriptor</guid></item></channel>
+<pubDate>Mon, 25 May 2020 22:32:00 -0700</pubDate><guid isPermaLink="false">announcing-transcriptor</guid></item><item>
+<title>Don&#39;t Ban Companies, Change the Rules</title>  <description><![CDATA[<p>Looking at some of the evidence that has been brought against these companies is based on features that app authentication and hardware providers have made accessible to app developers. Examples include:</p>
+
+<ul>
+<li>Allowing third-party access to friend data</li>
+<li>Allowing connection between users in support requests</li>
+<li>Providing device and network tracking information</li>
+</ul>
+
+<p>The thing about this that makes me upset is that these companies are playing by the rules and getting punished for it.</p>
+
+<p>Like Tim Cook told Congress at the latest hearing. "If you don't like how we're doing things, change the rules."</p>
+
+<p>I look forward to the investigation that will show that there are companies all over the world that are doing the same thing with the data that Facebook and other social media companies with "LogIn With..." functionality expose. </p>
+
+<h2>My Suggested Action</h2>
+
+<ul>
+<li>Make it illegal for your data to be given to third parties without your explicit consent at the time of transfer.</li>
+</ul>
+
+<p>I understand that technology using network and location data to surface relevant information is pushing innovation and allows for things like Uber and Yelp to work. However, I do think that this information should not be made available outside of the company.</p>
+
+<h2>Why Won't They Do This?</h2>
+
+<p>I believe this will make it possible to surface ads based on information while making information about individuals protected against those that would benefit from it without the consent of the individual. </p>
+
+<p>It also creates a level of protection from our<sup class="footnote-ref" id="fnref-1"><a href="#fn-1">1</a></sup> government as we would be notified when our information is given to law enforcement and surveillance organizations from companies. That is why this would never happen. In a world where governments are trying to pass laws to force backdoors into their encryption, no government wants to give up the right to spy on folks. </p>
+
+<p>In Short, America wants to spy on you. They just don't want others to do the same. 🙃</p>
+
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn-1">
+<p>If not apparent, I'm in the US.&#160;<a href="#fnref-1" class="footnoteBackLink" title="Jump back to footnote 1 in the text.">&#8617;</a></p>
+</li>
+</ol>
+</div>
+]]></description>
+
+<link>https://kjaymiller.com/don-t-ban-companies-change-the-rules</link>
+<pubDate>Wed, 12 Aug 2020 07:18:00 -0700</pubDate><guid isPermaLink="false">don-t-ban-companies-change-the-rules</guid></item></channel>
 </rss>
