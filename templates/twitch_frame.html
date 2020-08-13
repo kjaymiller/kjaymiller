@@ -17,8 +17,18 @@
   const player = new Twitch.Player("twitch-player", options);
   player.setVolume(0.5);
   player.play();
+  sleep(4)
 
-  if (player.getPlayerState().currentTime != 0) {
+
+ var embed = new Twitch.Embed('twitch-embed', {
+  channel: 'monstercat'
+});
+
+embed.addEventListener(Twitch.Embed.VIDEO_READY, function() {
+  console.log('The video is ready');
+});
+
+if (player.getPlayerState().currentTime != 0) {
     document.querySelector('#twitch-block').style.display = 'inherit';
   }
 
