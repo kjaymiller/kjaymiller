@@ -3,11 +3,12 @@
 
 {% block head %}
 <link rel="stylesheet" type="text/css" href="/static/css/index.css">
+<link rel="stylesheet" type="text/css" href="/static/css/twitch.css">
 {% endblock %}
 
-{% include 'twitch_frame.html' %}
 {% block content %}
 {% include 'recent_posts.html' %}
+{% include 'twitch_frame.html' %}
 <section>
   <div class="container">
     {% include 'newsletter.html' %}
