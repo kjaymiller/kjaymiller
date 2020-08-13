@@ -20,7 +20,7 @@ The world of Developer Advocacy has been changing and Joe Karlsson is at the fro
 
 00:00:19:
 
- Miller here, back again with the productivity intact.
+ Miller here, back again with the Productivity in Tech.
 
 00:00:22:
 
