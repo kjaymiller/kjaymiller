@@ -15,13 +15,9 @@
   };
 
   const player = new Twitch.Player("twitch-player", options);
-  player.setVolume(0.5);
-  player.play();
-  sleep(4)
-
 
  var embed = new Twitch.Embed('twitch-embed', {
-  channel: 'monstercat'
+  channel: 'kjaymiller'
 });
 
 embed.addEventListener(Twitch.Embed.VIDEO_READY, function() {
