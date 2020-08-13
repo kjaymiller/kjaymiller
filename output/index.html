@@ -14,23 +14,22 @@
     channel: "infandel",
   };
 
-  const player = new Twitch.Player("twitch-player", options);
-
  var embed = new Twitch.Embed('twitch-player', {
   channel: 'infandel'
-});
+  });
 
-embed.addEventListener(Twitch.Embed.VIDEO_READY, function() {
-  console.log('The video is ready');
-});
+  embed.addEventListener(Twitch.Embed.VIDEO_READY, function() {
 
-if (player.getPlayerState().currentTime != 0) {
+  if (player.getPlayerState().currentTime != 0) {
     document.querySelector('#twitch-block').style.display = 'inherit';
   }
 
   else {
     document.querySelector('#twitch-block').style.display="None";
   }
+
+  });
+
 
 </script>
 </div>
