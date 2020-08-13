@@ -1,9 +1,7 @@
-<div id="twitch-block">
+<div id="twitch-block" class="is-hidden-mobile">
 <section class="section">
 <div class="container">
 <script src= "https://player.twitch.tv/js/embed/v1.js"></script>
-<h1 class="title is-2">Jay Is Live On <a
-    href="https://twitch.tv/kjaymiller " style="color: #9145ff;">Twitch!</h1>
 <figure class="image">
 <div id="twitch-player" class="has-text-centered"></div>
 </figure>
@@ -11,14 +9,13 @@
   var options = {
     width: 800,
     height: 600,
-    channel: "infandel",
+    channel: "kjaymiller",
   };
 
  var embed = new Twitch.Embed('twitch-player', options);
 
   embed.addEventListener(Twitch.Embed.VIDEO_READY, function() {
-
-  if (player.getPlayerState().currentTime != 0) {
+  if (embed.getPlayerState()) {
     document.querySelector('#twitch-block').style.display = 'inherit';
   }
 
