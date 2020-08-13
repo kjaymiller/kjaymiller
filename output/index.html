@@ -14,9 +14,7 @@
     channel: "infandel",
   };
 
- var embed = new Twitch.Embed('twitch-player', {
-  channel: 'infandel'
-  });
+ var embed = new Twitch.Embed('twitch-player', options);
 
   embed.addEventListener(Twitch.Embed.VIDEO_READY, function() {
 
