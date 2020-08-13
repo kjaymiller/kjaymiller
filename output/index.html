@@ -86,6 +86,38 @@
 </div>
 </section>
     
+<div id="twitch-block" class="is-hidden-touch">
+<section class="section">
+<div class="container">
+<script src= "https://player.twitch.tv/js/embed/v1.js"></script>
+<figure class="image">
+<div id="twitch-player" class="has-text-centered"></div>
+</figure>
+<script type="text/javascript">
+  var options = {
+    width: 1024,
+    height: 600,
+    channel: "kjaymiller",
+  };
+
+ var embed = new Twitch.Embed('twitch-player', options);
+
+  embed.addEventListener(Twitch.Embed.VIDEO_READY, function() {
+  if (embed.isPaused()) {
+    document.querySelector('#twitch-block').style.maxHeight= '0';
+  }
+
+  else {
+    document.querySelector('#twitch-block').style.maxHeight="inherit";
+  }
+
+  });
+
+
+</script>
+</div>
+</section>
+</div>
 
 	<div class="hero">
 		<div class="hero-body">
@@ -160,38 +192,6 @@
   </div>
 </div>
 </section>
-<div id="twitch-block" class="is-hidden-touch">
-<section class="section">
-<div class="container">
-<script src= "https://player.twitch.tv/js/embed/v1.js"></script>
-<figure class="image">
-<div id="twitch-player" class="has-text-centered"></div>
-</figure>
-<script type="text/javascript">
-  var options = {
-    width: 1024,
-    height: 600,
-    channel: "kjaymiller",
-  };
-
- var embed = new Twitch.Embed('twitch-player', options);
-
-  embed.addEventListener(Twitch.Embed.VIDEO_READY, function() {
-  if (embed.isPaused()) {
-    document.querySelector('#twitch-block').style.maxHeight= '0';
-  }
-
-  else {
-    document.querySelector('#twitch-block').style.maxHeight="inherit";
-  }
-
-  });
-
-
-</script>
-</div>
-</section>
-</div>
 <section>
   <div class="container">
     <section class="section">
