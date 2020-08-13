@@ -15,12 +15,12 @@
  var embed = new Twitch.Embed('twitch-player', options);
 
   embed.addEventListener(Twitch.Embed.VIDEO_READY, function() {
-  if (embed.getPlayerState()) {
-    document.querySelector('#twitch-block').style.display = 'inherit';
+  if (embed.is_paused) {
+    document.querySelector('#twitch-block').style.display = 'None';
   }
 
   else {
-    document.querySelector('#twitch-block').style.display="None";
+    document.querySelector('#twitch-block').style.display="inherit";
   }
 
   });
