@@ -178,11 +178,11 @@
 
   embed.addEventListener(Twitch.Embed.VIDEO_READY, function() {
   if (embed.isPaused()) {
-    document.querySelector('#twitch-block').style.display = 'None';
+    document.querySelector('#twitch-block').style.maxHeight= '0';
   }
 
   else {
-    document.querySelector('#twitch-block').style.display="inherit";
+    document.querySelector('#twitch-block').style.maxHeight="inherit";
   }
 
   });
