@@ -15,7 +15,7 @@
  var embed = new Twitch.Embed('twitch-player', options);
 
   embed.addEventListener(Twitch.Embed.VIDEO_READY, function() {
-  if (embed.is_paused) {
+  if (embed.isPaused()) {
     document.querySelector('#twitch-block').style.display = 'None';
   }
 
