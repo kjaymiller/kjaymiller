@@ -17,7 +17,7 @@ def build_file(filepath: str, output_file: Path):
         job.build()
         output_file.write_text(job.transcript)
 
-    else: 
+    else:
         typer.echo(job.status)
 
 if __name__ == "__main__":
