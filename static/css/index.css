@@ -56,6 +56,13 @@ img.podcast-image {
 .microblog-content img {
   max-width: 100%;
 }
+
+.microblog-content > a {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 @keyframes spin {
   65% {
     opacity: 0;

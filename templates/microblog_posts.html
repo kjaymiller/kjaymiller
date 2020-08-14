@@ -1,0 +1,24 @@
+  <section class="section">
+    <div class="container posts">
+      <h1 class="title is-3">Microblog Posts</h1>
+      <div class="columns is-multiline">
+        {% for post in microblog_posts %}
+        <div class="column is-4">
+          <div class="microblog-content box">
+            <div class="content microblog-content">
+              {{post.content}}
+            </div>
+            <p class="content has-text-right">
+            {{post.date_friendly}}
+            </p>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+      <div>
+        <p class="content has-text-right">
+        <a href="/microblog/microblog-0">View Older Posts</a>
+        </p>
+      </div>
+    </div>
+  </section>
