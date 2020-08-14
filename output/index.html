@@ -109,11 +109,11 @@
 
   embed.addEventListener(Twitch.Embed.VIDEO_READY, function() {
   if (embed.isPaused()) {
-    document.querySelector('#twitch-block').style.maxHeight= '800px';
+    document.querySelector('#twitch-block').style.maxHeight="inherit";
   }
 
   else {
-    document.querySelector('#twitch-block').style.maxHeight="inherit";
+    document.querySelector('#twitch-block').style.maxHeight= '800px';
   }
 
   });
