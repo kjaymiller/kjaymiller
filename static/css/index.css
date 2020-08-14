@@ -57,7 +57,7 @@ img.podcast-image {
   max-width: 100%;
 }
 
-.microblog-content > a {
+.microblog-content a {
   overflow-wrap: break-word;
 }
 
