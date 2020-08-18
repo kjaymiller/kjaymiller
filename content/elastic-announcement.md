@@ -1,4 +1,4 @@
-title: My New Job and What that Means for All the Things I Do.
+title: My New Job and What that Means for All the Things I Do
 date: 17 Aug 2020 16:41
 tags: job
 category: Life
