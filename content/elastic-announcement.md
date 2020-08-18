@@ -25,7 +25,7 @@ You can expect a _small_ reduction in _new feature work_[^2] while I'm adjusting
 The blog content will continue at it's _irregularly-scheduled_ pace.
 
 The PIT Podcast has enough episodes lined up for the rest of the year [^3]
-There is no current plan to stop doing the PIT Podcast with the alternating format, 
+There is no current plan to stop doing the PIT Podcast with the alternating format.
 
 Elastic is aware of the other projects I co-host and has no intention in asking me to stop any of them.
 
