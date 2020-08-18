@@ -2,7 +2,7 @@ Jay Miller is a software devleoper, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [How I Made My Twitch Player Appear on My Site Only When I'm Live](https://kjaymiller.com/twitch-player-live-only)**
+**Latest Post - [My New Job and What that Means for All the Things I Do.](https://kjaymiller.com/my-new-job-and-what-that-means-for-all-the-things-i-do)**
 
 **Latest Productivity in Tech Podcast Episode - [How Developer Advocacy is Changing with Joe Karlsson](https://share.transistor.fm/s/a642c630)**
 
