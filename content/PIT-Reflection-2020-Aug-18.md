@@ -1,8 +1,7 @@
 title: PIT Reflections: The Race to the Bottom with Content
 date: 18 Aug 2020 22:21
 category: Productivity in Tech Podcast
-github:
-https://github.com/kjaymiller/kjaymiller/blob/master/content/PIT-Reflection-2020-Aug-18.md
+github: https://github.com/kjaymiller/kjaymiller/blob/master/content/PIT-Reflection-2020-Aug-18.md
 
 
 Your Boy got a JOB! Next month begins my career as a developer advocate, but we don't talk about that too much. 
