@@ -2,9 +2,9 @@ Jay Miller is a software devleoper, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [My New Job and What that Means for All the Things I Do.](https://kjaymiller.com/my-new-job-and-what-that-means-for-all-the-things-i-do)**
+**Latest Post - [My New Job and What that Means for All the Things I Do](https://kjaymiller.com/my-new-job-and-what-that-means-for-all-the-things-i-do)**
 
-**Latest Productivity in Tech Podcast Episode - [How Developer Advocacy is Changing with Joe Karlsson](https://share.transistor.fm/s/a642c630)**
+**Latest Productivity in Tech Podcast Episode - [PIT Reflections: The Spiral to Free Content](https://share.transistor.fm/s/8568b432)**
 
 ## Active Projects
 
