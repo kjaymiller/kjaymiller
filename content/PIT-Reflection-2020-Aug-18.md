@@ -1,7 +1,11 @@
-title: PIT Reflections: The Race to the Bottom with Content
+title: PIT Reflections: The Spiral to free Content
 date: 18 Aug 2020 22:21
 category: Productivity in Tech Podcast
 github: https://github.com/kjaymiller/kjaymiller/blob/master/content/PIT-Reflection-2020-Aug-18.md
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/reaching-for-likes.jpg
+
+
+<iframe width="100%" height="180" frameborder="no" scrolling="no" seamless src="https://share.transistor.fm/e/8568b432"></iframe>
 
 
 Your Boy got a JOB! Next month begins my career as a developer advocate, but we don't talk about that too much. 
