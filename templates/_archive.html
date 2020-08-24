@@ -22,7 +22,7 @@
       {% if post.image %}
       <div class="column is-3">
         <figure class="image is-128x128">
-          <img src="{{post.image}}">
+          <img style="max-height:128px; overflow:hidden;" src="{{post.image}}">
         </figure>
       </div>
       {% endif %}
