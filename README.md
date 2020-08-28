@@ -4,7 +4,7 @@ You can see what he's posting about at <https://kjaymiller.com>.
 
 **Latest Post - [PIT Reflections: The Spiral to free Content](https://kjaymiller.com/pit-reflections-the-spiral-to-free-content)**
 
-**Latest Productivity in Tech Podcast Episode - [PIT Reflections: The Spiral to Free Content](https://share.transistor.fm/s/8568b432)**
+**Latest Productivity in Tech Podcast Episode - [Creating the Art No One Asked For (So you don't have to) with Scott Johnson](https://share.transistor.fm/s/7fcd358f)**
 
 ## Active Projects
 
