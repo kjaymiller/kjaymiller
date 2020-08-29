@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>(K) Jay Miller - RSS Feed</title>
-    <link>https://kjaymiller.com</link>
+    <link>https://kjaymiller.com/blog.rss.xml</link>
     <description></description>
     <atom:link href="https://kjaymiller.com/blog.rss.xml" rel="self" type="application/rss+xml" />
 
@@ -564,7 +564,7 @@
 <p>I'm ready.</p>
 ]]></description>
 
-<link>https://kjaymiller.com/pitpodcast-tom-merrit-july-2020</link>
+    <link>https://kjaymiller.com/pitpodcast-tom-merrit-july-2020</link>
 <pubDate>Tue, 14 Jul 2020 11:32:00 -0700</pubDate><guid isPermaLink="false">pitpodcast-tom-merrit-july-2020</guid></item><item>
 <title>App Camp 4 Girls and App Launch Map (with a move in the middle) w/ Aleen Simms</title>  <description><![CDATA[<p><a href="https://appcamp4girls.com/">App Camp 4 Girls</a><em>* <br />
 <strong><a href="https://applaunchmap.com/">App Launch Map</a> <br />
@@ -587,7 +587,7 @@ Join our new <a href="https://discourse.productivityintech.com/">Discourse</a> a
 <p><strong><a href="Https://ko-fi.com/jayandjaymedia">★ Support this podcast by donating ★</a></strong></p>
 ]]></description>
 
-<link>https://kjaymiller.com/pitpod-aleen</link>
+    <link>https://kjaymiller.com/pitpod-aleen</link>
 <pubDate>Mon, 11 Mar 2019 08:00:00 -0700</pubDate><guid isPermaLink="false">pitpod-aleen</guid></item><item>
 <title>Focused Podcast Episode #105: Living the Multipotentialite Life, with Jay Miller</title>  <description><![CDATA[<p>I had the privilege of being a guest on the <a href="https://www.relay.fm/focused/105">Focused Podcast</a>.</p>
 
@@ -599,7 +599,7 @@ was able to share some of my knowledge with their audience. </p>
 Podcast</a> so subscribe today.</p>
 ]]></description>
 
-<link>https://kjaymiller.com/focused-105</link>
+    <link>https://kjaymiller.com/focused-105</link>
 <pubDate>Tue, 04 Aug 2020 21:33:00 -0700</pubDate><guid isPermaLink="false">focused-105</guid></item><item>
 <title>[Podcast] PIT Podcast Ep 5: What Companies AND Candidates can do Better in the Hiring Process with John Knox</title>  <description><![CDATA[<p>This week on the Productivity in Tech Podcast, I spoke with John Knox.</p>
 
@@ -611,7 +611,7 @@ Podcast</a> so subscribe today.</p>
 <a href="https://buttondown.email/productivityintech">https://buttondown.email/productivityintech</a></p>
 ]]></description>
 
-<link>https://kjaymiller.com/podcast-pit-podcast-ep-5-what-companies-and-candidates-can-do-better-in-the-hiring-process-with-john-knox</link>
+    <link>https://kjaymiller.com/podcast-pit-podcast-ep-5-what-companies-and-candidates-can-do-better-in-the-hiring-process-with-john-knox</link>
 <pubDate>Mon, 04 Feb 2019 08:00:00 -0800</pubDate><guid isPermaLink="false">podcast-pit-podcast-ep-5-what-companies-and-candidates-can-do-better-in-the-hiring-process-with-john-knox</guid></item><item>
 <title>[PIT Podcast] Getting Real and Narrowing Scope</title>  <description><![CDATA[<iframe width="100%" height="180" frameborder="no" scrolling="no" seamless src="https://share.transistor.fm/e/2d916493"></iframe>
 
@@ -1578,7 +1578,7 @@ Podcast</a> so subscribe today.</p>
 <p>I will talk to you next time.</p>
 ]]></description>
 
-<link>https://kjaymiller.com/pit-podcast-getting-real-and-narrowing-scope</link>
+    <link>https://kjaymiller.com/pit-podcast-getting-real-and-narrowing-scope</link>
 <pubDate>Thu, 11 Jun 2020 08:37:00 -0700</pubDate><guid isPermaLink="false">pit-podcast-getting-real-and-narrowing-scope</guid></item><item>
 <title>Multipotentiality vs Mindfulness</title>  <description><![CDATA[<p>Having many friends that are into personal productivity<sup class="footnote-ref" id="fnref-1"><a href="#fn-1">1</a></sup>, I've come to learn about several <em>lifestyle</em> schools of thought. Many people devote to the GTD way of life, while others, like myself, have decided to reduce the number of technological dependencies in favor of a more analog lifestyle.</p>
 
@@ -1654,7 +1654,7 @@ Podcast</a> so subscribe today.</p>
 </div>
 ]]></description>
 
-<link>https://kjaymiller.com/multipotentiality-vs-mindfulness</link>
+    <link>https://kjaymiller.com/multipotentiality-vs-mindfulness</link>
 <pubDate>Thu, 23 Jul 2020 17:08:00 -0700</pubDate><guid isPermaLink="false">multipotentiality-vs-mindfulness</guid></item><item>
 <title>How I Made My Twitch Player Appear on My Site Only When I&#39;m Live</title>  <description><![CDATA[<p>I wanted to write this to show that the easiest answer can often elude us. </p>
 
@@ -1710,12 +1710,12 @@ Podcast</a> so subscribe today.</p>
 </div>
 ]]></description>
 
-<link>https://kjaymiller.com/twitch-player-live-only</link>
+    <link>https://kjaymiller.com/twitch-player-live-only</link>
 <pubDate>Wed, 12 Aug 2020 11:27:00 -0700</pubDate><guid isPermaLink="false">twitch-player-live-only</guid></item><item>
 <title>Jamie is a Form Group</title>  <description><![CDATA[<p>This is a test</p>
 ]]></description>
 
-<link>https://kjaymiller.com/jamie-is-a-form-group</link>
+    <link>https://kjaymiller.com/jamie-is-a-form-group</link>
 <pubDate>Tue, 01 Jan 2019 12:00:00 -0800</pubDate><guid isPermaLink="false">jamie-is-a-form-group</guid></item><item>
 <title>The &#34;Problem&#34; with rewriting tasks in your Bullet Journal</title>  <description><![CDATA[<p>I was recently asked about the headache of re-writing things in my Bullet Journal. I have an interesting trick in fixing that. </p>
 
@@ -1741,7 +1741,7 @@ Podcast</a> so subscribe today.</p>
 </div>
 ]]></description>
 
-<link>https://kjaymiller.com/rewriting-bujo-tasks</link>
+    <link>https://kjaymiller.com/rewriting-bujo-tasks</link>
 <pubDate>Wed, 12 Aug 2020 07:11:00 -0700</pubDate><guid isPermaLink="false">rewriting-bujo-tasks</guid></item><item>
 <title>January 2019 Bullet Journal Recap</title>  <description><![CDATA[<p>Late last year I made the decision to go full time analog productivity. To me this was a return to my <em>Midori Traveller's Notebook</em> and less reliability on mobile applications to keep track of things. </p>
 
@@ -1768,7 +1768,7 @@ Podcast</a> so subscribe today.</p>
 <p>February is going to be a test on consistency for me. I've proven that I can work from my notebook like I used to. As this trust has returned, I can continue to focus on adding more and more content and collections into it. I also think my current notebook will fill up in the middle of the month which will bring about a migration which I will definitely talk about at that time.</p>
 ]]></description>
 
-<link>https://kjaymiller.com/january-2019-bullet-journal-recap</link>
+    <link>https://kjaymiller.com/january-2019-bullet-journal-recap</link>
 <pubDate>Fri, 01 Feb 2019 16:00:00 -0800</pubDate><guid isPermaLink="false">january-2019-bullet-journal-recap</guid></item><item>
 <title>In Defense of the Black Multi-Potentialite</title>  <description><![CDATA[<blockquote>
   <p><em>Stay in Your Lane.</em> - NRA to Emergency Room Doctors</p>
@@ -1839,7 +1839,7 @@ qualifies me to do what I do, how I do it. </p>
 <p>My child will grow up seeing me doing what I want and enjoying it, and maybe I will inspire her to do the same.</p>
 ]]></description>
 
-<link>https://kjaymiller.com/in-defense-of-the-black-multi-potentialite</link>
+    <link>https://kjaymiller.com/in-defense-of-the-black-multi-potentialite</link>
 <pubDate>Sat, 06 Jun 2020 22:24:00 -0700</pubDate><guid isPermaLink="false">in-defense-of-the-black-multi-potentialite</guid></item><item>
 <title>[Podcast] PIT Podcast Ep 4: A Native Indi Creating An Indie Shop in Indi(ana)</title>  <description><![CDATA[<p>My guest this week was Mike Young. </p>
 
@@ -1848,12 +1848,12 @@ qualifies me to do what I do, how I do it. </p>
 <p>In this conversation, we discuss what it's like to build a business outside of Silicon Valley.</p>
 ]]></description>
 
-<link>https://kjaymiller.com/podcast-pit-podcast-ep-4-a-native-indi-creating-an-indie-shop-in-indi-ana</link>
+    <link>https://kjaymiller.com/podcast-pit-podcast-ep-4-a-native-indi-creating-an-indie-shop-in-indi-ana</link>
 <pubDate>Mon, 28 Jan 2019 21:00:00 -0800</pubDate><guid isPermaLink="false">podcast-pit-podcast-ep-4-a-native-indi-creating-an-indie-shop-in-indi-ana</guid></item><item>
 <title>[Podcast] Ask a Brit Ep 4: I don&#39;t know who that is!</title>  <description><![CDATA[<p>In this episode, I ask Jamie if the UK is still the beacon of world pop culture?</p>
 ]]></description>
 
-<link>https://kjaymiller.com/podcast-ask-a-brit-ep-4-i-don-t-know-who-that-is</link>
+    <link>https://kjaymiller.com/podcast-ask-a-brit-ep-4-i-don-t-know-who-that-is</link>
 <pubDate>Mon, 28 Jan 2019 20:00:00 -0800</pubDate><guid isPermaLink="false">podcast-ask-a-brit-ep-4-i-don-t-know-who-that-is</guid></item><item>
 <title>Fish Resources</title>  <description><![CDATA[<div class="notification is-dark">
 <div class="content">
@@ -1898,7 +1898,7 @@ qualifies me to do what I do, how I do it. </p>
 <p>This isn't a complete list. If you find any that I should look into, let me know.</p>
 ]]></description>
 
-<link>https://kjaymiller.com/fish-resources</link>
+    <link>https://kjaymiller.com/fish-resources</link>
 <pubDate>Tue, 14 Apr 2020 08:19:00 -0700</pubDate><guid isPermaLink="false">fish-resources</guid></item><item>
 <title>Quick Productivity Tip - Walk and Talks</title>  <description><![CDATA[<p>Since the Quarantine, I've been goign on two weekly walks with a couple of PIT
 Premium Members.</p>
@@ -1919,7 +1919,7 @@ things. Also the time away from my computer really helps.</p>
 <p><img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/CleanShot-2020-05-25-at-23.01.11.png" alt="the route I take" /></p>
 ]]></description>
 
-<link>https://kjaymiller.com/quick-productivity-tip-walk-and-talks</link>
+    <link>https://kjaymiller.com/quick-productivity-tip-walk-and-talks</link>
 <pubDate>Mon, 25 May 2020 23:01:00 -0700</pubDate><guid isPermaLink="false">quick-productivity-tip-walk-and-talks</guid></item><item>
 <title>Announcing The PIT Podcast 2020 Season!</title>  <description><![CDATA[<p>I'm happy to announce that the Productivity in Tech Podcast is back in action!</p>
 
@@ -1932,7 +1932,7 @@ things. Also the time away from my computer really helps.</p>
 <p>The <a href="https://podcast.productivityintech.com/s2020/1">first episode</a> is out and you can listen on my <a href="https://podcast.productivityintech.com/s2020/1">transistor page</a> or in your podcast player.</p>
 ]]></description>
 
-<link>https://kjaymiller.com/pitpodcast-2020-begins</link>
+    <link>https://kjaymiller.com/pitpodcast-2020-begins</link>
 <pubDate>Tue, 18 Feb 2020 23:51:00 -0800</pubDate><guid isPermaLink="false">pitpodcast-2020-begins</guid></item><item>
 <title>Quickly Set Your Environment with Bunch and Alfred</title>  <description><![CDATA[<p><a href="https://brettterpstra.com/projects/bunch/">Bunch</a> is an environment setup/teardown tool by the <a href="https://productivityintech.transistor.fm/episodes/podcast-ground-surfing-with-brett-terpstra">mad genius and yoga maestro of the internet</a> Brett Terpstra.</p>
 
@@ -1961,7 +1961,7 @@ things. Also the time away from my computer really helps.</p>
 <p>The workflow is available on <a href="http://www.packal.org/workflow/bunch-quick-launch">Packal</a> to modify via my <a href="https://github.com/kjaymiller/Bunch_Alfred">Github Repo</a></p>
 ]]></description>
 
-<link>https://kjaymiller.com/quickly-set-your-environment-with-bunch-and-alfred</link>
+    <link>https://kjaymiller.com/quickly-set-your-environment-with-bunch-and-alfred</link>
 <pubDate>Tue, 01 Oct 2019 11:00:00 -0700</pubDate><guid isPermaLink="false">quickly-set-your-environment-with-bunch-and-alfred</guid></item><item>
 <title>How Can White People Help Black People. What is the Real Problem</title>  <description><![CDATA[<p>The following is an excerpt from a personal conversation I had.</p>
 
@@ -1997,7 +1997,7 @@ things. Also the time away from my computer really helps.</p>
 </blockquote>
 ]]></description>
 
-<link>https://kjaymiller.com/helping-black-people</link>
+    <link>https://kjaymiller.com/helping-black-people</link>
 <pubDate>Thu, 04 Jun 2020 08:58:00 -0700</pubDate><guid isPermaLink="false">helping-black-people</guid></item><item>
 <title>Quick Productivity Tip - The Upcoming Family Agenda</title>  <description><![CDATA[<p>I've recently been doing weekly reviews with my wife (GTD addicts calm down, not that kind of review). Mostly we just cover my schedule and plan our meals for the week. This has been amazing for us as it gets us on the same page and eliminates any last minute decisions. </p>
 
@@ -2006,7 +2006,7 @@ things. Also the time away from my computer really helps.</p>
 <p><img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/CleanShot-2020-05-25-at-22.50.08.png" alt="screenshot of dinner" /></p>
 ]]></description>
 
-<link>https://kjaymiller.com/qtp-family-agenda</link>
+    <link>https://kjaymiller.com/qtp-family-agenda</link>
 <pubDate>Mon, 25 May 2020 22:59:00 -0700</pubDate><guid isPermaLink="false">qtp-family-agenda</guid></item><item>
 <title>SubCollections now available in Render Engine</title>  <description><![CDATA[<p><strong>Version Update: 2020.07.02</strong>
 I'm happy to announce that subcollections are now supported in render_engine</p>
@@ -2022,7 +2022,7 @@ I'm happy to announce that subcollections are now supported in render_engine</p>
 </ul>
 ]]></description>
 
-<link>https://kjaymiller.com/subcollections-now-available-in-render-engine</link>
+    <link>https://kjaymiller.com/subcollections-now-available-in-render-engine</link>
 <pubDate>Wed, 01 Jul 2020 14:43:00 -0700</pubDate><guid isPermaLink="false">subcollections-now-available-in-render-engine</guid></item><item>
 <title>May 2020 - Monthly Catchup</title>  <description><![CDATA[<p><em>This post is also available via my <a href="https://buttondown.email/productivityintech">Newsletter</a>.</em></p>
 
@@ -2084,7 +2084,7 @@ I'm happy to announce that subcollections are now supported in render_engine</p>
 <p>If you have an RSS Reader that you use. Consider Subscribing to my [Blog] or [Microblog].</p>
 ]]></description>
 
-<link>https://kjaymiller.com/may-2020-monthly-catchup</link>
+    <link>https://kjaymiller.com/may-2020-monthly-catchup</link>
 <pubDate>Mon, 25 May 2020 23:40:00 -0700</pubDate><guid isPermaLink="false">may-2020-monthly-catchup</guid></item><item>
 <title>The Disparity of Black Shootings in NYC</title>  <description><![CDATA[<p>There is a huge disparity in the number of Black Americans and shooting
 incidents. Developer <a href="https://twitter.com/wayneoflife">Wayne Jones</a> along with
@@ -2096,7 +2096,7 @@ violenve in Black communities in NYC.</p>
 </blockquote>
 ]]></description>
 
-<link>https://kjaymiller.com/the-disparity-of-black-shootings-in-nyc</link>
+    <link>https://kjaymiller.com/the-disparity-of-black-shootings-in-nyc</link>
 <pubDate>Fri, 10 Jul 2020 09:37:00 -0700</pubDate><guid isPermaLink="false">the-disparity-of-black-shootings-in-nyc</guid></item><item>
 <title>How I AutoUpdate My Github README using GitHub Actions in 5 Easy Steps</title>  <description><![CDATA[<p>A new phenominon in the developer space is now the 🌟<em>secret</em>🌟 README.md
 trick. If you have a repository with the EXACT (case-sensitive) name as your username, it will display the contents of that readme onto your GitHub profile.</p>
@@ -2204,7 +2204,7 @@ will probably setup the file on a schedule to also update when I push something
 new (Future Post...Probably).</p>
 ]]></description>
 
-<link>https://kjaymiller.com/how-i-autoupdate-my-github-readme-using-github-actions-in-5-easy-steps</link>
+    <link>https://kjaymiller.com/how-i-autoupdate-my-github-readme-using-github-actions-in-5-easy-steps</link>
 <pubDate>Fri, 10 Jul 2020 15:16:00 -0700</pubDate><guid isPermaLink="false">how-i-autoupdate-my-github-readme-using-github-actions-in-5-easy-steps</guid></item><item>
 <title>PIT Reflections: A Million Children&#39;s Recitals</title>  <description><![CDATA[<p>PIT Reflections 2020-Aug-04
 I've been doing a lot in public, from talks and livestreams to appearances on other podcasts and taking interviews.</p>
@@ -3275,7 +3275,7 @@ I've been doing a lot in public, from talks and livestreams to appearances on ot
 <p>This spin productivity in tech reflections Have a good day.</p>
 ]]></description>
 
-<link>https://kjaymiller.com/pit-reflection-aug-8</link>
+    <link>https://kjaymiller.com/pit-reflection-aug-8</link>
 <pubDate>Tue, 04 Aug 2020 21:22:00 -0700</pubDate><guid isPermaLink="false">pit-reflection-aug-8</guid></item><item>
 <title>PIT Podcast: A Surplus of Happy with Melanie C.</title>  <description><![CDATA[<p>I had the privilege of meeting Melanie C. very early in my python career. She
 was work on what would be known as five up app and learning Django. In this
@@ -5088,7 +5088,7 @@ Check out her amazing python talks!</li>
 <p>100%.</p>
 ]]></description>
 
-<link>https://kjaymiller.com/pitpodcast-melaniec-2020</link>
+    <link>https://kjaymiller.com/pitpodcast-melaniec-2020</link>
 <pubDate>Tue, 30 Jun 2020 08:00:00 -0700</pubDate><guid isPermaLink="false">pitpodcast-melaniec-2020</guid></item><item>
 <title>My Anxiety Makes Me Get Things Done</title>  <description><![CDATA[<p>Recently I've been on a tear with new podcasts, live streams, and communities.</p>
 
@@ -5123,7 +5123,7 @@ Check out her amazing python talks!</li>
 <p><img src="https://media2.giphy.com/media/5ArJanyCfxgiY/giphy.gif" alt="" /></p>
 ]]></description>
 
-<link>https://kjaymiller.com/anxiety-based-gtd</link>
+    <link>https://kjaymiller.com/anxiety-based-gtd</link>
 <pubDate>Mon, 25 Mar 2019 10:42:00 -0700</pubDate><guid isPermaLink="false">anxiety-based-gtd</guid></item><item>
 <title>Friends have been my Greatest Asset!</title>  <description><![CDATA[<p>I've been letting folks know about my <a href="https://productivityintech.com/coaching">coaching</a> and <a href="https://productivityintech.com/editing">editing</a> services more and more these days. </p>
 
@@ -5200,7 +5200,7 @@ I've had them refer some of their audience to me when they are looking for a coa
 <p>None of these things are all that time intensive and none of them leave you with this <em>grimy</em> feeling as if you are peddling to your friends. Your "inner-circle" doesn't want to see you fail. In fact, they will be your biggest fan. It's up to you to nurture those relationships and make sure that you let them know of ways that they can help.</p>
 ]]></description>
 
-<link>https://kjaymiller.com/friends-have-been-my-greatest-asset</link>
+    <link>https://kjaymiller.com/friends-have-been-my-greatest-asset</link>
 <pubDate>Wed, 17 Apr 2019 09:24:00 -0700</pubDate><guid isPermaLink="false">friends-have-been-my-greatest-asset</guid></item><item>
 <title>PIT Reflections: The Spiral to free Content</title>  <description><![CDATA[<iframe width="100%" height="180" frameborder="no" scrolling="no" seamless src="https://share.transistor.fm/e/8568b432"></iframe>
 
@@ -6011,7 +6011,7 @@ I've had them refer some of their audience to me when they are looking for a coa
 <p>I'll see you next time</p>
 ]]></description>
 
-<link>https://kjaymiller.com/pit-reflections-the-spiral-to-free-content</link>
+    <link>https://kjaymiller.com/pit-reflections-the-spiral-to-free-content</link>
 <pubDate>Tue, 18 Aug 2020 22:21:00 -0700</pubDate><guid isPermaLink="false">pit-reflections-the-spiral-to-free-content</guid></item><item>
 <title>PIT Podcast: How Developer Advocacy is Changing with Joe Karlsson</title>  <description><![CDATA[<p>The world of Developer Advocacy has been changing and Joe Karlsson is at the front of that movement. Moving discussions from the hallway track to Twitter, Twitch, and Tik Tok, hear how this Developer 🥑 is connecting with developers.</p>
 
@@ -8074,7 +8074,7 @@ I've had them refer some of their audience to me when they are looking for a coa
 <p>I'm ready.</p>
 ]]></description>
 
-<link>https://kjaymiller.com/pit-podcast-joe-karlsson</link>
+    <link>https://kjaymiller.com/pit-podcast-joe-karlsson</link>
 <pubDate>Tue, 11 Aug 2020 15:33:00 -0700</pubDate><guid isPermaLink="false">pit-podcast-joe-karlsson</guid></item><item>
 <title>My New Job and What that Means for All the Things I Do</title>  <description><![CDATA[<p>For the last 5 months<sup class="footnote-ref" id="fnref-1"><a href="#fn-1">1</a></sup>, I've applied for many Software Engineering and Developer Advocate Roles.</p>
 
@@ -8139,7 +8139,7 @@ There is no current plan to stop doing the PIT Podcast with the alternating form
 </div>
 ]]></description>
 
-<link>https://kjaymiller.com/my-new-job-and-what-that-means-for-all-the-things-i-do</link>
+    <link>https://kjaymiller.com/my-new-job-and-what-that-means-for-all-the-things-i-do</link>
 <pubDate>Mon, 17 Aug 2020 16:41:00 -0700</pubDate><guid isPermaLink="false">my-new-job-and-what-that-means-for-all-the-things-i-do</guid></item><item>
 <title>I Can&#39;t Be the Only One Seeing This</title>  <description><![CDATA[<p>What are people yelling about?</p>
 
@@ -8212,7 +8212,7 @@ Don't you realize the pain you cause people? Does that mean nothing to you?
 <p>... OK BOOMER ...</p>
 ]]></description>
 
-<link>https://kjaymiller.com/march-2020-crisis-social-issues</link>
+    <link>https://kjaymiller.com/march-2020-crisis-social-issues</link>
 <pubDate>Thu, 05 Mar 2020 13:58:00 -0800</pubDate><guid isPermaLink="false">march-2020-crisis-social-issues</guid></item><item>
 <title>Can we fix this?</title>  <description><![CDATA[<p>I have been mostly silent in this time, mostly as I needed time to think
 about what I would like to see come out of all this.</p>
@@ -8292,7 +8292,7 @@ can't advocate for themselves. Stand up for those that can't afford to stand up
 for themselves. Punish those that punish unjustly. And be willing to listen when we do speak up.</p>
 ]]></description>
 
-<link>https://kjaymiller.com/can-we-fix-this</link>
+    <link>https://kjaymiller.com/can-we-fix-this</link>
 <pubDate>Mon, 01 Jun 2020 08:17:00 -0700</pubDate><guid isPermaLink="false">can-we-fix-this</guid></item><item>
 <title>Transcriptor now Supports SRT Upload and Conversion</title>  <description><![CDATA[<p>A few weeks ago, I was tasked with a new transcription project.</p>
 
@@ -8321,7 +8321,7 @@ for themselves. Punish those that punish unjustly. And be willing to listen when
 <p><code>pip install transcriptor</code></p>
 ]]></description>
 
-<link>https://kjaymiller.com/transcriptor-now-supports-srt-upload-and-conversion</link>
+    <link>https://kjaymiller.com/transcriptor-now-supports-srt-upload-and-conversion</link>
 <pubDate>Wed, 05 Aug 2020 13:37:00 -0700</pubDate><guid isPermaLink="false">transcriptor-now-supports-srt-upload-and-conversion</guid></item><item>
 <title>I Was Selected as a Mentee for the First Podcast Mentorship Cohort</title>  <description><![CDATA[<p>I'm a firm believer that it is incredibly hard to be a <em>self taught</em> anything.</p>
 
@@ -8362,7 +8362,7 @@ different places in their career).</p>
 <a href="https://www.podcastmentorship.net/mentees">https://www.podcastmentorship.net/mentees</a></p>
 ]]></description>
 
-<link>https://kjaymiller.com/podcast-mentorship-mentee</link>
+    <link>https://kjaymiller.com/podcast-mentorship-mentee</link>
 <pubDate>Tue, 14 Jul 2020 12:08:00 -0700</pubDate><guid isPermaLink="false">podcast-mentorship-mentee</guid></item><item>
 <title>Travel, Parenting, and ADHD with Heidi Waterhouse</title>  <description><![CDATA[<p>Heidi is a Developer Advocate for <a href="https://www.launchdarkly.com/">Launch Darkly</a>.  </p>
 
@@ -8388,7 +8388,7 @@ Links:</em>*</p>
 <p><strong><a href="Https://ko-fi.com/jayandjaymedia">★ Support this podcast by donating ★</a></strong></p>
 ]]></description>
 
-<link>https://kjaymiller.com/travel-parenting-and-adhd-with-heidi-waterhouse</link>
+    <link>https://kjaymiller.com/travel-parenting-and-adhd-with-heidi-waterhouse</link>
 <pubDate>Mon, 04 Mar 2019 18:05:00 -0800</pubDate><guid isPermaLink="false">travel-parenting-and-adhd-with-heidi-waterhouse</guid></item><item>
 <title>Announcing Transcriptor</title>  <description><![CDATA[<h2>This was the launch month for [Transcriptor]. This is a helper package that I use for doing transcriptions for PIT Clients.</h2>
 
@@ -8409,7 +8409,7 @@ Links:</em>*</p>
 <p>I am accepting testing and documentation PRs, I'm also looking at incoming issues and If you have a fix (Not a Feature Request), I will accept after testing and reviews.</p>
 ]]></description>
 
-<link>https://kjaymiller.com/announcing-transcriptor</link>
+    <link>https://kjaymiller.com/announcing-transcriptor</link>
 <pubDate>Mon, 25 May 2020 22:32:00 -0700</pubDate><guid isPermaLink="false">announcing-transcriptor</guid></item><item>
 <title>Don&#39;t Ban Companies, Change the Rules</title>  <description><![CDATA[<p>The allegations of abuse from Tik Tok and WeChat stem from features that data made accessible by other app developers. These Examples include:</p>
 
@@ -8453,6 +8453,6 @@ Links:</em>*</p>
 </div>
 ]]></description>
 
-<link>https://kjaymiller.com/don-t-ban-companies-change-the-rules</link>
+    <link>https://kjaymiller.com/don-t-ban-companies-change-the-rules</link>
 <pubDate>Wed, 12 Aug 2020 07:18:00 -0700</pubDate><guid isPermaLink="false">don-t-ban-companies-change-the-rules</guid></item></channel>
 </rss>
