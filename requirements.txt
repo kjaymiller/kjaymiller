@@ -9,13 +9,13 @@ feedparser==5.2.1         # via -r requirements.in
 jinja2==2.11.2            # via render-engine
 markdown2==2.3.9          # via render-engine
 markupsafe==1.1.1         # via jinja2
-more-itertools==8.4.0     # via render-engine
+more-itertools==8.5.0     # via render-engine
 pendulum==2.1.2           # via render-engine
 progress==1.5             # via render-engine
 pygments==2.6.1           # via render-engine
 python-dateutil==2.8.1    # via pendulum
 python-slugify==4.0.1     # via render-engine
 pytzdata==2020.1          # via pendulum
-render-engine==2020.7.22  # via -r requirements.in
+render-engine==2020.8.1   # via -r requirements.in
 six==1.15.0               # via python-dateutil
 text-unidecode==1.3       # via python-slugify
