@@ -19,7 +19,10 @@ jobs:
           architecture: "x64"
 
       - name: Install Requirements
-        run: pip install -r requirements.txt
+        run: |
+          pip install -r pip-tools
+          pip-compile --upgrade
+          pip-sync
 
       - name: Generate new website
         run: python run.py
