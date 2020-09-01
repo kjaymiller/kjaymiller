@@ -2,7 +2,7 @@ Jay Miller is a software devleoper, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [PIT Reflections: The Spiral to free Content](https://kjaymiller.com/pit-reflections-the-spiral-to-free-content)**
+**Latest Post - [Wayne Jones - Let's Learn Together - The PIT Show Preseason](https://kjaymiller.com/wayne-jones-let-s-learn-together-the-pit-show-preseason)**
 
 **Latest Productivity in Tech Podcast Episode - [Wayne Jones - Let's Learn Together - The PIT Show Preseason](https://share.transistor.fm/s/05f706ff)**
 
