@@ -2,6 +2,7 @@
 *.swo
 *.pyc
 
+.envrc
 *.tar
 
 .envrc
