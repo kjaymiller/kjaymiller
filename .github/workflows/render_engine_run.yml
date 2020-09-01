@@ -20,7 +20,7 @@ jobs:
 
       - name: Install Requirements
         run: |
-          pip install -r pip-tools
+          pip install pip-tools
           pip-compile --upgrade
           pip-sync
 
