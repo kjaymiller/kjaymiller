@@ -1,5 +1,6 @@
 title: Wayne Jones - Let's Learn Together - The PIT Show Preseason
 date: 2020-09-01T16:46:02.298Z
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/pit-logo-v5.jpg
 
 This is the PIT Show, a new format combining reflections and interviews with people working in technology. We're in the preseason so expect some changes, but we kick this off with an explainer, an interview with Wayne Jones and a tribute to Chadwick Boseman.
 
