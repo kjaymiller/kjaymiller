@@ -4,6 +4,8 @@
 
 *.tar
 
+.envrc
+
 bin
 lib
 .ropeproject
