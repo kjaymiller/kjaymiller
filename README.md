@@ -4,7 +4,7 @@ You can see what he's posting about at <https://kjaymiller.com>.
 
 **Latest Post - [Your First Remote First Day and And Stop Arguing About Preferences!](https://kjaymiller.com/your-first-remote-first-day-and-and-stop-arguing-about-preferences)**
 
-**Latest Productivity in Tech Podcast Episode - [Your First Remote First Day and And Stop Arguing About Preferences!](https://share.transistor.fm/s/8db4b73c)**
+**Latest Productivity in Tech Podcast Episode - [What Does Content Look Like in 2020 and Stop Taking Yourself So Seriously!](https://share.transistor.fm/s/4a020536)**
 
 ## Active Projects
 
