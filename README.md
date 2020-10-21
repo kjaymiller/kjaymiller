@@ -2,9 +2,9 @@ Jay Miller is a software devleoper, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [Your First Remote First Day and And Stop Arguing About Preferences!](https://kjaymiller.com/your-first-remote-first-day-and-and-stop-arguing-about-preferences)**
+**Latest Post - [What Does Content Look Like in 2020 and Stop Taking Yourself So Seriously!](https://kjaymiller.com/what-does-content-look-like-in-2020-and-stop-taking-yourself-so-seriously)**
 
-**Latest Productivity in Tech Podcast Episode - [What Does Content Look Like in 2020 and Stop Taking Yourself So Seriously!](https://share.transistor.fm/s/4a020536)**
+**Latest Productivity in Tech Podcast Episode - [Surfacing the Type of Content You Want to See - Part 2 with Trey Hunner](https://share.transistor.fm/s/829157a9)**
 
 ## Active Projects
 
