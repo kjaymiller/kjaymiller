@@ -18,6 +18,7 @@
           featured_post.link %}<a href="{{featured_post.link}}">🔗</a>{% endif %}</h2>
         <div class="content">
           {{featured_post.summary}}
+          {% for tag in featured_post.tags %}<span class="button is-dark">{{tag}}</span>{% endfor %}
         <h1 class="title is-1"><span class="icon"><i class="animated-arrow fas fa-chevron-down"></i></span></h1>
         </div>
       </div>

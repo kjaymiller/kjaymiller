@@ -1,0 +1,197 @@
+00:00:01:
+
+So I want to start this off by letting everyone know here that I understand Transcriptions are hard.
+
+It takes a lot of time. It takes a lot of energy, and it can also be costly.
+
+That said, I want everyone to know that it is becoming easier and easier to do transcriptions, and you should totally do them as much as possible. That's why I'm here.
+
+00:00:53:
+Transcriptions can help students while they're studying. It can help those with ADHD to focus and review information presented at meetings.
+
+
+I'm not here to promote a tool that I made designed to ease this process of making transcriptions using python, but I'm here is an advocate for having accessible content. But even if you aren't creating content like YouTube Videos or podcasts, you can still benefit from transcriptions. In fact, this talk was recorded transcribed, edited, re-recorded and then slides were made to support just the information that was presented in the final presentation. 
+
+00:01:19:
+
+Now, sometimes bad transcriptions but these are not helpful and can often be dangerous or lead to people getting their wires crossed.
+
+00:02:37:
+
+So I'm gonna start from the beginning and make zero assumptions here.
+
+00:02:42:
+
+First of all, what do transcriptions look like? Obviously they're just words to accompany audio or video. I mean what does an actual transcription file look like?
+
+00:02:58:
+
+Well, right now, there are a few different formats, We're only going to cover in my opinion the most versatile one, SubRip or SRT format.
+
+00:03:54:
+
+Many popular video players, media players support SRT, and it's also easy to read and understand.
+
+00:04:14:
+
+It involves an index, a start and stop time and the text that you want to present during that time.
+
+00:04:25:
+
+That's it.
+
+00:04:36:
+
+Now you can pay for a services or hire a human to transcribe content for you, you can also just use the power of machine learning to create fast, inexpensive transcriptions.
+
+00:05:09:
+
+There are a few services that can generate transcriptions, but the one that I use and that I'll be focusing on is Amazon's AWS transcribe.
+
+00:05:36:
+
+So what does it look like to generate an SRT with Amazon Transcribe? You'll need a few things. Like an AWS account and an S3 Bucket.
+
+00:05:50:
+
+You can use Amazon's boto3 library which I will cover or you can use a tool like Transcriptor which is a library that I made.
+
+00:06:08:
+
+No matter what you're doing, if you are relying on amazon transcribe, you will need to set your aws config and credentials. You will need your access and secret key and the default-region.
+
+00:06:14:
+
+You also need an s3 bucket that will hold your audio files, transcriptions and vocabulary. We'll talk more about that later.
+
+The first step is to upload your audio to the bucket. In boto3, this is with boto3.client('storage').upload_file()
+
+00:06:37:
+
+Then you're gonna tell the transcribe client to start_transcription_job, give the job a name, language and the rest of the settings. Here are a couple of things that you may want to think about. 
+
+- How many speakers are there.
+- Are the channels diarized
+
+When you start the transcription job, the machine learning algorithm will analyze your audio and return a list of the words and punctuation that it believes exists at the given timestamps. It uses a confidence index to tell you how sure it is that the word it chose was correct.
+
+00:07:47:
+
+So you can tell, it's not as simple as out putting your transcript file in plain text.
+
+00:07:54:
+
+In fact, it's actually a JSON object that's about 47,000 lines of code. So how do you turn that into an SRT.
+
+
+00:09:15:
+
+Well you can iterate through the alternatives and create markers with start and stop times and then find all the alternatives within those times. Or you can use transcriptor.
+
+Okay so I've talked about it a few times... What is transcriptor?
+
+Transcriptor is a wrapper around Amazon AWS transcribe with hopes of expanding that to other services in the future.
+
+00:09:54:
+
+It takes the process of uploading audio and transcribing it into a readable format into a few lines of code.
+
+So that makes things easier to transcribe and get a transcription but how accurate is it? If you talking code... Probably not that accurate. 
+
+00:12:19:
+
+But why? What makes transcriptions difficult?
+
+00:12:24:
+
+ Some of the same problems that developers face other industries faces well, the biggest one, in my opinion, are names, jargon and syntax.
+
+00:12:36:
+
+For instance, Django, difflib, boto3. Transcription tools will have no clue how to handle these. And that's a good thing.
+
+00:12:43:
+
+All of these different names that we use can often sound like other things and those things are more common in the grand scheme of things than what we're talking about.
+
+00:12:54:
+
+It's almost like talking to your non-developer friends about why you can't find any good examples for setting up a Django application that works with GraphQL. You can do it, but you're going to need to define a few things. 
+
+
+00:13:09:
+
+We need to make sure that the system knows that when we're talking about CLIs and API that it should recognize it as such.
+
+00:13:25:
+
+And we do that by creating a Vocabulary List or table.
+
+00:13:29:
+
+Vocabulary name is this, and then the language is this, and then the phrases air.
+
+Transcriptor supports vocabulary as an object. You can define the Vocabulary phrase, what it sounds like and what it is displayed as.
+
+00:13:37:
+
+This that's simple, pretty easy. To create your Vocabulary list or table you can use the built in transcriptor methods.
+
+And, of course, Dunder init, is a little weird no matter how you slice it.
+
+00:15:19:
+
+ So at the end of the day, we've created the's ability to add very different vocabulary, sets into our transcriptions.
+
+00:15:39:
+
+ But is this really the best way to do it?
+
+00:15:44:
+
+ Have everyone trying to build their own translation tables and vocabulary lists and those things.
+
+00:15:56:
+
+I mean, I don't think so.
+
+00:16:02:
+
+I want to tell you about a project that I'm working on that I need your help with.
+
+00:16:13:
+
+I have started working on a project that will try to make transcriptions better for developers.
+
+00:16:36:
+
+It will do this by looking at documentation, open source code and presentations that have been granted a creative Commons or open source license.
+
+00:17:04:
+
+ The next step there is taking transcriptions that have incorrect data, correcting it and then storing those corrections so that they can be analyzed for the most common changes and create vocabulary sets for developer creators to download and use for free with their transcriptions.
+
+00:17:41:
+
+Now, this is a very big project, one that I'm not entirely sure will be completed this year or in the next.
+
+00:17:55:
+
+But we have to start somewhere.
+
+00:19:11:
+
+I know transcriptions suck. I know they're hard, and I know that they can be expensive as a developer that believes that we can make the process better if you don't have to wait on anyone to do it.
+
+00:19:38:
+
+I want to encourage you all to help in whatever ways you possibly can.
+
+00:19:51:
+
+Connect with me on twitter or visit productivityintech.com about how you can contribute to the project today.
+
+
+00:21:23:
+
+Thank you, to everyone for listening and go transcribe your data.
