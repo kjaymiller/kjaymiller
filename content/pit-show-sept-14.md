@@ -1,6 +1,6 @@
 title: What Does Content Look Like in 2020 and Stop Taking Yourself So Seriously!
 date: 2020-09-15T16:09:57.256Z
-images: https://kjaymiller.s3-us-west-2.amazonaws.com/images/pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/pit-logo-v5.jpg
 tags: podcast, content
 category: Productivity in Tech Podcast
 
