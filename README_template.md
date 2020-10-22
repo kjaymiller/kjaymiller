@@ -32,8 +32,8 @@ Future Support Planned - Google Cloud Services
 - [GitHub](https://github.com/kjaymiller/transcriptor)
 
 ## Sponsors
-This and much of the work that I do is made possible by those that sponsor me
-on github. 
+This and much of the work that I do is made possible by those that [sponsor me
+on github](https://github.com/sponsors/kjaymiller).
 
 ### Sponsors at $20/month and Higher!
 - [Brian Douglas](https://github.com/bdougie)
