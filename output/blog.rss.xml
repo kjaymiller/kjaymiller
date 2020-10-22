@@ -6319,6 +6319,21 @@ Check out her amazing python talks!</li>
 
     <link>https://kjaymiller.com/january-2019-bullet-journal-recap</link>
 <pubDate>Fri, 01 Feb 2019 16:00:00 -0800</pubDate><guid isPermaLink="false">january-2019-bullet-journal-recap</guid></item><item>
+<title>Elasticsearch Pinboard Script (Python)</title>  <description><![CDATA[<p>In this new gig, I'm hoping to learn how to help those that are using the <a href="/elastic-0">Elastic Stack</a>, especially in Python. In a recent conversation with internet's mad scientist, <a href="https://brettterpstra.net">Brett Terpstra</a>. We were talking about <a href="https://brettterpstra.com/projects/slogger/">Slogger</a>, his retired application that he used to log his life activity into Day One. This project was eventually removed as the API for Day One changed.</p>
+
+<p>This is something I've always enjoyed about Brett. He solves his quirky problems for him.</p>
+
+<p>There are a few applications that are overkill or a little too creepy (exist.io) for my needs, but I did like the idea of getting an idea of "how I compute". I mean this by how I spend my time producing and collecting on the internet. One of the things that I do is collect all my twitter posts and likes and retweets in pinboard. I thought it would be great to use Pinboard's API to log and manage my own data and analyze it using the Elastic Stack. So I decided to build a <a href="https://github.com/kjaymiller/elasticsearch-pinboard">script</a> that allows me (and you if you wanna) to visualize my information.</p>
+
+<p><img src="https://ik.imagekit.io/cxazzw3yew/CleanShot_2020-10-21_at_18.40.49_2x_q7UEnmTnf.png" alt="Word Cloud" /></p>
+
+<p>As with most of my projects I have built this in Python and it's not a commercial tool, but it is open-source and available for you to build and hack away on. </p>
+
+<p>I hope you'll check it out - <a href="https://github.com/kjaymiller/elasticsearch-pinboard">https://github.com/kjaymiller/elasticsearch-pinboard</a></p>
+]]></description>
+
+    <link>https://kjaymiller.com/elasticsearch-pinboard-script-python</link>
+<pubDate>Wed, 21 Oct 2020 18:51:00 -0700</pubDate><guid isPermaLink="false">elasticsearch-pinboard-script-python</guid></item><item>
 <title>PIT Reflections: A Million Children&#39;s Recitals</title>  <description><![CDATA[<p>PIT Reflections 2020-Aug-04
 I've been doing a lot in public, from talks and livestreams to appearances on other podcasts and taking interviews.</p>
 
