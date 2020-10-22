@@ -2,6 +2,9 @@ title: Elasticsearch Pinboard Script (Python)
 category: Elastic
 tags: elasticsearch, python, pinboard, bookmarking, visualization
 date: 21 Oct 2020 18:51
+image: https://ik.imagekit.io/cxazzw3yew/CleanShot_2020-10-21_at_18.40.49_2x_q7UEnmTnf.png
+link: https://github.com/kjaymiller/elasticsearch-pinboard
+
 
 In this new gig, I'm hoping to learn how to help those that are using the [Elastic Stack](/elastic-0), especially in Python. In a recent conversation with internet's mad scientist, [Brett Terpstra](https://brettterpstra.net). We were talking about [Slogger](https://brettterpstra.com/projects/slogger/), his retired application that he used to log his life activity into Day One. This project was eventually removed as the API for Day One changed.
 
