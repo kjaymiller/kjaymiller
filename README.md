@@ -2,7 +2,7 @@ Jay Miller is a software devleoper, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [BIPOCIT Dev Advocates Awesome List](https://kjaymiller.com/bipocit-dev-advocates-awesome-list)**
+**Latest Post - [Elasticsearch Pinboard Script (Python)](https://kjaymiller.com/elasticsearch-pinboard-script-python)**
 
 **Latest Productivity in Tech Podcast Episode - [Surfacing the Type of Content You Want to See - Part 2 with Trey Hunner](https://share.transistor.fm/s/829157a9)**
 
