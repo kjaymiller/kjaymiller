@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@elastic/search-ui": "^1.4.1"
+  }
+    "type": "module"
+}
