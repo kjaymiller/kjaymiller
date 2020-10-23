@@ -105,7 +105,7 @@
 
 <p><strong><em>Unsubscribing does remove your data</em></strong>, it only notifies us to not send you information via our newsletter services. </p>
 
-<p>To remove all information that Productivity in Tech keeps in <em>ButtonDown</em>, please email <a href="&#x6d;&#x61;&#x69;&#108;&#116;o&#58;&#105;&#110;&#102;&#x6f;&#x40;&#112;&#x72;&#x6f;d&#117;&#99;&#x74;&#105;&#x76;&#105;t&#121;&#x69;&#110;&#x74;&#x65;&#x63;h&#x2e;&#99;&#x6f;&#109;">&#105;&#110;&#102;&#x6f;&#x40;&#112;&#x72;&#x6f;d&#117;&#99;&#x74;&#105;&#x76;&#105;t&#121;&#x69;&#110;&#x74;&#x65;&#x63;h&#x2e;&#99;&#x6f;&#109;</a>.</p>
+<p>To remove all information that Productivity in Tech keeps in <em>ButtonDown</em>, please email <a href="&#109;&#97;&#105;&#x6c;&#116;&#x6f;&#x3a;&#x69;&#x6e;&#102;&#x6f;&#64;&#x70;&#114;&#111;&#100;&#117;&#99;&#116;&#x69;&#118;&#x69;&#x74;&#x79;&#105;&#110;t&#101;&#x63;&#x68;&#46;&#99;&#111;&#x6d;">&#x69;&#x6e;&#102;&#x6f;&#64;&#x70;&#114;&#111;&#100;&#117;&#99;&#116;&#x69;&#118;&#x69;&#x74;&#x79;&#105;&#110;t&#101;&#x63;&#x68;&#46;&#99;&#111;&#x6d;</a>.</p>
 
 <h2>Donations</h2>
 
@@ -115,7 +115,7 @@
 
 <p>Payments for Productivity in Tech services are done through <a href="https://stripe.com/us/">Stripe</a>.</p>
 
-<p>To remove Productivity in Tech's access to your information as it is stored in Stripe, please email <a href="&#109;&#x61;&#x69;l&#x74;&#x6f;&#58;&#105;&#x6e;&#x66;&#111;&#64;&#112;&#x72;&#111;&#100;&#x75;&#99;&#x74;&#105;&#x76;&#105;&#x74;&#x79;i&#110;t&#x65;&#99;&#x68;&#x2e;&#x63;&#111;m">&#105;&#x6e;&#x66;&#111;&#64;&#112;&#x72;&#111;&#100;&#x75;&#99;&#x74;&#105;&#x76;&#105;&#x74;&#x79;i&#110;t&#x65;&#99;&#x68;&#x2e;&#x63;&#111;m</a>.</p>
+<p>To remove Productivity in Tech's access to your information as it is stored in Stripe, please email <a href="&#x6d;&#97;&#x69;&#x6c;&#116;&#x6f;&#x3a;&#x69;&#x6e;&#102;o&#64;&#x70;&#114;&#111;&#100;&#x75;&#99;&#116;&#105;&#x76;&#x69;t&#x79;&#105;&#110;&#x74;&#x65;&#99;&#x68;&#x2e;&#99;&#x6f;&#109;">&#x69;&#x6e;&#102;o&#64;&#x70;&#114;&#111;&#100;&#x75;&#99;&#116;&#105;&#x76;&#x69;t&#x79;&#105;&#110;&#x74;&#x65;&#99;&#x68;&#x2e;&#99;&#x6f;&#109;</a>.</p>
 
     </article>
   </div>
@@ -177,7 +177,9 @@ function search() {
     var results = axios.post('https://66893193d66446148486c5cf825496bb.ent-search.us-east-1.aws.cloud.es.io/api/as/v1/engines/kjaymiller/search',
            {"query": "Form Group"},
             {"headers":{"Authorization": "Bearer search-qzy24w1dj5extn1mg8skw92t"}}).
-        then((response) => {return response.data.results[0])})
+        then((response) => {
+            return response.data.results[0];
+        });
 
     document.querySelector('.search-results').innerHTML = '';
 
