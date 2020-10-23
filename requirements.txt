@@ -21,7 +21,7 @@ pyjwt==1.7.1              # via elastic-app-search
 python-dateutil==2.8.1    # via pendulum
 python-slugify==4.0.1     # via render-engine
 pytzdata==2020.1          # via pendulum
-render-engine==2020.10.4  # via -r requirements.in
+render-engine==2020.10.5  # via -r requirements.in
 requests==2.24.0          # via elastic-app-search
 sgmllib3k==1.0.0          # via feedparser
 six==1.15.0               # via python-dateutil
