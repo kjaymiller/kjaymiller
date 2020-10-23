@@ -19,7 +19,11 @@
         <div class="content">
           {{featured_post.summary}}
           <div class="tags">
-              {% for tag in featured_post.tags %}<span class="mx-2 tag is-small is-light">{{tag}}</span>{% endfor %}
+              {% for tag in featured_post.tags %}
+              <a href="/{{tag}}-0">
+                  <span class="mx-2 tag is-small is-light">{{tag}}</span>
+            </a>
+                  {% endfor %}
           </div>
         <h1 class="title is-1"><span class="icon"><i class="animated-arrow fas fa-chevron-down"></i></span></h1>
         </div>
