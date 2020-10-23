@@ -1,10 +1,13 @@
 import feedparser
 import logging
+import os
+from elastic_app_search import Client
 from render_engine import Site, Page, Collection
 from render_engine.blog import Blog
 from render_engine.microblog import MicroBlog
 from render_engine.links import Link
-from render_engine.search import Fuse
+from render_engine.search import elasticsearch, elastic_app_search
+
 
 def get_latest_post(rss_feed):
     f = feedparser.parse(rss_feed)
@@ -52,10 +55,19 @@ class site(Site):
                 image="https://kjaymiller.s3-us-west-2.amazonaws.com/images/tektok_256.jpeg",
                 feed='http://tekside.net/tektok?format=rss'),
                 ]
-    search = Fuse
+    search = elastic_app_search
+    search_client = Client(
+            use_https=True,
+            base_endpoint=os.environ['APP_SEARCH_ENDPOINT'],
+            api_key=os.environ['APP_SEARCH_API_KEY'],
+            )
+    search_params = {
+            'engine': 'kjaymiller',
+            }
 
 
 mysite = site()
+
 @mysite.register_collection
 class Pages(Collection):
     routes = ["", "pages"]
