@@ -6,7 +6,7 @@ from render_engine import Site, Page, Collection
 from render_engine.blog import Blog
 from render_engine.microblog import MicroBlog
 from render_engine.links import Link
-from render_engine.search import elasticsearch, elastic_app_search
+from render_engine.search.elastic_app_search import elastic_app_search
 
 
 def get_latest_post(rss_feed):
