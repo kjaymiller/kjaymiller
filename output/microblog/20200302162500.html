@@ -177,7 +177,7 @@ of a date.</p>
 </script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script type="text/javascript">
-function search(){
+function search() {
   const phrase = document.querySelector('.menu-search').value
 
   if (phrase.length < 3) {
@@ -191,19 +191,14 @@ function search(){
 
 axios.post('https://66893193d66446148486c5cf825496bb.ent-search.us-east-1.aws.cloud.es.io/api/as/v1/engines/kjaymiller/search',
            {"query": "Form Group"},
-            {"headers":{"Authorization": "Bearer search-qzy24w1dj5extn1mg8skw92t"}}).then((response) => {console.log(response.data.results[0])})
-}
-
+            {"headers":{"Authorization": "Bearer search-qzy24w1dj5extn1mg8skw92t"}}).
+        then((response) => {console.log(response.data.results[0])})
 
     document.querySelector('.search-results').innerHTML = '';
 
     for (let result of results.slice(0,5)){
       addSearchResult(result);
     }
-  })
-  .catch(function (err) {
-    console.log(err);
-  });
 };
 
 function showSearchResultList() {
