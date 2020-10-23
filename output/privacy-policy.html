@@ -105,7 +105,7 @@
 
 <p><strong><em>Unsubscribing does remove your data</em></strong>, it only notifies us to not send you information via our newsletter services. </p>
 
-<p>To remove all information that Productivity in Tech keeps in <em>ButtonDown</em>, please email <a href="&#x6d;&#97;&#105;l&#x74;&#111;&#x3a;&#105;&#x6e;&#x66;&#x6f;&#64;&#112;r&#x6f;&#x64;&#117;&#99;&#116;&#105;&#118;&#x69;t&#121;&#x69;&#110;&#x74;&#101;&#x63;&#104;&#x2e;&#x63;om">&#105;&#x6e;&#x66;&#x6f;&#64;&#112;r&#x6f;&#x64;&#117;&#99;&#116;&#105;&#118;&#x69;t&#121;&#x69;&#110;&#x74;&#101;&#x63;&#104;&#x2e;&#x63;om</a>.</p>
+<p>To remove all information that Productivity in Tech keeps in <em>ButtonDown</em>, please email <a href="&#109;&#97;&#x69;&#108;&#x74;&#111;&#x3a;&#x69;&#110;&#102;o&#64;&#112;&#114;&#x6f;&#100;&#117;&#x63;&#116;&#105;&#118;&#x69;&#116;&#x79;&#x69;n&#x74;&#x65;&#x63;&#x68;&#x2e;&#99;&#111;&#109;">&#x69;&#110;&#102;o&#64;&#112;&#114;&#x6f;&#100;&#117;&#x63;&#116;&#105;&#118;&#x69;&#116;&#x79;&#x69;n&#x74;&#x65;&#x63;&#x68;&#x2e;&#99;&#111;&#109;</a>.</p>
 
 <h2>Donations</h2>
 
@@ -115,7 +115,7 @@
 
 <p>Payments for Productivity in Tech services are done through <a href="https://stripe.com/us/">Stripe</a>.</p>
 
-<p>To remove Productivity in Tech's access to your information as it is stored in Stripe, please email <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#x69;&#x6e;&#102;&#111;&#x40;&#112;&#114;o&#100;&#x75;&#99;&#x74;i&#118;&#x69;&#x74;&#x79;&#105;&#x6e;t&#101;&#99;&#104;&#46;&#x63;&#111;&#109;">&#x69;&#x6e;&#102;&#111;&#x40;&#112;&#114;o&#100;&#x75;&#99;&#x74;i&#118;&#x69;&#x74;&#x79;&#105;&#x6e;t&#101;&#99;&#104;&#46;&#x63;&#111;&#109;</a>.</p>
+<p>To remove Productivity in Tech's access to your information as it is stored in Stripe, please email <a href="&#x6d;&#97;&#x69;&#108;&#x74;&#111;&#x3a;&#x69;nf&#x6f;&#64;&#112;&#x72;&#x6f;&#100;&#117;&#99;&#x74;&#105;&#x76;&#x69;&#x74;&#x79;&#x69;&#110;&#x74;&#x65;&#x63;&#104;&#x2e;&#x63;&#111;&#109;">&#x69;nf&#x6f;&#64;&#112;&#x72;&#x6f;&#100;&#117;&#99;&#x74;&#105;&#x76;&#x69;&#x74;&#x79;&#x69;&#110;&#x74;&#x65;&#x63;&#104;&#x2e;&#x63;&#111;&#109;</a>.</p>
 
     </article>
   </div>
@@ -160,26 +160,8 @@
     navMenu.classList.toggle('is-visible');
   });
 </script>
-    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.0.0"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script type="text/javascript">
-
-const options = {
-  // isCaseSensitive: false,
-  // includeScore: false,
-  shouldSort: true,
-  // includeMatches: false,
-  // findAllMatches: false,
-  minMatchCharLength: 3,
-  // location: 0,
-  // threshold: 0.8,
-  // distance: 100,
-  useExtendedSearch: true,
-  keys: [
-    'title',
-    '_content'
-  ]
-};
-
 function search(){
   const phrase = document.querySelector('.menu-search').value
 
@@ -192,12 +174,10 @@ function search(){
     showSearchResultList();
   }
 
-  fetch('/search.json')
-  .then(function (response){
-    return response.json()})
-  .then(function (data) {
-      let fuse = new Fuse(data, options);
-      results = fuse.search(phrase)
+axios.post('https://66893193d66446148486c5cf825496bb.ent-search.us-east-1.aws.cloud.es.io/api/as/v1/engines/kjaymiller/search',
+           {"query": "Form Group"},
+            {"headers":{"Authorization": "Bearer search-qzy24w1dj5extn1mg8skw92t"}}).then((response) => {console.log(response.data.results[0])})>
+
 
     document.querySelector('.search-results').innerHTML = '';
 
@@ -248,10 +228,9 @@ function addSearchResult(result){
 document.querySelector('.menu-search').addEventListener('input', search)
 document.querySelector('.menu-search').addEventListener('focusout', hideSearchResultList)
 </script>
-
-    <!-- Fathom - beautiful, simple website analytics -->
-<script src="https://cdn.usefathom.com/script.js" site="WXXCPQIQ" defer></script>
-<!-- / Fathom -->
+    <div class="has-text-small has-color-light-gray">
+    <p>This site doesn't track you (just your search accuracy). I don't plan to make money for you just showing up. But if you think I earned a buck on all this, consider <a href="https://github.com/sponsors/kjaymiller">sponsoring me on Github</a>.</p>
+</div>
   </body>
 
 </html>
