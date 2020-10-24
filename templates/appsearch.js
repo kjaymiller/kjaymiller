@@ -1,5 +1,23 @@
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script type="text/javascript">
+
+async function post_request(phrase) {
+  let response = await fetch('https://66893193d66446148486c5cf825496bb.ent-search.us-east-1.aws.cloud.es.io/api/as/v1/engines/kjaymiller/search',{
+      method: "POST",
+      body: JSON.stringify({
+          "query": phrase,
+          "page": {
+              "size": 5}
+      }),
+      headers: {
+          "Authorization": "Bearer search-qzy24w1dj5extn1mg8skw92t",
+          "content-type": "application/json"
+          }
+        })
+  let search_results = await response.json()
+  return search_results
+    };
+
 function search() {
   const phrase = document.querySelector('.menu-search').value
 
@@ -12,19 +30,16 @@ function search() {
     showSearchResultList();
   }
 
-    var results = axios.post('https://66893193d66446148486c5cf825496bb.ent-search.us-east-1.aws.cloud.es.io/api/as/v1/engines/kjaymiller/search',
-           {"query": "Form Group"},
-            {"headers":{"Authorization": "Bearer search-qzy24w1dj5extn1mg8skw92t"}}).
-        then((response) => {
-            return response.data.results[0];
-        });
+   post_request(phrase).then((results) => {
+
+  for (let result of results){
+          addSearchResult(result);
+        }
+   })
 
     document.querySelector('.search-results').innerHTML = '';
-
-    for (let result of results.slice(0,5)){
-      addSearchResult(result);
-    }
 };
+
 
 function showSearchResultList() {
   document.querySelector('.search-results').classList.add('is-visible');
@@ -44,14 +59,14 @@ function addSearchResult(result){
       div.className = 'navbar-item';
 
       var a = document.createElement('a');
-      a.href = result.item.url;
+      a.href = result.slug;
 
-      if (result.item.title) {
-        var linkText = document.createTextNode(result.item.title)
+      if (result.title) {
+        var linkText = document.createTextNode(result.title.raw)
     }
 
       else {
-        var linkText = document.createTextNode(result.item._content.substring(0, 15) + '...')
+        var linkText = document.createTextNode("Microblog Post...")
     }
 
       a.appendChild(linkText)
