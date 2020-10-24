@@ -39,7 +39,6 @@ class site(Site):
     SITE_URL = 'https://kjaymiller.com'
     AUTHOR = 'Jay Miller'
     HEADER_LINKS = HEADER_LINKS
-    output_path = 'docs'
     PODCASTS = [
             PodcastLink(
                 name="Bob's Taverncast",
