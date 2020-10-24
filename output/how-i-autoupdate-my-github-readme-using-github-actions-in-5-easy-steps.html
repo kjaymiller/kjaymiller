@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- BULMA CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <script src="https://kit.fontawesome.com/4ac674b58e.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="/static/css/base.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/pygments.css">
+    
+  <link rel="stylesheet"  type="text/css" href="/static/css/blog.css">
+
+    <title>
+      
+      How I AutoUpdate My Github README using GitHub Actions in 5 Easy Steps - (K) Jay Miller
+    </title>
+  </head>
+  <body class="has-navbar-fixed-top">
+    <section class="section">
+<div class="container">
+<nav class="navbar is-fixed-top">
+  <div class="navbar-brand">
+    <h1 class="title">
+      <a class="" href="/">(K) Jay Miller</a>
+    </h1>
+    <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu mx-2" id="">
+            
+                <a class="navbar-item px-2" href="/about.html">
+
+              
+                About
+                </a>
+            
+                <a class="navbar-item px-2" href="/blog-0.html">
+
+              
+                Blog
+                </a>
+            
+                <a class="navbar-item px-2" href="/projects.html">
+
+              
+                Projects
+                </a>
+            
+                <a class="navbar-item px-2" href="/static/files/Jay_Miller_-_Software_Engineer.pdf">
+
+              
+                Resume
+                </a>
+            
+                <a class="navbar-item px-2" href="/subscribe">
+
+              
+                Newsletter
+                </a>
+            
+                <a class="navbar-item px-2" href="/contact">
+
+              
+                Contact
+                </a>
+            
+            <div class="navbar-end">
+            <div class="navbar-item has-dropdown">
+              <input class="input menu-search is-rounded" type="search" placeholder="Search">
+              <div class="search-results navbar-dropdown">
+              </div>
+            </div>
+            </div>
+
+    </div>
+</nav>
+
+</div>
+</section>
+     
+<div class="container">
+    <article>
+        <section class="hero is-light">
+            
+            <div class="hero-body">
+              <h1 class="title is-2
+                          has-text-font-weight-semibold">How I AutoUpdate My Github README using GitHub Actions in 5 Easy Steps</h1>
+              <div class="columns">
+                <p class="column is-narrow">
+              
+              <small class="is-small">Jay Miller</small>
+              
+              </p>
+              <p class="column is-narrow">
+              Jul 10, 2020 15:16 PM
+              </p>
+
+            </div>
+              <section class="hero-foot">
+                <nav class="navbar">
+                  <div class="navbar-brand">
+                  
+                  <p class="navbar-item"><strong>Category: </strong><small
+                     class="tag is-dark">
+                    <a href="/coding/all_posts">coding</a>
+                  </small>
+                  </p>
+                  
+                  
+                    <p class="navbar-item">
+                    <strong>Tags: </strong>
+                    
+                    <small class="tag is-gray-lighter is-small">
+                      <a ref="/github/all_posts">github</a>
+                    </small>
+                    
+                    <small class="tag is-gray-lighter is-small">
+                      <a ref="/github actions/all_posts">github actions</a>
+                    </small>
+                    
+                    <small class="tag is-gray-lighter is-small">
+                      <a ref="/python/all_posts">python</a>
+                    </small>
+                    
+                    <small class="tag is-gray-lighter is-small">
+                      <a ref="/automation/all_posts">automation</a>
+                    </small>
+                    
+                    </p>
+                    
+                </div>
+              </section>
+        </section>
+
+        
+
+        
+        <section class="section">
+          <div class="content">
+            <p>A new phenominon in the developer space is now the 🌟<em>secret</em>🌟 README.md
+trick. If you have a repository with the EXACT (case-sensitive) name as your username, it will display the contents of that readme onto your GitHub profile.</p>
+
+<p>Some folks have done really cool things with it, including setting up your own
+Myspace-esque top8 (including Tom!).</p>
+
+<p><blockquote class="twitter-tweet"><p lang="en" dir="ltr">Check it out. I made MySpace but on <a href="https://twitter.com/github?ref_src=twsrc%5Etfw">@github</a>.<a href="https://t.co/p4DWP4DxRR">https://t.co/p4DWP4DxRR</a> - My list is power by a GitHub Action workflow 😏 <a href="https://t.co/PN80mFCqOE">pic.twitter.com/PN80mFCqOE</a></p>&mdash; Brian Douglas (@bdougieYO) <a href="https://twitter.com/bdougieYO/status/1281699715466199040?ref_src=twsrc%5Etfw">July 10, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+
+<p>Inspired by <a href="https://simonwillison.net/2020/Jul/10/self-updating-profile-readme/">Simon Willison's</a> amazing self-updating profile, I wanted to do something similar.</p>
+
+<p>Armed with the power of python (<em>and anime on my side</em>), I setout to do something similar. This is a look at the first steps of me automating my Github Profile.</p>
+
+<h3>Step 1: Rename the repo my website to a repo named after my GitHub username</h3>
+
+<p>This is easy enough. Just rename the repo (in Github) to your username.
+Remember this has to be exact and it is case-sensitive.</p>
+
+<p>You can do this in the settings menu of your repo. You don't have to change the
+directory names or anything like that on a local machine. (I'm not sure if you
+are using a Git Client other than the cli).</p>
+
+<h3>Step 2: Create a copy of your existing readme as a template</h3>
+
+<p>My goal was to create my README using a Jinja2 and Github Actions. For that I
+would need a template to render. So since most of the data was the same I just
+copied my existing README.</p>
+
+<h3>Step 3: Add Dynamic Content using Jinja2 Variables</h3>
+
+<p>Starting out I wanted to show my latest blog post and my latest podcast episode
+from <a href="https://podcast.productivityiintech.com">Productivity in Tech Podcast</a>. We will create a python script that does
+this, but we needed to add the variables that Jinja2 would use for the dynamic
+data.</p>
+
+<p>You could do something like a search and replace, but I feel like just
+rendering a template is much easier to edit and understand. Also, the compute
+time for Github Actions is free and this doesn't need to be the most
+performance conscious program. Also I like Jinja2, so there is also that 🙃.</p>
+
+<pre><code># From README_template.md
+
+You can see what he's posting about at &lt;https://kjaymiller.com&gt;.
+
+**Latest Post - [{{latest_post.title}}]({{latest_post.link}})**
+
+**Latest Productivity in Tech Podcast Episode - [{{latest_podcast_post.title}}]({{latest_podcast_post.link}})**
+
+## Active Projects
+</code></pre>
+
+<h3>Step 4: Build your script to get the data and write the up to date README.md</h3>
+
+<p>This script is pretty simple once you know what you're looking for. I'm using
+the feedparser plugin to parse the rss feeds and then returning the title and
+link for the latest episode.</p>
+
+<div class="codehilite"><pre><span></span><code><span class="k">def</span> <span class="nf">get_latest_post</span><span class="p">(</span><span class="n">rss_feed</span><span class="p">):</span>
+    <span class="n">f</span> <span class="o">=</span> <span class="n">feedparser</span><span class="o">.</span><span class="n">parse</span><span class="p">(</span><span class="n">rss_feed</span><span class="p">)</span>
+    <span class="n">latest_post</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">f</span><span class="p">[</span><span class="s1">&#39;entries&#39;</span><span class="p">],</span> <span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span><span class="n">x</span><span class="p">[</span><span class="s1">&#39;published_parsed&#39;</span><span class="p">])[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+    <span class="k">return</span> <span class="p">{</span>
+            <span class="s1">&#39;title&#39;</span><span class="p">:</span> <span class="n">latest_post</span><span class="p">[</span><span class="s1">&#39;title&#39;</span><span class="p">],</span>
+            <span class="s1">&#39;link&#39;</span><span class="p">:</span> <span class="n">latest_post</span><span class="p">[</span><span class="s1">&#39;link&#39;</span><span class="p">],</span>
+            <span class="p">}</span>
+</code></pre></div>
+
+<p>Then you set the template to the text of your template file.
+ then write the rendered text to your README.</p>
+
+<div class="codehilite"><pre><span></span><code><span class="c1"># update readme</span>
+<span class="n">template</span> <span class="o">=</span> <span class="n">Template</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="s1">&#39;./README_template.md&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">read_text</span><span class="p">())</span>
+<span class="n">Path</span><span class="p">(</span><span class="s1">&#39;./README.md&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">write_text</span><span class="p">(</span>
+        <span class="n">template</span><span class="o">.</span><span class="n">render</span><span class="p">(</span>
+            <span class="n">latest_post</span><span class="o">=</span><span class="n">get_latest_post</span><span class="p">(</span><span class="n">rss_feed</span><span class="p">),</span>
+            <span class="n">latest_podcast_post</span><span class="o">=</span><span class="n">get_latest_post</span><span class="p">(</span><span class="n">podcast_url</span><span class="p">),</span>
+            <span class="p">)</span>
+        <span class="p">)</span>
+</code></pre></div>
+
+<h2>Step 5: Setup your Github Actions File</h2>
+
+<p>I'm not the best at Github Actions. Luckily for me, this action was super
+simple to setup. </p>
+
+<p>You can look at the <a href="https://github.com/kjaymiller/kjaymiller/blob/master/.github/workflows/latest_post_readme.yml">.yml file</a> I'm not going to talk about the setup of this
+because most of it is prep stuff. Here's the important bit.</p>
+
+<div class="codehilite"><pre><span></span><code><span class="c1"># in steps:</span>
+<span class="p p-Indicator">-</span> <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Install Feedparser &amp; Jinja2</span>
+  <span class="nt">run</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">pip install feedparser jinja2</span>
+
+<span class="p p-Indicator">-</span> <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Update Readme</span>
+  <span class="nt">run</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">python ./.github/actions/update_readme.py</span>
+</code></pre></div>
+
+<p>Basically it's installing the things I need and then running the script (I
+saved the script in that folder, but you don't really have to as long as its in
+your repo).</p>
+
+<p>After that, you add some commands to update your repo and you're off to the
+races.</p>
+
+<p>I have mine setup to update on a github push in that repo, but in the future I
+will probably setup the file on a schedule to also update when I push something
+new (Future Post...Probably).</p>
+ 
+          </div>
+        </section>
+      </article>
+    <section class="hero">
+      <div class="content">
+      <a href="/all_posts.html" class="subtitle is-5 text-link">Back to
+        Blogs...</a>
+    </section>
+</div>
+
+    <footer class="footer">
+  <div class="container has-text-centered">
+    <p> kjaymiller.com</p>
+    <p>Website made with <a
+      href="https://pypi.org/project/render-engine">Render Engine</a> and <a
+      href="https://bulma.io">Bulma</a></p>
+    <div class="level">
+      <p class="level-item">
+         <a href="/blog.rss"><span class="icon"><i class="fas fa-rss"></i></a>
+      </p>
+      <p class="level-item">
+       <a href="https://micro.blog/kjaymiller" rel="me">
+         <span class="icon"><i name="micro.blog" class="fab fa-microblog"></i>
+       </a>
+     </p>
+      <p class="level-item">
+       <a href="https://twitter.com/kjaymiller" rel="me">
+         <span class="icon"><i class="fab fa-twitter"></i></span>
+       </a>
+     </p>
+    </div>
+  </div>
+</footer>
+    <script>
+  const navBurger = document.querySelector('.navbar-burger');
+
+  navBurger.addEventListener('click', () => {
+
+    // Get the target from the "data-target" attribute
+    const target = navBurger.dataset.target;
+
+    // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+     navBurger.classList.toggle('is-active');
+
+    const navMenu = document.querySelector('.navbar-menu');
+    console.log(navMenu);
+    navMenu.classList.toggle('is-visible');
+  });
+</script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script type="text/javascript">
+
+async function post_request(phrase) {
+  let response = await fetch('https://66893193d66446148486c5cf825496bb.ent-search.us-east-1.aws.cloud.es.io/api/as/v1/engines/kjaymiller/search',{
+      method: "POST",
+      body: JSON.stringify({
+          "query": phrase,
+          "page": {
+              "size": 5}
+      }),
+      headers: {
+          "Authorization": "Bearer search-qzy24w1dj5extn1mg8skw92t",
+          "content-type": "application/json"
+          }
+        })
+  let search_results = await response.json()
+  return search_results
+    };
+
+function search() {
+  const phrase = document.querySelector('.menu-search').value
+
+  if (phrase.length < 3) {
+    hideSearchResultList();
+    return null
+  }
+
+  else {
+    showSearchResultList();
+  }
+
+   post_request(phrase).then((results) => {
+
+  for (let result of results){
+          addSearchResult(result);
+        }
+   })
+
+    document.querySelector('.search-results').innerHTML = '';
+};
+
+
+function showSearchResultList() {
+  document.querySelector('.search-results').classList.add('is-visible');
+};
+
+function hideSearchResultList() {
+  if (document.querySelector('.search-results').innerHTML) {
+      return null
+  }
+
+  document.querySelector('.search-results').classList.remove('is-visible');
+  document.querySelector('.search-results').classList.add('is-hidden');
+};
+
+function addSearchResult(result){
+      var div = document.createElement('div');
+      div.className = 'navbar-item';
+
+      var a = document.createElement('a');
+      a.href = result.slug;
+
+      if (result.title) {
+        var linkText = document.createTextNode(result.title.raw)
+    }
+
+      else {
+        var linkText = document.createTextNode("Microblog Post...")
+    }
+
+      a.appendChild(linkText)
+      div.appendChild(a)
+
+      document.querySelector('.search-results').appendChild(div)
+
+}
+
+document.querySelector('.menu-search').addEventListener('input', search)
+document.querySelector('.menu-search').addEventListener('focusout', hideSearchResultList)
+</script>
+    <div class="box is-size-7 is-grey-light">
+    <p>This site doesn't track you (just your search accuracy). I don't plan to make money for you just showing up. But if you think I earned a buck on all this, consider <a href="https://github.com/sponsors/kjaymiller">sponsoring me on Github</a>.</p>
+</div>
+  </body>
+
+</html>
