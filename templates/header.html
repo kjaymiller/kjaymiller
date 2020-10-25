@@ -1,10 +1,10 @@
 <header class="flex pt-3 px-3 items-center bg-orange-600">
     <h1 id="site-title" class="title mx-3 text-3xl text-white">
-      <a class="" href="/">{{SITE_TITLE}}</a>
+      <a class="hover:text-orange-800" href="/">{{SITE_TITLE}}</a>
     </h1>
   <div class="flex" id="site-menu">
             {% for link in HEADER_LINKS %}
-            <div class="mx-2">
+            <div class="mx-1 hover:bg-orange-800 rounded p-3">
                 <a class="text-white" href="{{link.url}}">
                 {{link.name}}
                 </a>
@@ -12,6 +12,6 @@
             {% endfor %}
   </div>
     <form class="p-3" role="search" action="https://search.kjaymiller.com/">
-        <input type="text" class=" px-3 rounded-full" name="q" id="search-bar" placeholder="Search"/>
+        <input type="text" class="border border-orange-800 px-3 rounded-full" name="q" id="search-bar" placeholder="Search"/>
     </form>
 </header>
