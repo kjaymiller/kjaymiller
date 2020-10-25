@@ -1,6 +1,7 @@
 import feedparser
 import logging
 import os
+import subprocess
 from elastic_app_search import Client
 from render_engine import Site, Page, Collection
 from render_engine.blog import Blog
@@ -107,4 +108,6 @@ class Index(Page):
         self.blog_posts = mysite.collections['Blog'].archive[0].pages[:5]
 
 
-mysite.render(dry_run=False)
+if __name__ == "__main__":
+    mysite.render(dry_run=False)
+    subprocess.call(['npx', 'tailwindcss', 'build', 'output/static/css/pre/tailwind.css', '-o', 'output/static/css/tailwind.css'])
