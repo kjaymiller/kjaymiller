@@ -1,39 +1,4 @@
 
-<div class="m-4 rounded">
-    {% set featured_post  = blog_posts[0] %}
-</div>
-
-    <div class="columns is-vcentered is-centered">
-      {% if featured_post.image %}
-       <div class="column">
-         <a href="/{{featured_post.slug}}">
-           <img class="featured-post-image" src="{{featured_post.image}}">
-         </a>
-        </div>
-      {% endif %}
-
-      <div class="column">
-        <h2 class="title is-1"><a
-            href="/{{featured_post.slug}}">{{featured_post.title}}</a>{% if
-          featured_post.link %}<a href="{{featured_post.link}}">🔗</a>{% endif %}</h2>
-        <div class="content">
-          {{featured_post.summary}}
-          <div class="tags">
-              {% for tag in featured_post.tags %}
-                  <span class="mx-2 tag is-small is-light">
-                      <a href="/{{tag}}-0">
-                          {{tag}}
-                      </a>
-                  </span>
-              {% endfor %}
-          </div>
-        <h1 class="title is-1"><span class="icon"><i class="animated-arrow fas fa-chevron-down"></i></span></h1>
-        </div>
-      </div>
-		</div>
-    </div>
-	</div>
-
 <section class="section">
   <div class="container">
     <h2 class="title is-1">More Posts</h1>
