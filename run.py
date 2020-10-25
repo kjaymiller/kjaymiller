@@ -8,6 +8,7 @@ from render_engine.blog import Blog
 from render_engine.microblog import MicroBlog
 from render_engine.links import Link
 from render_engine.search.elastic_app_search import elastic_app_search
+import render_engine.optimizers.imagekit as imagekit
 
 
 def get_latest_post(rss_feed):
@@ -84,6 +85,8 @@ class Blog(Blog):
     content_path = 'content'
     subcollections = ['category', 'tags']
     paginated = True
+    image_optimizer = imagekit
+    image_optimizations = ['tr:w-600,h-300']
 
 @mysite.register_collection
 class MicroBlog(MicroBlog):
