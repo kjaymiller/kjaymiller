@@ -1,5 +1,11 @@
-<div class="flex">
+<div class="my-7">
   {% set featured_post  = blog_posts[0] %}
+    <h2 class="title is-1">
+      <a href="/{{featured_post.slug}}">{{featured_post.title}}</a>
+  {% if featured_post.link %}
+    <a href="{{featured_post.link}}">🔗</a>
+  {% endif %}
+   </h2>
   {% if featured_post.image %}
     <div class="m-4 rounded">
        <a href="/{{featured_post.slug}}">
@@ -7,12 +13,6 @@
        </a>
     </div>
   {% endif %}
-    <h2 class="title is-1">
-      <a href="/{{featured_post.slug}}">{{featured_post.title}}</a>
-  {% if featured_post.link %}
-    <a href="{{featured_post.link}}">🔗</a>
-  {% endif %}
-   </h2>
 
  {% if featured_post.tags %}
      <div class="tags">
