@@ -24,12 +24,16 @@
                 </a>
             {% endfor %}
             <div class="navbar-end">
-            <div class="navbar-item has-dropdown">
-              <input class="input menu-search is-rounded" type="search" placeholder="Search">
-              <div class="search-results navbar-dropdown">
-              </div>
-            </div>
-            </div>
+                <form class="p-3" role="search" action="https://search.kjaymiller.com/">
+                    <div class="field">
+                        <div class="control">
+                            <input type="text" class="input is-small is-rounded" name="q" id="search-bar" placeholder="Search"/>
+                        </div>
+                    </div>
+                </form>
+          </div>
+        </div>
+    </div>
 
     </div>
 </nav>
