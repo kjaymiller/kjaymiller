@@ -1,25 +1,16 @@
-<header class="flex justify-around bg-blue-600">
-    <h1 id="class="mx-3 text-3xl text-white">
+<header class="flex bg-blue-600">
+    <h1 id="class="title mx-3 text-3xl text-white">
       <a class="" href="/">{{SITE_TITLE}}</a>
     </h1>
   </div>
-  <div class="navbar-menu mx-2 flex justify-around" id="">
+  <div class="navbar-menu flex justify-around" id="">
             {% for link in HEADER_LINKS %}
-                <a class="navbar-item px-2" href="{{link.url}}">
-
-              {% if link.icon %}
-              <span class="icon" style="margin-right: 5px;">
-                <icon class="{{link.icon}}"></icon>
-              </span>
-              {% endif %}
+                <a class="text-white" href="{{link.url}}">
                 {{link.name}}
                 </a>
             {% endfor %}
-            <div class="navbar-end">
-                <form class="p-3" role="search" action="https://search.kjaymiller.com/">
-                    <div class="field">
-                        <div class="control">
-                            <input type="text" class="input is-small is-rounded" name="q" id="search-bar" placeholder="Search"/>
+            <form class="p-3" role="search" action="https://search.kjaymiller.com/">
+                <input type="text" class="rounded input " name="q" id="search-bar" placeholder="Search"/>
                         </div>
                     </div>
                 </form>
