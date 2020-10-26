@@ -1,6 +1,6 @@
 module.exports = {
   purge: {
-    enabled: false,
+    enabled: true,
     mode: 'all',
     content: [
       './output/**/*.html',
@@ -8,10 +8,6 @@ module.exports = {
     ],
   },
   theme: {
-   fontFamily: {
-      display: ['Gilroy', 'sans-serif'],
-      body: ['Graphik', 'sans-serif'],
-    },
     extend: {},
   },
   variants: {},
