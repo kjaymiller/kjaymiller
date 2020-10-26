@@ -1,4 +1,4 @@
-<div class="m-6">
+<div class="container mt-6 mx-auto">
   {% set featured_post  = blog_posts[0] %}
     <h2 class="title text-2xl">
       <a href="/{{featured_post.slug}}">{{featured_post.title}}</a>
@@ -9,7 +9,7 @@
   {% if featured_post.image %}
     <div class="m-4 rounded">
        <a href="/{{featured_post.slug}}">
-         <img class="w-1/2" src="{{featured_post.image}}?tr=w-500">
+         <img class="" src="{{featured_post.image}}?tr=w-500">
        </a>
     </div>
   {% endif %}
