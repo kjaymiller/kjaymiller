@@ -1,7 +1,6 @@
-  <div class="level">
+  <div class="flex justify-around">
   {% for podcast in PODCASTS %}
 
-  <div class="level-item">
     <div class="podcast-wrapper">
       <a href="{{podcast.url}}">
           <img class="podcast-image" src="{{podcast.image}}">
@@ -17,7 +16,6 @@
         </div>
       </div>
     </div>
-  </div>
 
 {% endfor %}
 </div>
