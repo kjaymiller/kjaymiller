@@ -1,6 +1,6 @@
 <div class="container mt-6 mx-auto">
   {% set featured_post  = blog_posts[0] %}
-    <h2 class="title text-5xl">
+    <h2 class="title text-3xl">
       <a href="/{{featured_post.slug}}">{{featured_post.title}}</a>
   {% if featured_post.link %}
     <a href="{{featured_post.link}}">🔗</a>
@@ -9,18 +9,8 @@
   {% if featured_post.image %}
     <div class="m-4 rounded">
        <a href="/{{featured_post.slug}}">
-         <img class="" src="{{featured_post.image}}?tr=w-1024">
+         <img class="" src="{{featured_post.image}}?tr=w-800">
        </a>
     </div>
   {% endif %}
-
- {% if featured_post.tags %}
-     <div class="tags">
-       {% for tag in featured_post.tags %}
-           <span class="block p-2 bg-gray-200">
-             <a href="/{{tag}}-0">{{tag}}</a>
-           </span>
-        {% endfor %}
-     </div>
- {% endif %}
 </div>
