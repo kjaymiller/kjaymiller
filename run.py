@@ -45,10 +45,10 @@ class site(Site):
             PodcastLink(
                 name="Bob's Taverncast",
                 url='https://bobstavern.pub',
-                image="https://kjaymiller.s3-us-west-2.amazonaws.com/images/bobstavern_256.jpg",
+                image="https://ik.imagekit.io/cxazzw3yew/bobstavern_256.jpg",
                 feed='https://feeds.transistor.fm/bobs-taverncast-a-hearthstone-battlegrounds-podcast',
                 ),
-            PodcastLink(name="PIT Podcast", url='https://podcast.productivityintech.com',
+            PodcastLink(name="The PIT Show", url='https://podcast.productivityintech.com',
                 image="https://s3-us-west-2.amazonaws.com/kjaymiller/images/pit-logo-v4.jpg",
                 feed='https://feeds.transistor.fm/productivity-in-tech-podcast',
                 ),
