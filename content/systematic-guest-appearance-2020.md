@@ -2,7 +2,7 @@ title: I Was a Guest on Systematic
 date: 25 Oct 2020 20:12
 tags: podcast, developer advocacy, development, podcasting
 category: Guest Appearances
-image: https://ik.imagekit.io/cxazzw3yew/CleanShot_2020-10-21_at_18.40.49_2x_q7UEnmTnf.png
+image: https://ik.imagekit.io/cxazzw3yew/banner-systemcast_ddE0LhiRq.png
 
 I had the pleasure of being a guest on Brett Terpstra's [_Systematic_][systemcast] Podcast. 
 
