@@ -45,16 +45,16 @@ class site(Site):
             PodcastLink(
                 name="Bob's Taverncast",
                 url='https://bobstavern.pub',
-                image="https://ik.imagekit.io/cxazzw3yew/bobstavern_256.jpg",
+                image="/bobstavern_256.jpg",
                 feed='https://feeds.transistor.fm/bobs-taverncast-a-hearthstone-battlegrounds-podcast',
                 ),
             PodcastLink(name="The PIT Show", url='https://podcast.productivityintech.com',
-                image="https://s3-us-west-2.amazonaws.com/kjaymiller/images/pit-logo-v4.jpg",
+                image="/pit-logo-v4.jpg",
                 feed='https://feeds.transistor.fm/productivity-in-tech-podcast',
                 ),
 
             PodcastLink(name="TekTok Podcast", url='https://www.tekside.net/tektok',
-                image="https://kjaymiller.s3-us-west-2.amazonaws.com/images/tektok_256.jpeg",
+                image="/tektok_256.jpeg",
                 feed='http://tekside.net/tektok?format=rss'),
                 ]
     search = elastic_app_search
