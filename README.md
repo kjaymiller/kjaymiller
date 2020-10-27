@@ -2,7 +2,7 @@ Jay Miller is a software devleoper, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [I Was a Guest on Systematic](https://kjaymiller.com/i-was-a-guest-on-systematic)**
+**Latest Post - [Break up with your Productivity Obsession and Learning and Teaching with Jasmine Greenaway](https://kjaymiller.com/break-up-with-your-productivity-obsession-and-learning-and-teaching-with-jasmine-greenaway)**
 
 **Latest Productivity in Tech Podcast Episode - [Break up with your Productivity Obsession and Learning and Teaching with Jasmine Greenaway](https://share.transistor.fm/s/48115dce)**
 
