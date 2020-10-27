@@ -3,6 +3,7 @@ date: 2020-10-27T13:30:00.000Z
 image: https://ik.imagekit.io/cxazzw3yew/pit-logo-v5.jpg
 category:  PIT Show
 tags: productivity, interview
+link: https://share.transistor.fm/s/48115dce
 
 Jay seems to have broken up with productivity as an obsession and now he's missing the thrill of the hunt.
 
