@@ -1,3 +1,6 @@
 @tailwind base;
+    a {
+      @apply underline;
+    }
 @tailwind components;
 @tailwind utilities; 
