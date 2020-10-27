@@ -1,7 +1,7 @@
 <div class="container mt-6">
   {% set featured_post= blog_posts[0] %}
-  <h3 class="category text-xl">{{featured_post.category}}</h3>
-    <h2 class="title text-2xl">
+  <h3 class="category text-xl"><a href="{{featured_post.category-0}}">{{featured_post.category}}</a></h3>
+  <h2 class="title text-2xl">
       <a href="/{{featured_post.slug}}">{{featured_post.title}}</a>
   {% if featured_post.link %}
     <a href="{{featured_post.link}}">🔗</a>
