@@ -4,7 +4,7 @@ You can see what he's posting about at <https://kjaymiller.com>.
 
 **Latest Post - [I Was a Guest on Systematic](https://kjaymiller.com/i-was-a-guest-on-systematic)**
 
-**Latest Productivity in Tech Podcast Episode - [Surfacing the Type of Content You Want to See - Part 2 with Trey Hunner](https://share.transistor.fm/s/829157a9)**
+**Latest Productivity in Tech Podcast Episode - [Break up with your Productivity Obsession and Learning and Teaching with Jasmine Greenaway](https://share.transistor.fm/s/48115dce)**
 
 ## Active Projects
 
