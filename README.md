@@ -4,7 +4,7 @@ You can see what he's posting about at <https://kjaymiller.com>.
 
 **Latest Post - [Break up with your Productivity Obsession and Learning and Teaching with Jasmine Greenaway](https://kjaymiller.com/break-up-with-your-productivity-obsession-and-learning-and-teaching-with-jasmine-greenaway)**
 
-**Latest Productivity in Tech Podcast Episode - [Break up with your Productivity Obsession and Learning and Teaching with Jasmine Greenaway](https://share.transistor.fm/s/48115dce)**
+**Latest Productivity in Tech Podcast Episode - [Changes for PIT and New Projects on the Horizon](https://share.transistor.fm/s/0e037bba)**
 
 ## Active Projects
 
