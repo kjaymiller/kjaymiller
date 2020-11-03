@@ -20,6 +20,7 @@ def get_latest_episode(directory: Path, show_id: int=799, episodes: int=1):
     episodes_url = 'https://api.transistor.fm/v1/episodes/'
     params = {"show_id": show_id}
     r = httpx.get(episodes_url, headers=header, params=params)
+    print(r.json()['data'][0])
 
     for episode in r.json()['data'][:episodes]:
         episode_attrs = episode['attributes']
@@ -27,14 +28,16 @@ def get_latest_episode(directory: Path, show_id: int=799, episodes: int=1):
         published_date = episode_attrs['published_at']
         summary = episode_attrs['summary']
         embed_url = episode_attrs['embed_html']
-
+        image_url = episode_attrs.get(
+                'image_url',
+                'https://imagekit.io/cxazzw3yew/pit-logo-v5.jpg',
+                )
         content = f"""title: {title}
 date: {published_date}
-images: https://kjaymiller.s3-us-west-2.amazonaws.com/images/pit-logo-v5.jpg
+image: {image_url}
 
 {summary}
 {embed_url}"""
-
         output = directory.joinpath(slugify(title)).with_suffix(".md")
         output.write_text(content)
 
