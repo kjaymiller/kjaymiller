@@ -4,7 +4,7 @@ You can see what he's posting about at <https://kjaymiller.com>.
 
 **Latest Post - [Changes for PIT and New Projects on the Horizon](https://kjaymiller.com/changes-for-pit-and-new-projects-on-the-horizon)**
 
-**Latest Productivity in Tech Podcast Episode - [Changes for PIT and New Projects on the Horizon](https://share.transistor.fm/s/0e037bba)**
+**Latest Productivity in Tech Podcast Episode - [Steal this idea & Part 2 with Jasmine Greenaway](https://share.transistor.fm/s/6ecb6cf5)**
 
 ## Active Projects
 
