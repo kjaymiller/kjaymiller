@@ -1,9 +1,9 @@
-  <div class="flex justify-around">
+  <div class="flex">
   {% for podcast in PODCASTS %}
 
     <div class="podcast-wrapper">
       <a href="{{podcast.url}}">
-          <img class="podcast-image h-24 w-24" src="https://ik.imagekit.io/cxazzw3yew{{podcast.image}}?tr=w:150">
+          <img class="podcast-image m-2 h-24 w-24" src="https://ik.imagekit.io/cxazzw3yew{{podcast.image}}?tr=w:150">
       </a>
 
       <div class="wrapper">
