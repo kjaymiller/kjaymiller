@@ -18,8 +18,10 @@
   </head>
   <body> 
     {% include 'header.html' %}
-    {% block content %} {% endblock %}
-    {% include 'footer.html' %}
+    <div class="mx-2">
+        {% block content %} {% endblock %}
+        {% include 'footer.html' %}
+    </div>
   </body>
 
 </html>
