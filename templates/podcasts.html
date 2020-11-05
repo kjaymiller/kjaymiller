@@ -1,19 +1,19 @@
   <div class="flex">
   {% for podcast in PODCASTS %}
 
-        <div>
-          <a href="{{podcast.url}}">
-              <img class="podcast-image m-2 h-48 w-48" src="https://ik.imagekit.io/cxazzw3yew{{podcast.image}}?tr=w:150">
-          </a>
+        <div class="flex p-2 border">
+            <a href="{{podcast.url}}">
+               <img class="podcast-image m-2 h-48 w-48" src="https://ik.imagekit.io/cxazzw3yew{{podcast.image}}?tr=w:150">
+            </a>
+            <div class="p-2">
+               <a class="has-text-white" href="{{podcast.url}}">{{podcast.name}}</a>
+                  <div class="tag is-small is-dark has-text-white my-2">Latest Post</div>
+                    <h2 class="has-text-weight-bold  subtitle is-5">
+                      <a href="{{podcast.latest_post.link}}" class="has-text-white">
+                      {{podcast.latest_post.title}}</a></h2>
+                  </div>
+            </div>
         </div>
-        <div class="p-2 border">
-          <a class="has-text-white" href="{{podcast.url}}">{{podcast.name}}</a>
-          <div class="tag is-small is-dark has-text-white my-2">Latest Post</div>
-          <h2 class="has-text-weight-bold  subtitle is-5">
-            <a href="{{podcast.latest_post.link}}" class="has-text-white">
-              {{podcast.latest_post.title}}</a></h2>
-        </div>
-    </div>
 
 {% endfor %}
 </div>
