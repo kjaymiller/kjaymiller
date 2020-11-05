@@ -1,0 +1,9 @@
+@tailwind base;
+    a {
+      @apply underline;
+    }
+    p {
+     @apply my-2;
+    }
+@tailwind components;
+@tailwind utilities; 
