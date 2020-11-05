@@ -1,4 +1,4 @@
-title: [Review] Kaotica Eyeball
+title: Kaotica Eyeball
 subtitle: The $200 Acoustic Paneling to Replace $400 Audio Plugins
 image: https://ik.imagekit.io/cxazzw3yew/kaotica-eyeball.jpeg
 tags: audio, production, sound-proofing
