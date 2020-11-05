@@ -155,3 +155,4 @@ cython_debug/
 .nova
 .nova/Configuration.json
 .nova
+content/.DS_Store
