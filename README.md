@@ -2,7 +2,7 @@ Jay Miller is a software devleoper, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [Changes for PIT and New Projects on the Horizon](https://kjaymiller.com/changes-for-pit-and-new-projects-on-the-horizon)**
+**Latest Post - [[Review] Kaotica Eyeball](https://kjaymiller.com/review-kaotica-eyeball)**
 
 **Latest Productivity in Tech Podcast Episode - [Steal this idea & Part 2 with Jasmine Greenaway](https://share.transistor.fm/s/6ecb6cf5)**
 
