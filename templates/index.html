@@ -6,14 +6,13 @@
 
 {% block content %}
 <div class="md:flex justify-between">
-{% include 'short_bio.html' %}
-{% include 'featured_post.html' %}
-{% include 'recent_posts.html' %}
-{% include 'newsletter.html' %}
-</section>
-</div>
-<section class="section">
-  <div class="container">
+    <div id="left-column" class="md:w-3/4">
+        {% include 'short_bio.html' %}
+        {% include 'featured_post.html' %}
+        {% include 'recent_posts.html' %}
+        {% include 'newsletter.html' %}
+    </div>
+  <div id="right-column">
     <h1 class="title is-3">You can hear me on</h1>
     {% include 'podcasts.html' %}
   </div>
@@ -21,4 +20,3 @@
 </div>
   {% endblock %}
 
-</section>
