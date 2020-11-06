@@ -1,6 +1,6 @@
-  <section class="section flex">
-      <h1 class="title is-3">Microblog Posts</h1>
-      <div class="columns is-multiline">
+<div id="microblog-posts">
+  <h1 class="text-lg font-bold">Microblog Posts</h1>
+      <div class="">
         {% for post in microblog_posts %}
             <div class="border">
               {{post.content}}
@@ -15,4 +15,4 @@
         <a href="/microblog/microblog-0">View Older Posts</a>
         </p>
     </div>
-  </section>
+</div>
