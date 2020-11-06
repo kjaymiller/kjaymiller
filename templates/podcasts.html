@@ -2,6 +2,7 @@
 <h1 class="text-lg font-bold">You can hear me on</h1>
   {% for podcast in PODCASTS %}
     <div class="flex p-2 border">
+
         <div>
             <a href="{{podcast.url}}">
                <img class="podcast-image m-1 h-1/2 w-1/2" src="https://ik.imagekit.io/cxazzw3yew{{podcast.image}}?tr=w:150">
@@ -16,6 +17,7 @@
                   {{podcast.latest_post.title}}</a>
             </h2>
       </div>
+
   </div>
 
 {% endfor %}
