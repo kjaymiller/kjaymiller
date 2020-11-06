@@ -5,14 +5,13 @@
 {% endblock %}
 
 {% block content %}
+<div class="md:flex justify-between">
 {% include 'short_bio.html' %}
 {% include 'featured_post.html' %}
 {% include 'recent_posts.html' %}
-<section>
-  <div class="container">
-    {% include 'newsletter.html' %}
-  </div>
+{% include 'newsletter.html' %}
 </section>
+</div>
 <section class="section">
   <div class="container">
     <h1 class="title is-3">You can hear me on</h1>
