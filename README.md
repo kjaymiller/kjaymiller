@@ -4,7 +4,7 @@ You can see what he's posting about at <https://kjaymiller.com>.
 
 **Latest Post - [Kaotica Eyeball](https://kjaymiller.com/kaotica-eyeball)**
 
-**Latest Productivity in Tech Podcast Episode - [Steal this idea & Part 2 with Jasmine Greenaway](https://share.transistor.fm/s/6ecb6cf5)**
+**Latest Productivity in Tech Podcast Episode - [The Power of Personal Freedom: David Sparks on Speaking Around Multiple Interests](https://share.transistor.fm/s/b307f8ac)**
 
 ## Active Projects
 
