@@ -762,6 +762,10 @@ video {
   margin-top: 1.5rem;
 }
 
+.max-w-md {
+  max-width: 28rem;
+}
+
 .p-2 {
   padding: 0.5rem;
 }
@@ -941,8 +945,10 @@ p {
   .md\:flex {
     display: flex;
   }
+}
 
-  .md\:w-3\/4 {
+@media (min-width: 1024px) {
+  .lg\:w-3\/4 {
     width: 75%;
   }
 }
