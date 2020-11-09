@@ -2,6 +2,8 @@ title: Amazing Podcasting (and Content Creation) Advice from Professional Podcas
 tags: podcasting, career-advice
 date: 08 Nov 2020 22:48
 
+Work in Progress means this Post is Mostly Done, but things could change. You can help with that by telling me your thoughts on [twitter](https://twitter.com/kjaymiller/status/1325700577033007104?s=21)
+
 I talked with a few friends this week and got some wonderful insights around podcasting and podcast marketing. 
 
 This is some next level advice from folks that use podcasting for at least part of their livelihood so if you're interested, listen up. 
