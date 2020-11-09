@@ -7,3 +7,13 @@
     p {
      @apply my-2;
     }
+
+    h2 {
+        @apply text-2xl;
+        @apply font-bold;
+    }
+
+    h3 {
+        @apply text-xl;
+        @apply font-bold;
+    }
