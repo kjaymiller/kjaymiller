@@ -730,10 +730,6 @@ video {
   margin: 0.5rem;
 }
 
-.m-4 {
-  margin: 1rem;
-}
-
 .mx-1 {
   margin-left: 0.25rem;
   margin-right: 0.25rem;
@@ -760,10 +756,6 @@ video {
 
 .mt-6 {
   margin-top: 1.5rem;
-}
-
-.max-w-md {
-  max-width: 28rem;
 }
 
 .p-2 {
