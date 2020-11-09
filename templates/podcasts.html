@@ -1,24 +1,11 @@
 <div class="w-1/4 m-2">
-<h1 class="text-lg font-bold">You can hear me on</h1>
+<h1 class="my-3 text-lg font-bold">You can hear me on</h1>
   {% for podcast in PODCASTS %}
-    <div class="flex p-2 border">
-
-        <div>
-            <a href="{{podcast.url}}">
-               <img class="podcast-image m-1 h-1/2 w-1/2" src="https://ik.imagekit.io/cxazzw3yew{{podcast.image}}?tr=w:150">
-            </a>
-        </div>
-
-        <div class="p-2">
-           <a class="has-text-white" href="{{podcast.url}}">{{podcast.name}}</a>
-           <h3 class="font-bold">Latest Post:</h3>
-            <h2 class="text-lg">
-                  <a href="{{podcast.latest_post.link}}" class="has-text-white">
-                  {{podcast.latest_post.title}}</a>
-            </h2>
-      </div>
-
-  </div>
+    <div class="m-3">
+        <a href="{{podcast.url}}">
+            <img class="podcast-image m-1" src="https://ik.imagekit.io/cxazzw3yew{{podcast.image}}?tr=w-150,to-{{podcast.latest_post.title|urlencode}}">
+        </a>
+    </div>
 
 {% endfor %}
 
