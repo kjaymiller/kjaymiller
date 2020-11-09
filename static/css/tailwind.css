@@ -630,6 +630,12 @@ video {
   background-color: rgba(44, 82, 130, var(--bg-opacity));
 }
 
+.border-gray-600 {
+  --border-opacity: 1;
+  border-color: #718096;
+  border-color: rgba(113, 128, 150, var(--border-opacity));
+}
+
 .border-blue-800 {
   --border-opacity: 1;
   border-color: #2c5282;
@@ -941,18 +947,21 @@ a {
 }
 
 p {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin: 0.5rem;
 }
 
 h2 {
   font-size: 1.5rem;
   font-weight: 700;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 h3 {
   font-size: 1.25rem;
   font-weight: 700;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 @media (min-width: 768px) {
