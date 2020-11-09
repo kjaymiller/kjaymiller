@@ -5,15 +5,17 @@
       @apply underline;
     }
     p {
-     @apply my-2;
+     @apply m-2;
     }
 
     h2 {
         @apply text-2xl;
         @apply font-bold;
+        @apply my-2;
     }
 
     h3 {
         @apply text-xl;
         @apply font-bold;
+        @apply my-2;
     }
