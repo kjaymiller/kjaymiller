@@ -19,3 +19,7 @@
         @apply font-bold;
         @apply my-3;
     }
+
+    ul {
+        @apply list-disc;
+    }
