@@ -10,38 +10,36 @@
     <div class="container">
     {% for post in pages %}
 
-	<article class="box">
-    {% if post.category %}
-      <span class="">
-        <a href="/{{post.category}}/all_posts">{{post.category}}</a>
-      </span>
-    {% endif %}
+	<article class="border m-5 p-3">
+        {% if post.category %}
+          <span class="">
+            <a href="/{{post.category}}/all_posts">{{post.category}}</a>
+          </span>
+        {% endif %}
 
-		<div class="border m-5">
-          {% if post.image %}
+        {% if post.image %}
           <div class="">
               <img style="max-h-sm;" src="{{post.image}}">
           </div>
-          {% endif %}
+        {% endif %}
           <div class="column is-expanded">
             <h2 class="title is-5"><a href="{{post.url}}">{{post.title}}</a></h2>
           </div>
-           <div class="flex">
-              <div class="mx-2">
-                <strong>Date:</strong> {{post.date_friendly}}
-              </div>
-          {% if post.tags %}
-              <div class="mx-2">
+          <div class="flex">
+            <div class="mx-2">
+              <strong>Date:</strong> {{post.date_friendly}}
+            </div>
+            {% if post.tags %}
+            <div class="mx-2">
               {% for tag in post.tags %}
-                  <span class="tag">
-                    {{tag}}
-                  </span>
+                <span class="tag">
+                  {{tag}}
+                </span>
               {% endfor %}
-              </div>
-          {% endif %}
-        </div>
-    </div>
-</article>
+            </div>
+            {% endif %}
+          </div>
+        </article>
   {% endfor %}
     </div>
 </div>
