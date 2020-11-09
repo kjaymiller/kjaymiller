@@ -730,6 +730,14 @@ video {
   margin: 0.5rem;
 }
 
+.m-3 {
+  margin: 0.75rem;
+}
+
+.m-4 {
+  margin: 1rem;
+}
+
 .mx-1 {
   margin-left: 0.25rem;
   margin-right: 0.25rem;
@@ -850,6 +858,10 @@ video {
   width: 50%;
 }
 
+.w-1\/5 {
+  width: 20%;
+}
+
 .w-full {
   width: 100%;
 }
@@ -933,13 +945,32 @@ p {
   margin-bottom: 0.5rem;
 }
 
+h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
 @media (min-width: 768px) {
   .md\:flex {
     display: flex;
   }
+
+  .md\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media (min-width: 1024px) {
+  .lg\:flex {
+    display: flex;
+  }
+
   .lg\:w-3\/4 {
     width: 75%;
   }
