@@ -754,6 +754,11 @@ video {
   margin-right: 0.5rem;
 }
 
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
 .mx-3 {
   margin-left: 0.75rem;
   margin-right: 0.75rem;
@@ -967,12 +972,26 @@ h3 {
 ul {
   list-style-type: disc;
   margin-left: 1rem;
-  margin-right: 1rem
+  margin-right: 1rem;
 }
 
 li {
   margin-left: 1.25rem;
-  margin-right: 1.25rem
+  margin-right: 1.25rem;
+}
+
+.content img {
+  margin: 1.25rem;
+}
+
+.blockquote {
+  font-style: italic;
+  font-size: 1.125rem;
+  --text-opacity: 1;
+  color: #a0aec0;
+  color: rgba(160, 174, 192, var(--text-opacity));
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
 }
 
 @media (min-width: 768px) {
