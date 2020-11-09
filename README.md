@@ -2,7 +2,7 @@ Jay Miller is a software devleoper, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [Things I found on the internet recently! (TIFOTIR) - 08 Nov 2020](https://kjaymiller.com/things-i-found-on-the-internet-recently-tifotir-08-nov-2020)**
+**Latest Post - [Title: Things I Found on the Internet Recently! (Tifotir) - 08 Nov 2020](https://kjaymiller.com/title-things-i-found-on-the-internet-recently-tifotir-08-nov-2020)**
 
 **Latest Productivity in Tech Podcast Episode - [The Power of Personal Freedom: David Sparks on Speaking Around Multiple Interests](https://share.transistor.fm/s/b307f8ac)**
 
