@@ -30,3 +30,10 @@
     .content img {
         @apply m-5;
     }
+
+    .blockquote {
+        @apply italic;
+        @apply text-lg;
+        @apply text-gray-500;
+        @apply mx-5;
+    }
