@@ -759,11 +759,6 @@ video {
   margin-right: 0.75rem;
 }
 
-.my-4 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
 .my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
@@ -971,6 +966,13 @@ h3 {
 
 ul {
   list-style-type: disc;
+  margin-left: 1rem;
+  margin-right: 1rem
+}
+
+li {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem
 }
 
 @media (min-width: 768px) {

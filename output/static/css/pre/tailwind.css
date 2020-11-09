@@ -22,4 +22,8 @@
 
     ul {
         @apply list-disc;
+        @apply mx-4
+    }
+    li {
+        @apply mx-5
     }
