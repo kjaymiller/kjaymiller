@@ -13,15 +13,14 @@
             </figure>
             {% endif %}
             <div class="hero-body">
-              <h1 class="title is-2
-                                   has-text-font-weight-semibold">{{title}}{% if subtitle %}: {{subtitle}}{%endif%}{% if
-                        link %}<a href="{{link}}">🔗</a>{% endif %}</h1>
+                <h1 class="title text-3xl font-bold">{{title}}</h1><h2 class="text-xl">{% if subtitle %}: {{subtitle}}{%endif%}{% if
+                        link %}<a href="{{link}}">🔗</a>{% endif %}</h2>
               <div class="columns">
                 <p class="column is-narrow">
               {% if author %}
-              <small class="is-small">{{author}}</small>
+              <small class="">{{author}}</small>
               {% else %}
-              <small class="is-small">{{AUTHOR}}</small>
+              <small class="">{{AUTHOR}}</small>
               {% endif %}
               </p>
               <p class="column is-narrow">
