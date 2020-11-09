@@ -22,8 +22,11 @@
 
     ul {
         @apply list-disc;
-        @apply mx-4
+        @apply mx-4;
     }
     li {
-        @apply mx-5
+        @apply mx-5;
+    }
+    .content img {
+        @apply m-5;
     }
