@@ -851,12 +851,16 @@ video {
   width: 100%;
 }
 
+.col-auto {
+  grid-column: auto;
+}
+
 .col-start-8 {
   grid-column-start: 8;
 }
 
-.col-end-7 {
-  grid-column-end: 7;
+.col-end-12 {
+  grid-column-end: 12;
 }
 
 .transition {
@@ -996,7 +1000,7 @@ li {
     display: flex;
   }
 
-  .lg\:col-auto {
-    grid-column: auto;
+  .lg\:col-end-7 {
+    grid-column-end: 7;
   }
 }
