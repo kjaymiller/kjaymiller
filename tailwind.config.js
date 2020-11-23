@@ -1,6 +1,6 @@
 module.exports = {
   purge: {
-    enabled: true,
+    enabled: false,
     mode: 'all',
     content: [
       './output/**/*.html',
