@@ -27,7 +27,7 @@ def get_latest_episode(directory: Path, show_id: int=799, episodes: int=1):
         published_date = episode_attrs['published_at']
         summary = episode_attrs['summary']
         embed_url = episode_attrs['embed_html']
-        image_url = episode_attrs.get('image_url') or 'https://imagekit.io/cxazzw3yew/pit-logo-v5.jpg'
+        image_url = episode_attrs.get('image_url') or f'https://imagekit.io/{IMAGEKIT_PUBLIC_KEY}/pit-logo-v5.jpg'
         content = f"""title: {title}
 date: {published_date}
 image: {image_url}
