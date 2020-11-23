@@ -851,6 +851,10 @@ video {
   width: 100%;
 }
 
+.col-start-8 {
+  grid-column-start: 8;
+}
+
 .col-end-7 {
   grid-column-end: 7;
 }
@@ -991,10 +995,8 @@ li {
   .lg\:flex {
     display: flex;
   }
-}
 
-@media (min-width: 1280px) {
-  .xl\:col-auto {
+  .lg\:col-auto {
     grid-column: auto;
   }
 }
