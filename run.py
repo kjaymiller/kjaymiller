@@ -49,7 +49,7 @@ class site(Site):
                 feed='https://feeds.transistor.fm/bobs-taverncast-a-hearthstone-battlegrounds-podcast',
                 ),
             PodcastLink(name="The PIT Show", url='https://podcast.productivityintech.com',
-                image="/pit-logo-v4.jpg",
+                image="/pit-logo-v5.jpg",
                 feed='https://feeds.transistor.fm/productivity-in-tech-podcast',
                 ),
 

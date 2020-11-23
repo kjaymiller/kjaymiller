@@ -1,21 +1,11 @@
-<div class="">
+<div class="flex">
 <h1 class="my-3 text-lg font-bold">You can hear me on</h1>
   {% for podcast in PODCASTS %}
-    <div class="flex">
-        <div>
-            <a href="{{podcast.url}}">
-                <img class="podcast-image m-1" src="https://ik.imagekit.io/cxazzw3yew{{podcast.image}}?tr=w-150,to-{{podcast.latest_post.title|urlencode}}">
-            </a>
-        </div>
-        <div>
-            <h2 class="text-bold">
-                <a href="{{podcast.url}}">{{podcast.title}}</a>
-                <a href="{{podcast.latest_post.url}}">{{podcast.latest_post.name}}</a>
-            </h2>
-            </a>
-        </div>
+    <div>
+        <a href="{{podcast.url}}">
+            <img class="podcast-image m-1" src="https://ik.imagekit.io/cxazzw3yew{{podcast.image}}?tr=w-150,to-{{podcast.latest_post.title|urlencode}}">
+        </a>
     </div>
-
-{% endfor %}
+  {% endfor %}
 
 </div>
