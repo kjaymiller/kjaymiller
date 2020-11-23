@@ -5,14 +5,14 @@
 {% endblock %}
 
 {% block content %}
-<div class="col-auto">
-    <div id="left-column" class="col-end-5 lg:col-end-7">
+<div class="grid grid-cols-6">
+    <div id="left-column" class="xl:col-span-5">
         {% include 'short_bio.html' %}
         {% include 'featured_post.html' %}
         {% include 'recent_posts.html' %}
         {% include 'newsletter.html' %}
     </div>
-    <div id="right-column" class="col-start-6">
+    <div id="right-column" class="col-auto">
     {% include 'podcasts.html' %}
     </div>
 </div>
