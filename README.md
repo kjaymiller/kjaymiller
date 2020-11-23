@@ -2,7 +2,7 @@ Jay Miller is a software devleoper, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [Professional Fun and Keeping Fun and Career Separate (Because you want to)](https://kjaymiller.com/professional-fun-and-keeping-fun-and-career-separate-because-you-want-to)**
+**Latest Post - [Health Check-in](https://kjaymiller.com/health-check-in)**
 
 **Latest Productivity in Tech Podcast Episode - [Health Check-in](https://share.transistor.fm/s/e6a4a28c)**
 
