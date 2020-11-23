@@ -636,10 +636,6 @@ video {
   align-items: center;
 }
 
-.justify-between {
-  justify-content: space-between;
-}
-
 .justify-around {
   justify-content: space-around;
 }
@@ -695,6 +691,10 @@ video {
 
 .m-5 {
   margin: 1.25rem;
+}
+
+.m-auto {
+  margin: auto;
 }
 
 .mx-1 {
@@ -843,8 +843,16 @@ video {
   width: 25%;
 }
 
+.w-3\/4 {
+  width: 75%;
+}
+
 .w-full {
   width: 100%;
+}
+
+.col-end-7 {
+  grid-column-end: 7;
 }
 
 .transition {
@@ -983,8 +991,10 @@ li {
   .lg\:flex {
     display: flex;
   }
+}
 
-  .lg\:w-2\/3 {
-    width: 66.666667%;
+@media (min-width: 1280px) {
+  .xl\:col-auto {
+    grid-column: auto;
   }
 }
