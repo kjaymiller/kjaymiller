@@ -20,7 +20,6 @@ def get_latest_episode(directory: Path, show_id: int=799, episodes: int=1):
     episodes_url = 'https://api.transistor.fm/v1/episodes/'
     params = {"show_id": show_id}
     r = httpx.get(episodes_url, headers=header, params=params)
-    print(r.json()['data'][0])
 
     for episode in r.json()['data'][:episodes]:
         episode_attrs = episode['attributes']
