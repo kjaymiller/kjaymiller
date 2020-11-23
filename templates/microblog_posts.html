@@ -1,8 +1,8 @@
-<div id="microblog-posts" class="m-2">
+<div id="microblog-posts" class="">
   <h1 class="text-lg font-bold">Microblog Posts</h1>
       <div class="">
         {% for post in microblog_posts %}
-            <div class="m-3 w-1/2">
+            <div class="m-3">
               {{post.content}}
             <p class="text-sm">
             {{post.date_friendly}}
