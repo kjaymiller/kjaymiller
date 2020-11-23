@@ -4,7 +4,7 @@ You can see what he's posting about at <https://kjaymiller.com>.
 
 **Latest Post - [Professional Fun and Keeping Fun and Career Separate (Because you want to)](https://kjaymiller.com/professional-fun-and-keeping-fun-and-career-separate-because-you-want-to)**
 
-**Latest Productivity in Tech Podcast Episode - [Professional Fun and Keeping Fun and Career Separate (Because you want to)](https://share.transistor.fm/s/bf7ca32e)**
+**Latest Productivity in Tech Podcast Episode - [Health Check-in](https://share.transistor.fm/s/e6a4a28c)**
 
 ## Active Projects
 
