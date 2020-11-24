@@ -14,4 +14,10 @@
        </a>
     </div>
   {% endif %}
+  {% if blog_post[0].summary %}
+  <div class="border rounded-xl">
+      <p>{{blog_post[0].summary}}</p>
+  </div>
+
+  {% endif %}
 </div>
