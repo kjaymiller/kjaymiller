@@ -40,7 +40,7 @@
 
     .social{
         @apply w-full;
-        transition: background 1s ease-in;
+        transition: background 0.3s ease-in;
     }
     .youtube:hover{
         background-color: #FF0000;
