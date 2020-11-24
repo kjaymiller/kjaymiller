@@ -857,8 +857,12 @@ video {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
-.col-auto {
-  grid-column: auto;
+.col-span-2 {
+  grid-column: span 2 / span 2;
+}
+
+.col-span-4 {
+  grid-column: span 4 / span 4;
 }
 
 .transition {
@@ -991,7 +995,7 @@ li {
 }
 
 .twitter:hover{
-  background-color: ##1a81c3;
+  background-color: #1a81c3;
 }
 
 .linkedin:hover{
@@ -1027,9 +1031,5 @@ li {
 
   .xl\:grid-cols-6 {
     grid-template-columns: repeat(6, minmax(0, 1fr));
-  }
-
-  .xl\:col-span-4 {
-    grid-column: span 4 / span 4;
   }
 }
