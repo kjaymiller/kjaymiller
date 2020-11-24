@@ -37,3 +37,19 @@
         @apply text-gray-500;
         @apply mx-5;
     }
+
+    .social{
+        @apply w-full;
+    }
+    .youtube{
+        background-color: #FF0000;
+    }
+    .twitter{
+        background-color: ##1a81c3;
+    }
+    .linkedin{
+        background-color: #0b539e;
+    }
+    .twitch{
+        backround-color: #9146ff;
+    }
