@@ -40,16 +40,17 @@
 
     .social{
         @apply w-full;
+        transition: background 1s ease-in;
     }
     .youtube:hover{
         background-color: #FF0000;
     }
     .twitter:hover{
-        background-color: #1a81c3;
+        background-color: #1ba0f2;
     }
     .linkedin:hover{
         background-color: #0966c3;
     }
     .twitch:hover{
-        backround-color: #9146ff;
+        background-color: #9146ff;
     }
