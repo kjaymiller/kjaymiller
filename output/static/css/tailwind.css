@@ -702,10 +702,6 @@ video {
   margin: 1.25rem;
 }
 
-.m-auto {
-  margin: auto;
-}
-
 .mx-1 {
   margin-left: 0.25rem;
   margin-right: 0.25rem;
@@ -844,10 +840,6 @@ video {
   visibility: visible;
 }
 
-.w-1\/2 {
-  width: 50%;
-}
-
 .w-3\/4 {
   width: 75%;
 }
@@ -860,12 +852,20 @@ video {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
+.grid-cols-5 {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
 .col-auto {
   grid-column: auto;
 }
 
 .col-span-3 {
   grid-column: span 3 / span 3;
+}
+
+.col-start-5 {
+  grid-column-start: 5;
 }
 
 .transition {
@@ -1002,7 +1002,7 @@ li {
 }
 
 .linkedin:hover{
-  background-color: #0b539e;
+  background-color: #0966c3;
 }
 
 .twitch:hover{
