@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+    a {
+      @apply underline;
+    }
+    p {
+     @apply m-2;
+    }
+
+    h2 {
+        @apply text-3xl;
+        @apply font-bold;
+        @apply my-4;
+    }
+
+    h3 {
+        @apply text-2xl;
+        @apply font-bold;
+        @apply my-3;
+    }
+
+    ul {
+        @apply list-disc;
+        @apply mx-4;
+    }
+    li {
+        @apply mx-5;
+    }
+    .content img {
+        @apply m-5;
+    }
+
+    .blockquote {
+        @apply italic;
+        @apply text-lg;
+        @apply text-gray-500;
+        @apply mx-5;
+    }
+
+    .social{
+        @apply w-full;
+    }
+    .youtube:hover{
+        background-color: #FF0000;
+    }
+    .twitter:hover{
+        background-color: #1a81c3;
+    }
+    .linkedin:hover{
+        background-color: #0966c3;
+    }
+    .twitch:hover{
+        backround-color: #9146ff;
+    }
