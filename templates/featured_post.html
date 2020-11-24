@@ -1,23 +1,28 @@
 <div class="container mt-6 mx-2">
+
+  <h1 class="text-3xl underline">Latest Post</h1>
   {% set featured_post= blog_posts[0] %}
-  <h3 class="category text-xl"><a href="{{featured_post.category}}-0">{{featured_post.category}}</a></h3>
-  <h2 class="title text-2xl">
-      <a href="/{{featured_post.slug}}">{{featured_post.title}}</a>
-  {% if featured_post.link %}
-    <a href="{{featured_post.link}}">🔗</a>
-  {% endif %}
-   </h2>
-  {% if featured_post.image %}
-    <div class="m-4 rounded w-3/4">
-       <a href="/{{featured_post.slug}}">
-           <img class="w-md rounded" src="{{featured_post.image}}?tr=w-350,otbg-00000050,ofo-bottom,otw-350,otc-FFFFFF,otp-25,ots-30,otf-Open%20Sans,ot-{{ featured_post.title|urlencode }}">
-       </a>
-    </div>
-  {% endif %}
+  <div class="flex">
+      <div>
+      <h3 class="category text-xl"><a href="{{featured_post.category}}-0">{{featured_post.category}}</a></h3>
+      <h2 class="title text-2xl">
+          <a href="/{{featured_post.slug}}">{{featured_post.title}}</a>
+      {% if featured_post.link %}
+        <a href="{{featured_post.link}}">🔗</a>
+      {% endif %}
+       </h2>
+      {% if featured_post.image %}
+        <div class="m-4 rounded w-3/4">
+           <a href="/{{featured_post.slug}}">
+               <img class="w-md rounded" src="{{featured_post.image}}?tr=w-350,otbg-00000050,ofo-bottom,otw-350,otc-FFFFFF,otp-25,ots-30,otf-Open%20Sans,ot-{{ featured_post.title|urlencode }}">
+           </a>
+        </div>
+      </div>
+      {% endif %}
   {% if blog_posts[0].summary %}
   <div class="border rounded-xl">
       <p>{{blog_posts[0].summary}}</p>
   </div>
-
   {% endif %}
+    </div>
 </div>
