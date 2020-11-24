@@ -41,15 +41,15 @@
     .social{
         @apply w-full;
     }
-    .youtube{
+    .youtube:hover{
         background-color: #FF0000;
     }
-    .twitter{
+    .twitter:hover{
         background-color: ##1a81c3;
     }
-    .linkedin{
+    .linkedin:hover{
         background-color: #0b539e;
     }
-    .twitch{
+    .twitch:hover{
         backround-color: #9146ff;
     }
