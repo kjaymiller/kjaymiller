@@ -864,6 +864,10 @@ video {
   grid-column: auto;
 }
 
+.col-span-3 {
+  grid-column: span 3 / span 3;
+}
+
 .transition {
   transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -989,15 +993,19 @@ li {
   width: 100%;
 }
 
-.youtube{
+.youtube:hover{
   background-color: #FF0000;
 }
 
-.twitter{
+.twitter:hover{
   background-color: ##1a81c3;
 }
 
-.twitch{
+.linkedin:hover{
+  background-color: #0b539e;
+}
+
+.twitch:hover{
   backround-color: #9146ff;
 }
 
