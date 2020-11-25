@@ -2,7 +2,7 @@
 
   <h1 class="text-3xl underline">Latest Post</h1>
   {% set featured_post= blog_posts[0] %}
-  <div class="flex">
+  <div class="flex items-center m-4">
       <div>
       <h3 class="category text-xl"><a href="{{featured_post.category}}-0">{{featured_post.category}}</a></h3>
       <h2 class="title text-2xl">
@@ -21,7 +21,7 @@
       {% endif %}
 
   {% if blog_posts[0].summary %}
-  <div class="item-center ">
+  <div class="">
       <p class="text-2xl">{{blog_posts[0].summary}}</p>
   </div>
   {% endif %}
