@@ -10,13 +10,13 @@
     <div class="container">
     {% for post in pages %}
 
-	<article class="grid grid-cols-4 border m-5 p-3">
+	<article class="grid gap-4 grid-cols-5 border m-5 p-3">
         {% if post.image %}
-          <div class="col-span-1">
-              <img style="" src="{{post.image}}">
+          <div class="col-span-2">
+              <img class="rounded-lg" src="{{post.image}}">
           </div>
         {% endif %}
-        <div>
+        <div class="col-span-3">
             {% if post.category %}
               <span class="">
                 <a href="/{{post.category}}/all_posts-0">{{post.category}}</a>
