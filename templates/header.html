@@ -1,11 +1,11 @@
-<header class="w-full md:flex py-3 xl:py-5 px-3 ">
-    <h1 id="site-title" class="title mx-3 text-3xl text-bold text-gray-800">
+<header class="w-full md:flex py-3 xl:py-5 px-3">
+    <h1 id="site-title" class="title mx-3 text-3xl font-bold text-gray-800">
       <a class="hover:no-decorate" href="/">{{SITE_TITLE}}</a>
     </h1>
   <div class="flex" id="site-menu">
             {% for link in HEADER_LINKS %}
             <div class="hover:bg-gray-400 rounded px-1 py-3">
-                <a class="text-white" href="{{link.url}}">
+                <a class="text-gray-600" href="{{link.url}}">
                 {{link.name}}
                 </a>
             </div>
