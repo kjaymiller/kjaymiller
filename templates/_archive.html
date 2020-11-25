@@ -11,20 +11,18 @@
     {% for post in pages %}
 
 	<article class="grid grid-cols-4 border m-5 p-3">
-        {% if post.category %}
-          <span class="">
-            <a href="/{{post.category}}/all_posts-0">{{post.category}}</a>
-          </span>
-        {% endif %}
-
         {% if post.image %}
           <div class="col-span-1">
               <img style="" src="{{post.image}}">
           </div>
         {% endif %}
         <div>
+            {% if post.category %}
+              <span class="">
+                <a href="/{{post.category}}/all_posts-0">{{post.category}}</a>
+              </span>
+            {% endif %}
             <h2 class="title is-5"><a href="{{post.url}}">{{post.title}}</a></h2>
-          </div>
           <div class="flex">
             <div class="mx-2">
               <strong>Date:</strong> {{post.date_friendly}}
@@ -38,6 +36,7 @@
               {% endfor %}
             </div>
             {% endif %}
+          </div>
           </div>
         </article>
   {% endfor %}
