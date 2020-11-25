@@ -10,19 +10,19 @@
     <div class="container">
     {% for post in pages %}
 
-	<article class="border m-5 p-3">
+	<article class="grid grid-cols-4 border m-5 p-3">
         {% if post.category %}
           <span class="">
-            <a href="/{{post.category}}/all_posts">{{post.category}}</a>
+            <a href="/{{post.category}}/all_posts-0">{{post.category}}</a>
           </span>
         {% endif %}
 
         {% if post.image %}
-          <div class="">
-              <img style="max-h-sm;" src="{{post.image}}">
+          <div class="col-span-1">
+              <img style="" src="{{post.image}}">
           </div>
         {% endif %}
-          <div class="column is-expanded">
+        <div>
             <h2 class="title is-5"><a href="{{post.url}}">{{post.title}}</a></h2>
           </div>
           <div class="flex">
