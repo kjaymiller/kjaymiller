@@ -6,6 +6,7 @@
 {% block content %} 
 <div class="container m-4">
     <article>
+        {% if image %}
             <figure class="image banner">
               <img src="{{image}}?tr=foc-auto" class="featured_image">
             </figure>
