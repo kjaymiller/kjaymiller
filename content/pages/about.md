@@ -8,7 +8,7 @@ after) and I will probably always go by Jay. Enough about that...
 
 ## I'm a Multipotentialite
 
-What is a [multipotentialite]?
+What is a [multipotentialite](https://puttylike.com)?
 
 In short, think of me as a renaissance artist.
 
