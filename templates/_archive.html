@@ -7,18 +7,18 @@
   <div class="column is-5">
     <h2 class="title is-1 has-text-info">{{title}}</h2>
 
-    <div class="container grid gap-4 grid-cols-8 ">
+    <div class="container ">
     {% for post in pages %}
 
-	<article class="items-center border m-3">
+	<article class="items-center border m-3 grid gap-4 grid-cols-8 ">
         {% if post.image %}
-          <div class="col-start-2 col-span-2">
+          <div class="col-span-4">
               <a href="{{post.url}}">
                   <img class="rounded-lg " src="{{post.image}}">
               </a>
           </div>
         {% endif %}
-        <div class="col-start-3 col-span-3">
+        <div class="col-span-3">
             {% if post.category %}
               <span class="">
                 <a href="/{{post.category}}/all_posts-0">{{post.category}}</a>
