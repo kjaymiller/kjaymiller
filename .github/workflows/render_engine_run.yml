@@ -34,8 +34,9 @@ jobs:
         uses: actions/setup-node@v1
 
       - name: Install and Run Tailwindcss
-        run: npm install
-        run: npx tailwindcss build static/css/pre/tailwind.css -o static/css/tailwind.css
+        run: |
+          npm install
+          npx tailwindcss build static/css/pre/tailwind.css -o static/css/tailwind.css
 
       - name: load to github
         run: |
