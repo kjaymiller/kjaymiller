@@ -29,7 +29,7 @@
         @apply mx-5;
     }
     
-    input {
+    input, textarea {
         @apply border;
         @apply rounded;
         @apply p-2;

@@ -970,10 +970,10 @@ li {
   margin-right: 1.25rem;
 }
 
-input {
+input, textarea {
   border-width: 1px;
   border-radius: 0.25rem;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 .content img {
