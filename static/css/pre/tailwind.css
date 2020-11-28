@@ -32,7 +32,7 @@
     input {
         @apply border;
         @apply rounded;
-        @apply p-4;
+        @apply p-2;
     }
 
     .content img {
