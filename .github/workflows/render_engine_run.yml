@@ -30,6 +30,13 @@ jobs:
             APP_SEARCH_API_KEY: ${{ secrets.APP_SEARCH_API_KEY}}
         run: python run.py
 
+      - name: Install tailwindcss
+      - uses: actions/setup-node@v2-beta
+        with:
+          node-version: '12'
+      - run: npm install
+      - run: npx tailwindcss build static/css/pre/tailwind.css -o static/css/tailwind.css
+
       - name: load to github
         run: |
           git config user.name "Automated Publisher"
