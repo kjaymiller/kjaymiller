@@ -24,9 +24,17 @@
         @apply list-disc;
         @apply mx-4;
     }
+
     li {
         @apply mx-5;
     }
+    
+    input {
+        @apply border;
+        @apply rounded;
+        @apply p-4;
+    }
+
     .content img {
         @apply m-5;
     }
