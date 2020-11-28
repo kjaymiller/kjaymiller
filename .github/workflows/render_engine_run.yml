@@ -30,8 +30,10 @@ jobs:
             APP_SEARCH_API_KEY: ${{ secrets.APP_SEARCH_API_KEY}}
         run: python run.py
 
-      - name: Install tailwindcss
+      - name: Setup Node
         uses: actions/setup-node@v1
+
+      - name: Install and Run Tailwindcss
         run: npm install
         run: npx tailwindcss build static/css/pre/tailwind.css -o static/css/tailwind.css
 
