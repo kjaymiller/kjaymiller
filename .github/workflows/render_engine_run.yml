@@ -31,7 +31,10 @@ jobs:
         run: python run.py
 
       - name: Setup Node
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2-beta
+        with:
+          node-version: '12'
+          check-latest: true
 
       - name: Install and Run Tailwindcss
         run: |
