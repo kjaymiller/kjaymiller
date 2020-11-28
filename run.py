@@ -111,6 +111,13 @@ class Index(Page):
         self.blog_posts = mysite.collections['Blog'].archive[0].pages[:5]
 
 
+@mysite.register_route
+class contact(Page)
+    template = "contact.html"
+    slug = contact
+    title = "Chat"
+
+
 if __name__ == "__main__":
     mysite.render(dry_run=False)
     subprocess.call(['npx', 'tailwindcss', 'build', 'output/static/css/pre/tailwind.css', '-o', 'output/static/css/tailwind.css'])
