@@ -31,11 +31,9 @@ jobs:
         run: python run.py
 
       - name: Install tailwindcss
-      - uses: actions/setup-node@v2-beta
-        with:
-          node-version: '12'
-      - run: npm install
-      - run: npx tailwindcss build static/css/pre/tailwind.css -o static/css/tailwind.css
+        uses: actions/setup-node@v1
+        run: npm install
+        run: npx tailwindcss build static/css/pre/tailwind.css -o static/css/tailwind.css
 
       - name: load to github
         run: |
