@@ -28,7 +28,9 @@ jobs:
         env: 
             APP_SEARCH_ENDPOINT: ${{ secrets.APP_SEARCH_ENDPOINT}}
             APP_SEARCH_API_KEY: ${{ secrets.APP_SEARCH_API_KEY}}
-        run: python run.py
+        run: |
+            python transistor.py
+            python run.py
 
       - name: Setup Node
         uses: actions/setup-node@v2-beta

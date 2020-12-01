@@ -24,17 +24,21 @@ def get_latest_episode(directory: Path, show_id: int=799, episodes: int=1):
     for episode in r.json()['data'][:episodes]:
         episode_attrs = episode['attributes']
         title = episode_attrs['title']
+        output = directory.joinpath(slugify(title)).with_suffix(".md")
+
+        if output.exists():
+            continue
         published_date = episode_attrs['published_at']
         summary = episode_attrs['summary']
         embed_url = episode_attrs['embed_html']
-        image_url = episode_attrs.get('image_url') or f'https://ik.imagekit.io/cxazzw3yew/{IMAGEKIT_PUBLIC_KEY}/pit-logo-v5.jpg'
+        IMAGEKIT_PUBLIC_KEY = os.environ.get('IMAGEKIT_PUBLIC_KEY')
+        image_url = episode_attrs.get('image_url') or f'https://ik.imagekit.io//{IMAGEKIT_PUBLIC_KEY}/pit-logo-v5.jpg'
         content = f"""title: {title}
 date: {published_date}
 image: {image_url}
 
 {summary}
 {embed_url}"""
-        output = directory.joinpath(slugify(title)).with_suffix(".md")
         output.write_text(content)
 
 
