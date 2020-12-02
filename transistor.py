@@ -30,6 +30,7 @@ def get_latest_episode(directory: Path, show_id: int=799, episodes: int=1):
 
         if output.exists():
             return
+
         published_date = episode_attrs['published_at']
         summary = episode_attrs['summary']
         embed_url = episode_attrs['embed_html']

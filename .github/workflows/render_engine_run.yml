@@ -20,9 +20,7 @@ jobs:
 
       - name: Install Requirements
         run: |
-          pip install pip-tools
-          pip-compile --upgrade
-          pip-sync
+            pip install -r requirements.txt
 
       - name: Generate new website
         env: 
