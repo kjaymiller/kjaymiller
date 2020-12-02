@@ -4,6 +4,7 @@ import typer
 from slugify import slugify
 from pathlib import Path
 
+app = typer.Typer()
 
 header = {'x-api-key': os.environ.get('transistorKey')}
 
@@ -14,6 +15,7 @@ def get_show_list():
     r = httpx.get(url, headers=header)
     typer.echo([(x['id'], x['attributes']['title']) for x in r.json()['data']])
 
+@app.command()
 def get_latest_episode(directory: Path, show_id: int=799, episodes: int=1):
     """Fetch the Latest Episode and write a render-engine template to the output"""
 
@@ -43,4 +45,4 @@ image: {image_url}
 
 
 if __name__ == "__main__":
-    typer.run(get_latest_episode)
+    typer.run()
