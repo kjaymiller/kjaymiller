@@ -45,4 +45,4 @@ image: {image_url}
 
 
 if __name__ == "__main__":
-    typer.run()
+    app.run()
