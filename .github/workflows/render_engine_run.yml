@@ -28,10 +28,9 @@ jobs:
         env: 
             APP_SEARCH_ENDPOINT: ${{ secrets.APP_SEARCH_ENDPOINT}}
             APP_SEARCH_API_KEY: ${{ secrets.APP_SEARCH_API_KEY}}
-            DIRECTORY: content
             APP_SEARCH_API_KEY= : ${{ secrets.IMAGEKIT_PUBLIC_KEY }}
         run: |
-            python transistor.py $DIRECTORY
+            python transistor.py content
             python run.py
 
       - name: Setup Node
