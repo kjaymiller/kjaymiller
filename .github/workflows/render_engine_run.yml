@@ -28,7 +28,6 @@ jobs:
             APP_SEARCH_API_KEY: ${{ secrets.APP_SEARCH_API_KEY}}
             APP_SEARCH_API_KEY= : ${{ secrets.IMAGEKIT_PUBLIC_KEY }}
         run: |
-            python transistor.py content
             python run.py
 
       - name: Setup Node
