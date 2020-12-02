@@ -31,7 +31,7 @@ jobs:
             DIRECTORY: CONTENT
             APP_SEARCH_API_KEY= : ${{ secrets.IMAGEKIT_PUBLIC_KEY }}
         run: |
-            python transistor.py
+            python transistor.py $DIRECTORY
             python run.py
 
       - name: Setup Node
