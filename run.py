@@ -1,7 +1,6 @@
 import feedparser
 import logging
 import os
-import subprocess
 from elastic_app_search import Client
 from render_engine import Site, Page, Collection
 from render_engine.blog import Blog
@@ -10,21 +9,6 @@ from render_engine.links import Link
 from render_engine.search.elastic_app_search import elastic_app_search
 
 # import render_engine.optimizers.imagekit as imagekit
-
-
-def get_latest_post(rss_feed):
-    f = feedparser.parse(rss_feed)
-    latest_post = sorted(f["entries"], key=lambda x: x["published_parsed"])[-1]
-    return {
-        "title": latest_post["title"],
-        "link": latest_post["link"],
-    }
-
-
-class PodcastLink(Link):
-    def __init__(self, name, url, image, feed):
-        super().__init__(name=name, url=url, image=image)
-        self.latest_post = get_latest_post(feed)
 
 
 class site(Site):
@@ -44,23 +28,20 @@ class site(Site):
     AUTHOR = "Jay Miller"
     HEADER_LINKS = HEADER_LINKS
     PODCASTS = [
-        PodcastLink(
+        Link(
             name="Bob's Taverncast",
             url="https://bobstavern.pub",
             image="/bobstavern_256.jpg",
-            feed="https://feeds.transistor.fm/bobs-taverncast-a-hearthstone-battlegrounds-podcast",
         ),
-        PodcastLink(
+        Link(
             name="The PIT Show",
             url="https://podcast.productivityintech.com",
             image="/pit-logo-v5.jpg",
-            feed="https://feeds.transistor.fm/productivity-in-tech-podcast",
         ),
-        PodcastLink(
+        Link(
             name="TekTok Podcast",
             url="https://www.tekside.net/tektok",
             image="/tektok_256.jpeg",
-            feed="http://tekside.net/tektok?format=rss",
         ),
     ]
     search = elastic_app_search
@@ -93,8 +74,6 @@ class Blog(Blog):
     content_path = "content"
     subcollections = ["category", "tags"]
     paginated = True
-    # image_optimizer = imagekit
-    # image_optimizations = ['tr:w-600,h-300']
 
 
 @mysite.register_collection
@@ -115,8 +94,6 @@ class Index(Page):
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        # logging.warning(mysite.collections['MicroBlog'].archive[0])
-        # logging.warning(mysite.collections['Blog'].archive[0])
         self.microblog_posts = mysite.collections["MicroBlog"].archive[0].pages[:5]
         self.blog_posts = mysite.collections["Blog"].archive[0].pages[:5]
 
