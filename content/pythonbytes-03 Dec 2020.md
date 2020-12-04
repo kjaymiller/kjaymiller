@@ -1,6 +1,7 @@
 title: PythonBytes #210: Analyzing Kickstarter Campaigns with Python
 link: https://pythonbytes.fm/episodes/show/210/analyzing-kickstarter-campaigns-with-python
 image: https://pythonbytes.fm/static/img/logo.png
+date: 04 Dec 2020 07:44
 
 I got to be on a [livestream](https://www.youtube.com/watch?v=WKAeXtLv5-k) for [PythonBytes.fm](https://pythonbytes.fm/210)
 
