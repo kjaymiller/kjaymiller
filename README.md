@@ -2,7 +2,7 @@ Jay Miller is a software devleoper, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [Health Check-in](https://kjaymiller.com/health-check-in)**
+**Latest Post - [Teaching the Next Generation with the Help of the Solo Coders /w guest @AdersonOliveira](https://kjaymiller.com/teaching-the-next-generation-with-the-help-of-the-solo-coders-w-guest-adersonoliveira)**
 
 **Latest Productivity in Tech Podcast Episode - [Teaching the Next Generation with the Help of the Solo Coders /w guest @AdersonOliveira](https://share.transistor.fm/s/5dfe8ae1)**
 
