@@ -42,8 +42,7 @@ class site(Site):
             url="https://www.tekside.net/tektok",
             image="/tektok_256.jpeg",
         ),
-    ],
-    }
+    ]
 
 
 mysite = site()
