@@ -6,7 +6,6 @@ from render_engine import Site, Page, Collection
 from render_engine.blog import Blog
 from render_engine.microblog import MicroBlog
 from render_engine.links import Link
-from render_engine.search.elastic_app_search import elastic_app_search
 
 # import render_engine.optimizers.imagekit as imagekit
 
@@ -43,15 +42,7 @@ class site(Site):
             url="https://www.tekside.net/tektok",
             image="/tektok_256.jpeg",
         ),
-    ]
-    search = elastic_app_search
-    search_client = Client(
-        use_https=True,
-        base_endpoint=os.environ["APP_SEARCH_ENDPOINT"],
-        api_key=os.environ["APP_SEARCH_API_KEY"],
-    )
-    search_params = {
-        "engine": "kjaymiller",
+    ],
     }
 
 
