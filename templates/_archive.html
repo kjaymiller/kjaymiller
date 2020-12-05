@@ -3,8 +3,8 @@
 {% block head %}
 {% endblock %}
 {% block content %}
-<div class="">
-  <div class="column is-5">
+<div class="grid grd-cols-6">
+  <div class="col-span-4 column is-5">
     <h2 class="title is-1 has-text-info">{{title}}</h2>
 
     <div class="container ">
@@ -44,9 +44,13 @@
   {% endfor %}
     </div>
 </div>
-{% include 'categories.html' %}
-  </div>
-{% include 'pagination.html'%}
-  </div>
-
+</div>
+<div class="col-span-2">
+    <div>
+        {% include 'categories.html' %}
+    </div>
+    <div>
+        {% include 'pagination.html'%}
+    </div>
+</div>
 {% endblock %}
