@@ -6,7 +6,7 @@ from pathlib import Path
 
 app = typer.Typer()
 
-header ={'x-api-key': os.environ.['transistorKey']}
+header ={'x-api-key': os.environ['transistorKey']}
 
 def get_show_list():
     """Get a list of all the shows"""
