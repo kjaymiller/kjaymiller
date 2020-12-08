@@ -4,7 +4,7 @@ You can see what he's posting about at <https://kjaymiller.com>.
 
 **Latest Post - [PythonBytes #210: Analyzing Kickstarter Campaigns with Python](https://kjaymiller.com/pythonbytes-210-analyzing-kickstarter-campaigns-with-python)**
 
-**Latest Productivity in Tech Podcast Episode - [Teaching the Next Generation with the Help of the Solo Coders /w guest @AdersonOliveira](https://share.transistor.fm/s/5dfe8ae1)**
+**Latest Productivity in Tech Podcast Episode - [Simplicity and the Dance to Getting Hired w/ @Dev_Nikema](https://share.transistor.fm/s/57ed040f)**
 
 ## Active Projects
 
