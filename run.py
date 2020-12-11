@@ -91,6 +91,7 @@ class Index(Page):
 @mysite.register_route
 class contact(Page):
     template = "contact.html"
+    slug = "contact"
     title = "Chat"
 
 
