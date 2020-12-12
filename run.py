@@ -42,6 +42,11 @@ class site(Site):
             url="https://www.tekside.net/tektok",
             image="/tektok_256.jpeg",
         ),
+        Link(
+            name="Ask a Brit",
+            url="https://askabrit.transistor.fm",
+            image="/askabrit.jpeg",
+        ),
     ]
 
 
