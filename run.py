@@ -45,7 +45,7 @@ class site(Site):
         Link(
             name="Ask a Brit",
             url="https://askabrit.transistor.fm",
-            image="/askabrit.jpeg",
+            image="/AskABritv4.png",
         ),
     ]
 
