@@ -1,17 +1,17 @@
 <header class="bg-gradient-to-br from-blue-700 to-blue-500 w-full md:flex py-3 xl:py-5 px-3">
-    <h1 id="site-title" class="title mx-3 text-3xl font-bold text-gray-800">
+    <h1 id="site-title" class="title mx-3 text-3xl font-bold text-gray-200">
       <a class="hover:no-decorate" href="/">{{SITE_TITLE}}</a>
     </h1>
   <div class="flex" id="site-menu">
             {% for link in HEADER_LINKS %}
-            <div class="hover:bg-gray-400 rounded px-1 py-3">
-                <a class="text-gray-600" href="{{link.url}}">
+            <div class="p-3">
+                <a class="rounded p-2 hover:bg-gray-200 hover:text-gray-600 text-gray-200" href="{{link.url}}">
                 {{link.name}}
                 </a>
             </div>
             {% endfor %}
   </div>
-    <form class="p-3" role="search" action="https://search.kjaymiller.com/">
+    <form role="search" action="https://search.kjaymiller.com/">
         <input type="text" class="border border-blue-800 px-3 rounded-full" name="q" id="search-bar" placeholder="Search"/>
     </form>
 </header>
