@@ -2,7 +2,7 @@ Jay Miller is a software devleoper, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [Simplicity and the Dance to Getting Hired w/ @Dev_Nikema](https://kjaymiller.com/simplicity-and-the-dance-to-getting-hired-w-dev-nikema)**
+**Latest Post - [Simplicity and the Dance to Getting Hired with @Dev Nikema](https://kjaymiller.com/simplicity-and-the-dance-to-getting-hired-with-dev-nikema)**
 
 **Latest Productivity in Tech Podcast Episode - [Simplicity and the Dance to Getting Hired w/ @Dev_Nikema](https://share.transistor.fm/s/57ed040f)**
 
