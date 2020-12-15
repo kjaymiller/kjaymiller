@@ -1,14 +1,10 @@
 import feedparser
 import logging
 import os
-from elastic_app_search import Client
 from render_engine import Site, Page, Collection
 from render_engine.blog import Blog
 from render_engine.microblog import MicroBlog
 from render_engine.links import Link
-
-# import render_engine.optimizers.imagekit as imagekit
-
 
 class site(Site):
     strict = True
