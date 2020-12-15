@@ -45,9 +45,9 @@ Join our new <a href="https://discourse.productivityintech.com/">Discourse</a> a
 <pubDate>Mon, 11 Mar 2019 08:00:00 -0700</pubDate><guid isPermaLink="false">pitpod-aleen</guid></item><item>
 <title>Things I Found on the Internet Recently! (Tifotir) - 15 Dec 2020</title>  <description><![CDATA[<p>Here are some things that I found around the web lately that I think folks will enjoy. No Affiliate links so if you are happy about these and want to support, then share the post with your friends or consider <a href="https://github.com/sponsors/kjaymiller">sponsoring all my projects</a>! </p>
 
-<h2>[GoodLinks]</h2>
+<h2><a href="https://goodlinks.app">GoodLinks</a></h2>
 
-<p>[GoodLinks] was one of the first apps that I saw that was taking advantage of iCloud sync. There are many apps like <a href="https://getpocket.com">Pocket</a>, <a href="https://instapaper.com">Instapaper</a>, <a href="https://raindrop.io">Raindrop.io</a>. There is also the darling <a href="https://pinboard.in">pinboard</a>. </p>
+<p><a href="https://goodlinks.app">GoodLinks</a> was one of the first apps that I saw that was taking advantage of iCloud sync. There are many apps like <a href="https://getpocket.com">Pocket</a>, <a href="https://instapaper.com">Instapaper</a>, <a href="https://raindrop.io">Raindrop.io</a>. There is also the darling <a href="https://pinboard.in">pinboard</a>. </p>
 
 <p>I noticed these subscription services were paying mostly for plain-text storage. I could get the URL, the title, and tags, but if I wanted access to the content, good luck. Even when I could store offline versions of pages, I couldn't access them via an API. I wanted to be able to integrate my bookmarking service and make it searchable with other tools. </p>
 
