@@ -2,7 +2,7 @@ Jay Miller is a software devleoper, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [Always be Writing things Down (Somewhere)](https://kjaymiller.com/always-be-writing-things-down-somewhere)**
+**Latest Post - [Things I Found on the Internet Recently! (Tifotir) - 15 Dec 2020](https://kjaymiller.com/things-i-found-on-the-internet-recently-tifotir-15-dec-2020)**
 
 **Latest Productivity in Tech Podcast Episode - [Always be Writing things Down (Somewhere)](https://share.transistor.fm/s/873fa739)**
 
