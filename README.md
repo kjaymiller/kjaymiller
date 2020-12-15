@@ -2,9 +2,9 @@ Jay Miller is a software devleoper, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [Ask a Brit is back for Season 2](https://kjaymiller.com/podcast-announcement)**
+**Latest Post - [Always be Writing things Down (Somewhere)](https://kjaymiller.com/always-be-writing-things-down-somewhere)**
 
-**Latest Productivity in Tech Podcast Episode - [Simplicity and the Dance to Getting Hired w/ @Dev_Nikema](https://share.transistor.fm/s/57ed040f)**
+**Latest Productivity in Tech Podcast Episode - [Always be Writing things Down (Somewhere)](https://share.transistor.fm/s/873fa739)**
 
 ## Active Projects
 
