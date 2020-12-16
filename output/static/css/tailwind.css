@@ -662,6 +662,10 @@ video {
   font-weight: 700;
 }
 
+.font-extrabold {
+  font-weight: 800;
+}
+
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -749,6 +753,11 @@ video {
 .my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .mb-3 {
@@ -920,6 +929,10 @@ video {
 
 .col-span-5 {
   grid-column: span 5 / span 5;
+}
+
+.col-start-2 {
+  grid-column-start: 2;
 }
 
 .transition {
