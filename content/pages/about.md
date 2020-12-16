@@ -1,7 +1,6 @@
 title: Who is Jay Miller
 slug: about
 
-
 Hey Y'all I'm Jay. My first name begins with K but we don't really talk much
 about that. I've always gone by Jay (Except for in my military days and shortly
 after) and I will probably always go by Jay. Enough about that...
@@ -32,6 +31,10 @@ In 2014 I started podcasting with the [Productivity in Tech Podcast]. That event
 
 These days I've settle in Sunny (Most of the Time) San Diego, California where I (along with my wonderful wife) raise our little J (literally her name is Jae pronouced like my name), along with our two dogs (Alice, and The Loris) and our Cat Boss, Peanut Butter.
 
+## Follow Me On:
+- [Github](https://github.com/kjaymiller)
+- [Twitter](https://twitter.com/kjaymiller)
+- [LinkedIn](https://www.linkedin.com/in/kjaymiller/)
 
 [Productivity in Tech Podcast]: https://podcast.productivityintech.com
 [multipotentialite]: https://puttylike.com/terminology/
