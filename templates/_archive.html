@@ -7,7 +7,7 @@
               </a>
           </div>
         {% endif %}
-        <div class="col-span-3">
+        <div class="col-span-5">
 
           {% if post.category %}
             <span class="">
@@ -24,7 +24,7 @@
             {% if post.tags %}
               <div class="mx-2">
                 {% for tag in post.tags %}
-                  <span class="border rounded bg-gray-200 border-gray-400 mx-1 my-3 p-1">
+                  <span class="border rounded bg-gray-200 border-gray-400 mx-1 my-4 p-1">
                     {{tag}}
                   </span>
                 {% endfor %}

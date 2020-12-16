@@ -11,6 +11,7 @@ class site(Site):
     HEADER_LINKS = (
         Link(name="About", url="/about.html"),
         Link(name="Blog", url="/blog-0.html"),
+        Link(name="Podcast", url="/podcasts.html"),
         Link(name="Projects", url="/projects.html"),
         Link(name="Resume", url="/static/files/Jay_Miller_-_Software_Engineer.pdf"),
         Link(name="Newsletter", url="/subscribe"),
@@ -95,7 +96,12 @@ class contact(Page):
     slug = "contact"
     title = "Chat"
 
+@mysite.register_route
+class podcast(Page):
+    template = "podcasts.html"
+    slug = "podcasts"
+    title = "Podcasts"
 
 if __name__ == "__main__":
-    mysite.render(dry_run=False)
+    mysite.render()
     

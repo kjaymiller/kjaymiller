@@ -1,7 +1,8 @@
 title: Focused Podcast Episode #105: Living the Multipotentialite Life, with Jay Miller
 image: https://relayfm.s3.amazonaws.com/uploads/broadcast/image_2x/34/focused_artwork.png
 slug: focused-105
-tags: appearances, podcast, relay.fm
+tags: productivity, podcast, relay.fm, Mike Shmitz, David Sparks
+category: Guest Appearances
 link: https://www.relay.fm/focused/105
 date: 04 Aug 2020 21:33
 

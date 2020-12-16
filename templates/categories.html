@@ -1,15 +1,15 @@
 <div class="column is-3 is-mobile-hidden">
   {% for topic in subcollections %}
   <div class="box">
-    <h2 class="subtitle">{{topic}}</h2>
+    <h2 class="subtitle">{{topic|capitalize}}</h2>
       <div class="field is-grouped is-grouped-multiline">
         {% for subcollection in subcollections[topic] %}
-        <div class="control">
-          <div class="tags has-addons">
-           <div class="tag is-dark"><a href="{{subcollection.archive[0].slug}}"
-                class="has-text-white">{{subcollection.title}}</a></div>
-            <div class="tag">{{subcollection.pages|length}}</div>
-          </div>
+        <div class="my-4">
+            <span class="p-2 rounded border border-gray-400 bg-gray-200">
+               <a href="{{subcollection.archive[0].slug}}"
+                class="">{{subcollection.title}}
+               </a> 
+            </span>
         </div>
         {% endfor %}
       </div>

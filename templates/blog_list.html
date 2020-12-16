@@ -3,10 +3,9 @@
 {% block head %}
 {% endblock %}
 {% block content %}
-<div class="grid grid-cols-6">
-  <div class="col-span-4 column is-5">
-    <h2 class="title is-1 has-text-info">{{title}}</h2>
-
+<h2 class="title text-3xl">{{title}}</h2>
+<div class="grid grid-cols-7">
+  <div class="col-span-4">
     <div class="container ">
         {% include '_archive.html' %}
     </div>
@@ -15,8 +14,10 @@
     <div>
         {% include 'categories.html' %}
     </div>
-    <div>
+  </div>
+</div>
+  <div>
         {% include 'pagination.html'%}
-    </div>
+  </div>
 </div>
 {% endblock %}
