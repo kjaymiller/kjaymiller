@@ -1,13 +1,3 @@
-{% extends 'base.html' %}
-{% block title %}{{title}}{% endblock %}
-{% block head %}
-{% endblock %}
-{% block content %}
-<div class="grid grd-cols-6">
-  <div class="col-span-4 column is-5">
-    <h2 class="title is-1 has-text-info">{{title}}</h2>
-
-    <div class="container ">
     {% for post in pages %}
 
 	<article class="items-center border m-3 grid gap-4 grid-cols-8 ">
@@ -32,25 +22,9 @@
             {% if post.tags %}
             <div class="mx-2">
               {% for tag in post.tags %}
-                <span class="border rounded bg-gray-200 border-gray-400 mx-1 p-1">
+                <span class="border rounded bg-gray-200 border-gray-400 mx-1 my-2 p-1">
                   {{tag}}
                 </span>
               {% endfor %}
-            </div>
-            {% endif %}
-          </div>
-          </div>
-        </article>
-  {% endfor %}
-    </div>
-</div>
-</div>
-<div class="col-span-2">
-    <div>
-        {% include 'categories.html' %}
-    </div>
-    <div>
-        {% include 'pagination.html'%}
-    </div>
-</div>
-{% endblock %}
+          {% endif%}
+      {% endfor %}
