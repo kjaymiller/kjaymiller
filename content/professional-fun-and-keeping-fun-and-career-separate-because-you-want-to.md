@@ -1,6 +1,6 @@
 title: Professional Fun and Keeping Fun and Career Separate (Because you want to)
 date: 2020-11-16T01:37:59.706Z
-image: https://ik.imagekit.io/cxazzw3yew/images/pit-logo-v5.jpg
+image: https://ik.imagekit.io/cxazzw3yew/pit-logo-v5.jpg
 tags: career, podcast
 category: The PIT Show
 

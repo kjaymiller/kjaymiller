@@ -39,6 +39,8 @@ def get_latest_episode(directory: Path, show_id: int=799, episodes: int=1):
         content = f"""title: {title}
 date: {published_date}
 image: {image_url}
+tags: podcast
+category: The PIT Show
 
 {summary}
 {embed_url}"""
