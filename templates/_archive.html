@@ -1,6 +1,5 @@
-    {% for post in pages %}
-
-	<article class="items-center border m-3 grid gap-4 grid-cols-8 ">
+{% for post in pages %}
+  <article class="items-center border m-3 grid gap-4 grid-cols-8 ">
         {% if post.image %}
           <div class="col-span-2">
               <a href="{{post.url}}">
@@ -9,12 +8,15 @@
           </div>
         {% endif %}
         <div class="col-span-3">
-            {% if post.category %}
-              <span class="">
-                <a href="/{{post.category}}/all_posts-0">{{post.category}}</a>
-              </span>
-            {% endif %}
-            <h2 class="text-4xl"><a href="{{post.url}}">{{post.title}}</a></h2>
+
+          {% if post.category %}
+            <span class="">
+              <a href="/{{post.category}}/all_posts-0">{{post.category}}</a>
+            </span>
+          {% endif %}
+          <h2 class="text-4xl">
+            <a href="{{post.url}}">{{post.title}}</a>
+          </h2>
           <div class="flex">
             <div class="mx-2">
               <strong>Date:</strong> {{post.date_friendly}}
@@ -29,4 +31,5 @@
               </div>
             {% endif%}
           </div>
-      {% endfor %}
+  </article>
+{% endfor %}
