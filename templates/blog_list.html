@@ -4,13 +4,13 @@
 {% endblock %}
 {% block content %}
 <h2 class="title text-3xl">{{title}}</h2>
-<div class="grid grid-cols-7">
-  <div class="col-span-4">
+<div class="grid lg:grid-cols-7">
+  <div class="lg:col-span-4">
     <div class="container ">
         {% include '_archive.html' %}
     </div>
   </div>
-  <div class="col-span-2">
+  <div class="lg:col-span-2">
     <div>
         {% include 'categories.html' %}
     </div>

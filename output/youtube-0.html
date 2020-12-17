@@ -22,7 +22,7 @@
     <h1 id="site-title" class="title mx-3 text-3xl font-bold text-gray-200">
       <a class="hover:no-decorate" href="/">(K) Jay Miller</a>
     </h1>
-  <div class="md:flex invisible lg:visibile" id="site-menu">
+  <div class="md:flex hidden" id="site-menu">
             
             <div class="p-3">
                 <a class="rounded p-2 hover:bg-gray-200 hover:text-gray-600 text-gray-200" href="/about.html">
@@ -61,9 +61,9 @@
             </div>
             
   </div>
-  <div class="invisible lg:visibile">
+  <div class="hidden">
     <form role="search" action="https://search.kjaymiller.com/">
-        <div class="flex">
+        <div class="md:flex hidden">
         <input type="text" style="padding-left: 3em; background: url('/static/files/search.svg') 7px 0px white no-repeat" class="inline border border-blue-800 rounded-full" name="q" id="search-bar" placeholder="Search"/>
         </div>
     </form>
@@ -72,8 +72,8 @@
     <div class="container mx-auto my-4">
         
 <h2 class="title text-3xl">youtube</h2>
-<div class="grid grid-cols-7">
-  <div class="col-span-4">
+<div class="grid lg:grid-cols-7">
+  <div class="lg:col-span-4">
     <div class="container ">
         
   <article class="items-center border m-3 grid gap-4 grid-cols-8 ">
@@ -164,7 +164,7 @@
 
     </div>
   </div>
-  <div class="col-span-2">
+  <div class="lg:col-span-2">
     <div>
         <div class="column is-3 is-mobile-hidden">
   
