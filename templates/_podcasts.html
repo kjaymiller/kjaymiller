@@ -1,13 +1,12 @@
 <div>
-    <h1>Hear Me On</h1>
-        <div class="flex">
-          {% for podcast in PODCASTS %}
+    <h1 class="font-extrabold text-2xl">Hear me on</h1>
+    <div class="lg:flex">
+        {% for podcast in PODCASTS %}
             <div>
                 <a href="{{podcast.url}}">
                     <img class="podcast-image m-1" src="https://ik.imagekit.io/cxazzw3yew{{podcast.image}}?tr=w-150,to-{{podcast.title|urlencode}}">
                 </a>
             </div>
-          {% endfor %}
-
-        </div>
+        {% endfor %}
+    </div>
 </div>
