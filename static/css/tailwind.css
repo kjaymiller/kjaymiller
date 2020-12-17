@@ -630,6 +630,10 @@ video {
   display: block;
 }
 
+.inline {
+  display: inline;
+}
+
 .flex {
   display: flex;
 }
@@ -814,6 +818,10 @@ video {
   padding-bottom: 1.5rem;
 }
 
+.pl-5 {
+  padding-left: 1.25rem;
+}
+
 .static {
   position: static;
 }
@@ -929,10 +937,6 @@ video {
 
 .col-span-5 {
   grid-column: span 5 / span 5;
-}
-
-.col-start-2 {
-  grid-column-start: 2;
 }
 
 .transition {
@@ -1117,6 +1121,10 @@ input, textarea {
 
   .lg\:col-span-4 {
     grid-column: span 4 / span 4;
+  }
+
+  .lg\:col-start-2 {
+    grid-column-start: 2;
   }
 }
 
