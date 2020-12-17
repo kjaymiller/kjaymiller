@@ -7,7 +7,7 @@ after) and I will probably always go by Jay. Enough about that...
 
 ## I'm a Multipotentialite
 
-What is a [multipotentialite](https://puttylike.com)?
+What is a [multipotentialite](https://puttylike.com/terminology)?
 
 In short, think of me as a renaissance artist.
 
@@ -27,7 +27,7 @@ I grew up in Tennessee, moving to Georgia as a teenager. My family grew up fishi
 
 After high school, I joined the United States Marine Corps and spent most of my days deployed across southeast Asia. There, I grew a love for understanding people and how their culture shapes their design, fashion, architecture and art.
 
-In 2014 I started podcasting with the [Productivity in Tech Podcast]. That eventually grew into a business where I work with developer creators to make content around their brand.
+In 2014 I started podcasting with the [The PIT Show](pit-show). That eventually grew into a business where I work with developer creators to make content around their brand.
 
 These days I've settle in Sunny (Most of the Time) San Diego, California where I (along with my wonderful wife) raise our little J (literally her name is Jae pronouced like my name), along with our two dogs (Alice, and The Loris) and our Cat Boss, Peanut Butter.
 
@@ -36,6 +36,9 @@ These days I've settle in Sunny (Most of the Time) San Diego, California where I
 - [Twitter](https://twitter.com/kjaymiller)
 - [LinkedIn](https://www.linkedin.com/in/kjaymiller/)
 
-[Productivity in Tech Podcast]: https://podcast.productivityintech.com
-[multipotentialite]: https://puttylike.com/terminology/
+[pit-show]: https://podcast.productivityintech.com
 
+### Other Links:
+- [Talks](/conference-talks)
+- [Projects](/projects)
+- [Resume](/static/files/Jay_Miller_-_Software_Engineer.pdf)

@@ -1,3 +1,4 @@
+import json 
 import logging
 import os
 from render_engine import Site, Page, Collection
@@ -12,11 +13,9 @@ class site(Site):
         Link(name="Blog", url="/blog-0.html"),
         Link(name="Podcasts", url="/podcasts.html"),
         Link(name="Projects", url="/projects.html"),
-        Link(name="Resume", url="/static/files/Jay_Miller_-_Software_Engineer.pdf"),
         Link(name="Newsletter", url="/subscribe"),
         Link(name="Contact", url="/contact"),
     )
-
     timezone = "US/Pacific"
     SITE_TITLE = "(K) Jay Miller"
     SITE_URL = "https://kjaymiller.com"
@@ -90,10 +89,19 @@ class Index(Page):
 
 
 @mysite.register_route
-class contact(Page):
+class Contact(Page):
     template = "contact.html"
     slug = "contact"
-    title = "Chat"
+
+@mysite.register_route
+class Talks(Page):
+    template = "conference-talks.html"
+    slug = "conference-talks"
+    talks = "Conference Talks"
+
+    with open('content/conference-talks.json') as j:
+        posts = json.load(j)
+
 
 @mysite.register_route
 class podcast(Page):

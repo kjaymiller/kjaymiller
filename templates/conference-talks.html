@@ -1,0 +1,16 @@
+{% extends 'page.html' %}
+{% block add_ons %}
+  {% for post in posts %}
+    <div>
+      <h2>{{post['title']}}({{post['last_presented']}})</h2>
+      {% autoescape false %}
+        {{post['abstract']}}
+      {% endautoescape %}
+      {% if 'embed' in post %}
+      <div class="my-2">
+        <iframe width="560" height="315" src="{{post['embed']}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      {% endif %}
+    </div>
+  {% endfor %}
+{% endblock %}
