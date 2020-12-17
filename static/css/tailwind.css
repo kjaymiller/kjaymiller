@@ -1092,6 +1092,10 @@ input, textarea {
 }
 
 @media (min-width: 768px) {
+  .md\:block {
+    display: block;
+  }
+
   .md\:flex {
     display: flex;
   }
@@ -1100,15 +1104,15 @@ input, textarea {
     margin-left: auto;
     margin-right: auto;
   }
-
-  .md\:w-32 {
-    width: 8rem;
-  }
 }
 
 @media (min-width: 1024px) {
   .lg\:flex {
     display: flex;
+  }
+
+  .lg\:w-32 {
+    width: 8rem;
   }
 
   .lg\:grid-cols-6 {
