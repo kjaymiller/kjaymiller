@@ -2,7 +2,7 @@ title: Presenting Working in Modes for Better Productivity
 date: 19 Dec 2020 10:06
 tags: bunch, hook, productivity, meetups
 link: https://myscau.org
-image: https://www.myscau.org/wp-content/uploads/2020/12/SCAU-POSTER-12-19-2020-FINAL.jpg
+image: https://ik.imagekit.io/cxazzw3yew/SCAU-POSTER-12-19-2020-FINAL.jpg
 
 I had the privilege of presenting to the [Suburban Chicago Apple Users](https://myscau.org) meetup. This was a great opportunity to to chat with many Apple enthusiasts and share two of my favorite apps ([Hook](https://hookproductivity.com) and [Bunch](https://brettterpstra.com/projects/bunch/)).
 
