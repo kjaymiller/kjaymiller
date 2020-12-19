@@ -40,9 +40,7 @@
                     <p class="">
                     <strong>Tags: </strong>
                     {% for tag in tags %}
-                    <small class="p-2 m-2 border rounded-lg border-gray-500">
-                      <a ref="/{{tag}}/all_posts">{{tag}}</a>
-                    </small>
+                    {% include 'tag_link.html' %}
                     {% endfor %}
                     </p>
                     {% endif %}
