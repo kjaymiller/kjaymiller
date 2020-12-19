@@ -24,9 +24,7 @@
             {% if post.tags %}
               <div class="mx-2">
                 {% for tag in post.tags %}
-                  <span class="border rounded bg-gray-200 border-gray-400 mx-1 my-4 p-1">
-                    {{tag}}
-                  </span>
+                    {% include 'tag_link.html' %}
                 {% endfor %}
               </div>
             {% endif%}

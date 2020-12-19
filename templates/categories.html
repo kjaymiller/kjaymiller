@@ -5,11 +5,8 @@
       <div class="field is-grouped is-grouped-multiline">
         {% for subcollection in subcollections[topic] %}
         <div class="my-4">
-            <span class="p-2 rounded border border-gray-400 bg-gray-200">
-               <a href="{{subcollection.archive[0].slug}}"
-                class="">{{subcollection.title}}
-               </a> 
-            </span>
+            {% set tag=subcollection.slug%}
+            {% include 'tag_link.html' %}
         </div>
         {% endfor %}
       </div>
