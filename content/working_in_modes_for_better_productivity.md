@@ -9,3 +9,6 @@ I had the privilege of presenting to the [Suburban Chicago Apple Users](https://
 A big shoutout to [Brett Terpstra](https://twitter.com/ttscoff) and [Luc P. Beaudoin](https://twitter.com/LucCogZest) for hanging out in the chat and the excellent feedback!
 
 You can view my slides [here](/static/files/Working in Modes for Better Productivity.pdf) and a video will be made available in the near future.
+
+![flyer](https://ik.imagekit.io/cxazzw3yew/SCAU-POSTER-12-19-2020-FINAL.jpg)
+
