@@ -2,7 +2,7 @@ Jay Miller is a software devleoper, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [Presenting Working in Modes for Better Productivity](https://kjaymiller.com/presenting-working-in-modes-for-better-productivity)**
+**Latest Post - [5 People that made my 2020 🔥](https://kjaymiller.com/five-people-that-made-2020-fire)**
 
 **Latest Productivity in Tech Podcast Episode - [Always be Writing things Down (Somewhere)](https://share.transistor.fm/s/873fa739)**
 
