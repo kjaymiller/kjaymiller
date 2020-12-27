@@ -2,7 +2,7 @@ title: 5 People that made my 2020 🔥
 slug: five-people-that-made-2020-fire
 date: 27 Dec 2020 11:18
 tags: reflection, people
-featured-image: https://ik.imagekit.io/cxazzw3yew/jay-sies-2020.jpg
+image: https://ik.imagekit.io/cxazzw3yew/jay-sies-2020.jpg
 
 I've mentioned this before. As much as 2020 sucked for the world, it was one of my biggest professional years of growth.
 
@@ -12,13 +12,13 @@ This was originally a podcast episode, but since I was experiencing some audio i
 
 ## [April Wensel][Compassionate Coding]
 
-![April Wensel](https://ik.imagekit.io/cxazzw3yew/AprilWensel-about.jpeg)
+![April Wensel](https://ik.imagekit.io/cxazzw3yew/AprilWensel-about.jpeg?tr=w-400)
 
 April Wensel is the founder of [Compassionate Coding][Compassionate Coding], a company focused on increasing the [emotional intelligence][April's Talk] of developer teams. April and I connect regularly with each other as 2020 impacted us in many ways. April was a foundational part of #GetJayADevJob and has even helped to make some amazing connections to get my first few months as a Dev Advocate off to a great start.
 
 ## [Carol Willing](https://www.willingconsulting.com)
 
-![Carol Willing](https://ik.imagekit.io/cxazzw3yew/carolwilling-twitter.jpg)
+![Carol Willing](https://ik.imagekit.io/cxazzw3yew/carolwilling-twitter.jpg?tr=w-400)
 
 Carol was the first person to comment on one of my coding projects. This was back in 2014 when I was just learning Python and my code wasn't wonderful. Still, Carol saw beyond my non-perfect code and saw the practicality of the work.
 
@@ -28,7 +28,7 @@ Carol is a great leader in the Python community and has mentored many great folk
 
 ## [Alex Tsai](https://twitter.com/caffodian)
 
-![Alex Tsai](https://ik.imagekit.io/cxazzw3yew/AlexTsai-twitter.jpg)
+![Alex Tsai](https://ik.imagekit.io/cxazzw3yew/AlexTsai-twitter.jpg?tr=w-400)
 
 I will be honest, Alex was someone that I met in the middle of my job hunt because I was hoping to work for him. That said, even when I took a different role I was worried it would destroy the relationship that I had made with him. That said I feel like we've spoken more since.
 
@@ -36,7 +36,7 @@ Alex also gave me great advice for my resume and has also been a great Python me
 
 ## [Brian Douglas](https://bdougie.live)
 
-![Brian Douglas](https://ik.imagekit.io/cxazzw3yew/briandouglas-linkedin.jpeg)
+![Brian Douglas](https://ik.imagekit.io/cxazzw3yew/briandouglas-linkedin.jpeg?tr=w-400)
 
 Brian and I have known each other for several years but this was the year where we connected most and it came at a time where I was looking for an advocate that I could learn from.
 
@@ -44,7 +44,7 @@ Brian was one of the first advocates that I met that was able to successfully pi
 
 ## [Alex Cox](https://twitter.com/alexcox)
 
-![Alex Cox](https://ik.imagekit.io/cxazzw3yew/AlexCox-SpaceHelmet.jpeg)
+![Alex Cox](https://ik.imagekit.io/cxazzw3yew/AlexCox-SpaceHelmet.jpeg?tr=w-400)
 
 I've wanted to interview Alex for years! Now that it's finally happened (This weeks episode of _the PIT show_!). 
 
