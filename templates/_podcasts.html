@@ -1,10 +1,10 @@
 <div>
     <h1 class="font-extrabold text-2xl">Hear me on</h1>
-    <div class="lg:flex">
+    <div class="lg:flex justify-between">
         {% for podcast in PODCASTS %}
             <div>
                 <a href="{{podcast.url}}">
-                    <img class="lg:w-32 m-1" src="https://ik.imagekit.io/cxazzw3yew{{podcast.image}}?tr=w-350,to-{{podcast.title|urlencode}}">
+                    <img class="lg:w-48 m-1" src="https://ik.imagekit.io/cxazzw3yew{{podcast.image}}?tr=w-350,to-{{podcast.title|urlencode}}">
                 </a>
             </div>
         {% endfor %}
