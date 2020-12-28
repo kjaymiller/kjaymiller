@@ -3,6 +3,7 @@ slug: five-people-that-made-2020-fire
 date: 27 Dec 2020 11:18
 tags: reflection, people
 image: https://ik.imagekit.io/cxazzw3yew/jay-sies-2020.jpg
+category: jaysies
 
 I've mentioned this before. As much as 2020 sucked for the world, it was one of my biggest professional years of growth.
 
