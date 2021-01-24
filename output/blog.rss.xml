@@ -106,7 +106,9 @@ Join our new <a href="https://discourse.productivityintech.com/">Discourse</a> a
 
 <blockquote>
   <p>Never, ever believe anything anyone says until the offer is in front of your face with your name on it...</p>
-  
+</blockquote>
+
+<blockquote>
   <p>And if they didn't pick you, it's their loss. Don't waste time fretting about why it wasn't you or singing the hymn of the impostor on repeat.</p>
 </blockquote>
 
@@ -3340,9 +3342,13 @@ for themselves. Punish those that punish unjustly. And be willing to listen when
 <pubDate>Mon, 01 Jun 2020 08:17:00 -0700</pubDate><guid isPermaLink="false">can-we-fix-this</guid></item><item>
 <title>In Defense of the Black Multi-Potentialite</title>  <description><![CDATA[<blockquote>
   <p><em>Stay in Your Lane.</em> - NRA to Emergency Room Doctors</p>
-  
+</blockquote>
+
+<blockquote>
   <p><em>Shut up and Dribble.</em> - Laura Ingraham</p>
-  
+</blockquote>
+
+<blockquote>
   <p><em>Why does every black actor gotta rap some. I don't know. All I know is I'm the best one.</em> - Donald Glover aka Childish Gambino.</p>
 </blockquote>
 
@@ -3358,15 +3364,25 @@ for themselves. Punish those that punish unjustly. And be willing to listen when
 
 <blockquote>
   <p>For what is a man, what has he got?</p>
-  
+</blockquote>
+
+<blockquote>
   <p>If not himself, then he has naught</p>
-  
+</blockquote>
+
+<blockquote>
   <p>To say the things he truly feels</p>
-  
+</blockquote>
+
+<blockquote>
   <p>And not the words of one who kneels</p>
-  
+</blockquote>
+
+<blockquote>
   <p>The record shows, I took the blows</p>
-  
+</blockquote>
+
+<blockquote>
   <p>And did it my way - My Way, Frank Sinatra</p>
 </blockquote>
 
@@ -4672,7 +4688,7 @@ Podcast</a> so subscribe today.</p>
 
 <p>After spending an hour on stream trying to build a twitch app, I opted for the more low-tech solution. </p>
 
-<div class="codehilite"><pre><span></span><code><span class="k">if</span> <span class="p">(</span><span class="nx">player</span><span class="p">.</span><span class="nx">getPlayerState</span><span class="p">().</span><span class="nx">currentTime</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+<div class="codehilite"><pre><span></span><code><span class="k">if</span> <span class="p">(</span><span class="nx">player</span><span class="p">.</span><span class="nx">getPlayerState</span><span class="p">().</span><span class="nx">currentTime</span> <span class="o">!=</span> <span class="mf">0</span><span class="p">)</span> <span class="p">{</span>
     <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s1">&#39;#twitch-block&#39;</span><span class="p">).</span><span class="nx">style</span><span class="p">.</span><span class="nx">display</span> <span class="o">=</span> <span class="s1">&#39;initial&#39;</span><span class="p">;</span>
   <span class="p">}</span>
 
@@ -8667,6 +8683,29 @@ different places in their career).</p>
 
     <link>https://kjaymiller.com/jamie-is-a-form-group</link>
 <pubDate>Tue, 01 Jan 2019 12:00:00 -0800</pubDate><guid isPermaLink="false">jamie-is-a-form-group</guid></item><item>
+<title>TIL You can change the subject of an Email</title>  <description><![CDATA[<p><strong>DISCLAIMER: I'm not here to bash <em>Hey</em>. In fact I wouldn't have thought of this idea if
+it weren't for them so great job!</strong></p>
+
+<p>I was setting up my (Non-M1) mac mini to do some work and I needed to setup my
+email system (currently [MailMate]). While doing this, I didn't have the "gmail" hotkeys enabled so I was trying to
+figure out how to enter the search field when I hit ctrl+s and I got a very interesting window.</p>
+
+<p><img src="https://ik.imagekit.io/cxazzw3yew/MailMate%20Change%20Subject%20Box.png" alt="Change Subject Screenshot" /></p>
+
+<p>As mentioned earlier, this was a feature that <em>Hey</em> was promoting as a feature.</p>
+
+<p>Upon reading the <em>caveats</em>, I realized what MailMate was doing. Essentially it
+was rewriting the mail with new headers (Which was why it was saying it would
+appear as a new message in other clients.)</p>
+
+<p>This made me realize that if this was that big of a deal you could simply forward the message to yourself with a
+new subject... </p>
+
+<p>Sometimes the solution isn't elegant. Still it's a solution.</p>
+]]></description>
+
+    <link>https://kjaymiller.com/til-you-can-change-the-subject-of-an-email</link>
+<pubDate>Sat, 23 Jan 2021 21:45:00 -0800</pubDate><guid isPermaLink="false">til-you-can-change-the-subject-of-an-email</guid></item><item>
 <title>PythonBytes #210: Analyzing Kickstarter Campaigns with Python</title>  <description><![CDATA[<p>I got to be on a <a href="https://www.youtube.com/watch?v=WKAeXtLv5-k">livestream</a> for <a href="https://pythonbytes.fm/210">PythonBytes.fm</a></p>
 
 <p>Thanks to Michael Kennedy and Brian Okken for having me as a guest. We talked about some interesting picks around machine learning, circuitpy, and image optimization.</p>
@@ -9335,22 +9374,34 @@ I've had them refer some of their audience to me when they are looking for a coa
 
 <blockquote>
   <p>I've been working to bring PIT back at the beginning of 2019 (I have some coding things that need to get done first)</p>
-  
+</blockquote>
+
+<blockquote>
   <p>Also, PIT is now a business (officially). Aside from the podcast, I am doing content creation, coaching, and "unicorn" services.</p>
-  
+</blockquote>
+
+<blockquote>
   <p>I was inspired by Kathy Campbell. My goal is to just help people where I can. </p>
-  
+</blockquote>
+
+<blockquote>
   <p>Here is a list of the services I provide.</p>
-  
+</blockquote>
+
+<blockquote>
   <p>My skills include:
   - social media
   - recording videos and screencasts
   - podcast editing and recording
   - community management
   - newsletter publishing</p>
-  
+</blockquote>
+
+<blockquote>
   <p>Do you have any ideas how I may be of any help?</p>
-  
+</blockquote>
+
+<blockquote>
   <p>Also if you know of anyone that I could help out with those things or individual or group productivity coaching, I would love an introduction.</p>
 </blockquote>
 

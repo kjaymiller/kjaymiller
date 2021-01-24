@@ -11,6 +11,9 @@
         <a href="{{featured_post.link}}">🔗</a>
       {% endif %}
        </h2>
+      {% if featured_post.youtube %}
+      <iframe width="560" height="315" src="{{featured_post.youtube}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+      {% endif %}
       {% if featured_post.image %}
         <div class="m-4 rounded w-3/4">
            <a href="/{{featured_post.slug}}">

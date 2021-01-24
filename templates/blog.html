@@ -48,13 +48,8 @@
               </section>
         </section>
 
-        {% if github %}
-        <div class="notification is-small is-dark">
-          <p class="content">If you see a way to make this better, you can
-          submit a PR on the <a href="{{github}}">Github Page for this
-            Article</a></p>
-        </div>
-        {% endif %}
+        {% include 'github_disclaimer.html' %}
+        {% include 'YouTube_embed.html' %}
 
         {% if link %}
         <div class="notification is-small">

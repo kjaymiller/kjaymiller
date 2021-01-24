@@ -15,7 +15,7 @@
 
     <title>
       
-      Simplicity and the Dance to Getting Hired - (K) Jay Miller
+      TIL You can change the subject of an Email - (K) Jay Miller
     </title>
   </head>
   <body> 
@@ -23,7 +23,7 @@
     <h1 id="site-title" class="title mx-3 text-3xl font-bold text-gray-200">
       <a class="hover:no-decorate" href="/">(K) Jay Miller</a>
     </h1>
-  <div class="flex" id="site-menu">
+  <div class="md:flex hidden" id="site-menu">
             
             <div class="p-3">
                 <a class="rounded p-2 hover:bg-gray-200 hover:text-gray-600 text-gray-200" href="/about.html">
@@ -38,14 +38,14 @@
             </div>
             
             <div class="p-3">
-                <a class="rounded p-2 hover:bg-gray-200 hover:text-gray-600 text-gray-200" href="/projects.html">
-                Projects
+                <a class="rounded p-2 hover:bg-gray-200 hover:text-gray-600 text-gray-200" href="/podcasts.html">
+                Podcasts
                 </a>
             </div>
             
             <div class="p-3">
-                <a class="rounded p-2 hover:bg-gray-200 hover:text-gray-600 text-gray-200" href="/static/files/Jay_Miller_-_Software_Engineer.pdf">
-                Resume
+                <a class="rounded p-2 hover:bg-gray-200 hover:text-gray-600 text-gray-200" href="/projects.html">
+                Projects
                 </a>
             </div>
             
@@ -62,21 +62,21 @@
             </div>
             
   </div>
+  <div class="hidden">
     <form role="search" action="https://search.kjaymiller.com/">
-        <input type="text" class="border border-blue-800 px-3 rounded-full" name="q" id="search-bar" placeholder="Search"/>
+        <div class="md:flex hidden">
+        <input type="text" style="padding-left: 3em; background: url('/static/files/search.svg') 7px 0px white no-repeat" class="inline border border-blue-800 rounded-full" name="q" id="search-bar" placeholder="Search"/>
+        </div>
     </form>
+</div>
 </header>
-    <div class="mx-2">
+    <div class="container mx-auto my-4">
          
 <div class="container m-4">
     <article>
         
-            <figure class="image banner">
-              <img src="https://ik.imagekit.io/cxazzw3yew/pit-logo-v5.jpg?tr=h-200,w-600,foc-auto" class="featured_image">
-            </figure>
-            
             <div class="m-3">
-                <h1 class="title text-4xl font-bold">Simplicity and the Dance to Getting Hired</h1><h2 class="text-xl"><a href="https://twitter.com/dev_nikema">🔗</a></h2>
+                <h1 class="title text-4xl font-bold">TIL You can change the subject of an Email</h1><h2 class="text-xl"></h2>
               <div class="columns">
                 <p class="column is-narrow">
               
@@ -84,30 +84,70 @@
               
               </p>
               <p class="column is-narrow">
-              Dec 07, 2020 06:43 AM
+              Jan 23, 2021 21:45 PM
               </p>
 
             </div>
               <section class="hero-foot flex">
                   <div class="">
                   
+                  <p class=""><strong>Category: </strong><small
+                     class="tag">
+                    <a href="/productivity/all_posts">productivity</a>
+                  </small>
+                  </p>
                   
+                  
+                    <p class="">
+                    <strong>Tags: </strong>
+                    
+                    <small class="mx-2 p-2 rounded border border-gray-400 bg-gray-200">
+   <a href="email-0"
+    class="">email
+   </a> 
+</small >
+                    
+                    <small class="mx-2 p-2 rounded border border-gray-400 bg-gray-200">
+   <a href="hey-0"
+    class="">hey
+   </a> 
+</small >
+                    
+                    </p>
+                    
                 </div>
               </section>
         </section>
 
         
-
         
-        <div class="notification is-small">
-          <strong>Source:</strong> <a href="https://twitter.com/dev_nikema">https://twitter.com/dev_nikema</a>
-        </div>
+<div class="m2">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1oQYPX1ov6I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+
         
         <section class="section">
           <div class="content">
-            <p>Nikema Prophet shares her story and journey in the tech space. Jay takes a lesson in simplicity.</p>
+            <p><strong>DISCLAIMER: I'm not here to bash <em>Hey</em>. In fact I wouldn't have thought of this idea if
+it weren't for them so great job!</strong></p>
 
-<iframe width="100%" height="180" frameborder="no" scrolling="no" seamless src="https://share.transistor.fm/e/57ed040f"></iframe>
+<p>I was setting up my (Non-M1) mac mini to do some work and I needed to setup my
+email system (currently [MailMate]). While doing this, I didn't have the "gmail" hotkeys enabled so I was trying to
+figure out how to enter the search field when I hit ctrl+s and I got a very interesting window.</p>
+
+<p><img src="https://ik.imagekit.io/cxazzw3yew/MailMate%20Change%20Subject%20Box.png" alt="Change Subject Screenshot" /></p>
+
+<p>As mentioned earlier, this was a feature that <em>Hey</em> was promoting as a feature.</p>
+
+<p>Upon reading the <em>caveats</em>, I realized what MailMate was doing. Essentially it
+was rewriting the mail with new headers (Which was why it was saying it would
+appear as a new message in other clients.)</p>
+
+<p>This made me realize that if this was that big of a deal you could simply forward the message to yourself with a
+new subject... </p>
+
+<p>Sometimes the solution isn't elegant. Still it's a solution.</p>
  
           </div>
         </section>
@@ -119,11 +159,12 @@
     </section>
 </div>
 
+         
         <footer class="bg-gray-300 m-4">
   <div class="container  lg:flex md:mx-auto justify-around">
     <p> kjaymiller.com</p>
     <p>Website made with <a
-      href="https://render-engine.site">Render Engine</a> and <a
+                             href="https://render-engine.site">Render Engine</a> and <a href="https://tailwindcss.com">TailwindCSS</a>
     <div class="level">
       <p class="level-item">
          <a href="/blog.rss"><span class="icon"><i class="fas fa-rss"></i></a>
