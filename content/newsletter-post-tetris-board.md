@@ -2,6 +2,7 @@ title: My Life is a Tetris Board
 tags: introspection, tetris
 category: productivity
 date: 23 Jan 2021 22:59
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Emacs_Tetris_vector_based_detail.svg/558px-Emacs_Tetris_vector_based_detail.svg.png
 
 Hi! Your friend ADHD Tech Worker here to admit.
 
