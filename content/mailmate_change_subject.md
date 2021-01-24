@@ -11,7 +11,7 @@ I was setting up my (Non-M1) mac mini to do some work and I needed to setup my
 email system (currently [MailMate]). While doing this, I didn't have the "gmail" hotkeys enabled so I was trying to
 figure out how to enter the search field when I hit ctrl+s and I got a very interesting window.
 
-![Change Subject Screenshot](https://ik.imagekit.io/cxazzw3yew/MailMate%20Change%20Subject%20Box.png)
+![Change Subject Screenshot](https://ik.imagekit.io/cxazzw3yew/Mailmate%20Change%20Subject%20Box.png)
 
 As mentioned earlier, this was a feature that _Hey_ was promoting as a feature.
 
