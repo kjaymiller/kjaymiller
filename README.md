@@ -2,7 +2,7 @@ Jay Miller is a software devleoper, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [My Life is a Tetris Board](https://kjaymiller.com/my-life-is-a-tetris-board)**
+**Latest Post - [Introducing DiversityOrgs.Tech](https://kjaymiller.com/introducing-diversityorgs-tech)**
 
 **Latest Productivity in Tech Podcast Episode - [Conference Driven Development with Brian Douglas](https://share.transistor.fm/s/1683fd63)**
 
