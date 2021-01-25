@@ -2,7 +2,6 @@ from render_engine.site import Site
 from render_engine.links import Link
 
 class MySite(Site):
-    strict = True
     HEADER_LINKS = (
         Link(name="About", url="/about.html"),
         Link(name="Blog", url="/blog-0.html"),
