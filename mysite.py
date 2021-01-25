@@ -15,6 +15,7 @@ class MySite(Site):
     SITE_URL = "https://kjaymiller.com"
     AUTHOR = "Jay Miller"
     HEADER_LINKS = HEADER_LINKS
+    SUBCOLLECTION_MIN = 2
     PODCASTS = [
         Link(
             name="Bob's Taverncast",

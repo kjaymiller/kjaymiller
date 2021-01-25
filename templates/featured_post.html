@@ -11,7 +11,10 @@
         <a href="{{featured_post.link}}">🔗</a>
       {% endif %}
        </h2>
-      {% if featured_post.image %}
+      {% if featured_post.youtube %}
+      <iframe width="560" height="315" src="{{featured_post.youtube}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+      {% endif %}
+      {% if featured_post.image and not featured_post.youtube %}
         <div class="m-4 rounded w-3/4">
            <a href="/{{featured_post.slug}}">
                <img class="w-md rounded" src="{{featured_post.image}}?tr=w-450,otbg-00000050,ofo-bottom,otw-450,otc-FFFFFF,otp-25,ots-30,otf-Open%20Sans,ot-{{ featured_post.title|urlencode }}">

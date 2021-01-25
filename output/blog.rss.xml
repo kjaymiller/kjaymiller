@@ -4660,6 +4660,40 @@ Podcast</a> so subscribe today.</p>
 
     <link>https://kjaymiller.com/anxiety-based-gtd</link>
 <pubDate>Mon, 25 Mar 2019 10:42:00 -0700</pubDate><guid isPermaLink="false">anxiety-based-gtd</guid></item><item>
+<title>My Life is a Tetris Board</title>  <description><![CDATA[<p>Hi! Your friend ADHD Tech Worker here to admit.</p>
+
+<blockquote>
+  <p>I think I may I'm addicted to work</p>
+</blockquote>
+
+<p>When was the last time you tried to not think about things for a bit? I don't mean playing meditation music and trying to relax.</p>
+
+<p>Instead, I'm referring to the idea of saying I have enough going on right now and I don't want to put more on myself. I'm often neglecting projects because I have other projects waiting. I'm almost always thinking, "I need to do something to prepare for this so I will sit these other things down to focus on this thing over here".</p>
+
+<p>As I'm writing this. I can think of several things that I need to do instead. Here's a sample:</p>
+
+<ul>
+<li>Record the Audio/Video for the PIT Show</li>
+<li>Clean up the code around my blog</li>
+<li>Do some work on <em>Transcriptor</em></li>
+<li>Do some work on <em>Render Engine</em></li>
+<li>Do some work on <a href="https://diversityorgs.tech">diversityorgs.tech</a></li>
+<li>Do some work on <a href="https://writeuglycode.com">writeuglycode.com</a></li>
+<li>Edit and finish another blog post</li>
+<li>Clean my bedroom</li>
+</ul>
+
+<p>But instead I'm writing you. </p>
+
+<p>Sure finish this, I may open my notebook or a digital project manager and think about the best way to tackle any of these projects. Or I'll play Tetris. Tetris seems to have the same level of brain activity (or work) with less of the stakes. In fact my life is analogous to a game of Tetris where I'm constantly trying to spin activities and place them strategically in my life until I either fill the board (burn out) or complete a line (project) and open a little more space for the next batch of shapes. </p>
+
+<p>Of the next piece is coming. I should probably do something with it.</p>
+
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Emacs_Tetris_vector_based_detail.svg/558px-Emacs_Tetris_vector_based_detail.svg.png" alt="Tetris Piece" /></p>
+]]></description>
+
+    <link>https://kjaymiller.com/my-life-is-a-tetris-board</link>
+<pubDate>Sat, 23 Jan 2021 22:59:00 -0800</pubDate><guid isPermaLink="false">my-life-is-a-tetris-board</guid></item><item>
 <title>How I Made My Twitch Player Appear on My Site Only When I&#39;m Live</title>  <description><![CDATA[<p>I wanted to write this to show that the easiest answer can often elude us. </p>
 
 <p>If I asked you to add a twitch frame to a website and make it only appear when you were live, how would you do it?</p>
@@ -8667,6 +8701,29 @@ different places in their career).</p>
 
     <link>https://kjaymiller.com/jamie-is-a-form-group</link>
 <pubDate>Tue, 01 Jan 2019 12:00:00 -0800</pubDate><guid isPermaLink="false">jamie-is-a-form-group</guid></item><item>
+<title>TIL You can change the subject of an Email</title>  <description><![CDATA[<p><strong>DISCLAIMER: I'm not here to bash <em>Hey</em>. In fact I wouldn't have thought of this idea if
+it weren't for them so great job!</strong></p>
+
+<p>I was setting up my (Non-M1) mac mini to do some work and I needed to setup my
+email system (currently [MailMate]). While doing this, I didn't have the "gmail" hotkeys enabled so I was trying to
+figure out how to enter the search field when I hit ctrl+s and I got a very interesting window.</p>
+
+<p><img src="https://ik.imagekit.io/cxazzw3yew/Mailmate%20Change%20Subject%20Box.png" alt="Change Subject Screenshot" /></p>
+
+<p>As mentioned earlier, this was a feature that <em>Hey</em> was promoting as a feature.</p>
+
+<p>Upon reading the <em>caveats</em>, I realized what MailMate was doing. Essentially it
+was rewriting the mail with new headers (Which was why it was saying it would
+appear as a new message in other clients.)</p>
+
+<p>This made me realize that if this was that big of a deal you could simply forward the message to yourself with a
+new subject... </p>
+
+<p>Sometimes the solution isn't elegant. Still it's a solution.</p>
+]]></description>
+
+    <link>https://kjaymiller.com/til-you-can-change-the-subject-of-an-email</link>
+<pubDate>Sat, 23 Jan 2021 21:45:00 -0800</pubDate><guid isPermaLink="false">til-you-can-change-the-subject-of-an-email</guid></item><item>
 <title>PythonBytes #210: Analyzing Kickstarter Campaigns with Python</title>  <description><![CDATA[<p>I got to be on a <a href="https://www.youtube.com/watch?v=WKAeXtLv5-k">livestream</a> for <a href="https://pythonbytes.fm/210">PythonBytes.fm</a></p>
 
 <p>Thanks to Michael Kennedy and Brian Okken for having me as a guest. We talked about some interesting picks around machine learning, circuitpy, and image optimization.</p>
@@ -9270,6 +9327,46 @@ things. Also the time away from my computer really helps.</p>
 
     <link>https://kjaymiller.com/quick-productivity-tip-walk-and-talks</link>
 <pubDate>Mon, 25 May 2020 23:01:00 -0700</pubDate><guid isPermaLink="false">quick-productivity-tip-walk-and-talks</guid></item><item>
+<title>Introducing DiversityOrgs.Tech</title>  <description><![CDATA[<p>Okay Time to Share something I've been working on for the last month. Introducing https://diversityorgs.tech.</p>
+
+<hr />
+
+<p>I wanted to build something that did a few things.</p>
+
+<ol>
+<li>Created a place where underrepresented folks in tech could find groups that wanted to represent them.</li>
+<li>Create a resource for new underrepresented folks and allies could learn how to get connected.</li>
+<li>Build something fun and simple with technology that I haven't played around with too much.</li>
+</ol>
+
+<p>Diversityorgs.tech does all these things.</p>
+
+<hr />
+
+<p>To use it, simply search. You can search for things like:</p>
+
+<ul>
+<li>your city, state, territory, or region</li>
+<li>the group in which you identify with (or wish to support)</li>
+<li>A technology, focus or stack</li>
+</ul>
+
+<hr />
+
+<p>I don't do anything like require user accounts. There's no cookies, trackers and I have none of your information, nor do I want it. There's no need for that. This site is pretty lightweight and free. </p>
+
+<p>It's just the beginning so there are only about 150 organizations that have been added (most around the python space because that's where I operate).</p>
+
+<hr />
+
+<p>I desperately want to add more orgs to this and create some interesting features. That said it's easy to add organizations, but not always easy to find. If you represent an organization and would like it added to this. Please:</p>
+
+<p>A. Message/DM me on twitter
+B. Use this link to submit your org through the app - https://diversityorgs.tech/addorg</p>
+]]></description>
+
+    <link>https://kjaymiller.com/introducing-diversityorgs-tech</link>
+<pubDate>Mon, 25 Jan 2021 14:37:00 -0800</pubDate><guid isPermaLink="false">introducing-diversityorgs-tech</guid></item><item>
 <title>Kaotica Eyeball</title>  <description><![CDATA[<p>I first learned about the <a href="https://www.kaoticaeyeball.com">Kaotica Eyeball</a> from a video by Hip Hop Artist <a href="">Ruslan</a>. In the video he mentioned using it to record vocals that would later appear on one of his albums. While consulting for a former employer, I took the opportunity to order one for them to record in their office. I was impressed with the quality of the acoustic foam and how well it blocked out noise. I hoped that I could use it to block out some unwanted noise from our (and our neighbor's) dogs.</p>
 
 <p>I was saddened to still have the barks come through in our recording. While I thought about returning the eyeball, I decided to use the recording and I'm happy to say that it improved the quality of my audio in a few ways.</p>
