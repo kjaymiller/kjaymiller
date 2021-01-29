@@ -83,7 +83,7 @@ echo *.json *.csv >> .gitignore
 
 ---
 
-![](https://asciinema.org/a/T7epmpQCjNIOevERvSkzOZmDJ)
+<script id="asciicast-T7epmpQCjNIOevERvSkzOZmDJ" src="https://asciinema.org/a/T7epmpQCjNIOevERvSkzOZmDJ.js" async></script>
 
 ---
 

@@ -2,9 +2,9 @@ from routes import mysite
 import typer
 
 def build(
-        verbose: bool = typer.Option(False, '--verbose', '-n'),
+        verbose: bool = typer.Option(False, '--verbose', '-v'),
         clean: bool = typer.Option(False, '--clean'),
-        update: bool = typer.Option(False, '--update', '-U'),
+        update: bool = typer.Option(False, '--update', '-u'),
         ):
 
     if clean or update:
