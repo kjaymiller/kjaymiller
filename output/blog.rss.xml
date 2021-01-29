@@ -9671,6 +9671,94 @@ Links:</em>*</p>
 
     <link>https://kjaymiller.com/podcast-pit-podcast-ep-4-a-native-indi-creating-an-indie-shop-in-indi-ana</link>
 <pubDate>Mon, 28 Jan 2019 21:00:00 -0800</pubDate><guid isPermaLink="false">podcast-pit-podcast-ep-4-a-native-indi-creating-an-indie-shop-in-indi-ana</guid></item><item>
+<title>How to Not 🌋 your Project</title>  <description><![CDATA[<h2>Video Coming Soon!</h2>
+
+<hr />
+
+<h2>Definition</h2>
+
+<blockquote>
+  <p>Volcano - Take a small issue in git and have it erupt into a massive issue.</p>
+</blockquote>
+
+<hr />
+
+<h2>Example 1</h2>
+
+<p><blockquote class="twitter-tweet"><p lang="en" dir="ltr">WHAT YOU SHOULD NEVER DO<br><br>&quot;Me: Now to add these 2 days of code to GitHub.<br><code>git add .</code><br>whoops I added environment vars lets just revert...&quot;<br><br>2 days of work <a href="https://t.co/346grNXfUz">pic.twitter.com/346grNXfUz</a></p>&mdash; Jay Miller - #BlackLivesMatter (@kjaymiller) <a href="https://twitter.com/kjaymiller/status/1350241433836351489?ref_src=twsrc%5Etfw">January 16, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+
+<h2>How to solve this problem</h2>
+
+<p>[.column]</p>
+
+<h3>If you pushed to github.</h3>
+
+<p>Sorry gonna have to delete that repo in GH. To really clean the history.</p>
+
+<p>[.column]</p>
+
+<h3>If you didn't...</h3>
+
+<div class="codehilite"><pre><span></span><code>rm -rf .git
+git init
+</code></pre></div>
+
+<hr />
+
+<h2>Example 2</h2>
+
+<p><blockquote class="twitter-tweet"><p lang="en" dir="ltr">Who just spent the last 3 hours trying to squash a commit (I accidentally uploaded some CSV files and it&#39;s making the pulls take much longer and they are unnecessary)<br><br>The same person that couldn&#39;t get it to work. That person.. <a href="https://t.co/ezIIlCYJmw">pic.twitter.com/ezIIlCYJmw</a></p>&mdash; Jay Miller - #BlackLivesMatter (@kjaymiller) <a href="https://twitter.com/kjaymiller/status/1338591508048408576?ref_src=twsrc%5Etfw">December 14, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+
+<hr />
+
+<p>via @anthonypjshaw</p>
+
+<pre><code>git rebase -i
+
+commit hash before the one you want to drop
+</code></pre>
+
+<hr />
+
+<h2><strong>Preventative Measures</strong></h2>
+
+<hr />
+
+<h3>DON'T LOAD EVERYTHING AT ONCE</h3>
+
+<p><code>git commit &lt;filenames&gt; -m 'update to specific piece of code'</code></p>
+
+<p>Bonus Points to IDEs
+- Tower
+- GitHub
+- PyCharm
+- VSCode</p>
+
+<hr />
+
+<h3>Before Doing Anything ⚠️</h3>
+
+<p>git template or git script</p>
+
+<div class="codehilite"><pre><span></span><code>npx gitignore python
+<span class="nb">echo</span> .envrc &gt;&gt; .gitignore
+<span class="nb">echo</span> node_modules &gt;&gt; .gitignore
+<span class="nb">echo</span> *.json *.csv &gt;&gt; .gitignore
+</code></pre></div>
+
+<hr />
+
+<p><img src="https://asciinema.org/a/T7epmpQCjNIOevERvSkzOZmDJ" alt="" /></p>
+
+<hr />
+
+<h2>No <code>git add .</code></h2>
+
+<p><code>git status</code> before you <code>git wrecked</code></p>
+]]></description>
+
+    <link>https://kjaymiller.com/dont-volcano-your-project</link>
+<pubDate>Thu, 28 Jan 2021 17:00:00 -0800</pubDate><guid isPermaLink="false">dont-volcano-your-project</guid></item><item>
 <title>What Does Content Look Like in 2020 and Stop Taking Yourself So Seriously!</title>  <description><![CDATA[<p>This week, Jay talks about where content creators are going and what that means for the state of tech content in 2020. Also Part 2 of Zac Braddy's Interview.</p>
 
 <iframe width="100%" height="180" frameborder="no" scrolling="no" seamless src="https://share.transistor.fm/e/4a020536"></iframe>
