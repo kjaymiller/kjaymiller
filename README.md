@@ -2,7 +2,7 @@ Jay Miller is a software devleoper, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [Introducing DiversityOrgs.Tech](https://kjaymiller.com/introducing-diversityorgs-tech)**
+**Latest Post - [How to Not 🌋 your Project](https://kjaymiller.com/dont-volcano-your-project)**
 
 **Latest Productivity in Tech Podcast Episode - [OODA Looping All Over the Place](https://share.transistor.fm/s/a10ff007)**
 
