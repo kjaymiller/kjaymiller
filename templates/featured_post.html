@@ -1,32 +1,7 @@
 <div class="container mt-6 mx-2">
 
   <h1 class="text-3xl font-extrabold">Latest Post</h1>
-  {% set featured_post= blog_posts[0] %}
-  <div class="flex items-center m-4">
-      <div>
-      <h3 class="category text-xl"><a href="{{featured_post.category}}-0">{{featured_post.category}}</a></h3>
-      <h2 class="title text-2xl">
-          <a href="/{{featured_post.slug}}">{{featured_post.title}}</a>
-      {% if featured_post.link %}
-        <a href="{{featured_post.link}}">🔗</a>
-      {% endif %}
-       </h2>
-      {% if featured_post.youtube %}
-      <iframe width="560" height="315" src="{{featured_post.youtube}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
-      {% endif %}
-      {% if featured_post.image and not featured_post.youtube %}
-        <div class="m-4 rounded w-3/4">
-           <a href="/{{featured_post.slug}}">
-               <img class="w-md rounded" src="{{featured_post.image}}?tr=w-450,otbg-00000050,ofo-bottom,otw-450,otc-FFFFFF,otp-25,ots-30,otf-Open%20Sans,ot-{{ featured_post.title|urlencode }}">
-           </a>
-        </div>
-      {% endif %}
-      </div>
+  {% set pages = [blog_posts[0]] %}
+  {% include '_archive.html' %}
 
-  {% if blog_posts[0].summary %}
-  <div class="">
-      <p class="text-2xl">{{blog_posts[0].summary}}</p>
-  </div>
-  {% endif %}
-    </div>
 </div>
