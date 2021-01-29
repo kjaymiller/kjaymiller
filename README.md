@@ -4,7 +4,7 @@ You can see what he's posting about at <https://kjaymiller.com>.
 
 **Latest Post - [Introducing DiversityOrgs.Tech](https://kjaymiller.com/introducing-diversityorgs-tech)**
 
-**Latest Productivity in Tech Podcast Episode - [Conference Driven Development with Brian Douglas](https://share.transistor.fm/s/1683fd63)**
+**Latest Productivity in Tech Podcast Episode - [OODA Looping All Over the Place](https://share.transistor.fm/s/a10ff007)**
 
 ## Active Projects
 
