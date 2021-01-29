@@ -1,9 +1,9 @@
 {% for post in pages %}
   <article class="flex my-3 border">
         {% if post.image %}
-          <div class="p-2">
+          <div class="p-2 w-1/3">
               <a href="{{post.url}}">
-                  <img class="w-1/4 shadow rounded-lg " src="{{post.image}}">
+                  <img class="shadow rounded-lg " src="{{post.image}}">
               </a>
           </div>
         {% endif %}
