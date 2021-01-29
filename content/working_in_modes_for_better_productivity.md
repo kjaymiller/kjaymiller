@@ -1,6 +1,7 @@
 title: Presenting Working in Modes for Better Productivity
 date: 19 Dec 2020 10:06
-tags: bunch, hook, productivity, meetups
+tags: bunch, hook, productivity
+category: meetups
 link: https://myscau.org
 image: https://ik.imagekit.io/cxazzw3yew/SCAU-POSTER-12-19-2020-FINAL.jpg
 
