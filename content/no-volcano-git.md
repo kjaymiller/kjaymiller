@@ -1,8 +1,8 @@
 slug: dont-volcano-your-project
 title: How to Not 🌋 your Project
 date: 28 Jan 2021 17:00
-tags: git, lightning talks
-category: talks
+tags: git, talks, ligtning-talks
+category: meetups
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/volcano_presentaion.jpg
 
 ## Video Coming Soon! ##
