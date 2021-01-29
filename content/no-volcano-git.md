@@ -2,8 +2,7 @@ title: How to Not 🌋 your Project
 date: 28 Jan 2021 19:00
 tags: git, lightning talks
 category: talks
-
-![original volcano](https://kjaymiller.s3-us-west-2.amazonaws.com/images/volcano_presentaion.jpg)
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/volcano_presentaion.jpg
 
 ## Video Coming Soon! ##
 
