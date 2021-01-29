@@ -1,9 +1,9 @@
 {% for post in pages %}
-  <article class="items-center border m-3 grid gap-4 grid-cols-8 ">
+  <article class="items-center flex">
         {% if post.image %}
-          <div class="col-span-2">
+          <div class="p-2">
               <a href="{{post.url}}">
-                  <img class="rounded-lg " src="{{post.image}}">
+                  <img class="shadow rounded-lg " src="{{post.image}}">
               </a>
           </div>
         {% endif %}
