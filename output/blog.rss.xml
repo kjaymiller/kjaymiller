@@ -6641,6 +6641,17 @@ I've been doing a lot in public, from talks and livestreams to appearances on ot
 
     <link>https://kjaymiller.com/pit-reflection-aug-8</link>
 <pubDate>Tue, 04 Aug 2020 21:22:00 -0700</pubDate><guid isPermaLink="false">pit-reflection-aug-8</guid></item><item>
+<title>I was on a Bullet Journal Roundtable</title>  <description><![CDATA[<p>I was recently a guest on the Tekside Networks <a href="https://www.tekside.net/gtdjedi">GTD Jedi Podcast</a> with my <a href="https://www.tekside.net/tektok">TekTok</a> cohosts Clay and Colin for a roundtable covering bullet journaling.</p>
+
+<p>I was happy to meet fellow BuJo User <a href="https://www.instagram.com/laurabroder/?hl=en">Laura Broder</a>. We seem like two folks cut from a very similar cloth. </p>
+
+<p>I'm seeing more people investing in hybridism and the overall feeling that analog bullet journaling doesn't seem to fit in many folks digital workflow.</p>
+
+<p>In my tribe I feel like a loner as most folks feel they need new tricks and tools to make bullet journaling work. That said I feel like there is still a (decreasing) audience for folks that need to keep their life and productivity contained in a notebook.</p>
+]]></description>
+
+    <link>https://kjaymiller.com/i-was-on-a-bullet-journal-roundtable</link>
+<pubDate>Fri, 29 Jan 2021 21:55:00 -0800</pubDate><guid isPermaLink="false">i-was-on-a-bullet-journal-roundtable</guid></item><item>
 <title>Announcing Transcriptor</title>  <description><![CDATA[<h2>This was the launch month for [Transcriptor]. This is a helper package that I use for doing transcriptions for PIT Clients.</h2>
 
 <p>Transcriptions can be accomplished in a plethora of ways, but in order to do it, you need to have a good idea of how to work with the results from your transcription engine. While I usually use <a href="https://aws.amazon.com/transcribe/">Amazon Transcribe</a>, I have used <a href="https://cloud.google.com/speech-to-text/">Google Could Services Speech to Text</a> and I would love to look into the <a href="https://azure.microsoft.com/en-us/services/cognitive-services/speech-to-text/">Microsoft Azure</a> and <a href="https://wit.ai">Wit.Ai</a>. All of these systems use their own schema for your task and your results.</p>
