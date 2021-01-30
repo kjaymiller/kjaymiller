@@ -5,17 +5,17 @@
 {% endblock %}
 
 {% block content %}
-<div class="container grid lg:grid-cols-6">
-    <div id="left-column" class="lg:col-span-4">
+<div class="container">
+    <div id="" class="">
         {% include '_podcasts.html' %}
         {% include 'featured_post.html' %}
         {% include 'recent_posts.html' %}
     </div>
-    <div id="right-column" class="lg:col-span-2">
+    <div id="" class="">
+    {% include 'microblog_posts.html' %}
+    {% include 'newsletter.html' %}
     {% include 'short_bio.html' %}
     {% include 'social-cards.html' %}
-    {% include 'newsletter.html' %}
-    {% include 'microblog_posts.html' %}
     </div>
 </div>
   {% endblock %}
