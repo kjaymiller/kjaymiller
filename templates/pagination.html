@@ -2,7 +2,10 @@
   <div class="container">
     <h2 class="subtitle">Jump to Page</h2>
     <nav class="flex justify-around" role="navigation">
-      <ul class="flex">
+      <a class="pagination-previous" href="{{slug|replace(page_index[0],
+                                     page_index[0]-1)}}" {% if
+      page_index[0] == 0 %}disabled{% endif %}>Previous</a>
+      <ul class="flex list-none">
         {% for p in range(page_index[1]) %}
           {% set page = p + 1 %}
         <li>
@@ -16,9 +19,6 @@
         </li>
         {% endfor %}
       </ul>
-      <a class="pagination-previous" href="{{slug|replace(page_index[0],
-                                     page_index[0]-1)}}" {% if
-      page_index[0] == 0 %}disabled{% endif %}>Previous</a>
       {% set pages_length = collections['Blog'].pages|length %}
       <a class="pagination-next" href="{{slug|replace(page_index[0], page_index[0] +
                                  1)}}" {% if
