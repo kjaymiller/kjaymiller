@@ -2,7 +2,7 @@ Jay Miller is a software devleoper, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [I was on a Bullet Journal Roundtable](https://kjaymiller.com/i-was-on-a-bullet-journal-roundtable)**
+**Latest Post - [Monthly Migration February 2021](https://kjaymiller.com/monthly-migration-february-2021)**
 
 **Latest Productivity in Tech Podcast Episode - [OODA Looping All Over the Place](https://share.transistor.fm/s/a10ff007)**
 
