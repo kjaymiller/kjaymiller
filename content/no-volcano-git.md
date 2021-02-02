@@ -4,12 +4,12 @@ date: 28 Jan 2021 17:00
 tags: git, talks, ligtning-talks
 category: meetups
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/volcano_presentaion.jpg
+video: https://www.youtube.com/watch?v=V_5FV4LkQyc
 
-## Video Coming Soon! ##
 
----
-
-## Definition #
+# Talk Slides
+ 
+## Definition 
 
 > Volcano - Take a small issue in git and have it erupt into a massive issue.
 
