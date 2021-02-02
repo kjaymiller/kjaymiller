@@ -1,7 +1,15 @@
 <div class="container mt-6 mx-2">
 
-  <h1 class="text-3xl font-extrabold">Latest Post</h1>
-  {% set pages = [blog_posts[0]] %}
-  {% include '_archive.html' %}
+  {% set featured_post = [blog_posts[0]] %}
+  <div>
+      <a href="{{featured_post.slug}}">
+          <img src="{{featured_post.image}}">
+      </a>
+  </div>
+  <div>
+      <a href="{{featured_post.slug}}">
+          <h1>{{featured_post.image}}</h1>
+      </a>
+  </div>
 
 </div>
