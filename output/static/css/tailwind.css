@@ -694,6 +694,11 @@ video {
   line-height: 2.5rem;
 }
 
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
 .list-none {
   list-style-type: none;
 }
