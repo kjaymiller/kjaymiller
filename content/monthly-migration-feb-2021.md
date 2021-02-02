@@ -1,6 +1,6 @@
 title: Monthly Migration February 2021
 date: 01 Feb 2021 18:31
-video: https://www.youtube.com/embed/sqvepKj9RyQ
+youtube: https://www.youtube.com/embed/sqvepKj9RyQ
 tags: bullet journal, reflection, monthly migration
 category: youtube
 
