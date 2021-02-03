@@ -4,5 +4,6 @@ date: Dec 28 2020 12:00
 category: Guest Appearances
 tags: python, podcasts
 YouTube: https://www.youtube.com/embed/rOsA4iDyiAI
+image: https://talkpython.fm/static/img/talk_python_logo_mic.png
 
 I helped my friend [MichaelKennedy](https://twitter.com/mkennedy) wrap up the year in Python on _Talk Python to Me_.
