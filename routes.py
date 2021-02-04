@@ -68,5 +68,5 @@ class podcast(Page):
     title = "Podcasts"
 
     with open('content/guest-appearances.json') as j:
-        posts = json.load(j)
+        pages = json.load(j)
 
