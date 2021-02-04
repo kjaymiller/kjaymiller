@@ -3,25 +3,29 @@
         "date": "Aug 04, 2020 21:33 PM",
         "image": "https://relayfm.s3.amazonaws.com/uploads/broadcast/image_2x/34/focused_artwork.png",
         "tags": "productivity",
-        "link": "https://www.relay.fm/focused/105"
+        "link": "https://www.relay.fm/focused/105",
+        "title": "People Who Build Things with Jay Miller"
         },
     "Python Bytes": {
         "date": "Dec 02, 2020 12:00 PM",
         "image": "https://pythonbytes.fm/static/img/logo.png",
         "tags": "python",
-        "link": "https://pythonbytes.fm/episodes/show/210/analyzing-kickstarter-campaigns-with-python"
+        "link": "https://pythonbytes.fm/episodes/show/210/analyzing-kickstarter-campaigns-with-python",
+        "title": "Analyzing Kickstarter Campaigns with Python"
     },
     "Talk Python To Me": {
         "date": "Dec 02, 2020 12:00 PM",
         "image": "https://talkpython.fm/static/img/talk_python_logo_mic.png",
         "tags": "python",
-        "link": "https://talkpython.fm/episodes/show/297/python-year-in-review-2020-edition"
+        "link": "https://talkpython.fm/episodes/show/297/python-year-in-review-2020-edition",
+        "title": "Python year in review (2020 edition)"
     },
     "Anything But Idle": {
         "date": "Dec 22, 2020 12:00 PM",
         "image": "https://anythingbutidle.com/wp-content/uploads/sites/8/2020/02/cropped-Anything-But-Idle-Podcast-Logo-Assets-and-Album-Cover.png",
         "tags": "productivity",
-        "link": "https://anythingbutidle.com/035-best-productivity-and-technology-stories-in-review-for-2020/"
+        "link": "https://anythingbutidle.com/035-best-productivity-and-technology-stories-in-review-for-2020/",
+        "title": "Best Productivity and Technology Stories 2020"
     },
     "GTD Jedi": {
         "date": "Jan 29, 2021 21:55 PM",
