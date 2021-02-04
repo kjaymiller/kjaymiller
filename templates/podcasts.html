@@ -5,11 +5,11 @@
 <div>
 <h1>Guest Appearances</h1>
     {% for name, post in posts.items() %}
-    <div class="border shadow my-4 p-3 flex">
+    <div class="border shadow my-4 p-3 flex items-center">
         <div class="w-1/4">
             <img class="w-full" src="{{post['image']}}" />
         </div>
-            <div class="w-2/3">
+            <div class="w-2/3 mx-3">
                 <h2><a href="{{post['link']}}">{{name}}: {{post['title']}}</a></h2>
             </div>
         </div>
