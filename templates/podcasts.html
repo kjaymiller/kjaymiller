@@ -4,13 +4,15 @@
 
 <div>
 <h1>Guest Appearances</h1>
-{% for post in posts %}
-<div class="flex">
-    <img class="w-full" src="{{post['image']}}" />
-    <div class="w-2/3">
-        <h2>{{post}}: {{post['title']}}</h2>
-    </div>
-</div>
-{% endfor %}
+    {% for post in posts %}
+    <div class="flex">
+        <div class="w-1/4">
+            <img class="w-full" src="{{post['image']}}" />
+        </div>
+            <div class="w-2/3">
+                <h2>{{post}}: {{post['title']}}</h2>
+            </div>
+        </div>
+    {% endfor %}
 </div>
 {% endblock %}
