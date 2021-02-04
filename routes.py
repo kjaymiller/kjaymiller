@@ -67,3 +67,6 @@ class podcast(Page):
     slug = "podcasts"
     title = "Podcasts"
 
+    with open('content/guest-appearances.json') as j:
+        posts = json.load(j)
+
