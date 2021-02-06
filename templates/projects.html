@@ -3,8 +3,15 @@
     <div class="flex">
         {% for title, post in posts.items() %}
             <div class="w-1/4 mx-3"> 
-                <h2><a href="{{post['url']}}">{{title}}</a></h2>
-                <img src="{{post['image']}}">
+                <a href="{{post['url']}}">
+                    {% if 'image' in post %}
+                        <h2>
+                            {{title}}
+                        </h2>
+                    {% else %}
+                        <img alt="{{title}}" class="rounded-lg shadow" src="{{post['image']}}">
+                    {% endif %}
+                </a>
             </div>
         {% endfor %}
     </div>
