@@ -2,7 +2,7 @@ Jay Miller is a software devleoper, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [Monthly Migration February 2021](https://kjaymiller.com/monthly-migration-february-2021)**
+**Latest Post - [The Cost of Running with Scratched Itches](https://kjaymiller.com/the-cost-of-running-with-scratched-itches)**
 
 **Latest Productivity in Tech Podcast Episode - [Making it as a Full-Time YouTuber](https://share.transistor.fm/s/c3e4908e)**
 
