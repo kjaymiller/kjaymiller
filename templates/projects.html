@@ -1,11 +1,12 @@
 {% extends 'base.html' %}
 {% block content %}
-{% for post in posts %}
-<div class="flex">
-    <div class=""> 
-        <h2>{{post}}</h2>
+    <div class="flex">
+        {% for title, post in posts.items() %}
+            <div class="w-1/4 mx-3"> 
+                <h2><a href="{{post['url']}}">{{title}}</a></h2>
+                <img src="{{post['image']}}">
+            </div>
+        {% endfor %}
     </div>
-</div>
-{% endfor %}
-{% include '_podcasts.html' %}
+    {% include '_podcasts.html' %}
 {% endblock %}
