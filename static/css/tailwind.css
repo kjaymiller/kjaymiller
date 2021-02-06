@@ -616,8 +616,8 @@ video {
   border-width: 1px;
 }
 
-.border-t {
-  border-top-width: 1px;
+.border-t-2 {
+  border-top-width: 2px;
 }
 
 .block {
