@@ -45,10 +45,11 @@
     }
 
     blockquote {
-        @apply italic;
+        @apply bg-gray-200;
         @apply text-lg;
         @apply text-gray-500;
-        @apply mx-5;
+        @apply p-4;
+        @apply m-3;
     }
 
     .social{
