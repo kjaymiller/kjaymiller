@@ -660,6 +660,10 @@ video {
   justify-content: space-around;
 }
 
+.flex-grow {
+  flex-grow: 1;
+}
+
 .font-bold {
   font-weight: 700;
 }
