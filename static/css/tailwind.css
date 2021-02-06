@@ -644,6 +644,10 @@ video {
   display: none;
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
 .items-center {
   align-items: center;
 }
@@ -662,6 +666,10 @@ video {
 
 .font-extrabold {
   font-weight: 800;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .text-sm {

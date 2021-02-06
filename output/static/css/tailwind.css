@@ -1038,13 +1038,14 @@ input, textarea {
 }
 
 blockquote {
-  font-style: italic;
+  --tw-bg-opacity: 1;
+  background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
   font-size: 1.125rem;
   line-height: 1.75rem;
   --tw-text-opacity: 1;
   color: rgba(107, 114, 128, var(--tw-text-opacity));
-  margin-left: 1.25rem;
-  margin-right: 1.25rem;
+  padding: 1rem;
+  margin: 0.75rem;
 }
 
 .social{
