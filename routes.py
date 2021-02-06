@@ -60,6 +60,15 @@ class Talks(Page):
     with open('content/conference-talks.json') as j:
         posts = json.load(j)
 
+@mysite.register_route
+class projects(Page):
+    template = "projects.html"
+    slug = "projects"
+    title = "Projects"
+
+    with open('content/projects.json') as j:
+        posts = json.load(j)
+
 
 @mysite.register_route
 class podcast(Page):

@@ -1,4 +1,11 @@
 {% extends 'base.html' %}
 {% block content %}
+{% for post in posts %}
+<div class="flex">
+    <div class=""> 
+        <h2>{{post}}</h2>
+    </div>
+</div>
+{% endfor %}
 {% include '_podcasts.html' %}
 {% endblock %}

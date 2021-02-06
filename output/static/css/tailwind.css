@@ -877,6 +877,10 @@ video {
   text-align: center;
 }
 
+.text-right {
+  text-align: right;
+}
+
 .text-gray-200 {
   --tw-text-opacity: 1;
   color: rgba(229, 231, 235, var(--tw-text-opacity));
