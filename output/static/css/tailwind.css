@@ -882,9 +882,9 @@ video {
   color: rgba(229, 231, 235, var(--tw-text-opacity));
 }
 
-.text-blue-400 {
+.text-blue-700 {
   --tw-text-opacity: 1;
-  color: rgba(96, 165, 250, var(--tw-text-opacity));
+  color: rgba(29, 78, 216, var(--tw-text-opacity));
 }
 
 .hover\:text-gray-600:hover {
