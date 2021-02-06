@@ -44,7 +44,7 @@
         @apply m-5;
     }
 
-    .blockquote {
+    blockquote {
         @apply italic;
         @apply text-lg;
         @apply text-gray-500;
