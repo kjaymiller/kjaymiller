@@ -16,7 +16,7 @@ class MySite(Site):
         Link(name="Contact", url="/contact"),
     )
     timezone = "US/Pacific"
-    SITE_TITLE = "(K) Jay Miller"
+    SITE_TITLE = "Jay Miller"
     SITE_URL = "https://kjaymiller.com"
     AUTHOR = "Jay Miller"
     HEADER_LINKS = HEADER_LINKS

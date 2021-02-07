@@ -1,18 +1,18 @@
 {
     "Bob's Taverncast": {
         "url": "https://bobstavern.pub",
-        "image": "/bobstavern_256.jpg"
+        "image": "https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg"
         },
     "The PIT Show": {
         "url":"https://podcast.productivityintech.com",
-        "image":"/pit-logo-v5.jpg"
+        "image": "https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg"
         },
     "TekTok Podcast": {
         "url": "https://www.tekside.net/tektok",
-        "image": "/tektok_256.jpeg"
+        "image": "https://ik.imagekit.io/cxazzw3yew//tektok_256.jpeg"
         },
     "Ask a Brit": {
             "url": "https://askabrit.transistor.fm",
-            "image": "/AskABritv4.png"
+            "image": "https://ik.imagekit.io/cxazzw3yew//AskABritv4.png"
     }
 }
