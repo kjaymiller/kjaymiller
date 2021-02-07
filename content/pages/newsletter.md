@@ -8,10 +8,10 @@ Here are a few things that you will get when you subscribe.
 - A direct line to me! (Your buddy, your pal!)
 
 <form
-	action="https://buttondown.email/api/emails/embed-subscribe/productivityintech"
+	action="https://buttondown.email/api/emails/embed-subscribe/kjaymiller"
 	method="post"
 	target="popupwindow"
-	onsubmit="window.open('https://buttondown.email/productivityintech', 'popupwindow')"
+	onsubmit="window.open('https://buttondown.email/kjaymiller', 'popupwindow')"
 	class="embeddable-buttondown-form">
 	<h3 class="subtitle is-3"> All this content (plus some extra goodies) in a digestible package in your inbox! </h3> 
   <div class="field is-grouped">
