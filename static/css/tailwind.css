@@ -656,10 +656,6 @@ video {
   align-items: center;
 }
 
-.justify-between {
-  justify-content: space-between;
-}
-
 .justify-around {
   justify-content: space-around;
 }
@@ -712,10 +708,6 @@ video {
 
 .list-none {
   list-style-type: none;
-}
-
-.m-1 {
-  margin: 0.25rem;
 }
 
 .m-2 {
@@ -1103,10 +1095,6 @@ blockquote {
 @media (min-width: 1024px) {
   .lg\:flex {
     display: flex;
-  }
-
-  .lg\:w-48 {
-    width: 12rem;
   }
 }
 

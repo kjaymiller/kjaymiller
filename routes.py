@@ -55,10 +55,7 @@ class Contact(Page):
 class Talks(Page):
     template = "conference-talks.html"
     slug = "conference-talks"
-    talks = "Conference Talks"
 
-    with open('content/conference-talks.json') as j:
-        posts = json.load(j)
 
 @mysite.register_route
 class projects(Page):
@@ -66,16 +63,10 @@ class projects(Page):
     slug = "projects"
     title = "Projects"
 
-    with open('content/projects.json') as j:
-        posts = json.load(j)
-
 
 @mysite.register_route
 class podcast(Page):
     template = "podcasts.html"
     slug = "podcasts"
     title = "Podcasts"
-
-    with open('content/guest-appearances.json') as j:
-        posts = json.load(j)
 

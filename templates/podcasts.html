@@ -1,19 +1,5 @@
 {% extends 'base.html' %}
 {% block content %}
-{% include '_podcasts.html' %}
-
-<div>
-<h1 class="my-4 text-4xl">Guest Appearances</h1>
-    {% for name, post in posts.items() %}
-    <div class="border shadow my-4 p-3 flex items-center">
-        <div class="w-1/4">
-            <img class="w-full" src="{{post['image']}}" />
-        </div>
-            <div class="w-2/3 mx-3">
-                <h2><a target="_blank" href="{{post['link']}}">{{name}}: {{post['title']}}</a></h2>
-                <h3>{{post['date']}}</h3>
-            </div>
-        </div>
-    {% endfor %}
-</div>
+    {% include '_podcasts.html' %}
+    {% include '_guest_appearances.html' %}
 {% endblock %}

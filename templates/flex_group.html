@@ -1,0 +1,15 @@
+<div class="flex">
+    {% for title, item in group.items() %}
+        <div class="w-1/4 mx-3"> 
+            <a href="{{item['url']}}">
+                {% if 'image' in item %}
+                    <img alt="{{title}}" class="rounded-lg shadow" src="{{item['image']}}">
+                {% else %}
+                    <h2>
+                        {{title}}
+                    </h2>
+                {% endif %}
+            </a>
+        </div>
+    {% endfor %}
+</div>

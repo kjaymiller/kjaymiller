@@ -1,5 +1,10 @@
+import json 
 from render_engine.site import Site
 from render_engine.links import Link
+
+def load_json(filename):
+    with open(filename) as j:
+        return json.load(j)
 
 class MySite(Site):
     HEADER_LINKS = (
@@ -16,25 +21,7 @@ class MySite(Site):
     AUTHOR = "Jay Miller"
     HEADER_LINKS = HEADER_LINKS
     SUBCOLLECTION_MIN = 2
-    PODCASTS = [
-        Link(
-            name="Bob's Taverncast",
-            url="https://bobstavern.pub",
-            image="/bobstavern_256.jpg",
-        ),
-        Link(
-            name="The PIT Show",
-            url="https://podcast.productivityintech.com",
-            image="/pit-logo-v5.jpg",
-        ),
-        Link(
-            name="TekTok Podcast",
-            url="https://www.tekside.net/tektok",
-            image="/tektok_256.jpeg",
-        ),
-        Link(
-            name="Ask a Brit",
-            url="https://askabrit.transistor.fm",
-            image="/AskABritv4.png",
-        ),
-    ]
+    GUEST_APPEARANCES = load_json('content/guest-appearances.json')
+    PROJECTS = load_json('content/projects.json')
+    PODCASTS = load_json('content/podcasts.json')
+    CONFERENCE_TALKS = load_json('content/conference-talks.json')

@@ -1,21 +1,17 @@
 {% extends 'base.html'%}
-{% block title%}Jay Miller{% endblock%}
 {% block head %}
 <link rel="stylesheet" type="text/css" href="/static/css/index.css">
 {% endblock %}
 
 {% block content %}
 <div class="container">
-    <div id="" class="">
-        {% include 'featured_post.html' %}
-        {% include 'recent_posts.html' %}
-    </div>
-    <div id="" class="">
+    {% include 'featured_post.html' %}
+    {% include 'recent_posts.html' %}
+    {% include '_projects.html' %}
     {% include '_podcasts.html' %}
     {% include 'newsletter.html' %}
     {% include 'short_bio.html' %}
     {% include 'social-cards.html' %}
-    </div>
 </div>
   {% endblock %}
 
