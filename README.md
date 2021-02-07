@@ -19,16 +19,17 @@ web-sites quickly that you can use for prototypes for full time use!
 - [docs](https://render-engine.readthedocs.io)
 - [GitHub](https://github.com/kjaymiller/render_engine)
 
-### [Diversity Orgs.tech]
-[Diversity Orgs.tech] was originally created as a demo to show the ease of building a search platform with [Elastic App Search](https://www.elastic.co/app-search/).
+### [Transcriptor]
+[Transcriptor's] goal is to make working with machine-generated transcriptions
+easier to work with by providing a unified class structure across multiple
+transcription engines.
 
-It quickly became a resource that I was using to find diversity organizations to collaborate with. 
+Currently Supported - AWS
+Future Support Planned - Google Cloud Services
 
-Now it is a FREE directory for people to search for diversity focused organizations in their area.
-
-### Links
-- <https://diversityorgs.tech>
-- [GitHub](https://github.com/kjaymiller/diversity-orgs-tech)
+#### Links
+- [PyPI][Transcriptor]
+- [GitHub](https://github.com/kjaymiller/transcriptor)
 
 ## Sponsors
 This and much of the work that I do is made possible by those that [sponsor me
@@ -42,4 +43,4 @@ on github](https://github.com/sponsors/kjaymiller).
 Thank you to them and all others that have supported my work!
 
 [Render Engine]: https://render-engine.site
-[Diversity Orgs.tech]: https://diversityorgs.tech
+[Transcriptor]: https://pypi.org/project/transcriptor
