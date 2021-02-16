@@ -4,7 +4,7 @@ You can see what he's posting about at <https://kjaymiller.com>.
 
 **Latest Post - [The Cost of Running with Scratched Itches](https://kjaymiller.com/the-cost-of-running-with-scratched-itches)**
 
-**Latest Productivity in Tech Podcast Episode - [Making it as a Full-Time YouTuber](https://share.transistor.fm/s/c3e4908e)**
+**Latest Productivity in Tech Podcast Episode - [The Hidden Costs of Supporting Your Little Projects](https://share.transistor.fm/s/b0b8d1df)**
 
 ## Active Projects
 
