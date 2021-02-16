@@ -128,7 +128,9 @@ Join our new <a href="https://discourse.productivityintech.com/">Discourse</a> a
 
 <blockquote>
   <p>Never, ever believe anything anyone says until the offer is in front of your face with your name on it...</p>
-  
+</blockquote>
+
+<blockquote>
   <p>And if they didn't pick you, it's their loss. Don't waste time fretting about why it wasn't you or singing the hymn of the impostor on repeat.</p>
 </blockquote>
 
@@ -3277,7 +3279,9 @@ new (Future Post...Probably).</p>
 
 <blockquote>
   <p>Me - OMG Massive product update! But for real, when you going to charge for this...?</p>
-  
+</blockquote>
+
+<blockquote>
   <p>Friend - Can you imagine the support time if it were a paid product?</p>
 </blockquote>
 
@@ -3377,9 +3381,13 @@ for themselves. Punish those that punish unjustly. And be willing to listen when
 <pubDate>Mon, 01 Jun 2020 08:17:00 -0700</pubDate><guid isPermaLink="false">can-we-fix-this</guid></item><item>
 <title>In Defense of the Black Multi-Potentialite</title>  <description><![CDATA[<blockquote>
   <p><em>Stay in Your Lane.</em> - NRA to Emergency Room Doctors</p>
-  
+</blockquote>
+
+<blockquote>
   <p><em>Shut up and Dribble.</em> - Laura Ingraham</p>
-  
+</blockquote>
+
+<blockquote>
   <p><em>Why does every black actor gotta rap some. I don't know. All I know is I'm the best one.</em> - Donald Glover aka Childish Gambino.</p>
 </blockquote>
 
@@ -3395,15 +3403,25 @@ for themselves. Punish those that punish unjustly. And be willing to listen when
 
 <blockquote>
   <p>For what is a man, what has he got?</p>
-  
+</blockquote>
+
+<blockquote>
   <p>If not himself, then he has naught</p>
-  
+</blockquote>
+
+<blockquote>
   <p>To say the things he truly feels</p>
-  
+</blockquote>
+
+<blockquote>
   <p>And not the words of one who kneels</p>
-  
+</blockquote>
+
+<blockquote>
   <p>The record shows, I took the blows</p>
-  
+</blockquote>
+
+<blockquote>
   <p>And did it my way - My Way, Frank Sinatra</p>
 </blockquote>
 
@@ -4584,6 +4602,45 @@ There is no current plan to stop doing the PIT Podcast with the alternating form
 
     <link>https://kjaymiller.com/playing-with-new-technologies-and-with-trey-hunner</link>
 <pubDate>Tue, 06 Oct 2020 15:02:04 -0700</pubDate><guid isPermaLink="false">playing-with-new-technologies-and-with-trey-hunner</guid></item><item>
+<title>Showing the Toothfairy Icon only when my Airpods Pro are Connected</title>  <description><![CDATA[<p>Recently <a href="https://macbartender.com">Bartender 4</a> released with a couple of features that I was super stoked about. </p>
+
+<p>One of those updates was the ability to add custom rules for showing/hiding icons based. Wanting to play with this more I created a watcher shell script for showing/hiding the <a href="https://c-command.com/toothfairy/">ToothFairy</a> icon.</p>
+
+<p><img src="https://ik.imagekit.io/cxazzw3yew/ToothFairy%20Toggle.png" alt="Bartender Showing Toothfairy" /></p>
+
+<p>The end result of this script is that when my Airpods Pro are connected to the device, the toothfairy icon will appear in the menu bar. Once the Airpods Pro are disconnected the icon will go back to being hidden. This means that I can quickly tell when my AirPods Pro are connected to my machine (even if they are also connected to my phone or iPad).</p>
+
+<p>![Airpods are not connected and the icon is in the secondary Bartender Bar] (https://ik.imagekit.io/cxazzw3yew/bartender-toothfairy-disabled.png)</p>
+
+<h2>The Script</h2>
+
+<p>I found the command for getting your Bluetooth settings just tabbing through terminal commands. </p>
+
+<p><code>AP_STAT=$(system_profiler SPBluetoothDataType | grep -A9 "Jay’s AirPods Pro:")</code></p>
+
+<p>This saves the information for any bluetooth device named <em>Jay's AirPods Pro</em> to <code>AP_STAT</code> (Airpods Status).</p>
+
+<p>I got help from this similar idea from <a href="https://github.com/godbout/alfred-airpodspro-battery">Godbout's Alfred Workflow</a>. </p>
+
+<p><code>echo $AP_STAT | awk '/Connected: Yes/{print 1}'</code></p>
+
+<p>echo prints the data and awk is a <em>text manipulation</em> command. It looks for the pattern <code>Connnected: Yes</code> and returns a 1 if it is found (otherwise it returns nothing).</p>
+
+<p>Bartender looks for a <em>True</em> value which <code>1</code> is. </p>
+
+<p><img src="https://ik.imagekit.io/cxazzw3yew/toothfairy-bartender-enabled.png" alt="Airpods are Enabled and the icon is showing in the main menubar" /></p>
+
+<p>Here's the whole script</p>
+
+<pre><code>AP_STAT=$(system_profiler SPBluetoothDataType | grep -A9 "Jay’s AirPods Pro:")
+echo $AP_STAT | awk '/Connected: Yes/{print 1}'
+</code></pre>
+
+<p>Both <a href="https://c-command.com/toothfairy/">ToothFairy</a> and <a href="https://macbartender.com">Bartender 4</a> (available on Big Sur ONLY) are both a part of <a href="https://go.setapp.com/invite/6bcd77a8-3223-482b-bcd2-ff337999765d">SetApp (Affiliate Link)</a></p>
+]]></description>
+
+    <link>https://kjaymiller.com/showing-the-toothfairy-icon-only-when-my-airpods-pro-are-connected</link>
+<pubDate>Mon, 15 Feb 2021 16:43:00 -0800</pubDate><guid isPermaLink="false">showing-the-toothfairy-icon-only-when-my-airpods-pro-are-connected</guid></item><item>
 <title>The &#34;Problem&#34; with rewriting tasks in your Bullet Journal</title>  <description><![CDATA[<p>I was recently asked about the headache of re-writing things in my Bullet Journal. I have an interesting trick in fixing that. </p>
 
 <h2>I do the task so I don't have to write it down more than once or twice.</h2>
@@ -4731,7 +4788,7 @@ There is no current plan to stop doing the PIT Podcast with the alternating form
 
 <p>After spending an hour on stream trying to build a twitch app, I opted for the more low-tech solution. </p>
 
-<div class="codehilite"><pre><span></span><code><span class="k">if</span> <span class="p">(</span><span class="nx">player</span><span class="p">.</span><span class="nx">getPlayerState</span><span class="p">().</span><span class="nx">currentTime</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+<div class="codehilite"><pre><span></span><code><span class="k">if</span> <span class="p">(</span><span class="nx">player</span><span class="p">.</span><span class="nx">getPlayerState</span><span class="p">().</span><span class="nx">currentTime</span> <span class="o">!=</span> <span class="mf">0</span><span class="p">)</span> <span class="p">{</span>
     <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s1">&#39;#twitch-block&#39;</span><span class="p">).</span><span class="nx">style</span><span class="p">.</span><span class="nx">display</span> <span class="o">=</span> <span class="s1">&#39;initial&#39;</span><span class="p">;</span>
   <span class="p">}</span>
 
@@ -9457,22 +9514,34 @@ I've had them refer some of their audience to me when they are looking for a coa
 
 <blockquote>
   <p>I've been working to bring PIT back at the beginning of 2019 (I have some coding things that need to get done first)</p>
-  
+</blockquote>
+
+<blockquote>
   <p>Also, PIT is now a business (officially). Aside from the podcast, I am doing content creation, coaching, and "unicorn" services.</p>
-  
+</blockquote>
+
+<blockquote>
   <p>I was inspired by Kathy Campbell. My goal is to just help people where I can. </p>
-  
+</blockquote>
+
+<blockquote>
   <p>Here is a list of the services I provide.</p>
-  
+</blockquote>
+
+<blockquote>
   <p>My skills include:
   - social media
   - recording videos and screencasts
   - podcast editing and recording
   - community management
   - newsletter publishing</p>
-  
+</blockquote>
+
+<blockquote>
   <p>Do you have any ideas how I may be of any help?</p>
-  
+</blockquote>
+
+<blockquote>
   <p>Also if you know of anyone that I could help out with those things or individual or group productivity coaching, I would love an introduction.</p>
 </blockquote>
 

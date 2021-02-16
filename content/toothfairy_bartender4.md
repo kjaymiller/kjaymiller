@@ -2,16 +2,17 @@ title: Showing the Toothfairy Icon only when my Airpods Pro are Connected
 tags: shell, apps, macOS, automation
 category: development
 date: 15 Feb 2021 16:43
+image: https://ik.imagekit.io/cxazzw3yew/ToothFairy%20Toggle.png
 
 Recently [Bartender 4][Bartender] released with a couple of features that I was super stoked about. 
 
 One of those updates was the ability to add custom rules for showing/hiding icons based. Wanting to play with this more I created a watcher shell script for showing/hiding the [ToothFairy][ToothFairy] icon.
 
-![Bartender Showing Toothfairy](https://kjaymiller.s3-us-west-2.amazonaws.com/images/ToothFairy%20Toggle.png)
+![Bartender Showing Toothfairy](https://ik.imagekit.io/cxazzw3yew/ToothFairy%20Toggle.png)
 
 The end result of this script is that when my Airpods Pro are connected to the device, the toothfairy icon will appear in the menu bar. Once the Airpods Pro are disconnected the icon will go back to being hidden. This means that I can quickly tell when my AirPods Pro are connected to my machine (even if they are also connected to my phone or iPad).
 
-![Airpods are not connected and the icon is in the secondary Bartender Bar](https://kjaymiller.s3-us-west-2.amazonaws.com/images/bartender-toothfairy-disabled.png)
+![Airpods are not connected and the icon is in the secondary Bartender Bar] (https://ik.imagekit.io/cxazzw3yew/bartender-toothfairy-disabled.png)
 
 ## The Script
 I found the command for getting your Bluetooth settings just tabbing through terminal commands. 
@@ -28,7 +29,7 @@ echo prints the data and awk is a _text manipulation_ command. It looks for the 
 
 Bartender looks for a _True_ value which `1` is. 
 
-![Airpods are Enabled and the icon is showing in the main menubar](https://kjaymiller.s3-us-west-2.amazonaws.com/images/toothfairy-bartender-enabled.png)
+![Airpods are Enabled and the icon is showing in the main menubar](https://ik.imagekit.io/cxazzw3yew/toothfairy-bartender-enabled.png)
 
 
 Here's the whole script
