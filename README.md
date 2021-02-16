@@ -2,7 +2,7 @@ Jay Miller is a software devleoper, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [The Cost of Running with Scratched Itches](https://kjaymiller.com/the-cost-of-running-with-scratched-itches)**
+**Latest Post - [Showing the Toothfairy Icon only when my Airpods Pro are Connected](https://kjaymiller.com/showing-the-toothfairy-icon-only-when-my-airpods-pro-are-connected)**
 
 **Latest Productivity in Tech Podcast Episode - [The Hidden Costs of Supporting Your Little Projects](https://share.transistor.fm/s/b0b8d1df)**
 
