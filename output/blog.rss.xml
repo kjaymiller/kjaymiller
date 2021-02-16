@@ -4610,7 +4610,7 @@ There is no current plan to stop doing the PIT Podcast with the alternating form
 
 <p>The end result of this script is that when my Airpods Pro are connected to the device, the toothfairy icon will appear in the menu bar. Once the Airpods Pro are disconnected the icon will go back to being hidden. This means that I can quickly tell when my AirPods Pro are connected to my machine (even if they are also connected to my phone or iPad).</p>
 
-<p>![Airpods are not connected and the icon is in the secondary Bartender Bar] (https://ik.imagekit.io/cxazzw3yew/bartender-toothfairy-disabled.png)</p>
+<p><img src="https://ik.imagekit.io/cxazzw3yew/bartender-toothfairy-disabled.png" alt="Airpods are not connected and the icon is in the secondary Bartender Bar" /></p>
 
 <h2>The Script</h2>
 

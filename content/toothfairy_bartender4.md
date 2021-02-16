@@ -12,7 +12,7 @@ One of those updates was the ability to add custom rules for showing/hiding icon
 
 The end result of this script is that when my Airpods Pro are connected to the device, the toothfairy icon will appear in the menu bar. Once the Airpods Pro are disconnected the icon will go back to being hidden. This means that I can quickly tell when my AirPods Pro are connected to my machine (even if they are also connected to my phone or iPad).
 
-![Airpods are not connected and the icon is in the secondary Bartender Bar] (https://ik.imagekit.io/cxazzw3yew/bartender-toothfairy-disabled.png)
+![Airpods are not connected and the icon is in the secondary Bartender Bar](https://ik.imagekit.io/cxazzw3yew/bartender-toothfairy-disabled.png)
 
 ## The Script
 I found the command for getting your Bluetooth settings just tabbing through terminal commands. 
