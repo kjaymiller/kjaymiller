@@ -1,6 +1,6 @@
 title: I Was a Guest on Systematic
 date: 25 Oct 2020 20:12
-tags: podcast, developer advocacy, development, podcasting
+tags: podcast, developer advocacy, podcasting
 category: Guest Appearances
 image: https://ik.imagekit.io/cxazzw3yew/banner-systemcast_ddE0LhiRq.png
 
