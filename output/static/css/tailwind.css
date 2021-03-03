@@ -1076,6 +1076,17 @@ blockquote {
   background-color: #9146ff;
 }
 
+article.content img {
+  max-height: 800px;
+}
+
+@media (min-width: 640px) {
+  .sm\:mx-2 {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+}
+
 @media (min-width: 768px) {
   .md\:flex {
     display: flex;
@@ -1130,6 +1141,11 @@ blockquote {
     .xl\:container {
       max-width: 1536px;
     }
+  }
+
+  .xl\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .xl\:py-5 {
