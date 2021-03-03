@@ -2,6 +2,7 @@ title: How to Automate Form Filling with Keyboard Maestro (For Big Sur)
 date: 03 Mar 2021 11:12
 tags: Keyboard Maestro, automation
 category: productivity
+image: https://ik.imagekit.io/cxazzw3yew/Keyboard%20Maestro%20Form%20Automation/Keyboard%20Maestro%20Set%20Safari%20Field.png
 
 Working to help a friend automate some form entry I went to look back into how I had automated a similar task a few years ago with [Keyboard Maestro]. I was surprised at how I remembered the steps to input form fields (Big props to the KM team for making it so easy to do.)
 
