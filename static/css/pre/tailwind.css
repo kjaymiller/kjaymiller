@@ -68,3 +68,7 @@
     .twitch:hover{
         background-color: #9146ff;
     }
+
+    article.content img {
+        max-height: 800px;
+    }
