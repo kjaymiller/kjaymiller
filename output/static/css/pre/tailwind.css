@@ -13,11 +13,6 @@
         @apply font-bold;
         @apply my-4;
     }
-    h2 {
-        @apply text-3xl;
-        @apply font-bold;
-        @apply my-4;
-    }
 
     h3 {
         @apply text-2xl;
@@ -38,6 +33,10 @@
         @apply border;
         @apply rounded;
         @apply p-2;
+    }
+    
+    .content {
+        @apply text-lg;
     }
 
     .content img {
