@@ -9388,6 +9388,67 @@ violenve in Black communities in NYC.</p>
 
     <link>https://kjaymiller.com/pitpodcast-tom-merrit-july-2020</link>
 <pubDate>Tue, 14 Jul 2020 11:32:00 -0700</pubDate><guid isPermaLink="false">pitpodcast-tom-merrit-july-2020</guid></item><item>
+<title>How to Automate Form Filling with Keyboard Maestro (For Big Sur)</title>  <description><![CDATA[<p>Working to help a friend automate some form entry I went to look back into how I had automated a similar task a few years ago with [Keyboard Maestro]. I was surprised at how I remembered the steps to input form fields (Big props to the KM team for making it so easy to do.)</p>
+
+<p>But when I went to test adding value to the field, I got nothing. If you're trying to automate this form filling, you may run into the same steps so hopfully this will serve as a quick guide to troubleshoot the problems you may have run into or to start automating your own form fields.</p>
+
+<p><strong>NOTE: This guide uses Safari but you can use the Chrome actions to complete the same tasks.</strong></p>
+
+<hr />
+
+<h2>Step 1: 🚨 Make sure Javascript can Be Ran FROM System Events 🚨</h2>
+
+<p>Ultimately this was the issue I ran into. This setting (off by default prevents rogue applications from taking control of your browser). In most cases this is a great security measure but in our case, it breaks the Keyboard Maestro functionality.</p>
+
+<h3>For Safari</h3>
+
+<p>With Safari open go to <strong>Preferences</strong> and select the advanced column.</p>
+
+<p>Check the box <em>Show Develop menu in menu bar</em></p>
+
+<p><img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/Keyboard%20Maestro%20Form%20Automation/Safari%20Show%20Develop%20Menu%20from%20MenuBar.png" alt="check the box show develop menu in menu bar" /></p>
+
+<p>In the menu bar select the <em>Develop</em> menu and select the option <em>Allow Javascript from Apple Events</em>.</p>
+
+<p><img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/Keyboard%20Maestro%20Form%20Automation/Safari%20Allow%20Javascript%20from%20Apple%20Events.png" alt="Enable Javascript from Apple Events" /></p>
+
+<h3>For Chrome</h3>
+
+<p>Chrome makes this a little easier. In the menu bar select <em>View</em>, then <em>Develop</em> (already visible) and select <em>Allow Javascript from Apple Events</em>.</p>
+
+<p>In both cases, you will see a check mark that indicates you are ready to Automate!</p>
+
+<h2>Step 2: Find the XPath of the field you want to Enter</h2>
+
+<p>This is where the magic happens 🧙🏾‍♂️. Finding the right field to target with information can be a challenge as websites come in many different sizes and accesssibility forms.That said you can use the tools built into Keyboard Maestro or the browser to find the correct XPath.</p>
+
+<p>Don't worry too much about what an <a href="https://developer.mozilla.org/en-US/docs/Web/XPath">XPath</a> is. You just need to know how to find it. </p>
+
+<h3>Using Keyboard Maestro</h3>
+
+<p>In Keyboard Maestro, when you select the <em>Set Safari Field to Text</em> the <em>Safari ˇ</em> will look for forms on the active tab of in your browswer and show all of the input fields available. Find the field that you want to automate with text and select it. Enter the text you wish to fill in. </p>
+
+<p><img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/Keyboard%20Maestro%20Form%20Automation/Keyboard%20Maestro%20Set%20Safari%20Field.png" alt="Choosing the XPath from Keyboard Maestro" /></p>
+
+<p><strong>NOTE: There is also a checkbox version of this that works exclusively for checkboxes</strong></p>
+
+<h3>Using Safari/Chrome</h3>
+
+<p>If you have a lot of fields that you want need to identify you can figure out the exact text field you want to add to by right-clicking the field in your browser and selecting <em>Inspect Element</em> (<em>Inspect</em> for Chrome) to view the source code. </p>
+
+<p><img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/Keyboard%20Maestro%20Form%20Automation/Safari%20Inspect%20Element.png" alt="inspect element" /></p>
+
+<p>Then in the inspector you can right click the highlighted code-block and hover over <em>copy</em> and select <em>XPath</em>.</p>
+
+<p><img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/Keyboard%20Maestro%20Form%20Automation/Copy%20XPath.png" alt="copy XPath" /></p>
+
+<p>Repeat this step as many times as you like for each field. Finally, add a submit field.</p>
+
+<p><img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/Keyboard%20Maestro%20Form%20Automation/Keyboard%20Maestro%20Submit%20Safari%20Form.png" alt="Submit Form" /></p>
+]]></description>
+
+    <link>https://kjaymiller.com/how-to-automate-form-filling-with-keyboard-maestro-for-big-sur</link>
+<pubDate>Wed, 03 Mar 2021 11:12:00 -0800</pubDate><guid isPermaLink="false">how-to-automate-form-filling-with-keyboard-maestro-for-big-sur</guid></item><item>
 <title>Quick Productivity Tip - Walk and Talks</title>  <description><![CDATA[<p>Since the Quarantine, I've been goign on two weekly walks with a couple of PIT
 Premium Members.</p>
 
