@@ -562,6 +562,11 @@ video {
   background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
 }
 
+.bg-gray-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(107, 114, 128, var(--tw-bg-opacity));
+}
+
 .bg-blue-400 {
   --tw-bg-opacity: 1;
   background-color: rgba(96, 165, 250, var(--tw-bg-opacity));
