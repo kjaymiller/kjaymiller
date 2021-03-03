@@ -3,7 +3,7 @@ date: 03 Mar 2021 11:12
 tags: Keyboard Maestro, automation, productivity
 image: https://ik.imagekit.io/cxazzw3yew/Keyboard%20Maestro%20Form%20Automation/Keyboard%20Maestro%20Set%20Safari%20Field.png
 
-Working to help a friend automate some form entry I went to look back into how I had automated a similar task a few years ago with [Keyboard Maestro]. I was surprised at how I remembered the steps to input form fields (Big props to the KM team for making it so easy to do.)
+Working to help a friend automate some form entry I went to look back into how I had automated a similar task a few years ago with [Keyboard Maestro](https://keyboardmastro.com). I was surprised at how I remembered the steps to input form fields (Big props to the KM team for making it so easy to do.)
 
 But when I went to test adding value to the field, I got nothing. If you're trying to automate this form filling, you may run into the same steps so hopfully this will serve as a quick guide to troubleshoot the problems you may have run into or to start automating your own form fields.
 

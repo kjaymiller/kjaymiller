@@ -69,6 +69,7 @@
         background-color: #9146ff;
     }
 
-    article.content img {
+
+    .content img {
         max-height: 800px;
     }

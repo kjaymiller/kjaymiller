@@ -9388,7 +9388,7 @@ violenve in Black communities in NYC.</p>
 
     <link>https://kjaymiller.com/pitpodcast-tom-merrit-july-2020</link>
 <pubDate>Tue, 14 Jul 2020 11:32:00 -0700</pubDate><guid isPermaLink="false">pitpodcast-tom-merrit-july-2020</guid></item><item>
-<title>How to Automate Form Filling with Keyboard Maestro (For Big Sur)</title>  <description><![CDATA[<p>Working to help a friend automate some form entry I went to look back into how I had automated a similar task a few years ago with [Keyboard Maestro]. I was surprised at how I remembered the steps to input form fields (Big props to the KM team for making it so easy to do.)</p>
+<title>How to Automate Form Filling with Keyboard Maestro (For Big Sur)</title>  <description><![CDATA[<p>Working to help a friend automate some form entry I went to look back into how I had automated a similar task a few years ago with <a href="https://keyboardmastro.com">Keyboard Maestro</a>. I was surprised at how I remembered the steps to input form fields (Big props to the KM team for making it so easy to do.)</p>
 
 <p>But when I went to test adding value to the field, I got nothing. If you're trying to automate this form filling, you may run into the same steps so hopfully this will serve as a quick guide to troubleshoot the problems you may have run into or to start automating your own form fields.</p>
 
