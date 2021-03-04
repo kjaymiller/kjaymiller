@@ -761,6 +761,11 @@ video {
   margin-bottom: 1.25rem;
 }
 
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -1166,10 +1171,6 @@ code {
     }
   }
 
-  .xl\:h-1\/2 {
-    height: 50%;
-  }
-
   .xl\:mx-auto {
     margin-left: auto;
     margin-right: auto;
@@ -1178,5 +1179,9 @@ code {
   .xl\:py-10 {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
+  }
+
+  .xl\:w-2\/3 {
+    width: 66.666667%;
   }
 }
