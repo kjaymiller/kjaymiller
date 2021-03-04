@@ -1175,6 +1175,10 @@ code {
     height: 66.666667%;
   }
 
+  .xl\:h-full {
+    height: 100%;
+  }
+
   .xl\:mx-auto {
     margin-left: auto;
     margin-right: auto;
