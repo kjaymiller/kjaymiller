@@ -1166,6 +1166,10 @@ code {
     }
   }
 
+  .xl\:h-1\/2 {
+    height: 50%;
+  }
+
   .xl\:mx-auto {
     margin-left: auto;
     margin-right: auto;
