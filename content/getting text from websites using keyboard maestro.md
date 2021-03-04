@@ -50,13 +50,17 @@ Right click the element and hover over copy and choose the _Selector Path_ (in C
 
 Add the **Execute Javascript in Safari/Chrome** action and enter the following code.
 
-`document.querySelector("<PASTE YOUR COPIED TEXT>").innerText`
+```html
+document.querySelector("<PASTE YOUR COPIED TEXT>").innerText`
+```
 
 `document.querySelector` tells the browser to find the first element that matches your passed selection. Since you highlighted the text it will give you the most unique possible selection, so the first choice should be the correct one[^1].
 
 This however, `document.querySelector` gives you the full HTML element. So a paragraph would be
 
-`<p>Lorem ipsum dolor sit amet..</p>`
+```html
+<p>Lorem ipsum dolor sit amet..</p>`
+```
 
 We don't need the `<p></p>` parts. Luckily we can use the `innerText` attribute. As [Mozilla](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/innerText) explains it:
 

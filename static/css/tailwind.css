@@ -1088,10 +1088,12 @@ blockquote {
 }
 
 code {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
   --tw-bg-opacity: 1;
   background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
-  margin: 1.25rem;
-  padding: 0.5rem;
+  margin: 0.5rem;
+  padding: 0.25rem;
 }
 
 @media (min-width: 640px) {
