@@ -74,8 +74,9 @@
     }
 
     code {
-        @apply text-lg;
+        @apply text-base;
         @apply bg-gray-100;
         @apply m-1;
         @apply p-1;
+        @apply rounded;
     }
