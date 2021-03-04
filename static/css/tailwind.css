@@ -1171,6 +1171,10 @@ code {
     }
   }
 
+  .xl\:h-2\/3 {
+    height: 66.666667%;
+  }
+
   .xl\:mx-auto {
     margin-left: auto;
     margin-right: auto;
@@ -1179,9 +1183,5 @@ code {
   .xl\:py-10 {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
-  }
-
-  .xl\:w-2\/3 {
-    width: 66.666667%;
   }
 }
