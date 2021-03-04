@@ -72,3 +72,9 @@
     .content img {
         max-height: 500px;
     }
+
+    code {
+        @apply bg-gray-200;
+        @apply m-5;
+        @apply p-2;
+    }
