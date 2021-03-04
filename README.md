@@ -2,7 +2,7 @@ Jay Miller is a software devleoper, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [How to Automate Form Filling with Keyboard Maestro (For Big Sur)](https://kjaymiller.com/how-to-automate-form-filling-with-keyboard-maestro-for-big-sur)**
+**Latest Post - [Getting text from websites using Keyboard Maestro](https://kjaymiller.com/getting-text-from-websites-using-keyboard-maestro)**
 
 **Latest Productivity in Tech Podcast Episode - [Expect More, Say Less, Do Less - Bullet Journal Monthly Migration Insights](https://share.transistor.fm/s/024eabd1)**
 
