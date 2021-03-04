@@ -1171,8 +1171,8 @@ code {
     }
   }
 
-  .xl\:h-2\/3 {
-    height: 66.666667%;
+  .xl\:h-60 {
+    height: 15rem;
   }
 
   .xl\:h-full {
@@ -1187,5 +1187,9 @@ code {
   .xl\:py-10 {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
+  }
+
+  .xl\:w-2\/3 {
+    width: 66.666667%;
   }
 }
