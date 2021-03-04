@@ -1091,8 +1091,8 @@ code {
   font-size: 1.125rem;
   line-height: 1.75rem;
   --tw-bg-opacity: 1;
-  background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
-  margin: 0.5rem;
+  background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
+  margin: 0.25rem;
   padding: 0.25rem;
 }
 
