@@ -1119,8 +1119,8 @@ code {
     margin-right: auto;
   }
 
-  .md\:w-1\/4 {
-    width: 25%;
+  .md\:w-1\/6 {
+    width: 16.666667%;
   }
 }
 
@@ -1170,8 +1170,8 @@ code {
     margin-right: auto;
   }
 
-  .xl\:py-5 {
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
+  .xl\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
   }
 }
