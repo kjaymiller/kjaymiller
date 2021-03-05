@@ -1175,10 +1175,6 @@ code {
     height: 15rem;
   }
 
-  .xl\:h-full {
-    height: 100%;
-  }
-
   .xl\:mx-auto {
     margin-left: auto;
     margin-right: auto;
