@@ -1171,10 +1171,6 @@ code {
     }
   }
 
-  .xl\:h-96 {
-    height: 24rem;
-  }
-
   .xl\:mx-auto {
     margin-left: auto;
     margin-right: auto;

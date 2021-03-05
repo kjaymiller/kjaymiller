@@ -43,6 +43,8 @@
           <strong>Source:</strong> <a href="{{link}}">{{link}}</a>
         </div>
         {% endif %}
+
+        {% include 'YouTube_embed.html' %}
         <section class="section my-4 py-4">
           <div class="content">
             {{markup}} 
@@ -55,5 +57,4 @@
         Blogs...</a>
     </section>
 </div>
-    {% include 'YouTube_embed.html' %}
 {% endblock %}
