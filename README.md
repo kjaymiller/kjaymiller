@@ -4,7 +4,7 @@ You can see what he's posting about at <https://kjaymiller.com>.
 
 **Latest Post - [Getting text from websites using Keyboard Maestro](https://kjaymiller.com/getting-text-from-websites-using-keyboard-maestro)**
 
-**Latest Productivity in Tech Podcast Episode - [Expect More, Say Less, Do Less - Bullet Journal Monthly Migration Insights](https://share.transistor.fm/s/024eabd1)**
+**Latest Productivity in Tech Podcast Episode - [From IT to Photography: Ant Pruitt's Career Journey](https://share.transistor.fm/s/af268525)**
 
 ## Active Projects
 
@@ -38,6 +38,7 @@ on github](https://github.com/sponsors/kjaymiller).
 - [Brian Douglas](https://github.com/bdougie)
 - [Anthony Shaw](https://github.com/toneybaloney)
 - [Carol Willing](https://github.com/willingc)
+- [Jason Brechin](https://github.com/brechin)
 
 Thank you to them and all others that have supported my work!
 

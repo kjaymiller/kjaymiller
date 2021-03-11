@@ -38,6 +38,7 @@ on github](https://github.com/sponsors/kjaymiller).
 - [Brian Douglas](https://github.com/bdougie)
 - [Anthony Shaw](https://github.com/toneybaloney)
 - [Carol Willing](https://github.com/willingc)
+- [Jason Brechin](https://github.com/brechin)
 
 Thank you to them and all others that have supported my work!
 
