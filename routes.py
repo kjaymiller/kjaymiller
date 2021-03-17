@@ -1,10 +1,10 @@
-import json
-from render_engine import Collection, Blog, Page
-from render_engine.links import Link
+from render_engine import Blog, Collection, Page
 from render_engine.microblog import MicroBlog
+
 from mysite import MySite
 
 mysite = MySite()
+
 
 @mysite.register_collection
 class Pages(Collection):
@@ -51,6 +51,7 @@ class Contact(Page):
     template = "contact.html"
     slug = "contact"
 
+
 @mysite.register_route
 class Talks(Page):
     template = "conference-talks.html"
@@ -69,4 +70,3 @@ class podcast(Page):
     template = "podcasts.html"
     slug = "podcasts"
     title = "Podcasts"
-

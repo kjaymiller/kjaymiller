@@ -1,10 +1,13 @@
-import json 
-from render_engine.site import Site
+import json
+
 from render_engine.links import Link
+from render_engine.site import Site
+
 
 def load_json(filename):
     with open(filename) as j:
         return json.load(j)
+
 
 class MySite(Site):
     HEADER_LINKS = (
@@ -23,7 +26,7 @@ class MySite(Site):
     AUTHOR = "Jay Miller"
     HEADER_LINKS = HEADER_LINKS
     SUBCOLLECTION_MIN = 2
-    GUEST_APPEARANCES = load_json('content/guest-appearances.json')
-    PROJECTS = load_json('content/projects.json')
-    PODCASTS = load_json('content/podcasts.json')
-    CONFERENCE_TALKS = load_json('content/conference-talks.json')
+    GUEST_APPEARANCES = load_json("content/guest-appearances.json")
+    PROJECTS = load_json("content/projects.json")
+    PODCASTS = load_json("content/podcasts.json")
+    CONFERENCE_TALKS = load_json("content/conference-talks.json")
