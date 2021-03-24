@@ -2,7 +2,7 @@ Jay Miller is a software devleoper, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [Getting text from websites using Keyboard Maestro](https://kjaymiller.com/getting-text-from-websites-using-keyboard-maestro)**
+**Latest Post - [How to enable certs with CertBot and NGINX](https://kjaymiller.com/how-to-enable-certs-with-certbot-and-nginx)**
 
 **Latest Productivity in Tech Podcast Episode - [Talking Productivity and Widgets (Yes On this Show...) with Scotty Jackson](https://share.transistor.fm/s/6e8786b8)**
 
