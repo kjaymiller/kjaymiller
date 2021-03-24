@@ -185,16 +185,16 @@ rendering a template is much easier to edit and understand. Also, the compute
 time for Github Actions is free and this doesn't need to be the most
 performance conscious program. Also I like Jinja2, so there is also that 🙃.</p>
 
-<pre><code># From README_template.md
+<div class="codehilite"><pre><span></span><code><span class="gh"># From README_template.md</span>
 
-You can see what he's posting about at &lt;https://kjaymiller.com&gt;.
+You can see what he&#39;s posting about at &lt;https://kjaymiller.com&gt;.
 
-**Latest Post - [{{latest_post.title}}]({{latest_post.link}})**
+<span class="gs">**Latest Post - [{{latest_post.title}}]({{latest_post.link}})**</span>
 
-**Latest Productivity in Tech Podcast Episode - [{{latest_podcast_post.title}}]({{latest_podcast_post.link}})**
+<span class="gs">**Latest Productivity in Tech Podcast Episode - [{{latest_podcast_post.title}}]({{latest_podcast_post.link}})**</span>
 
-## Active Projects
-</code></pre>
+<span class="gu">## Active Projects</span>
+</code></pre></div>
 
 <h3>Step 4: Build your script to get the data and write the up to date README.md</h3>
 
