@@ -1,5 +1,5 @@
 title: Setup New Github Key
-category: developer notes
+category: code
 tags: github, server, new machine
 date: 24 Mar 2021 14:22
 
