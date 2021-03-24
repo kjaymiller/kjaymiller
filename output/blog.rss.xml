@@ -8924,6 +8924,18 @@ different places in their career).</p>
 
     <link>https://kjaymiller.com/jamie-is-a-form-group</link>
 <pubDate>Tue, 01 Jan 2019 12:00:00 -0800</pubDate><guid isPermaLink="false">jamie-is-a-form-group</guid></item><item>
+<title>Setup New Github Key</title>  <description><![CDATA[<p>Another note that I wind up having to look up every time.</p>
+
+<pre><code>ssh-keygen -t rsa -b 4096 -C "&lt;YOUR EMAIL&gt;"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+pbcopy &lt; ~/.ssh/id_rsa.pub
+open https://github.com/settings/keys
+</code></pre>
+]]></description>
+
+    <link>https://kjaymiller.com/setup-new-github-key</link>
+<pubDate>Wed, 24 Mar 2021 14:22:00 -0700</pubDate><guid isPermaLink="false">setup-new-github-key</guid></item><item>
 <title>TIL You can change the subject of an Email</title>  <description><![CDATA[<p><strong>DISCLAIMER: I'm not here to bash <em>Hey</em>. In fact I wouldn't have thought of this idea if
 it weren't for them so great job!</strong></p>
 
