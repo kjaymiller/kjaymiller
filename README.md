@@ -2,7 +2,7 @@ Jay Miller is a software devleoper, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [Omnifocus Resources via Joe Buhlig](https://kjaymiller.com/omnifocus-resources-via-joe-buhlig)**
+**Latest Post - [Mortems: You Should Do Those](https://kjaymiller.com/mortems-you-should-do-those)**
 
 **Latest Productivity in Tech Podcast Episode - [Talking Productivity and Widgets (Yes On this Show...) with Scotty Jackson](https://share.transistor.fm/s/6e8786b8)**
 
