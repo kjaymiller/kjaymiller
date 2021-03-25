@@ -64,6 +64,20 @@ of a date.</p>
 
     <link>https://kjaymiller.com/microblog/20200302162500</link>
 <pubDate>Mon, 02 Mar 2020 16:25:00 -0800</pubDate><guid isPermaLink="false">20200302162500</guid></item><item>
+  <description><![CDATA[<p>Two entries into my zshrc to make editing my two most edited config files easier on me.</p>
+
+<pre><code>" Quickly open my zshrc
+alias zshrc="nvim ~/.zshrc"
+
+" Quickly Open my vimrc  ~NOTE: `~/.config/nvim/init.vim` is the default location for neovim (nvim)
+" The default path for your .vimrc is ~/.vimrc
+
+alias vimrc="nvim ~/.config/nvim/init.vim"
+</code></pre>
+]]></description>
+
+    <link>https://kjaymiller.com/microblog/20210325091100</link>
+<pubDate>Thu, 25 Mar 2021 09:11:00 -0700</pubDate><guid isPermaLink="false">20210325091100</guid></item><item>
   <description><![CDATA[<p><a href="https://questionablecontent.net/comics/4285"><img src="https://questionablecontent.net/comics/4285.png" alt="Questionable Content Post for 12 Jun 2020" /></a></p>
 
 <p>That's also what we call them. I have a long history of dating white girls. Now
