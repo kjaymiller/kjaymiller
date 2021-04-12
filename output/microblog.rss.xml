@@ -301,6 +301,13 @@ docs and tests. I ran into many issues with this one.</p>
 
     <link>https://kjaymiller.com/microblog/20200221090800</link>
 <pubDate>Fri, 21 Feb 2020 09:08:00 -0800</pubDate><guid isPermaLink="false">20200221090800</guid></item><item>
+  <description><![CDATA[<p>Just a reminder of how awesome <a href="https://www.irradiatedsoftware.com/labs/">shortcut detective</a> is. I ran into an issue where I somehow mapped ⌘+w to another shortcut. I remembered this app from Irradiated Software. Still works for Big Sur (At least the intel chip one)</p>
+
+<p><img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/ShortcutDetective.png" alt="Shortcut Detective in Action" /></p>
+]]></description>
+
+    <link>https://kjaymiller.com/microblog/20210412000000</link>
+<pubDate>Mon, 12 Apr 2021 00:00:00 -0700</pubDate><guid isPermaLink="false">20210412000000</guid></item><item>
   <description><![CDATA[<p>Moving the blog to tailwind so the site itself will be horrendous for a bit.</p>
 ]]></description>
 
