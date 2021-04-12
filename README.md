@@ -4,7 +4,7 @@ You can see what he's posting about at <https://kjaymiller.com>.
 
 **Latest Post - [Mortems: You Should Do Those](https://kjaymiller.com/mortems-you-should-do-those)**
 
-**Latest Productivity in Tech Podcast Episode - [Talking Productivity and Widgets (Yes On this Show...) with Scotty Jackson](https://share.transistor.fm/s/6e8786b8)**
+**Latest Productivity in Tech Podcast Episode - [Information Management Apps and Library Awesomeness /w Cecily Walker](https://share.transistor.fm/s/dfad402e)**
 
 ## Active Projects
 
