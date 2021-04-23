@@ -1,9 +1,11 @@
-title: [PIT Podcast] Getting Real and Narrowing Scope
-slug: pit-podcast-getting-real-and-narrowing-scope
-github: https://github.com/kjaymiller/kjaymiller.com/blob/master/content/pitpodcast-get-real-narrow-scope.md
-tags: transcription, shownotes
-date: 11 Jun 2020 08:37
+---
 category: Productivity in Tech Podcast
+date: 11 Jun 2020 08:37
+github: https://github.com/kjaymiller/kjaymiller.com/blob/master/content/pitpodcast-get-real-narrow-scope.md
+slug: pit-podcast-getting-real-and-narrowing-scope
+tags: transcription, shownotes
+title: '[PIT Podcast] Getting Real and Narrowing Scope'
+---
 
 <iframe width="100%" height="180" frameborder="no" scrolling="no" seamless src="https://share.transistor.fm/e/2d916493"></iframe>
 

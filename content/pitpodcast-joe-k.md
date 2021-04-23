@@ -1,10 +1,12 @@
-Title: PIT Podcast: How Developer Advocacy is Changing with Joe Karlsson
-slug: pit-podcast-joe-karlsson
-date: 11 Aug 2020 15:33
+---
 category: Productivity in Tech Podcast
-tags: developer advocacy
-image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/joe-k-pitpodcast+custom+covers-v3.jpg
+date: 11 Aug 2020 15:33
 github: https://github.com/kjaymiller/kjaymiller/blob/master/content/pitpodcast-joe-k.md
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/joe-k-pitpodcast+custom+covers-v3.jpg
+slug: pit-podcast-joe-karlsson
+tags: developer advocacy
+title: 'PIT Podcast: How Developer Advocacy is Changing with Joe Karlsson'
+---
 
 The world of Developer Advocacy has been changing and Joe Karlsson is at the front of that movement. Moving discussions from the hallway track to Twitter, Twitch, and Tik Tok, hear how this Developer 🥑 is connecting with developers.
 

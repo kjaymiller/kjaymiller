@@ -1,10 +1,12 @@
-title: PIT Podcast: A Surplus of Happy with Melanie C.
-date: 30 Jun 2020 08:00
-slug: pitpodcast-melaniec-2020
+---
 category: Productivity in Tech Podcast
-tags: transcriptions, shownotes
+date: 30 Jun 2020 08:00
 github: https://github.com/kjaymiller/kjaymiller.com/blob/master/content/melaniec-2020.md
 image: https://ik.imagekit.io/cxazzw3yew/pitpodcast-hellomelaniec.png
+slug: pitpodcast-melaniec-2020
+tags: transcriptions, shownotes
+title: 'PIT Podcast: A Surplus of Happy with Melanie C.'
+---
 
 I had the privilege of meeting Melanie C. very early in my python career. She
 was work on what would be known as five up app and learning Django. In this

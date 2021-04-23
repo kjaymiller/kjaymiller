@@ -1,6 +1,8 @@
-title: Mortems: You Should Do Those
+---
 date: 25 Mar 2021 08:40
 tags: productivity
+title: 'Mortems: You Should Do Those'
+---
 
 Inspired by an app idea I had a couple years ago.
 

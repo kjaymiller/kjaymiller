@@ -1,5 +1,4 @@
 python-slugify
-render-engine
 feedparser
 elastic_app_search
 httpx

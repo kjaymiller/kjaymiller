@@ -1,10 +1,11 @@
-title: PIT Reflections: A Million Children's Recitals
-slug: pit-reflection-aug-8
-date: 04 Aug 2020 21:22
-tags: pit-reflection, talks
+---
 category: Productivity in Tech Podcast
+date: 04 Aug 2020 21:22
 github: https://github.com/kjaymiller/kjaymiller/blob/master/content/pit-reflection-4-aug-2020.md
-
+slug: pit-reflection-aug-8
+tags: pit-reflection, talks
+title: 'PIT Reflections: A Million Children''s Recitals'
+---
 
 PIT Reflections 2020-Aug-04
 I've been doing a lot in public, from talks and livestreams to appearances on other podcasts and taking interviews.
