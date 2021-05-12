@@ -4,7 +4,7 @@ You can see what he's posting about at <https://kjaymiller.com>.
 
 **Latest Post - [Frontmatter replacing custom parser in Render Engine](https://kjaymiller.com/frontmatter-replacing-custom-parser-in-render-engine)**
 
-**Latest Productivity in Tech Podcast Episode - [Has Tech Made the World Better](https://share.transistor.fm/s/0a3d1961)**
+**Latest Productivity in Tech Podcast Episode - [Developing Microskills with Tiny Experiments with Sam Julien](https://share.transistor.fm/s/7e6b2c54)**
 
 ## Active Projects
 
