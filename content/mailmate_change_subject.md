@@ -1,9 +1,11 @@
+---
+category: productivity
+date: 23 Jan 2021 21:45
+image: https://ik.imagekit.io/cxazzw3yew/Mailmate%20Change%20Subject%20Box.png
+tags: email, hey
 title: TIL You can change the subject of an Email
 youtube: https://www.youtube.com/embed/1oQYPX1ov6I
-image: https://ik.imagekit.io/cxazzw3yew/Mailmate%20Change%20Subject%20Box.png
-date: 23 Jan 2021 21:45
-tags: email, hey
-category: productivity
+---
 
 **DISCLAIMER: I'm not here to bash _Hey_. In fact I wouldn't have thought of this idea if
 it weren't for them so great job!**

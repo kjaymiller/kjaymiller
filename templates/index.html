@@ -1,19 +1,18 @@
-{% extends 'base.html'%}
-{% block head %}
-<link rel="stylesheet" type="text/css" href="/static/css/index.css">
-{% endblock %}
-
-{% block content %}
+{% extends 'base.html'%} {% block head %}
+<link rel="stylesheet" type="text/css" href="/static/css/index.css" />
+{% endblock %} {% block content %}
 <div class="container">
-    {% include 'featured_post.html' %}
-    {% include 'recent_posts.html' %}
-    <h2>Things I'm Building</h2>
-    {% include '_projects.html' %}
-    <h2>Hear me On</h2>
-    {% include '_podcasts.html' %}
-    {% include 'newsletter.html' %}
-    {% include 'short_bio.html' %}
-    {% include 'social-cards.html' %}
-</div>
-  {% endblock %}
+  {% include 'featured_post.html' %} {% include 'recent_posts.html' %}
+  <h2>
+    <a href="https://www.youtube.com/channel/UCjoJU65IbXkKXsNqydro05Q"
+      >Check Out The Channel</a
+    >
+  </h2>
 
+  <h2>Things I'm Building</h2>
+  {% include '_projects.html' %}
+  <h2>Hear me On</h2>
+  {% include '_podcasts.html' %} {% include 'newsletter.html' %} {% include
+  'short_bio.html' %} {% include 'social-cards.html' %}
+</div>
+{% endblock %}
