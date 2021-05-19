@@ -1,15 +1,17 @@
 <div class="lg:flex my-4">
-    {% for title, item in group.items() %}
-        <div class="md:w-1/6 m-3"> 
-            <a href="{{item['url']}}">
-                {% if 'image' in item %}
-                    <img alt="{{title}}" class="w-full rounded-lg shadow" src="{{item['image']}}">
-                {% else %}
-                    <h2>
-                        {{title}}
-                    </h2>
-                {% endif %}
-            </a>
-        </div>
-    {% endfor %}
+  {% for title, item in group.items() %}
+  <div class="md:w-1/12 m-3">
+    <a href="{{item['url']}}">
+      {% if 'image' in item %}
+      <img
+        alt="{{title}}"
+        class="w-full rounded-lg shadow"
+        src="{{item['image']}}"
+      />
+      {% else %}
+      <h2>{{title}}</h2>
+      {% endif %}
+    </a>
+  </div>
+  {% endfor %}
 </div>
