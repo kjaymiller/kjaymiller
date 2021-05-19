@@ -2,7 +2,7 @@ Jay Miller is a software devleoper, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [Frontmatter replacing custom parser in Render Engine](https://kjaymiller.com/frontmatter-replacing-custom-parser-in-render-engine)**
+**Latest Post - [4 Beginner Friendly Keyboard Maestro Macros (3 Actions or Less!)](https://kjaymiller.com/4-beginner-friendly-keyboard-maestro-macros-3-actions-or-less)**
 
 **Latest Productivity in Tech Podcast Episode - [Developing Microskills with Tiny Experiments with Sam Julien](https://share.transistor.fm/s/7e6b2c54)**
 
