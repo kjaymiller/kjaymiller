@@ -1,6 +1,6 @@
 ---
 title: 4 Beginner Friendly Keyboard Maestro Macros (3 Actions or Less!)
-YouTube: https://youtu.be/7ZqL-VSdlN0
+YouTube: https://www.youtube.com/embed/7ZqL-VSdlN0
 date: 19 May 2021 17:33
 tags: Youtube
 ---
