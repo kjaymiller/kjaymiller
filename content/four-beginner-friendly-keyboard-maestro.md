@@ -5,11 +5,11 @@ date: 19 May 2021 17:33
 tags: Youtube
 ---
 
-[Keyboard Maestro] is the most versatile automation tool you can get for the Mac. That said, getting started always seems like a challenge.
+[Keyboard Maestro][keyboard maestro] is the most versatile automation tool you can get for the Mac. That said, getting started always seems like a challenge.
 
 This video gives you **4 Keyboard Maestro Macros** that show off some essential actions that you can use to build simple, yet amazing actions.
 
-[Keyboard Maestro]
+[Keyboard Maestro][keyboard maestro]
 
 Honorable Mentions:
 

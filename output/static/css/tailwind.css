@@ -1121,8 +1121,8 @@ code {
     margin-right: auto;
   }
 
-  .md\:w-1\/6 {
-    width: 16.666667%;
+  .md\:w-1\/12 {
+    width: 8.333333%;
   }
 }
 
