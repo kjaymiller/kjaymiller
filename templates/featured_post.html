@@ -1,4 +1,4 @@
-<div class="container mt-6 mx-2">
+<div class="container mt-6 mx-auto">
   {% set featured_post = blog_posts[0] %} {% if featured_post.youtube %} {% set
   youtube = featured_post.youtube %} {% include 'Youtube_embed.html' %} {% endif
   %}
@@ -7,9 +7,9 @@
       <img src="{{featured_post.image}}" />
     </a>
   </div>
-  <div class="text-center my-5">
+  <div class="my-5">
     <a href="{{featured_post.slug}}">
-      <h1 class="text-6xl font-bold">{{featured_post.title}}</h1>
+      <h1 class="text-4xl font-bold">{{featured_post.title}}</h1>
     </a>
   </div>
 </div>
