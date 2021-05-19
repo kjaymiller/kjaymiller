@@ -4956,6 +4956,27 @@ echo $AP_STAT | awk '/Connected: Yes/{print 1}'
 
     <link>https://kjaymiller.com/twitch-player-live-only</link>
 <pubDate>Wed, 12 Aug 2020 11:27:00 -0700</pubDate><guid isPermaLink="false">twitch-player-live-only</guid></item><item>
+<title>4 Beginner Friendly Keyboard Maestro Macros (3 Actions or Less!)</title>  <description><![CDATA[<p>Keyboard Maestro is the most versatile automation tool you can get for the Mac. That said, getting started always seems like a challenge.</p>
+
+<p>Here are 4 Keyboard Maestro Macros that show off some essential actions that you can use to build simple, yet amazing actions.</p>
+
+<p>Honorable Mentions:</p>
+
+<ul>
+<li>Keyboard Maestro Field Guide - https://learn.macsparky.com/p/km?affcode=256645_mmjiyrv4</li>
+<li>Keyboard Maestro Forum - https://forum.keyboardmaestro.com</li>
+</ul>
+
+<p>Be sure to Like, Subscribe and Comment!</p>
+
+<ul>
+<li>Follow on Twitter - https://twitter.com/kjaymiller</li>
+<li>Subscribe to the newsletter - https://buttondown.email/kjaymiller</li>
+</ul>
+]]></description>
+
+    <link>https://kjaymiller.com/4-beginner-friendly-keyboard-maestro-macros-3-actions-or-less</link>
+<pubDate>Wed, 19 May 2021 17:33:00 -0700</pubDate><guid isPermaLink="false">4-beginner-friendly-keyboard-maestro-macros-3-actions-or-less</guid></item><item>
 <title>Pigeons are Scary</title>  <description><![CDATA[<p>Let me first say that [Questionable Content] is hands down my favorite online comic and I've been following them for more than a decade now and have viewed EVERY SINGLE STRIP.</p>
 
 <p>Every once in a while there is a strip that speaks to me in a profound way. Monday's post did just that.</p>
