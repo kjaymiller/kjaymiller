@@ -13,8 +13,8 @@ class MySite(Site):
     HEADER_LINKS = (
         Link(name="About", url="/about.html"),
         Link(name="Blog", url="/blog-0.html"),
+        Link(name="YouTube", url="https://www.youtube.com/channel/UCjoJU65IbXkKXsNqydro05Q"),
         Link(name="Productivity", url="/productivity-0.html"),
-        Link(name="Development", url="/development-0.html"),
         Link(name="Podcasts", url="/podcasts.html"),
         Link(name="Projects", url="/projects.html"),
         Link(name="Newsletter", url="/subscribe"),
