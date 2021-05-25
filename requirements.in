@@ -3,3 +3,4 @@ feedparser
 elastic_app_search
 httpx
 typer
+../render_engine
