@@ -11,7 +11,9 @@ certifi==2020.12.5
 chardet==4.0.0
     # via requests
 click==7.1.2
-    # via typer
+    # via
+    #   render-engine
+    #   typer
 elastic-app-search==7.10.0
     # via -r requirements.in
 feedparser==6.0.2
@@ -26,9 +28,35 @@ idna==2.10
     # via
     #   requests
     #   rfc3986
+jinja2==3.0.1
+    # via render-engine
+markdown2==2.4.0
+    # via render-engine
+markupsafe==2.0.1
+    # via jinja2
+more-itertools==8.8.0
+    # via render-engine
+pendulum==2.1.2
+    # via render-engine
+progress==1.5
+    # via render-engine
+pygments==2.9.0
+    # via render-engine
 pyjwt==1.7.1
     # via elastic-app-search
+python-dateutil==2.8.1
+    # via pendulum
+python-frontmatter==1.0.0
+    # via render-engine
 python-slugify==5.0.2
+    # via
+    #   -r requirements.in
+    #   render-engine
+pytzdata==2020.1
+    # via pendulum
+pyyaml==5.4.1
+    # via python-frontmatter
+file:///Users/kjaymiller/python-projects/render_engine
     # via -r requirements.in
 requests==2.25.1
     # via elastic-app-search
@@ -36,6 +64,8 @@ rfc3986[idna2008]==1.5.0
     # via httpx
 sgmllib3k==1.0.0
     # via feedparser
+six==1.16.0
+    # via python-dateutil
 sniffio==1.2.0
     # via
     #   httpcore
