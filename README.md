@@ -4,7 +4,7 @@ You can see what he's posting about at <https://kjaymiller.com>.
 
 **Latest Post - [4 Beginner Friendly Keyboard Maestro Macros (3 Actions or Less!)](https://kjaymiller.com/4-beginner-friendly-keyboard-maestro-macros-3-actions-or-less)**
 
-**Latest Productivity in Tech Podcast Episode - [Developing Microskills with Tiny Experiments with Sam Julien](https://share.transistor.fm/s/7e6b2c54)**
+**Latest Productivity in Tech Podcast Episode - [Creating Shortcuts from Text w/ Zachary Lineman](https://share.transistor.fm/s/621e051c)**
 
 ## Active Projects
 
