@@ -4,7 +4,7 @@
 #
 #    pip-compile
 #
-certifi==2020.12.5
+certifi==2021.5.30
     # via
     #   httpx
     #   requests
@@ -46,17 +46,13 @@ pyjwt==1.7.1
     # via elastic-app-search
 python-dateutil==2.8.1
     # via pendulum
-python-frontmatter==1.0.0
-    # via render-engine
 python-slugify==5.0.2
     # via
     #   -r requirements.in
     #   render-engine
 pytzdata==2020.1
     # via pendulum
-pyyaml==5.4.1
-    # via python-frontmatter
-file:///Users/kjaymiller/python-projects/render_engine
+file:///Users/kjaymiller/Documents/render_engine
     # via -r requirements.in
 requests==2.25.1
     # via elastic-app-search
@@ -74,5 +70,5 @@ text-unidecode==1.3
     # via python-slugify
 typer==0.3.2
     # via -r requirements.in
-urllib3==1.26.4
+urllib3==1.26.5
     # via requests
