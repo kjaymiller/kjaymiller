@@ -2,7 +2,7 @@
   "dependencies": {
     "autoprefixer": "^10.0.2",
     "npx": "^10.2.2",
-    "postcss": "^8.1.9",
+    "postcss": "^8.2.10",
     "tailwind": "^4.0.0",
     "tailwindcss": "^2.0.1"
   }
