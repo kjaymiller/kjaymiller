@@ -2,9 +2,9 @@ Jay Miller is a software devleoper, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [The PIT Show: Creating Shortcuts from Text w/ Zachary Lineman](https://kjaymiller.com/the-pit-show-creating-shortcuts-from-text-w-zachary-lineman)**
+**Latest Post - [Speaking at Juneteenth Conf 2021](https://kjaymiller.com/speaking-at-juneteenth-conf-2021)**
 
-**Latest Productivity in Tech Podcast Episode - [Creating Shortcuts from Text w/ Zachary Lineman](https://share.transistor.fm/s/621e051c)**
+**Latest Productivity in Tech Podcast Episode - [More Pro Apps for Non-Pros - WWDC Keynote Recap with Kathy Campbell](https://share.transistor.fm/s/88e9d51b)**
 
 ## Active Projects
 
