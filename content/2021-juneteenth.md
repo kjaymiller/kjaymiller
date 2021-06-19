@@ -8,6 +8,12 @@ youtube: https://www.youtube.com/embed/OfyqAg2IPfc
 Happy to share that I got to speak at Juneteenth conf this year!
 It's one of the events that I hope will continue to grow as the years go on!
 
-## NOTE: When the videos go live I will update this post... But you can watch the VOD of the livestream
+### NOTE: When the videos go live I will update this post... But you can watch the VOD of the livestream
 
 My talk starts around 44:30
+
+If you want to checkout the datasets that I worked with and how I got them into elasticsearch, checkout the repos on Github.
+
+- <https://github.com/kjaymiller/sd-ripa-data>
+- <https://github.com/kjaymiller/data-police-shootings>
+
