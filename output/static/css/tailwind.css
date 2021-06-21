@@ -907,6 +907,10 @@ video {
   visibility: visible;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
 .w-1\/3 {
   width: 33.333333%;
 }
@@ -1007,103 +1011,6 @@ video {
   }
 }
 
-a {
-  text-decoration: underline;
-}
-
-p {
-  margin: 0.5rem;
-}
-
-h2 {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-  font-weight: 700;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-h3 {
-  font-size: 1.5rem;
-  line-height: 2rem;
-  font-weight: 700;
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
-}
-
-ul {
-  list-style-type: disc;
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
-li {
-  margin-left: 1.25rem;
-  margin-right: 1.25rem;
-}
-
-input, textarea {
-  border-width: 1px;
-  border-radius: 0.25rem;
-  padding: 0.5rem;
-}
-
-.content {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.content img {
-  margin: 1.25rem;
-}
-
-blockquote {
-  --tw-bg-opacity: 1;
-  background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-  --tw-text-opacity: 1;
-  color: rgba(107, 114, 128, var(--tw-text-opacity));
-  padding: 1rem;
-  margin: 0.75rem;
-}
-
-.social{
-  width: 100%;
-  transition: background 0.3s ease-in;
-}
-
-.youtube:hover{
-  background-color: #FF0000;
-}
-
-.twitter:hover{
-  background-color: #1ba0f2;
-}
-
-.linkedin:hover{
-  background-color: #0966c3;
-}
-
-.twitch:hover{
-  background-color: #9146ff;
-}
-
-.content img {
-  max-height: 500px;
-}
-
-code {
-  max-width: 100%;
-  font-size: 1rem;
-  line-height: 1.5rem;
-  --tw-bg-opacity: 1;
-  background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
-  margin: 0.25rem;
-  padding: 0.25rem;
-  border-radius: 0.25rem;
-}
-
 @media (min-width: 640px) {
   .sm\:mx-2 {
     margin-left: 0.5rem;
@@ -1181,3 +1088,4 @@ code {
     width: 66.666667%;
   }
 }
+  
