@@ -1016,6 +1016,10 @@ video {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
   }
+
+  .sm\:w-1\/2 {
+    width: 50%;
+  }
 }
 
 @media (min-width: 768px) {
