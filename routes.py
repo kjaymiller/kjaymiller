@@ -56,6 +56,7 @@ class Contact(Page):
 class Talks(Page):
     template = "conference-talks.html"
     slug = "conference-talks"
+    posts = mysite.CONFERENCE_TALKS
 
 
 @mysite.register_route
