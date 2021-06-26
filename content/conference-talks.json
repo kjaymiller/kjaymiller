@@ -6,6 +6,12 @@
     "link": "http://www.juneteenthconf.com"
     },
     {
+	"title": "Telling The Server User Story Through The Elastic Stack",
+	"event": "Python Web Conf",
+	"embed": "https://www.youtube.com/embed/qITZSvVO2As",
+	"abstract":"Elastic has an ecosystem of products that to tell a story around both internal and external data. Companies use the Elastic Stack to gain insight on websites, businesses, and products. Diversityorgs.tech allows guests to search for diversity-focused orgs in their area. We’ll look at web traffic and examine trends in orgs searched. I'll explain ingesting that data from NGINX logs using Beats. We’ll look at analytics from Elastic App Search and visualize this information with Kibana. Finally, we'll use that information to implement a new feature giving people requests based on their perceived area, ALL WHILE REQUIRING NO COOKIES OR TRACKING FROM OUR USERS."
+    },
+    {
 	"event": "CSVConf v6",
 	"link": "https://csvconf.com",
 	"embed": "https://www.youtube.com/embed/YM0zQ2OdWT0",
@@ -16,7 +22,7 @@
     {
         "title": "Reinvent the Wheel (But Add Spikes to It)",
 	"event": "PyBeach 2020",
-        "last_presented": "Feb, 2020",
+        "last_presented": "Feb 2020",
         "abstract": "In my quest to grow as a python developer I learned a lot from reinventing the wheel. While I don't think you should use your wheel prototypes in production, I do think that a lot can be learned from reinventing the wheel."},
     {
         "title": "How I turned a podcast into a business with Python (and some Other Tools we won't talk about)",
