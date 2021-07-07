@@ -1,18 +1,21 @@
 {
-    "Bob's Taverncast": {
-        "url": "https://bobstavern.pub",
-        "image": "https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg"
-        },
-    "The PIT Show": {
-        "url":"https://podcast.productivityintech.com",
-        "image": "https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg"
-        },
-    "TekTok Podcast": {
-        "url": "https://www.tekside.net/tektok",
-        "image": "https://ik.imagekit.io/cxazzw3yew//tektok_256.jpeg"
-        },
-    "Ask a Brit": {
-            "url": "https://askabrit.transistor.fm",
-            "image": "https://ik.imagekit.io/cxazzw3yew//AskABritv4.png"
+    "active": {"NEW SHOW COMING SOON!": {}},
+    "retired": {
+	"Bob's Taverncast": {
+	    "url": "https://bobstavern.pub",
+	    "image": "https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg"
+	    },
+	"The PIT Show": {
+	    "url":"https://podcast.productivityintech.com",
+	    "image": "https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg"
+	    },
+	"TekTok Podcast": {
+	    "url": "https://www.tekside.net/tektok",
+	    "image": "https://ik.imagekit.io/cxazzw3yew//tektok_256.jpeg"
+	    },
+	"Ask a Brit": {
+		"url": "https://askabrit.transistor.fm",
+		"image": "https://ik.imagekit.io/cxazzw3yew//AskABritv4.png"
+	}
     }
 }
