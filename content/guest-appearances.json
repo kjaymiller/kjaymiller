@@ -1,4 +1,11 @@
 {
+  "Python Bytes": {
+    "date": "July 7, 2021 12:00 PM",
+    "image": "https://pythonbytes.fm/static/img/logo.png",
+    "tags": "python",
+    "link": "https://pythonbytes.fm/episodes/241",
+    "title": "f-yes we want some f-string tricks"
+  },
   "Brew and Byte": {
     "date": "June 14, 2021 12:00PM",
     "link": "https://www.lmug.org.uk/podcast/",
