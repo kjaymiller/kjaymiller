@@ -3,8 +3,8 @@ module.exports = {
     enabled: true,
     mode: 'all',
     content: [
-      'output/**/*.html',
-      'output/**/*.js',
+      './output/**/*.html',
+      './output/**/*.js',
     ],
   },
   theme: {
