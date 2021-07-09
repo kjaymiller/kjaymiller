@@ -581,13 +581,13 @@ video {
   background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
 }
 
-.from-blue-700 {
-  --tw-gradient-from: #1d4ed8;
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(29, 78, 216, 0));
+.from-purple-600 {
+  --tw-gradient-from: #7c3aed;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(124, 58, 237, 0));
 }
 
-.to-blue-500 {
-  --tw-gradient-to: #3b82f6;
+.to-indigo-800 {
+  --tw-gradient-to: #3730a3;
 }
 
 .border-gray-400 {
