@@ -891,6 +891,10 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(124, 58, 237, 0));
 }
 
+.to-indigo-700 {
+  --tw-gradient-to: #4338ca;
+}
+
 .to-indigo-800 {
   --tw-gradient-to: #3730a3;
 }
