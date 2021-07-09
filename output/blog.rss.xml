@@ -4803,6 +4803,19 @@ echo $AP_STAT | awk '/Connected: Yes/{print 1}'
 
     <link>https://kjaymiller.com/rewriting-bujo-tasks</link>
 <pubDate>Wed, 12 Aug 2020 07:11:00 -0700</pubDate><guid isPermaLink="false">rewriting-bujo-tasks</guid></item><item>
+<title>Keyboard Shortcuts in Craft’s Calendar View with Keyboard Maestro</title>  <description><![CDATA[<p>Craft has done a great job of ensuring that the app doesn't feel like just another Catalyst app, but I find the lack of Keyboard Shortcuts in this area disturbing!</p>
+
+<p>Download these macros here - https://gist.github.com/kjaymiller/1cc0ee8406f69686200cf63bc79969fe</p>
+
+<p>Checkout Craft on the Mac App Store - https://apps.apple.com/us/app/craft-docs-and-notes-editor/id1487937127</p>
+
+<p>Checkout Keyboard Maestro - https://www.keyboardmaestro.com/main/</p>
+
+<p>If you aren't already follow me on Twitter! - https://twiter.com/kjaymiller</p>
+]]></description>
+
+    <link>https://kjaymiller.com/keyboard-shortcuts-in-crafts-calendar-view-with-keyboard-maestro</link>
+<pubDate>Fri, 11 Jun 2021 13:00:00 -0700</pubDate><guid isPermaLink="false">keyboard-shortcuts-in-crafts-calendar-view-with-keyboard-maestro</guid></item><item>
 <title>Break up with your Productivity Obsession and Learning and Teaching with Jasmine Greenaway</title>  <description><![CDATA[<p>Jay seems to have broken up with productivity as an obsession and now he's missing the thrill of the hunt.</p>
 
 <p>My guest this week is a Senior Cloud Advocate at Microsoft, Brooklyn.js organizer, and lecturer, Jasmine Greenaway.</p>
