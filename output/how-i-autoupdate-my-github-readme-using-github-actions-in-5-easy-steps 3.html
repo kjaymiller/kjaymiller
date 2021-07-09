@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" type="text/css" href="/static/css/tailwind.css">
+    <script src="https://kit.fontawesome.com/4ac674b58e.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/static/css/base.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/pygments.css">
+    
+  <link rel="stylesheet"  type="text/css" href="/static/css/blog.css">
+
+    <title>
+      
+      How I AutoUpdate My Github README using GitHub Actions in 5 Easy Steps - Jay Miller
+    </title>
+  </head>
+  <body class="flex flex-col h-full"> 
+    <header class="bg-gradient-to-br from-blue-700 to-blue-500 w-full md:flex xl:py-10 py-3 px-3">
+    <div class="mx-auto container">
+    <h1 id="site-title" class="title mx-3 text-3xl font-bold text-gray-200">
+      <a class="hover:no-decorate" href="/">Jay Miller</a>
+    </h1>
+  <div class="md:flex hidden" id="site-menu">
+            
+            <div class="p-3">
+                <a class="rounded p-2 hover:bg-gray-200 hover:text-gray-600 text-gray-200" href="/about.html">
+                About
+                </a>
+            </div>
+            
+            <div class="p-3">
+                <a class="rounded p-2 hover:bg-gray-200 hover:text-gray-600 text-gray-200" href="/blog-0.html">
+                Blog
+                </a>
+            </div>
+            
+            <div class="p-3">
+                <a class="rounded p-2 hover:bg-gray-200 hover:text-gray-600 text-gray-200" href="https://www.youtube.com/channel/UCjoJU65IbXkKXsNqydro05Q">
+                YouTube
+                </a>
+            </div>
+            
+            <div class="p-3">
+                <a class="rounded p-2 hover:bg-gray-200 hover:text-gray-600 text-gray-200" href="/conference-talks.html">
+                Talks
+                </a>
+            </div>
+            
+            <div class="p-3">
+                <a class="rounded p-2 hover:bg-gray-200 hover:text-gray-600 text-gray-200" href="/podcasts.html">
+                Podcasts
+                </a>
+            </div>
+            
+            <div class="p-3">
+                <a class="rounded p-2 hover:bg-gray-200 hover:text-gray-600 text-gray-200" href="/projects.html">
+                Projects
+                </a>
+            </div>
+            
+            <div class="p-3">
+                <a class="rounded p-2 hover:bg-gray-200 hover:text-gray-600 text-gray-200" href="/subscribe">
+                Newsletter
+                </a>
+            </div>
+            
+            <div class="p-3">
+                <a class="rounded p-2 hover:bg-gray-200 hover:text-gray-600 text-gray-200" href="/contact">
+                Contact
+                </a>
+            </div>
+            
+  </div>
+  <div class="hidden">
+    <form role="search" action="https://search.kjaymiller.com/">
+        <div class="md:flex hidden">
+        <input type="text" style="padding-left: 3em; background: url('/static/files/search.svg') 7px 0px white no-repeat" class="inline border border-blue-800 rounded-full" name="q" id="search-bar" placeholder="Search"/>
+        </div>
+    </form>
+</div>
+    </div>
+</header>
+    <div class="sm:mx-2 xl:mx-auto xl:container flex-grow my-4">
+         
+<div class="container m-4">
+    <article>
+            <div class="m-3">
+                <h1 class="title text-4xl font-bold">How I AutoUpdate My Github README using GitHub Actions in 5 Easy Steps</h1><h2 class="text-xl"></h2>
+              <small class="column is-narrow">
+              Jul 10, 2020 15:16 PM
+              </small>
+
+        </div>
+              <section class="bg-gray-400 flex">
+                  <div class="">
+                  
+                  <p class=""><strong>Category: </strong><small
+                     class="tag">
+                    <a href="/coding-0">coding</a>
+                  </small>
+                  </p>
+                  
+                  
+                    <p class="">
+                    <strong>Tags: </strong>
+                    
+                    <small class="mx-2 p-1 rounded border border-gray-400 bg-gray-200">
+   <a href="github-0"
+    class="">github
+   </a> 
+</small >
+                    
+                    <small class="mx-2 p-1 rounded border border-gray-400 bg-gray-200">
+   <a href="github actions-0"
+    class="">github actions
+   </a> 
+</small >
+                    
+                    <small class="mx-2 p-1 rounded border border-gray-400 bg-gray-200">
+   <a href="python-0"
+    class="">python
+   </a> 
+</small >
+                    
+                    <small class="mx-2 p-1 rounded border border-gray-400 bg-gray-200">
+   <a href="automation-0"
+    class="">automation
+   </a> 
+</small >
+                    
+                    </p>
+                    
+                </div>
+              </section>
+        </section>
+        <hr />
+
+        
+
+        
+        
+        
+        <section class="section my-4 py-4">
+          <div class="content">
+            <p>A new phenominon in the developer space is now the 🌟<em>secret</em>🌟 README.md
+trick. If you have a repository with the EXACT (case-sensitive) name as your username, it will display the contents of that readme onto your GitHub profile.</p>
+
+<p>Some folks have done really cool things with it, including setting up your own
+Myspace-esque top8 (including Tom!).</p>
+
+<p><blockquote class="twitter-tweet"><p lang="en" dir="ltr">Check it out. I made MySpace but on <a href="https://twitter.com/github?ref_src=twsrc%5Etfw">@github</a>.<a href="https://t.co/p4DWP4DxRR">https://t.co/p4DWP4DxRR</a> - My list is power by a GitHub Action workflow 😏 <a href="https://t.co/PN80mFCqOE">pic.twitter.com/PN80mFCqOE</a></p>&mdash; Brian Douglas (@bdougieYO) <a href="https://twitter.com/bdougieYO/status/1281699715466199040?ref_src=twsrc%5Etfw">July 10, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+
+<p>Inspired by <a href="https://simonwillison.net/2020/Jul/10/self-updating-profile-readme/">Simon Willison's</a> amazing self-updating profile, I wanted to do something similar.</p>
+
+<p>Armed with the power of python (<em>and anime on my side</em>), I setout to do something similar. This is a look at the first steps of me automating my Github Profile.</p>
+
+<h3>Step 1: Rename the repo my website to a repo named after my GitHub username</h3>
+
+<p>This is easy enough. Just rename the repo (in Github) to your username.
+Remember this has to be exact and it is case-sensitive.</p>
+
+<p>You can do this in the settings menu of your repo. You don't have to change the
+directory names or anything like that on a local machine. (I'm not sure if you
+are using a Git Client other than the cli).</p>
+
+<h3>Step 2: Create a copy of your existing readme as a template</h3>
+
+<p>My goal was to create my README using a Jinja2 and Github Actions. For that I
+would need a template to render. So since most of the data was the same I just
+copied my existing README.</p>
+
+<h3>Step 3: Add Dynamic Content using Jinja2 Variables</h3>
+
+<p>Starting out I wanted to show my latest blog post and my latest podcast episode
+from <a href="https://podcast.productivityiintech.com">Productivity in Tech Podcast</a>. We will create a python script that does
+this, but we needed to add the variables that Jinja2 would use for the dynamic
+data.</p>
+
+<p>You could do something like a search and replace, but I feel like just
+rendering a template is much easier to edit and understand. Also, the compute
+time for Github Actions is free and this doesn't need to be the most
+performance conscious program. Also I like Jinja2, so there is also that 🙃.</p>
+
+<div class="codehilite"><pre><span></span><code><span class="gh"># From README_template.md</span>
+
+You can see what he&#39;s posting about at &lt;https://kjaymiller.com&gt;.
+
+<span class="gs">**Latest Post - [{{latest_post.title}}]({{latest_post.link}})**</span>
+
+<span class="gs">**Latest Productivity in Tech Podcast Episode - [{{latest_podcast_post.title}}]({{latest_podcast_post.link}})**</span>
+
+<span class="gu">## Active Projects</span>
+</code></pre></div>
+
+<h3>Step 4: Build your script to get the data and write the up to date README.md</h3>
+
+<p>This script is pretty simple once you know what you're looking for. I'm using
+the feedparser plugin to parse the rss feeds and then returning the title and
+link for the latest episode.</p>
+
+<div class="codehilite"><pre><span></span><code><span class="k">def</span> <span class="nf">get_latest_post</span><span class="p">(</span><span class="n">rss_feed</span><span class="p">):</span>
+    <span class="n">f</span> <span class="o">=</span> <span class="n">feedparser</span><span class="o">.</span><span class="n">parse</span><span class="p">(</span><span class="n">rss_feed</span><span class="p">)</span>
+    <span class="n">latest_post</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">f</span><span class="p">[</span><span class="s1">&#39;entries&#39;</span><span class="p">],</span> <span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span><span class="n">x</span><span class="p">[</span><span class="s1">&#39;published_parsed&#39;</span><span class="p">])[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+    <span class="k">return</span> <span class="p">{</span>
+            <span class="s1">&#39;title&#39;</span><span class="p">:</span> <span class="n">latest_post</span><span class="p">[</span><span class="s1">&#39;title&#39;</span><span class="p">],</span>
+            <span class="s1">&#39;link&#39;</span><span class="p">:</span> <span class="n">latest_post</span><span class="p">[</span><span class="s1">&#39;link&#39;</span><span class="p">],</span>
+            <span class="p">}</span>
+</code></pre></div>
+
+<p>Then you set the template to the text of your template file.
+ then write the rendered text to your README.</p>
+
+<div class="codehilite"><pre><span></span><code><span class="c1"># update readme</span>
+<span class="n">template</span> <span class="o">=</span> <span class="n">Template</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="s1">&#39;./README_template.md&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">read_text</span><span class="p">())</span>
+<span class="n">Path</span><span class="p">(</span><span class="s1">&#39;./README.md&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">write_text</span><span class="p">(</span>
+        <span class="n">template</span><span class="o">.</span><span class="n">render</span><span class="p">(</span>
+            <span class="n">latest_post</span><span class="o">=</span><span class="n">get_latest_post</span><span class="p">(</span><span class="n">rss_feed</span><span class="p">),</span>
+            <span class="n">latest_podcast_post</span><span class="o">=</span><span class="n">get_latest_post</span><span class="p">(</span><span class="n">podcast_url</span><span class="p">),</span>
+            <span class="p">)</span>
+        <span class="p">)</span>
+</code></pre></div>
+
+<h2>Step 5: Setup your Github Actions File</h2>
+
+<p>I'm not the best at Github Actions. Luckily for me, this action was super
+simple to setup. </p>
+
+<p>You can look at the <a href="https://github.com/kjaymiller/kjaymiller/blob/master/.github/workflows/latest_post_readme.yml">.yml file</a> I'm not going to talk about the setup of this
+because most of it is prep stuff. Here's the important bit.</p>
+
+<div class="codehilite"><pre><span></span><code><span class="c1"># in steps:</span>
+<span class="p p-Indicator">-</span> <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Install Feedparser &amp; Jinja2</span>
+  <span class="nt">run</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">pip install feedparser jinja2</span>
+
+<span class="p p-Indicator">-</span> <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Update Readme</span>
+  <span class="nt">run</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">python ./.github/actions/update_readme.py</span>
+</code></pre></div>
+
+<p>Basically it's installing the things I need and then running the script (I
+saved the script in that folder, but you don't really have to as long as its in
+your repo).</p>
+
+<p>After that, you add some commands to update your repo and you're off to the
+races.</p>
+
+<p>I have mine setup to update on a github push in that repo, but in the future I
+will probably setup the file on a schedule to also update when I push something
+new (Future Post...Probably).</p>
+ 
+          </div>
+        </section>
+      </article>
+    <section class="my-4 border-t-2 border-gray-400">
+      <div class="content p-2">
+      <a href="/blog-0.html" class="subtitle is-5 text-link">Back to
+        Blogs...</a>
+    </section>
+</div>
+
+         
+    </div>
+    <footer class="object-bottom pin-b bg-gray-100 px-4 my-4">
+  <div class="container  lg:flex md:mx-auto justify-around">
+    <p> kjaymiller.com</p>
+    <p>Website made with <a
+                             href="https://github.com/kjaymiller/render-engine">Render Engine</a> and <a href="https://tailwindcss.com">TailwindCSS</a>
+    <div class="level">
+      <p class="level-item">
+         <a href="/blog.rss.xml"><span class="icon"><i class="fas fa-rss"></i></a>
+      </p>
+      <p class="level-item">
+       <a href="https://micro.blog/kjaymiller" rel="me">
+         <span class="icon"><i name="micro.blog" class="fab fa-microblog"></i>
+       </a>
+     </p>
+      <p class="level-item">
+       <a href="https://twitter.com/kjaymiller" rel="me">
+         <span class="icon"><i class="fab fa-twitter"></i></span>
+       </a>
+     </p>
+    </div>
+  </div>
+</footer>
+  </body>
+
+</html>

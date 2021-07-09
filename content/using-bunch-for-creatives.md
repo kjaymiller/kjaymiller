@@ -1,6 +1,6 @@
 ---
 title: Using Bunch for Creating Newsletters 
-date: July 6, 2021 08:00am
+date: July 6, 2021 08:00
 youtube: https://www.youtube.com/embed/zDsyw5uU0wA
 tags: YouTube
 ---
