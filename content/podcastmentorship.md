@@ -1,3 +1,4 @@
+---
 title: I Was Selected as a Mentee for the First Podcast Mentorship Cohort
 slug: podcast-mentorship-mentee
 date: 14 Jul 2020 12:08
@@ -5,6 +6,7 @@ link: https://www.podcastmentorship.net/mentees
 image: https://s3-us-west-2.amazonaws.com/kjaymiller/images/podcastmentorship.png
 category: Announcements
 tags: podcasting
+---
 
 I'm a firm believer that it is incredibly hard to be a _self taught_ anything.
 

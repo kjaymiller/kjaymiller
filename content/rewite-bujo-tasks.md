@@ -1,7 +1,9 @@
+---
 title: The "Problem" with rewriting tasks in your Bullet Journal
 slug: rewriting-bujo-tasks
 category: Bullet Journaling
 date: 12 Aug 2020 07:11
+---
 
 I was recently asked about the headache of re-writing things in my Bullet Journal. I have an interesting trick in fixing that. 
 

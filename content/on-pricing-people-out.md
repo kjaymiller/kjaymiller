@@ -1,6 +1,8 @@
+---
 title: Pricing People Out
 tags: business, productivity
 date: 5 Aug 2019 21:37
+---
 
 For the first time I quoted someone out of my market. It wasn't that I didn't want to work with them. In fact I've been working on securing the client for some time.
 

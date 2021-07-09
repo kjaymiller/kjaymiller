@@ -1,8 +1,10 @@
+---
 title: Showing the Toothfairy Icon only when my Airpods Pro are Connected
 tags: shell, apps, macOS, automation
 category: development
 date: 15 Feb 2021 16:43
 image: https://ik.imagekit.io/cxazzw3yew/ToothFairy%20Toggle.png
+---
 
 Recently [Bartender 4][Bartender] released with a couple of features that I was super stoked about. 
 

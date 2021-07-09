@@ -1,7 +1,9 @@
+---
 Title: Friends have been my Greatest Asset!
 Date: April 17, 2019 09:24
 Category: Marketing
 Tags: networking, lead-capture
+---
 
 I've been letting folks know about my [coaching](https://productivityintech.com/coaching) and [editing](https://productivityintech.com/editing) services more and more these days. 
 

@@ -1,6 +1,8 @@
+---
 title: Quick Productivity Tip - Walk and Talks
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/CleanShot-2020-05-25-at-23.01.11.png
 date: 25 May 2020 23:01
+---
 
 Since the Quarantine, I've been goign on two weekly walks with a couple of PIT
 Premium Members.

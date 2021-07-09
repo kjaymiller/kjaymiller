@@ -4,8 +4,7 @@ from render_engine.microblog import MicroBlog
 from mysite import MySite
 
 mysite = MySite()
-
-
+    
 @mysite.register_collection
 class Pages(Collection):
     routes = ["", "pages"]

@@ -1,8 +1,10 @@
+---
 title: My New Job and What that Means for All the Things I Do
 date: 17 Aug 2020 16:41
 tags: job
 category: Life
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/brand-elastic-sop-lockup-220x130.svg
+---
 
 For the last 5 months[^1], I've applied for many Software Engineering and Developer Advocate Roles.
 

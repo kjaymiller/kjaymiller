@@ -1,6 +1,8 @@
+---
 title: Pigeons are Scary
 date: 06 Aug 2019 10:46
 tags: encouragement
+---
 
 Let me first say that [Questionable Content] is hands down my favorite online comic and I've been following them for more than a decade now and have viewed EVERY SINGLE STRIP.
 

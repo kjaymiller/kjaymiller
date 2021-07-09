@@ -1,6 +1,8 @@
+---
 title: How Can White People Help Black People. What is the Real Problem
 slug: helping-black-people
 date: 04 Jun 2020 08:58
+---
 
 The following is an excerpt from a personal conversation I had.
 

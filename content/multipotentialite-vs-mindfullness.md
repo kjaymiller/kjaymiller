@@ -1,8 +1,10 @@
+---
 title: Multipotentiality vs Mindfulness
 category: Productivity
 tags: multipotentiality, mindfulness
 date: 23 Jul 2020 17:08
 image: https://s3-us-west-2.amazonaws.com/kjaymiller/images/photo-of-a-woman-thinking-941555.jpg
+---
 
 Having many friends that are into personal productivity[^1], I've come to learn about several _lifestyle_ schools of thought. Many people devote to the GTD way of life, while others, like myself, have decided to reduce the number of technological dependencies in favor of a more analog lifestyle.
 

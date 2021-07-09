@@ -1,8 +1,10 @@
+---
 title: I was on a Bullet Journal Roundtable
 date: 29 Jan 2021 21:55
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/gtdj.png
 Category: Guest Appearances
 tags: productivity, podcasts
+---
 
 I was recently a guest on the Tekside Networks [GTD Jedi Podcast](https://www.tekside.net/gtdjedi) with my [TekTok](https://www.tekside.net/tektok) cohosts Clay and Colin for a roundtable covering bullet journaling.
 

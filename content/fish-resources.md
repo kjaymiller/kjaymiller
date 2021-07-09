@@ -1,7 +1,9 @@
+---
 title: Fish Resources
 slug: fish-resources
 date: 14 Apr 2020 08:19
 image: https://fishshell.com/assets/img/Terminal_Logo_CRT_Small.png
+---
 
 <div class="notification is-dark">
 <div class="content">

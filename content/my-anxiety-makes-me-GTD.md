@@ -1,8 +1,10 @@
+---
 title: My Anxiety Makes Me Get Things Done
 date: March 25, 2019 10:42
 slug: anxiety-based-gtd
 category: mental-health
 tags: anxiety, depression
+---
 
 Recently I've been on a tear with new podcasts, live streams, and communities.
 

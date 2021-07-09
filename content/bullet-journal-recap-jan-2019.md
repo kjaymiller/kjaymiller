@@ -1,7 +1,9 @@
+---
 Title: January 2019 Bullet Journal Recap
 Date: February 01, 2019 16:00
 Category: Analog
 Tags: Bullet Journal, Reflection
+---
 
 Late last year I made the decision to go full time analog productivity. To me this was a return to my _Midori Traveller's Notebook_ and less reliability on mobile applications to keep track of things. 
 

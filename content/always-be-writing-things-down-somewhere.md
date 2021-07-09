@@ -1,9 +1,11 @@
+---
 title: Always be Writing things Down (Somewhere)
 date: 2020-12-14T06:20:51.956Z
 image: https://ik.imagekit.io/cxazzw3yew/pit-logo-v5.jpg
 category: The PIT Show
 tags: speaking, developer advocacy, accessibility, writing
 link: https://share.transistor.fm/s/873fa739
+---
 
 
 Jay has been writing a lot of thoughts down lately but hasn't really been sharing all that much.

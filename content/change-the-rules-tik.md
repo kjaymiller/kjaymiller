@@ -1,8 +1,10 @@
+---
 title: Don't Ban Companies, Change the Rules
 date: 12 Aug 2020 07:18
 category: Opinions
 tags: politics, Tik Tok, WeChat
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/social-media-phone.jpg
+---
 
 The allegations of abuse from Tik Tok and WeChat stem from features that data made accessible by other app developers. These Examples include:
 

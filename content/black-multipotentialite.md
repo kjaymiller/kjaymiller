@@ -1,7 +1,9 @@
+---
 title: In Defense of the Black Multi-Potentialite
 date: 06 Jun 2020 22:24
 tags: multipotentiality
 category: life
+---
 
 > _Stay in Your Lane._ - NRA to Emergency Room Doctors
 

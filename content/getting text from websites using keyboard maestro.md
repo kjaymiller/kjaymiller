@@ -1,8 +1,10 @@
+---
 title: Getting text from websites using Keyboard Maestro
 date: 03 Mar 2021 22:15
 tags: productivity, keyboard maestro, automation
 YouTube: https://youtube.com/embed/U_VHfB9b9oE
 image: https://ik.imagekit.io/cxazzw3yew/Keyboard%20Maestro%20Get%20Text%20from%20Website/execute%20javascript-squashed.png
+---
 
 In a [similar post](https://kjaymiller.com/how-to-automate-form-filling-with-keyboard-maestro-for-big-sur) I showed how to input information into a browser using [Keyboard Maestro](https://keyboardmaestro.com). 
 
