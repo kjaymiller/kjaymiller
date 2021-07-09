@@ -2,7 +2,7 @@ Jay Miller is a software devleoper, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [Speaking at Juneteenth Conf 2021](https://kjaymiller.com/speaking-at-juneteenth-conf-2021)**
+**Latest Post - [Using Bunch for Creating Newsletters](https://kjaymiller.com/using-bunch-for-creating-newsletters)**
 
 **Latest Productivity in Tech Podcast Episode - [More Pro Apps for Non-Pros - WWDC Keynote Recap with Kathy Campbell](https://share.transistor.fm/s/88e9d51b)**
 
