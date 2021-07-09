@@ -4,6 +4,6 @@
     "npx": "^10.2.2",
     "postcss": "^8.1.9",
     "tailwind": "^4.0.0",
-    "tailwindcss": "^2.0.1"
+    "tailwindcss": "^2.2.4"
   }
 }
