@@ -2,7 +2,7 @@ Jay Miller is a software devleoper, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [Using Bunch for Creating Newsletters](https://kjaymiller.com/using-bunch-for-creating-newsletters)**
+**Latest Post - [Announcing Conduit on Relay.FM](https://kjaymiller.com/announcing-conduit-on-relay-fm)**
 
 **Latest Productivity in Tech Podcast Episode - [More Pro Apps for Non-Pros - WWDC Keynote Recap with Kathy Campbell](https://share.transistor.fm/s/88e9d51b)**
 
