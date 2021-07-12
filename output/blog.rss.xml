@@ -3559,7 +3559,7 @@ qualifies me to do what I do, how I do it. </p>
 
     <link>https://kjaymiller.com/in-defense-of-the-black-multi-potentialite</link>
 <pubDate>Sat, 06 Jun 2020 22:24:00 -0700</pubDate><guid isPermaLink="false">in-defense-of-the-black-multi-potentialite</guid></item><item>
-<title>[PIT Podcast] Getting Real and Narrowing Scope</title>  <description><![CDATA[<iframe width="100%" height="180" frameborder="no" scrolling="no" seamless src="https://share.transistor.fm/e/2d916493"></iframe>
+<title>NewPage</title>  <description><![CDATA[<iframe width="100%" height="180" frameborder="no" scrolling="no" seamless src="https://share.transistor.fm/e/2d916493"></iframe>
 
 <h2>Shownotes</h2>
 
@@ -4891,6 +4891,19 @@ echo $AP_STAT | awk '/Connected: Yes/{print 1}'
 
     <link>https://kjaymiller.com/anxiety-based-gtd</link>
 <pubDate>Mon, 25 Mar 2019 10:42:00 -0700</pubDate><guid isPermaLink="false">anxiety-based-gtd</guid></item><item>
+<title>Analyzing Kickstarter Campaigns with Python</title>  <description><![CDATA[<p>Full show notes: https://pythonbytes.fm/241</p>
+
+<p>Topics covered:
+* Michael #1: Autosync all branches of a fork
+* Brain #2: Measuring memory usage in Python: it’s tricky!
+* Jay #3: Python f-strings can do more than you thought. f'{val=}', f'{val!r}', f'{dt:%Y-%m-%d}'
+* Michael #4: 10 Tips and Tools You Can Adopt in 15 minutes or Less To Level Up Your Dev Productivity
+* Brian #5: How to Start a Production-Ready Django Project
+* Jay #6: Bunchh</p>
+]]></description>
+
+    <link>https://kjaymiller.com/analyzing-kickstarter-campaigns-with-python</link>
+<pubDate>Wed, 07 Jul 2021 13:00:00 -0700</pubDate><guid isPermaLink="false">analyzing-kickstarter-campaigns-with-python</guid></item><item>
 <title>My Life is a Tetris Board</title>  <description><![CDATA[<p>Hi! Your friend ADHD Tech Worker here to admit.</p>
 
 <blockquote>
@@ -8994,6 +9007,25 @@ different places in their career).</p>
 
     <link>https://kjaymiller.com/things-i-found-on-the-internet-recently-tifotir-08-nov-2020</link>
 <pubDate>Sun, 08 Nov 2020 21:36:00 -0800</pubDate><guid isPermaLink="false">things-i-found-on-the-internet-recently-tifotir-08-nov-2020</guid></item><item>
+<title>Announcing Conduit on Relay.FM</title>  <description><![CDATA[<p>I'm happy to announce my new project, [Conduit]!</p>
+
+<p><a href="https://relay.fm/conduit"><img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" alt="Conduit" /></a></p>
+
+<p>Conduit is a new show on RelayFM! I'll be joined by <a href="https://twitter.com/mrssoup">Kathy Campbell</a> as we tackle productivity in a personal, realistic, and hopefully fun and engaging way!</p>
+
+<p>This show covers productivity topics in both work and life that don't have a hashtag. Topics like <em>I get jealous of all my friends' success and it makes me feel like a failure!</em> or <em>How can I make my work projects seem as fun as my projects in Minecraft!</em></p>
+
+<p>We're not promoting a methodology or a system. We aren't productivity professionals so no blog posts, courses, or books to promote! There won't be much talk about the apps or tools that we use (maybe a little in Episode 1, but that's intentional). </p>
+
+<p>We believe we have the tools to do your best work in that moment. We just need to thinking about how  we're using them and making some small adjustments.</p>
+
+<p>We'll share our experiences and try small experiments to see what happens. In the show, Kathy and I will commit to an episode, themed goal to give us the productivity boost we were looking for. Some will work, some will fail (It be like that sometimes). We encourage you to come up with your own connections and tell us how things are going using #MyConduit <a href="https://twitter.com/conduitfm">on twitter</a>. We'll review and share results on the following episode.</p>
+
+<p>I hope you'll join us! <a href="https://relay.fm/0">Episode 0</a> is out now and the first episode launches later this week! You can subscribe using your podcatcher of choice today!</p>
+]]></description>
+
+    <link>https://kjaymiller.com/announcing-conduit-on-relay-fm</link>
+<pubDate>Mon, 12 Jul 2021 14:39:00 -0700</pubDate><guid isPermaLink="false">announcing-conduit-on-relay-fm</guid></item><item>
 <title>I Was a Guest on Systematic</title>  <description><![CDATA[<p>I had the pleasure of being a guest on Brett Terpstra's <a href="https://systematicpod.com/ep/243"><em>Systematic</em></a> Podcast. </p>
 
 <p>I'm a big fan of <a href="https://brettterpstra.com">Brett's</a> and long time listener of his show. It was an amazing experience to have someone that I look up to in the industry have me on as their guest like <strong>I'm a professional</strong> or something. </p>

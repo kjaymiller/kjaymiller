@@ -1,5 +1,7 @@
 {
-    "active": {"NEW SHOW COMING SOON!": {}},
+    "active": {"Conduit": {
+    "url": "https://relay.fm/conduit",
+    "image": "https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png"}},
     "retired": {
 	"Bob's Taverncast": {
 	    "url": "https://bobstavern.pub",
