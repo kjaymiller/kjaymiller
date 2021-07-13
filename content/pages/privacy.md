@@ -1,5 +1,7 @@
+---
 Title: Where we keep data about you 🔎 
 Slug: privacy-policy
+---
 
 Because we respect your information, we are 100% transparent about all the information that is stored. 
 

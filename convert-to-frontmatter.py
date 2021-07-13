@@ -1,7 +1,7 @@
 import frontmatter
 import pathlib
 
-for path in pathlib.Path('content').iterdir():
+for path in pathlib.Path('content/microblog').iterdir():
     if not path.suffix == '.md':
         continue
 

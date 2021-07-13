@@ -1,4 +1,6 @@
+---
 date: 11 Jun 2020 22:07
+---
 
 [![Questionable Content Post for 12 Jun 2020](https://questionablecontent.net/comics/4285.png)](https://questionablecontent.net/comics/4285)
 

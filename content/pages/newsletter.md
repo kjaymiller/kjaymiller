@@ -1,5 +1,7 @@
+---
 slug: subscribe 
 Title: Subscribe to my newsletter! 🗞📨📬
+---
 
 Here are a few things that you will get when you subscribe.
 

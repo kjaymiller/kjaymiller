@@ -1,7 +1,11 @@
+import podreader
 from render_engine import Blog, Collection, Page
 from render_engine.microblog import MicroBlog
 
 from mysite import MySite
+
+
+podreader.download('https://relay.fm/conduit/feed')
 
 mysite = MySite()
     

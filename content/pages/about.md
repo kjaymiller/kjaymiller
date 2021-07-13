@@ -1,5 +1,7 @@
+---
 title: Who is Jay Miller
 slug: about
+---
 
 Hey Y'all I'm Jay. My first name begins with K but we don't really talk much
 about that. I've always gone by Jay (Except for in my military days and shortly

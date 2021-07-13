@@ -1,5 +1,7 @@
+---
 title: My Coffee Page
 slug: coffee
+---
 
 ## I LOVE COFFEE!
 

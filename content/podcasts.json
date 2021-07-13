@@ -1,7 +1,17 @@
 {
-    "active": {"Conduit": {
-    "url": "https://relay.fm/conduit",
-    "image": "https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png"}},
+    "active": {
+	"Conduit": {
+	"url": "https://relay.fm/conduit",
+	"image": "https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png",
+	"feed_url": "https://relay.fm/conduit/feed"
+	},
+	"TekTok": {
+	    "url": "https://www.tekside.net/tektok",
+	    "image": "https://ik.imagekit.io/cxazzw3yew//tektok_256.jpeg",
+	    "feed_url": "https://www.tekside.net/tektok?format=rss",
+	    "from_date": "17 February 2020 00:00 GMT"
+	    }
+    },
     "retired": {
 	"Bob's Taverncast": {
 	    "url": "https://bobstavern.pub",
@@ -10,10 +20,6 @@
 	"The PIT Show": {
 	    "url":"https://podcast.productivityintech.com",
 	    "image": "https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg"
-	    },
-	"TekTok Podcast": {
-	    "url": "https://www.tekside.net/tektok",
-	    "image": "https://ik.imagekit.io/cxazzw3yew//tektok_256.jpeg"
 	    },
 	"Ask a Brit": {
 		"url": "https://askabrit.transistor.fm",
