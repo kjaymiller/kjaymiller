@@ -1,14 +1,22 @@
-import podreader
+import json
+
 from render_engine import Blog, Collection, Page
 from render_engine.microblog import MicroBlog
 
+import podreader
 from mysite import MySite
 
+with open("content/podcasts.json") as filepath:
+    podcasts = json.load(filepath)
 
-podreader.download('https://relay.fm/conduit/feed')
+    for name, podcast in podcasts["active"].items():
+        from_date = podcast.get("from_date", "06 October 1989 12:00 GMT")
+        podreader.download(podcast["feed_url"], name, from_date)
+
 
 mysite = MySite()
-    
+
+
 @mysite.register_collection
 class Pages(Collection):
     routes = ["", "pages"]
