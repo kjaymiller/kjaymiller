@@ -1,6 +1,7 @@
 ---
 category: TekTok
 date: Fri, 14 May 2021 03:20:54 +0000
+image: https://ik.imagekit.io/cxazzw3yew//tektok_256.jpeg
 link: https://www.tekside.net/tektok/2021/5/13/p4erjd58c32s26a2oa904igauo0520
 slug: tektok-tektok-podcast-ep086-the-automatics
 title: TEKTOK Podcast - EP086 - The Automatics

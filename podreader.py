@@ -8,10 +8,10 @@ import pytz
 from slugify import slugify
 
 
-def download(podcast_name, podcast_data, from_date="October 6, 1989 12:00 GMT"):
+def download(podcast_name, podcast_data, from_date):
     """get episodes in rss feed, check against the from_date and add to content"""
 
-    feed = feedparser.parse(podcast_data["url"])
+    feed = feedparser.parse(podcast_data["feed_url"])
     tz = pytz.timezone("GMT")
 
     for entry in feed.entries:
@@ -26,7 +26,7 @@ def download(podcast_name, podcast_data, from_date="October 6, 1989 12:00 GMT"):
             continue
 
         # Check podcast_name not in episode title
-        if name not in entry.title:
+        if podcast_name not in entry.title:
             filepath = f"{podcast_name} - {entry.title}"
 
         else:
@@ -43,7 +43,8 @@ def download(podcast_name, podcast_data, from_date="October 6, 1989 12:00 GMT"):
 
         post = frontmatter.loads(f"{entry.content[0]['value']}")
         post.metadata.update(entry_data)
-        Path("content", f"{slugify(filepath)}.md").write_text(frontmatter.dumps(post))
+        post_content = frontmatter.dumps(post)
+        Path("content", f"{slugify(filepath)}.md").write_text(post_content)
 
 
 def main(json_file):

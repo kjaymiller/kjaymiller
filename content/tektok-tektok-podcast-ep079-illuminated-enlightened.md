@@ -1,6 +1,7 @@
 ---
 category: TekTok
 date: Tue, 01 Sep 2020 14:59:50 +0000
+image: https://ik.imagekit.io/cxazzw3yew//tektok_256.jpeg
 link: https://www.tekside.net/tektok/2020/9/1/5j2784cbuvdhodicwfn8ym2n2sfmvf
 slug: tektok-tektok-podcast-ep079-illuminated-enlightened
 title: TEKTOK Podcast - EP079 - Illuminated & Enlightened

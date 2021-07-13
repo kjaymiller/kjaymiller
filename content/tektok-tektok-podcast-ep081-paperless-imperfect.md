@@ -1,6 +1,7 @@
 ---
 category: TekTok
 date: Tue, 27 Oct 2020 13:35:10 +0000
+image: https://ik.imagekit.io/cxazzw3yew//tektok_256.jpeg
 link: https://www.tekside.net/tektok/2020/10/27/7voltcl61vwz12rlw8ndx3pco8r6kj
 slug: tektok-tektok-podcast-ep081-paperless-imperfect
 title: TEKTOK Podcast - EP081 - Paperless & Imperfect

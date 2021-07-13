@@ -1,6 +1,7 @@
 ---
 category: TekTok
 date: Tue, 19 Jan 2021 15:21:54 +0000
+image: https://ik.imagekit.io/cxazzw3yew//tektok_256.jpeg
 link: https://www.tekside.net/tektok/2021/1/19/xmp5niofbdytmqbh10rmibc8d7syuv
 slug: tektok-tektok-podcast-ep082-something-shiny-something-new-something-basic-something-true
 title: TEKTOK Podcast - EP082 - Something Shiny, Something New, Something Basic, Something

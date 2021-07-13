@@ -1,6 +1,7 @@
 ---
 category: TekTok
 date: Tue, 14 Apr 2020 13:37:38 +0000
+image: https://ik.imagekit.io/cxazzw3yew//tektok_256.jpeg
 link: https://www.tekside.net/tektok/2020/4/14/bi9xhlmdzuz9oe03xw0jd9cxv51935
 slug: tektok-tektok-podcast-ep074-looking-forward
 title: TEKTOK Podcast - EP074 - Looking Forward

@@ -1,6 +1,7 @@
 ---
 category: TekTok
 date: Wed, 17 Mar 2021 02:50:09 +0000
+image: https://ik.imagekit.io/cxazzw3yew//tektok_256.jpeg
 link: https://www.tekside.net/tektok/2021/3/16/4c5nrrhqwx10lrpqhgfewmynio9k2o
 slug: tektok-tektok-podcast-ep084-struggling-to-find-all-the-answers
 title: TEKTOK Podcast - EP084 - Struggling to Find All the Answers
