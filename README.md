@@ -2,7 +2,7 @@ Jay Miller is a software devleoper, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [Announcing Conduit on Relay.FM](https://kjaymiller.com/announcing-conduit-on-relay-fm)**
+**Latest Post - [1: Our Systems: The Unicorn & Silk Sonic Methods](https://kjaymiller.com/conduit-1-our-systems-the-unicorn-silk-sonic-methods)**
 
 **Latest Productivity in Tech Podcast Episode - [More Pro Apps for Non-Pros - WWDC Keynote Recap with Kathy Campbell](https://share.transistor.fm/s/88e9d51b)**
 
