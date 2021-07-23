@@ -43,4 +43,4 @@ on github](https://github.com/sponsors/kjaymiller).
 Thank you to them and all others that have supported my work!
 
 [Render Engine]: https://render-engine.site
-[Transcriptor]: https://pypi.org/project/transcriptor
+[Diversity Orgs.tech]: https://diversityorgs.tech
