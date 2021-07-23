@@ -36,7 +36,6 @@ on github](https://github.com/sponsors/kjaymiller).
 
 ### Sponsors at $20/month and Higher!
 - [Brian Douglas](https://github.com/bdougie)
-- [Anthony Shaw](https://github.com/toneybaloney)
 - [Carol Willing](https://github.com/willingc)
 - [Jason Brechin](https://github.com/brechin)
 
