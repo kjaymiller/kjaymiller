@@ -1,5 +1,6 @@
 {% extends 'page.html' %}
 {% block add_ons %}
+<div class="container mx-auto">
   {% for post in posts %}
     <div class="my-2">
 	<small><a href="{{post.link}}">{{post.event}}</a></small>
@@ -16,4 +17,5 @@
     </div>
     <hr />
   {% endfor %}
+</div>
 {% endblock %}
