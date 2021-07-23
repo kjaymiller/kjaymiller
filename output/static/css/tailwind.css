@@ -818,6 +818,10 @@ video {
   align-items: center;
 }
 
+.items-baseline {
+  align-items: baseline;
+}
+
 .justify-around {
   justify-content: space-around;
 }

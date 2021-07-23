@@ -814,12 +814,12 @@ video {
   flex-wrap: wrap;
 }
 
-.items-center {
-  align-items: center;
+.items-end {
+  align-items: flex-end;
 }
 
-.items-baseline {
-  align-items: baseline;
+.items-center {
+  align-items: center;
 }
 
 .justify-around {
