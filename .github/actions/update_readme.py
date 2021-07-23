@@ -14,7 +14,7 @@ def get_latest_post(rss_feed):
 # update readme
 if __name__ == '__main__':
     rss_feed = './output/blog.rss.xml'
-    podcast_url = 'https://feeds.transistor.fm/productivity-in-tech-podcast'
+    podcast_url = 'https://relay.fm/conduit/feed'
     template = Template(Path('./README_template.md').read_text())
     Path('./README.md').write_text(
             template.render(
