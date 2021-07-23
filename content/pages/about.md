@@ -31,7 +31,7 @@ After high school, I joined the United States Marine Corps and spent most of my 
 
 In 2014 I started podcasting with the [The PIT Show](pit-show). That eventually grew into a business where I work with developer creators to make content around their brand. That show eventually evolved into [**Conduit**](https://relay.fm/conduit), my show on Relay.fm.
 
-In 2020 (that terrible decade we called a year) I had the privilege of moving into Developer Advocacy. I now work for Elastic where I build awesome things and I love giving [talks](/talks) about them.
+In 2020 (that terrible decade we called a year) I had the privilege of moving into Developer Advocacy. I now work for Elastic where I build awesome things and I love giving [talks](/conference-talks) about them.
 
 These days I've settle in Sunny (Most of the Time) San Diego, California where I (along with my wonderful wife) raise our little J (literally her name is Jae pronouced like my name), along with our two dogs (Alice, and The Loris) and our Cat Boss, Peanut Butter.
 
