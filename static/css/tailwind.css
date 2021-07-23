@@ -700,8 +700,16 @@ video {
   display: none;
 }
 
+.h-6 {
+  height: 1.5rem;
+}
+
 .h-full {
   height: 100%;
+}
+
+.max-h-full {
+  max-height: 100%;
 }
 
 .w-1\/2 {
