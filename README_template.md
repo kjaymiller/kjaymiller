@@ -1,10 +1,10 @@
-Jay Miller is a software devleoper, marketer, and content creator from San Diego. Since 2015,  Jay's been working on Productivity in Tech a podcast-turned-business where He connects with and assists developers that are creating content for other developers. 
+Jay Miller is a devleoper advocate, marketer, and content creator from San Diego.
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
 **Latest Post - [{{latest_post.title}}]({{latest_post.link}})**
 
-**Latest Productivity in Tech Podcast Episode - [{{latest_podcast_post.title}}]({{latest_podcast_post.link}})**
+**Latest Conduit Episode - [{{latest_podcast_post.title}}]({{latest_podcast_post.link}})**
 
 ## Active Projects
 
