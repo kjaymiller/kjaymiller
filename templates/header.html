@@ -1,8 +1,11 @@
 <header class="bg-gradient-to-br from-purple-600 to-indigo-800 w-full flex xl:py-10 py-3 px-3">
     <div class="lg:mx-auto container">
-    <h1 id="site-title" class="title mx-3 text-3xl font-bold text-gray-200">
-      <a class="hover:no-decorate" href="/">{{SITE_TITLE}}</a>
-    </h1>
+	<div class="flex">
+	<h1 id="site-title" class="title mx-3 text-5xl font-bold text-gray-200">
+	  <a class="hover:no-decorate" href="/">{{SITE_TITLE}}</a>
+	</h1>
+	<h2 class="text-2xl">Automation, Podcasting, Development</h2>
+    </div>
   <div class="md:flex hidden" id="site-menu">
             {% for link in HEADER_LINKS %}
             <div class="p-3">
