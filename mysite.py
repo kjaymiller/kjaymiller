@@ -22,6 +22,7 @@ class MySite(Site):
     )
     timezone = "US/Pacific"
     SITE_TITLE = "Jay Miller"
+    SITE_SUBTITLE="Automation, Podcasting, Development"
     SITE_URL = "https://kjaymiller.com"
     AUTHOR = "Jay Miller"
     HEADER_LINKS = HEADER_LINKS
