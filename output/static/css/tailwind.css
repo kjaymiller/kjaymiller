@@ -984,10 +984,6 @@ video {
   font-weight: 800;
 }
 
-.font-black {
-  font-weight: 900;
-}
-
 .text-gray-200 {
   --tw-text-opacity: 1;
   color: rgba(229, 231, 235, var(--tw-text-opacity));
