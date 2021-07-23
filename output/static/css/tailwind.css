@@ -700,6 +700,10 @@ video {
   display: none;
 }
 
+.h-1\/4 {
+  height: 25%;
+}
+
 .h-full {
   height: 100%;
 }
