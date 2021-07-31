@@ -15,7 +15,7 @@ for entry in talks:
         "date": entry['last_presented'],
         "link": entry.get('link', ""),
         "tags": f"{entry['event']}, {entry.get('tags', '')}",
-        "embed": entry.get('embed', ""),
+        "youtube": entry.get('embed', ""),
     }
 
     post = frontmatter.loads(f"{entry['abstract']}")
