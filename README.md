@@ -2,7 +2,7 @@ Jay Miller is a devleoper advocate, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [2: When You Can’t Even (Or Odd)](https://kjaymiller.com/conduit-2-when-you-cant-even-or-odd)**
+**Latest Post - [Getting your Data into Elasticsearch, Let me count the ways](https://kjaymiller.com/getting-your-data-into-elasticsearch-let-me-count-the-ways)**
 
 **Latest Conduit Episode - [2: When You Can’t Even (Or Odd)](http://relay.fm/conduit/2)**
 
