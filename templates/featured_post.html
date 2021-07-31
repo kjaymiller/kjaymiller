@@ -1,8 +1,10 @@
 <div class="container mt-6 mx-auto">
-  {% set featured_post = blog_posts[0] %} {% if featured_post.youtube %} {% set
-  youtube = featured_post.youtube %} {% include 'Youtube_embed.html' %} {% endif
-  %}
-  <div class="h-3 p-1">
+  {% set featured_post = blog_posts[0] %}
+      {% if featured_post.youtube %}
+	{% set youtube = featured_post.youtube %}
+	{% include 'Youtube_embed.html' %}
+    {% endif %}
+  <div class="h-8 p-1">
     <a href="{{featured_post.slug}}">
       <img class="max-h-full" src="{{featured_post.image}}" />
     </a>
