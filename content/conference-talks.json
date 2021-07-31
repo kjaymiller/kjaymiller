@@ -1,4 +1,11 @@
 [
+    {"title": "Getting your Data into Elasticsearch, Let me count the ways",
+    "abstract":"There are a few different ways for you to index your data into Elasticsearch. This talk will cover how to make your data searchable via your web app or from a data frame.",
+    "last_presented": "July 31, 2021",
+    "event": "PyOhio",
+    "embed": "https://www.youtube.com/embed/oJn7VhANpW0",
+    "link": "https://www.pyohio.org/2021/program/talks/getting-your-data-into-elasticsearch-let-me-count-the-ways"
+   },
     {"title": "But Look at the Numbers: Using Public Data to Highlight Systemic Problems",
     "abstract":"This talk explores the process of looking at public data made by the San Diego Police department and other public sources that show an obvious story of systemic issues in searches, stops, and sadly police involved shootings.",
     "last_presented": "June 2021",

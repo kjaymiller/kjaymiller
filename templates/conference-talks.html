@@ -4,6 +4,7 @@
   {% for post in posts %}
     <div class="my-2">
 	<small><a href="{{post.link}}">{{post.event}}</a></small>
+	{% if post.slides %}<small><a href="{{post.slides}}">Slides</a></small>{% endif %}
       <h2 class="text-2xl">{{post['title']}} <b
 	  class="text-sm">{{post['last_presented']}}</b></h2>
       {% autoescape false %}
