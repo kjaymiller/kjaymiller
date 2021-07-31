@@ -340,6 +340,11 @@ Right click the element and hover over copy and choose the <em>Selector Path</em
 
     <link>https://kjaymiller.com/conduit-0-episode-0-its-the-show</link>
 <pubDate>Fri, 09 Jul 2021 17:15:00 -0700</pubDate><guid isPermaLink="false">conduit-0-episode-0-its-the-show</guid></item><item>
+<title>How I turned a podcast into a business with Python (and some Other Tools we won&#39;t talk about)</title>  <description><![CDATA[<p>I started podcasting in 2014 with the idea that I could use is to become more productive. That idea grew into a business where I help other people in tech do the same thing.</p>
+]]></description>
+
+    <link>https://kjaymiller.com/how-i-turned-a-podcast-into-a-business-with-python-and-some-other-tools-we-won-t-talk-about</link>
+<pubDate>Sun, 03 Nov 2019 00:00:00 -0700</pubDate><guid isPermaLink="false">how-i-turned-a-podcast-into-a-business-with-python-and-some-other-tools-we-won-t-talk-about</guid></item><item>
 <title>TEKTOK Podcast - EP075 - Setup Tinkers &amp; DevonThinkers</title>  <description><![CDATA[<p class="">TEKTOK Show Notes</p><p class="">Episode: <a href="http://tekside.net/tektok?format=rss"><span>75</span></a></p><p class="">Date: 05/11/20</p><p class="">Hosts: Colin Gold, Jay Miller &amp; Clay Russell</p><p class=""></p><p class="">TEK Topics</p><p class="">•&nbsp; Colin: Community forums,&nbsp;</p><p class="">  •&nbsp; Do you participate?</p><p class=""> •&nbsp; Which ones and why?</p><p class=""> •&nbsp; Jay: Build it or buy it (inspiration from the Tabs vs Spaces podcast) </p><p class="">  •&nbsp; Do you tinker with your systems or just buy and use as intended</p><p class=""> •&nbsp; What does it take to break out the credit card and just get that new thing</p><p class="">•&nbsp; Clay: Apple Services &amp; Apple Hardware</p><p class="">     •&nbsp; Which Apple services do you subscribe to?</p><p class="">   •&nbsp; What are your typical Apple hardware upgrade cycles?</p><p class=""> </p><p class="">Sweet &amp; Sour TEK</p><ul><ul><li><p class="">Colin: <a href="https://apps.apple.com/us/app/dots-a-game-about-connecting/id632285588">Dots</a></p></li><li><p class="">Jay: Sweet! <a href="https://www.devontechnologies.com/apps/devonthink">Devonthink</a> Sour! - <a href="https://newtonhq.com">Newton</a></p></li><li><p class="">Clay: Moshi iVisor AG Screen Protector for iPad Pro 12.9 2020-2019, Washable &amp; Reusable, Reduce Fingerprints &amp; Smudging, Compatible with iPad Pencil, for iPad Pro 12.9 (2020-20019) <a href="https://www.amazon.com/dp/B07MTG25TD/ref=cm_sw_r_cp_tai_BmuUEbQVV7RJE"><span>https://www.amazon.com/dp/B07MTG25TD/ref=cm_sw_r_cp_tai_BmuUEbQVV7RJE</span></a></p></li></ul></ul><p class=""></p><p class="">How to Reach Us</p><p class="">Where you can reach the TEKTOK gang</p><ul><ul><li><p class="">Colin -&nbsp; <a href="http://twitter.com/colingold"><span>@colingold</span></a>&nbsp;</p></li><li><p class="">Jay - <a href="http://twitter.com/kjaymiller"><span>@kjaymiller</span></a></p></li><li><p class="">Clay -&nbsp; <a href="http://twitter.com/clayrussell"><span>@clayrussell</span></a>&nbsp;&nbsp;</p><p class=""></p></li></ul></ul><p class="">In Closing</p><p class="">Please subscribe to the show in <a href="https://podcasts.apple.com/us/podcast/tektok-podcast/id875056387"><span>Apple Podcasts</span></a>&nbsp; or&nbsp; <a href="https://goo.gl/app/playmusic?ibi=com.google.PlayMusic&amp;isi=691797987&amp;ius=googleplaymusic&amp;link=https://play.google.com/music/m/Ifbau5sq4uurrg4hifug5oacshq?t%3DTEKTOK_Podcast_-_The_TEKSide_Network"><span>Google Play</span></a>&nbsp; and take the time to leave us a review and comment. We have a Patreon page. This gives our dedicated and loyal listeners an opportunity to support the podcast for as little as $1 a month. If you would like to support us, visit our support page at&nbsp; <a href="http://www.patreon.com/tekside"><span>www.patreon.com/tekside</span></a> . Leave us a comment on Twitter <a href="http://twitter.com/%23!/TEKTOKpodcast"><span>@TEKTOKpodcast</span></a>&nbsp; or email the podcast at&nbsp; <span>tektok@tekside.net</span> . Check out our website at&nbsp; <a href="http://tekside.net/tektok/"><span>tekside.net/tektok</span></a> . Also be sure to check out all our other great podcasts, blogs, photo galleries and the TEKSide store on&nbsp; <a href="http://tekside.net/"><span>tekside.net</span></a> . We thank you all for listening! Goodbye!</p>
 ]]></description>
 
@@ -3418,6 +3423,11 @@ new (Future Post...Probably).</p>
 
     <link>https://kjaymiller.com/wayne-jones-let-s-learn-together-the-pit-show-preseason</link>
 <pubDate>Tue, 01 Sep 2020 16:46:02 -0700</pubDate><guid isPermaLink="false">wayne-jones-let-s-learn-together-the-pit-show-preseason</guid></item><item>
+<title>But Look at the Numbers: Using Public Data to Highlight Systemic Problems</title>  <description><![CDATA[<p>This talk explores the process of looking at public data made by the San Diego Police department and other public sources that show an obvious story of systemic issues in searches, stops, and sadly police involved shootings.</p>
+]]></description>
+
+    <link>https://kjaymiller.com/but-look-at-the-numbers-using-public-data-to-highlight-systemic-problems</link>
+<pubDate>Sun, 20 Jun 2021 00:00:00 -0700</pubDate><guid isPermaLink="false">but-look-at-the-numbers-using-public-data-to-highlight-systemic-problems</guid></item><item>
 <title>The Cost of Running with Scratched Itches</title>  <description><![CDATA[<p>I have friends that make things. They also inspire me to make things.</p>
 
 <blockquote>
@@ -4919,6 +4929,11 @@ echo $AP_STAT | awk '/Connected: Yes/{print 1}'
 
     <link>https://kjaymiller.com/quickly-set-your-environment-with-bunch-and-alfred</link>
 <pubDate>Tue, 01 Oct 2019 11:00:00 -0700</pubDate><guid isPermaLink="false">quickly-set-your-environment-with-bunch-and-alfred</guid></item><item>
+<title>Enhancing Civics Data with Elasticsearch, pandas and Eland</title>  <description><![CDATA[<p>Many cities in the United States provide data as a part of the oversight initiatives and federal compliance. However, datasets often present information in incomplete or hard-to-compare formats.</p><p>This talk will break down how to compile data from the San Diego Police Department into pandas dataframes and use geopandas, eland, and Elasticsearch to enrich the data with approximate GeoPoints so that it can be visualized in Kibana or a public plotting platform.</p>
+]]></description>
+
+    <link>https://kjaymiller.com/enhancing-civics-data-with-elasticsearch-pandas-and-eland</link>
+<pubDate>Tue, 04 May 2021 00:00:00 -0700</pubDate><guid isPermaLink="false">enhancing-civics-data-with-elasticsearch-pandas-and-eland</guid></item><item>
 <title>My Anxiety Makes Me Get Things Done</title>  <description><![CDATA[<p>Recently I've been on a tear with new podcasts, live streams, and communities.</p>
 
 <p>My secret is these are all <em>cries for help</em>. </p>
@@ -9810,6 +9825,11 @@ violence in Black communities in NYC.</p>
 
     <link>https://kjaymiller.com/how-to-automate-form-filling-with-keyboard-maestro-for-big-sur</link>
 <pubDate>Wed, 03 Mar 2021 11:12:00 -0800</pubDate><guid isPermaLink="false">how-to-automate-form-filling-with-keyboard-maestro-for-big-sur</guid></item><item>
+<title>How I turned a podcast into a business with Python (and some Other Tools we won&#39;t talk about)</title>  <description><![CDATA[<p>I started podcasting in 2014 with the idea that I could use is to become more productive. That idea grew into a business where I help other people in tech do the same thing.</p>
+]]></description>
+
+    <link>https://kjaymiller.com/how-i-turned-a-podcast-into-a-business-with-python-and-some-other-tools-we-won-t-talk-about</link>
+<pubDate>Sun, 03 Nov 2019 00:00:00 -0700</pubDate><guid isPermaLink="false">how-i-turned-a-podcast-into-a-business-with-python-and-some-other-tools-we-won-t-talk-about</guid></item><item>
 <title>TEKTOK Podcast - EP083 - Kinda Untechish</title>  <description><![CDATA[<p class=""></p>
 ]]></description>
 
@@ -10096,6 +10116,11 @@ Links:</em>*</p>
 
     <link>https://kjaymiller.com/travel-parenting-and-adhd-with-heidi-waterhouse</link>
 <pubDate>Mon, 04 Mar 2019 18:05:00 -0800</pubDate><guid isPermaLink="false">travel-parenting-and-adhd-with-heidi-waterhouse</guid></item><item>
+<title>Getting your Data into Elasticsearch, Let me count the ways</title>  <description><![CDATA[<p>There are a few different ways for you to index your data into Elasticsearch. This talk will cover how to make your data searchable via your web app or from a data frame.</p>
+]]></description>
+
+    <link>https://kjaymiller.com/getting-your-data-into-elasticsearch-let-me-count-the-ways</link>
+<pubDate>Sat, 31 Jul 2021 00:00:00 -0700</pubDate><guid isPermaLink="false">getting-your-data-into-elasticsearch-let-me-count-the-ways</guid></item><item>
 <title>[Podcast] PIT Podcast Ep 5: What Companies AND Candidates can do Better in the Hiring Process with John Knox</title>  <description><![CDATA[<p>This week on the Productivity in Tech Podcast, I spoke with John Knox.</p>
 
 <p>John left Evernote in Austin, TX to join his partner in Minneapolis, MN.</p>
@@ -10435,6 +10460,11 @@ commit hash before the one you want to drop
 
     <link>https://kjaymiller.com/dont-volcano-your-project</link>
 <pubDate>Thu, 28 Jan 2021 17:00:00 -0800</pubDate><guid isPermaLink="false">dont-volcano-your-project</guid></item><item>
+<title>Reinvent the Wheel (But Add Spikes to It)</title>  <description><![CDATA[<p>In my quest to grow as a python developer I learned a lot from reinventing the wheel. While I don't think you should use your wheel prototypes in production, I do think that a lot can be learned from reinventing the wheel.</p>
+]]></description>
+
+    <link>https://kjaymiller.com/reinvent-the-wheel-but-add-spikes-to-it</link>
+<pubDate>Sat, 01 Feb 2020 00:00:00 -0800</pubDate><guid isPermaLink="false">reinvent-the-wheel-but-add-spikes-to-it</guid></item><item>
 <title>What Does Content Look Like in 2020 and Stop Taking Yourself So Seriously!</title>  <description><![CDATA[<p>This week, Jay talks about where content creators are going and what that means for the state of tech content in 2020. Also Part 2 of Zac Braddy's Interview.</p>
 
 <iframe width="100%" height="180" frameborder="no" scrolling="no" seamless src="https://share.transistor.fm/e/4a020536"></iframe>
@@ -10442,6 +10472,11 @@ commit hash before the one you want to drop
 
     <link>https://kjaymiller.com/what-does-content-look-like-in-2020-and-stop-taking-yourself-so-seriously</link>
 <pubDate>Tue, 15 Sep 2020 16:09:57 -0700</pubDate><guid isPermaLink="false">what-does-content-look-like-in-2020-and-stop-taking-yourself-so-seriously</guid></item><item>
+<title>Telling The Server User Story Through The Elastic Stack</title>  <description><![CDATA[<p>Elastic has an ecosystem of products that to tell a story around both internal and external data. Companies use the Elastic Stack to gain insight on websites, businesses, and products. Diversityorgs.tech allows guests to search for diversity-focused orgs in their area. We’ll look at web traffic and examine trends in orgs searched. I'll explain ingesting that data from NGINX logs using Beats. We’ll look at analytics from Elastic App Search and visualize this information with Kibana. Finally, we'll use that information to implement a new feature giving people requests based on their perceived area, ALL WHILE REQUIRING NO COOKIES OR TRACKING FROM OUR USERS.</p>
+]]></description>
+
+    <link>https://kjaymiller.com/telling-the-server-user-story-through-the-elastic-stack</link>
+<pubDate>Sun, 21 Mar 2021 00:00:00 -0700</pubDate><guid isPermaLink="false">telling-the-server-user-story-through-the-elastic-stack</guid></item><item>
 <title>TEKTOK Podcast - EP086 - The Automatics</title>  <description><![CDATA[<p class="">TEKTOK Show Notes</p><p class="">Episode: <a href="http://tekside.net/tektok?format=rss"><span>86</span></a></p><p class="">Date: 05/12/21</p><p class="">Hosts: Colin ✅ Gold, Jay Miller &amp; Clay Russell</p><p class=""><br /></p><p class="">TEK Topics</p><ul><li><p class="">&nbsp;Colin: The power of Drafts, do you and have you?</p><ul><li><p class="">What was the first Drafts action you created?</p></li><li><p class="">Do you still use it?</p></li></ul></li><li><p class="">&nbsp;Jay: What’s an automation or workflow that you’re still proud of to this day?</p><ul><li><p class="">Jay’s Guest Appearance on Automators</p></li></ul></li><li><p class="">&nbsp;Clay: The Best of the Best</p><ul><li><p class="">Your #1 Tool, App, or Service for PIM (Personal Information Management)</p><ul><li><p class="">Email&nbsp;</p></li><li><p class="">Calendar</p></li><li><p class="">Contacts</p></li><li><p class="">Projects&nbsp;</p></li><li><p class="">Tasks</p></li><li><p class="">Notes</p></li><li><p class="">Habits</p></li><li><p class="">Journaling&nbsp;</p></li></ul></li></ul></li></ul><ul><li><p class="">Jay - <a href="https://hookproductivity.com/"><span>Hook</span></a> (Mac Only but there’s a workaround)</p></li></ul><p class="">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; </p><p class="">Sweet &amp; Sour TEK</p><ul><li><p class="">&nbsp;Colin: Drafts watch face app</p></li><li><p class="">&nbsp;Jay: <a href="https://cottonbureau.com/products/the-subtle-notebook"><span>Subtle Notebook</span></a> (Y’all were trippin’ that I was using omnifocus but I told you the bujo ain’t going no where. :P )</p></li><li><p class="">&nbsp;Clay: The Color watch face on watchOS</p></li></ul><p class=""></p><p class="">How to Reach Us</p><p class="">Where you can reach the TEKTOK gang</p><ul><li><p class="">Colin -&nbsp; <a href="http://twitter.com/colingold"><span>@colingold</span></a>&nbsp;</p></li><li><p class="">Jay - <a href="http://twitter.com/kjaymiller"><span>@kjaymiller</span></a></p></li><li><p class="">Clay -&nbsp; <a href="http://twitter.com/clayrussell"><span>@clayrussell</span></a>&nbsp;&nbsp;</p></li></ul><p class=""></p><p class="">In Closing</p><p class="">Please subscribe to the show in <a href="https://podcasts.apple.com/us/podcast/tektok-podcast/id875056387"><span>Apple Podcasts</span></a>&nbsp; or&nbsp; <a href="https://goo.gl/app/playmusic?ibi=com.google.PlayMusic&amp;isi=691797987&amp;ius=googleplaymusic&amp;link=https://play.google.com/music/m/Ifbau5sq4uurrg4hifug5oacshq?t%3DTEKTOK_Podcast_-_The_TEKSide_Network"><span>Google Play</span></a>&nbsp; and take the time to leave us a review and comment. We have a Patreon page. This gives our dedicated and loyal listeners an opportunity to support the podcast for as little as $1 a month. If you would like to support us, visit our support page at&nbsp; <a href="http://www.patreon.com/tekside"><span>www.patreon.com/tekside</span></a> . Leave us a comment on Twitter <a href="http://twitter.com/%23!/TEKTOKpodcast"><span>@TEKTOKpodcast</span></a>&nbsp; or email the podcast at&nbsp; <span>tektok@tekside.net</span> . Check out our website at&nbsp; <a href="http://tekside.net/tektok/"><span>tekside.net/tektok</span></a> . Also be sure to check out all our other great podcasts, blogs, photo galleries and the TEKSide store on&nbsp; <a href="http://tekside.net/"><span>tekside.net</span></a> . We thank you all for listening! Goodbye!</p>
 ]]></description>
 
