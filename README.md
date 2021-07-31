@@ -2,9 +2,9 @@ Jay Miller is a devleoper advocate, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [On Blizzard/Activision lawsuit](https://kjaymiller.com/on-blizzard-activision-lawsuit)**
+**Latest Post - [2: When You Can’t Even (Or Odd)](https://kjaymiller.com/conduit-2-when-you-cant-even-or-odd)**
 
-**Latest Conduit Episode - [1: Our Systems: The Unicorn & Silk Sonic Methods](http://relay.fm/conduit/1)**
+**Latest Conduit Episode - [2: When You Can’t Even (Or Odd)](http://relay.fm/conduit/2)**
 
 ## Active Projects
 
