@@ -15,15 +15,18 @@
     "retired": {
 	"Bob's Taverncast": {
 	    "url": "https://bobstavern.pub",
-	    "image": "https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg"
+	    "image": "https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg",
+	    "feed_url": "https://feeds.transistor.fm/bobs-taverncast-a-hearthstone-battlegrounds-podcast"
 	    },
 	"The PIT Show": {
 	    "url":"https://podcast.productivityintech.com",
-	    "image": "https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg"
+	    "image": "https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg",
+	    "feed_url": "https://feeds.transistor.fm/productivity-in-tech-podcast"
 	    },
 	"Ask a Brit": {
 		"url": "https://askabrit.transistor.fm",
-		"image": "https://ik.imagekit.io/cxazzw3yew//AskABritv4.png"
+		"image": "https://ik.imagekit.io/cxazzw3yew//AskABritv4.png",
+		"feed_url": "https://feeds.transistor.fm/askabrit"
 	}
     }
 }

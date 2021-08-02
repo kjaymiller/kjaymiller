@@ -47,11 +47,12 @@ def download(podcast_name, podcast_data, from_date):
         Path("content", f"{slugify(filepath)}.md").write_text(post_content)
 
 
-def main(json_file):
+def main(json_file, section="active"):
     with open(json_file) as filepath:
         podcasts = json.load(filepath)
 
-        for name, podcast in podcasts["active"].items():
+        for name, podcast in podcasts[section].items():
+            print(f"processing {name}")
             from_date = podcast.get("from_date", "06 October 1989 12:00 GMT")
             download(
                 podcast_name = name,
@@ -62,3 +63,4 @@ def main(json_file):
 
 if __name__ == "__main__":
     main("content/podcasts.json")
+    main("content/podcasts.json", section="retired")
