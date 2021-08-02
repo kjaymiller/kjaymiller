@@ -3,6 +3,7 @@
     "abstract":"There are a few different ways for you to index your data into Elasticsearch. This talk will cover how to make your data searchable via your web app or from a data frame.",
     "last_presented": "July 31, 2021",
     "event": "PyOhio",
+    "image": "https://www.pyohio.org/2021/static/ac971189777933ca2867b5429c716436/ef841/catalyst-site-logo.webp",
     "embed": "https://www.youtube.com/embed/oJn7VhANpW0",
     "link": "https://www.pyohio.org/2021/program/talks/getting-your-data-into-elasticsearch-let-me-count-the-ways",
     "slides": "https://www.slideshare.net/JayMiller73/getting-your-data-in-and-out-of-elasticsearch-let-me-count-the-ways",
