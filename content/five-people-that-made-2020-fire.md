@@ -25,7 +25,7 @@ April Wensel is the founder of [Compassionate Coding][Compassionate Coding], a c
 
 Carol was the first person to comment on one of my coding projects. This was back in 2014 when I was just learning Python and my code wasn't wonderful. Still, Carol saw beyond my non-perfect code and saw the practicality of the work.
 
-Fast forward 6 years Carol reached out to me asking to help me on my job journey. She provided great resume advice and has kept up with what I've been working on. She's even helped me think about some of the [Render Engine](https://render-engine.site).
+Fast forward 6 years Carol reached out to me asking to help me on my job journey. She provided great resume advice and has kept up with what I've been working on. She's even helped me think about some of the [Render Engine](https://render-engine.readthedocs.org).
 
 Carol is a great leader in the Python community and has mentored many great folks in the tech industry. I am glad to be included in her illustrious list.
 

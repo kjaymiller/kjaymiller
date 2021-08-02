@@ -38,7 +38,7 @@ both and about 5 short blog posts all in one sitting..... lol.</p>
 
     <link>https://kjaymiller.com/microblog/20200305140200</link>
 <pubDate>Thu, 05 Mar 2020 14:02:00 -0800</pubDate><guid isPermaLink="false">20200305140200</guid></item><item>
-  <description><![CDATA[<p>I just published a couple of blog posts on the <a href="https://render-engine.site/blog/blog">Render Engine Blog</a>. They show a couple of things that I've been doing with my own builds and projects.</p>
+  <description><![CDATA[<p>I just published a couple of blog posts on the <a href="https://render-engine.readthedocs.org/blog/blog">Render Engine Blog</a>. They show a couple of things that I've been doing with my own builds and projects.</p>
 ]]></description>
 
     <link>https://kjaymiller.com/microblog/20200828161500</link>
@@ -201,7 +201,7 @@ back).</p>
 <pubDate>Wed, 26 Feb 2020 11:07:00 -0800</pubDate><guid isPermaLink="false">20200226110700</guid></item><item>
   <description><![CDATA[<p>Having fun writing docs for render engine.. Also it has a new home 🏠.</p>
 
-<p><a href="https://render-engine.site">https://render-engine.site</a></p>
+<p><a href="https://render-engine.readthedocs.org">https://render-engine.readthedocs.org</a></p>
 ]]></description>
 
     <link>https://kjaymiller.com/microblog/20200706163100</link>
@@ -273,7 +273,7 @@ back).</p>
 
     <link>https://kjaymiller.com/microblog/20200525235800</link>
 <pubDate>Mon, 25 May 2020 23:58:00 -0700</pubDate><guid isPermaLink="false">20200525235800</guid></item><item>
-  <description><![CDATA[<p>I've been working on the next feature for <a href="https://render-engine.site">Render
+  <description><![CDATA[<p>I've been working on the next feature for <a href="https://render-engine.readthedocs.org">Render
 Engine</a> – Pagination.</p>
 
 <p>I do think this will be the last feature for a while. I really need to update
