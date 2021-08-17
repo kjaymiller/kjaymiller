@@ -73,7 +73,7 @@ It did take a couple of asks to bring people onto the show. Sometimes they were 
 **In the future**, be patient and do  (unless they say "No" then respect their wishes)
 
 ## Engagement > Listeners
-Engagement gives you insight to what your most engaged fans want. You will make more money per engaged person vs those listening but not engaging.^1
+Engagement gives you insight to what your most engaged fans want. You will make more money per engaged person vs those listening but not engaging.[^1]
 
 **In the future**, focus on your audience. Make content for them. Growth will happen until it doesn't. It's the folks that support you that you should be connecting with and learning from and serving.
 
