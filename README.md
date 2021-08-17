@@ -2,7 +2,7 @@ Jay Miller is a devleoper advocate, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [3: Getting Away, Now!](https://kjaymiller.com/conduit-3-getting-away-now)**
+**Latest Post - [The PIT Show Post Mortem](https://kjaymiller.com/the-pit-show-post-mortem)**
 
 **Latest Conduit Episode - [3: Getting Away, Now!](http://relay.fm/conduit/3)**
 
