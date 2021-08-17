@@ -4,3 +4,6 @@ article a {
    font-weight: bold;
 }
 article p {margin: 1em auto}
+
+article h2 {font-size: 1.2rem;}
+article h1 {font-size: 1.3rem;}
