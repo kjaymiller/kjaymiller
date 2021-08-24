@@ -1,10 +1,10 @@
 {
     "Render Engine": {
-        "image": "https://ik.imagekit.io/cxazzw3yew/render-engine-logo.png",
+        "image": "https://kjaymiller.s3-us-west-2.amazonaws.com/images/render-engine-logo.png",
         "url": "https://render-engine.readthedocs.io/en/latest/"
     },
     "DiversityOrgs.Tech": {
-        "image": "https://ik.imagekit.io/cxazzw3yew/diversity-orgs-logo.png",
+        "image": "https://kjaymiller.s3-us-west-2.amazonaws.com/images/diversity-orgs-logo.png",
         "url": "https://diversityorgs.tech"
     }
 }

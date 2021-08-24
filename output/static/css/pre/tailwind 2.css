@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+    a {
+      @apply underline;
+    }
+    p {
+     @apply m-2;
+    }
+
+    h2 {
+        @apply text-4xl;
+        @apply font-bold;
+        @apply my-4;
+    }
+
+    h3 {
+        @apply text-2xl;
+        @apply font-bold;
+        @apply my-3;
+    }
+
+    ul {
+        @apply list-disc;
+        @apply mx-4;
+    }
+
+    li {
+        @apply mx-5;
+    }
+    
+    input, textarea {
+        @apply border;
+        @apply rounded;
+        @apply p-2;
+    }
+    
+    .content {
+        @apply text-lg;
+    }
+
+    .content img {
+        @apply m-5;
+    }
+
+    blockquote {
+        @apply bg-gray-200;
+        @apply text-lg;
+        @apply text-gray-500;
+        @apply p-4;
+        @apply m-3;
+    }
+
+    .social{
+        @apply w-full;
+        transition: background 0.3s ease-in;
+    }
+    .youtube:hover{
+        background-color: #FF0000;
+    }
+    .twitter:hover{
+        background-color: #1ba0f2;
+    }
+    .linkedin:hover{
+        background-color: #0966c3;
+    }
+    .twitch:hover{
+        background-color: #9146ff;
+    }
+
+
+    .content img {
+        max-height: 500px;
+    }
+
+    code {
+        @apply max-w-full;
+        @apply text-base;
+        @apply bg-gray-100;
+        @apply m-1;
+        @apply p-1;
+        @apply rounded;
+    }

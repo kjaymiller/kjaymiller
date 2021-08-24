@@ -1,8 +1,7 @@
 ---
 title: The PIT Show Post Mortem
 date: 17 Aug 2021 07:30
-tags: projects
----
+tags: 
 
 > I recently did a post-mortem for the PIT Show (formerly known as the Productivity in Tech Podcast). I wanted to break down the takeaways I got from it.
 
