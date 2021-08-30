@@ -29,13 +29,13 @@ class Pages(Collection):
 
 @mysite.register_collection
 class Blog(Blog):
-    routes = ["", "/blog"]
-    template = "blog.html"
-    archive_template = "blog_list.html"
-    archive_slug = "all_posts"
-    content_path = "content"
-    subcollections = ["category", "tags"]
-    paginated = True
+   routes = ["", "/blog"]
+   template = "blog.html"
+   archive_template = "blog_list.html"
+   archive_slug = "all_posts"
+   content_path = "content"
+   subcollections = ["category", "tags"]
+   paginated = True
 
 
 @mysite.register_collection

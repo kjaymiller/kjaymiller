@@ -1,5 +1,4 @@
 import typer
-import podreader
 
 from routes import mysite
 
