@@ -2,9 +2,9 @@ Jay Miller is a devleoper advocate, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [The PIT Show Post Mortem](https://kjaymiller.com/the-pit-show-post-mortem)**
+**Latest Post - [4: Big and Little Wind Downs](https://kjaymiller.com/conduit-4-big-and-little-wind-downs)**
 
-**Latest Conduit Episode - [3: Getting Away, Now!](http://relay.fm/conduit/3)**
+**Latest Conduit Episode - [4: Big and Little Wind Downs](http://relay.fm/conduit/4)**
 
 ## Active Projects
 
