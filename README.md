@@ -2,9 +2,9 @@ Jay Miller is a devleoper advocate, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [4: Big and Little Wind Downs](https://kjaymiller.com/conduit-4-big-and-little-wind-downs)**
+**Latest Post - [5: Sustained Progress: Over Being Overwhelmed](https://kjaymiller.com/conduit-5-sustained-progress-over-being-overwhelmed)**
 
-**Latest Conduit Episode - [4: Big and Little Wind Downs](http://relay.fm/conduit/4)**
+**Latest Conduit Episode - [5: Sustained Progress: Over Being Overwhelmed](http://relay.fm/conduit/5)**
 
 ## Active Projects
 
