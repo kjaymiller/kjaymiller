@@ -2,9 +2,9 @@ Jay Miller is a devleoper advocate, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [5: Sustained Progress: Over Being Overwhelmed](https://kjaymiller.com/conduit-5-sustained-progress-over-being-overwhelmed)**
+**Latest Post - [6: Getting back into the Swing of Things 🏏](https://kjaymiller.com/conduit-6-getting-back-into-the-swing-of-things)**
 
-**Latest Conduit Episode - [5: Sustained Progress: Over Being Overwhelmed](http://relay.fm/conduit/5)**
+**Latest Conduit Episode - [6: Getting back into the Swing of Things 🏏](http://relay.fm/conduit/6)**
 
 ## Active Projects
 
