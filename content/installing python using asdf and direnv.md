@@ -5,7 +5,7 @@ tags: python, code
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/python_3_10_asdf_errors_python_versions.png
 ---
 
-Recently [Python Bytes][!g python bytes asdf] a post mentioned using [asdf][!g asdf version manager] and direnv to manage Python versions.
+Recently [Python Bytes][6937-0001] a post mentioned using [asdf][6937-0002] and direnv to manage Python versions.
 
 I've always looked for a good way to have auto-setting environments and while `virtualenvwrapper` did a lot for that. I feel like using pyenv via Homebrew was a step backward, having to initialize `pyenv-virtualenvwrapper` every time I opened the terminal felt like I was doing something wrong. _I probably was_.
 
@@ -56,3 +56,5 @@ Then you will need to activate direnv using `direnv allow`.
 [2889-0003]: https://www.zsh.org/ "Zsh"
 [2889-0004]: https://ohmyz.sh/ "Oh My Zsh - a delightful & open source framework for Zsh"
 [2889-0005]: https://github.com/danhper/asdf-python "GitHub - danhper/asdf-python"
+[6937-0001]: https://pythonbytes.fm/episodes/show/249/all-of-linux-as-a-python-api
+[6937-0002]: https://asdf-vm.com/ "Home - asdf"
