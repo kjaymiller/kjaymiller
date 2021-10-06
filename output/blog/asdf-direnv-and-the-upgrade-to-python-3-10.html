@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" type="text/css" href="/static/css/tailwind.css">
+    <script src="https://kit.fontawesome.com/4ac674b58e.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/static/css/base.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/pygments.css">
+    
+  <link rel="stylesheet"  type="text/css" href="/static/css/blog.css">
+
+    <title>
+      
+      asdf, direnv and the upgrade to python 3.10 - Jay Miller
+    </title>
+  </head>
+  <body class="flex flex-col h-full"> 
+    <header class="bg-gradient-to-br from-purple-600 to-indigo-800 w-full flex xl:py-10 py-3 px-3">
+    <div class="lg:mx-auto container">
+	<div class="flex items-end">
+	<h1 id="" class="title mx-3 text-4xl font-extrablack text-gray-200">
+	  <a class="hover:no-decorate" href="/">Jay Miller</a>
+	</h1>
+    </div>
+  <div class="md:flex hidden" id="site-menu">
+            
+            <div class="p-3">
+                <a class="rounded p-2 hover:bg-gray-200 hover:text-gray-600 text-gray-200" href="/about.html">
+                About
+                </a>
+            </div>
+            
+            <div class="p-3">
+                <a class="rounded p-2 hover:bg-gray-200 hover:text-gray-600 text-gray-200" href="/blog-0.html">
+                Blog
+                </a>
+            </div>
+            
+            <div class="p-3">
+                <a class="rounded p-2 hover:bg-gray-200 hover:text-gray-600 text-gray-200" href="https://www.youtube.com/channel/UCjoJU65IbXkKXsNqydro05Q">
+                YouTube
+                </a>
+            </div>
+            
+            <div class="p-3">
+                <a class="rounded p-2 hover:bg-gray-200 hover:text-gray-600 text-gray-200" href="/conference-talks.html">
+                Talks
+                </a>
+            </div>
+            
+            <div class="p-3">
+                <a class="rounded p-2 hover:bg-gray-200 hover:text-gray-600 text-gray-200" href="/podcasts.html">
+                Podcasts
+                </a>
+            </div>
+            
+            <div class="p-3">
+                <a class="rounded p-2 hover:bg-gray-200 hover:text-gray-600 text-gray-200" href="/projects.html">
+                Projects
+                </a>
+            </div>
+            
+            <div class="p-3">
+                <a class="rounded p-2 hover:bg-gray-200 hover:text-gray-600 text-gray-200" href="/subscribe">
+                Newsletter
+                </a>
+            </div>
+            
+            <div class="p-3">
+                <a class="rounded p-2 hover:bg-gray-200 hover:text-gray-600 text-gray-200" href="/contact">
+                Contact
+                </a>
+            </div>
+            
+  </div>
+  <div class="hidden">
+    <form role="search" action="https://search.kjaymiller.com/">
+        <div class="md:flex hidden">
+        <input type="text" style="padding-left: 3em; background: url('/static/files/search.svg') 7px 0px white no-repeat" class="inline border border-blue-800 rounded-full" name="q" id="search-bar" placeholder="Search"/>
+        </div>
+    </form>
+</div>
+    </div>
+</header>
+    <div class="m-4 xl:mx-auto container flex-grow">
+         
+<div class="container mx-auto m-4">
+    <article>
+            <div class="m-3">
+                <h1 class="title text-4xl font-bold">asdf, direnv and the upgrade to python 3.10</h1>
+              <small class="column is-narrow">
+              Oct 06, 2021 07:16 AM
+              </small>
+
+        </div>
+              <section class="bg-gray-400 flex">
+                  <div class="px-3">
+                  
+                  
+                    <p class="">
+                    <strong>Tags: </strong>
+                    
+                    <small class="mx-2 p-1 rounded border border-gray-400 bg-gray-200">
+   <a href="python-0"
+    class="">python
+   </a> 
+</small >
+                    
+                    <small class="mx-2 p-1 rounded border border-gray-400 bg-gray-200">
+   <a href="code-0"
+    class="">code
+   </a> 
+</small >
+                    
+                    </p>
+                    
+                </div>
+              </section>
+        </section>
+        <hr />
+
+        
+
+        
+        
+        
+	<img src="">
+    <section class="section my-4 py-4">
+          <div class="content">
+            <p>Recently [Python Bytes][!g python bytes asdf] a post mentioned using [asdf][!g asdf version manager] and direnv to manage Python versions.</p>
+
+<p>I've always looked for a good way to have auto-setting environments and while <code>virtualenvwrapper</code> did a lot for that. I feel like using pyenv via Homebrew was a step backward, having to initialize <code>pyenv-virtualenvwrapper</code> every time I opened the terminal felt like I was doing something wrong. <em>I probably was</em>.</p>
+
+<p>That said asdf gives you pyenv-like<sup class="footnote-ref" id="fnref-1"><a href="#fn-1">1</a></sup> simplicity for running multiple versions of Python (and nvm, and ruby, and other things).</p>
+
+<h2>My Installation</h2>
+
+<h3>Pre-Requisites</h3>
+
+<p><strong>Install <a href="https://brew.sh/" title="The Missing Package Manager for macOS (or Linux) — Homebrew">Homebrew</a></strong>. We aren't removing it from our setup, just liberating it from programming language version management responsibilities.</p>
+
+<p><strong>Install <a href="https://direnv.net/" title="direnv – unclutter your .profile - direnv">direnv</a></strong>. Using the <code>layout</code> command is how we'll create that auto-environment control. layout will create a <em>shim</em> of our requested Python version in the <code>.direnv</code> directory of our project<sup class="footnote-ref" id="fnref-2"><a href="#fn-2">2</a></sup>.</p>
+
+<p><strong>[Optional]</strong> - This blog post is using <a href="https://www.zsh.org/" title="Zsh">zsh</a> and <a href="https://ohmyz.sh/" title="Oh My Zsh - a delightful &amp; open source framework for Zsh">ohmyzsh</a> as the environment. It's not required but this post will explain the setup using that.</p>
+
+<h2>Install asdf and Python</h2>
+
+<p>Run <code>brew install asdf</code>. If running ohmyzsh, you can add asdf to the list of plugins, otherwise be sure to follow any setup instructions.</p>
+
+<p><img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/python_3_10_asdf_errors_omz_plugins.png" alt="zsh plugins" />.</p>
+
+<p>You'll also need the <a href="https://github.com/danhper/asdf-python" title="GitHub - danhper/asdf-python">asdf-python plugin</a> with <code>asdf plugin-add python</code></p>
+
+<p>Next you'll need to install Python through asdf. I recommend completely <a href="https://dev.to/therealdarkmage/clean-up-and-remove-a-python3-homebrew-install-21ai">uninstalling Python via Homebrew</a>. Once that is done you can re-install Python using the command <code>asdf install python &lt;PYTHON VERSION&gt;</code> you can also use <code>latest</code> for the Python version if you aren't sure with version is the latest one.</p>
+
+<p>You can verify the python versions installed using <code>asdf list python</code>. You can verify that asdf installed version of python is default by running <code>which python</code>.</p>
+
+<p>If you have multiple versions installed, you can select the version similar to <code>pyenv</code> using <code>asdf global python &lt;PYTHON VERSION&gt;</code></p>
+
+<p>You can tell which one is set using <code>python --version</code>.</p>
+
+<p><img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/python_3_10_asdf_errors_python_versions.png" alt="asdf python versions" /></p>
+
+<h2>Register a Python Environment for Your Project</h2>
+
+<p>When you want to create a new project make the directory for that project. Then create a .envrc file and add <code>layout python &lt;PYTHON VERSION&gt;</code></p>
+
+<p>I had a recent issue with the <PYTHON VERSION> part of this<sup class="footnote-ref" id="fnref-3"><a href="#fn-3">3</a></sup>. If you drop this then it will use the latest version by default.</p>
+
+<p>Then you will need to activate direnv using <code>direnv allow</code>.</p>
+
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn-1">
+<p>If I remember correctly it's actually using pyenv to manage the version. I'm too lazy to check.&#160;<a href="#fnref-1" class="footnoteBackLink" title="Jump back to footnote 1 in the text.">&#8617;</a></p>
+</li>
+
+<li id="fn-2">
+<p>Also thanks to <a href="https://jefftriplett.com">Jeff Triplett</a> who got me into direnv for directory based environment variables a while ago.&#160;<a href="#fnref-2" class="footnoteBackLink" title="Jump back to footnote 2 in the text.">&#8617;</a></p>
+</li>
+
+<li id="fn-3">
+<p>To be fair, at the time of writing the version I was trying to use was less than 24 hours old so things may not have been updated yet. I just tried again before releasing this and the problem has been fixed.&#160;<a href="#fnref-3" class="footnoteBackLink" title="Jump back to footnote 3 in the text.">&#8617;</a></p>
+</li>
+</ol>
+</div>
+ 
+          </div>
+        </section>
+      </article>
+    <section class="my-4 border-t-2 border-gray-400">
+      <div class="content p-2">
+      <a href="/blog-0.html" class="subtitle is-5 text-link">Back to
+        Blogs...</a>
+    </section>
+</div>
+
+         
+    </div>
+    <footer class="object-bottom pin-b bg-gray-100 px-4 my-4">
+  <div class="container  lg:flex md:mx-auto justify-around">
+    <p> kjaymiller.com</p>
+    <p>Website made with <a
+                            href="https://github.com/kjaymiller/render_engine">Render Engine</a> and <a href="https://tailwindcss.com">TailwindCSS</a>
+    <div>
+      <p>
+         <a href="/blog.rss.xml"><span class="icon"><i class="fas fa-rss"></i></a>
+      </p>
+    </div>
+  </div>
+  <div class="m-auto w-3/4 grid grid-cols-4 p-3">
+    <figure class="social youtube">
+        <a href="https://www.youtube.com/channel/UCjoJU65IbXkKXsNqydro05Q/">
+            <img class="rounded-full" src="https://ik.imagekit.io/cxazzw3yew/YouTube_icon_square_logo.jpg?tr=w-50" alt="YouTube">
+        </a>
+    </figure>
+    <figure class="social twitter">
+        <a href="https://twitter.com/kjaymiller">
+            <img class="rounded-full" src="https://ik.imagekit.io/cxazzw3yew/Twitter_icon_square_logo.jpg?tr=w-50 alt="Twitter">
+        </a>
+    </figure>
+    <figure class="social linkedin">
+        <a href="https://linkedin.com/in/kjaymiller">
+            <img class="rounded-full" src="https://ik.imagekit.io/cxazzw3yew/LinkedIn_icon_square_logo.jpg?tr=w-50" alt="LinkedIn">
+        </a>
+    </figure>
+</div>
+</footer>
+  </body>
+
+</html>

@@ -313,6 +313,68 @@ continue.</li>
 
     <link>https://kjaymiller.com/professional-fun-and-keeping-fun-and-career-separate-because-you-want-to</link>
 <pubDate>Mon, 16 Nov 2020 01:37:59 -0800</pubDate><guid isPermaLink="false">professional-fun-and-keeping-fun-and-career-separate-because-you-want-to</guid></item><item>
+<title>asdf, direnv and the upgrade to python 3.10</title>  <description><![CDATA[<p>Recently [Python Bytes][!g python bytes asdf] a post mentioned using [asdf][!g asdf version manager] and direnv to manage Python versions.</p>
+
+<p>I've always looked for a good way to have auto-setting environments and while <code>virtualenvwrapper</code> did a lot for that. I feel like using pyenv via Homebrew was a step backward, having to initialize <code>pyenv-virtualenvwrapper</code> every time I opened the terminal felt like I was doing something wrong. <em>I probably was</em>.</p>
+
+<p>That said asdf gives you pyenv-like<sup class="footnote-ref" id="fnref-1"><a href="#fn-1">1</a></sup> simplicity for running multiple versions of Python (and nvm, and ruby, and other things).</p>
+
+<h2>My Installation</h2>
+
+<h3>Pre-Requisites</h3>
+
+<p><strong>Install <a href="https://brew.sh/" title="The Missing Package Manager for macOS (or Linux) — Homebrew">Homebrew</a></strong>. We aren't removing it from our setup, just liberating it from programming language version management responsibilities.</p>
+
+<p><strong>Install <a href="https://direnv.net/" title="direnv – unclutter your .profile - direnv">direnv</a></strong>. Using the <code>layout</code> command is how we'll create that auto-environment control. layout will create a <em>shim</em> of our requested Python version in the <code>.direnv</code> directory of our project<sup class="footnote-ref" id="fnref-2"><a href="#fn-2">2</a></sup>.</p>
+
+<p><strong>[Optional]</strong> - This blog post is using <a href="https://www.zsh.org/" title="Zsh">zsh</a> and <a href="https://ohmyz.sh/" title="Oh My Zsh - a delightful &amp; open source framework for Zsh">ohmyzsh</a> as the environment. It's not required but this post will explain the setup using that.</p>
+
+<h2>Install asdf and Python</h2>
+
+<p>Run <code>brew install asdf</code>. If running ohmyzsh, you can add asdf to the list of plugins, otherwise be sure to follow any setup instructions.</p>
+
+<p><img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/python_3_10_asdf_errors_omz_plugins.png" alt="zsh plugins" />.</p>
+
+<p>You'll also need the <a href="https://github.com/danhper/asdf-python" title="GitHub - danhper/asdf-python">asdf-python plugin</a> with <code>asdf plugin-add python</code></p>
+
+<p>Next you'll need to install Python through asdf. I recommend completely <a href="https://dev.to/therealdarkmage/clean-up-and-remove-a-python3-homebrew-install-21ai">uninstalling Python via Homebrew</a>. Once that is done you can re-install Python using the command <code>asdf install python &lt;PYTHON VERSION&gt;</code> you can also use <code>latest</code> for the Python version if you aren't sure with version is the latest one.</p>
+
+<p>You can verify the python versions installed using <code>asdf list python</code>. You can verify that asdf installed version of python is default by running <code>which python</code>.</p>
+
+<p>If you have multiple versions installed, you can select the version similar to <code>pyenv</code> using <code>asdf global python &lt;PYTHON VERSION&gt;</code></p>
+
+<p>You can tell which one is set using <code>python --version</code>.</p>
+
+<p><img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/python_3_10_asdf_errors_python_versions.png" alt="asdf python versions" /></p>
+
+<h2>Register a Python Environment for Your Project</h2>
+
+<p>When you want to create a new project make the directory for that project. Then create a .envrc file and add <code>layout python &lt;PYTHON VERSION&gt;</code></p>
+
+<p>I had a recent issue with the <PYTHON VERSION> part of this<sup class="footnote-ref" id="fnref-3"><a href="#fn-3">3</a></sup>. If you drop this then it will use the latest version by default.</p>
+
+<p>Then you will need to activate direnv using <code>direnv allow</code>.</p>
+
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn-1">
+<p>If I remember correctly it's actually using pyenv to manage the version. I'm too lazy to check.&#160;<a href="#fnref-1" class="footnoteBackLink" title="Jump back to footnote 1 in the text.">&#8617;</a></p>
+</li>
+
+<li id="fn-2">
+<p>Also thanks to <a href="https://jefftriplett.com">Jeff Triplett</a> who got me into direnv for directory based environment variables a while ago.&#160;<a href="#fnref-2" class="footnoteBackLink" title="Jump back to footnote 2 in the text.">&#8617;</a></p>
+</li>
+
+<li id="fn-3">
+<p>To be fair, at the time of writing the version I was trying to use was less than 24 hours old so things may not have been updated yet. I just tried again before releasing this and the problem has been fixed.&#160;<a href="#fnref-3" class="footnoteBackLink" title="Jump back to footnote 3 in the text.">&#8617;</a></p>
+</li>
+</ol>
+</div>
+]]></description>
+
+    <link>https://kjaymiller.com/asdf-direnv-and-the-upgrade-to-python-3-10</link>
+<pubDate>Wed, 06 Oct 2021 07:16:00 -0700</pubDate><guid isPermaLink="false">asdf-direnv-and-the-upgrade-to-python-3-10</guid></item><item>
 <title>Getting text from websites using Keyboard Maestro</title>  <description><![CDATA[<p>In a <a href="https://kjaymiller.com/how-to-automate-form-filling-with-keyboard-maestro-for-big-sur">similar post</a> I showed how to input information into a browser using <a href="https://keyboardmaestro.com">Keyboard Maestro</a>. </p>
 
 <p>In this post I want to show another integration with your browser and show you how you can get content from your browser to do whatever you want with.</p>

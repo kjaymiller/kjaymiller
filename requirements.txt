@@ -48,11 +48,13 @@ python-slugify==5.0.2
     # via
     #   -r requirements.in
     #   render-engine
+pytz==2021.1
+    # via -r requirements.in
 pytzdata==2020.1
     # via pendulum
 pyyaml==5.4.1
     # via python-frontmatter
-render-engine @ file:///Users/kjaymiller/Documents/render_engine
+render-engine==2021.9.7
     # via -r requirements.in
 rfc3986[idna2008]==1.5.0
     # via httpx
