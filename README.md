@@ -2,7 +2,7 @@ Jay Miller is a devleoper advocate, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [6: Getting back into the Swing of Things 🏏](https://kjaymiller.com/conduit-6-getting-back-into-the-swing-of-things)**
+**Latest Post - [asdf, direnv and the upgrade to python 3.10](https://kjaymiller.com/asdf-direnv-and-the-upgrade-to-python-3-10)**
 
 **Latest Conduit Episode - [6: Getting back into the Swing of Things 🏏](http://relay.fm/conduit/6)**
 
