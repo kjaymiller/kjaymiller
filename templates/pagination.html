@@ -6,7 +6,7 @@
                                      page_index[0]-1)}}" {% if
       page_index[0] == 0 %}disabled{% endif %}>Previous</a>
       <ul class="flex list-none">
-        {% for p in range(page_index[1]) %}
+        {% for p in range(page_index[1])[:10] %}
           {% set page = p + 1 %}
         <li>
           {% if p == page_index[1] %}
