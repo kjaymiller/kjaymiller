@@ -157,4 +157,3 @@ cython_debug/
 .nova
 content/.DS_Store
 .direnv
-*.icloud
