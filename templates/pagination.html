@@ -10,10 +10,10 @@
           {% set page = p + 1 %}
         <li>
           {% if p == page_index[1] %}
-              <a href="{{slug|replace(page_index[0], p)}}" class="pagination-link is-current" aria-label="Page
+              <a href="{{slug|replace(page_index[0], p)}}" class="px-1 pagination-link is-current" aria-label="Page
                                                                   {{page}}">{{page}}</a>
           {% else %}
-              <a href="{{slug|replace(page_index[0], p)}}" class="pagination-link" aria-label="Goto page
+              <a href="{{slug|replace(page_index[0], p)}}" class="px-1 pagination-link" aria-label="Goto page
                                                        {{page}}">{{page}}</a>
           {% endif %}
         </li>
