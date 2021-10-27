@@ -15,7 +15,7 @@
 
     <title>
       
-      Getting text from websites using Keyboard Maestro - Jay Miller
+      Elasticsearch Pinboard Script (Python) - Jay Miller
     </title>
   </head>
   <body class="flex flex-col h-full"> 
@@ -185,34 +185,52 @@
 <div class="container mx-auto m-4">
     <article>
             <div class="m-3">
-                <h1 class="title text-4xl font-bold">Getting text from websites using Keyboard Maestro</h1>
+                <h1 class="title text-4xl font-bold">Elasticsearch Pinboard Script (Python)</h1><a href="https://github.com/kjaymiller/elasticsearch-pinboard">🔗</a>
               <small class="column is-narrow">
-              Mar 03, 2021 22:15 PM
+              Oct 21, 2020 18:51 PM
               </small>
 
         </div>
               <section class="bg-gray-400 flex">
                   <div class="px-3">
                   
+                  <p class=""><strong>Category: </strong><small
+                     class="tag">
+                    <a href="/Elastic-0">Elastic</a>
+                  </small>
+                  </p>
+                  
                   
                     <p class="">
                     <strong>Tags: </strong>
                     
                     <small class="mx-2 p-1 rounded border border-gray-400 bg-gray-200">
-   <a href="productivity-0"
-    class="">productivity
+   <a href="elasticsearch-0"
+    class="">elasticsearch
    </a> 
 </small >
                     
                     <small class="mx-2 p-1 rounded border border-gray-400 bg-gray-200">
-   <a href="keyboard maestro-0"
-    class="">keyboard maestro
+   <a href="python-0"
+    class="">python
    </a> 
 </small >
                     
                     <small class="mx-2 p-1 rounded border border-gray-400 bg-gray-200">
-   <a href="automation-0"
-    class="">automation
+   <a href="pinboard-0"
+    class="">pinboard
+   </a> 
+</small >
+                    
+                    <small class="mx-2 p-1 rounded border border-gray-400 bg-gray-200">
+   <a href="bookmarking-0"
+    class="">bookmarking
+   </a> 
+</small >
+                    
+                    <small class="mx-2 p-1 rounded border border-gray-400 bg-gray-200">
+   <a href="visualization-0"
+    class="">visualization
    </a> 
 </small >
                     
@@ -226,97 +244,26 @@
         
 
         
+        <div class="notification is-small">
+          <strong>Source:</strong> <a href="https://github.com/kjaymiller/elasticsearch-pinboard">https://github.com/kjaymiller/elasticsearch-pinboard</a>
+        </div>
         
         
-<div class="my-6">
-  <iframe
-    class="xl:w-2/3 w-full"
-    style="height: 32em"
-    src="https://youtube.com/embed/U_VHfB9b9oE"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen
-  ></iframe>
-</div>
-
-	<img src="https://ik.imagekit.io/cxazzw3yew/Keyboard%20Maestro%20Get%20Text%20from%20Website/execute%20javascript-squashed.png">
+        
+	<img src="https://ik.imagekit.io/cxazzw3yew/CleanShot_2020-10-21_at_18.40.49_2x_q7UEnmTnf.png">
     <section class="section my-4 py-4">
           <div class="content">
-            <p>In a <a href="https://kjaymiller.com/how-to-automate-form-filling-with-keyboard-maestro-for-big-sur">similar post</a> I showed how to input information into a browser using <a href="https://keyboardmaestro.com">Keyboard Maestro</a>. </p>
+            <p>In this <a href="/my-new-job-and-what-that-means-for-all-the-things-i-do">new gig</a>, I'm hoping to learn how to help those that are using the <a href="/elastic-0">Elastic Stack</a>, especially in Python. In a recent conversation with internet's mad scientist, <a href="https://brettterpstra.net">Brett Terpstra</a>. We were talking about <a href="https://brettterpstra.com/projects/slogger/">Slogger</a>, his retired application that he used to log his life activity into Day One. This project was eventually removed as the API for Day One changed.</p>
 
-<p>In this post I want to show another integration with your browser and show you how you can get content from your browser to do whatever you want with.</p>
+<p>This is something I've always enjoyed about Brett. He solves his quirky problems for him.</p>
 
-<p>This technique uses Javascript to return the text of an HTML element and then it can be manipulated using Keyboard Maestro.</p>
+<p>There are a few applications that are overkill or a little too creepy (exist.io) for my needs, but I did like the idea of getting an idea of "how I compute". I mean this by how I spend my time producing and collecting on the internet. One of the things that I do is collect all my twitter posts and likes and retweets in pinboard. I thought it would be great to use Pinboard's API to log and manage my own data and analyze it using the Elastic Stack. So I decided to build a <a href="https://github.com/kjaymiller/elasticsearch-pinboard">script</a> that allows me (and you if you wanna) to visualize my information.</p>
 
-<h2>Enable Javascript from Apple Events</h2>
+<p><img src="https://ik.imagekit.io/cxazzw3yew/CleanShot_2020-10-21_at_18.40.49_2x_q7UEnmTnf.png" alt="Word Cloud" /></p>
 
-<p>This setting (off by default prevents rogue applications from taking control of your browser). In most cases this is a great security measure but in our case, it breaks the Keyboard Maestro functionality.</p>
+<p>As with most of my projects I have built this in Python and it's not a commercial tool, but it is open-source and available for you to build and hack away on. </p>
 
-<h3>For Safari</h3>
-
-<p>With Safari open go to <strong>Preferences</strong> and select the advanced column.</p>
-
-<p>Check the box <em>Show Develop menu in menu bar</em></p>
-
-<p><img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/Keyboard%20Maestro%20Form%20Automation/Safari%20Show%20Develop%20Menu%20from%20MenuBar.png" alt="check the box show develop menu in menu bar" /></p>
-
-<p>In the menu bar select the <em>Develop</em> menu and select the option <em>Allow Javascript from Apple Events</em>.</p>
-
-<p><img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/Keyboard%20Maestro%20Form%20Automation/Safari%20Allow%20Javascript%20from%20Apple%20Events.png" alt="Enable Javascript from Apple Events" /></p>
-
-<h3>For Chrome</h3>
-
-<p>Chrome makes this a little easier. In the menu bar select <em>View</em>, then <em>Develop</em> (already visible) and select <em>Allow Javascript from Apple Events</em>.</p>
-
-<p>In both cases, you will see a check mark that indicates you are ready to Automate!</p>
-
-<h2>Navigate to the page you wish to get data from</h2>
-
-<p>You can use Keyboard Maestro's <strong>New Safari/Chrome Tab with URL</strong>. If you do this make sure that you wait until the page is fully loaded or data may not be collectable. Luckily there is a <em>Wait for Safari/Chrome to Finish Loading</em> action you can use.</p>
-
-<p><img src="https://ik.imagekit.io/cxazzw3yew/Keyboard%20Maestro%20Get%20Text%20from%20Website/New%20Tab%20with%20URL.png" alt="New Safari/Chrome Tab" /></p>
-
-<h2>Find the element that you wish to get the text of</h2>
-
-<p>Highlight the selected text on the page. Right Click and select <em>Inspect Element</em> (or <em>Inspect</em> for Chrome). This will open the developer console with that selected element highlighted.</p>
-
-<p><img src="https://ik.imagekit.io/cxazzw3yew/Keyboard%20Maestro%20Get%20Text%20from%20Website/inspect%20element-squashed.png" alt="Inspect Element" />
-Right click the element and hover over copy and choose the <em>Selector Path</em> (in Chrome choose <em>copy selector</em>)</p>
-
-<p><img src="https://ik.imagekit.io/cxazzw3yew/Keyboard%20Maestro%20Get%20Text%20from%20Website/copy%20selector-squashed.png" alt="Copy Selector" /></p>
-
-<h2>Use the <em>querySelector</em> method and <em>innerText</em> attribute</h2>
-
-<p>Add the <strong>Execute Javascript in Safari/Chrome</strong> action and enter the following code.</p>
-
-<div class="codehilite"><pre><span></span><code>document.querySelector(&quot;<span class="p">&lt;</span><span class="nt">PASTE</span> <span class="na">YOUR</span> <span class="na">COPIED</span> <span class="na">TEXT</span><span class="p">&gt;</span>&quot;).innerText`
-</code></pre></div>
-
-<p><code>document.querySelector</code> tells the browser to find the first element that matches your passed selection. Since you highlighted the text it will give you the most unique possible selection, so the first choice should be the correct one<sup class="footnote-ref" id="fnref-1"><a href="#fn-1">1</a></sup>.</p>
-
-<p>This however, <code>document.querySelector</code> gives you the full HTML element. So a paragraph would be</p>
-
-<div class="codehilite"><pre><span></span><code><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Lorem ipsum dolor sit amet..<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>`
-</code></pre></div>
-
-<p>We don't need the <code>&lt;p&gt;&lt;/p&gt;</code> parts. Luckily we can use the <code>innerText</code> attribute. As <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/innerText">Mozilla</a> explains it:</p>
-
-<blockquote>
-  <p>The innerText property of the HTMLElement interface represents the "rendered" text content of a node and its descendants. As a getter, it approximates the text the user would get if they highlighted the contents of the element with the cursor and then copied it to the clipboard.</p>
-</blockquote>
-
-<p>To test this you can paste your code into the console of your browser (a tab in the developer console.) or you can set the action to display the results. When you have the right element you can pass that information as a variable to use later in your Keyboard Maestro workflow or you can save it to your clipboard to paste into another window. </p>
-
-<p><img src="https://ik.imagekit.io/cxazzw3yew/Keyboard%20Maestro%20Get%20Text%20from%20Website/execute%20javascript-squashed.png" alt="Execute Javascript" /></p>
-
-<div class="footnotes">
-<hr />
-<ol>
-<li id="fn-1">
-<p>If you do need to get another version you can use <code>querySelectorAll(&lt;Your Element&gt;)</code> and choose the index that you're looking for.&#160;<a href="#fnref-1" class="footnoteBackLink" title="Jump back to footnote 1 in the text.">&#8617;</a></p>
-</li>
-</ol>
-</div>
+<p>I hope you'll check it out - <a href="https://github.com/kjaymiller/elasticsearch-pinboard">https://github.com/kjaymiller/elasticsearch-pinboard</a></p>
  
           </div>
         </section>

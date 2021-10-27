@@ -6,9 +6,7 @@
       <a class="pagination-previous" href="{{slug|replace(page_index[0],
                                      page_index[0]-1)}}">Previous</a>
      {% endif %}
-      <
-      ul class="flex list-none">
-        
+      <ul class="flex list-none"> 
         {% for p in range(page_index[1])[:10] %}
           {% set page = p + 1 %}
         <li>

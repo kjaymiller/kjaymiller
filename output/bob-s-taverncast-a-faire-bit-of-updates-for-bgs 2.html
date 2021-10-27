@@ -15,7 +15,7 @@
 
     <title>
       
-      How to Automate Form Filling with Keyboard Maestro (For Big Sur) - Jay Miller
+      A Faire Bit of Updates for BGs - Jay Miller
     </title>
   </head>
   <body class="flex flex-col h-full"> 
@@ -185,39 +185,22 @@
 <div class="container mx-auto m-4">
     <article>
             <div class="m-3">
-                <h1 class="title text-4xl font-bold">How to Automate Form Filling with Keyboard Maestro (For Big Sur)</h1>
+                <h1 class="title text-4xl font-bold">A Faire Bit of Updates for BGs</h1><a href="https://share.transistor.fm/s/22d40b36">🔗</a>
               <small class="column is-narrow">
-              Mar 03, 2021 11:12 AM
+              Dec 21, 2020 12:42 PM
               </small>
 
         </div>
               <section class="bg-gray-400 flex">
                   <div class="px-3">
                   
+                  <p class=""><strong>Category: </strong><small
+                     class="tag">
+                    <a href="/Bob&#39;s Taverncast-0">Bob&#39;s Taverncast</a>
+                  </small>
+                  </p>
                   
-                    <p class="">
-                    <strong>Tags: </strong>
-                    
-                    <small class="mx-2 p-1 rounded border border-gray-400 bg-gray-200">
-   <a href="keyboard maestro-0"
-    class="">keyboard maestro
-   </a> 
-</small >
-                    
-                    <small class="mx-2 p-1 rounded border border-gray-400 bg-gray-200">
-   <a href="automation-0"
-    class="">automation
-   </a> 
-</small >
-                    
-                    <small class="mx-2 p-1 rounded border border-gray-400 bg-gray-200">
-   <a href="productivity-0"
-    class="">productivity
-   </a> 
-</small >
-                    
-                    </p>
-                    
+                  
                 </div>
               </section>
         </section>
@@ -226,68 +209,16 @@
         
 
         
+        <div class="notification is-small">
+          <strong>Source:</strong> <a href="https://share.transistor.fm/s/22d40b36">https://share.transistor.fm/s/22d40b36</a>
+        </div>
         
         
-	<img src="https://ik.imagekit.io/cxazzw3yew/Keyboard%20Maestro%20Form%20Automation/Keyboard%20Maestro%20Set%20Safari%20Field.png">
+        
+	<img src="https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg">
     <section class="section my-4 py-4">
           <div class="content">
-            <p>Working to help a friend automate some form entry I went to look back into how I had automated a similar task a few years ago with <a href="https://keyboardmastro.com">Keyboard Maestro</a>. I was surprised at how I remembered the steps to input form fields (Big props to the KM team for making it so easy to do.)</p>
-
-<p>But when I went to test adding value to the field, I got nothing. If you're trying to automate this form filling, you may run into the same steps so hopfully this will serve as a quick guide to troubleshoot the problems you may have run into or to start automating your own form fields.</p>
-
-<p><strong>NOTE: This guide uses Safari but you can use the Chrome actions to complete the same tasks.</strong></p>
-
-<hr />
-
-<h2>Step 1: 🚨 Make sure Javascript can Be Ran FROM System Events 🚨</h2>
-
-<p>Ultimately this was the issue I ran into. This setting (off by default prevents rogue applications from taking control of your browser). In most cases this is a great security measure but in our case, it breaks the Keyboard Maestro functionality.</p>
-
-<h3>For Safari</h3>
-
-<p>With Safari open go to <strong>Preferences</strong> and select the advanced column.</p>
-
-<p>Check the box <em>Show Develop menu in menu bar</em></p>
-
-<p><img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/Keyboard%20Maestro%20Form%20Automation/Safari%20Show%20Develop%20Menu%20from%20MenuBar.png" alt="check the box show develop menu in menu bar" /></p>
-
-<p>In the menu bar select the <em>Develop</em> menu and select the option <em>Allow Javascript from Apple Events</em>.</p>
-
-<p><img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/Keyboard%20Maestro%20Form%20Automation/Safari%20Allow%20Javascript%20from%20Apple%20Events.png" alt="Enable Javascript from Apple Events" /></p>
-
-<h3>For Chrome</h3>
-
-<p>Chrome makes this a little easier. In the menu bar select <em>View</em>, then <em>Develop</em> (already visible) and select <em>Allow Javascript from Apple Events</em>.</p>
-
-<p>In both cases, you will see a check mark that indicates you are ready to Automate!</p>
-
-<h2>Step 2: Find the XPath of the field you want to Enter</h2>
-
-<p>This is where the magic happens 🧙🏾‍♂️. Finding the right field to target with information can be a challenge as websites come in many different sizes and accesssibility forms.That said you can use the tools built into Keyboard Maestro or the browser to find the correct XPath.</p>
-
-<p>Don't worry too much about what an <a href="https://developer.mozilla.org/en-US/docs/Web/XPath">XPath</a> is. You just need to know how to find it. </p>
-
-<h3>Using Keyboard Maestro</h3>
-
-<p>In Keyboard Maestro, when you select the <em>Set Safari Field to Text</em> the <em>Safari ˇ</em> will look for forms on the active tab of in your browswer and show all of the input fields available. Find the field that you want to automate with text and select it. Enter the text you wish to fill in. </p>
-
-<p><img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/Keyboard%20Maestro%20Form%20Automation/Keyboard%20Maestro%20Set%20Safari%20Field.png" alt="Choosing the XPath from Keyboard Maestro" /></p>
-
-<p><strong>NOTE: There is also a checkbox version of this that works exclusively for checkboxes</strong></p>
-
-<h3>Using Safari/Chrome</h3>
-
-<p>If you have a lot of fields that you want need to identify you can figure out the exact text field you want to add to by right-clicking the field in your browser and selecting <em>Inspect Element</em> (<em>Inspect</em> for Chrome) to view the source code. </p>
-
-<p><img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/Keyboard%20Maestro%20Form%20Automation/Safari%20Inspect%20Element.png" alt="inspect element" /></p>
-
-<p>Then in the inspector you can right click the highlighted code-block and hover over <em>copy</em> and select <em>XPath</em>.</p>
-
-<p><img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/Keyboard%20Maestro%20Form%20Automation/Copy%20XPath.png" alt="copy XPath" /></p>
-
-<p>Repeat this step as many times as you like for each field. Finally, add a submit field.</p>
-
-<p><img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/Keyboard%20Maestro%20Form%20Automation/Keyboard%20Maestro%20Submit%20Safari%20Form.png" alt="Submit Form" /></p>
+            <p><strong>Follow Bob's Tavern</strong></p><p><a href="https://twitch.tv/dragonriderdk">Follow Dawn on Twitch</a><br /><a href="https://twitch.tv/kjaymiller">Follow Jay on Twitch</a><br /><a href="https://twitch.tv/doctorfeesh">Follow Dave on Twitch</a></p><p><a href="https://twitter.com/bobstavernhs">Follow Bob'sTavernHS on Twitter</a></p><p><strong>Join in on the Conversation in Discord</strong><br /><a href="https://discord.gg/c2rFknG">Join the Bob's TavernCast Discord Server!</a><br />Bob's Taverncast is an <a href="https://amberflightgaming.wixsite.com/afgaming">Amber Flight Gaming Production</a>. </p><p><strong>⭐ Like and Share the podcast </strong><a href="http://bobstavern.pub/subscribe"><strong>everywhere podcasts can be found</strong></a></p><ul><li><a href="http://patreon.bobstavern.pub/">patreon.bobstavern.pub</a></li></ul><p>Audio Credits:<br />Guitalele's Happy Place by Stefan Kartenberg (c) copyright 2017 Licensed under a Creative Commons Attribution (3.0) license. <a href="http://dig.ccmixter.org/files/JeffSpeed68/56194">http://dig.ccmixter.org/files/JeffSpeed68/56194</a> Ft: Kara Square</p><p><strong><a href="http://patreon.bobstavern.pub" rel="payment" title="★ Support this podcast on Patreon ★">★ Support this podcast on Patreon ★</a></strong></p>
  
           </div>
         </section>
