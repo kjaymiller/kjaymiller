@@ -2,9 +2,9 @@ Jay Miller is a devleoper advocate, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [asdf, direnv and the upgrade to python 3.10](https://kjaymiller.com/asdf-direnv-and-the-upgrade-to-python-3-10)**
+**Latest Post - [8: Fear of Success, Because if I Succeed…](https://kjaymiller.com/conduit-8-fear-of-success-because-if-i-succeed)**
 
-**Latest Conduit Episode - [6: Getting back into the Swing of Things 🏏](http://relay.fm/conduit/6)**
+**Latest Conduit Episode - [8: Fear of Success, Because if I Succeed…](http://relay.fm/conduit/8)**
 
 ## Active Projects
 
