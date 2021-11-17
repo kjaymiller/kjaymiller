@@ -45,4 +45,4 @@ These days I've settle in Sunny (Most of the Time) San Diego, California where I
 ### Other Links:
 - [Talks](/conference-talks)
 - [Projects](/projects)
-- [Resume](/static/files/Jay_Miller_-_Software_Engineer.pdf)
+- [Resume](https://kjaymiller.s3-us-west-2.amazonaws.com/images/Jay_Miller_-_Developer_Advocate.pdf)
