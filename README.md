@@ -2,9 +2,9 @@ Jay Miller is a devleoper advocate, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [8: Fear of Success, Because if I Succeed…](https://kjaymiller.com/conduit-8-fear-of-success-because-if-i-succeed)**
+**Latest Post - [9: Decision Space (The TIRE Technique)](https://kjaymiller.com/conduit-9-decision-space-the-tire-technique)**
 
-**Latest Conduit Episode - [8: Fear of Success, Because if I Succeed…](http://relay.fm/conduit/8)**
+**Latest Conduit Episode - [9: Decision Space (The TIRE Technique)](http://relay.fm/conduit/9)**
 
 ## Active Projects
 
