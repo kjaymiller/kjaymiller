@@ -2,9 +2,9 @@ Jay Miller is a devleoper advocate, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [9: Decision Space (The TIRE Technique)](https://kjaymiller.com/conduit-9-decision-space-the-tire-technique)**
+**Latest Post - [10: Through the Hurt with Scotty Jackson](https://kjaymiller.com/conduit-10-through-the-hurt-with-scotty-jackson)**
 
-**Latest Conduit Episode - [9: Decision Space (The TIRE Technique)](http://relay.fm/conduit/9)**
+**Latest Conduit Episode - [10: Through the Hurt with Scotty Jackson](http://relay.fm/conduit/10)**
 
 ## Active Projects
 
