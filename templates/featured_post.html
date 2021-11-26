@@ -9,9 +9,4 @@
   </div>
   {% if featured_post.youtube %} {% set youtube = featured_post.youtube %} {%
   include 'Youtube_embed.html' %} {% endif %}
-  <div class="p-1">
-    <a href="{{featured_post.slug}}">
-      <img class="max-w-1/3" src="{{featured_post.image}}" />
-    </a>
-  </div>
 </div>
