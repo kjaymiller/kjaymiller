@@ -2,7 +2,7 @@ Jay Miller is a devleoper advocate, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [10: Through the Hurt with Scotty Jackson](https://kjaymiller.com/conduit-10-through-the-hurt-with-scotty-jackson)**
+**Latest Post - [Popclip Extension Snippets](https://kjaymiller.com/popclip-extension-snippets)**
 
 **Latest Conduit Episode - [10: Through the Hurt with Scotty Jackson](http://relay.fm/conduit/10)**
 
