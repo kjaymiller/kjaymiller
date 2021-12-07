@@ -1,6 +1,5 @@
 name: Render Engine Run
 # This workflow checks my blog for the latest posts
-#
 
 on: 
   push:
@@ -18,7 +17,7 @@ jobs:
       - name: Setup python
         uses: actions/setup-python@v1
         with:
-          python-version: "3.8"
+          python-version: "3.10"
           architecture: "x64"
 
       - name: Install Requirements
