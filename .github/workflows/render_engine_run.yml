@@ -19,9 +19,11 @@ jobs:
         with:
           python-version: "3.10"
           architecture: "x64"
+
       - name: Remove Output Folder
-        run: |
-	    rm -rf output
+        uses: JesseTG/rm@v1.0.2
+        with:
+          path: output
 
       - name: Install Requirements
         run: |
