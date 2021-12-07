@@ -2,7 +2,7 @@ Jay Miller is a devleoper advocate, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [Popclip Extension Snippets](https://kjaymiller.com/popclip-extension-snippets)**
+**Latest Post - [11: HUUUUUUUGE Opportunities For You](https://kjaymiller.com/conduit-11-huuuuuuuge-opportunities-for-you)**
 
 **Latest Conduit Episode - [11: HUUUUUUUGE Opportunities For You](http://relay.fm/conduit/11)**
 
