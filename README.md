@@ -4,7 +4,7 @@ You can see what he's posting about at <https://kjaymiller.com>.
 
 **Latest Post - [Popclip Extension Snippets](https://kjaymiller.com/popclip-extension-snippets)**
 
-**Latest Conduit Episode - [10: Through the Hurt with Scotty Jackson](http://relay.fm/conduit/10)**
+**Latest Conduit Episode - [11: HUUUUUUUGE Opportunities For You](http://relay.fm/conduit/11)**
 
 ## Active Projects
 
