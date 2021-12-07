@@ -52,5 +52,4 @@ jobs:
           timestamp=$(date -u)
           git pull
           git commit -m ":robot: Automated New Blog Post: ${timestamp}" || exit 0
-	  git tag content
           git push
