@@ -2,7 +2,10 @@ name: Render Engine Run
 # This workflow checks my blog for the latest posts
 #
 
-on: [push]
+on: 
+  push
+  schedule:
+    - cron: "0 8,12,16,20 * * *" 
 
 jobs:
   build:
@@ -28,7 +31,8 @@ jobs:
             APP_SEARCH_API_KEY: ${{ secrets.APP_SEARCH_API_KEY}}
             transistorKey: ${{ secrets.TRANSISTOR_API_KEY }}
         run: |
-            python run.py
+	    rm -rf output
+            python run.py -u
 
       - name: Setup Node
         uses: actions/setup-node@v2-beta
