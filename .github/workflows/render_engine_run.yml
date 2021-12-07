@@ -19,6 +19,9 @@ jobs:
         with:
           python-version: "3.10"
           architecture: "x64"
+      - name: Remove Output Folder
+        run: |
+	    rm -rf output
 
       - name: Install Requirements
         run: |
@@ -26,7 +29,6 @@ jobs:
 
       - name: Generate new website
         run: |
-	    rm -rf output
             python run.py -u
 
       - name: Setup Node
