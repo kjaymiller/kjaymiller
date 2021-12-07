@@ -25,10 +25,6 @@ jobs:
             pip install -r requirements.txt
 
       - name: Generate new website
-        env: 
-            APP_SEARCH_ENDPOINT: ${{ secrets.APP_SEARCH_ENDPOINT}}
-            APP_SEARCH_API_KEY: ${{ secrets.APP_SEARCH_API_KEY}}
-            transistorKey: ${{ secrets.TRANSISTOR_API_KEY }}
         run: |
 	    rm -rf output
             python run.py -u
