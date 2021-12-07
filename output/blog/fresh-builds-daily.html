@@ -11,10 +11,11 @@
     <link rel="stylesheet" type="text/css" href="/static/css/base.css">
     <link rel="stylesheet" type="text/css" href="/static/css/pygments.css">
     
+  <link rel="stylesheet"  type="text/css" href="/static/css/blog.css">
 
     <title>
       
-      github - Jay Miller
+      Fresh Builds Daily - Jay Miller
     </title>
   </head>
   <body class="flex flex-col h-full"> 
@@ -180,166 +181,90 @@
   </div>
 </header>
     <div class="m-4 xl:mx-auto container flex-grow">
-        
-<div class="container mx-auto">
-    <h2 class="title text-3xl font-bold">github</h2>
-</div>
-<div class="">
-    <div class="container mx-auto">
-        
-  <article class="flex p-2 my-3 border items-center">
-        
-        <div class="col-span-5">
+         
+<div class="container mx-auto m-4">
+    <article>
+            <div class="m-3">
+                <h1 class="title text-4xl font-bold">Fresh Builds Daily</h1>
+              <small class="column is-narrow">
+              Dec 07, 2021 13:19 PM
+              </small>
 
-          
-          <h2 class="text-xl">
-            <a href="/fresh-builds-daily">Fresh Builds Daily</a>
-          </h2>
-          <div class="flex">
-            <div class="mx-2">
-              <strong>Date:</strong> Dec 07, 2021 13:19 PM
-            </div>
-            
-              <div class="mx-2">
-                
+        </div>
+              <section class="bg-gray-400 flex">
+                  <div class="px-3">
+                  
+                  
+                    <p class="">
+                    <strong>Tags: </strong>
+                    
                     <small class="mx-2 p-1 rounded border border-gray-400 bg-gray-200">
    <a href="development-0"
     class="">development
    </a> 
 </small >
-                
+                    
                     <small class="mx-2 p-1 rounded border border-gray-400 bg-gray-200">
    <a href="github-0"
     class="">github
    </a> 
 </small >
-                
+                    
                     <small class="mx-2 p-1 rounded border border-gray-400 bg-gray-200">
    <a href="gh actions-0"
     class="">gh actions
    </a> 
 </small >
-                
-              </div>
-            
+                    
+                    </p>
+                    
+                </div>
+              </section>
+        </section>
+        <hr />
+
+        
+
+        
+        
+        
+	<img src="">
+    <section class="section my-4 py-4">
+          <div class="content">
+            <p>One of the challenges faced with faced with static site generation is not having to be on top of things. When <a href="!g conduit relay.fm">Conduit</a> releases, if I would like my website to update, this would require me to run a script to rebuild my site<sup class="footnote-ref" id="fnref-1"><a href="#fn-1">1</a></sup>. </p>
+
+<p>Yesterday I took a look at my GitHub action for triggering [render engine] to run. I was surprised to see a handful of issues that had been keeping it from running as expected for almost a year!</p>
+
+<p><img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/GH%20Action%2012%20months%20inactive.png" alt="This didn't run for 12 months" /></p>
+
+<p>After fixing what was out dated code, I added the <code>cron</code> build step to my Github action.</p>
+
+<div class="codehilite"><pre><span></span><code> <span class="n">schedule</span><span class="p">:</span>
+   <span class="o">-</span> <span class="n">cron</span><span class="p">:</span> <span class="s2">&quot;0 8,12,16,20 * * *&quot;</span> 
+</code></pre></div>
+
+<p>This gave me the ability to run my script 4x each day. Also after fixing an issue with my folder not overwriting (still not sure as to why but this <a href="https://github.com/JesseTG/rm">Remove Folder</a> action did solve the issue) this mean that I would have a clean build of my site every four hours, fixing a duplication issue that I'm still unsure of why it's happening.</p>
+
+<p>I'm not happy that I have some bugs that aren't solved but I am happy that I have a nice little fix to make sure that my site is always within 4 hours of being up to day with what I'm doing.</p>
+
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn-1">
+<p>The <a href="https://github.com/kjaymiller/kjaymiller/blob/main/podreader.py">script</a> actually pulls the latest episode from our rss feed&#160;<a href="#fnref-1" class="footnoteBackLink" title="Jump back to footnote 1 in the text.">&#8617;</a></p>
+</li>
+</ol>
+</div>
+ 
           </div>
-  </article>
-
-  <article class="flex p-2 my-3 border items-center">
-        
-        <div class="col-span-5">
-
-          
-            <span class="">
-              <a href="/code-0">code</a>
-            </span>
-          
-          <h2 class="text-xl">
-            <a href="/setup-new-github-key">Setup New Github Key</a>
-          </h2>
-          <div class="flex">
-            <div class="mx-2">
-              <strong>Date:</strong> Mar 24, 2021 14:22 PM
-            </div>
-            
-              <div class="mx-2">
-                
-                    <small class="mx-2 p-1 rounded border border-gray-400 bg-gray-200">
-   <a href="github-0"
-    class="">github
-   </a> 
-</small >
-                
-                    <small class="mx-2 p-1 rounded border border-gray-400 bg-gray-200">
-   <a href="server-0"
-    class="">server
-   </a> 
-</small >
-                
-                    <small class="mx-2 p-1 rounded border border-gray-400 bg-gray-200">
-   <a href="new machine-0"
-    class="">new machine
-   </a> 
-</small >
-                
-              </div>
-            
-          </div>
-  </article>
-
-  <article class="flex p-2 my-3 border items-center">
-        
-        <div class="col-span-5">
-
-          
-            <span class="">
-              <a href="/coding-0">coding</a>
-            </span>
-          
-          <h2 class="text-xl">
-            <a href="/how-i-autoupdate-my-github-readme-using-github-actions-in-5-easy-steps">How I AutoUpdate My Github README using GitHub Actions in 5 Easy Steps</a>
-          </h2>
-          <div class="flex">
-            <div class="mx-2">
-              <strong>Date:</strong> Jul 10, 2020 15:16 PM
-            </div>
-            
-              <div class="mx-2">
-                
-                    <small class="mx-2 p-1 rounded border border-gray-400 bg-gray-200">
-   <a href="github-0"
-    class="">github
-   </a> 
-</small >
-                
-                    <small class="mx-2 p-1 rounded border border-gray-400 bg-gray-200">
-   <a href="github actions-0"
-    class="">github actions
-   </a> 
-</small >
-                
-                    <small class="mx-2 p-1 rounded border border-gray-400 bg-gray-200">
-   <a href="python-0"
-    class="">python
-   </a> 
-</small >
-                
-                    <small class="mx-2 p-1 rounded border border-gray-400 bg-gray-200">
-   <a href="automation-0"
-    class="">automation
-   </a> 
-</small >
-                
-              </div>
-            
-          </div>
-  </article>
-
-    </div>
-  </div>
-  <div>
-        <section class="section">
-  <div class="container">
-    <h2 class="subtitle">Jump to Page</h2>
-    <nav class="flex justify-around" role="navigation">
-      
-      <ul class="flex list-none"> 
-        
-          
-        <li>
-          
-              <a href="github-0" class="px-1 pagination-link" aria-label="Goto page
-                                                       1">1</a>
-          
-        </li>
-        
-      </ul>
-      
-      <a class="pagination-next" href="github-1" >Next Page</a>
-    </nav>
-  </div>
-</section>
-  </div>
+        </section>
+      </article>
+    <section class="my-4 border-t-2 border-gray-400">
+      <div class="content p-2">
+      <a href="/blog-0.html" class="subtitle is-5 text-link">Back to
+        Blogs...</a>
+    </section>
+</div>
 
          
     </div>
