@@ -15,7 +15,7 @@ My family is pretty extended between the 4 sets of parental units (including inl
 
 ## It's pretty easy to maintain #
 
-This list is built using [Render Engine], [GitHub], and [Netlify]. I plan to also update it via [Bunch] in the future.
+This list is built using [Render Engine][Render Engine], [GitHub][GitHub], and [Netlify][Netlify]. I plan to also update it via [Bunch] in the future.
 
 It seems like a lot but really it's the same system this site runs on (but much simpler.)
 
