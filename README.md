@@ -2,7 +2,7 @@ Jay Miller is a devleoper advocate, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [Fresh Builds Daily](https://kjaymiller.com/fresh-builds-daily)**
+**Latest Post - [Benefits of a Family Gift Site](https://kjaymiller.com/why-family-gifts)**
 
 **Latest Conduit Episode - [11: HUUUUUUUGE Opportunities For You](http://relay.fm/conduit/11)**
 
