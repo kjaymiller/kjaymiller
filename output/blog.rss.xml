@@ -5454,6 +5454,35 @@ violence in Black communities in NYC.</p>
 
     <link>https://kjaymiller.com/the-pit-show-creating-and-speaking-about-the-things-that-interest-you-irma-mesa</link>
 <pubDate>Mon, 18 Mar 2019 20:25:00 +0000</pubDate><guid isPermaLink="false">the-pit-show-creating-and-speaking-about-the-things-that-interest-you-irma-mesa</guid></item><item>
+<title>Benefits of a Family Gift Site</title>  <description><![CDATA[<p>I recently created <a href="https://millerfamilygifts.netlify.app">millerfamilygifts.netlify.app</a>.</p>
+
+<p>Here's Why:</p>
+
+<h2>Family asks me</h2>
+
+<p>My family is pretty extended between the 4 sets of parental units (including inlaws) and many of their grandparents still being around. Now when they ask me what I want. I can send them a list.</p>
+
+<h2>It's pretty easy to maintain</h2>
+
+<p>This list is built using [Render Engine], [GitHub], and [Netlify]. I plan to also update it via [Bunch] in the future.</p>
+
+<p>It seems like a lot but really it's the same system this site runs on (but much simpler.)</p>
+
+<h2>Small Projects are Fun</h2>
+
+<p>Recently, Merlin dropped some more wisdom on <a href="https://dobyfriday.com/episodes/266">DBF</a> (Maybe it was the aftershow so sorry for stolen content).</p>
+
+<blockquote>
+  <p>Don't make a database for something a spreadsheet will do...</p>
+</blockquote>
+
+<p>While the site contains neither, it is just some markdown files that I update and then run the script to push live (for now) I don't need anything too fancy.</p>
+
+<p>At some point things will get more complicated but doing complicated things on simple things is much better than complicated things on complicated things.</p>
+]]></description>
+
+    <link>https://kjaymiller.com/why-family-gifts</link>
+<pubDate>Sat, 11 Dec 2021 23:53:00 +0000</pubDate><guid isPermaLink="false">why-family-gifts</guid></item><item>
 <title>Fish Resources</title>  <description><![CDATA[<div class="notification is-dark">
 <div class="content">
 <h2 class="has-text-light">Update:</h2>
