@@ -2,9 +2,9 @@ Jay Miller is a devleoper advocate, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [Benefits of a Family Gift Site](https://kjaymiller.com/why-family-gifts)**
+**Latest Post - [12: Con Doing It Live!](https://kjaymiller.com/conduit-12-con-doing-it-live)**
 
-**Latest Conduit Episode - [11: HUUUUUUUGE Opportunities For You](http://relay.fm/conduit/11)**
+**Latest Conduit Episode - [12: Con Doing It Live!](http://relay.fm/conduit/12)**
 
 ## Active Projects
 
