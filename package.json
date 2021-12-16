@@ -1,9 +1,5 @@
 {
-  "dependencies": {
-    "autoprefixer": "^10.0.2",
-    "npx": "^3.0.0",
-    "postcss": "^8.1.9",
-    "tailwind": "^4.0.0",
-    "tailwindcss": "^2.2.4"
+  "devDependencies": {
+    "tailwindcss": "^3.0.6"
   }
 }
