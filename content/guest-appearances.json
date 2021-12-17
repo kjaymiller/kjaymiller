@@ -1,7 +1,7 @@
 [
     {"podcast" :"Talk Python to Me",
     "date": "15 Dec 2021 12:00PM",
-    "image": "https://relayfm.s3.amazonaws.com/uploads/broadcast/image_3x/16/mpu_artwork.png",
+    "image": "https://talkpython.fm/static/img/talk_python_logo_mic.png",
     "tags": "tools, productivity, shell",
     "link": "https://www.talkpython.fm/345",
     "title": "10 Tips and Tools for Developer Productivity"
