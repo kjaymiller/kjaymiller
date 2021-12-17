@@ -13,11 +13,15 @@ These are not in any order because I don't rank my friends.
 
 ## Jeff Triplett
 
+![Jeff Triplett](https://kjaymiller.s3-us-west-2.amazonaws.com/images/webology.jpg)
+
 I was surprised that Jeff wasn't on my list last year. I owe my job to him[^2]. Jeff has been consistently awesome so I'm going to give him the nod this year for sure!
 
 When I moved into tech, there were a lot of things I didn't know. Jeff is my advisor in many ways. He is also my late night coding buddy, a sharer of many new tools and someone that entertains all of my crazy thoughts and works to turn them into minimum viable ideas[^3].
 
 ## Kathy Campbell ##
+
+![Kathy Campbell](https://kjaymiller.s3-us-west-2.amazonaws.com/images/mrssoup.jpg)
 
 The Homie! The partner in crime. The person other than my spouse that puts up with the most 💩 from me!
 
@@ -27,6 +31,8 @@ Also, don't let her know that she's a total badass and is going to continue to g
 
 ## Scotty Jackson ##
 
+![Scotty Jackson](https://i0.wp.com/nestedfolderspodcast.com/wp-content/uploads/2019/07/scotty.jpg?w=400&ssl=1)
+
 The pattern of people that I talk to on a regular basis continues! Scotty and I talk almost daily and share in our journey of productivity! 
 
 When I started talking about productivity on the internet I hoped I could have amazing conversations with people that pushed me to be more productive! Scotty is the embodiment of the person I imagined having regular conversations with.
@@ -35,11 +41,15 @@ BAM!
 
 ## Kelly Guimont ##
 
+![Kelly Guimont](https://kjaymiller.s3-us-west-2.amazonaws.com/images/kellyguimont.jpeg)
+
 Kelly is my reality check in many ways! She is someone that I looked at as a podcaster and thought, "Wow! It would be great to work with someone like that and produce regular amazing content!". Nowadays, I build and help build automations for Kelly and help her produce that regular amazing content!
 
 Kelly thank you for the ideas on home automation! Helping me develop my explaining skills and always knowing about the new hotness in apple accessory gadgets.
 
 ## Blue Sky Dragon ##
+
+_No Image in Respect to Privacy_
 
 Oh Sky..... 
 
