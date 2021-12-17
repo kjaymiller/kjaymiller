@@ -42,7 +42,7 @@ jobs:
       - name: Install and Run Tailwindcss
         run: |
           npm install
-          npx tailwindcss build -i static/css/pre/tailwind.css -o static/css/tailwind.css
+          npx tailwindcss build -i static/css/pre/tailwind.css -o output/static/css/tailwind.css
 
       - name: load to github
         run: |
