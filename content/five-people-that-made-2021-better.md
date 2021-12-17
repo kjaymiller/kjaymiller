@@ -26,7 +26,7 @@ When I moved into tech, there were a lot of things I didn't know. Jeff is my adv
 
 The Homie! The partner in crime. The person other than my spouse that puts up with the most 💩 from me!
 
-Kathy and I started [Conduit](https://relay.fm/conduit) this year and it's been a blast getting to know her better. She's inspires to improve my community management . Kathy, I can truly say you have helped make dreams come true for me! Thank you for that.
+Kathy and I started [Conduit](https://relay.fm/conduit) this year and it's been a blast getting to know her better. She inspires me to improve my community management skills (and my writing skills 😉). Kathy, I can truly say you have helped make dreams come true for me! Thank you for that.
 
 Also, don't let her know that she's a total badass and is going to continue to grow in the space and I'm so jealous at times!
 
