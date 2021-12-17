@@ -6194,7 +6194,7 @@ I'm happy to announce that subcollections are now supported in render_engine</p>
 
 <h2>It's pretty easy to maintain</h2>
 
-<p>This list is built using <a href="https://github.com/kjaymiller/render_engine">Render Engine</a>, <a href="https://github.com/kjaymiller/miller-shopping-list">GitHub</a>, and <a href="https://netlify.com">Netlify</a>. I plan to also update it via <a href="https://bunchapp.">Bunch</a> in the future.</p>
+<p>This list is built using <a href="https://github.com/kjaymiller/render_engine">Render Engine</a>, <a href="https://github.com/kjaymiller/miller-shopping-list">GitHub</a>, and <a href="https://netlify.com">Netlify</a>. I plan to also update it via <a href="https://bunchapp.co">Bunch</a> in the future.</p>
 
 <p>It seems like a lot but really it's the same system this site runs on (but much simpler.)</p>
 
