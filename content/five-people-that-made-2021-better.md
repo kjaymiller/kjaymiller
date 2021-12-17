@@ -1,0 +1,60 @@
+---
+title: 5 People That Made My 2021 📈
+slug: jaysies-2021
+date: 17 Dec 2021 08:14
+tags: 
+---
+
+Normally awards like this are reserved for the very last post of the year, but as I'm hoping to fulfill my commitment on [Conduit](https://relay.fm/conduit/12) and try not to work on my time off[^1]. 
+
+[Last year](./five-people-that-made-2020-fire) I did the **Jay-sies** as a way to highlight some people in my life that have really impacted and encouraged me. My goal is to showcase 5 friends and let them know how amazing they are!
+
+These are not in any order because I don't rank my friends.
+
+## Jeff Triplett
+
+I was surprised that Jeff wasn't on my list last year. I owe my job to him[^2]. Jeff has been consistently awesome so I'm going to give him the nod this year for sure!
+
+When I moved into tech, there were a lot of things I didn't know. Jeff is my advisor in many ways. He is also my late night coding buddy, a sharer of many new tools and someone that entertains all of my crazy thoughts and works to turn them into minimum viable ideas[^3].
+
+## Kathy Campbell ##
+
+The Homie! The partner in crime. The person other than my spouse that puts up with the most 💩 from me!
+
+Kathy and I started [Conduit](https://relay.fm/conduit) this year and it's been a blast getting to know her better. Also from communicating with her on a regular basis, I've become inspired and better an community management. Kathy, I can truly say you have helped make dreams come true for me! Thank you for that.
+
+Also, don't let her know that she's a total badass and is going to continue to grow in the space and I'm so jealous at times!
+
+## Scotty Jackson ##
+
+The pattern of people that I talk to on a regular basis continues! Scotty and I talk almost daily and share in our journey of productivity! 
+
+When I started talking about productivity on the internet I hoped I could have amazing conversations with people that pushed me to be more productive! Scotty is the embodiment of the person I imagined having regular conversations with.
+
+BAM!
+
+## Kelly Guimont ##
+
+Kelly is my reality check in many ways! She is someone that I looked at as a podcaster and thought, "Wow! It would be great to work with someone like that and produce regular amazing content!". Nowadays, I build and help build automations for Kelly and help her produce that regular amazing content!
+
+Kelly thank you for the ideas on home automation! Helping me develop my explaining skills and always knowing about the new hotness in apple accessory gadgets.
+
+## Blue Sky Dragon ##
+
+Oh Sky..... 
+
+I hope Sky knows how amazing they are. Listening to their fascination with math[s] and their inquisitiveness and fascination with many of the things I enjoy as well. Their show [Find My Dragon](https://anchor.fm/find-my-dragon) quickly became one of my favorite new shows in 2021.
+
+I wanted to add Sky because the journey is just begining for them. They are someone that I am intrigued by in many ways. I would love to do a _Rec Diffs_-style show with them one day in the future!
+
+## Honorable Mentions ##
+
+These folks were close but I didn't add for personal reasons. They could be added in the future.
+
+- [Matthew Cox](https://twitter.com/mattiercox)
+- [Sam Julien](https://twitter.com/samjulien)
+- [Kojo Idrissa](https://twitter.com/transitionswpz)
+
+[^1]: I don't consider this _technically_ work but still...
+[^2]: And some others that were and weren't mentioned last year.
+[^3]: That needs to be a blog post
