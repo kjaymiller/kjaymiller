@@ -1,4 +1,4 @@
-Jay Miller is a devleoper advocate, marketer, and content creator from San Diego.
+Jay Miller is a developer advocate, marketer, and content creator from San Diego.
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
