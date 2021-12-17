@@ -2,7 +2,7 @@ Jay Miller is a developer advocate, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [12: Con Doing It Live!](https://kjaymiller.com/conduit-12-con-doing-it-live)**
+**Latest Post - [5 People That Made My 2021 📈](https://kjaymiller.com/jaysies-2021)**
 
 **Latest Conduit Episode - [12: Con Doing It Live!](http://relay.fm/conduit/12)**
 
