@@ -12,7 +12,7 @@ Normally awards like this are reserved for the very last post of the year, but a
 
 These are not in any order because I don't rank my friends.
 
-## Jeff Triplett
+## [Jeff Triplett](https://twitter.com/webology)
 
 ![Jeff Triplett](https://kjaymiller.s3-us-west-2.amazonaws.com/images/webology.jpg)
 
@@ -20,17 +20,17 @@ I was surprised that Jeff wasn't on my list last year. I owe my job to him[^2]. 
 
 When I moved into tech, there were a lot of things I didn't know. Jeff is my advisor in many ways. He is also my late night coding buddy, a sharer of many new tools and someone that entertains all of my crazy thoughts and works to turn them into minimum viable ideas[^3].
 
-## Kathy Campbell ##
+## [Kathy Campbell](https://twitter.com/mrssoup)
 
 ![Kathy Campbell](https://kjaymiller.s3-us-west-2.amazonaws.com/images/mrssoup.jpg)
 
 The Homie! The partner in crime. The person other than my spouse that puts up with the most 💩 from me!
 
-Kathy and I started [Conduit](https://relay.fm/conduit) this year and it's been a blast getting to know her better. Also from communicating with her on a regular basis, I've become inspired and better an community management. Kathy, I can truly say you have helped make dreams come true for me! Thank you for that.
+Kathy and I started [Conduit](https://relay.fm/conduit) this year and it's been a blast getting to know her better. She's inspires to improve my community management . Kathy, I can truly say you have helped make dreams come true for me! Thank you for that.
 
 Also, don't let her know that she's a total badass and is going to continue to grow in the space and I'm so jealous at times!
 
-## Scotty Jackson ##
+## [Scotty Jackson](https://twitter.com/heyscottyj) ##
 
 ![Scotty Jackson](https://i0.wp.com/nestedfolderspodcast.com/wp-content/uploads/2019/07/scotty.jpg?w=400&ssl=1)
 
@@ -40,7 +40,7 @@ When I started talking about productivity on the internet I hoped I could have a
 
 BAM!
 
-## Kelly Guimont ##
+## [Kelly Guimont](https://twitter.com/verso) ##
 
 ![Kelly Guimont](https://kjaymiller.s3-us-west-2.amazonaws.com/images/kellyguimont.jpeg)
 
