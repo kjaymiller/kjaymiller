@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Tue, 01 Sep 2020 09:46:02 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/05f706ff
 slug: wayne-jones-let-s-learn-together-the-pit-show-preseason
 title: Wayne Jones - Let's Learn Together - The PIT Show Preseason

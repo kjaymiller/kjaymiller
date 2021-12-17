@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Fri, 13 Dec 2019 09:15:00 -0800
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/c2fce258
 slug: bob-s-taverncast-btc-03-bytes-sized-opinions
 title: BTC 03 - Bytes-Sized Opinions

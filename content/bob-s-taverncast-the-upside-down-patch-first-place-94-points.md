@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Sun, 12 Apr 2020 00:00:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/8a71860a
 slug: bob-s-taverncast-the-upside-down-patch-first-place-94-points
 title: The Upside Down Patch - First Place -94 Points

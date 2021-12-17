@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Mon, 14 Dec 2020 22:01:20 -0800
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/ee58e985
 slug: bob-s-taverncast-more-daily-quests-for-battlegrounds
 title: More Daily Quests for Battlegrounds

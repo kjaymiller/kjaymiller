@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Sun, 18 Apr 2021 14:56:20 -0700
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/dd9df712
 slug: bob-s-taverncast-patch-20-0-2-why-is-hooktusk-so-hard-to-patch
 title: Patch 20.0.2 - Why is Hooktusk so Hard to Patch

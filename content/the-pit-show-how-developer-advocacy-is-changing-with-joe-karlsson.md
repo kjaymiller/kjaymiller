@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Tue, 11 Aug 2020 09:05:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/a642c630
 slug: the-pit-show-how-developer-advocacy-is-changing-with-joe-karlsson
 title: How Developer Advocacy is Changing with Joe Karlsson

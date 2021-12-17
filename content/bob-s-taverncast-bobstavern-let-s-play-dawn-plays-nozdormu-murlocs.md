@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Sun, 07 Jun 2020 21:00:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/ede5a196
 slug: bob-s-taverncast-bobstavern-let-s-play-dawn-plays-nozdormu-murlocs
 title: BobsTavern Let's Play - Dawn Plays Nozdormu Murlocs

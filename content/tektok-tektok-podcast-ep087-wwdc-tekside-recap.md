@@ -1,7 +1,7 @@
 ---
 category: TekTok
 date: Wed, 16 Jun 2021 02:58:19 +0000
-image: https://ik.imagekit.io/cxazzw3yew//tektok_256.jpeg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//tektok_256.jpeg
 link: https://www.tekside.net/tektok/2021/6/15/rfel6np3psm7v4ych9zxwlzfa0fi4t
 slug: tektok-tektok-podcast-ep087-wwdc-tekside-recap
 title: TEKTOK Podcast - EP087 - WWDC TEKSide Recap

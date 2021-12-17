@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Tue, 29 Dec 2020 16:49:50 -0800
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/3c7d988b
 slug: the-pit-show-how-to-be-a-professional-what-do-you-do-again-with-alex-cox
 title: How to be a professional (What do you do again?)... with Alex Cox

@@ -1,7 +1,7 @@
 ---
 category: Ask a Brit
 date: Wed, 10 Mar 2021 07:00:00 -0800
-image: https://ik.imagekit.io/cxazzw3yew//AskABritv4.png
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//AskABritv4.png
 link: https://share.transistor.fm/s/7e6f4893
 slug: ask-a-brit-watch-your-mouth-in-the-public-square
 title: Watch your Mouth in the Public Square

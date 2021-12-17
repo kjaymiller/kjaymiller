@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Tue, 23 Mar 2021 08:34:06 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/6e8786b8
 slug: the-pit-show-talking-productivity-and-widgets-yes-on-this-show-with-scotty-jackson
 title: Talking Productivity and Widgets (Yes On this Show...) with Scotty Jackson

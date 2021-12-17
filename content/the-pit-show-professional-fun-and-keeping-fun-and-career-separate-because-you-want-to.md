@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Sun, 15 Nov 2020 17:37:59 -0800
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/bf7ca32e
 slug: the-pit-show-professional-fun-and-keeping-fun-and-career-separate-because-you-want-to
 title: Professional Fun and Keeping Fun and Career Separate (Because you want to)

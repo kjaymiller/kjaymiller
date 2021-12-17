@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Tue, 23 Jul 2019 06:30:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/71ba18dc
 slug: the-pit-show-change-how-we-think-about-the-junior-role-w-lee-warrick
 title: Change how we think about the "Junior" Role w/ Lee Warrick

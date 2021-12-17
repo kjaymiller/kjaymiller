@@ -1,7 +1,7 @@
 ---
 category: Ask a Brit
 date: Sat, 12 Jan 2019 10:00:00 -0800
-image: https://ik.imagekit.io/cxazzw3yew//AskABritv4.png
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//AskABritv4.png
 link: https://share.transistor.fm/s/f4f5bc78
 slug: ask-a-brit-wtf-is-a-crumpet
 title: WTF is a Crumpet!

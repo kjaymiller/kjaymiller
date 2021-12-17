@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Wed, 21 Aug 2019 05:00:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/f2dcef2c
 slug: the-pit-show-paying-for-positivity-w-andrew-brown
 title: Paying for Positivity w/ Andrew Brown.

@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Sun, 09 Aug 2020 15:29:07 -0700
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/7bba91cd
 slug: bob-s-taverncast-bottom-shelf-battlegrounds
 title: Bottom Shelf Battlegrounds

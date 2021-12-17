@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Sun, 11 Oct 2020 15:05:36 -0700
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/caedc153
 slug: bob-s-taverncast-bartender-check-in-and-meta-observations-18-4-patch
 title: Bartender Check-in and Meta Observations (18.4 Patch)

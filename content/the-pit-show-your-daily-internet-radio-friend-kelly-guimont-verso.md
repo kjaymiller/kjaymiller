@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Tue, 13 Apr 2021 05:30:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/cb3ebc35
 slug: the-pit-show-your-daily-internet-radio-friend-kelly-guimont-verso
 title: 'Your Daily Internet Radio Friend: Kelly Guimont (@verso)'

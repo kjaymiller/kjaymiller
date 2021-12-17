@@ -1,7 +1,7 @@
 ---
 category: Ask a Brit
 date: Fri, 18 Dec 2020 20:00:00 -0800
-image: https://ik.imagekit.io/cxazzw3yew//AskABritv4.png
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//AskABritv4.png
 link: https://share.transistor.fm/s/790ec0ad
 slug: ask-a-brit-why-was-the-president-suing-all-the-states
 title: Why was the President Suing All the States?

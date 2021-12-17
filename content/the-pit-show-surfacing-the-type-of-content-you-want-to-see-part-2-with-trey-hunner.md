@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Sat, 17 Oct 2020 10:52:55 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/829157a9
 slug: the-pit-show-surfacing-the-type-of-content-you-want-to-see-part-2-with-trey-hunner
 title: Surfacing the Type of Content You Want to See - Part 2 with Trey Hunner

@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Mon, 02 Mar 2020 07:00:00 -0800
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/7999d6b1
 slug: bob-s-taverncast-dragons-have-arrived-16-4-patch-review
 title: Dragons Have Arrived! - 16.4 patch review

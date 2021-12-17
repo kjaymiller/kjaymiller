@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Tue, 14 May 2019 05:00:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/c302d170
 slug: the-pit-show-the-benefits-of-listening-to-others-dave-rael
 title: The Benefits of Listening to Others - Dave Rael

@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Tue, 13 Aug 2019 06:30:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/936b19bc
 slug: the-pit-show-creating-a-vetted-community-for-developers-w-ledge-from-gun-io
 title: Creating a "Vetted" Community for Developers w/ Ledge from Gun.io

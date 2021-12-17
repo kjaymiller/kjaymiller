@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Tue, 25 Aug 2020 06:30:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/7fcd358f
 slug: the-pit-show-creating-the-art-no-one-asked-for-so-you-don-t-have-to-with-scott-johnson
 title: Creating the Art No One Asked For (So you don't have to) with Scott Johnson

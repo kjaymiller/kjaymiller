@@ -1,7 +1,7 @@
 ---
 category: TekTok
 date: Sun, 18 Jul 2021 18:31:17 +0000
-image: https://ik.imagekit.io/cxazzw3yew//tektok_256.jpeg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//tektok_256.jpeg
 link: https://www.tekside.net/tektok/2021/7/18/flv8ko200ahqz543jwrp2vki9084oo
 slug: tektok-tektok-podcast-ep088-the-cost-of-switching
 title: TEKTOK Podcast - EP088 - The Cost of Switching

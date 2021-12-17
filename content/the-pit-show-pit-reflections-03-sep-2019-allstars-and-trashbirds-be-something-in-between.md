@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Tue, 03 Sep 2019 00:35:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/50bc21ca
 slug: the-pit-show-pit-reflections-03-sep-2019-allstars-and-trashbirds-be-something-in-between
 title: PIT Reflections 03 Sep 2019 - Allstars and TrashBirds (Be something in between!)

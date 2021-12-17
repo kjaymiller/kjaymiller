@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Tue, 30 Jul 2019 06:30:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/6e1b2263
 slug: the-pit-show-thinking-about-the-move-from-side-quest-to-main-quest-with-al-rodriguez
 title: Thinking about the move from Side Quest to Main Quest with Al Rodriguez

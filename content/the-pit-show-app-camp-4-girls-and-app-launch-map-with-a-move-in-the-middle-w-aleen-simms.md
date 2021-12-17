@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Mon, 11 Mar 2019 08:00:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/67935fc5
 slug: the-pit-show-app-camp-4-girls-and-app-launch-map-with-a-move-in-the-middle-w-aleen-simms
 title: App Camp 4 Girls and App Launch Map (with a move in the middle) w/ Aleen Simms

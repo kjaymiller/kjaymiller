@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Fri, 29 Nov 2019 05:00:00 -0800
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/b1b43490
 slug: bob-s-taverncast-btc-01-the-battlegrind
 title: BTC 01 - The BattleGrind

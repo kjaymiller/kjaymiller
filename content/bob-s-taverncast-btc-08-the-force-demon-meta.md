@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Sat, 01 Feb 2020 12:00:00 -0800
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/130be05f
 slug: bob-s-taverncast-btc-08-the-force-demon-meta
 title: BTC 08 - The Force Demon Meta

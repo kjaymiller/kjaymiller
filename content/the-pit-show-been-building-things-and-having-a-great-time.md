@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Thu, 12 Mar 2020 07:00:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/a39de015
 slug: the-pit-show-been-building-things-and-having-a-great-time
 title: Been Building Things and Having a Great Time!

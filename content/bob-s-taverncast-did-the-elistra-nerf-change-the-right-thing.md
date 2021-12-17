@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Sun, 10 Jan 2021 22:38:26 -0800
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/9317dc42
 slug: bob-s-taverncast-did-the-elistra-nerf-change-the-right-thing
 title: Did the Elistra Nerf Change the Right Thing?

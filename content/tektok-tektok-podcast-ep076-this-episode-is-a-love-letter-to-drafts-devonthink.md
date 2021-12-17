@@ -1,7 +1,7 @@
 ---
 category: TekTok
 date: Tue, 09 Jun 2020 14:00:00 +0000
-image: https://ik.imagekit.io/cxazzw3yew//tektok_256.jpeg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//tektok_256.jpeg
 link: https://www.tekside.net/tektok/2020/6/9/v73dmab1hc6mybt826fp6sj58kxrmr
 slug: tektok-tektok-podcast-ep076-this-episode-is-a-love-letter-to-drafts-devonthink
 title: TEKTOK Podcast - EP076 - This Episode is a Love Letter to Drafts & DevonThink

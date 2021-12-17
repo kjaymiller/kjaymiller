@@ -1,7 +1,7 @@
 ---
 title: Changes for PIT and New Projects on the Horizon
 date: 2020-10-31T02:10:40.973Z
-image: https://ik.imagekit.io/cxazzw3yew/pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/pit-logo-v5.jpg
 tags: announcements
 category: Productivity in Tech Podcast
 ---

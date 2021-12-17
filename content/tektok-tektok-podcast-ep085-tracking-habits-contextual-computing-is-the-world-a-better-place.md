@@ -1,7 +1,7 @@
 ---
 category: TekTok
 date: Wed, 14 Apr 2021 03:29:25 +0000
-image: https://ik.imagekit.io/cxazzw3yew//tektok_256.jpeg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//tektok_256.jpeg
 link: https://www.tekside.net/tektok/2021/4/13/d4ecbizb2mm8f1q6kne1vl6ayxl2t1
 slug: tektok-tektok-podcast-ep085-tracking-habits-contextual-computing-is-the-world-a-better-place
 title: TEKTOK Podcast - EP085 - Tracking Habits, Contextual Computing & Is the World

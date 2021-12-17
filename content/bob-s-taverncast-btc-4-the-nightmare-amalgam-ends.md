@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Sat, 21 Dec 2019 11:45:00 -0800
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/d13b67a3
 slug: bob-s-taverncast-btc-4-the-nightmare-amalgam-ends
 title: BTC 4 - The Nightmare (Amalgam) Ends

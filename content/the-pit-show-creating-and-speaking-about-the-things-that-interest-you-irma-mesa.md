@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Mon, 18 Mar 2019 20:25:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/94f13293
 slug: the-pit-show-creating-and-speaking-about-the-things-that-interest-you-irma-mesa
 title: Creating and Speaking about the Things that Interest You - Irma Mesa

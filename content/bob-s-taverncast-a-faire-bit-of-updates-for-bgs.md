@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Mon, 21 Dec 2020 12:42:01 -0800
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/22d40b36
 slug: bob-s-taverncast-a-faire-bit-of-updates-for-bgs
 title: A Faire Bit of Updates for BGs

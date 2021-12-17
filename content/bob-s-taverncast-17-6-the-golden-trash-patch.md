@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Sun, 19 Jul 2020 19:18:38 -0700
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/53474116
 slug: bob-s-taverncast-17-6-the-golden-trash-patch
 title: 17.6 - The Golden Trash Patch

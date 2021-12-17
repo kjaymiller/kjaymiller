@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Sun, 12 Jul 2020 08:30:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/d84e8fd2
 slug: bob-s-taverncast-the-ups-and-downs-in-battlegrounds
 title: The Ups and Downs in Battlegrounds

@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Mon, 11 Jan 2021 21:25:46 -0800
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/be442e56
 slug: the-pit-show-braindumps-why-i-do-them-regularly-and-you-should-too
 title: 'BrainDumps: Why I do them regularly (and you should too!)'

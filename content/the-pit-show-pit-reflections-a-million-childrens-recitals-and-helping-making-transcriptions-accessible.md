@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Tue, 04 Aug 2020 10:00:40 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/7c0b3a42
 slug: the-pit-show-pit-reflections-a-million-childrens-recitals-and-helping-making-transcriptions-accessible
 title: 'PIT Reflections: A Million Childrens Recitals and Helping Making Transcriptions

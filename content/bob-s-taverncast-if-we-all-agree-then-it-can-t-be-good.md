@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Mon, 09 Nov 2020 16:48:05 -0800
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/f8f2c489
 slug: bob-s-taverncast-if-we-all-agree-then-it-can-t-be-good
 title: If we all agree, then it can't be good

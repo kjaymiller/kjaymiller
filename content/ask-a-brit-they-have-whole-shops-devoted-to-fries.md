@@ -1,7 +1,7 @@
 ---
 category: Ask a Brit
 date: Wed, 27 Jan 2021 07:00:00 -0800
-image: https://ik.imagekit.io/cxazzw3yew//AskABritv4.png
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//AskABritv4.png
 link: https://share.transistor.fm/s/eae315ce
 slug: ask-a-brit-they-have-whole-shops-devoted-to-fries
 title: They Have Whole Shops Devoted to Fries?!

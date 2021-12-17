@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Mon, 26 Oct 2020 23:33:19 -0700
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/fb1f0003
 slug: bob-s-taverncast-three-wishes-just-won-t-be-enough-to-get-you-a-win-patch-18-6-review
 title: Three Wishes Just Won't Be Enough to Get You a Win - Patch 18.6 Review

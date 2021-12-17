@@ -3,7 +3,7 @@ title: Introducing DiversityOrgs.Tech
 date: 25 Jan 2021 14:37
 category: software
 tags: diversity, projects, react, AppSearch
-image: https://ik.imagekit.io/cxazzw3yew/Pyladies-Seattle-snippet.png
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/Pyladies-Seattle-snippet.png
 ---
 
 Okay Time to Share something I've been working on for the last month. Introducing https://diversityorgs.tech.

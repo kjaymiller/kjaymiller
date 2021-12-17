@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Mon, 25 Mar 2019 08:00:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/8c68e312
 slug: the-pit-show-being-the-face-behind-the-face-of-great-companies-with-jean-macdonald-macgenie
 title: Being the Face behind the Face of great companies with Jean MacDonald (@macgenie)

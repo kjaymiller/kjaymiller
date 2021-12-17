@@ -1,7 +1,7 @@
 ---
 title: Simplicity and the Dance to Getting Hired with @Dev Nikema
 date: 2020-12-07T06:43:26.250Z
-image: https://ik.imagekit.io/cxazzw3yew/pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/pit-logo-v5.jpg
 link: https://twitter.com/dev_nikema
 tags: dev-journey
 category: The PIT Show

@@ -1,7 +1,7 @@
 ---
 category: TekTok
 date: Wed, 19 Feb 2020 03:32:44 +0000
-image: https://ik.imagekit.io/cxazzw3yew//tektok_256.jpeg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//tektok_256.jpeg
 link: https://www.tekside.net/tektok/2020/2/18/z8axacsvboalc9l4b5vhdvofvcta07
 slug: tektok-tektok-podcast-ep072-new-news
 title: TEKTOK Podcast - EP072 - New News

@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Sat, 17 Oct 2020 17:44:38 -0700
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/4500a89c
 slug: bob-s-taverncast-the-toughest-meta-just-got-harder-18-4-2-patch-review
 title: The toughest meta just got harder. 18.4.2 Patch Review

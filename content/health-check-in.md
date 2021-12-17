@@ -1,7 +1,7 @@
 ---
 title: Health Check-in
 date: 2020-11-23T06:20:15.104Z
-image: https://ik.imagekit.io/cxazzw3yew/pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/pit-logo-v5.jpg
 tags: health, mental-health
 category: The PIT Show
 summary: Got some news regarding my health. Decided to take a moment and give a health check-in

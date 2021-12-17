@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Mon, 08 Apr 2019 13:45:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/ccbe0135
 slug: the-pit-show-how-to-run-2-two-empires-clay-russell
 title: How to run 2 (TWO) Empires - Clay Russell

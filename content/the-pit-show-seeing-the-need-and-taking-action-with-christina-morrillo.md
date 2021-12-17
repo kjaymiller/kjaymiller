@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Wed, 06 May 2020 08:30:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/3ceba8c6
 slug: the-pit-show-seeing-the-need-and-taking-action-with-christina-morrillo
 title: Seeing the Need and Taking Action with Christina Morrillo

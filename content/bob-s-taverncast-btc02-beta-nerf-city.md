@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Fri, 06 Dec 2019 07:30:00 -0800
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/ce635f48
 slug: bob-s-taverncast-btc02-beta-nerf-city
 title: BTC02 - Beta Nerf City

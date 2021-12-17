@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Sat, 21 Mar 2020 13:10:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/327fd633
 slug: bob-s-taverncast-a-patch-rose-out-of-the-ashes-of-outland
 title: A Patch Rose Out of the Ashes of Outland

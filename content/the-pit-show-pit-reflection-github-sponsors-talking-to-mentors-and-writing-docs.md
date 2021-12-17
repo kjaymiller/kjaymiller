@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Tue, 07 Jul 2020 12:30:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/e73edebb
 slug: the-pit-show-pit-reflection-github-sponsors-talking-to-mentors-and-writing-docs
 title: 'PIT Reflection: Github Sponsors, Talking to Mentors, and Writing Docs'

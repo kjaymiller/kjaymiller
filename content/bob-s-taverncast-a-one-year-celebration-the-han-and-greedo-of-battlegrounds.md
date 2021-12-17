@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Sat, 21 Nov 2020 15:03:50 -0800
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/eb2bd314
 slug: bob-s-taverncast-a-one-year-celebration-the-han-and-greedo-of-battlegrounds
 title: A One Year Celebration - The Han and Greedo of Battlegrounds

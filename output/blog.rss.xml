@@ -2929,7 +2929,7 @@ things. Also the time away from my computer really helps.</p>
 
 <p>There are a few applications that are overkill or a little too creepy (exist.io) for my needs, but I did like the idea of getting an idea of "how I compute". I mean this by how I spend my time producing and collecting on the internet. One of the things that I do is collect all my twitter posts and likes and retweets in pinboard. I thought it would be great to use Pinboard's API to log and manage my own data and analyze it using the Elastic Stack. So I decided to build a <a href="https://github.com/kjaymiller/elasticsearch-pinboard">script</a> that allows me (and you if you wanna) to visualize my information.</p>
 
-<p><img src="https://ik.imagekit.io/cxazzw3yew/CleanShot_2020-10-21_at_18.40.49_2x_q7UEnmTnf.png" alt="Word Cloud" /></p>
+<p><img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/CleanShot_2020-10-21_at_18.40.49_2x_q7UEnmTnf.png" alt="Word Cloud" /></p>
 
 <p>As with most of my projects I have built this in Python and it's not a commercial tool, but it is open-source and available for you to build and hack away on. </p>
 
@@ -3199,16 +3199,16 @@ different places in their career).</p>
 
 <p>You can use Keyboard Maestro's <strong>New Safari/Chrome Tab with URL</strong>. If you do this make sure that you wait until the page is fully loaded or data may not be collectable. Luckily there is a <em>Wait for Safari/Chrome to Finish Loading</em> action you can use.</p>
 
-<p><img src="https://ik.imagekit.io/cxazzw3yew/Keyboard%20Maestro%20Get%20Text%20from%20Website/New%20Tab%20with%20URL.png" alt="New Safari/Chrome Tab" /></p>
+<p><img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/Keyboard%20Maestro%20Get%20Text%20from%20Website/New%20Tab%20with%20URL.png" alt="New Safari/Chrome Tab" /></p>
 
 <h2>Find the element that you wish to get the text of</h2>
 
 <p>Highlight the selected text on the page. Right Click and select <em>Inspect Element</em> (or <em>Inspect</em> for Chrome). This will open the developer console with that selected element highlighted.</p>
 
-<p><img src="https://ik.imagekit.io/cxazzw3yew/Keyboard%20Maestro%20Get%20Text%20from%20Website/inspect%20element-squashed.png" alt="Inspect Element" />
+<p><img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/Keyboard%20Maestro%20Get%20Text%20from%20Website/inspect%20element-squashed.png" alt="Inspect Element" />
 Right click the element and hover over copy and choose the <em>Selector Path</em> (in Chrome choose <em>copy selector</em>)</p>
 
-<p><img src="https://ik.imagekit.io/cxazzw3yew/Keyboard%20Maestro%20Get%20Text%20from%20Website/copy%20selector-squashed.png" alt="Copy Selector" /></p>
+<p><img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/Keyboard%20Maestro%20Get%20Text%20from%20Website/copy%20selector-squashed.png" alt="Copy Selector" /></p>
 
 <h2>Use the <em>querySelector</em> method and <em>innerText</em> attribute</h2>
 
@@ -3232,7 +3232,7 @@ Right click the element and hover over copy and choose the <em>Selector Path</em
 
 <p>To test this you can paste your code into the console of your browser (a tab in the developer console.) or you can set the action to display the results. When you have the right element you can pass that information as a variable to use later in your Keyboard Maestro workflow or you can save it to your clipboard to paste into another window. </p>
 
-<p><img src="https://ik.imagekit.io/cxazzw3yew/Keyboard%20Maestro%20Get%20Text%20from%20Website/execute%20javascript-squashed.png" alt="Execute Javascript" /></p>
+<p><img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/Keyboard%20Maestro%20Get%20Text%20from%20Website/execute%20javascript-squashed.png" alt="Execute Javascript" /></p>
 
 <div class="footnotes">
 <hr />
@@ -3270,7 +3270,7 @@ Right click the element and hover over copy and choose the <em>Selector Path</em
 
 <p>Even coming up with a quick 5-10 bullet outline can really make a difference in how focused content is.</p>
 
-<p><img src="https://ik.imagekit.io/cxazzw3yew/david-sparks-notes.jpeg?tr=pr-true,w-1024,h-500,fo-top" alt="David Sparks Episode Notes" /></p>
+<p><img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/david-sparks-notes.jpeg?tr=pr-true,w-1024,h-500,fo-top" alt="David Sparks Episode Notes" /></p>
 
 <h3>There is nothing wrong with doing a bunch of things that (seem the same).</h3>
 
@@ -3442,7 +3442,7 @@ Right click the element and hover over copy and choose the <em>Selector Path</em
 <li>The ability to rename sessions</li>
 </ul>
 
-<p><img src="https://ik.imagekit.io/cxazzw3yew/toast-session.png?tr=w-500" alt="Toast Example" /></p>
+<p><img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/toast-session.png?tr=w-500" alt="Toast Example" /></p>
 
 <p>I think that this has some unique features that may work well with tools like <a href="https://hookproductivity.com">Hook</a> as each session has it's own unique link that you can share.</p>
 
@@ -3462,7 +3462,7 @@ Right click the element and hover over copy and choose the <em>Selector Path</em
 
 <p><strong>THESE AREN'T OUT YET.</strong></p>
 
-<p><img src="https://ik.imagekit.io/cxazzw3yew/moment-magsafe-phone-mount.jpeg?tr=w-850" alt="Moment Magsafe Tripod Mounts" /></p>
+<p><img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/moment-magsafe-phone-mount.jpeg?tr=w-850" alt="Moment Magsafe Tripod Mounts" /></p>
 
 <p>I wasn't planning on getting a new phone until I saw this
 [Moment Magsafe Mount]. That combined with EpocCam (now owned by Elgato) makes a wonderful quick attach/detach mount webcam using my iPhone (well the future iphone 12 something I would own).</p>
@@ -3481,7 +3481,7 @@ Right click the element and hover over copy and choose the <em>Selector Path</em
 
 <p>[PocketTube] allows you to organize YouTube channels into groups and view recent videos that are in those groups. </p>
 
-<p><img src="https://ik.imagekit.io/cxazzw3yew/pockettube2.png?tr=500" alt="Pockettube 2.0" /></p>
+<p><img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/pockettube2.png?tr=500" alt="Pockettube 2.0" /></p>
 
 <p>This is great because I can find videos that all match a type that I'm feeling.</p>
 
@@ -3801,11 +3801,11 @@ continue.</li>
 
 <p>One of those updates was the ability to add custom rules for showing/hiding icons based. Wanting to play with this more I created a watcher shell script for showing/hiding the <a href="https://c-command.com/toothfairy/">ToothFairy</a> icon.</p>
 
-<p><img src="https://ik.imagekit.io/cxazzw3yew/ToothFairy%20Toggle.png" alt="Bartender Showing Toothfairy" /></p>
+<p><img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/ToothFairy%20Toggle.png" alt="Bartender Showing Toothfairy" /></p>
 
 <p>The end result of this script is that when my Airpods Pro are connected to the device, the toothfairy icon will appear in the menu bar. Once the Airpods Pro are disconnected the icon will go back to being hidden. This means that I can quickly tell when my AirPods Pro are connected to my machine (even if they are also connected to my phone or iPad).</p>
 
-<p><img src="https://ik.imagekit.io/cxazzw3yew/bartender-toothfairy-disabled.png" alt="Airpods are not connected and the icon is in the secondary Bartender Bar" /></p>
+<p><img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/bartender-toothfairy-disabled.png" alt="Airpods are not connected and the icon is in the secondary Bartender Bar" /></p>
 
 <h2>The Script</h2>
 
@@ -3823,7 +3823,7 @@ continue.</li>
 
 <p>Bartender looks for a <em>True</em> value which <code>1</code> is. </p>
 
-<p><img src="https://ik.imagekit.io/cxazzw3yew/toothfairy-bartender-enabled.png" alt="Airpods are Enabled and the icon is showing in the main menubar" /></p>
+<p><img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/toothfairy-bartender-enabled.png" alt="Airpods are Enabled and the icon is showing in the main menubar" /></p>
 
 <p>Here's the whole script</p>
 
@@ -3941,13 +3941,13 @@ echo $AP_STAT | awk '/Connected: Yes/{print 1}'
 
 <h2><a href="https://compassionatecoding.com">April Wensel</a></h2>
 
-<p><img src="https://ik.imagekit.io/cxazzw3yew/AprilWensel-about.jpeg?tr=w-400" alt="April Wensel" /></p>
+<p><img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/AprilWensel-about.jpeg?tr=w-400" alt="April Wensel" /></p>
 
 <p>April Wensel is the founder of <a href="https://compassionatecoding.com">Compassionate Coding</a>, a company focused on increasing the <a href="https://www.youtube.com/watch?v=yD0kzU4Pu-Q">emotional intelligence</a> of developer teams. April and I connect regularly with each other as 2020 impacted us in many ways. April was a foundational part of #GetJayADevJob and has even helped to make some amazing connections to get my first few months as a Dev Advocate off to a great start.</p>
 
 <h2><a href="https://www.willingconsulting.com">Carol Willing</a></h2>
 
-<p><img src="https://ik.imagekit.io/cxazzw3yew/carolwilling-twitter.jpg?tr=w-400" alt="Carol Willing" /></p>
+<p><img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/carolwilling-twitter.jpg?tr=w-400" alt="Carol Willing" /></p>
 
 <p>Carol was the first person to comment on one of my coding projects. This was back in 2014 when I was just learning Python and my code wasn't wonderful. Still, Carol saw beyond my non-perfect code and saw the practicality of the work.</p>
 
@@ -3957,7 +3957,7 @@ echo $AP_STAT | awk '/Connected: Yes/{print 1}'
 
 <h2><a href="https://twitter.com/caffodian">Alex Tsai</a></h2>
 
-<p><img src="https://ik.imagekit.io/cxazzw3yew/AlexTsai-twitter.jpg?tr=w-400" alt="Alex Tsai" /></p>
+<p><img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/AlexTsai-twitter.jpg?tr=w-400" alt="Alex Tsai" /></p>
 
 <p>I will be honest, Alex was someone that I met in the middle of my job hunt because I was hoping to work for him. That said, even when I took a different role I was worried it would destroy the relationship that I had made with him. That said I feel like we've spoken more since.</p>
 
@@ -3965,7 +3965,7 @@ echo $AP_STAT | awk '/Connected: Yes/{print 1}'
 
 <h2><a href="https://bdougie.live">Brian Douglas</a></h2>
 
-<p><img src="https://ik.imagekit.io/cxazzw3yew/briandouglas-linkedin.jpeg?tr=w-400" alt="Brian Douglas" /></p>
+<p><img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/briandouglas-linkedin.jpeg?tr=w-400" alt="Brian Douglas" /></p>
 
 <p>Brian and I have known each other for several years but this was the year where we connected most and it came at a time where I was looking for an advocate that I could learn from.</p>
 
@@ -3973,7 +3973,7 @@ echo $AP_STAT | awk '/Connected: Yes/{print 1}'
 
 <h2><a href="https://twitter.com/alexcox">Alex Cox</a></h2>
 
-<p><img src="https://ik.imagekit.io/cxazzw3yew/AlexCox-SpaceHelmet.jpeg?tr=w-400" alt="Alex Cox" /></p>
+<p><img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/AlexCox-SpaceHelmet.jpeg?tr=w-400" alt="Alex Cox" /></p>
 
 <p>I've wanted to interview Alex for years! Now that it's finally happened (This weeks episode of <em>the PIT show</em>!). </p>
 
@@ -4175,7 +4175,7 @@ it weren't for them so great job!</strong></p>
 email system (currently [MailMate]). While doing this, I didn't have the "gmail" hotkeys enabled so I was trying to
 figure out how to enter the search field when I hit ctrl+s and I got a very interesting window.</p>
 
-<p><img src="https://ik.imagekit.io/cxazzw3yew/Mailmate%20Change%20Subject%20Box.png" alt="Change Subject Screenshot" /></p>
+<p><img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/Mailmate%20Change%20Subject%20Box.png" alt="Change Subject Screenshot" /></p>
 
 <p>As mentioned earlier, this was a feature that <em>Hey</em> was promoting as a feature.</p>
 
@@ -4582,7 +4582,7 @@ There is no current plan to stop doing the PIT Podcast with the alternating form
 - De-Reverb
 - De Plosive</p>
 
-<p><img src="https://ik.imagekit.io/cxazzw3yew/Audio Chains.png" alt="RX Audio Chains" /></p>
+<p><img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/Audio Chains.png" alt="RX Audio Chains" /></p>
 
 <p>This retained some of the natural quality in the recording. While I don't think many people would notice a difference in quality, there is definitely a difference. But this also reduces my processing time and resources required on podcast and videos.</p>
 
@@ -5824,7 +5824,7 @@ new (Future Post...Probably).</p>
 
 <p>You can view my slides <a href="/static/files/Working in Modes for Better Productivity.pdf">here</a> and a video will be made available in the near future.</p>
 
-<p><img src="https://ik.imagekit.io/cxazzw3yew/SCAU-POSTER-12-19-2020-FINAL.jpg" alt="flyer" /></p>
+<p><img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/SCAU-POSTER-12-19-2020-FINAL.jpg" alt="flyer" /></p>
 ]]></description>
 
     <link>https://kjaymiller.com/presenting-working-in-modes-for-better-productivity</link>
@@ -5990,7 +5990,7 @@ new (Future Post...Probably).</p>
 
 <p>Goodlinks is a bookmarking service with great simplicity, which is what I was looking for. Everything is available and stored locally via iCloud with. I recently figured out how to <a href="http://2016.padjo.org/tutorials/sqlite-your-browser-history/">get access to Safari history</a>.  I think I can do something similar with GoodLinks.</p>
 
-<p><img src="https://ik.imagekit.io/cxazzw3yew/Goodreads.png" alt="My Goodlinks Board" /></p>
+<p><img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/Goodreads.png" alt="My Goodlinks Board" /></p>
 
 <p>Right now, I'm bookmarking web things in GoodLinks. When I feel I have enough content to release another TIFOTIR, I pull from there (instead of my head).</p>
 
@@ -5998,7 +5998,7 @@ new (Future Post...Probably).</p>
 
 <p>I spend much of my time in [iTerm2]. Just because the terminal may be an <em>old- school</em> way of doing things doesn't mean I should keep my screen in the old school. [Oh-my-zsh] gives me plenty of great plugin access and themes out of the box, but I wanted a theme that was somewhat subtle that would just pop out some of the information that I should be looking for.</p>
 
-<p><img src="https://ik.imagekit.io/cxazzw3yew/iTerm%20with%20Dracula%20Theme.png" alt="My Terminal with the Dracula Theme" /></p>
+<p><img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/iTerm%20with%20Dracula%20Theme.png" alt="My Terminal with the Dracula Theme" /></p>
 
 <p>[Dracula] does a wonderful job not adding a lot of complexity to my terminal but emphasizes bits of data. Also they have many themes for other applications. I am also using their <a href="https://draculatheme.com/alfred">Alfred Theme</a></p>
 

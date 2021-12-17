@@ -1,7 +1,7 @@
 ---
 category: Ask a Brit
 date: Fri, 11 Dec 2020 17:26:21 -0800
-image: https://ik.imagekit.io/cxazzw3yew//AskABritv4.png
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//AskABritv4.png
 link: https://share.transistor.fm/s/9d9f5cfe
 slug: ask-a-brit-who-fumbled-covid-worse
 title: Who Fumbled COVID Worse?

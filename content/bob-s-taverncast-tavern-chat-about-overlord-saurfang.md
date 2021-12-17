@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Sun, 28 Mar 2021 21:42:33 -0700
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/b1b066f2
 slug: bob-s-taverncast-tavern-chat-about-overlord-saurfang
 title: Tavern Chat about Overlord Saurfang

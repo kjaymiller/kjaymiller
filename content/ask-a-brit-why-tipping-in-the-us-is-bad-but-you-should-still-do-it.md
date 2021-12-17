@@ -1,7 +1,7 @@
 ---
 category: Ask a Brit
 date: Wed, 10 Feb 2021 07:00:00 -0800
-image: https://ik.imagekit.io/cxazzw3yew//AskABritv4.png
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//AskABritv4.png
 link: https://share.transistor.fm/s/37fdc8e4
 slug: ask-a-brit-why-tipping-in-the-us-is-bad-but-you-should-still-do-it
 title: Why Tipping in the US is Bad but you Should Still Do it!

@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Sat, 20 Jun 2020 09:00:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/74128c8f
 slug: bob-s-taverncast-let-s-talk-about-saurolisk-with-guest-william-hung
 title: Let's Talk about Saurolisk with guest William Hung

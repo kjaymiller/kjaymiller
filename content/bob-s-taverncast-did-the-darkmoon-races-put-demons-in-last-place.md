@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Sun, 24 Jan 2021 21:10:46 -0800
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/59594a13
 slug: bob-s-taverncast-did-the-darkmoon-races-put-demons-in-last-place
 title: Did the DarkMoon Races put Demons in Last Place?

@@ -4,7 +4,7 @@ slug: aab-season-2
 date: 11 Dec 2020 21:04
 category: Ask a Brit
 slug: podcast announcement
-image: https://ik.imagekit.io/cxazzw3yew/AskABritv4.png
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/AskABritv4.png
 link: https://share.transistor.fm/s/9d9f5cfe
 ---
 

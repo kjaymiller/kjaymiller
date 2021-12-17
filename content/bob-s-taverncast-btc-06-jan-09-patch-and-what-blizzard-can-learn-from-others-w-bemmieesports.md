@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Sat, 11 Jan 2020 15:30:00 -0800
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/a998c3ac
 slug: bob-s-taverncast-btc-06-jan-09-patch-and-what-blizzard-can-learn-from-others-w-bemmieesports
 title: BTC 06 - Jan 09 Patch and What Blizzard Can Learn from Others w/ @Bemmieesports

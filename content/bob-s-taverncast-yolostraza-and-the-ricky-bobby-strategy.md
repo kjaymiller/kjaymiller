@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Fri, 17 Apr 2020 16:00:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/f612e0de
 slug: bob-s-taverncast-yolostraza-and-the-ricky-bobby-strategy
 title: YOLOStraza and the Ricky Bobby Strategy

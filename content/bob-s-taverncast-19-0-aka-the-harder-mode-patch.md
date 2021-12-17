@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Tue, 17 Nov 2020 08:15:38 -0800
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/ab97ea16
 slug: bob-s-taverncast-19-0-aka-the-harder-mode-patch
 title: 19.0 aka the Harder Mode Patch

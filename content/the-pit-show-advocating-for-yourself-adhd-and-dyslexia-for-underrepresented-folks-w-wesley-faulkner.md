@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Tue, 16 Mar 2021 09:11:02 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/243b9705
 slug: the-pit-show-advocating-for-yourself-adhd-and-dyslexia-for-underrepresented-folks-w-wesley-faulkner
 title: 'Advocating for yourself: ADHD and Dyslexia for Underrepresented Folks w/ Wesley

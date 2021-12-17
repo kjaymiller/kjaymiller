@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Tue, 28 Jul 2020 07:48:07 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/0d96699e
 slug: the-pit-show-better-than-fixing-computers-with-cecil-phillip
 title: Better than Fixing Computers with Cecil Phillip

@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Tue, 21 May 2019 05:30:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/f6db996c
 slug: the-pit-show-ish-shabazz-and-the-peppery-culmination-of-his-ios-development
 title: Ish Shabazz and the Peppery Culmination of his iOS Development

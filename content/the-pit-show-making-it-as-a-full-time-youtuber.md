@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Tue, 02 Feb 2021 16:32:39 -0800
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/c3e4908e
 slug: the-pit-show-making-it-as-a-full-time-youtuber
 title: Making it as a Full-Time YouTuber

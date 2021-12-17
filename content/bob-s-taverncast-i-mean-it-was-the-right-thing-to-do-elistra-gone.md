@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Mon, 22 Feb 2021 06:00:00 -0800
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/b9e854f0
 slug: bob-s-taverncast-i-mean-it-was-the-right-thing-to-do-elistra-gone
 title: "I mean it was the right thing to do... Elistra Gone \U0001F4A8"

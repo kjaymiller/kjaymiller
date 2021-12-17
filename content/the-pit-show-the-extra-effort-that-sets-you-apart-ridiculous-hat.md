@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Mon, 29 Apr 2019 22:15:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/350dc1e6
 slug: the-pit-show-the-extra-effort-that-sets-you-apart-ridiculous-hat
 title: The Extra Effort That Sets You Apart - Ridiculous Hat

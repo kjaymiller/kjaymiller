@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Fri, 24 Apr 2020 16:00:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/df9bf30b
 slug: bob-s-taverncast-millhouse-nerf-fun-house-with-afg-guest-nejiboston
 title: Millhouse Nerf Fun-House with AFG guest NejiBoston

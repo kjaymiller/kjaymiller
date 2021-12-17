@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Tue, 18 Aug 2020 08:58:01 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/8568b432
 slug: the-pit-show-pit-reflections-the-spiral-to-free-content
 title: 'PIT Reflections: The Spiral to Free Content'

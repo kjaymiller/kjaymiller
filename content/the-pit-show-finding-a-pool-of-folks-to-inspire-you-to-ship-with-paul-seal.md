@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Tue, 06 Aug 2019 07:15:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/f932856d
 slug: the-pit-show-finding-a-pool-of-folks-to-inspire-you-to-ship-with-paul-seal
 title: Finding a "Pool" of Folks to Inspire you to Ship! with Paul Seal

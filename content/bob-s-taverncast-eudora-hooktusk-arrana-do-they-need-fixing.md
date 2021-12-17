@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Sun, 28 Jun 2020 08:00:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/4d21b00c
 slug: bob-s-taverncast-eudora-hooktusk-arrana-do-they-need-fixing
 title: Eudora, Hooktusk, Arrana - Do they need Fixing?

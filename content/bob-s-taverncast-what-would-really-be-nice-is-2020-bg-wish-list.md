@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Fri, 03 Jan 2020 07:30:00 -0800
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/9e8ee546
 slug: bob-s-taverncast-what-would-really-be-nice-is-2020-bg-wish-list
 title: What would really be nice is.... (2020 BG Wish List)

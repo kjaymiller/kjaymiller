@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Tue, 26 Jan 2021 22:11:55 -0800
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/a10ff007
 slug: the-pit-show-ooda-looping-all-over-the-place
 title: OODA Looping All Over the Place

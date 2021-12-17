@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Mon, 28 Sep 2020 10:57:18 -0700
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/4397baf5
 slug: bob-s-taverncast-so-many-bad-heroes
 title: So Many Bad Heroes

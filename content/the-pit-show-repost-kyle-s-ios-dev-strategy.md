@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Fri, 28 Jun 2019 21:25:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/ab4cebf4
 slug: the-pit-show-repost-kyle-s-ios-dev-strategy
 title: '[REPOST] - Kyle''s IOS Dev Strategy'

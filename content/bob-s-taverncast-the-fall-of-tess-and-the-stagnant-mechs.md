@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Thu, 27 May 2021 08:00:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/84f74690
 slug: bob-s-taverncast-the-fall-of-tess-and-the-stagnant-mechs
 title: The Fall of Tess and the Stagnant Mechs

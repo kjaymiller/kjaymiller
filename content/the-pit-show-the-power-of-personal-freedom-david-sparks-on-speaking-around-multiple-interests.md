@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Sun, 08 Nov 2020 08:30:00 -0800
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/b307f8ac
 slug: the-pit-show-the-power-of-personal-freedom-david-sparks-on-speaking-around-multiple-interests
 title: 'The Power of Personal Freedom: David Sparks on Speaking Around Multiple Interests'

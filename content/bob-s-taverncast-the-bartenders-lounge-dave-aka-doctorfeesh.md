@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Sun, 01 Nov 2020 17:48:31 -0800
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/25e84760
 slug: bob-s-taverncast-the-bartenders-lounge-dave-aka-doctorfeesh
 title: The Bartenders Lounge - Dave aka DoctorFeesh

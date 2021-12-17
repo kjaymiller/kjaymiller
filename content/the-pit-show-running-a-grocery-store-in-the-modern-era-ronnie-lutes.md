@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Mon, 22 Apr 2019 20:00:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/ba2d0c39
 slug: the-pit-show-running-a-grocery-store-in-the-modern-era-ronnie-lutes
 title: Running A Grocery Store In The Modern Era - Ronnie Lutes

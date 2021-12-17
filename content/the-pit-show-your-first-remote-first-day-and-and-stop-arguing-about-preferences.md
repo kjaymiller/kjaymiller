@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Tue, 08 Sep 2020 08:44:03 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/8db4b73c
 slug: the-pit-show-your-first-remote-first-day-and-and-stop-arguing-about-preferences
 title: Your First Remote First Day and And Stop Arguing About Preferences!

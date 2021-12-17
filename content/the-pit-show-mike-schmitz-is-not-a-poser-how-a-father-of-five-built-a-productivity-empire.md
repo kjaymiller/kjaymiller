@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Mon, 18 Feb 2019 08:00:00 -0800
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/b4e55b7f
 slug: the-pit-show-mike-schmitz-is-not-a-poser-how-a-father-of-five-built-a-productivity-empire
 title: Mike Schmitz is (NOT) a Poser - How a Father of FIVE Built a Productivity Empire

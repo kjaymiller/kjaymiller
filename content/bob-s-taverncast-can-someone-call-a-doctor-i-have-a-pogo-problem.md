@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Mon, 21 Sep 2020 10:13:31 -0700
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/8b06c63c
 slug: bob-s-taverncast-can-someone-call-a-doctor-i-have-a-pogo-problem
 title: Can Someone Call a Doctor? I Have a Pogo Problem

@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Sun, 11 Apr 2021 14:58:33 -0700
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/97913c90
 slug: bob-s-taverncast-your-taunt-carnage-will-be-televised
 title: Your Taunt Carnage will be Televised

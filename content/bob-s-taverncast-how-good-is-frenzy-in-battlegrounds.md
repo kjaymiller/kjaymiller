@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Sun, 04 Apr 2021 21:26:35 -0700
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/32a778e5
 slug: bob-s-taverncast-how-good-is-frenzy-in-battlegrounds
 title: How Good is Frenzy in Battlegrounds

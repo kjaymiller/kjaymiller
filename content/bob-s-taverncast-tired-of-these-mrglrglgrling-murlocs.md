@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Sat, 23 May 2020 14:30:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/225b690d
 slug: bob-s-taverncast-tired-of-these-mrglrglgrling-murlocs
 title: Tired of these MRGLRGLGRLing Murlocs

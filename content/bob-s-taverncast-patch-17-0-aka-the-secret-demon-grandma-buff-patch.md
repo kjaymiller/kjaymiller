@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Fri, 27 Mar 2020 13:35:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/4828bc31
 slug: bob-s-taverncast-patch-17-0-aka-the-secret-demon-grandma-buff-patch
 title: Patch 17.0 (aka The Secret Demon Grandma Buff Patch)

@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Tue, 20 Apr 2021 09:05:36 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/0a3d1961
 slug: the-pit-show-has-tech-made-the-world-better
 title: Has Tech Made the World Better

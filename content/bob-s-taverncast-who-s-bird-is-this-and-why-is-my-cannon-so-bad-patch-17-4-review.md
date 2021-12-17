@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Sat, 13 Jun 2020 06:00:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/91dbed7c
 slug: bob-s-taverncast-who-s-bird-is-this-and-why-is-my-cannon-so-bad-patch-17-4-review
 title: Who's Bird is This and Why is My Cannon so Bad! Patch 17.4 Review

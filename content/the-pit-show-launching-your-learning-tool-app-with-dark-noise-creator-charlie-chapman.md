@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Mon, 09 Sep 2019 20:30:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/abce8194
 slug: the-pit-show-launching-your-learning-tool-app-with-dark-noise-creator-charlie-chapman
 title: Launching your "Learning Tool" App with Dark Noise Creator Charlie Chapman

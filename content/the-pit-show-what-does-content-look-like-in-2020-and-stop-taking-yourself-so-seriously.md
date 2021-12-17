@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Tue, 15 Sep 2020 09:09:57 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/4a020536
 slug: the-pit-show-what-does-content-look-like-in-2020-and-stop-taking-yourself-so-seriously
 title: What Does Content Look Like in 2020 and Stop Taking Yourself So Seriously!

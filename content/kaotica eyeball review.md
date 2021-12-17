@@ -1,7 +1,7 @@
 ---
 title: Kaotica Eyeball
 subtitle: The $200 Acoustic Paneling to Replace $400 Audio Plugins
-image: https://ik.imagekit.io/cxazzw3yew/kaotica-eyeball.jpeg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/kaotica-eyeball.jpeg
 tags: audio, production, sound-proofing
 date: 04 Nov 2020 16:19
 category: reviews
@@ -20,7 +20,7 @@ In that episode I removed my normal [RX Plugins](https://www.izotope.com/en/prod
 - De-Reverb
 - De Plosive
 
-![RX Audio Chains](https://ik.imagekit.io/cxazzw3yew/Audio Chains.png)
+![RX Audio Chains](https://kjaymiller.s3-us-west-2.amazonaws.com/images/Audio Chains.png)
 
 This retained some of the natural quality in the recording. While I don't think many people would notice a difference in quality, there is definitely a difference. But this also reduces my processing time and resources required on podcast and videos.
 

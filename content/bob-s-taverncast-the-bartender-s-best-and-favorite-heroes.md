@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Sun, 25 Apr 2021 20:34:46 -0700
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/e180e710
 slug: bob-s-taverncast-the-bartender-s-best-and-favorite-heroes
 title: The Bartender's Best and Favorite Heroes

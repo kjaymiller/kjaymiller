@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Fri, 07 Feb 2020 17:20:00 -0800
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/3c61cf94
 slug: bob-s-taverncast-btc-09-from-the-battlegrounds-being-flexible-ridiculoushat
 title: 'BTC 09 - From the Battlegrounds: Being Flexible (@RidiculousHat)'

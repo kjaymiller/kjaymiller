@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Mon, 17 Feb 2020 21:00:00 -0800
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/f62259f0
 slug: the-pit-show-new-season-who-dis-productivity-woes-and-new-projects
 title: New Season Who Dis? Productivity Woes and New Projects

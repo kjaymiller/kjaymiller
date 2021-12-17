@@ -1,7 +1,7 @@
 ---
 category: Ask a Brit
 date: Sun, 03 Feb 2019 21:55:00 -0800
-image: https://ik.imagekit.io/cxazzw3yew//AskABritv4.png
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//AskABritv4.png
 link: https://share.transistor.fm/s/ec08ed6c
 slug: ask-a-brit-i-watch-eurovision-i-mean-the-super-bowl-for-the-violence
 title: I watch Eurovision (I mean the super bowl) for the Violence

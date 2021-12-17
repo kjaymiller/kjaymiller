@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Sun, 06 Sep 2020 20:09:50 -0700
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/6bb80848
 slug: bob-s-taverncast-patch-18-2-party-hard
 title: Patch 18.2 - Party Hard

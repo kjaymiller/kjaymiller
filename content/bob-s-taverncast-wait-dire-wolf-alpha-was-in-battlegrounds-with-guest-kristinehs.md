@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Sat, 16 May 2020 08:00:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/c902d716
 slug: bob-s-taverncast-wait-dire-wolf-alpha-was-in-battlegrounds-with-guest-kristinehs
 title: Wait?! Dire Wolf Alpha was in Battlegrounds! with guest KristineHS

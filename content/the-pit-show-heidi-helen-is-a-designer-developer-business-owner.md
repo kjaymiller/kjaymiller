@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Tue, 18 Jun 2019 05:30:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/6b7c1c2e
 slug: the-pit-show-heidi-helen-is-a-designer-developer-business-owner
 title: Heidi Helen is a Designer/Developer/Business Owner

@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Sun, 23 Aug 2020 15:02:36 -0700
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/ec2f301f
 slug: bob-s-taverncast-the-biggest-little-patch-with-patron-guest-dr-feesh
 title: The Biggest Little Patch with Patron Guest Dr. Feesh

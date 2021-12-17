@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Sat, 02 May 2020 17:15:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/5a14fcc0
 slug: bob-s-taverncast-pirates-and-weapons-in-battlegrounds-wishlist-episode
 title: Pirates and Weapons in Battlegrounds (Wishlist Episode)

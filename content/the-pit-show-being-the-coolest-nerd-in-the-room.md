@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Thu, 23 Apr 2020 06:00:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/b8635d3b
 slug: the-pit-show-being-the-coolest-nerd-in-the-room
 title: Being the Coolest Nerd in the Room

@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Sun, 07 Feb 2021 19:34:06 -0800
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/b0b8d1df
 slug: the-pit-show-the-hidden-costs-of-supporting-your-little-projects
 title: The Hidden Costs of Supporting Your Little Projects

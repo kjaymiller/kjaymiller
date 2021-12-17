@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Sat, 01 Aug 2020 21:45:55 -0700
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/df8cc030
 slug: bob-s-taverncast-soft-kitty-warm-kitty-please-don-t-you-die-first
 title: Soft Kitty Warm Kitty, Please Don't You Die First

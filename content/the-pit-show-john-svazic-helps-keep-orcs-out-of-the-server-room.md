@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Tue, 09 Jul 2019 06:30:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/3ceb7afe
 slug: the-pit-show-john-svazic-helps-keep-orcs-out-of-the-server-room
 title: John Svazic Helps Keep Orcs Out of the Server Room

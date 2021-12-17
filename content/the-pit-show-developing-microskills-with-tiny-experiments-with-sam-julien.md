@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Tue, 11 May 2021 05:00:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/7e6b2c54
 slug: the-pit-show-developing-microskills-with-tiny-experiments-with-sam-julien
 title: Developing Microskills with Tiny Experiments with Sam Julien

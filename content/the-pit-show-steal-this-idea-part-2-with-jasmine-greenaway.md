@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Mon, 02 Nov 2020 19:34:33 -0800
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/6ecb6cf5
 slug: the-pit-show-steal-this-idea-part-2-with-jasmine-greenaway
 title: Steal this idea & Part 2 with Jasmine Greenaway

@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Sun, 30 Aug 2020 20:41:57 -0700
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/f08663fa
 slug: bob-s-taverncast-blizzard-gon-blizz-is-this-really-in-beta
 title: 'Blizzard gon'' Blizz: Is this really in Beta?'

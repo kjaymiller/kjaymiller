@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Tue, 02 Jun 2020 08:00:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/cf73bd77
 slug: the-pit-show-2-devs-don-t-talk-about-tech-with-infosteph
 title: 2 Devs Don't Talk About Tech with InfoSteph

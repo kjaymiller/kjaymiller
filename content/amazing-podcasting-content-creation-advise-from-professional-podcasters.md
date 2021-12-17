@@ -20,7 +20,7 @@ I like to just do a thing without overthinking it. That doesn't mean that I shou
 
 Even coming up with a quick 5-10 bullet outline can really make a difference in how focused content is.
 
-![David Sparks Episode Notes](https://ik.imagekit.io/cxazzw3yew/david-sparks-notes.jpeg?tr=pr-true,w-1024,h-500,fo-top)
+![David Sparks Episode Notes](https://kjaymiller.s3-us-west-2.amazonaws.com/images/david-sparks-notes.jpeg?tr=pr-true,w-1024,h-500,fo-top)
 
 ### There is nothing wrong with doing a bunch of things that (seem the same).  ###
 

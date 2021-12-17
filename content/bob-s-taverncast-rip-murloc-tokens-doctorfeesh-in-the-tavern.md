@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Mon, 22 Mar 2021 07:33:56 -0700
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/3e8008e9
 slug: bob-s-taverncast-rip-murloc-tokens-doctorfeesh-in-the-tavern
 title: RIP Murloc Tokens - DoctorFeesh in the Tavern

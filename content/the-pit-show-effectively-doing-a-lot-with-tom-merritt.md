@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Tue, 14 Jul 2020 08:30:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/671c723f
 slug: the-pit-show-effectively-doing-a-lot-with-tom-merritt
 title: Effectively Doing a Lot with Tom Merritt

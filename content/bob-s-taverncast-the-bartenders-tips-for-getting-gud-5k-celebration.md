@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Sat, 18 Jan 2020 12:55:00 -0800
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/03f198b8
 slug: bob-s-taverncast-the-bartenders-tips-for-getting-gud-5k-celebration
 title: The Bartenders Tips for Getting Gud (5k Celebration!)

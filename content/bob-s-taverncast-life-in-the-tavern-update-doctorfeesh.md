@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Tue, 25 May 2021 07:17:35 -0700
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/d686c261
 slug: bob-s-taverncast-life-in-the-tavern-update-doctorfeesh
 title: Life in the Tavern Update - DoctorFeesh

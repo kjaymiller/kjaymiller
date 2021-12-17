@@ -1,7 +1,7 @@
 ---
 title: Break up with your Productivity Obsession and Learning and Teaching with Jasmine Greenaway
 date: 2020-10-27T13:30:00.000Z
-image: https://ik.imagekit.io/cxazzw3yew/pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/pit-logo-v5.jpg
 category: The PIT Show
 tags: productivity, interview
 link: https://share.transistor.fm/s/48115dce

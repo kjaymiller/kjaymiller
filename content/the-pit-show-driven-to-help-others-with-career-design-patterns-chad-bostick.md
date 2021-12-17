@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Tue, 07 May 2019 05:00:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/dd7d3995
 slug: the-pit-show-driven-to-help-others-with-career-design-patterns-chad-bostick
 title: Driven To Help Others With Career Design Patterns - Chad Bostick

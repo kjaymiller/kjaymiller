@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Sat, 20 Jun 2020 09:30:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/b6760c2a
 slug: bob-s-taverncast-we-weren-t-supposed-to-be-having-this-episode-but-here-it-is
 title: We Weren't Supposed to Be Having This Episode but Here It Is!!!

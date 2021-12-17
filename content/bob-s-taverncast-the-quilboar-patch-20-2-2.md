@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Mon, 17 May 2021 11:18:52 -0700
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/134f30c5
 slug: bob-s-taverncast-the-quilboar-patch-20-2-2
 title: The Quilboar Patch (20.2.2)

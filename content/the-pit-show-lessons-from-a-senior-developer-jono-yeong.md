@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Mon, 22 Feb 2021 07:30:00 -0800
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/67e47095
 slug: the-pit-show-lessons-from-a-senior-developer-jono-yeong
 title: Lessons from a Senior Developer - Jono Yeong

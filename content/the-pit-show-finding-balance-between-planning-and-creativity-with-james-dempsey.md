@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Mon, 01 Apr 2019 19:15:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/da7b456e
 slug: the-pit-show-finding-balance-between-planning-and-creativity-with-james-dempsey
 title: Finding Balance Between Planning and Creativity with James Dempsey

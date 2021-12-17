@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Tue, 04 Jun 2019 05:30:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/4688e630
 slug: the-pit-show-will-gant-s-power-of-pace-with-your-project-to-do-more-than-most-part-1
 title: Will Gant's Power of Pace with your Project to Do More than Most (Part 1)

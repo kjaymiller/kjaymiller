@@ -1,7 +1,7 @@
 ---
 category: TekTok
 date: Tue, 12 May 2020 15:56:22 +0000
-image: https://ik.imagekit.io/cxazzw3yew//tektok_256.jpeg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//tektok_256.jpeg
 link: https://www.tekside.net/tektok/2020/5/12/hl180iov0tpnl3rs0jlbu8q1efb0yu
 slug: tektok-tektok-podcast-ep075-setup-tinkers-devonthinkers
 title: TEKTOK Podcast - EP075 - Setup Tinkers & DevonThinkers

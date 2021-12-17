@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Sun, 13 Dec 2020 22:20:51 -0800
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/873fa739
 slug: the-pit-show-always-be-writing-things-down-somewhere
 title: Always be Writing things Down (Somewhere)

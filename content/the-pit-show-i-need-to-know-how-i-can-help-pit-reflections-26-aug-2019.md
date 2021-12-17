@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Mon, 26 Aug 2019 21:55:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/9a328366
 slug: the-pit-show-i-need-to-know-how-i-can-help-pit-reflections-26-aug-2019
 title: I Need to Know How I Can Help - Pit Reflections 26 Aug 2019

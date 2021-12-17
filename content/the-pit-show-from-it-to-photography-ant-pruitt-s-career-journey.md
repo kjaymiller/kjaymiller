@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Tue, 09 Mar 2021 04:50:07 -0800
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/af268525
 slug: the-pit-show-from-it-to-photography-ant-pruitt-s-career-journey
 title: 'From IT to Photography: Ant Pruitt''s Career Journey'

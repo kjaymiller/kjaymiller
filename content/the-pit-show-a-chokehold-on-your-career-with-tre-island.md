@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Mon, 07 Jan 2019 07:20:00 -0800
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/32dcb89e
 slug: the-pit-show-a-chokehold-on-your-career-with-tre-island
 title: A Chokehold on your Career with Tre Island

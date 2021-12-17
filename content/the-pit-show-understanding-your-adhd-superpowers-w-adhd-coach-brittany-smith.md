@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Tue, 16 Feb 2021 07:15:00 -0800
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/fddb0555
 slug: the-pit-show-understanding-your-adhd-superpowers-w-adhd-coach-brittany-smith
 title: Understanding your ADHD Superpowers w/ ADHD Coach Brittany Smith

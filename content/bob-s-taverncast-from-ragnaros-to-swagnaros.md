@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Mon, 05 Oct 2020 10:33:29 -0700
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/7c8146e0
 slug: bob-s-taverncast-from-ragnaros-to-swagnaros
 title: "From Ragnaros to Swagnaros \U0001F4AA"

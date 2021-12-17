@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Mon, 21 Jan 2019 08:00:00 -0800
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/e443ae3f
 slug: the-pit-show-creating-people-to-look-up-to-maira-benjamin
 title: Creating People to Look Up To - Maira Benjamin

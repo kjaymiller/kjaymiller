@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Tue, 25 Jun 2019 22:35:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/7909f1be
 slug: the-pit-show-kyle-cronin-s-ios-dev-strategy
 title: Kyle Cronin's iOS Dev Strategy

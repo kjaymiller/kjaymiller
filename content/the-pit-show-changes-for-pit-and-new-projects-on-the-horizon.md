@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Fri, 30 Oct 2020 19:10:40 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/0e037bba
 slug: the-pit-show-changes-for-pit-and-new-projects-on-the-horizon
 title: Changes for PIT and New Projects on the Horizon

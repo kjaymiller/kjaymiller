@@ -1,7 +1,7 @@
 ---
 category: TekTok
 date: Tue, 17 Mar 2020 20:55:55 +0000
-image: https://ik.imagekit.io/cxazzw3yew//tektok_256.jpeg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//tektok_256.jpeg
 link: https://www.tekside.net/tektok/2020/3/17/kdjovit7nnqzdnhamlaxdij6im3lrd
 slug: tektok-tektok-podcast-ep073-i-have-a-subscription-for-that
 title: TEKTOK Podcast - EP073 - I Have a Subscription for That

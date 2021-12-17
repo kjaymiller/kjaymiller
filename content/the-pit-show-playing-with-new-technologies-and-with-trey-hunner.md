@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Tue, 06 Oct 2020 08:02:04 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/d1c51f1d
 slug: the-pit-show-playing-with-new-technologies-and-with-trey-hunner
 title: Playing with New Technologies and with Trey Hunner

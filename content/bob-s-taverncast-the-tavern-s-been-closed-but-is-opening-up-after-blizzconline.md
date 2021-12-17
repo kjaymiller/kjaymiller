@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Mon, 15 Feb 2021 21:16:27 -0800
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/8efeff0e
 slug: bob-s-taverncast-the-tavern-s-been-closed-but-is-opening-up-after-blizzconline
 title: The Tavern's Been Closed but is opening up after BlizzCOnline

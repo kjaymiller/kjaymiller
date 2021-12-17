@@ -1,7 +1,7 @@
 ---
 title: Teaching the Next Generation with the Help of the Solo Coders /w guest @AdersonOliveira
 date: 2020-11-30T15:47:32.114Z
-image: https://ik.imagekit.io/cxazzw3yew/pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/pit-logo-v5.jpg
 tags: teaching, podcast
 category: The PIT Show
 ---

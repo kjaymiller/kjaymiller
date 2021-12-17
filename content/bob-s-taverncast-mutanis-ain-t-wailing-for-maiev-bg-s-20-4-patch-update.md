@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Sat, 05 Jun 2021 18:48:16 -0700
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/b3ff84e7
 slug: bob-s-taverncast-mutanis-ain-t-wailing-for-maiev-bg-s-20-4-patch-update
 title: Mutanis ain't Wailing for Maiev (BG's 20.4 Patch Update)

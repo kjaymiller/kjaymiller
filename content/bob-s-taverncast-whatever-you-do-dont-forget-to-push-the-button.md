@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Mon, 01 Mar 2021 11:10:17 -0800
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/133ef9ed
 slug: bob-s-taverncast-whatever-you-do-dont-forget-to-push-the-button
 title: Whatever you do, DONT FORGET TO PUSH THE BUTTON!

@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Tue, 25 May 2021 09:11:54 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/621e051c
 slug: the-pit-show-creating-shortcuts-from-text-w-zachary-lineman
 title: Creating Shortcuts from Text w/ Zachary Lineman

@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Mon, 14 Jan 2019 07:00:00 -0800
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/c7279217
 slug: the-pit-show-podcast-ground-surfing-with-brett-terpstra
 title: Podcast Ground Surfing with Brett Terpstra

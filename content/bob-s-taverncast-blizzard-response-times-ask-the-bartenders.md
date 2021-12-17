@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Sat, 30 May 2020 14:30:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/3a09656c
 slug: bob-s-taverncast-blizzard-response-times-ask-the-bartenders
 title: Blizzard Response Times - Ask the Bartenders

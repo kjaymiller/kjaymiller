@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Tue, 01 Jun 2021 20:21:14 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/f6991b0b
 slug: the-pit-show-the-queen-of-apple-automation-rosemary-orchard
 title: 'The Queen of Apple Automation: Rosemary Orchard'

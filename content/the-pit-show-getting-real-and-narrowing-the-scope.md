@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Wed, 10 Jun 2020 19:00:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/2d916493
 slug: the-pit-show-getting-real-and-narrowing-the-scope
 title: Getting Real and Narrowing The Scope

@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Sun, 14 Mar 2021 16:50:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/5dc9148e
 slug: bob-s-taverncast-scallywag-or-khadgar-who-s-the-problem
 title: Scallywag or Khadgar? Who's the Problem

@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Tue, 27 Oct 2020 06:30:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/48115dce
 slug: the-pit-show-break-up-with-your-productivity-obsession-and-learning-and-teaching-with-jasmine-greenaway
 title: Break up with your Productivity Obsession and Learning and Teaching with Jasmine

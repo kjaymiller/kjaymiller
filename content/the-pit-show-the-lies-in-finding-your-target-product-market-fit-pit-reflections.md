@@ -1,7 +1,7 @@
 ---
 category: The PIT Show
 date: Mon, 16 Sep 2019 22:05:00 -0700
-image: https://ik.imagekit.io/cxazzw3yew//pit-logo-v5.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//pit-logo-v5.jpg
 link: https://share.transistor.fm/s/896ee111
 slug: the-pit-show-the-lies-in-finding-your-target-product-market-fit-pit-reflections
 title: The Lies in Finding Your Target Product/Market Fit - PIT Reflections

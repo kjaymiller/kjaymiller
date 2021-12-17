@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Mon, 18 Jan 2021 12:28:43 -0800
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/0b74e2ab
 slug: bob-s-taverncast-power-leveling-in-a-broken-client-meta
 title: Power-Leveling in a Broken (Client) Meta

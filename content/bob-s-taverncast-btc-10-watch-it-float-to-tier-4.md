@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Fri, 14 Feb 2020 08:00:00 -0800
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/e9585003
 slug: bob-s-taverncast-btc-10-watch-it-float-to-tier-4
 title: 'BTC 10: Watch it Float to Tier 4'

@@ -1,7 +1,7 @@
 ---
 category: Bob's Taverncast
 date: Mon, 17 Aug 2020 09:53:49 -0700
-image: https://ik.imagekit.io/cxazzw3yew//bobstavern_256.jpg
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images//bobstavern_256.jpg
 link: https://share.transistor.fm/s/107be893
 slug: bob-s-taverncast-fixing-eudora-s-issues
 title: Fixing Eudora's Issues

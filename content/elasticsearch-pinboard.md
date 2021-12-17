@@ -3,7 +3,7 @@ title: Elasticsearch Pinboard Script (Python)
 category: Elastic
 tags: elasticsearch, python, pinboard, bookmarking, visualization
 date: 21 Oct 2020 18:51
-image: https://ik.imagekit.io/cxazzw3yew/CleanShot_2020-10-21_at_18.40.49_2x_q7UEnmTnf.png
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/CleanShot_2020-10-21_at_18.40.49_2x_q7UEnmTnf.png
 link: https://github.com/kjaymiller/elasticsearch-pinboard
 ---
 
@@ -14,7 +14,7 @@ This is something I've always enjoyed about Brett. He solves his quirky problems
 
 There are a few applications that are overkill or a little too creepy (exist.io) for my needs, but I did like the idea of getting an idea of "how I compute". I mean this by how I spend my time producing and collecting on the internet. One of the things that I do is collect all my twitter posts and likes and retweets in pinboard. I thought it would be great to use Pinboard's API to log and manage my own data and analyze it using the Elastic Stack. So I decided to build a [script](https://github.com/kjaymiller/elasticsearch-pinboard) that allows me (and you if you wanna) to visualize my information.
 
-![Word Cloud](https://ik.imagekit.io/cxazzw3yew/CleanShot_2020-10-21_at_18.40.49_2x_q7UEnmTnf.png)
+![Word Cloud](https://kjaymiller.s3-us-west-2.amazonaws.com/images/CleanShot_2020-10-21_at_18.40.49_2x_q7UEnmTnf.png)
 
 As with most of my projects I have built this in Python and it's not a commercial tool, but it is open-source and available for you to build and hack away on. 
 
