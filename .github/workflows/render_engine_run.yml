@@ -41,6 +41,7 @@ jobs:
 
       - name: Install and Run Tailwindcss
         run: |
+          touch package.json
           npm install tailwindcss
           npx tailwindcss build -i static/css/pre/tailwind.css -o output/static/css/tailwind.css
 
