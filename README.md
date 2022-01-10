@@ -2,9 +2,9 @@ Jay Miller is a developer advocate, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [5 People That Made My 2021 📈](https://kjaymiller.com/jaysies-2021)**
+**Latest Post - [13: Happiness First, Productivity Second](https://kjaymiller.com/conduit-13-happiness-first-productivity-second)**
 
-**Latest Conduit Episode - [12: Con Doing It Live!](http://relay.fm/conduit/12)**
+**Latest Conduit Episode - [13: Happiness First, Productivity Second](http://relay.fm/conduit/13)**
 
 ## Active Projects
 
