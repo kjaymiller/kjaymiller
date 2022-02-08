@@ -19,15 +19,15 @@ web-sites quickly that you can use for prototypes for full time use!
 - [docs](https://render-engine.readthedocs.io)
 - [GitHub](https://github.com/kjaymiller/render_engine)
 
-### [Diversity Orgs.tech]
-[Diversity Orgs.tech] was originally created as a demo to show the ease of building a search platform with [Elastic App Search](https://www.elastic.co/app-search/).
+### [Diversity Tech Orgs]
+[Diversity Tech Orgs] was originally created as a demo to show the ease of building a search platform with [Elastic App Search](https://www.elastic.co/app-search/).
 
 It quickly became a resource that I was using to find diversity organizations to collaborate with. 
 
 Now it is a FREE directory for people to search for diversity focused organizations in their area.
 
 ### Links
-- <https://diversityorgs.tech>
+- <https://diversitytechorgs.com>
 - [GitHub](https://github.com/kjaymiller/diversity-orgs-tech)
 
 ## Sponsors
@@ -42,4 +42,4 @@ on github](https://github.com/sponsors/kjaymiller).
 Thank you to them and all others that have supported my work!
 
 [Render Engine]: https://render-engine.site
-[Diversity Orgs.tech]: https://diversityorgs.tech
+[Diversity Orgs.tech]: https://diversitytechorgs.com
