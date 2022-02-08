@@ -2,9 +2,9 @@ Jay Miller is a developer advocate, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [13: Happiness First, Productivity Second](https://kjaymiller.com/conduit-13-happiness-first-productivity-second)**
+**Latest Post - [15: Jay Has Some Big Decisions](https://kjaymiller.com/conduit-15-jay-has-some-big-decisions)**
 
-**Latest Conduit Episode - [13: Happiness First, Productivity Second](http://relay.fm/conduit/13)**
+**Latest Conduit Episode - [15: Jay Has Some Big Decisions](http://relay.fm/conduit/15)**
 
 ## Active Projects
 
@@ -19,15 +19,15 @@ web-sites quickly that you can use for prototypes for full time use!
 - [docs](https://render-engine.readthedocs.io)
 - [GitHub](https://github.com/kjaymiller/render_engine)
 
-### [Diversity Orgs.tech]
-[Diversity Orgs.tech] was originally created as a demo to show the ease of building a search platform with [Elastic App Search](https://www.elastic.co/app-search/).
+### [Diversity Tech Orgs]
+[Diversity Tech Orgs] was originally created as a demo to show the ease of building a search platform with [Elastic App Search](https://www.elastic.co/app-search/).
 
 It quickly became a resource that I was using to find diversity organizations to collaborate with. 
 
 Now it is a FREE directory for people to search for diversity focused organizations in their area.
 
 ### Links
-- <https://diversityorgs.tech>
+- <https://diversitytechorgs.com>
 - [GitHub](https://github.com/kjaymiller/diversity-orgs-tech)
 
 ## Sponsors
@@ -42,4 +42,4 @@ on github](https://github.com/sponsors/kjaymiller).
 Thank you to them and all others that have supported my work!
 
 [Render Engine]: https://render-engine.site
-[Diversity Orgs.tech]: https://diversityorgs.tech
+[Diversity Orgs.tech]: https://diversitytechorgs.com
