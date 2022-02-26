@@ -1,3 +1,9 @@
 .footnotes hr {
     border: 1px solid #333;
 }
+
+.feature-imag {
+  height: 300px;
+  overflow: hidden;
+  }
+
