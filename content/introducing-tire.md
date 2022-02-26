@@ -35,7 +35,7 @@ The idea of tire is to have words easily at your disposal in the process and jus
 
 As you can identify why you can't say yes. That conversely means you now have the ingredients that can turn your "No" into a "Maybe"[^2].
 
-This isn't an absolute, it's a guide. If you can reclaim energy or your concerns (intuition) are addressed. The conversation can be re-opened.
+This isn't an absolute, it's a guide. If you can reclaim energy or your concerns (intuition) are addressed, the conversation can be re-opened.
 
 ## More Analogies
 
