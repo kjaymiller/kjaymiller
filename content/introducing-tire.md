@@ -23,8 +23,11 @@ Originally created in [Conduit Episode 9 _Decision Space_](https://www.relay.fm/
 The idea of tire is to have words easily at your disposal in the process and justification of your decisions.
 
 > "I don't have time at the moment"...
+ 
 > "My intuition is that \_\_\_\_"
+
 > "At the moment I don't have the resources to do \_\_\_\_ to the best of my ability"
+ 
 > "My energy after \_\_\_\_ doesn't make this feel like a good idea."
 
 ## Use it as a Qualifier
@@ -39,8 +42,11 @@ Perhaps once your concerns (intuition) has been addressed.
 Acronym aside, there are many different analogies you can use when you think around a tire.
 
 > "You have to keep your tires inflated/you need to check your air pressure from time to time"
+ 
 > "Tires can flatten out of nowhere"
+
 > "You don't drive on your spare as you do on your regular tires"
+ 
 > "Different Tires can Handle Roads/Trails differently"
 
 My hope is that as you practice decision making, this tool can help you in your journey.
