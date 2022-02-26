@@ -1,0 +1,44 @@
+name: Render Engine Run
+# This workflow checks my blog for the latest posts
+
+on: 
+  push:
+  schedule:
+    - cron: "0 8,12,16,20 * * *" 
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Main
+        uses: actions/checkout@v2
+
+      - name: Setup python
+        uses: actions/setup-python@v1
+        with:
+          python-version: "3.10"
+          architecture: "x64"
+
+      - name: Remove Output Folder
+        uses: JesseTG/rm@v1.0.2
+        with:
+          path: output
+
+      - name: Install Requirements
+        run: |
+            pip install -r requirements.txt
+
+      - name: Generate new website
+        run: |
+            python run.py -u
+
+      - name: load to github
+        run: |
+          git config user.name "Automated Publisher"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          timestamp=$(date -u)
+          git pull
+          git commit -m ":robot: Automated New Blog Post: ${timestamp}" || exit 0
+          git push
