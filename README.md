@@ -2,9 +2,9 @@ Jay Miller is a developer advocate, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [15: Jay Has Some Big Decisions](https://kjaymiller.com/conduit-15-jay-has-some-big-decisions)**
+**Latest Post - [Generate QR Codes Using PopClip and Shortcuts](https://kjaymiller.com/generate-qr-codes-using-popclip-and-shortcuts)**
 
-**Latest Conduit Episode - [15: Jay Has Some Big Decisions](http://relay.fm/conduit/15)**
+**Latest Conduit Episode - [17: Space, and Related Subjects, For Your Productivity](http://relay.fm/conduit/17)**
 
 ## Active Projects
 
