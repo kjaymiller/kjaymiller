@@ -15,15 +15,17 @@ I did that thing where I started typing before my brain could stop me.
 
 Also, popclip extension snippets support shortcuts.
 
+```
 # popclip Generate QR Code
 name:  QR
 requirements: [url]
 icon: square q 
 shortcut name: QR Code
+```
 
 Here is a quick demo of it working...
 
-<video><source src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/qr_code_popclip_snippet_ext.mp4">popclip QR Demo</video>
+<video controls href="https://kjaymiller.s3-us-west-2.amazonaws.com/images/qr_code_popclip_snippet_ext.mp4">popclip QR Demo</video>
 
 Also I talk about a bunch of different things you can do with Popclip extension snippets in this video.
 
