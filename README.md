@@ -2,7 +2,7 @@ Jay Miller is a developer advocate, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [Generate QR Codes Using PopClip and Shortcuts](https://kjaymiller.com/generate-qr-codes-using-popclip-and-shortcuts)**
+**Latest Post - [Introducing the Tire Method](https://kjaymiller.com/introducing-the-tire-method)**
 
 **Latest Conduit Episode - [17: Space, and Related Subjects, For Your Productivity](http://relay.fm/conduit/17)**
 
