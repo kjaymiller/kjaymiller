@@ -1,5 +1,5 @@
 ---
-title: Introducing the Tire Method
+title: Introducing the TIRE Method
 date: 25 Feb 2022 23:24
 tags: conduit, productivity
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/tire-with-wheels.jpg
