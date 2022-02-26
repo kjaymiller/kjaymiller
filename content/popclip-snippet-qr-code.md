@@ -3,6 +3,7 @@ title: Generate QR Codes Using PopClip and Shortcuts
 link: https://forum.popclip.app/t/generator-qr-code-is-very-needed-thank/660
 tags: popclip, shortcuts
 date: 25 Feb 2022 22:10
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/QR%20Code%20Shortcut.png
 ---
 
 While checking email I saw there was a new popclip forum post[^1] where OP was asking for a snippet that generated a qr code... 
