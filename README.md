@@ -2,9 +2,9 @@ Jay Miller is a developer advocate, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [Introducing the TIRE Method](https://kjaymiller.com/introducing-the-tire-method)**
+**Latest Post - [18: Putting External Factors in a VICE Grip 🗜](https://kjaymiller.com/conduit-18-putting-external-factors-in-a-vice-grip)**
 
-**Latest Conduit Episode - [17: Space, and Related Subjects, For Your Productivity](http://relay.fm/conduit/17)**
+**Latest Conduit Episode - [18: Putting External Factors in a VICE Grip 🗜](http://relay.fm/conduit/18)**
 
 ## Active Projects
 
