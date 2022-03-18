@@ -1,16 +1,7 @@
 module.exports = {
-    mode: 'jit',
-    content: [
-      './output/**/*.html',
-      './output/**/*.js',
-    ],
+  content: ["./templates/**/*.{html,js}"],
   theme: {
     extend: {},
   },
-  variants: {},
-  plugins: [
-    require('tailwindcss'),
-    require('autoprefixer'),
-  ],
+  plugins: [],
 }
-

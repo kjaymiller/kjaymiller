@@ -1,56 +1,37 @@
-<header
-  class="
-    bg-gradient-to-br
-    from-purple-600
-    to-indigo-800
-    w-full
-    flex
-    xl:py-10
-    py-3
-    px-3
-  "
->
-  <div class="lg:mx-auto container">
-    <div class="flex items-end">
-      <h1 id="" class="title mx-3 text-2xl font-extrablack text-gray-200">
-        <a class="hover:no-decorate" href="/">{{SITE_TITLE}}</a>
-      </h1>
-    </div>
-    <div class="md:flex hidden" id="site-menu">
-      {% for link in HEADER_LINKS %}
-      <div class="p-3">
-        <a
-          class="
-            rounded
-            p-1
-            hover:bg-gray-200
-            hover:text-gray-600
+<div class="
+  bg-gradient-to-br    
+from-purple-600
+to-indigo-800
+  flex
+  items-center
+  p-5
+  ">
+    <h1 class="title mx-3 text-2xl font-bold text-gray-200">
+      <a class="hover:no-decorate" href="/">{{SITE_TITLE}}</a>
+    </h1>
+    {% for link in HEADER_LINKS %}
+      <a class="
+            p-3
+            rounded-lg
+            hover:bg-gray-100
+            hover:text-indigo-800
+            hover:font-semibold
             text-gray-200
-          "
-          href="{{link.url}}"
-        >
-          {{link.name}}
-        </a>
-      </div>
+          " href="{{link.url}}">
+        {{link.name}}
+      </a>
+
       {% endfor %}
-    </div>
     <div class="hidden">
       <form role="search" action="https://search.kjaymiller.com/">
         <div class="md:flex hidden">
-          <input
-            type="text"
-            style="
+          <input type="text" style="
               padding-left: 3em;
               background: url('/static/files/search.svg') 7px 0px white
                 no-repeat;
-            "
-            class="inline border border-blue-800 rounded-full"
-            name="q"
-            id="search-bar"
-            placeholder="Search"
-          />
+            " class="inline border border-blue-800 rounded-full" name="q" id="search-bar" placeholder="Search" />
         </div>
       </form>
     </div>
   </div>
-</header>
+</div>

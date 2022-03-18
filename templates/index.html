@@ -1,13 +1,11 @@
 {% extends 'base.html'%} {% block head %}
-<link rel="stylesheet" type="text/css" href="/static/css/index.css" />
+<!-- <link rel="stylesheet" type="text/css" href="/static/css/index.css" /> -->
 {% endblock %} {% block content %}
-<div class="container mx-auto">
-  {% include 'featured_post.html' %} {% include 'recent_posts.html' %}
+  {% include 'featured_post.html' %}
 
-  <h2 class="text-xl font-bold">Things I'm Building</h2>
+  <h2 class="w-full text-2xl font-bold">Things I'm Building</h2>
   {% include '_projects.html' %}
 
-  <h2 class="text-xl font-bold">Hear me On</h2>
-  {% include '_podcasts.html' %} {% include 'newsletter.html' %} 
-</div>
+  <h2 class="w-full text-2xl font-bold">Hear me On</h2>
+  {% include '_podcasts.html' %}
 {% endblock %}

@@ -2,6 +2,7 @@
 title: name change for diversityorgs.tech (Now Tech Diversity Orgs)
 slug: name-change-tech-diversity-orgs
 date: 10 Jan 2022 20:59
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/tech_diversity_orgs_com.jpg
 ---
 
 This is a post mostly for archival purposes but today I renamed the diversityorgs project to Tech Diversity Orgs and moved the domain to <https://techdiversityorgs.com>. The reason why is simple, cost.

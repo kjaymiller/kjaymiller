@@ -56,8 +56,7 @@ class Index(Page):
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        self.microblog_posts = mysite.collections["MicroBlog"].archive[0].pages[:2]
-        self.blog_posts = mysite.collections["Blog"].archive[0].pages[:1]
+        self.blog_posts = mysite.collections["Blog"].archive[0].pages
 
 
 @mysite.register_route

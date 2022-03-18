@@ -1,11 +1,15 @@
 {% extends 'base.html' %}
 {% block title %}{{title}}{% endblock %}
 {% block head %}
-  <link rel="stylesheet"  type="text/css" href="/static/css/blog.css">
+  <link rel="stylesheet" href="/static/css/pygments.css" />
+  <link rel="stylesheet" href="/static/css/base.css" />
 {% endblock %}
 {% block content %} 
 <div class="container mx-auto m-4">
-    <article class="my-4">
+    <article class="my-4 h-screen">
+	<div class="feature-image">
+	    <img src="{{image}}" class="rounded-lg shadow">
+	</div>
             <div class="m-3">
                 <h1 class="title text-4xl font-bold">{{title}}</h1>{% if subtitle %}: {{subtitle}}{%endif%}{% if
                         link %}<a href="{{link}}">🔗</a>{% endif %}
@@ -38,9 +42,6 @@
         {% endif %}
         {% include 'transistor.html' %}
         {% include 'YouTube_embed.html' %}
-	<div class="feature-image">
-	    <img src="{{image}}">
-	</div>
 
     <section class="section my-4 py-4">
           <div class="content">
