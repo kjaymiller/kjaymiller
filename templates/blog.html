@@ -2,7 +2,7 @@
 {% block title %}{{title}}{% endblock %}
 {% block head %}
   <link rel="stylesheet" href="/static/css/pygments.css" />
-  <link rel="stylesheet" href="/static/css/base.css" />
+  <link rel="stylesheet" href="/static/css/article.css" />
 {% endblock %}
 {% block content %} 
 <div class="container mx-auto m-4">
@@ -43,7 +43,7 @@
         {% include 'transistor.html' %}
         {% include 'YouTube_embed.html' %}
 
-    <section class="section h-screen my-4 py-4">
+    <section class="section min-h-screen my-4 py-4">
           <div class="content">
             {{markup}} 
           </div>

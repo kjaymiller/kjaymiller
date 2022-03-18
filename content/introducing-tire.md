@@ -23,14 +23,17 @@ Formed in [Conduit Episode 9 Decision Space](https://relay/conduit/9), it was cr
 
 The idea of tire is to have words easily at your disposal in the process and justification of your decisions.
 
->  "I don't have time at the moment"...
+---
 
-> "My intuition is that ..."
+"I don't have time at the moment"...
 
-> "At the moment, I don't have the resources to do \<THING\> to the best of my ability"
+"My intuition is that ..." 
 
-> "My energy after \<THING\> doesn't make this feel like a good idea."
+"At the moment, I don't have the resources to do `THING` to the best of my ability" 
 
+"My energy after `THING` doesn't make this feel like a good idea." 
+
+---
 ## Use it as a Qualifier
 
 As you can identify why you can't say yes. That conversely means you now have the ingredients that can turn your "No" into a "Maybe"[^2].
@@ -41,13 +44,17 @@ This isn't an absolute, it's a guide. If you can reclaim energy or your concerns
 
 Acronym aside, there are many different analogies you can use when you think around a tire.
 
-> "You have to keep your tires inflated/you need to check your air pressure from time to time"
+---
 
-> "Tires can flatten out of nowhere"
+"You have to keep your tires inflated/you need to check your air pressure from time to time" 
 
-> "You don't drive on your spare as you do on your regular tires"
+"Tires can flatten out of nowhere" 
 
-> "Different Tires can Handle Roads/Trails differently"
+"You don't drive on your spare as you do on your regular tires" 
+
+"Different Tires can Handle Roads/Trails differently" 
+
+---
 
 I hope this tool can help you in your endless journey of practicing decision making. 
 
