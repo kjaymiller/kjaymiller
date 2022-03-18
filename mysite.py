@@ -17,7 +17,6 @@ class MySite(Site):
         Link(name="Talks", url="/conference-talks.html"),
         Link(name="Podcasts", url="/podcasts.html"),
         Link(name="Projects", url="/projects.html"),
-        Link(name="Newsletter", url="/subscribe"),
         Link(name="Contact", url="/contact"),
     )
     timezone = "US/Pacific"

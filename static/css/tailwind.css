@@ -566,6 +566,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 1.25rem;
 }
 
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
 .mt-8 {
   margin-top: 2rem;
 }
@@ -640,6 +645,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-1\/3 {
   width: 33.333333%;
+}
+
+.w-96 {
+  width: 24rem;
 }
 
 .max-w-full {
@@ -748,9 +757,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(248 250 252 / var(--tw-bg-opacity));
 }
 
-.bg-blue-400 {
+.bg-purple-800 {
   --tw-bg-opacity: 1;
-  background-color: rgb(96 165 250 / var(--tw-bg-opacity));
+  background-color: rgb(107 33 168 / var(--tw-bg-opacity));
 }
 
 .bg-gray-200 {
@@ -839,14 +848,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 0.5rem;
 }
 
-.px-5 {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-}
-
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 .text-center {
@@ -1000,11 +1009,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.focus\:border-blue-800:focus {
-  --tw-border-opacity: 1;
-  border-color: rgb(30 64 175 / var(--tw-border-opacity));
 }
 
 @media (min-width: 640px) {
