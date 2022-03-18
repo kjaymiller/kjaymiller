@@ -603,6 +603,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
+.h-64 {
+  height: 16rem;
+}
+
 .h-screen {
   height: 100vh;
 }
