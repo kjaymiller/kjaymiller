@@ -2,7 +2,7 @@ Jay Miller is a developer advocate, marketer, and content creator from San Diego
 
 You can see what he's posting about at <https://kjaymiller.com>.
 
-**Latest Post - [18: Putting External Factors in a VICE Grip 🗜](https://kjaymiller.com/conduit-18-putting-external-factors-in-a-vice-grip)**
+**Latest Post - [The VICE Strategy for setting Boundaries and Rules](https://kjaymiller.com/the-vice-strategy-for-setting-boundaries-and-rules)**
 
 **Latest Conduit Episode - [18: Putting External Factors in a VICE Grip 🗜](http://relay.fm/conduit/18)**
 
