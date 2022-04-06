@@ -2,5 +2,5 @@ python-slugify
 feedparser
 httpx
 typer
-render_engine
+render-engine
 pytz

@@ -4,35 +4,39 @@
 #
 #    pip-compile
 #
-anyio==3.4.0
+anyio==3.5.0
     # via httpcore
 certifi==2021.10.8
     # via
     #   httpcore
     #   httpx
-charset-normalizer==2.0.8
+charset-normalizer==2.0.12
     # via httpx
-click==8.0.3
+click==8.1.0
     # via
     #   render-engine
     #   typer
+darglint==1.8.1
+    # via render-engine
 feedparser==6.0.8
-    # via -r requirements.in
+    # via
+    #   -r requirements.in
+    #   render-engine
 h11==0.12.0
     # via httpcore
-httpcore==0.14.3
+httpcore==0.14.7
     # via httpx
-httpx==0.21.1
+httpx==0.22.0
     # via -r requirements.in
 idna==3.3
     # via
     #   anyio
     #   rfc3986
-jinja2==3.0.3
+jinja2==3.1.1
     # via render-engine
-markdown2==2.4.1
+markdown2==2.4.2
     # via render-engine
-markupsafe==2.0.1
+markupsafe==2.1.1
     # via jinja2
 more-itertools==8.12.0
     # via render-engine
@@ -40,23 +44,21 @@ pendulum==2.1.2
     # via render-engine
 progress==1.6
     # via render-engine
-pygments==2.10.0
-    # via render-engine
 python-dateutil==2.8.2
     # via pendulum
 python-frontmatter==1.0.0
     # via render-engine
-python-slugify==5.0.2
+python-slugify==6.1.1
     # via
     #   -r requirements.in
     #   render-engine
-pytz==2021.3
+pytz==2022.1
     # via -r requirements.in
 pytzdata==2020.1
     # via pendulum
 pyyaml==6.0
     # via python-frontmatter
-render-engine==2021.9.9
+render-engine==2022.3.2
     # via -r requirements.in
 rfc3986[idna2008]==1.5.0
     # via httpx

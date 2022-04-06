@@ -11,13 +11,13 @@ def load_json(filename):
 
 class MySite(Site):
     HEADER_LINKS = (
-        Link(name="About", url="/about.html"),
-        Link(name="Blog", url="/blog-0.html"),
-        Link(name="YouTube", url="https://www.youtube.com/channel/UCjoJU65IbXkKXsNqydro05Q"),
-        Link(name="Talks", url="/conference-talks.html"),
-        Link(name="Podcasts", url="/podcasts.html"),
-        Link(name="Projects", url="/projects.html"),
-        Link(name="Contact", url="/contact"),
+        Link(text="About", url="/about.html"),
+        Link(text="Blog", url="/blog-0.html"),
+        Link(text="YouTube", url="https://www.youtube.com/channel/UCjoJU65IbXkKXsNqydro05Q"),
+        Link(text="Talks", url="/conference-talks.html"),
+        Link(text="Podcasts", url="/podcasts.html"),
+        Link(text="Projects", url="/projects.html"),
+        Link(text="Contact", url="/contact"),
     )
     timezone = "US/Pacific"
     SITE_TITLE = "Jay Miller"
