@@ -1,8 +1,6 @@
 Jay Miller is a developer advocate, marketer, and content creator from San Diego.
 
-You can see what he's posting about at <https://kjaymiller.com>.
-
-**Latest Post - [{{latest_post.title}}]({{latest_post.link}})**
+Website: <https://kjaymiller.com>.
 
 **Latest Conduit Episode - [{{latest_podcast_post.title}}]({{latest_podcast_post.link}})**
 

@@ -1,10 +1,8 @@
 Jay Miller is a developer advocate, marketer, and content creator from San Diego.
 
-You can see what he's posting about at <https://kjaymiller.com>.
+Website: <https://kjaymiller.com>.
 
-**Latest Post - [The VICE Strategy for setting Boundaries and Rules](https://kjaymiller.com/the-vice-strategy-for-setting-boundaries-and-rules)**
-
-**Latest Conduit Episode - [18: Putting External Factors in a VICE Grip 🗜](http://relay.fm/conduit/18)**
+**Latest Conduit Episode - [21: Plan To Be Flexible](http://relay.fm/conduit/21)**
 
 ## Active Projects
 
