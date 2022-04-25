@@ -31,7 +31,7 @@ jobs:
 
       - name: Generate new website
         run: |
-            python run.py -u
+            python routes.py
 
       - name: load to github
         run: |
