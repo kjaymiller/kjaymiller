@@ -2,7 +2,9 @@ name: Add Latest Post
 # This workflow checks my blog for the latest posts
 #
 
-on: [push]
+on:
+  scheduled:
+    cron: "0 8,12,16,20 * * *"
 
 jobs:
   build:
