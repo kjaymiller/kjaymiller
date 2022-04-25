@@ -28,21 +28,4 @@ blog = mysite.render_collection(Blog)
 @mysite.render_page
 class Index(Page):
     template = "index.html"
-    slug = "index"
     featured_post = blog[0]
-    podcasts = podcasts
-
-@mysite.render_page
-class Contact(Page):
-    template = "contact.html"
-
-
-@mysite.render_page
-class podcasts(Page):
-    template = "podcasts.html"
-    podcasts = podcasts
-
-@mysite.render_page
-class Projects(Page):
-    template = "projects.html"
-    projects = projects
