@@ -1,11 +1,17 @@
 {% extends 'base.html'%} {% block head %}
 <!-- <link rel="stylesheet" type="text/css" href="/static/css/index.css" /> -->
 {% endblock %} {% block content %}
-  {% include 'featured_post.html' %}
+
+<div class="my-3 py-3">
+  <h1 class="text-4xl font-bold capitalize">Featured Post</h1>
+<div class=" border rounded-lg flex items-center">
+  <img class="max-h-96 pr-5 overflow-hidden" src="{{featured_post.image}}" />
+  <h2 class="text-4xl font-bold"><a href="{{featured_post.url}}">{{featured_post.title}}</a></h2>
+</div>
+</div>
 
   <h2 class="w-full text-2xl font-bold">Things I'm Building</h2>
   {% include '_projects.html' %}
-
   <h2 class="w-full text-2xl font-bold">Hear me On</h2>
   {% include '_podcasts.html' %}
 {% endblock %}

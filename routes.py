@@ -1,86 +1,48 @@
-import json
-
 from render_engine import Blog, Collection, Page
-from render_engine.microblog import MicroBlog
-
-import podreader
+import pdb
+import json
 from mysite import MySite
 
-with open('content/podcasts.json') as filepath:
-    podcasts = json.load(filepath)
+mysite = MySite(static='static')
 
-    for name, podcast in podcasts["active"].items():
-        from_date = podcast.get("from_date", "06 October 1989 12:00 GMT")
-        podreader.download(
-            podcast_name = name,
-            podcast_data=podcast,
-            from_date=from_date
-        )
+with open('content/podcasts.json') as podcast_file:
+    podcasts = json.load(podcast_file)
 
-mysite = MySite()
+with open('content/projects.json') as project_file:
+    projects = json.load(project_file)
 
-
-@mysite.register_collection
+@mysite.render_collection
 class Pages(Collection):
-    routes = ["", "pages"]
     content_path = "content/pages"
     template = "page.html"
 
-
-@mysite.register_collection
 class Blog(Blog):
-   routes = ["", "/blog"]
-   template = "blog.html"
-   archive_template = "blog_list.html"
-   archive_slug = "all_posts"
-   content_path = "content"
-   subcollections = ["category", "tags"]
-   paginated = True
-
-
-@mysite.register_collection
-class MicroBlog(MicroBlog):
-    content_path = "content/microblog"
-    routes = ["/microblog"]
     template = "blog.html"
-    archive_template = "microblog_archive.html"
-    archive_slug = "all_microblog_posts"
-    paginated = True
+    content_path = "content"
+    archive_template = "blog_list.html"
+    has_archive = "True"
+    items_per_page = 10
 
+blog = mysite.render_collection(Blog)
 
-@mysite.register_route
+@mysite.render_page
 class Index(Page):
     template = "index.html"
     slug = "index"
-    no_index = True
+    featured_post = blog[0]
+    podcasts = podcasts
 
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
-        self.blog_posts = mysite.collections["Blog"].archive[0].pages
-
-
-@mysite.register_route
+@mysite.render_page
 class Contact(Page):
     template = "contact.html"
-    slug = "contact"
 
 
-@mysite.register_route
-class Talks(Page):
-    template = "conference-talks.html"
-    slug = "conference-talks"
-    posts = mysite.CONFERENCE_TALKS
-
-
-@mysite.register_route
-class projects(Page):
-    template = "projects.html"
-    slug = "projects"
-    title = "Projects"
-
-
-@mysite.register_route
-class podcast(Page):
+@mysite.render_page
+class podcasts(Page):
     template = "podcasts.html"
-    slug = "podcasts"
-    title = "Podcasts"
+    podcasts = podcasts
+
+@mysite.render_page
+class Projects(Page):
+    template = "projects.html"
+    projects = projects

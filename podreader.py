@@ -1,4 +1,4 @@
-import json
+8import json
 from pathlib import Path
 
 import dateutil.parser as parser
@@ -9,7 +9,8 @@ from slugify import slugify
 
 
 def download(podcast_name, podcast_data, from_date):
-    """get episodes in rss feed, check against the from_date and add to content"""
+    """get episodes in rss feed, check against the from_date and add to
+    content"""
 
     feed = feedparser.parse(podcast_data["feed_url"])
     tz = pytz.timezone("GMT")
