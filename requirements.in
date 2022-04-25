@@ -1,6 +1,2 @@
-python-slugify
 feedparser
-httpx
-typer
 render-engine
-pytz
