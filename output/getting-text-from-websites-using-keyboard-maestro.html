@@ -236,15 +236,15 @@ Right click the element and hover over copy and choose the <em>Selector Path</em
 
 <p>Add the <strong>Execute Javascript in Safari/Chrome</strong> action and enter the following code.</p>
 
-<pre><code>document.querySelector("&lt;PASTE YOUR COPIED TEXT&gt;").innerText`
-</code></pre>
+<div class="codehilite"><pre><span></span><code>document.querySelector(&quot;<span class="p">&lt;</span><span class="nt">PASTE</span> <span class="na">YOUR</span> <span class="na">COPIED</span> <span class="na">TEXT</span><span class="p">&gt;</span>&quot;).innerText`
+</code></pre></div>
 
 <p><code>document.querySelector</code> tells the browser to find the first element that matches your passed selection. Since you highlighted the text it will give you the most unique possible selection, so the first choice should be the correct one<sup class="footnote-ref" id="fnref-1"><a href="#fn-1">1</a></sup>.</p>
 
 <p>This however, <code>document.querySelector</code> gives you the full HTML element. So a paragraph would be</p>
 
-<pre><code>&lt;p&gt;Lorem ipsum dolor sit amet..&lt;/p&gt;`
-</code></pre>
+<div class="codehilite"><pre><span></span><code><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Lorem ipsum dolor sit amet..<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>`
+</code></pre></div>
 
 <p>We don't need the <code>&lt;p&gt;&lt;/p&gt;</code> parts. Luckily we can use the <code>innerText</code> attribute. As <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/innerText">Mozilla</a> explains it:</p>
 

@@ -184,11 +184,10 @@ to-indigo-800
 
 <p><img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/GH%20Action%2012%20months%20inactive.png" alt="This didn't run for 12 months" /></p>
 
-<p>After fixing what was out dated code, I added the <code>cron</code> build step to my Github action.</p>
-
-<pre><code> schedule:
-   - cron: "0 8,12,16,20 * * *" 
-</code></pre>
+<p>After fixing what was out dated code, I added the <code>cron</code> build step to my Github action.
+ <div class="codehilite"><pre><span></span><code><span class="n">schedule</span><span class="p">:</span>
+   <span class="o">-</span> <span class="n">cron</span><span class="p">:</span> <span class="s2">&quot;0 8,12,16,20 * * *&quot;</span> 
+ </code></pre></div></p>
 
 <p>This gave me the ability to run my script 4x each day. Also after fixing an issue with my folder not overwriting (still not sure as to why but this <a href="https://github.com/JesseTG/rm">Remove Folder</a> action did solve the issue) this mean that I would have a clean build of my site every four hours, fixing a duplication issue that I'm still unsure of why it's happening.</p>
 

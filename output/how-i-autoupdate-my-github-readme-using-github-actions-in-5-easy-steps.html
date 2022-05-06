@@ -223,16 +223,16 @@ rendering a template is much easier to edit and understand. Also, the compute
 time for Github Actions is free and this doesn't need to be the most
 performance conscious program. Also I like Jinja2, so there is also that 🙃.</p>
 
-<pre><code># From README_template.md
+<div class="codehilite"><pre><span></span><code><span class="gh"># From README_template.md</span>
 
-You can see what he's posting about at &lt;https://kjaymiller.com&gt;.
+You can see what he&#39;s posting about at &lt;https://kjaymiller.com&gt;.
 
-**Latest Post - [{{latest_post.title}}]({{latest_post.link}})**
+<span class="gs">**Latest Post - [{{latest_post.title}}]({{latest_post.link}})**</span>
 
-**Latest Productivity in Tech Podcast Episode - [{{latest_podcast_post.title}}]({{latest_podcast_post.link}})**
+<span class="gs">**Latest Productivity in Tech Podcast Episode - [{{latest_podcast_post.title}}]({{latest_podcast_post.link}})**</span>
 
-## Active Projects
-</code></pre>
+<span class="gu">## Active Projects</span>
+</code></pre></div>
 
 <h3>Step 4: Build your script to get the data and write the up to date README.md</h3>
 
@@ -240,27 +240,27 @@ You can see what he's posting about at &lt;https://kjaymiller.com&gt;.
 the feedparser plugin to parse the rss feeds and then returning the title and
 link for the latest episode.</p>
 
-<pre><code>def get_latest_post(rss_feed):
-    f = feedparser.parse(rss_feed)
-    latest_post = sorted(f['entries'], key=lambda x:x['published_parsed'])[-1]
-    return {
-            'title': latest_post['title'],
-            'link': latest_post['link'],
-            }
-</code></pre>
+<div class="codehilite"><pre><span></span><code><span class="k">def</span> <span class="nf">get_latest_post</span><span class="p">(</span><span class="n">rss_feed</span><span class="p">):</span>
+    <span class="n">f</span> <span class="o">=</span> <span class="n">feedparser</span><span class="o">.</span><span class="n">parse</span><span class="p">(</span><span class="n">rss_feed</span><span class="p">)</span>
+    <span class="n">latest_post</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">f</span><span class="p">[</span><span class="s1">&#39;entries&#39;</span><span class="p">],</span> <span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span><span class="n">x</span><span class="p">[</span><span class="s1">&#39;published_parsed&#39;</span><span class="p">])[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+    <span class="k">return</span> <span class="p">{</span>
+            <span class="s1">&#39;title&#39;</span><span class="p">:</span> <span class="n">latest_post</span><span class="p">[</span><span class="s1">&#39;title&#39;</span><span class="p">],</span>
+            <span class="s1">&#39;link&#39;</span><span class="p">:</span> <span class="n">latest_post</span><span class="p">[</span><span class="s1">&#39;link&#39;</span><span class="p">],</span>
+            <span class="p">}</span>
+</code></pre></div>
 
 <p>Then you set the template to the text of your template file.
  then write the rendered text to your README.</p>
 
-<pre><code># update readme
-template = Template(Path('./README_template.md').read_text())
-Path('./README.md').write_text(
-        template.render(
-            latest_post=get_latest_post(rss_feed),
-            latest_podcast_post=get_latest_post(podcast_url),
-            )
-        )
-</code></pre>
+<div class="codehilite"><pre><span></span><code><span class="c1"># update readme</span>
+<span class="n">template</span> <span class="o">=</span> <span class="n">Template</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="s1">&#39;./README_template.md&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">read_text</span><span class="p">())</span>
+<span class="n">Path</span><span class="p">(</span><span class="s1">&#39;./README.md&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">write_text</span><span class="p">(</span>
+        <span class="n">template</span><span class="o">.</span><span class="n">render</span><span class="p">(</span>
+            <span class="n">latest_post</span><span class="o">=</span><span class="n">get_latest_post</span><span class="p">(</span><span class="n">rss_feed</span><span class="p">),</span>
+            <span class="n">latest_podcast_post</span><span class="o">=</span><span class="n">get_latest_post</span><span class="p">(</span><span class="n">podcast_url</span><span class="p">),</span>
+            <span class="p">)</span>
+        <span class="p">)</span>
+</code></pre></div>
 
 <h2>Step 5: Setup your Github Actions File</h2>
 
@@ -270,13 +270,13 @@ simple to setup. </p>
 <p>You can look at the <a href="https://github.com/kjaymiller/kjaymiller/blob/master/.github/workflows/latest_post_readme.yml">.yml file</a> I'm not going to talk about the setup of this
 because most of it is prep stuff. Here's the important bit.</p>
 
-<pre><code># in steps:
-- name: Install Feedparser &amp; Jinja2
-  run: pip install feedparser jinja2
+<div class="codehilite"><pre><span></span><code><span class="c1"># in steps:</span><span class="w"></span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Install Feedparser &amp; Jinja2</span><span class="w"></span>
+<span class="w">  </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">pip install feedparser jinja2</span><span class="w"></span>
 
-- name: Update Readme
-  run: python ./.github/actions/update_readme.py
-</code></pre>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Update Readme</span><span class="w"></span>
+<span class="w">  </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">python ./.github/actions/update_readme.py</span><span class="w"></span>
+</code></pre></div>
 
 <p>Basically it's installing the things I need and then running the script (I
 saved the script in that folder, but you don't really have to as long as its in
