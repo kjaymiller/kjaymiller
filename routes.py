@@ -1,15 +1,9 @@
 from render_engine import Blog, Collection, Page
-import pdb
-import json
+from render_engine.feeds import RSSFeed
 from mysite import MySite
 
 mysite = MySite(static='static')
 
-with open('content/podcasts.json') as podcast_file:
-    podcasts = json.load(podcast_file)
-
-with open('content/projects.json') as project_file:
-    projects = json.load(project_file)
 
 @mysite.render_collection
 class Pages(Collection):
@@ -18,14 +12,16 @@ class Pages(Collection):
 
 class Blog(Blog):
     template = "blog.html"
+    feed = RSSFeed
     content_path = "content"
     archive_template = "blog_list.html"
-    has_archive = "True"
+    has_archive = True
     items_per_page = 10
 
+# Running render separately to save pages to variable for Index's Featured Post
 blog = mysite.render_collection(Blog)
 
 @mysite.render_page
 class Index(Page):
     template = "index.html"
-    featured_post = blog[0]
+    featured_post = blog.sorted_pages[0]
