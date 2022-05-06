@@ -52,7 +52,7 @@ pytzdata==2020.1
     # via pendulum
 pyyaml==6.0
     # via python-frontmatter
-render-engine==2022.5.1
+render-engine==2022.5.2
     # via -r requirements.in
 requests==2.27.1
     # via sphinx
