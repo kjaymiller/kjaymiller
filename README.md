@@ -2,7 +2,7 @@ Jay Miller is a developer advocate, marketer, and content creator from San Diego
 
 Website: <https://kjaymiller.com>.
 
-**Latest Conduit Episode - [21: Plan To Be Flexible](http://relay.fm/conduit/21)**
+**Latest Conduit Episode - [22: You Con Clean Things Up](http://relay.fm/conduit/22)**
 
 ## Active Projects
 
