@@ -1,21 +1,30 @@
-8import json
+import json
 from pathlib import Path
 
 import dateutil.parser as parser
 import feedparser
 import frontmatter
 import pytz
+from rich import print
 from slugify import slugify
 
+tz = pytz.timezone("GMT")
+
+def build_fmatter(entry_data: dict[str], content) -> bytes:
+    """builds frontmatter based on the given data"""
+    post = frontmatter.loads(content)
+    post.metadata.update(entry_data)
+    post_content = frontmatter.dumps(post)
+    print("Building episode [orange bold] {post.metadata.title}")
+    return Path("content", f"{slugify(filepath)}.md").write_text(post_content)
 
 def download(podcast_name, podcast_data, from_date):
     """get episodes in rss feed, check against the from_date and add to
     content"""
 
-    feed = feedparser.parse(podcast_data["feed_url"])
-    tz = pytz.timezone("GMT")
 
     for entry in feed.entries:
+        print(f"{entry=}")
 
         # Check episode published after from_date
         check_date = parser.parse(entry.published)
@@ -42,10 +51,8 @@ def download(podcast_name, podcast_data, from_date):
             "image": podcast_data["image"],
         }
 
-        post = frontmatter.loads(f"{entry.content[0]['value']}")
-        post.metadata.update(entry_data)
-        post_content = frontmatter.dumps(post)
-        Path("content", f"{slugify(filepath)}.md").write_text(post_content)
+        yield build_fmatter(entry_data, entry.content[0]['value'])
+
 
 
 def main(json_file, section="active"):
@@ -53,8 +60,9 @@ def main(json_file, section="active"):
         podcasts = json.load(filepath)
 
         for name, podcast in podcasts[section].items():
-            print(f"processing {name}")
+            print(f"processing [bold blue] {name}")
             from_date = podcast.get("from_date", "06 October 1989 12:00 GMT")
+            feed = feedparser.parse(podcast["feed_url"])
             download(
                 podcast_name = name,
                 podcast_data=podcast,
@@ -64,4 +72,4 @@ def main(json_file, section="active"):
 
 if __name__ == "__main__":
     main("content/podcasts.json")
-    main("content/podcasts.json", section="retired")
+#    main("content/podcasts.json", section="retired")
