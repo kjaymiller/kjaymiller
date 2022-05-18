@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/static/css/tailwind.css" />
+    <script src="https://kit.fontawesome.com/94d9a219ee.js" crossorigin="anonymous"></script>
+    
+  <link rel="stylesheet" href="/static/css/pygments.css" />
+  <link rel="stylesheet" href="/static/css/article.css" />
+
+    <title>
+      
+      Fresh Builds Daily - Jay Miller
+    </title>
+  </head>
+  <body> 
+    <div class="
+  bg-gradient-to-br    
+from-purple-600
+to-indigo-800
+  flex
+  items-center
+  p-5
+  ">
+    <h1 class="title mx-3 text-2xl font-bold text-gray-200">
+      <a class="hover:no-decorate" href="/">Jay Miller</a>
+    </h1>
+    
+      <a class="
+            p-3
+            rounded-lg
+            hover:bg-gray-100
+            hover:text-indigo-800
+            hover:font-semibold
+            text-gray-200
+          " href="/about.html">
+        About
+      </a>
+
+      
+      <a class="
+            p-3
+            rounded-lg
+            hover:bg-gray-100
+            hover:text-indigo-800
+            hover:font-semibold
+            text-gray-200
+          " href="/blog/blog-0.html">
+        Blog
+      </a>
+
+      
+      <a class="
+            p-3
+            rounded-lg
+            hover:bg-gray-100
+            hover:text-indigo-800
+            hover:font-semibold
+            text-gray-200
+          " href="https://www.youtube.com/channel/UCjoJU65IbXkKXsNqydro05Q">
+        YouTube
+      </a>
+
+      
+      <a class="
+            p-3
+            rounded-lg
+            hover:bg-gray-100
+            hover:text-indigo-800
+            hover:font-semibold
+            text-gray-200
+          " href="https://github.com/stars/kjaymiller/lists/conference-talks">
+        Talks
+      </a>
+
+      
+      <a class="
+            p-3
+            rounded-lg
+            hover:bg-gray-100
+            hover:text-indigo-800
+            hover:font-semibold
+            text-gray-200
+          " href="/podcasts.html">
+        Podcasts
+      </a>
+
+      
+      <a class="
+            p-3
+            rounded-lg
+            hover:bg-gray-100
+            hover:text-indigo-800
+            hover:font-semibold
+            text-gray-200
+          " href="/projects.html">
+        Projects
+      </a>
+
+      
+      <a class="
+            p-3
+            rounded-lg
+            hover:bg-gray-100
+            hover:text-indigo-800
+            hover:font-semibold
+            text-gray-200
+          " href="/contact">
+        Contact
+      </a>
+
+      
+    <div class="hidden">
+      <form role="search" action="https://search.kjaymiller.com/">
+        <div class="md:flex hidden">
+          <input type="text" style="
+              padding-left: 3em;
+              background: url('/static/files/search.svg') 7px 0px white
+                no-repeat;
+            " class="inline border border-blue-800 rounded-full" name="q" id="search-bar" placeholder="Search" />
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+    <div class="mx-auto container flex-grow">
+         
+<div class="container mx-auto m-4">
+    <article class="my-4">
+	<div class="feature-image h-64 overflow-hidden">
+	    <img src="" class="rounded-lg shadow">
+	</div>
+            <div class="m-3">
+                <h1 class="title text-4xl font-bold">Fresh Builds Daily</h1>
+              <small class="column is-narrow">
+              Dec 07, 2021 13:19 PM
+              </small>
+
+        </div>
+              <section class="bg-gray-400 flex">
+                  <div class="px-3">
+                  
+                    <p class="">
+                    <strong>Tags: </strong>
+                    
+                    <small class="mx-2 p-1 rounded border border-gray-400 bg-gray-200">
+  <a href="tags/development-0"
+    class="">development
+   </a> 
+</small >
+                    
+                    <small class="mx-2 p-1 rounded border border-gray-400 bg-gray-200">
+  <a href="tags/github-0"
+    class="">github
+   </a> 
+</small >
+                    
+                    <small class="mx-2 p-1 rounded border border-gray-400 bg-gray-200">
+  <a href="tags/gh actions-0"
+    class="">gh actions
+   </a> 
+</small >
+                    
+                    </p>
+                    
+                </div>
+              </section>
+        </section>
+        <hr />
+
+        
+
+        
+        
+        
+
+    <section class="section min-h-screen my-4 py-4">
+          <div class="content">
+            <p>One of the challenges faced with faced with static site generation is not having to be on top of things. When <a href="!g conduit relay.fm">Conduit</a> releases, if I would like my website to update, this would require me to run a script to rebuild my site<sup class="footnote-ref" id="fnref-1"><a href="#fn-1">1</a></sup>. </p>
+
+<p>Yesterday I took a look at my GitHub action for triggering [render engine] to run. I was surprised to see a handful of issues that had been keeping it from running as expected for almost a year!</p>
+
+<p><img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/GH%20Action%2012%20months%20inactive.png" alt="This didn't run for 12 months" /></p>
+
+<p>After fixing what was out dated code, I added the <code>cron</code> build step to my Github action.
+ <div class="codehilite"><pre><span></span><code><span class="n">schedule</span><span class="p">:</span>
+   <span class="o">-</span> <span class="n">cron</span><span class="p">:</span> <span class="s2">&quot;0 8,12,16,20 * * *&quot;</span> 
+ </code></pre></div></p>
+
+<p>This gave me the ability to run my script 4x each day. Also after fixing an issue with my folder not overwriting (still not sure as to why but this <a href="https://github.com/JesseTG/rm">Remove Folder</a> action did solve the issue) this mean that I would have a clean build of my site every four hours, fixing a duplication issue that I'm still unsure of why it's happening.</p>
+
+<p>I'm not happy that I have some bugs that aren't solved but I am happy that I have a nice little fix to make sure that my site is always within 4 hours of being up to day with what I'm doing.</p>
+
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn-1">
+<p>The <a href="https://github.com/kjaymiller/kjaymiller/blob/main/podreader.py">script</a> actually pulls the latest episode from our rss feed&#160;<a href="#fnref-1" class="footnoteBackLink" title="Jump back to footnote 1 in the text.">&#8617;</a></p>
+</li>
+</ol>
+</div>
+
+          </div>
+        </section>
+      </article>
+    <section class="my-4 border-t-2 border-gray-400">
+      <div class="content p-2">
+      <a href="/blog-0.html" class="subtitle is-5 text-link">Back to
+        Blogs...</a>
+    </section>
+</div>
+
+         
+    </div>
+    <footer class="container mx-auto shadow rounded-md bottom-0 bg-slate-50 px-4 my-4 h-24">
+  <div class="lg:flex md:mx-auto h-full justify-around items-center">
+    <p> kjaymiller.com</p>
+    <p>Website made with <a
+                            class="hover:underline" href="https://github.com/kjaymiller/render_engine">Render Engine</a> and <a href="https://tailwindcss.com">TailwindCSS</a>
+    <div>
+      <a class="hover:underline" href="/blog.rss.xml"><span class="icon"><i class="fas fa-rss"></i></a>
+              <a href="https://www.youtube.com/channel/UCjoJU65IbXkKXsNqydro05Q/">
+            <i class="text-red-700 text-2xl m-3 fa-brands fa-youtube"></i>
+        </a>
+        <a href="https://twitter.com/kjaymiller">
+            <i class="text-blue-500 m-3 text-2xl fa-brands fa-twitter-square"></i>
+        </a>
+        <a href="https://linkedin.com/in/kjaymiller">
+            <i class="text-blue-900 m-3 text-2xl fa-brands fa-linkedin"></i>
+        </a>
+    
+    </div>
+  </div>
+</footer>
+  </body>
+
+</html>
