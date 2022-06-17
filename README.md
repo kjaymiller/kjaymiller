@@ -18,11 +18,7 @@ web-sites quickly that you can use for prototypes for full time use!
 - [GitHub](https://github.com/kjaymiller/render_engine)
 
 ### [Diversity Tech Orgs]
-[Diversity Tech Orgs] was originally created as a demo to show the ease of building a search platform with [Elastic App Search](https://www.elastic.co/app-search/).
-
-It quickly became a resource that I was using to find diversity organizations to collaborate with. 
-
-Now it is a FREE directory for people to search for diversity focused organizations in their area.
+[Diversity Tech Orgs] (WIP) a django app that can be use to discover organizations focused on building diversity in tech.
 
 ### Links
 - <https://diversitytechorgs.com>
