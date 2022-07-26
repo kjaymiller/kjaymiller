@@ -12,7 +12,6 @@ With Render Engine, you work with classes that build from one another to create
 web-sites quickly that you can use for prototypes for full time use!
 
 #### Links
-- [render-engine.site (website)][Render Engine]
 - [PyPI](https://pypi.org/project/render-engine)
 - [docs](https://render-engine.readthedocs.io)
 - [GitHub](https://github.com/kjaymiller/render_engine)
@@ -35,5 +34,4 @@ on github](https://github.com/sponsors/kjaymiller).
 
 Thank you to them and all others that have supported my work!
 
-[Render Engine]: https://render-engine.site
 [Diversity Orgs.tech]: https://diversitytechorgs.com
