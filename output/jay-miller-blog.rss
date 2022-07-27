@@ -108,7 +108,7 @@
 
 <p>In July the VS Code Python Team released an <a href="https://devblogs.microsoft.com/python/python-in-visual-studio-code-july-2022-release/">update for VS Code</a> that announced inlay Type Hint Support.</p>
 
-<p>https://www.youtube.com/watch?v=hHBp0r4w86g</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hHBp0r4w86g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <p>Adding type hint inferences next to your code is very nice. The more I started playing with it, I noticed that sometimes the type hints didn't feel helpful and made my code look cluttered.</p>
 
