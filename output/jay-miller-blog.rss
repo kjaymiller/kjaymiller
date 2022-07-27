@@ -100,6 +100,95 @@
       https://kjaymiller.com/blog/conduit-18-putting-external-factors-in-a-vice-grip.html
     </link>
 <pubDate>Thu, 10 Mar 2022 16:00:00 -0800</pubDate></item><item>
+<title>Make Inlay Type Hints in Python Appear/Disappear</title>  <description><![CDATA[<h2>A Type Hinting Tip for Those Not Completely Onboard</h2>
+
+<blockquote>
+  <p>TLDR: You can set <code>Inlay Hints: Enabled</code> to <code>On/OffUnless pressed</code> in the settings to show/hide inlay type hints in Python code. </p>
+</blockquote>
+
+<p>In July the VS Code Python Team released an <a href="https://devblogs.microsoft.com/python/python-in-visual-studio-code-july-2022-release/">update for VS Code</a> that announced inlay Type Hint Support.</p>
+
+<p>https://www.youtube.com/watch?v=hHBp0r4w86g</p>
+
+<p>Adding type hint inferences next to your code is very nice. The more I started playing with it, I noticed that sometimes the type hints didn't feel helpful and made my code look cluttered.</p>
+
+<p><img src="https://jmblogstorrage.blob.core.windows.net/media/type_literals.png" alt="type literals don't help that much when writing code" /></p>
+
+<p>Don't get me wrong, I like type hints. They are a massive help with troubleshooting and documentation. They are even used in <a href="https://docs.python.org/3/library/dataclasses.html">dataclasses</a>, one of my favorite standard library tools. Just as I tell my child, there is a time and place for everything. When it comes to type hints, <em>All the Time!</em>, is not the answer.</p>
+
+<h3>Let's take the following example.</h3>
+
+<p>Let's say we have some dictionary objects that are brought into our code from multiple systems. Sometimes the <code>employee_id</code> will be a numerical id and other times it will be a unique string.</p>
+
+<div class="codehilite"><pre><span></span><code><span class="n">jay</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Jay&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;employee_id&quot;</span><span class="p">:</span> <span class="s2">&quot;abcd1234&quot;</span> <span class="c1"># some records could be integers depending on the schema</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<p>If we don't define types, PyLance will assume that the contact <code>jay</code> is the type <code>dict[str, str]</code> because all the values in the dictionary are <code>str</code>. What happens if we have a different record like:</p>
+
+<div class="codehilite"><pre><span></span><code><span class="n">kevin</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Kevin&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;employee_id&quot;</span><span class="p">:</span> <span class="mi">12345678</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<p>The variable of <code>kevin</code> would be typed <code>dict[str, Any]</code> because the type of the <code>employee_id</code> differs from the <code>name</code>. </p>
+
+<p>If we build a function that gets the employee id of multiple entries and sorts by <code>employee_id</code>, We'll get a <code>TypeError</code>.</p>
+
+<div class="codehilite"><pre><span></span><code><span class="k">def</span> <span class="nf">get_employee_id</span><span class="p">(</span><span class="n">contact</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;retrieve employee id from contact&quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">contact</span><span class="p">[</span><span class="s2">&quot;employee_id&quot;</span><span class="p">]</span>
+
+<span class="n">sorted_employees</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">([</span><span class="n">jay</span><span class="p">,</span> <span class="n">kevin</span><span class="p">],</span> <span class="n">key</span><span class="o">=</span><span class="n">get_employee_id</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">Traceback</span> <span class="p">(</span><span class="n">most</span> <span class="n">recent</span> <span class="n">call</span> <span class="n">last</span><span class="p">):</span>
+  <span class="n">File</span> <span class="s2">&quot;&lt;stdin&gt;&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">1</span><span class="p">,</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+
+<span class="ne">TypeError</span><span class="p">:</span> <span class="s1">&#39;&lt;&#39;</span> <span class="ow">not</span> <span class="n">supported</span> <span class="n">between</span> <span class="n">instances</span> <span class="n">of</span> <span class="s1">&#39;int&#39;</span> <span class="ow">and</span> <span class="s1">&#39;str&#39;</span>
+</code></pre></div>
+
+<p>The solution is to return the contact variable as a str.  Type Hints would have told us that the contact would have been <code>Any</code> type (like <code>kevin</code>). And this would have been a hint we need to make types consistent. </p>
+
+<p>We could even create a custom named type as Łukasz Langa mentions in his <a href="https://youtu.be/wbohVjhqg7c?t=753">PyCon US 2022 Keynote</a>. This would provide helpful hints as we're writing the code.</p>
+
+<p><img src="https://jmblogstorrage.blob.core.windows.net/media/custom_type_contact.png" alt="custom type hint" /></p>
+
+<h2>The July 2022 Update</h2>
+
+<p>The aforementioned VS Code Python update made it so that types could be inlayed next to your code. This makes adding type hints much simpler because hints (which are not added to your code) are valid Python code and can be added by the author.</p>
+
+<p>In this case the hints would have been helpful but I don't want them always be present. There is an existing feature that may be new to Python developers using VS Code that will make showing your type hints only when you want to see them.</p>
+
+<h2>Turning On Inlay Hints</h2>
+
+<p>For this to work you must first turn on Inlay Hints for python. Make sure the <a href="https://marketplace.visualstudio.com/items?itemName=ms-python.python">Python Extension</a> is installed in VS Code and search "Python Inlay Hints" in settings.</p>
+
+<p><img src="https://jmblogstorrage.blob.core.windows.net/media/set_python_inlay_hints.gif" alt="python inlay type hints" /></p>
+
+<p>The first value to turn on is <code>Python › Analysis › Inlay Hints: Function Return Types</code>. This gives typing for what a function or method is returning.</p>
+
+<p>The second is <code>Python › Analysis › Inlay Hints: Variable Types</code>. This inlays hints on variables that are written (like the ones above).</p>
+
+<h2>Customizing How Inlay Hints Present in Your Editor</h2>
+
+<p>Next in settings just search for "Inlay".  You should find <code>Editor › Inlay Hints: Enabled</code>.  The value is set to <code>on</code> by default, but it has a few options, including <code>OnUnlessPressed</code> and <code>OffUnlessPressed</code>.</p>
+
+<p><img src="https://jmblogstorrage.blob.core.windows.net/media/set_inlay_hints.gif" alt="Set Inlay Hints Enabled" /></p>
+
+<p><strong>If you change the value to <code>OffUnlessPressed</code>, you will no longer see inlayed hints until you enter <em>Ctrl + Alt</em> (<em>⌃ + ⌥</em> on MacOS)</strong>. When you need a hint, press the keys and the type hints will reappear. Release the keys and they disappear again.</p>
+
+<p><img src="https://jmblogstorrage.blob.core.windows.net/media/toggle_inlay_hints.gif" alt="Toggle Inlay Hints" /></p>
+
+<p>You can also set <code>OnUnlessPressed</code>. This does the opposite, only showing the code that exists in the file. This entry in settings is also next to other Inlay hint stylings that may help you differentiate your code from hints.</p>
+]]></description>
+
+      <category>work</category>
+      <link>
+      https://kjaymiller.com/blog/make-inlay-type-hints-in-python-appear-disappear.html
+    </link>
+<pubDate>Wed, 27 Jul 2022 14:35:00 -0700</pubDate></item><item>
 <title>9: Decision Space (The TIRE Technique)</title>  <description><![CDATA[<p>It's time to fill up the TIREs and get ready for liftoff as we explore the final frontier before a good decision!</p>
 ]]></description>
 
