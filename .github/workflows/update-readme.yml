@@ -28,3 +28,4 @@ jobs:
         git config --global user.name "gh-blog-bot"
         git add readme.md
         git commit -m "Update readme.md"
+        git push origin main
