@@ -1,0 +1,38 @@
+name: Add Latest Post
+# This workflow checks my blog for the latest posts
+#
+
+on:
+  schedule:
+    - cron: "0 8,12,16,20 * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # All the Prep Work
+      - name: Checkout Main
+        uses: actions/checkout@v2
+
+      - name: Setup python
+        uses: actions/setup-python@v1
+        with:
+          python-version: "3.9"
+          architecture: "x64"
+
+      - name: Install Feedparser & Jinja2
+        run: pip install feedparser jinja2
+
+      - name: Update Readme
+        run: python ./.github/actions/update_readme.py
+
+      - name: load to github
+        run: |
+          git config user.name "Automated Publisher"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          timestamp=$(date -u)
+          git commit -m ":robot: Automated update README: ${timestamp}" || exit 0
+          git tag content
+          git push

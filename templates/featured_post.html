@@ -1,5 +1,5 @@
 {% set latest_post = blog_posts[0] %}
-<a href="{{latest_post.slug}}">
+<a href="./blog/{{latest_post.url}}">
   <div class="
   my-5
   flex
@@ -23,7 +23,7 @@
 
 <div class="flex flex-wrap items-end justify-around">
   {% for featured_post in blog_posts[1:5] %}
-  <a href="{{featured_post.slug}}">
+  <a href="./blog/{{featured_post.url}}">
     <div class="my-5 flex flex-col overflow-hidden justify-end bg-gradient-to-br
     from-purple-700 
     to-indigo-800

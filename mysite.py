@@ -11,7 +11,7 @@ def load_json(filename):
 site_vars = {
     'HEADER_LINKS': (
         Link(text="About", url="/about.html"),
-        Link(text="Blog", url="/blog-0.html"),
+        Link(text="Blog", url="/blog/blog-0.html"),
         Link(text="YouTube", url="https://www.youtube.com/channel/UCjoJU65IbXkKXsNqydro05Q"),
         Link(text="Talks", url="https://github.com/stars/kjaymiller/lists/conference-talks"),
         Link(text="Podcasts", url="/podcasts.html"),
