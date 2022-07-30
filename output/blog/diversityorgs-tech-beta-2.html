@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/static/css/tailwind.css" />
+    <script src="https://kit.fontawesome.com/94d9a219ee.js" crossorigin="anonymous"></script>
+    
+  <link rel="stylesheet" href="/static/css/pygments.css" />
+  <link rel="stylesheet" href="/static/css/article.css" />
+
+    <title>
+      
+      DiversityOrgs.Tech (Beta 2) - Jay Miller
+    </title>
+  </head>
+  <body> 
+    <div class="
+  bg-gradient-to-br    
+from-purple-600
+to-indigo-800
+  flex
+  items-center
+  p-5
+  ">
+    <h1 class="title mx-3 text-2xl font-bold text-gray-200">
+      <a class="hover:no-decorate" href="/">Jay Miller</a>
+    </h1>
+    
+      <a class="
+            p-3
+            rounded-lg
+            hover:bg-gray-100
+            hover:text-indigo-800
+            hover:font-semibold
+            text-gray-200
+          " href="/about.html">
+        About
+      </a>
+
+      
+      <a class="
+            p-3
+            rounded-lg
+            hover:bg-gray-100
+            hover:text-indigo-800
+            hover:font-semibold
+            text-gray-200
+          " href="/blog/blog-0.html">
+        Blog
+      </a>
+
+      
+      <a class="
+            p-3
+            rounded-lg
+            hover:bg-gray-100
+            hover:text-indigo-800
+            hover:font-semibold
+            text-gray-200
+          " href="https://www.youtube.com/channel/UCjoJU65IbXkKXsNqydro05Q">
+        YouTube
+      </a>
+
+      
+      <a class="
+            p-3
+            rounded-lg
+            hover:bg-gray-100
+            hover:text-indigo-800
+            hover:font-semibold
+            text-gray-200
+          " href="https://github.com/stars/kjaymiller/lists/conference-talks">
+        Talks
+      </a>
+
+      
+      <a class="
+            p-3
+            rounded-lg
+            hover:bg-gray-100
+            hover:text-indigo-800
+            hover:font-semibold
+            text-gray-200
+          " href="/podcasts.html">
+        Podcasts
+      </a>
+
+      
+      <a class="
+            p-3
+            rounded-lg
+            hover:bg-gray-100
+            hover:text-indigo-800
+            hover:font-semibold
+            text-gray-200
+          " href="/projects.html">
+        Projects
+      </a>
+
+      
+      <a class="
+            p-3
+            rounded-lg
+            hover:bg-gray-100
+            hover:text-indigo-800
+            hover:font-semibold
+            text-gray-200
+          " href="/contact">
+        Contact
+      </a>
+
+      
+    <div class="hidden">
+      <form role="search" action="https://search.kjaymiller.com/">
+        <div class="md:flex hidden">
+          <input type="text" style="
+              padding-left: 3em;
+              background: url('/static/files/search.svg') 7px 0px white
+                no-repeat;
+            " class="inline border border-blue-800 rounded-full" name="q" id="search-bar" placeholder="Search" />
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+    <div class="mx-auto container flex-grow">
+         
+<div class="container mx-auto m-4">
+    <article class="my-4">
+	<div class="feature-image h-64 overflow-hidden">
+	    <img src="" class="rounded-lg shadow">
+	</div>
+            <div class="m-3">
+                <h1 class="title text-4xl font-bold">DiversityOrgs.Tech (Beta 2)</h1>
+              <small class="column is-narrow">
+              Jun 29, 2022 00:00 AM
+              </small>
+
+        </div>
+              <section class="bg-gray-400 flex">
+                  <div class="px-3">
+                  
+                    <p class="">
+                    <strong>Tags: </strong>
+                    
+                    <small class="mx-2 p-1 rounded border border-gray-400 bg-gray-200">
+  <a href="tags/diversity-0"
+    class="">diversity
+   </a> 
+</small >
+                    
+                    <small class="mx-2 p-1 rounded border border-gray-400 bg-gray-200">
+  <a href="tags/azure-0"
+    class="">azure
+   </a> 
+</small >
+                    
+                    <small class="mx-2 p-1 rounded border border-gray-400 bg-gray-200">
+  <a href="tags/technology-0"
+    class="">technology
+   </a> 
+</small >
+                    
+                    </p>
+                    
+                </div>
+              </section>
+        </section>
+        <hr />
+
+        
+
+        
+        
+        
+
+    <section class="section min-h-screen my-4 py-4">
+          <div class="content">
+            <blockquote>
+  <p><strong>TLDR</strong>: 
+  The latest update to Diversityorgs.Tech returns to the original URL and brings more information to each organization, map-based searching, and organizer access to keep organizations up to date, and a basic API for programmatic access.</p>
+</blockquote>
+
+<p>Two years ago, I started working on <a href="https://diversityorgs.tech">Diversityorgs.Tech</a> as a project to learn new tools and create a resource for underrepresented folks in tech everywhere. Today I'm happy to announce some amazing new features thanks to the entire project being rebuilt using <a href="https://djangoproject.org">Django 4</a>.</p>
+
+<p>Let’s start with exploring some of the new features.</p>
+
+<h2>Map Based Searching:</h2>
+
+<p><img src="https://jmblogstorrage.blob.core.windows.net/media/bgh-map.png" alt="Map showing locations for Black Girls Code" />  </p>
+
+<p>It’s good to know what’s in your area. Not only are we indexing city-level locations of these orgs, but you can now find them on a map. Pages with organizations in different locations will present a map so you can view the results in that area. This is powered by Azure Maps for geocoding, and map display.</p>
+
+<h2>Focused Searching and Filtering</h2>
+
+<p>We’ve all had the painful experience of looking for similar results and the service you’re using forces you to reapply all the previous settings manually. For Example, you are looking at PyLadies Atlanta and you want more groups focused on women. You select the women tag and the site will first return orgs in Atlanta with the same tag. On that page there is an option to expand to all orgs with that tag or that location.</p>
+
+<p><img src="https://jmblogstorrage.blob.core.windows.net/media/pyladies-atl-tags.png" alt="Select a Diversity Focus will lead to more results with the same focus in the same location" /></p>
+
+<h2>Better Organization Management</h2>
+
+<p>One of the biggest barriers to further development previously was that it was very impractical to add/update content. I’ve added two new features to make organization management easier.</p>
+
+<p>First, organizers can create an account and request moderator rights to an org. Once reviewed and approved, they can make updates to their org’s location, links, logo and more.</p>
+
+<p>Second, anyone can suggest changes to an organization. These changes will be reviewed, and updates can be made by organizers or administrators</p>
+
+<p><img src="https://jmblogstorrage.blob.core.windows.net/media/suggests-update.png" alt="The Suggest Edit link allow for access to request updates to the view" /></p>
+
+<h2>Learn More Than Just a Name</h2>
+
+<p>Joining an organization as a member is one of the first steps in getting more involved in the developer community. That said many of those foundational experiences can impact future decisions. This site highlights important things like having a publicly available code of conduct.</p>
+
+<p><img src="https://jmblogstorrage.blob.core.windows.net/media/suggests-update.png" alt="An organization page will show if it has a public link to the code of conduct" /> </p>
+
+<p>Speaking of good intentions, we’ve also added the ability to report any organization for removal by ANYONE. Each report is taken seriously and investigated.</p>
+
+<h2>The API</h2>
+
+<p>The REST API is generally available in limited scope with more endpoints available with an API Key. The hope is organizations and municipalities can use the data collected.</p>
+
+<p><img src="https://jmblogstorrage.blob.core.windows.net/media/api-atl.png" alt="API results of orgs in Atlanta" /> </p>
+
+<p>Organizers can even manage the organizations they are responsible for providing easy updates and automation.</p>
+
+<h2>Information Freedom and Data Privacy</h2>
+
+<p>This site aims to ensure that folks find helpful information to determine if an organization is right for them. All information for each organization is available for free with no need to create an account unless you are an organizer. The site doesn’t collect or sell personal identifying data nor share information with organizations.</p>
+
+<p>Simply put, your data is just that, <strong>YOURS</strong>.</p>
+
+<p>I’ll be working with my team at Microsoft to highlight some of the specifics of deploying and maintaining this app in the Azure ecosystem. You'll be able to see those posts in the future on the <a href="https://dev.to/azure">Microsoft Azure Dev.To Channel</a>.</p>
+
+<p>This was a big undertaking that took much of the last few months to get to this point. There are likely bugs and some of the interfaces will undergo some changes. If you spot an issue, please let me know by submitting an issue over on the GitHub Repo. Lastly, this project is open-source project and accepting contributions from folks at all skill-levels.
+I hope that you'll enjoy using Diversityorgs.Tech and that you point underrepresented folks to this as a resource in their tech career at all stages.</p>
+
+          </div>
+        </section>
+      </article>
+    <section class="my-4 border-t-2 border-gray-400">
+      <div class="content p-2">
+      <a href="/blog-0.html" class="subtitle is-5 text-link">Back to
+        Blogs...</a>
+    </section>
+</div>
+
+         
+    </div>
+    <footer class="container mx-auto shadow rounded-md bottom-0 bg-slate-50 px-4 my-4 h-24">
+  <div class="lg:flex md:mx-auto h-full justify-around items-center">
+    <p> kjaymiller.com</p>
+    <p>Website made with <a
+                            class="hover:underline" href="https://github.com/kjaymiller/render_engine">Render Engine</a> and <a href="https://tailwindcss.com">TailwindCSS</a>
+    <div>
+      <a class="hover:underline" href="/blog.rss.xml"><span class="icon"><i class="fas fa-rss"></i></a>
+              <a href="https://www.youtube.com/channel/UCjoJU65IbXkKXsNqydro05Q/">
+            <i class="text-red-700 text-2xl m-3 fa-brands fa-youtube"></i>
+        </a>
+        <a href="https://twitter.com/kjaymiller">
+            <i class="text-blue-500 m-3 text-2xl fa-brands fa-twitter-square"></i>
+        </a>
+        <a href="https://linkedin.com/in/kjaymiller">
+            <i class="text-blue-900 m-3 text-2xl fa-brands fa-linkedin"></i>
+        </a>
+    
+    </div>
+  </div>
+</footer>
+  </body>
+
+</html>
