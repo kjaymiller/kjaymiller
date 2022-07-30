@@ -2,12 +2,15 @@ Jay Miller is a developer advocate, marketer, and content creator from San Diego
 
 Website: <https://kjaymiller.com>.
 
-**Latest Conduit Episode - [22: You Con Clean Things Up](http://relay.fm/conduit/22)**
+### Latest Conduit Episode - [28: When Failure Happens](http://relay.fm/conduit/28)
+Toxic productivity & toxic positivity are just that: TOXIC. 
+Failure happens. Our goal is find the lesson from it, stay focused on our goal & adapt. 
+This week, we share some failure & discuss how we change our own red circles to green or yellow ones.
 
 ## Active Projects
 
-### [Render Engine][docs]
-[Render Engine][docs] is a static-site generator with Flask/Django like flavor to it.
+### [Render Engine]
+[Render Engine] is a static-site generator with Flask/Django like flavor to it.
 With Render Engine, you work with classes that build from one another to create
 web-sites quickly that you can use for prototypes for full time use!
 
@@ -16,11 +19,11 @@ web-sites quickly that you can use for prototypes for full time use!
 - [docs](https://render-engine.readthedocs.io)
 - [GitHub](https://github.com/kjaymiller/render_engine)
 
-### [Diversity Tech Orgs]
-[Diversity Tech Orgs] (WIP) a django app that can be use to discover organizations focused on building diversity in tech.
+### [DiversityOrgs.Tech]
+[DiversityOrgs.Tech] Now is a FREE directory for people to search for diversity focused organizations in their area.
 
 ### Links
-- <https://diversitytechorgs.com>
+- <https://diversityorgs.tech>
 - [GitHub](https://github.com/kjaymiller/diversity-orgs-tech)
 
 ## Sponsors
@@ -31,8 +34,3 @@ on github](https://github.com/sponsors/kjaymiller).
 - [Brian Douglas](https://github.com/bdougie)
 - [Carol Willing](https://github.com/willingc)
 - [Jason Brechin](https://github.com/brechin)
-
-Thank you to them and all others that have supported my work!
-
-[Diversity Orgs.tech]: https://diversitytechorgs.com
-[docs]: https://render-engine.readthedocs.io
