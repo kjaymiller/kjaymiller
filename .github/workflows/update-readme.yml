@@ -24,7 +24,7 @@ jobs:
         poetry run python ./update_readme.py
     - name: checkin readme
       run: |-
-        git config --global user.email "$(git config user.email)"
-        git config --global user.name "$(git config user.name)"
+        git config --global user.email "blog-bot noreply@kjaymiller.com"
+        git config --global user.name "gh-blog-bot"
         git add readme.md
         git commit -m "Update readme.md"
