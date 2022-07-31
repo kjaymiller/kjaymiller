@@ -175,11 +175,11 @@ python-versions = ">=3.6"
 
 [[package]]
 name = "render-engine"
-version = "2022.5.6"
+version = "2022.7.1"
 description = "Static Site Generator with a Flask-like flair"
 category = "main"
 optional = false
-python-versions = ">=3.10.4,<4.0.0"
+python-versions = ">=3.9.13,<4.0.0"
 
 [package.dependencies]
 Jinja2 = ">=3.1.0,<4.0.0"
@@ -210,7 +210,7 @@ use_chardet_on_py3 = ["chardet (>=3.0.2,<6)"]
 
 [[package]]
 name = "rich"
-version = "12.4.1"
+version = "12.5.1"
 description = "Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal"
 category = "main"
 optional = false
@@ -262,8 +262,8 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 
 [metadata]
 lock-version = "1.1"
-python-versions = ">=3.10.4,<4.0.0"
-content-hash = "49b6ccd32b7fe56cf0f8b2fe9e7b4b60f4afaddfc8e66b2669b1ed166d126a36"
+python-versions = "^3.9.13"
+content-hash = "80e11b5af8c148dfbbf2c8b143296900ad6387bcbdccf703fa59d72fdb0179b2"
 
 [metadata.files]
 certifi = [
@@ -423,16 +423,16 @@ pyyaml = [
     {file = "PyYAML-6.0.tar.gz", hash = "sha256:68fb519c14306fec9720a2a5b45bc9f0c8d1b9c72adf45c37baedfcd949c35a2"},
 ]
 render-engine = [
-    {file = "render_engine-2022.5.6-py3-none-any.whl", hash = "sha256:3e2e33d9fea843a677320a6f3a6420594633339dbb30047c7226bc5285aec345"},
-    {file = "render_engine-2022.5.6.tar.gz", hash = "sha256:1d7e26ffe908b432ebc06e5bb85b5af85bf3995cade8dfd5aeb689798b8f42c9"},
+    {file = "render_engine-2022.7.1-py3-none-any.whl", hash = "sha256:4870817c21d87e554d8931d34b3456ee405a9ea298a266060c75ca2a5f0f86b0"},
+    {file = "render_engine-2022.7.1.tar.gz", hash = "sha256:befc2a101792090eabafbcb8c3dd23909860e6802c92e14f697c16ca0dde3e8d"},
 ]
 requests = [
     {file = "requests-2.28.1-py3-none-any.whl", hash = "sha256:8fefa2a1a1365bf5520aac41836fbee479da67864514bdb821f31ce07ce65349"},
     {file = "requests-2.28.1.tar.gz", hash = "sha256:7c5599b102feddaa661c826c56ab4fee28bfd17f5abca1ebbe3e7f19d7c97983"},
 ]
 rich = [
-    {file = "rich-12.4.1-py3-none-any.whl", hash = "sha256:d13c6c90c42e24eb7ce660db397e8c398edd58acb7f92a2a88a95572b838aaa4"},
-    {file = "rich-12.4.1.tar.gz", hash = "sha256:d239001c0fb7de985e21ec9a4bb542b5150350330bbc1849f835b9cbc8923b91"},
+    {file = "rich-12.5.1-py3-none-any.whl", hash = "sha256:2eb4e6894cde1e017976d2975ac210ef515d7548bc595ba20e195fb9628acdeb"},
+    {file = "rich-12.5.1.tar.gz", hash = "sha256:63a5c5ce3673d3d5fbbf23cd87e11ab84b6b451436f1b7f19ec54b6bc36ed7ca"},
 ]
 sgmllib3k = [
     {file = "sgmllib3k-1.0.0.tar.gz", hash = "sha256:7868fb1c8bfa764c1ac563d3cf369c381d1325d36124933a726f29fcdaa812e9"},

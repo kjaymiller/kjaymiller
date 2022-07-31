@@ -2,14 +2,12 @@
 name = "kjaymiller"
 version = "0.1.0"
 description = ""
-authors = ["kjaymiller <kjaymiller@gmail.com>"]
+authors = ["Jay Miller <kjaymiller@gmail.com>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = ">=3.10.4,<4.0.0"
-render-engine = "^2022.5.6"
-Jinja2 = "^3.1.2"
-feedparser = "^6.0.10"
+python = "^3.9.13"
+render-engine = "^2022.7.1"
 Episode-DL = "^2020.5.4"
 
 [tool.poetry.dev-dependencies]
