@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 
 import dateutil.parser as parser
-import feedparser
+import episode_dl
 import frontmatter
 import pytz
 from rich import print
