@@ -30,7 +30,9 @@ jobs:
           app_location: "/" # App source code path
           output_location: "/output" # Built app content directory - optional
           app_build_command: 'python routes.py'
-          ###### End of Repository/Build Configurations ######
+        env:
+          PYTHON_VERSION: 3.9.13
+        ##### End of Repository/Build Configurations ######
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
