@@ -1,8 +1,9 @@
 from render_engine import Blog, Page
 from render_engine.collection import Collection, SubCollection
+
 from mysite import MySite
 
-mysite = MySite(static='static')
+mysite = MySite(static="static")
 
 
 @mysite.render_collection
@@ -10,6 +11,7 @@ class Pages(Collection):
     content_path = "content/pages"
     template = "page.html"
     output_path = "./"
+
 
 class Blog(Blog):
     template = "blog.html"
@@ -19,12 +21,14 @@ class Blog(Blog):
     has_archive = True
     items_per_page = 20
     subcollections = (
-            SubCollection('category', 'Uncategorized'),
-            SubCollection('tags', 'untagged'),
-            )
+        SubCollection("category", "Uncategorized"),
+        SubCollection("tags", "untagged"),
+    )
+
 
 # Running render separately to save pages to variable for Index's Featured Post
 blog = mysite.render_collection(Blog)
+
 
 @mysite.render_page
 class Index(Page):
