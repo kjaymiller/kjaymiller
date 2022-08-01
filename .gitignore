@@ -159,3 +159,4 @@ content/.DS_Store
 .direnv
 *.icloud
 tests/fakepath
+output
