@@ -175,11 +175,11 @@ python-versions = ">=3.6"
 
 [[package]]
 name = "render-engine"
-version = "2022.7.1"
+version = "2022.7.2"
 description = "Static Site Generator with a Flask-like flair"
 category = "main"
 optional = false
-python-versions = ">=3.9.13,<4.0.0"
+python-versions = ">=3.9.7,<4.0.0"
 
 [package.dependencies]
 Jinja2 = ">=3.1.0,<4.0.0"
@@ -423,8 +423,8 @@ pyyaml = [
     {file = "PyYAML-6.0.tar.gz", hash = "sha256:68fb519c14306fec9720a2a5b45bc9f0c8d1b9c72adf45c37baedfcd949c35a2"},
 ]
 render-engine = [
-    {file = "render_engine-2022.7.1-py3-none-any.whl", hash = "sha256:4870817c21d87e554d8931d34b3456ee405a9ea298a266060c75ca2a5f0f86b0"},
-    {file = "render_engine-2022.7.1.tar.gz", hash = "sha256:befc2a101792090eabafbcb8c3dd23909860e6802c92e14f697c16ca0dde3e8d"},
+    {file = "render_engine-2022.7.2-py3-none-any.whl", hash = "sha256:ad054e4858d9aae96a8bd979670b79e16555e64e8ae73cb957577db4d15bcf88"},
+    {file = "render_engine-2022.7.2.tar.gz", hash = "sha256:f604e8aba73381233eb80622e0ac88534ff1ca3b5ad0864734bd5dce0744bcc0"},
 ]
 requests = [
     {file = "requests-2.28.1-py3-none-any.whl", hash = "sha256:8fefa2a1a1365bf5520aac41836fbee479da67864514bdb821f31ce07ce65349"},

@@ -1,3 +1,0 @@
-Imagine that you are working in a corporate office trying to get things accomplished. You're pushing paper back and forth, checking email 3-4 times an hour and you're constantly not getting things completed. Your boss wants to have a chat about your performance and you are worried that you may not be punching the clock for them much longer.
-
-In at night, in search of answers you scroll through YouTube to what can only be described as 20-30something year old white dudes in high-shortsleeves to accent their biceps talking about how they've started chi-gong and are now using the latest version of App X that your friends on twitter were talking about earlier. You look and there's a new video from ABCMonochrome the faceless productivity prodigy
