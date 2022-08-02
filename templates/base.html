@@ -12,9 +12,9 @@
       {{title}} - {% endif %}{{SITE_TITLE}}
     </title>
   </head>
-  <body> 
+  <body class="dark:bg-slate-800"> 
     {% include 'header.html' %}
-    <div class="mx-auto container flex-grow">
+    <div class="container">
         {% block content %} {% endblock %}
         {% block add_ons %} {% endblock %}
     </div>

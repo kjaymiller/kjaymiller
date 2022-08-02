@@ -15,13 +15,10 @@ I've been working on [my own static site generator](https://render-engine.readth
 
 Many folks have used tools like [github pages](https://pages.github.com), [Netlify](https://netlify.com) or [Vercel](https://vercel.com), since joining Microsoft, I wanted to learn more about how to make both static and dynamic sites using Python and [Azure](https://azure.microsoft.com/en-us/).
 
-I decided to make the switch to [Azure Static Web Apps](https://docs.microsoft.com/en-us/azure/static-web-apps/overview).
-
-> **Disclaimer**: I do get paid to advocate for Azure products. That said my ethical stance is to show how I did a thing and not preach it.  
-
 I first learned about Static Web Apps (SWA) in my first week when the team was [celebrating one year](https://techcommunity.microsoft.com/t5/apps-on-azure-blog/learn-azure-static-web-apps-in-30daysofswa/ba-p/3354021) of the product. By design, the plan was to serve web applications by mixing HTML and optionally dynamic content via Azure functions.
 
-Python has fallen our of favor for building web apps, but as a Python developer, I prefer to use it for building my [personal web site](https://kjaymiller.com).
+Python has fallen out of favor for building static web apps, but it is still possible to deploy a static web app. Sadly, you do have to do a little more than if you were going to use Javascript.
+
 ## Setup Azure Static Web Apps (The VS Code way)
 You can setup Azure Static Web Apps with VS Code following the [Azure Static Web Apps Getting Started](https://docs.microsoft.com/en-us/azure/static-web-apps/getting-started?tabs=vanilla-javascript#install-azure-static-web-apps-extension). There provides a few options for web frameworks and the closest for you will be the vanilla JS route. We'll skip the first couple steps since we're not using the demo repo (or Javascript). I don't want to re-hash the tutorial; here is a quick recap:
 
@@ -36,10 +33,12 @@ You can setup Azure Static Web Apps with VS Code following the [Azure Static Web
    4. **IMPORTANT** Selecting **CUSTOM** as the Deployment Method.
 
 This is where things get different for us:
-   1. Set your app location to the output path of your project. **If it doesn't exist yet, that's okay**. We'll add it in the next section.
-   2. Make sure the build command is set to  
+   
+   1. Set your app location to "/" path of your project or wherever your Python code lives.
+   2. Set the output path to the location where your code will create HTML.
 
-![gif of building out the steps in VS Code](https://kjaymiller.azureedge.net/media/NewSWAApp.gif)
+![gif of building out the steps in VS Code](https://
+https://kjaymiller.azureedge.net/media/NewSWAApp.gif)
 
 ## Getting your site up and running
 
@@ -67,17 +66,18 @@ Using Oryx comes with a few compromises. Oryx uses a Python 3.8 build by default
           PRE_BUILD_COMMAND: 'pip --upgrade pip && pip install -r requirements.txt && python routes.py' # This can be a shell script as well
 ```
 
-
 ### Build Before the Image
 The way that I build my sites is by modifying my yaml file to include build steps prior to serving the website. While this does work we need to ensure that our build is designed to use the same command everytime.
 
 To build your environment in GH Actions you'll need to add a block to your yaml file **BEFORE** the Azure `Build and Deploy` section. You'll need to include the `setup-python` action and specify the python version you would like to use. Use the major version of your python version so `3.10` and not `3.10.5`. For more information and options on this you can check out the [Setup-Python GH actions repo](https://github.com/actions/setup-python).
 
-Next you'll need to add the run steps. Give this section a new name and enter the commands that will need to be run each time. For multiple commands you can use the `|-` at the beginning which each command being on its own line.
+Next you'll need to add the run steps. Give this section a new name and enter the commands that will need to be run each time. 
 
 ```yaml
     run: az_build.sh # My run script is routes.py
 ```
+
+For multiple commands you can use the `|-` at the beginning which each command being on its own line.
 
 I don't think there is much of a difference performance-wise. Ultimately, you're code is doing the same thing, just in a different place. Obviously if you don't want to be limited by the build systems or the Python version, use the _GitHub Actions_ build.
 
