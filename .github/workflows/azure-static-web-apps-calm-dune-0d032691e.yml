@@ -29,6 +29,7 @@ jobs:
           # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
           app_location: "/" # App source code path
           output_location: "output" # Built app content directory - optional
+          # app_build_command: 'python routes.py'
         env:
           PYTHON_VERSION: 3.9.7
           PRE_BUIDL_COMMAND: 'python routes.py'
