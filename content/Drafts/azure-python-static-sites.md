@@ -10,6 +10,8 @@ Modern Static Sites (popularly referred to as [JAMstack Apps](https://jamstack.o
 
 I've been working on [my own static site generator](https://render-engine.readthedocs.io/en/latest/) for going on 5 years now. It's developed a lot over time, but one thing is consistent. It's modern python!
 
+![output of my static site generator building files](https://kjaymiller.azureedge.net/media/render-engine-output.png)
+
 Many folks have used tools like [github pages](https://pages.github.com), [Netlify](https://netlify.com) or [Vercel](https://vercel.com), since joining Microsoft, I wanted to learn more about how to make both static and dynamic sites using Python and [Azure](https://azure.microsoft.com/en-us/).
 
 I decided to make the switch to [Azure Static Web Apps](https://docs.microsoft.com/en-us/azure/static-web-apps/overview).
@@ -32,13 +34,11 @@ You can setup Azure Static Web Apps with VS Code following the [Azure Static Web
    3. select your preffered region
    4. **IMPORTANT** Selecting **CUSTOM** as the Deployment Method.
 
-![gif of building out the steps in VS Code]()
-
 This is where things get different for us:
    1. Set your app location to the output path of your project. **If it doesn't exist yet, that's okay**. We'll add it in the next section.
    2. Make sure the build command is set to  
 
-![GIF of the custom steps]()
+![gif of building out the steps in VS Code](https://kjaymiller.azureedge.net/media/NewSWAApp.gif)
 
 ## Getting your site up and running
 
