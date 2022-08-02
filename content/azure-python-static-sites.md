@@ -2,7 +2,7 @@
 title: Deploying a Custom Python Static Site Generator to Azure 
 slug: static-site-generator-with-python-azure
 date: 02 Aug 2022 08:00
-image: https://docs.microsoft.com/en-us/azure/static-web-apps/custom-domain
+image: https://kjaymiller.azureedge.net/media/az%20deployment%20build.png
 ---
 
 > TLDR: Connect your repo to Azure Static Web Apps and use GitHub Actions to build your site via Python.
