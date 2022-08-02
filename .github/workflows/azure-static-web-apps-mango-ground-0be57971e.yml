@@ -28,7 +28,6 @@ jobs:
           pip install poetry
           poetry install
           poetry run python routes.py
-
         id: builddeploy
       - name: Deploy
         uses: Azure/static-web-apps-deploy@v1
