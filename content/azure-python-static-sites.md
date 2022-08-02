@@ -2,6 +2,7 @@
 title: Deploying a Custom Python Static Site Generator to Azure 
 slug: static-site-generator-with-python-azure
 date: 02 Aug 2022 08:00
+image: https://docs.microsoft.com/en-us/azure/static-web-apps/custom-domain
 ---
 
 > TLDR: Connect your repo to Azure Static Web Apps and use GitHub Actions to build your site via Python.
@@ -66,6 +67,7 @@ Using Oryx comes with a few compromises. Oryx uses a Python 3.8 build by default
           PRE_BUILD_COMMAND: 'pip --upgrade pip && pip install -r requirements.txt && python routes.py' # This can be a shell script as well
 ```
 
+
 ### Build Before the Image
 The way that I build my sites is by modifying my yaml file to include build steps prior to serving the website. While this does work we need to ensure that our build is designed to use the same command everytime.
 
@@ -79,6 +81,8 @@ Next you'll need to add the run steps. Give this section a new name and enter th
 
 I don't think there is much of a difference performance-wise. Ultimately, you're code is doing the same thing, just in a different place. Obviously if you don't want to be limited by the build systems or the Python version, use the _GitHub Actions_ build.
 
+![The build in GH Actions](https://kjaymiller.azureedge.net/media/Build%20in%20github%20actions.png)
+
 ### Build Before Pushing to Github
 There is another way. Build your site locally and push its contents to GithHub.
 
@@ -88,9 +92,13 @@ The advantage of doing this is if you do granular changes, you don't have to reb
 
 ## That's It?
 
-Yeah that's it! When you push your code to GitHub. You'll be able to see your site live. If you aren't sure what the URL is you can review the GitHub Actions Build and it will tell you in the build steps. You can also refresh the Azure Section of VS Code and it should be visible.
+Yeah that's it! When you push your code to GitHub. You'll be able to see your site live. If you aren't sure what the URL is you can review the GitHub Actions Build and it will tell you in the build steps. 
 
-![Your Static Site in VS Code]()
+![The Successful build with url](https://kjaymiller.azureedge.net/media/az%20deployment%20build.png)
+
+You can also refresh the Azure Section of VS Code and it should be visible.
+
+![The new SWA in VS Code](https://kjaymiller.azureedge.net/media/swa-output-vs-code.png)
 
 Once it's running you can [add a custom domain](https://docs.microsoft.com/en-us/azure/static-web-apps/custom-domain) in the Azure Portal. 
 
