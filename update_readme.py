@@ -8,7 +8,7 @@ environment = Environment(loader=FileSystemLoader('.'))
 if __name__ == "__main__":
     latest_episode = get_episodes('https://www.relay.fm/conduit/feed')[0]
     template = environment.get_template('.readme_template.md')    
-    # latest_post = sorted(feedparser.parse('jay-miller-blog.rss').entries, key= lambda x: x.published_parsed, reverse=True)[0]
+    latest_post = sorted(feedparser.parse('https://kjaymiller.com/jay-miller-blog.rss').entries, key= lambda x: x.published_parsed, reverse=True)[0]
     
     Path('./readme.md').write_text(template.render(
             latest_podcast_post=latest_episode,
