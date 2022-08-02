@@ -6,23 +6,21 @@ date: 02 Aug 2022 08:00
 
 > TLDR: Connect your repo to Azure Static Web Apps and use GitHub Actions to build your site via Python.
 
-Static Sites are a great way to provide a custom web experience with little overhead and extremely low costs. For personal sites, it allows you to focus on just creating content removing much of the serving portion of your site to your web host. Product and application developers also use static sites to scale, separating the app from the informational portion of the site. This allows allocation of resources to be directly mostly to the application experience, while still delivering information to your customers quickly.
+Modern Static Sites (popularly referred to as [JAMstack Apps](https://jamstack.org)) are a great way to provide a custom web experience with little overhead and extremely low costs.
 
-Furthermore, writing code to build your site is often seen as a way to continuously  develop your skills over time.
+I've been working on [my own static site generator](https://render-engine.readthedocs.io/en/latest/) for going on 5 years now. It's developed a lot over time, but one thing is consistent. It's modern python!
 
-I've been working on [my own static site generator][render-engine](SSG) for going on 5 years now. It's developed a lot over time, but one thing is consistent. It's modern python. 
+Many folks have used tools like [github pages](https://pages.github.com), [Netlify](https://netlify.com) or [Vercel](https://vercel.com), since joining Microsoft, I wanted to learn more about how to make both static and dynamic sites using Python and [Azure](https://azure.microsoft.com/en-us/).
 
-Many folks have used tools like [github pages](https://pages.github.com), [Netlify](https://netlify.com) or [Vercel]() to host simple sites for free, but many of those services have to provide al a carte services at a fee to stay profitable. Also, these are closed systems and don't expand to other services and tools that you may also use in a more professional capacity. 
+I decided to make the switch to [Azure Static Web Apps](https://docs.microsoft.com/en-us/azure/static-web-apps/overview).
 
-This year [I joined the Microsoft Cloud Advocacy Team](https://twitter.com/kjaymiller/). In an effort to  1.) move away from Netlify which I was not happy using and 2.) Try out Azure products, I wanted to switch to Azure Static Web Apps.
+> **Disclaimer**: I do get paid to advocate for Azure products. That said my ethical stance is to show how I did a thing and not preach it.  
 
-> **Disclaimer**: I do get paid to advocate for Azure products. That said my ethical stance is to show how I did a thing and I'm sure with a little effort the process I settled on can be replicated to any service.
+I first learned about Static Web Apps (SWA) in my first week when the team was [celebrating one year](https://techcommunity.microsoft.com/t5/apps-on-azure-blog/learn-azure-static-web-apps-in-30daysofswa/ba-p/3354021) of the product. By design, the plan was to serve web applications by mixing HTML and optionally dynamic content via Azure functions.
 
-I first learned about Static Web Apps (SWA) in my first week when the team was celebrating one year of the product. By design, the plan was to serve javascript applications (and a few notable others like Blazor and Hugo) serving any dynamic content via Azure functions. Ultimately, you could use any site generator that outputs HTML.
-
-
-## Setup Azure Static Web Apps
-You can setup Azure Static Web Apps with VS Code following the [Azure Static Web Apps Getting Started](https://docs.microsoft.com/en-us/azure/static-web-apps/getting-started?tabs=vanilla-javascript#install-azure-static-web-apps-extension). There is provides a few options and the closest for you is the vanilla JS route. You can skip the first repo as we already have our blog. I don't want to re-hash the tutorial; here is a quick recap:
+Python has fallen our of favor for building web apps, but as a Python developer, I prefer to use it for building my [personal web site](https://kjaymiller.com).
+## Setup Azure Static Web Apps (The VS Code way)
+You can setup Azure Static Web Apps with VS Code following the [Azure Static Web Apps Getting Started](https://docs.microsoft.com/en-us/azure/static-web-apps/getting-started?tabs=vanilla-javascript#install-azure-static-web-apps-extension). There provides a few options for web frameworks and the closest for you will be the vanilla JS route. We'll skip the first couple steps since we're not using the demo repo (or Javascript). I don't want to re-hash the tutorial; here is a quick recap:
 
 1. Open your project's repo in VS Code
 2. Ensure that the Azure Extension is installed and you're logged in to your Azure account
@@ -34,19 +32,41 @@ You can setup Azure Static Web Apps with VS Code following the [Azure Static Web
    3. select your preffered region
    4. **IMPORTANT** Selecting **CUSTOM** as the Deployment Method.
 
+![gif of building out the steps in VS Code]()
 
 This is where things get different for us:
    1. Set your app location to the output path of your project. **If it doesn't exist yet, that's okay**. We'll add it in the next section.
    2. Make sure the build command is set to  
 
+![GIF of the custom steps]()
+
 ## Getting your site up and running
 
-Sadly, Azure Static Web Apps don't support running python based build commands[^1] but according to the docs it just needs **ONE HTML** file in a folder to build a site. we can give it that file in one of two ways.
+Sadly, Azure Static Web Apps don't support running python based build commands easily, but according to the docs, we just need **ONE HTML** file in a folder to build a site. we can give it that file in a few different ways.  Ultimately where you build your HTML will be up to you.
 
-### Build then deploy
-The first way is rather simple. Build your site locally and push it's contents to GithHub. This requires no change to your existing yaml file. But you will need to manually run the build prior to pushing your commits to version control.
+## Build in the image
+Azure uses a system called [Oryx](https://github.com/Microsoft/Oryx). You don't need to know too much about how it works but it looks for specific files and chooses build specs based on them. If you have a `requirements.txt`, Oryx will know to use Python. [^1]
 
-### Use GitHub Actions to Build your site
+Using Oryx comes with a few compromises. Oryx uses a Python 3.8 build by default. You can update up to Python 3.9.7 by adding `PYTHON_VERSION: "3.9.7"` to the yaml file. Also, you will need to add your build steps to the  `PRE_BUILD_COMMAND`. You can create shell script or add the steps seperated with `&&`. 
+
+```yaml
+- name: Build And Deploy
+        id: builddeploy
+        uses: Azure/static-web-apps-deploy@v1
+        with:
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_MY_PROJECT }}
+          repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
+          action: "upload"
+          ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
+          # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
+          app_location: "/" # App source code path
+          output_location: "OUTPUT_PATH" # Built app content directory - optional
+        env:
+          PYTHON_VERSION: 3.9.7
+          PRE_BUILD_COMMAND: 'pip --upgrade pip && pip install -r requirements.txt && python routes.py' # This can be a shell script as well
+```
+
+### Build Before the Image
 The way that I build my sites is by modifying my yaml file to include build steps prior to serving the website. While this does work we need to ensure that our build is designed to use the same command everytime.
 
 To build your environment in GH Actions you'll need to add a block to your yaml file **BEFORE** the Azure `Build and Deploy` section. You'll need to include the `setup-python` action and specify the python version you would like to use. Use the major version of your python version so `3.10` and not `3.10.5`. For more information and options on this you can check out the [Setup-Python GH actions repo](https://github.com/actions/setup-python).
@@ -54,31 +74,25 @@ To build your environment in GH Actions you'll need to add a block to your yaml 
 Next you'll need to add the run steps. Give this section a new name and enter the commands that will need to be run each time. For multiple commands you can use the `|-` at the beginning which each command being on its own line.
 
 ```yaml
-    run: |-
-        pip install --upgrade pip
-        pip install -r requirements.txt
-        python routes.py # My run script is routes.py
+    run: az_build.sh # My run script is routes.py
 ```
 
+I don't think there is much of a difference performance-wise. Ultimately, you're code is doing the same thing, just in a different place. Obviously if you don't want to be limited by the build systems or the Python version, use the _GitHub Actions_ build.
 
-### Optional (Using Poetry)
+### Build Before Pushing to Github
+There is another way. Build your site locally and push its contents to GithHub.
 
-I prefer using an environment manager when using deployed builds. This gives me slightly more control around packages, and other environment variables. I use [Poetry](https://poetry.eustace.io/) to manage my environment. This doesn't change much of my setup other than my run becomes
+This requires no change to your existing yaml file. But you will need to manually run the build prior to pushing your site to version control.
 
-```yaml
-    run: |- 
-        pip install --upgrade pip
-        pip install poetry
-        poetry install
-        poetry run python routes.py
-```
-
-This does slow down my build but since most of my python projects use poetry these days it's easier for me to develop with.
+The advantage of doing this is if you do granular changes, you don't have to rebuild the entire site.
 
 ## That's It?
 
-Yeah that's it! When you push your code to GitHub. You'll be able to see your site live. Using the url it gives you.
+Yeah that's it! When you push your code to GitHub. You'll be able to see your site live. If you aren't sure what the URL is you can review the GitHub Actions Build and it will tell you in the build steps. You can also refresh the Azure Section of VS Code and it should be visible.
+
+![Your Static Site in VS Code]()
+
+Once it's running you can [add a custom domain](https://docs.microsoft.com/en-us/azure/static-web-apps/custom-domain) in the Azure Portal. 
 
 
-
-[^1]: I tried. I spent a long time trying to get it to work, even though the documentation says it only works for Javascript (and Hugo)
+[^1]: Sadly I don't think this works in Azure Static Web Apps using Pipenv or Poetry.
