@@ -36,8 +36,10 @@ You can setup Azure Static Web Apps with VS Code following the [Azure Static Web
    4. **IMPORTANT** Selecting **CUSTOM** as the Deployment Method.
 
 This is where things get different for us:
-   1. Set your app location to the output path of your project. **If it doesn't exist yet, that's okay**. We'll add it in the next section.
-   2. Make sure the build command is set to  
+   
+   1. Set your app location to "/" path of your project or wherever your Python code lives.
+   
+   2. Set the output path to the location where your code will create HTML.
 
 ![gif of building out the steps in VS Code](https://kjaymiller.azureedge.net/media/NewSWAApp.gif)
 
