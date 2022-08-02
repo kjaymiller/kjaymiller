@@ -4,7 +4,7 @@
     "tailwind-highlightjs": "^2.0.0"
   },
   "scripts": {
-    "build": "tailwind build -i static/css/pre/tailwind.css -o static/css/tailwind.css  --minify"
+    "build": "tailwind build -i ./static/css/pre/tailwind.css -o ./static/css/tailwind.css  --minify"
   },
   "name": "kjaymiller",
   "description": "Jay Miller is a developer advocate, marketer, and content creator from San Diego.",
