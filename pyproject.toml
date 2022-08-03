@@ -13,6 +13,8 @@ render-engine = "^2022.7.2"
 pytest = "^7.1.2"
 selenium = "^4.3.0"
 eyes-selenium = "^5.9.0"
+pytest-simplehttpserver = "^0.1.2"
+pytest-dotenv = "^0.5.2"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

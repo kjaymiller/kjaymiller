@@ -1,17 +1,26 @@
-import pytest
-from selenium import webdriver
+from applitools.selenium import Target
 
-@pytest.fixture
-def browser():
-    browser = webdriver.Chrome()
-    browser.implicitly_wait(10)
-    yield browser
-    browser.quit()
+def test_homepage(simplehttpserver, browser, eyes):
+    """Test that the index template loads"""
+    browser.get("http://localhost:8000/")
+    eyes.check("Homepage", Target.window().fully())
 
-def test_homepage(browser):
-    """Test that the homepage loads"""
-    browser.get("https://kjaymiller.com")
 
-def test_blog_archive(browser):
-    """Test the blog archive loads"""
-    browser.get("https://kjaymiller.com/blog/blog-0")
+def test_contact(browser, eyes):
+    """Test the page template loads"""
+    browser.get("http://localhost:8000/about")
+    eyes.check("Page Template", Target.window().fully())
+
+
+def test_blog_archive(browser, eyes):
+    """Test the blog archive template loads"""
+    browser.get("http://localhost:8000/blog/blog-0")
+    eyes.check("Blog Archive", Target.window().fully())
+
+
+def test_blog_post(browser, eyes):
+    """Test the blog post template loads"""
+    browser.get(
+        "http://localhost:8000/blog/make-inlay-type-hints-in-python-appear-disappear.html"
+    )
+    eyes.check("Blog Post", Target.window().fully())

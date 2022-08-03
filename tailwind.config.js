@@ -3,12 +3,8 @@ module.exports = {
   content: ['templates/**/*.{html, js}'],
   theme: {
     extend: {
-      container: {
-        center: true,
-      }
+      container: {center: true}
     }
   },
-  plugins: [
-    require('@tailwindcss/typography')
-  ]
+  plugins: [require('@tailwindcss/typography')]
 }
