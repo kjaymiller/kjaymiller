@@ -37,8 +37,7 @@ This is where things get different for us:
    1. Set your app location to "/" path of your project or wherever your Python code lives.
    2. Set the output path to the location where your code will create HTML.
 
-![gif of building out the steps in VS Code](https://
-https://kjaymiller.azureedge.net/media/NewSWAApp.gif)
+![gif of building out the steps in VS Code](https://kjaymiller.azureedge.net/media/NewSWAApp.gif)
 
 ## Getting your site up and running
 
