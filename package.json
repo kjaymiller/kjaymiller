@@ -6,6 +6,6 @@
     "@tailwindcss/typography": "^0.5.4"
     },
   "scripts": {
-    "build": "tailwind build -o output/static/css/tailwind.css --minify"
+    "build": "tailwind build -o static/css/tailwind.css --minify"
     }
   }
