@@ -33,6 +33,7 @@ jobs:
           ###### End of Repository/Build Configurations ######
         env:
           PYTHON_VERSION: "3.9.7"
+          NODE_VERSION: "17.6.0"
           PRE_BUILD_COMMAND: "az_build.sh"
         
   close_pull_request_job:

@@ -160,3 +160,4 @@ content/.DS_Store
 *.icloud
 tests/fakepath
 output
+.tool-versions

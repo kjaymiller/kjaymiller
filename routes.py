@@ -1,4 +1,5 @@
-from render_engine import Blog, Page
+from render_engine import Page
+from render_engine.blog import Blog
 from render_engine.collection import Collection, SubCollection
 
 from mysite import MySite
