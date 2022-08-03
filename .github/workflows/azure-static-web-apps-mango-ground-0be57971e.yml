@@ -34,7 +34,7 @@ jobs:
         env:
           PYTHON_VERSION: "3.9.7"
           NODE_VERSION: "17.6.0"
-          PRE_BUILD_COMMAND: "az_build.sh"
+          RUN_BUILD_COMMAND: "az_build.sh"
         
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
