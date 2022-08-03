@@ -3,6 +3,9 @@
     "@tailwindcss/typography": "^0.5.4",
     "tailwind-highlightjs": "^2.0.0"
   },
+  "optionalDependencies": {
+    "fsevents": "^2.3.2"
+  },
   "scripts": {
     "build": "tailwind build -i ./static/css/pre/tailwind.css -o ./output/static/css/tailwind.css  --minify"
   },
@@ -33,7 +36,6 @@
     "css": "^3.0.0",
     "fastq": "^1.13.0",
     "fill-range": "^7.0.1",
-    "fsevents": "^2.3.2",
     "function-bind": "^1.1.1",
     "has": "^1.0.3",
     "decode-uri-component": "^0.2.0",
