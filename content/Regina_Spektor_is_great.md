@@ -1,5 +1,5 @@
 ---
-name: Regina Spektor is my brain put to music and I love it!
+title: Regina Spektor is my brain put to music and I love it!
 date: 05 Aug 2022 22:04
 tags: music
 ---
