@@ -20,7 +20,7 @@ The foundation of this system is two things, the [Plotter System] and their [A4 
 
 ![plotter](https://kjaymiller.azureedge.net/media/plotter.jpg)
 
-Succinctly, the Plotter System is a 6-ring notebook system with inserts serving multiple purposes. I have the [A5 size binder][^3] which is 1/2 the size of A4 Paper. The foldable pages serve as a view of the week. When the week is up, I fold along the guides and place the page in the binder. 
+Succinctly, the Plotter System is a 6-ring notebook system with inserts serving multiple purposes. I have the [A5 size binder](https://plotterusa.com/products/shrink-6-ring-leather-binder-plt5003-a5-size/) which is 1/2 the size of A4 Paper. The foldable pages serve as a view of the week. When the week is up, I fold along the guides and place the page in the binder. 
 
 ### The Whole Week on One Page
 
@@ -53,7 +53,7 @@ I do have several meetings (about 10 on average) a week. Most of those meetings 
 I do have dot grid A5 pages for additional meetings and projects that I'm working on that don't require any official project management tool for collaboration.
 
 [^1]: You have to be a member for the discord. Head to <https://relay.fm/conduit> and become a member.
-[^2]: <https://www.youtube.com/watch?v=pUF5esTscZI>
+[^2]: https://www.youtube.com/watch?v=pUF5esTscZI
 
 
 [Conduit]: https://relay.fm/conduit/29
