@@ -5,11 +5,11 @@ tags: productivity, conduit
 slug: system-check-summer-2022
 ---
 
-Kathy and I, on our previous [Conduit] did a _Systems Check_ where we look at how our systems have changed over time. We decided that waiting an entire year to catch up with our system is like doing an annual review (It's not as helpful as regular check-ins). 
+Kathy and I, on our previous [Conduit](https://relay.fm/conduit/29) did a _Systems Check_ where we look at how our systems have changed over time. We decided that waiting an entire year to catch up with our system is like doing an annual review (It's not as helpful as regular check-ins). 
 
 As I was explaining my system it seemed like I struggled to effectively explain how I use it. That also reminded me that I don't talk much about my productivity system all that much. (Because I don't like talking about productivity tools and things)
 
-This is a space where I can better explain it. I'll be using this as the base for a [tweet thread] and discord[^1] thread for the community. So if this is a lot check those other places for more concise explanations. 
+This is a space where I can better explain it. I'll be using this as the base for a [tweet thread](https://twitter.com/kjaymiller/status/1560354547607842816?s=20&t=zekxLpmmkNOKl-DIptk5eA) and discord[^1] thread for the community. So if this is a lot check those other places for more concise explanations. 
 
 > NOTE: I'm going to have links to things. They won't be affiliate links because I'm not getting paid to use these products. 
 
