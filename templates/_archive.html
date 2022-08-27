@@ -1,5 +1,5 @@
 {% for post in pages %}
-  <article class="flex p-2 my-3 border rounded-lg items-center shadow">
+  <article class="flex p-3 my-5 items-center shadow">
         {% if post.image %}
           <div class="p-2 w-1/4">
             <a href="{{post.url}}">
@@ -13,7 +13,7 @@
           <a class="hover:underline" href="{{COLLECTION_OUTPUT_PATH}}/category/{{post.category}}-0">{{post.category}}</a>
           {% endif %}
           <h2 class="text-3xl font-bold">
-            <a href="{{post.url}}">{{post.title}}</a>
+            <a href="/blog/{{post.url}}">{{post.title}}</a>
           </h2>
           <div class="flex">
             <div class="mx-2">
