@@ -6,9 +6,9 @@ tags: tailwind, python
 image: https://kjaymiller.azureedge.net/media/pytailwindcss.png
 ---
 
-I often use [TailwindCSS] for my web project and this often means that wind up with a package.json and lock-file just for tailwind.
+I often use [TailwindCSS](https://tailwindcss.com) for my web project and this often means that wind up with a package.json and lock-file just for tailwind.
 
-My Cohost on [Python Community News] showed me [pytailwindcss].
+My Cohost on [Python Community News](https://pythoncommunitynews.com) showed me [pytailwindcss](https://pypi.org/project/pytailwindcss/).
 
 This will be a short post as pytailwindcss is the standalone tailwind CLI but available through pip.
 
@@ -25,7 +25,3 @@ To run pytailwindcss you send the commands as you would had it been installed wi
 You lose access to custom plugins but you still have the ability to use the built in plugins and you can customize your settings with in your config file.
 
 But if you're not doing much more than the custom framework, feel free to remove those `node_modules`, `package.json` and `package-lock.json` files.
-
-[TailwindCSS]: https://tailwindcss.com
-[pytailwindcss]: 
-[Python Community News]: https://pythoncommunitynews.com
