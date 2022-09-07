@@ -5,8 +5,14 @@
 	"image": "https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png",
 	"feed_url": "https://relay.fm/conduit/feed",
 	"summary": "Conduit is providing the connection between what we should be doing and what ultimately gets done. Our hosts celebrate that they \"Can\" do it and explore the unique ways others do it as well."
+	},
+	"Python Community News": {
+	"url": "https://pythoncommunitynews.com",
+	"image": "https://kjaymiller.azureedge.net/media/PCN%20Logo%20V0.16.jpg",
+	"feed_url": "https://feeds.transistor.fm/python-community-podcast",
+	"summary": "Python Community News is a podcast, livestream, and newsletter that focuses on the Non-Pipable news in the Python Community."
 	}
-    },
+	},
     "retired": {
 	"TekTok": {
 	    "url": "https://www.tekside.net/tektok",
