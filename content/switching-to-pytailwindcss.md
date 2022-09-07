@@ -1,5 +1,5 @@
 ---
-name: Switching from TailwindCSS to PyTailwindCSS
+title: Switching from TailwindCSS to PyTailwindCSS
 slug: switch-to-pytailwindcss
 date: 07 Sep 2022 10:34
 tags: tailwind, python
