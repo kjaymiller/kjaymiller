@@ -8,7 +8,7 @@ image: https://kjaymiller.azureedge.net/media/pytailwindcss.png
 
 I often use [TailwindCSS](https://tailwindcss.com) for my web project and this often means that wind up with a package.json and lock-file just for tailwind.
 
-My Cohost on [Python Community News](https://pythoncommunitynews.com) showed me [pytailwindcss](https://pypi.org/project/pytailwindcss/).
+[Jon Banafato](https://twitter.com/jonafato), my Cohost on [Python Community News](https://pythoncommunitynews.com) showed me [pytailwindcss](https://pypi.org/project/pytailwindcss/).
 
 This will be a short post as pytailwindcss is the standalone tailwind CLI but available through pip.
 
