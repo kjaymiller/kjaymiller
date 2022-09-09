@@ -4,11 +4,16 @@ Website: <https://kjaymiller.com>.
 
 ### Latest Blog Post - [Switching from TailwindCSS to PyTailwindCSS](https://kjaymiller.com/blog/switch-to-pytailwindcss.html)
 
-### Latest Conduit Episode - [31: Salt, Pepper, Garlic, Fall](http://relay.fm/conduit/31)
+## Latest Conduit Episode
+### [31: Salt, Pepper, Garlic, Fall](http://relay.fm/conduit/31)
 Some seasons are spicy, some are nutty, and some are just relaxing. Kathy and Jay are in some new seasons and with folks heading back to school and traveling, we’re sure you can figure out how your productivity needs to adjust for the season you’re in.
 
-### Latest Python Community News
-[Conference Spaces, Calls for Maintainers, and a New Packaging Survey - PCN 2 Sept 2022](https://share.transistor.fm/s/c4a195de)
+![CONDUIT](https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png)
+
+## Latest Python Community News
+### [Conference Spaces, Calls for Maintainers, and a New Packaging Survey - PCN 2 Sept 2022](https://share.transistor.fm/s/c4a195de)
+![Python Community News](https://kjaymiller.azureedge.net/media/PCN%20Logo%20V0.16.jpg)
+
 ## Active Projects
 
 ### [Render Engine](https://render-engine.readthedocs.io)
