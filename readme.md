@@ -8,7 +8,7 @@ Website: <https://kjaymiller.com>.
 Some seasons are spicy, some are nutty, and some are just relaxing. Kathy and Jay are in some new seasons and with folks heading back to school and traveling, we’re sure you can figure out how your productivity needs to adjust for the season you’re in.
 
 ### Latest Python Community News
-Conference Spaces, Calls for Maintainers, and a New Packaging Survey - PCN 2 Sept 2022(https://share.transistor.fm/s/c4a195de)
+[Conference Spaces, Calls for Maintainers, and a New Packaging Survey - PCN 2 Sept 2022](https://share.transistor.fm/s/c4a195de)
 ## Active Projects
 
 ### [Render Engine](https://render-engine.readthedocs.io)
