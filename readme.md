@@ -11,7 +11,7 @@ Some seasons are spicy, some are nutty, and some are just relaxing. Kathy and Ja
 ![CONDUIT](https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png)
 
 ## Latest Python Community News
-### [Conference Spaces, Calls for Maintainers, and a New Packaging Survey - PCN 2 Sept 2022](https://share.transistor.fm/s/c4a195de)
+### [Security Vulnerabilities Found/Patched, Licensing, and Salary Transparency - PCN 9 Sept 2022](https://share.transistor.fm/s/052fe328)
 ![Python Community News](https://kjaymiller.azureedge.net/media/PCN%20Logo%20V0.16.jpg)
 
 ## Active Projects
