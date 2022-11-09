@@ -3,9 +3,11 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
+readme = "README.md"
+description = "The Homepage for my Github Profile"
 dependencies = [
     "Jinja2",
-    "EpisodeDL",
+    "Episode-DL",
 ]
 
 [project.optional-dependencies]
