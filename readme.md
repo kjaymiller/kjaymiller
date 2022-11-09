@@ -5,13 +5,13 @@ Website: <https://kjaymiller.com>.
 ### Latest Blog Post - [Switching from TailwindCSS to PyTailwindCSS](https://kjaymiller.com/blog/switch-to-pytailwindcss.html)
 
 ## Latest Conduit Episode
-### [31: Salt, Pepper, Garlic, Fall](http://relay.fm/conduit/31)
-Some seasons are spicy, some are nutty, and some are just relaxing. Kathy and Jay are in some new seasons and with folks heading back to school and traveling, we’re sure you can figure out how your productivity needs to adjust for the season you’re in.
+### [35: Serious Unicorning Around](http://relay.fm/conduit/35)
+This episode is super seriously silly. Jay and Kathy explore some of silly habits that break up the tension in their day-to-day.
 
 ![CONDUIT](https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png)
 
 ## Latest Python Community News
-### [Security Vulnerabilities Found/Patched, Licensing, and Salary Transparency - PCN 9 Sept 2022](https://share.transistor.fm/s/052fe328)
+### [Who "Owns" Open Source?](https://share.transistor.fm/s/02c71267)
 ![Python Community News](https://kjaymiller.azureedge.net/media/PCN%20Logo%20V0.16.jpg)
 
 ## Active Projects
