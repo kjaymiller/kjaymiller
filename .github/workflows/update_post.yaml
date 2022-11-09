@@ -1,0 +1,25 @@
+name: Load Lastest Content
+on: 
+  schedule:
+    # Runs every 4 hours
+    - cron:  '0 */4 * * *'
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # This step checks out a copy of your repository.
+      - uses: actions/checkout@v3
+      # This step references the directory that contains the action.
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.11' 
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pip-tools
+          pip-compile --upgrade pyproject.toml
+          pip install -r requirements.txt
+      - run: python update_readme.py
