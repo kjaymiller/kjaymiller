@@ -22,11 +22,16 @@ jobs:
           pip install pip-tools
           pip-compile --upgrade
           pip install -r requirements.txt
-      - run: python update_readme.py
-      - run: |
+          python update_readme.py
+      - name: Check if there are any changes
+        id: verify_diff
+        run: |
+          git diff --quiet . || echo "changed=true" >> $GITHUB_OUTPUT
+      - name: Commit
+        if: steps.verify_diff.outputs.changed == 'true'
+        run: |
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
           git add .
           git commit -m "Update README.md"
           git push
-          
