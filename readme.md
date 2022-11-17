@@ -5,8 +5,8 @@ Website: <https://kjaymiller.com>.
 ### Latest Blog Post - [Switching from TailwindCSS to PyTailwindCSS](https://kjaymiller.com/blog/switch-to-pytailwindcss.html)
 
 ## Latest Conduit Episode
-### [35: Serious Unicorning Around](http://relay.fm/conduit/35)
-This episode is super seriously silly. Jay and Kathy explore some of silly habits that break up the tension in their day-to-day.
+### [36: Brain Bags 🧠 🎒👜👛](http://relay.fm/conduit/36)
+Kathy is away so Jay has brought bag and electronics YouTuber PK Shiu to the show to talk about what we learn in our side-hustles.
 
 ![CONDUIT](https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png)
 
