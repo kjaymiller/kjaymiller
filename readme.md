@@ -2,7 +2,7 @@ Jay Miller is a developer advocate, marketer, and content creator from San Diego
 
 Website: <https://kjaymiller.com>.
 
-### Latest Blog Post - [Switching from TailwindCSS to PyTailwindCSS](https://kjaymiller.com/blog/switch-to-pytailwindcss.html)
+### Latest Blog Post - [Replaced Underrepresented with Historically excluded](https://kjaymiller.com/blog/replaced-underrepresented-with-historically-excluded.html)
 
 ## Latest Conduit Episode
 ### [36: Brain Bags 🧠 🎒👜👛](http://relay.fm/conduit/36)
