@@ -5,8 +5,8 @@ Website: <https://kjaymiller.com>.
 ### Latest Blog Post - [Replaced Underrepresented with Historically excluded](https://kjaymiller.com/blog/replaced-underrepresented-with-historically-excluded.html)
 
 ## Latest Conduit Episode
-### [36: Brain Bags 🧠 🎒👜👛](http://relay.fm/conduit/36)
-Kathy is away so Jay has brought bag and electronics YouTuber PK Shiu to the show to talk about what we learn in our side-hustles.
+### [37: Systems Check Fall 2022 - Systems Don’t Solve Everything](http://relay.fm/conduit/37)
+The bestest of system names for the bestest of friends. Kathy and Jay talk about the changes their systems have had and why it's okay to be dynamic.
 
 ![CONDUIT](https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png)
 
