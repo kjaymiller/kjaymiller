@@ -11,7 +11,7 @@ The bestest of system names for the bestest of friends. Kathy and Jay talk about
 ![CONDUIT](https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png)
 
 ## Latest Python Community News
-### [Who "Owns" Open Source?](https://share.transistor.fm/s/02c71267)
+### [DEFNA Board, DSF Election Results and Advent of Code](https://share.transistor.fm/s/5a0856a9)
 ![Python Community News](https://kjaymiller.azureedge.net/media/PCN%20Logo%20V0.16.jpg)
 
 ## Active Projects
