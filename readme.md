@@ -11,7 +11,7 @@ The bestest of system names for the bestest of friends. Kathy and Jay talk about
 ![CONDUIT](https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png)
 
 ## Latest Python Community News
-### [DEFNA Board, DSF Election Results and Advent of Code](https://share.transistor.fm/s/5a0856a9)
+### [StackOverflow says no to ChatGPT and the PSF Membership Price Adjustment](https://share.transistor.fm/s/e58f11d6)
 ![Python Community News](https://kjaymiller.azureedge.net/media/PCN%20Logo%20V0.16.jpg)
 
 ## Active Projects
