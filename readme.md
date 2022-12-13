@@ -2,7 +2,7 @@ Jay Miller is a developer advocate, marketer, and content creator from San Diego
 
 Website: <https://kjaymiller.com>.
 
-### Latest Blog Post - [Replaced Underrepresented with Historically excluded](https://kjaymiller.com/blog/replaced-underrepresented-with-historically-excluded.html)
+### Latest Blog Post - [Folks That Made 2022 😎 (Jaysies 2022)](https://kjaymiller.com/blog/jaysies-2022.html)
 
 ## Latest Conduit Episode
 ### [37: Systems Check Fall 2022 - Systems Don’t Solve Everything](http://relay.fm/conduit/37)
