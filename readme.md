@@ -5,8 +5,10 @@ Website: <https://kjaymiller.com>.
 ### Latest Blog Post - [Folks That Made 2022 😎 (Jaysies 2022)](https://kjaymiller.com/blog/jaysies-2022.html)
 
 ## Latest Conduit Episode
-### [37: Systems Check Fall 2022 - Systems Don’t Solve Everything](http://relay.fm/conduit/37)
-The bestest of system names for the bestest of friends. Kathy and Jay talk about the changes their systems have had and why it's okay to be dynamic.
+### [38: Scrape, Scrap, and Survive](http://relay.fm/conduit/38)
+It's the end of the year and people are planning. Also people are planning to succeed but what does that look like and how do you help others reach it?
+
+This week, we answer a listener question: "how do you mentor folks afraid of success?"
 
 ![CONDUIT](https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png)
 
