@@ -5,10 +5,12 @@ Website: <https://kjaymiller.com>.
 ### Latest Blog Post - [Folks That Made 2022 😎 (Jaysies 2022)](https://kjaymiller.com/blog/jaysies-2022.html)
 
 ## Latest Conduit Episode
-### [38: Scrape, Scrap, and Survive](http://relay.fm/conduit/38)
-It's the end of the year and people are planning. Also people are planning to succeed but what does that look like and how do you help others reach it?
+### [39: Self Care Isn't Selfish](http://relay.fm/conduit/39)
+Stop and Start.
+More and Less.
+Ends and Beginnings.
 
-This week, we answer a listener question: "how do you mentor folks afraid of success?"
+The end of the year is here so Jay and Kathy are working on what to end and what to begin when coming into 2023. Also, is Kathy ending Jay’s tenure on the show?!
 
 ![CONDUIT](https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png)
 
