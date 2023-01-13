@@ -2,20 +2,18 @@ Jay Miller is a developer advocate, marketer, and content creator from San Diego
 
 Website: <https://kjaymiller.com>.
 
-### Latest Blog Post - [Folks That Made 2022 😎 (Jaysies 2022)](https://kjaymiller.com/blog/jaysies-2022.html)
+### Latest Blog Post - [Enclose text in Parentheses (and Other Characters) in VIM WITHOUT PLUGINS](https://kjaymiller.com/blog/enclose-text-in-parentheses-and-other-characters-in-vim-without-plugins.html)
 
 ## Latest Conduit Episode
-### [39: Self Care Isn't Selfish](http://relay.fm/conduit/39)
-Stop and Start.
-More and Less.
-Ends and Beginnings.
+### [40: Throwing Off the Emperor's Groove](http://relay.fm/conduit/40)
+It’s annoying but sometimes we have to do it. 
 
-The end of the year is here so Jay and Kathy are working on what to end and what to begin when coming into 2023. Also, is Kathy ending Jay’s tenure on the show?!
+That said we’re wondering what are some way we can prevent the mundane from throwing us off our groove.
 
 ![CONDUIT](https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png)
 
 ## Latest Python Community News
-### [StackOverflow says no to ChatGPT and the PSF Membership Price Adjustment](https://share.transistor.fm/s/e58f11d6)
+### [2022 Review and 2023 Predictions](https://share.transistor.fm/s/ddd679a6)
 ![Python Community News](https://kjaymiller.azureedge.net/media/PCN%20Logo%20V0.16.jpg)
 
 ## Active Projects
