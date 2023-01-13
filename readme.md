@@ -18,7 +18,7 @@ That said we’re wondering what are some way we can prevent the mundane from th
 
 ## Active Projects
 
-### [Render Engine](https://render-engine.readthedocs.io)
+### [Render Engine]
 [Render Engine] is a static-site generator with Flask/Django like flavor to it.
 With Render Engine, you work with classes that build from one another to create
 web-sites quickly that you can use for prototypes for full time use!
@@ -27,13 +27,6 @@ web-sites quickly that you can use for prototypes for full time use!
 - [PyPI](https://pypi.org/project/render-engine)
 - [docs](https://render-engine.readthedocs.io)
 - [GitHub](https://github.com/kjaymiller/render_engine)
-
-### [DiversityOrgs.Tech](https://diversityorgs.tech)
-[DiversityOrgs.Tech] Now is a FREE directory for people to search for diversity focused organizations in their area.
-
-### Links
-- <https://diversityorgs.tech>
-- [GitHub](https://github.com/kjaymiller/diversity-orgs-tech)
 
 ## Sponsors
 This and much of the work that I do is made possible by those that [sponsor me
@@ -46,3 +39,6 @@ on github](https://github.com/sponsors/kjaymiller).
 
 
 This project is open source where others can reference it's content and code. Testing is provided by [Applitools](https://www.applitools.com/).
+
+
+[Render Engine]: https://render-engine.readthedocs.io
