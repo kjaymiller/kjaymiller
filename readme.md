@@ -1,8 +1,11 @@
-Jay Miller is a developer advocate, marketer, and content creator from San Diego.
+Staus:
+<p>In today's mental health corner. I've been feeling some overwhelm as of late and wanted to share a video that helped me a bit. I'll be fine, Just need to defer/drop some things and get back into the groove (hopefully talks on bicep, azd, and devcontainers can help realign my focus).</p>
 
-Website: <https://kjaymiller.com>.
+More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
 ### Latest Blog Post - [Enclose text in Parentheses (and Other Characters) in VIM WITHOUT PLUGINS](https://kjaymiller.com/blog/enclose-text-in-parentheses-and-other-characters-in-vim-without-plugins.html)
+
+More Posts: <https://kjaymiller.com/blog/blog-0.html>.
 
 ## Latest Conduit Episode
 ### [40: Throwing Off the Emperor's Groove](http://relay.fm/conduit/40)
