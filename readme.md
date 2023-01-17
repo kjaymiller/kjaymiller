@@ -1,5 +1,11 @@
 Staus:
-<p>In today's mental health corner. I've been feeling some overwhelm as of late and wanted to share a video that helped me a bit. I'll be fine, Just need to defer/drop some things and get back into the groove (hopefully talks on bicep, azd, and devcontainers can help realign my focus).</p>
+<p>Another custom parser (probably the last one for now as I need to start working on other things).</p>
+
+<p>Hello, <a href="https://github.com/kjaymiller/render-engine-microblog">Microblog Parser</a>.</p>
+
+<p>This is how I make these posts (Yes including this one!) </p>
+
+<p>I've also added the README to the <a href="https://github.com/kjaymiller/render_engine/discussions/92">Extensions Section</a> of the Render-Engine Discussions. I will hopefully be adding more of the content there.</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
