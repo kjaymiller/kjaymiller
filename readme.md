@@ -9,7 +9,7 @@ Staus:
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
-### Latest Blog Post - [Enclose text in Parentheses (and Other Characters) in VIM WITHOUT PLUGINS](https://kjaymiller.com/blog/enclose-text-in-parentheses-and-other-characters-in-vim-without-plugins.html)
+### Latest Blog Post - [Render Engine 2023.1.2 brings CLI, Parsers, and Begins Extensions Work and More](https://kjaymiller.com/blog/render-engine-2023-1-2-brings-cli-parsers-and-begins-extensions-work-and-more.html)
 
 More Posts: <https://kjaymiller.com/blog/blog-0.html>.
 
