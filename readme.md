@@ -1,11 +1,5 @@
 Staus:
-<p>Another custom parser (probably the last one for now as I need to start working on other things).</p>
-
-<p>Hello, <a href="https://github.com/kjaymiller/render-engine-microblog">Microblog Parser</a>.</p>
-
-<p>This is how I make these posts (Yes including this one!) </p>
-
-<p>I've also added the README to the <a href="https://github.com/kjaymiller/render_engine/discussions/92">Extensions Section</a> of the Render-Engine Discussions. I will hopefully be adding more of the content there.</p>
+<p>Another wild week of Render Engine  Development.  I wound up getting <a href="https://pluggy.readthedocs.io/en/latest/">Pluggy</a> working in render engine and now even have a <a href="https://github.com/kjaymiller/render-engine-tailwindcss">plugin for pytailwindcss</a> up and running and started working on another.</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
