@@ -1,5 +1,9 @@
 Staus:
-<p>Another wild week of Render Engine  Development.  I wound up getting <a href="https://pluggy.readthedocs.io/en/latest/">Pluggy</a> working in render engine and now even have a <a href="https://github.com/kjaymiller/render-engine-tailwindcss">plugin for pytailwindcss</a> up and running and started working on another.</p>
+<p>To the person that got me into <a href="https://pluggy.readthedocs.io/en/latest/">pluggy</a> You know who you are...</p>
+
+<p>Thank you... Also you've given me a new hammer.</p>
+
+<p><img alt="Hammer hitting nail" src="https://media0.giphy.com/media/RxVpypN9Ri2Yg/giphy.gif?cid=ecf05e47lv503h4ysolf5gmyjrch9bmlviu1g75q4s5izmkk&amp;rid=giphy.gif&amp;ct=g" /></p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
