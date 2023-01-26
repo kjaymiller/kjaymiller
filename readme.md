@@ -12,10 +12,8 @@ More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 More Posts: <https://kjaymiller.com/blog/blog-0.html>.
 
 ## Latest Conduit Episode
-### [40: Throwing Off the Emperor's Groove](http://relay.fm/conduit/40)
-It’s annoying but sometimes we have to do it. 
-
-That said we’re wondering what are some way we can prevent the mundane from throwing us off our groove.
+### [41: Accountability: Doing it Right](http://relay.fm/conduit/41)
+Accountability is a common theme in productivity, but how do you do it so that it's actually helpful? Jay and Kathy help with some tips. And announcing Super Conductor! The Conduit Membership that includes extra content, no ads, and a fortnightly meetup!
 
 ![CONDUIT](https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png)
 
