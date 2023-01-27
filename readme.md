@@ -1,13 +1,11 @@
 Staus:
-<p>To the person that got me into <a href="https://pluggy.readthedocs.io/en/latest/">pluggy</a> You know who you are...</p>
+<p>Speaking Tonight at <a href="https://www.meetup.com/pythonsd/events/zxxdbtyfccbjc/">San Diego Python</a> about adding plugin support to Render Engine (coming in the next major update).</p>
 
-<p>Thank you... Also you've given me a new hammer.</p>
-
-<p><img alt="Hammer hitting nail" src="https://media0.giphy.com/media/RxVpypN9Ri2Yg/giphy.gif?cid=ecf05e47lv503h4ysolf5gmyjrch9bmlviu1g75q4s5izmkk&amp;rid=giphy.gif&amp;ct=g" /></p>
+<p>I'll update with a link to this steram as a live demo of functionality.</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
-### Latest Blog Post - [Render Engine 2023.1.2 brings CLI, Parsers, and Begins Extensions Work and More](https://kjaymiller.com/blog/render-engine-2023-1-2-brings-cli-parsers-and-begins-extensions-work-and-more.html)
+### Latest Blog Post - [Introducing Super Conductor](https://kjaymiller.com/blog/introducing-super-conductor.html)
 
 More Posts: <https://kjaymiller.com/blog/blog-0.html>.
 
