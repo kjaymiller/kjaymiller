@@ -3,6 +3,8 @@ Staus:
 
 <p>I'll update with a link to this steram as a live demo of functionality.</p>
 
+<p>https://youtu.be/MvpiCyPpAhM</p>
+
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
 ### Latest Blog Post - [Introducing Super Conductor](https://kjaymiller.com/blog/introducing-super-conductor.html)
