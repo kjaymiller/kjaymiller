@@ -18,7 +18,7 @@ Accountability is a common theme in productivity, but how do you do it so that i
 ![CONDUIT](https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png)
 
 ## Latest Python Community News
-### [2022 Review and 2023 Predictions](https://share.transistor.fm/s/ddd679a6)
+### [Embracing Python's Global Community w/ Calvin Hendryx-Parker](https://share.transistor.fm/s/4e02abd4)
 ![Python Community News](https://kjaymiller.azureedge.net/media/PCN%20Logo%20V0.16.jpg)
 
 ## Active Projects
