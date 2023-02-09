@@ -12,8 +12,12 @@ More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 More Posts: <https://kjaymiller.com/blog/blog-0.html>.
 
 ## Latest Conduit Episode
-### [41: Accountability: Doing it Right](http://relay.fm/conduit/41)
-Accountability is a common theme in productivity, but how do you do it so that it's actually helpful? Jay and Kathy help with some tips. And announcing Super Conductor! The Conduit Membership that includes extra content, no ads, and a fortnightly meetup!
+### [42: We Asked a Lot of Questions](http://relay.fm/conduit/42)
+The answer is…. Well not that important.
+
+In this episode, we uncover our preference of solutions over answers and hope to solve an important question. 
+
+“What did we learn from all of this?”
 
 ![CONDUIT](https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png)
 
