@@ -1,9 +1,5 @@
 Staus:
-<p>Speaking Tonight at <a href="https://www.meetup.com/pythonsd/events/zxxdbtyfccbjc/">San Diego Python</a> about adding plugin support to Render Engine (coming in the next major update).</p>
 
-<p>I'll update with a link to this steram as a live demo of functionality.</p>
-
-<p>https://youtu.be/MvpiCyPpAhM</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
