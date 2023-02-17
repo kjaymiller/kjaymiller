@@ -1,5 +1,5 @@
 Staus:
-
+<p>Did some documentation updates for <a href="https://render-engine.readthedocs.io/">Render Engine</a>. Really enjoying <a href="https://mkdocstrings.github.io">mkdocstrings</a>.</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
