@@ -1,5 +1,7 @@
 Staus:
-<p>Did some documentation updates for <a href="https://render-engine.readthedocs.io/">Render Engine</a>. Really enjoying <a href="https://mkdocstrings.github.io">mkdocstrings</a>.</p>
+<p>New Video: Django Software Foundation Accepting Applications for New Django Fellow!</p>
+
+<p>https://www.youtube.com/watch?v=zGu4Bklw3kg</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
