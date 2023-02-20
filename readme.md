@@ -1,7 +1,7 @@
 Staus:
-<p>New Video: Django Software Foundation Accepting Applications for New Django Fellow!</p>
+<p>Thanks Stephen for the recommendation!</p>
 
-<p>https://www.youtube.com/watch?v=zGu4Bklw3kg</p>
+<p><a href="https://folivora.ai/keyboardcleantool">keyboard clean tool</a></p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
