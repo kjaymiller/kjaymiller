@@ -1,7 +1,7 @@
 Staus:
-<p>Thanks Stephen for the recommendation!</p>
+<p>Writing this as a quick video to show how I'm using Drafts to add posts to my microblog.</p>
 
-<p><a href="https://folivora.ai/keyboardcleantool">keyboard clean tool</a></p>
+<p>On <a href="https://relay.fm/conduit">Conduit</a></p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
