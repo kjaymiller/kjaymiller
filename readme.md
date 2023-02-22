@@ -1,11 +1,9 @@
 Staus:
-<p>Writing this as a quick video to show how I'm using Drafts to add posts to my microblog.</p>
-
-<p>On <a href="https://relay.fm/conduit">Conduit</a></p>
+<p>New Video 📹:  I wanted to make a quick video showing how I add posts to micro.blog (Including this little post)</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
-### Latest Blog Post - [Introducing Super Conductor](https://kjaymiller.com/blog/introducing-super-conductor.html)
+### Latest Blog Post - [Introducing Super Conductor](https://kjaymiller.com<bound method BasePage.url_for of <Page: Introducing Super Conductor>>)
 
 More Posts: <https://kjaymiller.com/blog/blog-0.html>.
 
