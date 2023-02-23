@@ -1,5 +1,5 @@
 Staus:
-<p>New Video 📹:  I wanted to make a quick video showing how I add posts to micro.blog (Including this little post)</p>
+<p>New Video 📹: I found this VS Code Extension to <a href="https://marketplace.visualstudio.com/items?itemName=spmeesseman.vscode-taskexplorer">run tasks from the side bar</a>. There was a minor issue with it but instead of trying something different, I found the fix and made a video (I also filed an issue and submitted a PR).</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
