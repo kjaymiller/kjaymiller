@@ -1,5 +1,7 @@
 Staus:
-<p>New Video 📹: I found this VS Code Extension to <a href="https://marketplace.visualstudio.com/items?itemName=spmeesseman.vscode-taskexplorer">run tasks from the side bar</a>. There was a minor issue with it but instead of trying something different, I found the fix and made a video (I also filed an issue and submitted a PR).</p>
+<p>Sometimes finding THE solution isn't the answer because we don't always know what THE solution should be. Instead we should justify why a solution that we found is good enough until a better solution arrives...</p>
+
+<p>We talked about this (kinda and also it's opposite) in <a href="https://relay.fm/conduit">Conduit Ep 42</a>.</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
