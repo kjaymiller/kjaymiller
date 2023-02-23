@@ -1,7 +1,5 @@
 Staus:
-<p>Sometimes finding THE solution isn't the answer because we don't always know what THE solution should be. Instead we should justify why a solution that we found is good enough until a better solution arrives...</p>
-
-<p>We talked about this (kinda and also it's opposite) in <a href="https://relay.fm/conduit">Conduit Ep 42</a>.</p>
+<p>Testing mobile push to microblog to website.</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
@@ -10,12 +8,10 @@ More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 More Posts: <https://kjaymiller.com/blog/blog-0.html>.
 
 ## Latest Conduit Episode
-### [42: We Asked a Lot of Questions](http://relay.fm/conduit/42)
-The answer is…. Well not that important.
+### [43: Systems Check: Chugga Chugga To DO](http://relay.fm/conduit/43)
+Lorem Ipsum Pikachu Conduit
 
-In this episode, we uncover our preference of solutions over answers and hope to solve an important question. 
-
-“What did we learn from all of this?”
+Check for rags! In this episode we’re looking at how we plan for the long term and look to add (if only temporarily) to our systems.
 
 ![CONDUIT](https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png)
 
