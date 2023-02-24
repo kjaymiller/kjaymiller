@@ -1,5 +1,7 @@
 Staus:
-<p>Testing mobile push to microblog to website.</p>
+<p>New Gorillaz Album absolutely my favorite since Demon Days! It's so good!</p>
+
+<p><img alt="Cracker Island Album Cover" src="https://kjaymiller.azureedge.net/media/gorillaz-cracker-island-album-artwork.jpeg" /></p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
