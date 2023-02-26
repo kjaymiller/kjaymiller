@@ -1,7 +1,5 @@
 Staus:
-<p>New Gorillaz Album absolutely my favorite since Demon Days! It's so good!</p>
-
-<p><img alt="Cracker Island Album Cover" src="https://kjaymiller.azureedge.net/media/gorillaz-cracker-island-album-artwork.jpeg" /></p>
+<p>Kinda ready for the "not having to be the person talking" stage of my career.</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
