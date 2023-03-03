@@ -3,7 +3,7 @@ Staus:
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
-### Latest Blog Post - [Using your `postCreateCommand`to Reduce Complexity](https://kjaymiller.com<bound method BasePage.url_for of <Page: Using your `postCreateCommand`to Reduce Complexity>>)
+### Latest Blog Post - [Using your `postCreateCommand`to Reduce Complexity](https://kjaymiller.com/blog/using-your-postcreatecommand-to-reduce-complexity.html)
 
 More Posts: <https://kjaymiller.com/blog/blog-0.html>.
 
