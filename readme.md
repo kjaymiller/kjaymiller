@@ -10,10 +10,8 @@ More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 More Posts: <https://kjaymiller.com/blog/blog-0.html>.
 
 ## Latest Conduit Episode
-### [43: Systems Check: Chugga Chugga To DO](http://relay.fm/conduit/43)
-Lorem Ipsum Pikachu Conduit
-
-Check for rags! In this episode we’re looking at how we plan for the long term and look to add (if only temporarily) to our systems.
+### [44: Taking Care of That Jar in the PreSeason](http://relay.fm/conduit/44)
+Bring out the sports metaphors. Or your canning metaphor. Whatever you relate to learn how to prepare for the time where spoons are limited. Yay! Metaphors!
 
 ![CONDUIT](https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png)
 
