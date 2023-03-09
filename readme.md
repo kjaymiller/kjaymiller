@@ -1,5 +1,7 @@
 Staus:
-<p>Kinda ready for the "not having to be the person talking" stage of my career.</p>
+<p>Speaking this weekend and hanging out at <a href="https://socallinuxexpo.org">SoCal Linux Expo (SCALEx20)</a>.</p>
+
+<p><img alt="SCALE PROMO" src="https://kjaymiller.azureedge.net/media/Jay_Miller_Twitter_Landscape_1024x512px.jpg" /></p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
