@@ -1,7 +1,7 @@
 Staus:
-<p>Speaking this weekend and hanging out at <a href="https://socallinuxexpo.org">SoCal Linux Expo (SCALEx20)</a>.</p>
+<p>Hey I'm giving a talk about dev containers right after I stopped at the container store this afternoon.</p>
 
-<p><img alt="SCALE PROMO" src="https://kjaymiller.azureedge.net/media/Jay_Miller_Twitter_Landscape_1024x512px.jpg" /></p>
+<p><img alt="container store" src="https://kjaymiller.azureedge.net/media/container_store.jpeg" /></p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
