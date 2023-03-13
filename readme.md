@@ -1,7 +1,5 @@
 Staus:
-<p>Hey I'm giving a talk about dev containers right after I stopped at the container store this afternoon.</p>
-
-<p><img alt="container store" src="https://kjaymiller.azureedge.net/media/container_store.jpeg" /></p>
+<p>New Short on creating snippets for VS Codes (Beginner)</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
