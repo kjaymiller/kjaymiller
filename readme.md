@@ -1,6 +1,8 @@
 Staus:
 <p>New Short on creating snippets for VS Codes (Beginner)</p>
 
+<p>https://www.youtube.com/shorts/idFhk78BQ6w</p>
+
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
 ### Latest Blog Post - [Using your `postCreateCommand`to Reduce Complexity](https://kjaymiller.com/blog/using-your-postcreatecommand-to-reduce-complexity.html)
