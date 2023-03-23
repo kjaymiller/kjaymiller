@@ -10,8 +10,8 @@ More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 More Posts: <https://kjaymiller.com/blog/blog-0.html>.
 
 ## Latest Conduit Episode
-### [44: Taking Care of That Jar in the PreSeason](http://relay.fm/conduit/44)
-Bring out the sports metaphors. Or your canning metaphor. Whatever you relate to learn how to prepare for the time where spoons are limited. Yay! Metaphors!
+### [45: Adjusting to Adjustments](http://relay.fm/conduit/45)
+We had to adjust to our last show and then make adjustment to the adjustments. Because we’re pros and pros don’t do everything perfectly. They do things and then adjust to the results!
 
 ![CONDUIT](https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png)
 
