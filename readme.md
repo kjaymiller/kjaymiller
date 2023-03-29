@@ -1,11 +1,9 @@
 Staus:
-<p>New Short on creating snippets for VS Codes (Beginner)</p>
-
-<p>https://www.youtube.com/shorts/idFhk78BQ6w</p>
+<p>Working on my PyCon project with <a href="https://github.com/asw101">Aaron Wislang</a></p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
-### Latest Blog Post - [Using your `postCreateCommand`to Reduce Complexity](https://kjaymiller.com/blog/using-your-postcreatecommand-to-reduce-complexity.html)
+### Latest Blog Post - [Lesson Learned from Setting Up Testing for a Postgres Django App (Crash Course)](https://kjaymiller.com/blog/lesson-learned-from-setting-up-testing-for-a-postgres-django-app-crash-course.html)
 
 More Posts: <https://kjaymiller.com/blog/blog-0.html>.
 
