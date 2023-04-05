@@ -3,7 +3,7 @@ Staus:
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
-### Latest Blog Post - [Lesson Learned from Setting Up Testing for a Postgres Django App (Crash Course)](https://kjaymiller.com/blog/lesson-learned-from-setting-up-testing-for-a-postgres-django-app-crash-course.html)
+### Latest Blog Post - [chaining gh actions](https://kjaymiller.com/blog/chaining-gh-actions.html)
 
 More Posts: <https://kjaymiller.com/blog/blog-0.html>.
 
