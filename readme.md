@@ -8,8 +8,10 @@ More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 More Posts: <https://kjaymiller.com/blog/blog-0.html>.
 
 ## Latest Conduit Episode
-### [45: Adjusting to Adjustments](http://relay.fm/conduit/45)
-We had to adjust to our last show and then make adjustment to the adjustments. Because we’re pros and pros don’t do everything perfectly. They do things and then adjust to the results!
+### [46: Feed the Ducks 🦆](http://relay.fm/conduit/46)
+When life gives you rain and a leaky roof, a flooded backyard, and other stresses, go outside with a bowl of cheerios and feed some ducks.  
+
+Visit IMASuperconductor.com to hear the aftershow where Jay and Kathy rank board games
 
 ![CONDUIT](https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png)
 
