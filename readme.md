@@ -1,5 +1,5 @@
 Staus:
-<p>Working on my PyCon project with <a href="https://github.com/asw101">Aaron Wislang</a></p>
+<p>Thanks to @jonafato for finding an RSS bug in <a href="https://github.com/kjaymiller/render_engine">Render-Engine</a></p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
