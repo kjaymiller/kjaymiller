@@ -1,9 +1,9 @@
 Staus:
-<p>Thanks to @jonafato for finding an RSS bug in <a href="https://github.com/kjaymiller/render_engine">Render-Engine</a></p>
+<p>Planning a bunch of content with <a href="https://github.com/mubranch">Mustafa</a></p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
-### Latest Blog Post - [chaining gh actions](https://kjaymiller.com/blog/chaining-gh-actions.html)
+### Latest Blog Post - [Breaking Changes Around Date Handling](https://kjaymiller.com/blog/breaking-changes-around-date-handling.html)
 
 More Posts: <https://kjaymiller.com/blog/blog-0.html>.
 
