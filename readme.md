@@ -8,10 +8,10 @@ More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 More Posts: <https://kjaymiller.com/blog/blog-0.html>.
 
 ## Latest Conduit Episode
-### [46: Feed the Ducks 🦆](http://relay.fm/conduit/46)
-When life gives you rain and a leaky roof, a flooded backyard, and other stresses, go outside with a bowl of cheerios and feed some ducks.  
+### [47: The Secret Soup Packing Sauce](http://relay.fm/conduit/47)
+We’d love to talk about productivity but Jay and Kathy both have to catch a plane. So instead, they talk about being productive while traveling.
 
-Visit IMASuperconductor.com to hear the aftershow where Jay and Kathy rank board games
+Visit IMASuperconductor.com to hear the aftershow where Jay tests Kathy on Wheel of Time characters.
 
 ![CONDUIT](https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png)
 
