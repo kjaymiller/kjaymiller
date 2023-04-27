@@ -3,7 +3,7 @@ Staus:
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
-### Latest Blog Post - [Breaking Changes Around Date Handling](https://kjaymiller.com/blog/breaking-changes-around-date-handling.html)
+### Latest Blog Post - [Create a Custom Query in the GitHub Issues Client](https://kjaymiller.com/blog/create-a-custom-query-in-the-github-issues-client.html)
 
 More Posts: <https://kjaymiller.com/blog/blog-0.html>.
 
