@@ -8,10 +8,8 @@ More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 More Posts: <https://kjaymiller.com/blog/blog-0.html>.
 
 ## Latest Conduit Episode
-### [47: The Secret Soup Packing Sauce](http://relay.fm/conduit/47)
-We’d love to talk about productivity but Jay and Kathy both have to catch a plane. So instead, they talk about being productive while traveling.
-
-Visit IMASuperconductor.com to hear the aftershow where Jay tests Kathy on Wheel of Time characters.
+### [48: Long Projects: Remove the Concept of Time](http://relay.fm/conduit/48)
+We've got a longer than usual period between our next live recording so we're taking the time to think about some longer connections. Tune in to hear how we're going about it and longer projects in general. Are we just making it up as we go along?
 
 ![CONDUIT](https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png)
 
