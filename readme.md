@@ -1,5 +1,5 @@
 Staus:
-<p>Planning a bunch of content with <a href="https://github.com/mubranch">Mustafa</a></p>
+<p>I took the last couple days of my time at @PyCon to interview some folks. They are all available on the @PyCommunity News YouTube channel. Today I want to highlight my conversation with the author of "Automate the Boring Stuff with Python" <a href="https://twitter.com/alsweigart">@alsweigart</a>.</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
