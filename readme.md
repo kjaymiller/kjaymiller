@@ -1,5 +1,7 @@
 Staus:
-<p>I took the last couple days of my time at @PyCon to interview some folks. They are all available on the @PyCommunity News YouTube channel. Today I want to highlight my conversation with the author of "Automate the Boring Stuff with Python" <a href="https://twitter.com/alsweigart">@alsweigart</a>.</p>
+<p>Did you know that 76% of PyCon attendees were there for the first time. </p>
+
+<p>I was so happy that <a href="https://twitter.com/AsedaAD">Aseda</a> asked what I was doing and kindly agreed to do a super quick interview about her first trip to PyCon US and how it compares to other events she's attended.</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
