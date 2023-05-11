@@ -1,7 +1,7 @@
 Staus:
-<p>Did you know that 76% of PyCon attendees were there for the first time. </p>
+<p>Another great interview from @pycon for you to check out! @TreyHunner has an amazing gem for people attending conferences. It involves a deck of cards and your hotel lobby!</p>
 
-<p>I was so happy that <a href="https://twitter.com/AsedaAD">Aseda</a> asked what I was doing and kindly agreed to do a super quick interview about her first trip to PyCon US and how it compares to other events she's attended.</p>
+<p><a href="https://www.youtube.com/watch?v=HzuXmzhFJ6Y&amp;list=PL9MuO5r3rpXK_dfGDIlKqjiKZ5_YqZgxj&amp;index=3">https://www.youtube.com/watch?v=HzuXmzhFJ6Y&amp;list=PL9MuO5r3rpXK_dfGDIlKqjiKZ5_YqZgxj&amp;index=3</a></p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
