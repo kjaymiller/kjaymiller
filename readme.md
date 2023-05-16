@@ -1,7 +1,7 @@
 Staus:
-<p>Another great interview from @pycon for you to check out! @TreyHunner has an amazing gem for people attending conferences. It involves a deck of cards and your hotel lobby!</p>
+<p>Jacob is an amazing human that ceases to amaze me. I hope to one day be in a position where I can begin planning a life where I can be a benefit to more than myself and immediate family </p>
 
-<p><a href="https://www.youtube.com/watch?v=HzuXmzhFJ6Y&amp;list=PL9MuO5r3rpXK_dfGDIlKqjiKZ5_YqZgxj&amp;index=3">https://www.youtube.com/watch?v=HzuXmzhFJ6Y&amp;list=PL9MuO5r3rpXK_dfGDIlKqjiKZ5_YqZgxj&amp;index=3</a></p>
+<p><a href="https://jacobian.org/2023/may/15/giving-it-all-away/">https://jacobian.org/2023/may/15/giving-it-all-away/</a></p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
