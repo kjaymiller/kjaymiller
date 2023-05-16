@@ -5,7 +5,7 @@ Staus:
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
-### Latest Blog Post - [Create a Custom Query in the GitHub Issues Client](https://kjaymiller.com/blog/create-a-custom-query-in-the-github-issues-client.html)
+### Latest Blog Post - [Fixing my Micro.blog RSS Feed (A Love Letter to Micro.Blog)](https://kjaymiller.com/blog/fixing-my-micro-blog-rss-feed-a-love-letter-to-micro-blog.html)
 
 More Posts: <https://kjaymiller.com/blog/blog-0.html>.
 
