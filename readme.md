@@ -10,8 +10,8 @@ More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 More Posts: <https://kjaymiller.com/blog/blog-0.html>.
 
 ## Latest Conduit Episode
-### [48: Long Projects: Remove the Concept of Time](http://relay.fm/conduit/48)
-We've got a longer than usual period between our next live recording so we're taking the time to think about some longer connections. Tune in to hear how we're going about it and longer projects in general. Are we just making it up as we go along?
+### [49: Systems Check Spring 2023: Unicorns and Thundercats](http://relay.fm/conduit/49)
+In our first episode out of time, Jay and Kathy do their quarterly system check to discover what has changed and what has stayed the same!
 
 ![CONDUIT](https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png)
 
