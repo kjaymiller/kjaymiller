@@ -1,7 +1,7 @@
 Staus:
-<p>I really like that I can see my blog publishing via GH Actions without ever leaving VS Code now with the new GH Actions Extension 😎</p>
+<p>The first of #PyCon US tutorials from the Microsoft Booth is live and it was our most popular!</p>
 
-<p><img alt="gh actions extension" src="https://kjaymiller.azureedge.net/media/gh-actions-vs-code.png" /></p>
+<p>Check out @automationpanda talk about #Playwright with Python!</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
