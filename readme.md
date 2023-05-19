@@ -1,11 +1,11 @@
 Staus:
-<p>Jacob is an amazing human that ceases to amaze me. I hope to one day be in a position where I can begin planning a life where I can be a benefit to more than myself and immediate family </p>
+<p>I really like that I can see my blog publishing via GH Actions without ever leaving VS Code now with the new GH Actions Extension 😎</p>
 
-<p><a href="https://jacobian.org/2023/may/15/giving-it-all-away/">https://jacobian.org/2023/may/15/giving-it-all-away/</a></p>
+<p><img alt="gh actions extension" src="https://kjaymiller.azureedge.net/media/gh-actions-vs-code.png" /></p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
-### Latest Blog Post - [Fixing my Micro.blog RSS Feed (A Love Letter to Micro.Blog)](https://kjaymiller.com/blog/fixing-my-micro-blog-rss-feed-a-love-letter-to-micro-blog.html)
+### Latest Blog Post - [Adding Social Cards to my Static Site](https://kjaymiller.com/blog/adding-social-cards-to-my-static-site.html)
 
 More Posts: <https://kjaymiller.com/blog/blog-0.html>.
 
