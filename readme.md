@@ -5,7 +5,7 @@ Staus:
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
-### Latest Blog Post - [Adding Social Cards to my Static Site](https://kjaymiller.com/blog/adding-social-cards-to-my-static-site.html)
+### Latest Blog Post - [Storing My Opengraph Social Cards in Azure](https://kjaymiller.com/blog/storing-my-opengraph-social-cards-in-azure.html)
 
 More Posts: <https://kjaymiller.com/blog/blog-0.html>.
 
