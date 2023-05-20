@@ -1,7 +1,7 @@
 Staus:
-<p>The first of #PyCon US tutorials from the Microsoft Booth is live and it was our most popular!</p>
+<p>All this content around creating opengraph social card and then when I move all the images to azure to speed up the process, I end up not changing my endpoint in the template. 🤦🏾‍♂️</p>
 
-<p>Check out @automationpanda talk about #Playwright with Python!</p>
+<p>Let's try this link again - <a href="https://kjaymiller.com/blog/storing-my-opengraph-social-cards-in-azure.html">https://kjaymiller.com/blog/storing-my-opengraph-social-cards-in-azure.html</a></p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
