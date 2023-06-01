@@ -10,8 +10,8 @@ More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 More Posts: <https://kjaymiller.com/blog/blog-0.html>.
 
 ## Latest Conduit Episode
-### [49: Systems Check Spring 2023: Unicorns and Thundercats](http://relay.fm/conduit/49)
-In our first episode out of time, Jay and Kathy do their quarterly system check to discover what has changed and what has stayed the same!
+### [50: Friendship HIPAA](http://relay.fm/conduit/50)
+Jay is on location for a secret project so Kathy pulls in her other favorite cohost: Alex Cox! They both go deep into mental health in the workplace and how it affects everything.
 
 ![CONDUIT](https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png)
 
