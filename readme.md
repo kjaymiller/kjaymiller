@@ -5,7 +5,7 @@ Staus:
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
-### Latest Blog Post - [Storing My Opengraph Social Cards in Azure](https://kjaymiller.com/blog/storing-my-opengraph-social-cards-in-azure.html)
+### Latest Blog Post - [I'm not running for the PSF Board this year, but maybe you should](https://kjaymiller.com/blog/i-m-not-running-for-the-psf-board-this-year-but-maybe-you-should.html)
 
 More Posts: <https://kjaymiller.com/blog/blog-0.html>.
 
