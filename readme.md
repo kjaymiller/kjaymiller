@@ -1,11 +1,9 @@
 Staus:
-<p>And we're live! We're talking about @thepsf board elections and more in today's live stream.</p>
-
-<p>https://www.youtube.com/watch?v=4uVquySTpiw</p>
+<p>The <a href="https://www.youtube.com/watch?v=eZwHvBsoPn4&amp;list=PL2Uw4_HvXqvY2zhJ9AMUa_Z6dtMGF3gtb&amp;pp=iAQB">PyCon 2023 Videos</a> are now live on YouTube</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
-### Latest Blog Post - [I'm not running for the PSF Board this year, but maybe you should](https://kjaymiller.com/blog/i-m-not-running-for-the-psf-board-this-year-but-maybe-you-should.html)
+### Latest Blog Post - [Render Engine Update June 2023 Patch](https://kjaymiller.com/blog/render-engine-update-june-2023-patch.html)
 
 More Posts: <https://kjaymiller.com/blog/blog-0.html>.
 
