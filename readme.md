@@ -1,7 +1,7 @@
 Staus:
-<p>All this content around creating opengraph social card and then when I move all the images to azure to speed up the process, I end up not changing my endpoint in the template. 🤦🏾‍♂️</p>
+<p>And we're live! We're talking about @thepsf board elections and more in today's live stream.</p>
 
-<p>Let's try this link again - <a href="https://kjaymiller.com/blog/storing-my-opengraph-social-cards-in-azure.html">https://kjaymiller.com/blog/storing-my-opengraph-social-cards-in-azure.html</a></p>
+<p>https://www.youtube.com/watch?v=4uVquySTpiw</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
