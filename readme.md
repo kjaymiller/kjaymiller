@@ -1,5 +1,7 @@
 Staus:
-<p>The <a href="https://www.youtube.com/watch?v=eZwHvBsoPn4&amp;list=PL2Uw4_HvXqvY2zhJ9AMUa_Z6dtMGF3gtb&amp;pp=iAQB">PyCon 2023 Videos</a> are now live on YouTube</p>
+<p>I'm looking forward to chatting with the person they hire for all things <a href="https://youtube.com/@pyCommunityNews">@pycommunitynews</a> related -</p>
+
+<p>https://pythonsoftwarefoundation.applytojob.com/apply/2omzo2TR1D/Community-Communications-Manager</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
