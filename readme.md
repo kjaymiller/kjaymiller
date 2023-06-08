@@ -1,7 +1,7 @@
 Staus:
-<p>I'm looking forward to chatting with the person they hire for all things <a href="https://youtube.com/@pyCommunityNews">@pycommunitynews</a> related -</p>
+<p>Slowly trying to get back into making YT Shorts - I found out that VS @Code profiles now allow you to select a base language with some settings, snippets and extensions.</p>
 
-<p>https://pythonsoftwarefoundation.applytojob.com/apply/2omzo2TR1D/Community-Communications-Manager</p>
+<p>https://youtube.com/shorts/JSFWSM5Fm9Y</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
