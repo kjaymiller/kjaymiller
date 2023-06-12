@@ -1,7 +1,7 @@
 Staus:
-<p>Slowly trying to get back into making YT Shorts - I found out that VS @Code profiles now allow you to select a base language with some settings, snippets and extensions.</p>
+<p>Our goal is to help the Python community make informed decisions in this year's @thepsf election. This video breaks down what the PSF does (and does) do.</p>
 
-<p>https://youtube.com/shorts/JSFWSM5Fm9Y</p>
+<p><a href="https://www.youtube.com/watch?v=MmSsMHB0Y3s">https://youtube.com/shorts/JSFWSM5Fm9Y</a></p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
