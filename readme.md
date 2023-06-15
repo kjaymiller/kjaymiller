@@ -10,8 +10,8 @@ More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 More Posts: <https://kjaymiller.com/blog/blog-0.html>.
 
 ## Latest Conduit Episode
-### [50: Friendship HIPAA](http://relay.fm/conduit/50)
-Jay is on location for a secret project so Kathy pulls in her other favorite cohost: Alex Cox! They both go deep into mental health in the workplace and how it affects everything.
+### [51: Touching Squishy Brains 👉🧠👈](http://relay.fm/conduit/51)
+Jay is back and his brain is squishier than ever… In this episode we poke and prod and talk about how to use accountability to look at the forest from the trees and tell each other "Hey you should stop that thing you’re doing at the moment".
 
 ![CONDUIT](https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png)
 
