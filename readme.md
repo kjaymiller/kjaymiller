@@ -1,7 +1,5 @@
 Staus:
-<p>Our goal is to help the Python community make informed decisions in this year's @thepsf election. This video breaks down what the PSF does (and does) do.</p>
-
-<p><a href="https://www.youtube.com/watch?v=MmSsMHB0Y3s">https://youtube.com/shorts/JSFWSM5Fm9Y</a></p>
+<p>Happy I got to demo my SSG at @SanDiegoPython.</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
