@@ -5,7 +5,7 @@ Staus:
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
-### Latest Blog Post - [Render Engine Update June 2023 Patch](https://kjaymiller.com/blog/render-engine-update-june-2023-patch.html)
+### Latest Blog Post - [Being an Videographer and Interviewer at PyCon 2023](https://kjaymiller.com/blog/being-an-videographer-and-interviewer-at-pycon-2023.html)
 
 More Posts: <https://kjaymiller.com/blog/blog-0.html>.
 
