@@ -3,7 +3,7 @@ Staus:
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
-### Latest Blog Post - [Being an Videographer and Interviewer at PyCon 2023](https://kjaymiller.com/blog/being-an-videographer-and-interviewer-at-pycon-2023.html)
+### Latest Blog Post - [My Guide to Considering a PSF Board Member](https://kjaymiller.com/blog/my-guide-to-considering-a-psf-board-member.html)
 
 More Posts: <https://kjaymiller.com/blog/blog-0.html>.
 
