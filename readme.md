@@ -5,7 +5,7 @@ More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
 ### Latest Blog Post - [My Guide to Considering a PSF Board Member](https://kjaymiller.com/blog/my-guide-to-considering-a-psf-board-member.html)
 
-More Posts: <https://kjaymiller.com/blog/blog-0.html>.
+More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
 ## Latest Conduit Episode
 ### [51: Touching Squishy Brains 👉🧠👈](http://relay.fm/conduit/51)
