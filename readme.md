@@ -1,5 +1,7 @@
 Staus:
-<p>Happy I got to demo my SSG at @SanDiegoPython.</p>
+<p>This new setting in VS Code allows you to auto-add f-strings</p>
+
+<p>https://www.youtube.com/shorts/ds6LG_N0Irw</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
