@@ -10,8 +10,8 @@ More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
 ## Latest Conduit Episode
-### [51: Touching Squishy Brains 👉🧠👈](http://relay.fm/conduit/51)
-Jay is back and his brain is squishier than ever… In this episode we poke and prod and talk about how to use accountability to look at the forest from the trees and tell each other "Hey you should stop that thing you’re doing at the moment".
+### [52: NOTES! That right there, that’s a good thing](http://relay.fm/conduit/52)
+Do you write it down to remember it now, later, or NEVER! Let's talk about how we take notes.
 
 ![CONDUIT](https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png)
 
