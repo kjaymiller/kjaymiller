@@ -1,7 +1,9 @@
 Staus:
-<p>This new setting in VS Code allows you to auto-add f-strings</p>
+<p>It doesn't happened a lot so I'm still excited when it does. I got a PR accepted into cookiecutter!</p>
 
-<p>https://www.youtube.com/shorts/ds6LG_N0Irw</p>
+<p><a href="https://github.com/cookiecutter/cookiecutter/pull/1874">https://github.com/cookiecutter/cookiecutter/pull/1874</a></p>
+
+<p>It's wierd that I advocate for open source and yet I don't contribute to others' projects as much as I should.</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
