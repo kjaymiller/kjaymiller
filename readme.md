@@ -12,8 +12,8 @@ More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
 ## Latest Conduit Episode
-### [52: NOTES! That right there, that’s a good thing](http://relay.fm/conduit/52)
-Do you write it down to remember it now, later, or NEVER! Let's talk about how we take notes.
+### [53: It's A Mess, We're A Mess, It's Messy.](http://relay.fm/conduit/53)
+Jay and Kathy's lives are being bombarded with unknown timelines and expectations. Will they make it through?
 
 ![CONDUIT](https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png)
 
