@@ -1,9 +1,5 @@
 Staus:
-<p>It doesn't happened a lot so I'm still excited when it does. I got a PR accepted into cookiecutter!</p>
-
-<p><a href="https://github.com/cookiecutter/cookiecutter/pull/1874">https://github.com/cookiecutter/cookiecutter/pull/1874</a></p>
-
-<p>It's wierd that I advocate for open source and yet I don't contribute to others' projects as much as I should.</p>
+<p>I had such a great time hanging with <a href="https://dawnwages.info/">Dawn</a> on the <a href="https://www.youtube.com/watch?v=R1Tnni1iraY&amp;t=1638s&amp;pp=ygUMcHl0aG9uIHB1bHNl">Python Pulse | GitHub Extensions Show and Tell</a>.</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
