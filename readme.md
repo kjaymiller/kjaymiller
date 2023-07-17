@@ -11,11 +11,10 @@ More Posts: <https://kjaymiller.com/blog/blog1.html>.
 ### [53: It's A Mess, We're A Mess, It's Messy.](http://relay.fm/conduit/53)
 Jay and Kathy's lives are being bombarded with unknown timelines and expectations. Will they make it through?
 
-![CONDUIT](https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png)
+<img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="400" width="400" alt="Conduit Podcast Logo"/>
 
-## Latest Python Community News
-### [Embracing Python's Global Community w/ Calvin Hendryx-Parker](https://share.transistor.fm/s/4e02abd4)
-![Python Community News](https://kjaymiller.azureedge.net/media/PCN%20Logo%20V0.16.jpg)
+## Check out Python Community News
+[Python Community News](https://youtube.com/@pycommunitynews) is a youtube channel dedicated to the community side of Python.
 
 ## Active Projects
 
