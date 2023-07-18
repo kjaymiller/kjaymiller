@@ -1,9 +1,17 @@
 Staus:
-<p>I had such a great time hanging with <a href="https://dawnwages.info/">Dawn</a> on the <a href="https://www.youtube.com/watch?v=R1Tnni1iraY&amp;t=1638s&amp;pp=ygUMcHl0aG9uIHB1bHNl">Python Pulse | GitHub Extensions Show and Tell</a>.</p>
+<p>I have this idea to add a setting that can add my git branch name to the title bar of my @code editor window.</p>
+
+<p>It needs 20 upvotes to get on the roadmap.</p>
+
+<p>If you sometimes forget what branch you're on and would like a subtle reminder, give it an upvote</p>
+
+<p><a href="https://github.com/microsoft/vscode/issues/187956">https://github.com/microsoft/vscode/issues/187956</a></p>
+
+<p><img alt="VS Code Feature Request" src="https://kjaymiller.azureedge.net/media/vs-code%20feaure%20request.png" /></p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
-### Latest Blog Post - [My Guide to Considering a PSF Board Member](https://kjaymiller.com/blog/my-guide-to-considering-a-psf-board-member.html)
+### Latest Blog Post - [My Guide to Considering a PSF Board Member](http://localhost:8000/blog/my-guide-to-considering-a-psf-board-member.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
