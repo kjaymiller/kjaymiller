@@ -11,7 +11,7 @@ Staus:
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog-0)
 
-### Latest Blog Post - [My Guide to Considering a PSF Board Member](http://localhost:8000/blog/my-guide-to-considering-a-psf-board-member.html)
+### Latest Blog Post - [Render Engine Supports Themes](https://kjaymiller.com/blog/render-engine-supports-themes.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
