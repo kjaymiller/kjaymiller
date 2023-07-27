@@ -19,8 +19,8 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 
 ## Latest Conduit Episode
-### [53: It's A Mess, We're A Mess, It's Messy.](http://relay.fm/conduit/53)
-Jay and Kathy's lives are being bombarded with unknown timelines and expectations. Will they make it through?
+### [54: The Perfect Productivity Show](http://relay.fm/conduit/54)
+It only happens once a year, maybe, but we’re answering questions from our amazing conductors!
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
