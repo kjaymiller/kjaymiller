@@ -11,7 +11,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [Embrace AI on Behalf of my Laziness](https://kjaymiller.com/blog/embrace-ai-on-behalf-of-my-laziness.html)
+### Latest Blog Post - [Embracing AI because I'm Lazy](https://kjaymiller.com/blog/embracing-ai-because-i-m-lazy.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
