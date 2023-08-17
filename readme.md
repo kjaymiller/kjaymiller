@@ -11,7 +11,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [Render Engine Supports Themes](https://kjaymiller.com/blog/render-engine-supports-themes.html)
+### Latest Blog Post - [Embrace AI on Behalf of my Laziness](https://kjaymiller.com/blog/embrace-ai-on-behalf-of-my-laziness.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
