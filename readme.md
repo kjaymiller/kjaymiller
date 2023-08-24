@@ -19,7 +19,7 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 
 ## Latest Conduit Episode
-### [56: Systems Check Spring 2023: Sidetracked With Doing Stuff](http://relay.fm/conduit/56)
+### [56: Systems Check Summer 2023: Sidetracked With Doing Stuff](http://relay.fm/conduit/56)
 It’s time already for another systems check and our hosts are… busy. Jay’s trying something new (and it’s not here yet!) and Kathy can’t even or odd so learn how they hope to manage in the next quarter.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
