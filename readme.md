@@ -5,7 +5,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [Embracing AI because I'm Lazy](https://kjaymiller.com/blog/embracing-ai-because-i-m-lazy.html)
+### Latest Blog Post - [Working in Tech because I love Money (and Tech)](https://kjaymiller.com/blog/working-in-tech-because-i-love-money-and-tech.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
