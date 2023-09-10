@@ -1,13 +1,7 @@
 ## Status:
-<p>I have this idea to add a setting that can add my git branch name to the title bar of my @code editor window.</p>
+<p>Hoping to make my website more accessible by adding some automated testing. Luckily one of my favorite coworkers gave an amazing talk on this earlier this (I've been putting it off)</p>
 
-<p>It needs 20 upvotes to get on the roadmap.</p>
-
-<p>If you sometimes forget what branch you're on and would like a subtle reminder, give it an upvote</p>
-
-<p><a href="https://github.com/microsoft/vscode/issues/187956">https://github.com/microsoft/vscode/issues/187956</a></p>
-
-<p><img alt="VS Code Feature Request" src="https://kjaymiller.azureedge.net/media/vs-code%20feaure%20request.png" /></p>
+<p>https://www.youtube.com/watch?v=J-4Qa6PSomM</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
