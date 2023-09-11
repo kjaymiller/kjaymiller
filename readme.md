@@ -5,7 +5,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [Working in Tech because I love Money (and Tech)](https://kjaymiller.com/blog/working-in-tech-because-i-love-money-and-tech.html)
+### Latest Blog Post - [Arc Boost for Opening in Ivory v0](https://kjaymiller.com/blog/arc-boost-for-opening-in-ivory-v0.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
