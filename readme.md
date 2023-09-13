@@ -5,7 +5,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [Arc Boost for Opening in Ivory v0](https://kjaymiller.com/blog/arc-boost-for-opening-in-ivory-v0.html)
+### Latest Blog Post - [Website Accessibility Audit Reports via GH Actions](https://kjaymiller.com/blog/website-accessibility-audit-reports-via-gh-actions.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
