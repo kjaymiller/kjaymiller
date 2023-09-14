@@ -1,7 +1,7 @@
 ## Status:
-<p>Hoping to make my website more accessible by adding some automated testing. Luckily one of my favorite coworkers gave an amazing talk on this earlier this (I've been putting it off)</p>
+<p>Join Kathy and I for a fun day to celebrate RelayFM raising $275,000 for St. Jude this year!</p>
 
-<p>https://www.youtube.com/watch?v=J-4Qa6PSomM</p>
+<p>We'll be playing Baldur's Gate 3 on my YouTube channel at 1pm ET/10am PT.</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
