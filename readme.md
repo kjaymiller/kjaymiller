@@ -13,8 +13,8 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 
 ## Latest Conduit Episode
-### [57: I Need Help to Get the Help](http://relay.fm/conduit/57)
-Kathy and Jay need help to meet the demands of those around them. They need help getting help!
+### [58: Finding Your Rhythm](http://relay.fm/conduit/58)
+Jay found his rhythm and rocked the stage. Kathy finds her rhythm in calls with business owners... Where do you find yours?
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
