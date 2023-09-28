@@ -1,7 +1,7 @@
 ## Status:
-<p>Join Kathy and I for a fun day to celebrate RelayFM raising $275,000 for St. Jude this year!</p>
+<p>I've been working with <a href="https://pythonbynight.com">Mario Munoz</a> to get render-engine ready for it's next stable with initial support for theming and slightly improved docs!</p>
 
-<p>We'll be playing Baldur's Gate 3 on my YouTube channel at 1pm ET/10am PT.</p>
+<p>Thanks for your help Mario!</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
