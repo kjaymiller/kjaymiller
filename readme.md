@@ -1,7 +1,5 @@
 ## Status:
-<p>I've been working with <a href="https://pythonbynight.com">Mario Munoz</a> to get render-engine ready for it's next stable with initial support for theming and slightly improved docs!</p>
-
-<p>Thanks for your help Mario!</p>
+<p>ArjanCode's video on what's coming to 3.12 has me so pumped!</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
