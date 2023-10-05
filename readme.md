@@ -11,8 +11,9 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 
 ## Latest Conduit Episode
-### [58: Finding Your Rhythm](http://relay.fm/conduit/58)
-Jay found his rhythm and rocked the stage. Kathy finds her rhythm in calls with business owners... Where do you find yours?
+### [59: Everything is Broken!](http://relay.fm/conduit/59)
+Everything is broken. Everything is messed up but we still do things.
+Everything is broken. F-Productivity
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
