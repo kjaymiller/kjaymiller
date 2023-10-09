@@ -1,5 +1,5 @@
 ## Status:
-<p>ArjanCode's video on what's coming to 3.12 has me so pumped!</p>
+<p>My mania is in full swing and I've been creating a bunch of things. So instead of copy/pasting like I've been doing... I made this <a href="https://github.com/kjaymiller/https://github.com/kjaymiller/cc-kjaymiller-python-package">cookiecutter template</a> for faster project scaffolding.</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
