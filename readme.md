@@ -11,9 +11,8 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 
 ## Latest Conduit Episode
-### [59: Everything is Broken!](http://relay.fm/conduit/59)
-Everything is broken. Everything is messed up but we still do things.
-Everything is broken. F-Productivity
+### [60: Not Juggling, It’s Balancing](http://relay.fm/conduit/60)
+Jay is gone on a super secret trip so Kathy brings on the Canadian Trivia Card Enthusiast of the Show Erika Ensign to talk about juggling multiple careers and life.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
