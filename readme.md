@@ -1,5 +1,7 @@
 ## Status:
-<p>My mania is in full swing and I've been creating a bunch of things. So instead of copy/pasting like I've been doing... I made this <a href="https://github.com/kjaymiller/https://github.com/kjaymiller/cc-kjaymiller-python-package">cookiecutter template</a> for faster project scaffolding.</p>
+<p>I had a wonderful time at #DjangoConUS. I'm hoping they'll consider Raleigh again and I would love to learn more about this very underrated city.</p>
+
+<p><img alt="Black Python Devs at the Ice Cream Social" src="https://kjaymiller.azureedge.net/media/DCUS%20IceCream%20Social.jpg" /></p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
