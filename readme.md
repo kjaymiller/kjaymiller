@@ -5,7 +5,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [Website Accessibility Audit Reports via GH Actions](https://kjaymiller.com/blog/website-accessibility-audit-reports-via-gh-actions.html)
+### Latest Blog Post - [How I moderate technical panels](https://kjaymiller.com/blog/how-i-moderate-technical-panels.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
