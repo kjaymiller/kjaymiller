@@ -1,7 +1,9 @@
 ## Status:
-<p>I had a wonderful time at #DjangoConUS. I'm hoping they'll consider Raleigh again and I would love to learn more about this very underrated city.</p>
+<p>I'm happy to begin sharing some of the perspectives of some folks that I interviewed at #DjangoConUS. </p>
 
-<p><img alt="Black Python Devs at the Ice Cream Social" src="https://kjaymiller.azureedge.net/media/DCUS%20IceCream%20Social.jpg" /></p>
+<p>Let's start with the Django Software Foundation President Chaim Kirby who has a fantastic announcement about his plans for next year!! Check it out on the #PythonCommunityNews Youtube Channel!</p>
+
+<p>https://youtu.be/NhVEGqPvoI4</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
