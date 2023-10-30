@@ -7,7 +7,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [How I moderate technical panels](https://kjaymiller.com/blog/how-i-moderate-technical-panels.html)
+### Latest Blog Post - [About Render Engines Themes, Subthemes, and Carve-outs](https://kjaymiller.com/blog/about-render-engines-themes-subthemes-and-carve-outs.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
