@@ -1,9 +1,9 @@
 ## Status:
-<p>I'm happy to begin sharing some of the perspectives of some folks that I interviewed at #DjangoConUS. </p>
+<p>The second video from the perspectives of #DjangoConUS, I interview  Peter Baumgartner, founder of long-time sponsor Lincoln Loop. </p>
 
-<p>Let's start with the Django Software Foundation President Chaim Kirby who has a fantastic announcement about his plans for next year!! Check it out on the #PythonCommunityNews Youtube Channel!</p>
+<p>We talk about some of the benefits from the sponsor perspective.</p>
 
-<p>https://youtu.be/NhVEGqPvoI4</p>
+<p>https://www.youtube.com/watch?v=LRuTYj3g_9E</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
