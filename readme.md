@@ -1,9 +1,9 @@
 ## Status:
-<p>The second video from the perspectives of #DjangoConUS, I interview  Peter Baumgartner, founder of long-time sponsor Lincoln Loop. </p>
+<p>In this interview, I chat with my amazing friend Felipe de Morais, CoFounder of AfroPython.</p>
 
-<p>We talk about some of the benefits from the sponsor perspective.</p>
+<p>Felipe shares how both Brazilian and US Python communities can learn from one another what it means to see folks that look like you on the stage and around the conference.</p>
 
-<p>https://www.youtube.com/watch?v=LRuTYj3g_9E</p>
+<p>https://youtu.be/SY4qxQQM0V4</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
