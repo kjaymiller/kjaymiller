@@ -1,9 +1,7 @@
 ## Status:
-<p>In this interview, I chat with my amazing friend Felipe de Morais, CoFounder of AfroPython.</p>
+<p>The last interview in this DjangoCon perspectives, I sat down in Panda Studios with @AutomationPanda and we talked a bit about the benefits of the conference local to you and the feelings of Keynoting for your hometown crowd!</p>
 
-<p>Felipe shares how both Brazilian and US Python communities can learn from one another what it means to see folks that look like you on the stage and around the conference.</p>
-
-<p>https://youtu.be/SY4qxQQM0V4</p>
+<p>https://youtu.be/HEC3K2wwJcw</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
