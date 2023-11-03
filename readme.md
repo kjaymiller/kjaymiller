@@ -13,8 +13,8 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 
 ## Latest Conduit Episode
-### [60: Not Juggling, It’s Balancing](http://relay.fm/conduit/60)
-Jay is gone on a super secret trip so Kathy brings on the Canadian Trivia Card Enthusiast of the Show Erika Ensign to talk about juggling multiple careers and life.
+### [61: The Conduit Burnout Candle 🕯️](http://relay.fm/conduit/61)
+Kathy and Jay are feeling the burn(out) well maybe the steps before the burnout. We've taken blowtorches to our candles and now we're telling you the warning signs we see that this next season might be a little tough.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
