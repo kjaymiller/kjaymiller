@@ -1,11 +1,9 @@
 ## Status:
-<p>The last interview in this DjangoCon perspectives, I sat down in Panda Studios with @AutomationPanda and we talked a bit about the benefits of the conference local to you and the feelings of Keynoting for your hometown crowd!</p>
-
-<p>https://youtu.be/HEC3K2wwJcw</p>
+<p>I Qrote a little about my US Conference City Diversity Metric. You can find it on the Black Python Devs Blog - <a href="https://blackpythondevs.github.io/2023-11-11-what-is-the-us-conference-city-diversity-metric/">https://blackpythondevs.github.io/2023-11-11-what-is-the-us-conference-city-diversity-metric/</a></p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [About Render Engines Themes, Subthemes, and Carve-outs](https://kjaymiller.com/blog/about-render-engines-themes-subthemes-and-carve-outs.html)
+### Latest Blog Post - [GitHub Universe: Should I Attend in 2024](https://kjaymiller.com/blog/github-universe-should-i-attend-in-2024.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
