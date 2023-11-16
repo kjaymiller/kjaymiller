@@ -11,8 +11,8 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 
 ## Latest Conduit Episode
-### [61: The Conduit Burnout Candle 🕯️](http://relay.fm/conduit/61)
-Kathy and Jay are feeling the burn(out) well maybe the steps before the burnout. We've taken blowtorches to our candles and now we're telling you the warning signs we see that this next season might be a little tough.
+### [62: Systems Check Fall 2023](http://relay.fm/conduit/62)
+It's a systems check. Jay is prepping for 2024 and Kathy is in her "Artistically Productive" groove.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
