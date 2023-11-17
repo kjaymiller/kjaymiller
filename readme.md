@@ -1,9 +1,13 @@
 ## Status:
-<p>I Qrote a little about my US Conference City Diversity Metric. You can find it on the Black Python Devs Blog - <a href="https://blackpythondevs.github.io/2023-11-11-what-is-the-us-conference-city-diversity-metric/">https://blackpythondevs.github.io/2023-11-11-what-is-the-us-conference-city-diversity-metric/</a></p>
+<p>create a pre-release for your project using the gh cli</p>
+
+<p><code>gh release create &lt;VERSION&gt; --generated-notes -p</code></p>
+
+<p>the release version of this command is without the p.</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [GitHub Universe: Should I Attend in 2024](https://kjaymiller.com/blog/github-universe-should-i-attend-in-2024.html)
+### Latest Blog Post - [Using bat, termshot, and vhs to create snippets of code for blog posts](https://kjaymiller.com/blog/using-bat-termshot-and-vhs-to-create-snippets-of-code-for-blog-posts.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
