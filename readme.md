@@ -1,9 +1,18 @@
 ## Status:
-<p>create a pre-release for your project using the gh cli</p>
+<p>Building projects you don't think anyone uses is way more fun when you have so many people helping! Render Engine had 5 new contributors this month.</p>
 
-<p><code>gh release create &lt;VERSION&gt; --generated-notes -p</code></p>
+<p>Should out to:</p>
 
-<p>the release version of this command is without the p.</p>
+<ul>
+<li><a href="https://fosstodon.org/@pamelafox">@pamelafox</a> </li>
+<li><a href="https://fosstodon.org/@tonybaloney">@tonybaloney</a></li>
+<li><a href="https://fosstodon.org/@pythonbynight">@pythonbynight</a> (Not listed because I'm not good at git)</li>
+<li><a href="https://hachyderm.io/@LauraLangdon">@LauraLangdon</a> </li>
+<li><a href="https://github.com/Mahheshh">github.com/Mahhheshh</a></li>
+<li>and <a href="https://github.com/mannyanebi">github.com/mannyanebi</a> (Who created their own extension for building a from a CSV file)</li>
+</ul>
+
+<p>I hope to continue improving Render Engine and start providing more examples of be being used in different ways</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
