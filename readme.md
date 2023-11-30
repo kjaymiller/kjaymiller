@@ -24,8 +24,8 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 
 ## Latest Conduit Episode
-### [62: Systems Check Fall 2023](http://relay.fm/conduit/62)
-It's a systems check. Jay is prepping for 2024 and Kathy is in her "Artistically Productive" groove.
+### [63: Tiny Audits For a Mini-Kondo Benefit](http://relay.fm/conduit/63)
+The crew is taking inventory of the little things. In this episode, we talk about the power of an audit. Jay is checking in on little things and is seeing improvements already.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
