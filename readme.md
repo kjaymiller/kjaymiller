@@ -1,18 +1,9 @@
 ## Status:
-<p>Building projects you don't think anyone uses is way more fun when you have so many people helping! Render Engine had 5 new contributors this month.</p>
+<p>This extension means that I never have to manually open a bunch of files that match a pattern again!</p>
 
-<p>Should out to:</p>
+<p>Check out <a href="">Open Multiple Files</a></p>
 
-<ul>
-<li><a href="https://fosstodon.org/@pamelafox">@pamelafox</a> </li>
-<li><a href="https://fosstodon.org/@tonybaloney">@tonybaloney</a></li>
-<li><a href="https://fosstodon.org/@pythonbynight">@pythonbynight</a> (Not listed because I'm not good at git)</li>
-<li><a href="https://hachyderm.io/@LauraLangdon">@LauraLangdon</a> </li>
-<li><a href="https://github.com/Mahheshh">github.com/Mahhheshh</a></li>
-<li>and <a href="https://github.com/mannyanebi">github.com/mannyanebi</a> (Who created their own extension for building a from a CSV file)</li>
-</ul>
-
-<p>I hope to continue improving Render Engine and start providing more examples of be being used in different ways</p>
+<p><a href="https://youtube.com/shorts/EPDg24VAF0Q">https://youtube.com/shorts/EPDg24VAF0Q</a></p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
