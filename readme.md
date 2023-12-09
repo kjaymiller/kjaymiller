@@ -7,7 +7,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [Using bat, termshot, and vhs to create snippets of code for blog posts](https://kjaymiller.com/blog/using-bat-termshot-and-vhs-to-create-snippets-of-code-for-blog-posts.html)
+### Latest Blog Post - [4 Moments that Made 😎 (Jaysies 2023)](https://kjaymiller.com/blog/jaysies-2023.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
