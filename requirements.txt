@@ -10,7 +10,7 @@ charset-normalizer==3.3.2
     # via requests
 episode-dl==2020.5.4
     # via -r requirements.in
-feedparser==6.0.10
+feedparser==6.0.11
     # via episode-dl
 idna==3.6
     # via requests
