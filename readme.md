@@ -15,8 +15,10 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 
 ## Latest Conduit Episode
-### [63: Tiny Audits For a Mini-Kondo Benefit](http://relay.fm/conduit/63)
-The crew is taking inventory of the little things. In this episode, we talk about the power of an audit. Jay is checking in on little things and is seeing improvements already.
+### [64: Creating Productivity Software with NO PRODUCTIVITY SYSTEM!](http://relay.fm/conduit/64)
+Jesse Grosjean is the developer behind Taskpaper, Bike, and WriteRoom.
+
+Jesse joins Jay while Kathy is away to look behind the scenes with of some of Jay's favorite apps.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
