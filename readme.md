@@ -15,10 +15,10 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 
 ## Latest Conduit Episode
-### [64: Creating Productivity Software with NO PRODUCTIVITY SYSTEM!](http://relay.fm/conduit/64)
-Jesse Grosjean is the developer behind Taskpaper, Bike, and WriteRoom.
+### [65: Embracing the Chaos being Toxic and Positive](http://relay.fm/conduit/65)
+Jay and Kathy talk about themes, reflections, perspectives and motivations in preparation for the new year. 
 
-Jesse joins Jay while Kathy is away to look behind the scenes with of some of Jay's favorite apps.
+It's been a magnificent year for the hosts and we hope to make 2024 even better.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
