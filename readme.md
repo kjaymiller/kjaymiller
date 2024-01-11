@@ -15,10 +15,8 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 
 ## Latest Conduit Episode
-### [65: Embracing the Chaos being Toxic and Positive](http://relay.fm/conduit/65)
-Jay and Kathy talk about themes, reflections, perspectives and motivations in preparation for the new year. 
-
-It's been a magnificent year for the hosts and we hope to make 2024 even better.
+### [66: I Wish I had a Britnie](http://relay.fm/conduit/66)
+Jay and Kathy delve into the tools they use for keeping track of the regular life things. Jay unveils his secret weapon and Kathy raises some very important holes in Jay’s plan!
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
