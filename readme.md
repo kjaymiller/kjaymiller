@@ -15,8 +15,8 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 
 ## Latest Conduit Episode
-### [66: I Wish I had a Britnie](http://relay.fm/conduit/66)
-Jay and Kathy delve into the tools they use for keeping track of the regular life things. Jay unveils his secret weapon and Kathy raises some very important holes in Jay’s plan!
+### [67: Plan but Be Ready To Pivot](http://relay.fm/conduit/67)
+What do our hosts do, what do they want to do and for how long? Are they ready for the next 5 years?
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
