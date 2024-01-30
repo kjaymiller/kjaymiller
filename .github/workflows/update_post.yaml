@@ -1,5 +1,6 @@
 name: Load Lastest Content
-on: 
+on:
+  workflow_dispatch:
   schedule:
     # Runs every 4 hours
     - cron:  '0 */4 * * *'
