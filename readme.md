@@ -1,13 +1,15 @@
 ## Status:
-<p>This extension means that I never have to manually open a bunch of files that match a pattern again!</p>
+<p>I was able to get my first PyPI publishing workflow using the trusted publishers workflow really easy...</p>
 
-<p>Check out <a href="">Open Multiple Files</a></p>
+<p>I'm a fan of good docs so I'll just share their link instead of creating another one.</p>
 
-<p><a href="https://youtube.com/shorts/EPDg24VAF0Q">https://youtube.com/shorts/EPDg24VAF0Q</a></p>
+<p>https://docs.github.com/en/actions/deployment/security-hardening-your-deployments/configuring-openid-connect-in-pypi</p>
+
+<p>One minor thing I that got me is that your repo name is case-sensative so if you're having issues check repo casing.</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [4 Moments that Made 😎 (Jaysies 2023)](https://kjaymiller.com/blog/jaysies-2023.html)
+### Latest Blog Post - [The Most Talented Developer or the Most Helpful Developer](https://kjaymiller.com/blog/the-most-talented-developer-or-the-most-helpful-developer.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
