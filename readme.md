@@ -1,11 +1,9 @@
 ## Status:
-<p>I was able to get my first PyPI publishing workflow using the trusted publishers workflow really easy...</p>
+<p>Folks in Black Python Devs this month have been crushing it. Tomorrow (Friday 1 Feb 2024), we'll be sharing a selection of some of the accomplishments shared from our community's members in our first newsletter post.</p>
 
-<p>I'm a fan of good docs so I'll just share their link instead of creating another one.</p>
+<p>Sign up for a (currently) monthly recap from our community and support our members.</p>
 
-<p>https://docs.github.com/en/actions/deployment/security-hardening-your-deployments/configuring-openid-connect-in-pypi</p>
-
-<p>One minor thing I that got me is that your repo name is case-sensative so if you're having issues check repo casing.</p>
+<p><a href="https://buttondown.email/black-python-devs">https://buttondown.email/black-python-devs</a></p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
