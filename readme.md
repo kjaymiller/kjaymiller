@@ -7,7 +7,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [The Most Talented Developer or the Most Helpful Developer](https://kjaymiller.com/blog/the-most-talented-developer-or-the-most-helpful-developer.html)
+### Latest Blog Post - [More Inclusive Language Using TextExpander](https://kjaymiller.com/blog/more-inclusive-language-using-textexpander.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
