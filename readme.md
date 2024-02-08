@@ -15,8 +15,8 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 
 ## Latest Conduit Episode
-### [67: Plan but Be Ready To Pivot](http://relay.fm/conduit/67)
-What do our hosts do, what do they want to do and for how long? Are they ready for the next 5 years?
+### [68: Well, We Made A Mistake](http://relay.fm/conduit/68)
+Mistakes happen and that’s okay. This is a podcast that emphasizes accountability and we’re talking about being accountable for mistakes and how to handle mistakes from others that affect you.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
