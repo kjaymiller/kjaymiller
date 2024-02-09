@@ -5,7 +5,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [Running a Community Booth at PyCon US or Similar Events](https://kjaymiller.com/blog/running-a-community-booth-at-pycon-us-or-similar-events.html)
+### Latest Blog Post - [What 2 Years at Microsoft can do (with the right team)](https://kjaymiller.com/blog/jay-leaving-microsoft.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
