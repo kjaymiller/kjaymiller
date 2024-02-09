@@ -5,7 +5,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [RANT - No more AI generated videos please](https://kjaymiller.com/blog/rant-no-more-ai-generated-videos-please.html)
+### Latest Blog Post - [Running a Community Booth at PyCon US or Similar Events](https://kjaymiller.com/blog/running-a-community-booth-at-pycon-us-or-similar-events.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
