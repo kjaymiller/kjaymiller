@@ -1,13 +1,11 @@
 ## Status:
-<p>Folks in Black Python Devs this month have been crushing it. Tomorrow (Friday 1 Feb 2024), we'll be sharing a selection of some of the accomplishments shared from our community's members in our first newsletter post.</p>
+<p>I had a blast on <a href="https://www.youtube.com/watch?v=6O5NVf0doRo">stream today with Jason Lengstorf</a>. </p>
 
-<p>Sign up for a (currently) monthly recap from our community and support our members.</p>
-
-<p><a href="https://buttondown.email/black-python-devs">https://buttondown.email/black-python-devs</a></p>
+<p>It seems that FastAPI is rather intuitive for Javascript users. I would definitely encourage others to dive right in!</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [More Inclusive Language Using TextExpander](https://kjaymiller.com/blog/more-inclusive-language-using-textexpander.html)
+### Latest Blog Post - [RANT - No more AI generated videos please](https://kjaymiller.com/blog/rant-no-more-ai-generated-videos-please.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
