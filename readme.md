@@ -13,8 +13,10 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 
 ## Latest Conduit Episode
-### [68: Well, We Made A Mistake](http://relay.fm/conduit/68)
-Mistakes happen and that’s okay. This is a podcast that emphasizes accountability and we’re talking about being accountable for mistakes and how to handle mistakes from others that affect you.
+### [69: Systems Check Winter 2024: Systems Che….ck](http://relay.fm/conduit/69)
+Nice! A Systems Check! Things are going well for Kathy’s system and Jay just wants to vent. Also some mid episode madness as we recorded later and that always makes things hectic! 
+
+Also! New designs at YouConWearIt.com
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
