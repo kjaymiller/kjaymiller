@@ -13,10 +13,10 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 
 ## Latest Conduit Episode
-### [69: Systems Check Winter 2024: Systems Che….ck](http://relay.fm/conduit/69)
-Nice! A Systems Check! Things are going well for Kathy’s system and Jay just wants to vent. Also some mid episode madness as we recorded later and that always makes things hectic! 
+### [70: Gimme F&!!#&g Zen](http://relay.fm/conduit/70)
+Kathy and Jay are having long weeks and when times get tough we look to find zen in a variety of places. 
 
-Also! New designs at YouConWearIt.com
+We talk about music games and conversations that add a little chill to our frantic lives.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
