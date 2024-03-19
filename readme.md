@@ -5,7 +5,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [What 2 Years at Microsoft can do (with the right team)](https://kjaymiller.com/blog/jay-leaving-microsoft.html)
+### Latest Blog Post - [Personal Blogs are no longer personal when AI gets too involved](https://kjaymiller.com/blog/personal-blogs-are-no-longer-personal-when-ai-gets-too-involved.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
