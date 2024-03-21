@@ -13,10 +13,10 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 
 ## Latest Conduit Episode
-### [70: Gimme F&!!#&g Zen](http://relay.fm/conduit/70)
-Kathy and Jay are having long weeks and when times get tough we look to find zen in a variety of places. 
+### [71: This Is Good For You…You Need To Stop](http://relay.fm/conduit/71)
+Good things are good except for when they're not. 
 
-We talk about music games and conversations that add a little chill to our frantic lives.
+Jay and Kathy share some of the things they've stopped doing because it's better than good if we just don't.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
