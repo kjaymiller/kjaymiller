@@ -13,10 +13,10 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 
 ## Latest Conduit Episode
-### [71: This Is Good For You…You Need To Stop](http://relay.fm/conduit/71)
-Good things are good except for when they're not. 
+### [72: Back That Thing Up](http://relay.fm/conduit/72)
+Kathy had a wild adventure and was saved by, among many things, her Backups. 
 
-Jay and Kathy share some of the things they've stopped doing because it's better than good if we just don't.
+Also is Jay’s lackadaisical attitude on backups a critical flaw in his productivity and workflow?
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
