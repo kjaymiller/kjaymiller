@@ -5,7 +5,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [Personal Blogs are no longer personal when AI gets too involved](https://kjaymiller.com/blog/personal-blogs-are-no-longer-personal-when-ai-gets-too-involved.html)
+### Latest Blog Post - [On Getting Your First Job in Tech (Part 1)](https://kjaymiller.com/blog/on-getting-your-first-job-in-tech-part-1.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
