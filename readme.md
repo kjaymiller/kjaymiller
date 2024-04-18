@@ -13,10 +13,8 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 
 ## Latest Conduit Episode
-### [72: Back That Thing Up](http://relay.fm/conduit/72)
-Kathy had a wild adventure and was saved by, among many things, her Backups. 
-
-Also is Jay’s lackadaisical attitude on backups a critical flaw in his productivity and workflow?
+### [73: You May Feel Some Slight Discomfort](http://relay.fm/conduit/73)
+Jay has become complacent with their floor situation and has decided enough is enough. Learn how they've chosen violence and plan to spam their insurance company with calls until fixes happen
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
