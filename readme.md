@@ -13,8 +13,10 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 
 ## Latest Conduit Episode
-### [73: You May Feel Some Slight Discomfort](http://relay.fm/conduit/73)
-Jay has become complacent with their floor situation and has decided enough is enough. Learn how they've chosen violence and plan to spam their insurance company with calls until fixes happen
+### [74: Knucklebones: Big Risk, Big Rewards](http://relay.fm/conduit/74)
+Jay and Kathy are back from traveling and they took some risks that seem to have paid off. 
+
+Jay found a new game and talks about how they like to handle big risks.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
