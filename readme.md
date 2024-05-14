@@ -1,7 +1,7 @@
 ## Status:
-<p>I had a blast on <a href="https://www.youtube.com/watch?v=6O5NVf0doRo">stream today with Jason Lengstorf</a>. </p>
+<p>Been playing Rusty's retirement and I just wish I had steam on my work computer so I can stay engaged with work (and my crops).</p>
 
-<p>It seems that FastAPI is rather intuitive for Javascript users. I would definitely encourage others to dive right in!</p>
+<p><a href="https://store.steampowered.com/app/2666510/Rustys_Retirement/">https://store.steampowered.com/app/2666510/Rustys_Retirement/</a></p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
