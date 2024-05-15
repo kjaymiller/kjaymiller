@@ -1,8 +1,7 @@
 ## Status:
-<p>Nigerian Students learning Python! Join Black Python Devs today to receive one of our 75 free tickets for <a href="https://ng.pycon.org/">Pycon Nigeria</a> later in July! More information at - <a href="https://blackpythondevs.com/2024-05-03-pycon_ng_2024/]">https://blackpythondevs.com/2024-05-03-pycon_ng_2024/]</a>
-<img alt="Black Python Devs x PyCon Nigeria" src="https://blackpythondevs.com/assets/images/bpdxpyconng.jpg" /></p>
+<p>Best of luck to <a href="https://mastodon.social/@blackpythondevs">Black Python Devs</a> founding member <a href="https://github.com/readme/stories/felipe-de-morais">@felipedemorais_</a> on his #PyConUS workshop starting in a few minutes!</p>
 
-<p><img alt="Black Python Devs x PyCon Nigeria" src="https://blackpythondevs.com/assets/images/bpdxpyconng.jpg" /></p>
+<p><img alt="Wakanda Forever" src="https://media1.tenor.com/m/sLnKQsITsaQAAAAd/family-i-got-you.gif" /></p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
