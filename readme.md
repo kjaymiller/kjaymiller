@@ -1,7 +1,8 @@
 ## Status:
-<p>Been playing Rusty's retirement and I just wish I had steam on my work computer so I can stay engaged with work (and my crops).</p>
+<p>Nigerian Students learning Python! Join Black Python Devs today to receive one of our 75 free tickets for <a href="https://ng.pycon.org/">Pycon Nigeria</a> later in July! More information at - <a href="https://blackpythondevs.com/2024-05-03-pycon_ng_2024/]">https://blackpythondevs.com/2024-05-03-pycon_ng_2024/]</a>
+<img alt="Black Python Devs x PyCon Nigeria" src="https://blackpythondevs.com/assets/images/bpdxpyconng.jpg" /></p>
 
-<p><a href="https://store.steampowered.com/app/2666510/Rustys_Retirement/">https://store.steampowered.com/app/2666510/Rustys_Retirement/</a></p>
+<p><img alt="Black Python Devs x PyCon Nigeria" src="https://blackpythondevs.com/assets/images/bpdxpyconng.jpg" /></p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
