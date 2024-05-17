@@ -13,10 +13,8 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 
 ## Latest Conduit Episode
-### [74: Knucklebones: Big Risk, Big Rewards](http://relay.fm/conduit/74)
-Jay and Kathy are back from traveling and they took some risks that seem to have paid off. 
-
-Jay found a new game and talks about how they like to handle big risks.
+### [75: Ideates 💡 vs Executioners 🪓](http://relay.fm/conduit/75)
+Jay is an ideate. Kathy is an executioner and that is why they work so well together. Learn where you fit in the spectrum and what you can do to sway those around you that are on the other side of it.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
