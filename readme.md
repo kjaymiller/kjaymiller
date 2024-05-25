@@ -5,7 +5,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [On Getting Your First Job in Tech (Part 1)](https://kjaymiller.com/blog/on-getting-your-first-job-in-tech-part-1.html)
+### Latest Blog Post - [My List of things that I took (and wish I took)to PyCon US for the Black Python Devs Booth](https://kjaymiller.com/blog/my-list-of-things-that-i-took-and-wish-i-took-to-pycon-us-for-the-black-python-devs-booth.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
