@@ -1,7 +1,13 @@
 ## Status:
-<p>Best of luck to <a href="https://mastodon.social/@blackpythondevs">Black Python Devs</a> founding member <a href="https://github.com/readme/stories/felipe-de-morais">@felipedemorais_</a> on his #PyConUS workshop starting in a few minutes!</p>
+<p>I hope folks in the US remember this #MemorialDay, Since 9/11 - more service members and veterans die by suicide than combat every year.</p>
 
-<p><img alt="Wakanda Forever" src="https://media1.tenor.com/m/sLnKQsITsaQAAAAd/family-i-got-you.gif" /></p>
+<p><a href="https://www.npr.org/2021/06/24/1009846329/military-suicides-deaths-mental-health-crisis">https://www.npr.org/2021/06/24/1009846329/military-suicides-deaths-mental-health-crisis</a></p>
+
+<p>I'm a veteran and I struggle with depression and PTSD. I lost one of my brothers-in-arms and groomsmen to drug abuse and suicide. There isn't a week that goes by where I don't think of him; today I write this through tears of guilt.</p>
+
+<p>Do the simple thing ask a service-member how they're doing and how is their mental health.</p>
+
+<p><img alt="Me in my military days as a Private First Class" src="https://kjaymiller.azureedge.net/media/jay-in-the-military.JPG" /></p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
