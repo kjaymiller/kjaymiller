@@ -19,8 +19,8 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 
 ## Latest Conduit Episode
-### [75: Ideates 💡 vs Executioners 🪓](http://relay.fm/conduit/75)
-Jay is an ideate. Kathy is an executioner and that is why they work so well together. Learn where you fit in the spectrum and what you can do to sway those around you that are on the other side of it.
+### [76: Systems Check Spring 2024](http://relay.fm/conduit/76)
+Kathy and Jay had a busy spring and their systems have been dealing with it to the best of their ability. Is Jay going to have to buy yet another notebook? How will Kathy‘s system hold up on the opposite side of the world?
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
