@@ -1,13 +1,9 @@
 ## Status:
-<p>I hope folks in the US remember this #MemorialDay, Since 9/11 - more service members and veterans die by suicide than combat every year.</p>
+<p>I'm really excited to see the results of the interview that I did with #TheNewStack.</p>
 
-<p><a href="https://www.npr.org/2021/06/24/1009846329/military-suicides-deaths-mental-health-crisis">https://www.npr.org/2021/06/24/1009846329/military-suicides-deaths-mental-health-crisis</a></p>
+<p>It turned out great! Even gave some good shoutouts to some communities we're heavily invested in!</p>
 
-<p>I'm a veteran and I struggle with depression and PTSD. I lost one of my brothers-in-arms and groomsmen to drug abuse and suicide. There isn't a week that goes by where I don't think of him; today I write this through tears of guilt.</p>
-
-<p>Do the simple thing ask a service-member how they're doing and how is their mental health.</p>
-
-<p><img alt="Me in my military days as a Private First Class" src="https://kjaymiller.azureedge.net/media/jay-in-the-military.JPG" /></p>
+<p><a href="https://thenewstack.io/black-python-devs-a-new-affinity-group-with-a-global-reach/">https://thenewstack.io/black-python-devs-a-new-affinity-group-with-a-global-reach/</a></p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
