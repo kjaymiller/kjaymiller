@@ -15,8 +15,8 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 
 ## Latest Conduit Episode
-### [76: Systems Check Spring 2024](http://relay.fm/conduit/76)
-Kathy and Jay had a busy spring and their systems have been dealing with it to the best of their ability. Is Jay going to have to buy yet another notebook? How will Kathy‘s system hold up on the opposite side of the world?
+### [77: Let Me Cook](http://relay.fm/conduit/77)
+Kathy and Jay are cooking this summer. Maybe not on the grill but we’re taking our busy time and looking to transform it into stability.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
