@@ -7,7 +7,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [My List of things that I took (and wish I took)to PyCon US for the Black Python Devs Booth](https://kjaymiller.com/blog/my-list-of-things-that-i-took-and-wish-i-took-to-pycon-us-for-the-black-python-devs-booth.html)
+### Latest Blog Post - [Awkward End-to-End Testing with Playwright](https://kjaymiller.com/blog/awkward-end-to-end-testing-with-playwright.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
