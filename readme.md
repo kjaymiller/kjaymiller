@@ -1,9 +1,11 @@
 ## Status:
-<p>I'm really excited to see the results of the interview that I did with #TheNewStack.</p>
+<p>I've been trusting dependabot more and more and nore I'm using Anthony Shaw's (@tonybaloney@fosstodon.org) <a href="https://github.com/tonybaloney/dependabot-bot">Dependabot-bot</a>.</p>
 
-<p>It turned out great! Even gave some good shoutouts to some communities we're heavily invested in!</p>
+<p>Of course I'm not suggesting that you blindly merge PRs but I'm also being honest that without maintainers, lots of folks are doing this anyway.</p>
 
-<p><a href="https://thenewstack.io/black-python-devs-a-new-affinity-group-with-a-global-reach/">https://thenewstack.io/black-python-devs-a-new-affinity-group-with-a-global-reach/</a></p>
+<p>Also as a contingency I'm only autoapproving the updates from the main dependencies and not their dependencies.</p>
+
+<p>Also not auto publishing releases and all releases are tested before a publish will go through.</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
