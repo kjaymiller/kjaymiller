@@ -9,7 +9,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [Awkward End-to-End Testing with Playwright](https://kjaymiller.com/blog/awkward-end-to-end-testing-with-playwright.html)
+### Latest Blog Post - [My New Favorite 3d Print and My Thoughts on if 3d Printing Is Worth Getting Into](https://kjaymiller.com/blog/my-new-favorite-3d-print-and-my-thoughts-on-if-3d-printing-is-worth-getting-into.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
