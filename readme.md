@@ -1,11 +1,11 @@
 ## Status:
-<p>I've been trusting dependabot more and more and nore I'm using Anthony Shaw's (@tonybaloney@fosstodon.org) <a href="https://github.com/tonybaloney/dependabot-bot">Dependabot-bot</a>.</p>
+<p>Ruto refuses to sign the finance bill as is but their Parliament vote was 64% yes. They only need to flip 3-4 people to get a large-enough majority to pass it anyway.</p>
 
-<p>Of course I'm not suggesting that you blindly merge PRs but I'm also being honest that without maintainers, lots of folks are doing this anyway.</p>
+<p>Kenyans, (If it is okay for an American with many Kenyan friends to speak up), keep the pressure on your politicians.</p>
 
-<p>Also as a contingency I'm only autoapproving the updates from the main dependencies and not their dependencies.</p>
+<p>Americans, find some Kenyan folks to learn from and be as loud as you are about your least favorite OLD WHITE DUDE IN CHARGE.</p>
 
-<p>Also not auto publishing releases and all releases are tested before a publish will go through.</p>
+<h1 id="rejectfinancebill2024">rejectfinancebill2024</h1>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
