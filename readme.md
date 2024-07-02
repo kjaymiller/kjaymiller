@@ -1,11 +1,11 @@
 ## Status:
-<p>Ruto refuses to sign the finance bill as is but their Parliament vote was 64% yes. They only need to flip 3-4 people to get a large-enough majority to pass it anyway.</p>
+<p>It ain't just me!</p>
 
-<p>Kenyans, (If it is okay for an American with many Kenyan friends to speak up), keep the pressure on your politicians.</p>
+<p>I'm hoping to figure out how to get folks that are capable hired all over the world. Many of these folks are more talented than I am but their hometown is the biggest barrier to getting them hired.</p>
 
-<p>Americans, find some Kenyan folks to learn from and be as loud as you are about your least favorite OLD WHITE DUDE IN CHARGE.</p>
 
-<h1 id="rejectfinancebill2024">rejectfinancebill2024</h1>
+
+<p><a href="https://www.youtube.com/clip/UgkxDbDzJIoWmOR1kw072kjI8Vq7gXnbP1nM">🔗</a></p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
