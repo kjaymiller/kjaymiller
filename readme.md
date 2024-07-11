@@ -17,10 +17,8 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 
 ## Latest Conduit Episode
-### [78: Big Bundles of Identical Tasks](http://relay.fm/conduit/78)
-The HOA is useful in this case! Jay let the pressure of fines to force them to prioritize specific yard projects.  
-
-This episode is all about how our hosts best bundle and handle daunting tasks.
+### [79: Over (Many) Night(s) Success](http://relay.fm/conduit/79)
+Jay is on location so Kathy is joined by the Original Friend of the Show Madi to talk about motherhood, quitting a job, finding time for yourself, and writing a book!
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
