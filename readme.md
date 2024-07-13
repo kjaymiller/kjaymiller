@@ -20,6 +20,8 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 ### [79: Over (Many) Night(s) Success](http://relay.fm/conduit/79)
 Jay is on location so Kathy is joined by the Original Friend of the Show Madi to talk about motherhood, quitting a job, finding time for yourself, and writing a book!
 
+Special Guest: Baby Khaos makes a vocal appearance.
+
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
 ## Check out Python Community News
