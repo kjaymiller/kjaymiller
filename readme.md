@@ -17,10 +17,8 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 
 ## Latest Conduit Episode
-### [79: Over (Many) Night(s) Success](http://relay.fm/conduit/79)
-Jay is on location so Kathy is joined by the Original Friend of the Show Madi to talk about motherhood, quitting a job, finding time for yourself, and writing a book!
-
-Special Guest: Baby Khaos makes a vocal appearance.
+### [80: Jay Didn’t Have a Connection!?](http://relay.fm/conduit/80)
+Jay dropped the ball on basically everything. No connection, no productivity, all the problems.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
