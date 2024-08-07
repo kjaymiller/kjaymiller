@@ -1,11 +1,9 @@
 ## Status:
-<p>It ain't just me!</p>
+<p>TIL: I have some plugin in lazyVIM that is listing my code. The downside is I don't know which plugin it is and if it is black then I have a new problem where the linter and running <code>black .</code> are coming up with different results...</p>
 
-<p>I'm hoping to figure out how to get folks that are capable hired all over the world. Many of these folks are more talented than I am but their hometown is the biggest barrier to getting them hired.</p>
+<p>What I have yet to learn is how to fix it...</p>
 
-
-
-<p><a href="https://www.youtube.com/clip/UgkxDbDzJIoWmOR1kw072kjI8Vq7gXnbP1nM">🔗</a></p>
+<p><img alt="gif of fez laughing and then crying" src="https://media1.tenor.com/m/hf4KfJYylTQAAAAC/70s-show-crying.gif" /></p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
