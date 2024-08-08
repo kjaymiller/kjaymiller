@@ -15,8 +15,8 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 
 ## Latest Conduit Episode
-### [80: Jay Didn’t Have a Connection!?](http://relay.fm/conduit/80)
-Jay dropped the ball on basically everything. No connection, no productivity, all the problems.
+### [81: Brett’s Mental Health (and Tech) Corner](http://relay.fm/conduit/81)
+Kathy is still on a secret mission so Jay is joined by Brett Terpstra the Internet’s mad scientist to talk mental healths link to productivity.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
