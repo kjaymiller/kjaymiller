@@ -7,7 +7,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [Black Python Devs Keynote at PyCon US 2024](https://kjaymiller.com/blog/black-python-devs-keynote-at-pycon-us-2024.html)
+### Latest Blog Post - [Get System Information for Your GitHub Issues](https://kjaymiller.com/blog/get-system-information-for-your-github-issues.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
