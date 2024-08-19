@@ -1,9 +1,13 @@
 ## Status:
-<p>TIL: I have some plugin in lazyVIM that is listing my code. The downside is I don't know which plugin it is and if it is black then I have a new problem where the linter and running <code>black .</code> are coming up with different results...</p>
+<p>Last month I went to London for the <a href="https://relay.fm/london">Relay 10th anniversary extravaganza</a>.</p>
 
-<p>What I have yet to learn is how to fix it...</p>
+<p>You can catch the [audio replay here].</p>
 
-<p><img alt="gif of fez laughing and then crying" src="https://media1.tenor.com/m/hf4KfJYylTQAAAAC/70s-show-crying.gif" /></p>
+<p>You can hear my thoughts on being a member of Relay here.</p>
+
+
+
+<p>If you want to hear thoughts like this (and the occaisional helpful content) you can check out <a href="https://relay.fm/conduit">Conduit</a></p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
