@@ -19,8 +19,8 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 
 ## Latest Conduit Episode
-### [81: Brett’s Mental Health (and Tech) Corner](http://relay.fm/conduit/81)
-Kathy is still on a secret mission so Jay is joined by Brett Terpstra the Internet’s mad scientist to talk mental healths link to productivity.
+### [82: Systems Check Summer 2024](http://relay.fm/conduit/82)
+Jay is using their notebook again and Kathy is back and in a new stage of her business. Some may think she needs a side-kick but she’s already got one!
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
