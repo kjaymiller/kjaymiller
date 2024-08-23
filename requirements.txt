@@ -12,7 +12,7 @@ episode-dl==2020.5.4
     # via -r requirements.in
 feedparser==6.0.11
     # via episode-dl
-idna==3.7
+idna==3.8
     # via requests
 jinja2==3.1.4
     # via -r requirements.in
