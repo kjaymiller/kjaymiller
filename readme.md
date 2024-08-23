@@ -1,13 +1,14 @@
 ## Status:
-<p>Last month I went to London for the <a href="https://relay.fm/london">Relay 10th anniversary extravaganza</a>.</p>
+<p>I am now using some tools to make my terminal configs in sync.</p>
 
-<p>You can catch the [audio replay here].</p>
+<p>Those tools are:</p>
 
-<p>You can hear my thoughts on being a member of Relay here.</p>
+<ul>
+<li>stow</li>
+<li>brew-make (and brew-wrap to autoupdate)</li>
+</ul>
 
-
-
-<p>If you want to hear thoughts like this (and the occaisional helpful content) you can check out <a href="https://relay.fm/conduit">Conduit</a></p>
+<p>You can see my dotfiles at <a href="https://github.com/kjaymiller/.dotfiles">https://github.com/kjaymiller/.dotfiles</a>.</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
