@@ -1,18 +1,11 @@
 ## Status:
-<p>I am now using some tools to make my terminal configs in sync.</p>
+<p>I made this little video to remind myself that I can use ":r! <command />" to write the output of the command into a document in NVIM.</p>
 
-<p>Those tools are:</p>
-
-<ul>
-<li>stow</li>
-<li>brew-make (and brew-wrap to autoupdate)</li>
-</ul>
-
-<p>You can see my dotfiles at <a href="https://github.com/kjaymiller/.dotfiles">https://github.com/kjaymiller/.dotfiles</a>.</p>
+<p><a href="https://youtube.com/shorts/LkR01hQv1S0?feature=share">https://youtube.com/shorts/LkR01hQv1S0?feature=share</a></p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [Get System Information for Your GitHub Issues](https://kjaymiller.com/blog/get-system-information-for-your-github-issues.html)
+### Latest Blog Post - [Good First Issues Aren't Always Good (But can be issues)](https://kjaymiller.com/blog/good-first-issues-are-hard.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
