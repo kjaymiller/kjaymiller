@@ -1,7 +1,15 @@
 ## Status:
-<p>I made this little video to remind myself that I can use ":r! <command />" to write the output of the command into a document in NVIM.</p>
+<p>Trying out <a href="https://github.com/folke/zen-mode.nvim">ZenMode</a> and <a href="https://github.com/folke/twilight.nvim">Twilight</a> for my NVIM config. I'm not sure I can tell a difference.</p>
 
-<p><a href="https://youtube.com/shorts/LkR01hQv1S0?feature=share">https://youtube.com/shorts/LkR01hQv1S0?feature=share</a></p>
+<p>When included with Twilight I think it is pretty nice for writing but I definitely like it with writing code as my eyes tend to wander around code a lot.</p>
+
+<p><img alt="Toggling on ZenMode" src="https://kjaymiller.azureedge.net/media/zenmode%20and%20twilight.gif" /></p>
+
+<!-- Report:
+(4:11:20): [ZenMode](ZenMode NVIM site:Github.com) => https://github.com/folke/zen-mode.nvim
+(4:36:21): [Twilight](Twilight NVIM site:github.com) => https://github.com/folke/twilight.nvim
+(0:36:21): Processed: 2 links, 0 errors.
+-->
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
