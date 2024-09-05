@@ -21,8 +21,8 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 
 ## Latest Conduit Episode
-### [82: Systems Check Summer 2024](http://relay.fm/conduit/82)
-Jay is using their notebook again and Kathy is back and in a new stage of her business. Some may think she needs a side-kick but she’s already got one!
+### [83: The TIRE Method Revisited](http://relay.fm/conduit/83)
+In this episode we take a look at our old friend, The Tire Method. Jay finds a new toy using AI and Kathy breaks down how the Back to School season brings old and new challenges.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
