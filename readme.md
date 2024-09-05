@@ -1,15 +1,16 @@
 ## Status:
-<p>Trying out <a href="https://github.com/folke/zen-mode.nvim">ZenMode</a> and <a href="https://github.com/folke/twilight.nvim">Twilight</a> for my NVIM config. I'm not sure I can tell a difference.</p>
+<p>It's hard to get started but also walking a beginner through something can be a challenge.</p>
 
-<p>When included with Twilight I think it is pretty nice for writing but I definitely like it with writing code as my eyes tend to wander around code a lot.</p>
+<p>This week I started the "Learn By Doing" series which follows the "Jay Teaches Better" streams with my friend Damien who wants to build a website.</p>
 
-<p><img alt="Toggling on ZenMode" src="https://kjaymiller.azureedge.net/media/zenmode%20and%20twilight.gif" /></p>
+<p><a href="https://www.youtube.com/watch?v=mnFH0tgwYR8">https://www.youtube.com/watch?v=mnFH0tgwYR8</a></p>
 
-<!-- Report:
-(4:11:20): [ZenMode](ZenMode NVIM site:Github.com) => https://github.com/folke/zen-mode.nvim
-(4:36:21): [Twilight](Twilight NVIM site:github.com) => https://github.com/folke/twilight.nvim
-(0:36:21): Processed: 2 links, 0 errors.
--->
+<p>We build a django site from nothing to a few routes in about 90 minutes and the hardest parts were truly:</p>
+
+<ul>
+<li><code>Set-ExecutionPolicy Unrestricted -Scope Process</code></li>
+<li>explaining how routing works with url.py and app/url.py</li>
+</ul>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
