@@ -1,16 +1,11 @@
 ## Status:
-<p>It's hard to get started but also walking a beginner through something can be a challenge.</p>
+<p>Damien and I are back to see what he has done on his own in the last week with Django!</p>
 
-<p>This week I started the "Learn By Doing" series which follows the "Jay Teaches Better" streams with my friend Damien who wants to build a website.</p>
+<p>Tune in tomorrow at 12:30 ET.</p>
 
-<p><a href="https://www.youtube.com/watch?v=mnFH0tgwYR8">https://www.youtube.com/watch?v=mnFH0tgwYR8</a></p>
+<p><a href="https://www.youtube.com/watch?v=FVgSViFuvx8">https://www.youtube.com/watch?v=FVgSViFuvx8</a></p>
 
-<p>We build a django site from nothing to a few routes in about 90 minutes and the hardest parts were truly:</p>
-
-<ul>
-<li><code>Set-ExecutionPolicy Unrestricted -Scope Process</code></li>
-<li>explaining how routing works with url.py and app/url.py</li>
-</ul>
+<p>Get your timezone conversion at - <a href="https://time.is/compare/1230AM_18_Sept_2024_in_Atlanta">https://time.is/compare/1230AM_18_Sept_2024_in_Atlanta</a></p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
