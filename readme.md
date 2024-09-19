@@ -17,8 +17,8 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 
 ## Latest Conduit Episode
-### [83: The TIRE Method Revisited](http://relay.fm/conduit/83)
-In this episode we take a look at our old friend, The Tire Method. Jay finds a new toy using AI and Kathy breaks down how the Back to School season brings old and new challenges.
+### [84: No Expectations: The Spiderman Story](http://relay.fm/conduit/84)
+Jay and Kathy have big things coming up. How will they meet up to expectations?
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
