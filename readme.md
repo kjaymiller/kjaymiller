@@ -9,7 +9,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [Good First Issues Aren't Always Good (But can be issues)](https://kjaymiller.com/blog/good-first-issues-are-hard.html)
+### Latest Blog Post - [What I learned from a "Boring" Contribution](https://kjaymiller.com/blog/what-i-learned-from-a-boring-contribution.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
