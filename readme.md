@@ -17,8 +17,8 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 
 ## Latest Conduit Episode
-### [84: No Expectations: The Spiderman Story](http://relay.fm/conduit/84)
-Jay and Kathy have big things coming up. How will they meet up to expectations?
+### [85: Embracing Boring 🥱](http://relay.fm/conduit/85)
+Jay’s embracing boring as a mentor and helping others do the same. The two discuss how they either spice up their boring tasks or learn from them.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
