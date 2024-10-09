@@ -9,7 +9,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [What I learned from a "Boring" Contribution](https://kjaymiller.com/blog/what-i-learned-from-a-boring-contribution.html)
+### Latest Blog Post - [Surviving the Whirlwind. A Ramble after (yet another) round of Layoffs](https://kjaymiller.com/blog/surviving-the-whirlwind-a-ramble-after-yet-another-round-of-layoffs.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
