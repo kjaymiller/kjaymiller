@@ -1,11 +1,19 @@
 ## Status:
-<p>Damien and I are back to see what he has done on his own in the last week with Django!</p>
+<p>Responding to Julius' post on <a href="https://medium.com/@theflyboy/breaking-barriers-a-tech-speakers-plea-for-fair-visa-policies-621b5909e496">their challenges with visa policies</a></p>
 
-<p>Tune in tomorrow at 12:30 ET.</p>
+<blockquote>
+  <p>Imagine preparing for months to speak at a prestigious conference or to collaborate on a groundbreaking project abroad, only to have your visa application rejected.</p>
+</blockquote>
 
-<p><a href="https://www.youtube.com/watch?v=FVgSViFuvx8">https://www.youtube.com/watch?v=FVgSViFuvx8</a></p>
+<p>I’ve been following Julius’ work not just in the BPD community.</p>
 
-<p>Get your timezone conversion at - <a href="https://time.is/compare/1230AM_18_Sept_2024_in_Atlanta">https://time.is/compare/1230AM_18_Sept_2024_in_Atlanta</a></p>
+<p>America’s policies feel greedy. We talk about the expanding the American dream around the world. When people want to come over for a couple weeks to America to share skills and opportunities that make both parties better, we're like but you could give up all your progress in becoming a recognized leader in your own community and country to become an outlaw???</p>
+
+<p>It makes no sense and even when we write letters and do everything we can to show how beneficial it would be to have them with us, it doesn't matter.</p>
+
+<p>At the end of the day, those folks will share their knowledge with those in Europe and (LISTEN UP POLITICIANS) our <em>political adversaries</em> like China. I know this because I'm <strong>already</strong> being asked to write letters of recommendations for people in Africa to learn and share their leadership skills in those areas already.</p>
+
+<p>When we feel like we're being left behind on the global stage, this will be the reason why.</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
