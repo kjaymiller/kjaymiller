@@ -17,7 +17,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [Surviving the Whirlwind. A Ramble after (yet another) round of Layoffs](https://kjaymiller.com/blog/surviving-the-whirlwind-a-ramble-after-yet-another-round-of-layoffs.html)
+### Latest Blog Post - [Talk Ideas for 2025](https://kjaymiller.com/blog/talk-ideas-for-2025.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
