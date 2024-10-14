@@ -1,19 +1,13 @@
 ## Status:
-<p>Responding to Julius' post on <a href="https://medium.com/@theflyboy/breaking-barriers-a-tech-speakers-plea-for-fair-visa-policies-621b5909e496">their challenges with visa policies</a></p>
+<p>RE: <a href="https://fosstodon.org/@ehmatthes/113294437609860819">https://fosstodon.org/@ehmatthes/113294437609860819</a></p>
 
-<blockquote>
-  <p>Imagine preparing for months to speak at a prestigious conference or to collaborate on a groundbreaking project abroad, only to have your visa application rejected.</p>
-</blockquote>
+<p><a href="https://mastodon.social/@ehmatthes@fosstodon.org">Eric</a> I don't know if this was intentional but I am often discouraged when I have to write messy exploratory code.</p>
 
-<p>I’ve been following Julius’ work not just in the BPD community.</p>
+<p>I think it's based on live-coding sessions or coding interviews (I haven't had too many of those) I feel like I have to defend every decision I make or I'm a bad developer.</p>
 
-<p>America’s policies feel greedy. We talk about the expanding the American dream around the world. When people want to come over for a couple weeks to America to share skills and opportunities that make both parties better, we're like but you could give up all your progress in becoming a recognized leader in your own community and country to become an outlaw???</p>
+<p>This has made me try to write the best most performant code possible.</p>
 
-<p>It makes no sense and even when we write letters and do everything we can to show how beneficial it would be to have them with us, it doesn't matter.</p>
-
-<p>At the end of the day, those folks will share their knowledge with those in Europe and (LISTEN UP POLITICIANS) our <em>political adversaries</em> like China. I know this because I'm <strong>already</strong> being asked to write letters of recommendations for people in Africa to learn and share their leadership skills in those areas already.</p>
-
-<p>When we feel like we're being left behind on the global stage, this will be the reason why.</p>
+<p>Thank you for reminder that process doesn't have to be pristine and sometimes worrying about the wrong things can make it harder to get things right.</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
