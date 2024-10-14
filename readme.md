@@ -11,7 +11,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [Talk Ideas for 2025](https://kjaymiller.com/blog/talk-ideas-for-2025.html)
+### Latest Blog Post - [DjangoCon US 2025 Interview Series](https://kjaymiller.com/blog/djangocon-us-2025-interview-series.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
