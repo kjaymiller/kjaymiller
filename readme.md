@@ -19,8 +19,8 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 
 ## Latest Conduit Episode
-### [85: Embracing Boring 🥱](http://relay.fm/conduit/85)
-Jay’s embracing boring as a mentor and helping others do the same. The two discuss how they either spice up their boring tasks or learn from them.
+### [86: Just Let It Unfold](http://relay.fm/conduit/86)
+Jay is gone this week, so Kathy is joined by the Chief Advertising Officer of Relay - Kerry Provenzano. They talk about taking breaks after long term projects, what comes next, and not putting the goal over the experience.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
