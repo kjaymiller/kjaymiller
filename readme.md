@@ -11,7 +11,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [DjangoCon US 2025 Interview Series](https://kjaymiller.com/blog/djangocon-us-2025-interview-series.html)
+### Latest Blog Post - [On Being a Communicator on an Engineering Team](https://kjaymiller.com/blog/on-being-a-communicator-on-an-engineering-team.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
