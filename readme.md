@@ -19,8 +19,8 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 
 ## Latest Conduit Episode
-### [86: Just Let It Unfold](http://relay.fm/conduit/86)
-Jay is gone this week, so Kathy is joined by the Chief Advertising Officer of Relay - Kerry Provenzano. They talk about taking breaks after long term projects, what comes next, and not putting the goal over the experience.
+### [87: 🔥 Burned All The Way Out 🔥](http://relay.fm/conduit/87)
+Our hosts are going through it and we wanted to make some space for an episode that will be really real.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
