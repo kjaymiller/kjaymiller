@@ -11,7 +11,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [On Being a Communicator on an Engineering Team](https://kjaymiller.com/blog/on-being-a-communicator-on-an-engineering-team.html)
+### Latest Blog Post - [I made a precommit hook (it wasn't that bad)](https://kjaymiller.com/blog/i-made-a-precommit-hook-it-wasn-t-that-bad.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
