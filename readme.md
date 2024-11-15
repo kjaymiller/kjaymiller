@@ -19,8 +19,8 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 
 ## Latest Conduit Episode
-### [87: 🔥 Burned All The Way Out 🔥](http://relay.fm/conduit/87)
-Our hosts are going through it and we wanted to make some space for an episode that will be really real.
+### [88: More work, that’s good… I think? 🤔](http://relay.fm/conduit/88)
+Kathy has some new responsibilities at the network and Jay is doing things that are not his job with joy?
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
