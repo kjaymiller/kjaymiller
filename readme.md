@@ -11,7 +11,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [I made a precommit hook (it wasn't that bad)](https://kjaymiller.com/blog/i-made-a-precommit-hook-it-wasn-t-that-bad.html)
+### Latest Blog Post - [How Long Should We Be in Charge](https://kjaymiller.com/blog/how-long-should-we-be-in-charge.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
