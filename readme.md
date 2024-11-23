@@ -1,12 +1,5 @@
 ## Status:
-<p>I recently added a <a href="https://github.com/sissbruecker/linkding">linkding</a> container and I'm happy about two things.</p>
-
-<ol>
-<li><p>It's django behind the scenes (maybe I can tinker)</p></li>
-<li><p><a href="https://nojack.easydns.ca/@ttscoff/">https://nojack.easydns.ca/@ttscoff/</a> created a <a href="https://brettterpstra.com/2024/11/18/a-card-based-layout-for-linkding/">custom tiling css layout</a>. It looks great!</p></li>
-</ol>
-
-<p><img alt="Layout of my linkding" src="https://kjaymiller.azureedge.net/media/linkding_ttscoff_css_personal.webp" /></p>
+<p>And with a minor tweak to render-engine, I should now have my posts being autosent to Mastodon/BlueSky as well as webmentions enabled</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
