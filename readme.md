@@ -1,13 +1,12 @@
 ## Status:
-<p>RE: <a href="https://fosstodon.org/@ehmatthes/113294437609860819">https://fosstodon.org/@ehmatthes/113294437609860819</a></p>
+<p>I recently added a <a href="https://github.com/sissbruecker/linkding">linkding</a> container and I'm happy about two things.</p>
 
-<p><a href="https://mastodon.social/@ehmatthes@fosstodon.org">Eric</a> I don't know if this was intentional but I am often discouraged when I have to write messy exploratory code.</p>
+<ol>
+<li><p>It's django behind the scenes (maybe I can tinker)</p></li>
+<li><p><a href="https://nojack.easydns.ca/@ttscoff/">https://nojack.easydns.ca/@ttscoff/</a> created a <a href="https://brettterpstra.com/2024/11/18/a-card-based-layout-for-linkding/">custom tiling css layout</a>. It looks great!</p></li>
+</ol>
 
-<p>I think it's based on live-coding sessions or coding interviews (I haven't had too many of those) I feel like I have to defend every decision I make or I'm a bad developer.</p>
-
-<p>This has made me try to write the best most performant code possible.</p>
-
-<p>Thank you for reminder that process doesn't have to be pristine and sometimes worrying about the wrong things can make it harder to get things right.</p>
+<p><img alt="Layout of my linkding" src="https://kjaymiller.azureedge.net/media/linkding_ttscoff_css_personal.webp" /></p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
