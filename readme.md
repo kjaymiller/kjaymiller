@@ -1,5 +1,11 @@
 ## Status:
-<p>And with a minor tweak to render-engine, I should now have my posts being autosent to Mastodon/BlueSky as well as webmentions enabled</p>
+<p>I'm so interested in how one foundation can be responsible for so many massive projects.</p>
+
+<p>I'm not saying they aren't doing a good job, I'm amazed at the sheer number.</p>
+
+<p>Seeing two more additions this week (one being Jupyter with creation of the new Jupyter foundation)</p>
+
+<p><a href="https://www.linuxfoundation.org/projects">https://www.linuxfoundation.org/projects</a></p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
