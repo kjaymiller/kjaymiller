@@ -1,11 +1,11 @@
 ## Status:
-<p>I'm so interested in how one foundation can be responsible for so many massive projects.</p>
+<p>I'm over a year late on this one but there was a Steam sale and I wound up getting Brotato.</p>
 
-<p>I'm not saying they aren't doing a good job, I'm amazed at the sheer number.</p>
+<p><img alt="Brotato label" src="https://kjaymiller.azureedge.net/media/brotato.webp" /></p>
 
-<p>Seeing two more additions this week (one being Jupyter with creation of the new Jupyter foundation)</p>
+<p>It's super addictive and one of those games that I can turn my brain off.</p>
 
-<p><a href="https://www.linuxfoundation.org/projects">https://www.linuxfoundation.org/projects</a></p>
+<p><a href="https://store.steampowered.com/app/1942280/Brotato/">https://store.steampowered.com/app/1942280/Brotato/</a></p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
