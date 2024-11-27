@@ -1,11 +1,11 @@
 ## Status:
-<p>I'm over a year late on this one but there was a Steam sale and I wound up getting Brotato.</p>
+<p>People complained and even sued. Instead of fixing the issues, paying better, and offering adequate mental health (or even better not exposing workers to traumatic content), they shut down the program in that area and went to another one that didn't complain.</p>
 
-<p><img alt="Brotato label" src="https://kjaymiller.azureedge.net/media/brotato.webp" /></p>
+<p><a href="https://youtu.be/qZS50KXjAX0">https://youtu.be/qZS50KXjAX0</a></p>
 
-<p>It's super addictive and one of those games that I can turn my brain off.</p>
+<p>The major companies pay these 3rd party companies to train their (in their words) trillion dollar industry AIs are basically doing it to absolve themselves from culpability. Those training companies outsource keeping <em>checks notes</em> 85% of the agreed payment terms that companies are offering.</p>
 
-<p><a href="https://store.steampowered.com/app/1942280/Brotato/">https://store.steampowered.com/app/1942280/Brotato/</a></p>
+<p>I would ask that major companies require a minimum contract payment and term length and offering the same mental health care resources or equivalent to those training.</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
