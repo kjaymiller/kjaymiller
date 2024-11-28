@@ -17,8 +17,10 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 
 ## Latest Conduit Episode
-### [88: More work, that’s good… I think? 🤔](http://relay.fm/conduit/88)
-Kathy has some new responsibilities at the network and Jay is doing things that are not his job with joy?
+### [89: End of the Year Systems Check!](http://relay.fm/conduit/89)
+Kathy and Jay go back through a year of system’s checks to see the optimism, hope-ium, and funny thoughts and goals we had for ourselves. 
+
+We also introduce the TMNT format to system checks.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
