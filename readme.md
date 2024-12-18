@@ -9,7 +9,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [How Long Should We Be in Charge](https://kjaymiller.com/blog/how-long-should-we-be-in-charge.html)
+### Latest Blog Post - [On Becoming a PSF Fellow](https://kjaymiller.com/blog/on-becoming-a-psf-fellow.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
