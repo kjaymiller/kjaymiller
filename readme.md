@@ -17,8 +17,10 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 
 ## Latest Conduit Episode
-### [90: "Big Theme Guy," with Stephen Hackett](http://relay.fm/conduit/90)
-Jay is gone away again, so Kathy brings in Stephen Hackett as a guest host and they can actually talk about Yearly Themes!
+### [91: Robb Knight made this for himself, and maybe you too.](http://relay.fm/conduit/91)
+This last episode of the year features guest conductor, developer, and all around web fun project guy Robb Knight. 
+
+We talk about projects, the why of it all, keeping things fun, and most importantly, not chasing fame.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
