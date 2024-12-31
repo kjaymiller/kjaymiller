@@ -9,7 +9,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [On Becoming a PSF Fellow](https://kjaymiller.com/blog/on-becoming-a-psf-fellow.html)
+### Latest Blog Post - [Three Moments that made 2024 🏆](https://kjaymiller.com/blog/three-moments-that-made-2024.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
