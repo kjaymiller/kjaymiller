@@ -17,10 +17,10 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 
 ## Latest Conduit Episode
-### [91: Robb Knight made this for himself, and maybe you too.](http://relay.fm/conduit/91)
-This last episode of the year features guest conductor, developer, and all around web fun project guy Robb Knight. 
+### [92: Finding the Joy](http://relay.fm/conduit/92)
+Last year was Kathy's Year of Joy and Jay's exploration with Robb has him pursuing joy in more things. 
 
-We talk about projects, the why of it all, keeping things fun, and most importantly, not chasing fame.
+Also, Kathy hates warm fruit.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
