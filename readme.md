@@ -1,12 +1,8 @@
 ## Status
 
-<p>People complained and even sued. Instead of fixing the issues, paying better, and offering adequate mental health (or even better not exposing workers to traumatic content), they shut down the program in that area and went to another one that didn't complain.</p>
+<p>I was reminded today that when creating case-insensitive strings, Use <code>.casefold()</code> instead <code>lower()</code>.</p>
 
-<p><a href="https://youtu.be/qZS50KXjAX0">https://youtu.be/qZS50KXjAX0</a></p>
-
-<p>The major companies pay these 3rd party companies to train their (in their words) trillion dollar industry AIs are basically doing it to absolve themselves from culpability. Those training companies outsource keeping <em>checks notes</em> 85% of the agreed payment terms that companies are offering.</p>
-
-<p>I would ask that major companies require a minimum contract payment and term length and offering the same mental health care resources or equivalent to those training.</p>
+<p>I probably would have continued to use <code>lower()</code> had it not been for hypothesis, which I've been trying to use more and more for testing.</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
