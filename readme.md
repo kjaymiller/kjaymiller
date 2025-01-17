@@ -6,7 +6,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [Three Moments that made 2024 🏆](https://kjaymiller.com/blog/three-moments-that-made-2024.html)
+### Latest Blog Post - [My Thoughts on the PSF Grant Funding Changes](https://kjaymiller.com/blog/my-thoughts-on-the-psf-grant-funding-changes.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
