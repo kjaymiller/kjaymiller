@@ -1,12 +1,14 @@
 ## Status
 
-<p>I was reminded today that when creating case-insensitive strings, Use <code>.casefold()</code> instead <code>lower()</code>.</p>
+<p>I made mistakes in my running through the data points in my <a href="https://kjaymiller.com/blog/my-thoughts-on-the-psf-grant-funding-changes.html">last post</a>.</p>
 
-<p>I probably would have continued to use <code>lower()</code> had it not been for hypothesis, which I've been trying to use more and more for testing.</p>
+<p>The updated information shows that 4 more events, including one in the US requested over the soon to be capped amount. This brings the total potentially saved from 4% to close to 10%.</p>
+
+<p>I updated the data and apologize for this oversight.</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [My Thoughts on the PSF Grant Funding Changes](https://kjaymiller.com/blog/my-thoughts-on-the-psf-grant-funding-changes.html)
+### Latest Blog Post - [How (A)I Messed Up My Data Gathering](https://kjaymiller.com/blog/how-a-i-messed-up-my-data-gathering.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
