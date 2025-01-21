@@ -1,14 +1,12 @@
 ## Status
 
-<p>I made mistakes in my running through the data points in my <a href="https://kjaymiller.com/blog/my-thoughts-on-the-psf-grant-funding-changes.html">last post</a>.</p>
+<p>I've been writing a lot more and I'm pretty happy about that. Even when it kicks my butt.</p>
 
-<p>The updated information shows that 4 more events, including one in the US requested over the soon to be capped amount. This brings the total potentially saved from 4% to close to 10%.</p>
-
-<p>I updated the data and apologize for this oversight.</p>
+<p>The reality is I need to write more for work and the more I write for fun the easier/better my professional stuff will be.</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [How (A)I Messed Up My Data Gathering](https://kjaymiller.com/blog/how-a-i-messed-up-my-data-gathering.html)
+### Latest Blog Post - [Bambu Lab, You aren't Apple](https://kjaymiller.com/blog/bambu-lab-you-aren-t-apple.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
