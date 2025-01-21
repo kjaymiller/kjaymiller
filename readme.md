@@ -6,7 +6,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [Bambu Lab, You aren't Apple](https://kjaymiller.com/blog/bambu-lab-you-aren-t-apple.html)
+### Latest Blog Post - [Anxiety Submitting Talks Outside the Python Community](https://kjaymiller.com/blog/anxiety-submitting-talks-outside-the-python-community.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
