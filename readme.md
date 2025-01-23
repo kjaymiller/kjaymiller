@@ -14,11 +14,9 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 ## Latest Conduit Episode
 
-### [92: Finding the Joy](http://relay.fm/conduit/92)
+### [93: Burning the Candle in the Name of Joy!](http://relay.fm/conduit/93)
 
-Last year was Kathy's Year of Joy and Jay's exploration with Robb has him pursuing joy in more things. 
-
-Also, Kathy hates warm fruit.
+Normally it’s Jay who’s justifying a busy schedule but this time around Kathy has a lot of things going on. They’re all good and they all seem worth it. The crew offers advice for surviving in the joyous but busy time.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
