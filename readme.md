@@ -1,20 +1,16 @@
 ## Status
 
-<p>I was reminded by a friend of Kojo's keynote of PyGotham 2019 -</p>
+<p>I added all of the podcasts that I'm subscribed to (All 400 of them) into both the new Reeder and Tapestry...</p>
 
-<p><a href="https://www.youtube.com/watch?v=TOG6bmt6SrM">https://www.youtube.com/watch?v=TOG6bmt6SrM</a></p>
+<p>Neither app will refresh now without crashing... 🙃</p>
 
-<p>Been watching it this morning an was instantly reminded that communities out here always need help.</p>
+<p><img alt="homescreen with reeder and tapestry" src="https://kjaymiller.azureedge.net/media/reeder-v-tapestry.jpeg" /></p>
 
-<p>The likely first big help you can do is first and foremost be a friendly welcoming face in the community that works to make everyone who enters feel welcome.</p>
-
-<p>Then it can expand to doing simple tasks with no need of writing code.</p>
-
-<p>So take a look at your local community and see if you can offer a little bit of help.</p>
+<p>Happy to test the betas of either app...</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [Anxiety Submitting Talks Outside the Python Community](https://kjaymiller.com/blog/anxiety-submitting-talks-outside-the-python-community.html)
+### Latest Blog Post - [Three Resources to Start your journey in the PostgreSQL Community](https://kjaymiller.com/blog/three-resources-to-start-your-journey-in-the-postgresql-community.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
