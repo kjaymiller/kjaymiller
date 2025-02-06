@@ -18,9 +18,9 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 ## Latest Conduit Episode
 
-### [93: Burning the Candle in the Name of Joy!](http://relay.fm/conduit/93)
+### [94: Supervised Learning](http://relay.fm/conduit/94)
 
-Normally it’s Jay who’s justifying a busy schedule but this time around Kathy has a lot of things going on. They’re all good and they all seem worth it. The crew offers advice for surviving in the joyous but busy time.
+Jay needed a hole in the ceiling fixed. So they flew in Britnie’s dad to show them how to do electric and house things. Much was learned.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
