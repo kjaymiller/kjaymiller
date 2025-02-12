@@ -1,10 +1,14 @@
 ## Status
 
-<p>I really don't care this much to install this extension but the fact that I thought to myself, I wonder if there is chrome extension that.... Yup!</p>
+<p>Dear PSF:</p>
 
-<p><a href="https://chromewebstore.google.com/detail/gulf-of-mexico-forever/lodphjgkcmajmkiepljfkelgnhfbkhmh?hl=en-US">https://chromewebstore.google.com/detail/gulf-of-mexico-forever/lodphjgkcmajmkiepljfkelgnhfbkhmh?hl=en-US</a></p>
+<p>I feel like "Thank you for your submission" and a pre-canned message from a form response is a better user experience than this.</p>
 
-<h1>gulfofmexicoforever</h1>
+<p>I definitely don't feel like I want to nominate more individuals from this response.</p>
+
+<p>Maybe a form that you need to log in with your PSF membership account to access or something is a way to validate users.</p>
+
+<p><img alt="Moderation Bounced Email Response post PSF Fellow Nomination" src="https://kjaymiller.azureedge.net/media/psf-fellow-bounce.png" /></p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
