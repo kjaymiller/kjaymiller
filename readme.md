@@ -1,12 +1,10 @@
 ## Status
 
-<p>I added all of the podcasts that I'm subscribed to (All 400 of them) into both the new Reeder and Tapestry...</p>
+<p>I really don't care this much to install this extension but the fact that I thought to myself, I wonder if there is chrome extension that.... Yup!</p>
 
-<p>Neither app will refresh now without crashing... 🙃</p>
+<p><a href="https://chromewebstore.google.com/detail/gulf-of-mexico-forever/lodphjgkcmajmkiepljfkelgnhfbkhmh?hl=en-US">https://chromewebstore.google.com/detail/gulf-of-mexico-forever/lodphjgkcmajmkiepljfkelgnhfbkhmh?hl=en-US</a></p>
 
-<p><img alt="homescreen with reeder and tapestry" src="https://kjaymiller.azureedge.net/media/reeder-v-tapestry.jpeg" /></p>
-
-<p>Happy to test the betas of either app...</p>
+<h1>gulfofmexicoforever</h1>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
