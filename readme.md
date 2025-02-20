@@ -23,9 +23,9 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 ## Latest Conduit Episode
 
-### [94: Supervised Learning](http://relay.fm/conduit/94)
+### [95: Communicating about Communicating](http://relay.fm/conduit/95)
 
-Jay needed a hole in the ceiling fixed. So they flew in Britnie’s dad to show them how to do electric and house things. Much was learned.
+Kathy is a world renowned communications expert and she gives us the tips and tricks about effective communication. Oh yeah Jay is there too.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
