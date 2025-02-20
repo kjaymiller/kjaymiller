@@ -15,7 +15,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [Akamai Partners with Black Tech Pipeline (Maybe there is hope for Humanity)](https://kjaymiller.com/blog/akamai-partners-with-black-tech-pipeline-maybe-there-is-hope-for-humanity.html)
+### Latest Blog Post - [Systems Check for Conduit Q1 2025](https://kjaymiller.com/blog/systems-check-for-conduit-q1-2025.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
