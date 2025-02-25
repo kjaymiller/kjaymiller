@@ -15,7 +15,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [Systems Check for Conduit Q1 2025](https://kjaymiller.com/blog/systems-check-for-conduit-q1-2025.html)
+### Latest Blog Post - [Who I think is the perfect candidate for our new opening](https://kjaymiller.com/blog/who-i-think-is-the-perfect-candidate-for-our-new-opening.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
