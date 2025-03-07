@@ -23,9 +23,9 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 ## Latest Conduit Episode
 
-### [95: Communicating about Communicating](http://relay.fm/conduit/95)
+### [96: Body Grief](http://relay.fm/conduit/96)
 
-Kathy is a world renowned communications expert and she gives us the tips and tricks about effective communication. Oh yeah Jay is there too.
+Jay is gone, so Kathy brings in Jayne Mattingly to discuss Body Grief and how to support the world and take care of yourself.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
