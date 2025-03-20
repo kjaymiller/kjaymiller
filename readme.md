@@ -14,9 +14,9 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 ## Latest Conduit Episode
 
-### [96: Body Grief](http://relay.fm/conduit/96)
+### [97: Reducing Load with the Unicorn’s Busiest Internets](http://relay.fm/conduit/97)
 
-Jay is gone, so Kathy brings in Jayne Mattingly to discuss Body Grief and how to support the world and take care of yourself.
+Kathy and Jay share how they get a more accurate measurement of the work they have and some recent wins in the Saying No column. Also, did you know that empathy is a strong leadership trait?!  Like whaaaaaaaat
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
