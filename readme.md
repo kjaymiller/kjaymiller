@@ -1,8 +1,10 @@
 ## Status
 
-<p>For the second time, I'm tried to use HTMX for server-sent-events and for the second time, I resorted to just doing it with 10 lines of javascript.</p>
+<p>Last week, I gave a 2 hour workshop called - Terraform Ain't Terrafying!</p>
 
-<p><img alt="Man saying I don't think it's worth it" src="https://media1.tenor.com/m/bghVGKJEdZUAAAAC/i-dont-think-its-worth-it-vinny.gif" /></p>
+<p><a href="https://www.youtube.com/watch?v=yg8wyJt5O1k">https://www.youtube.com/watch?v=yg8wyJt5O1k</a></p>
+
+<p>I would love to give a modified version of this workshop at conferences as I have come to actually like writing terraform.</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
