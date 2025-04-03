@@ -16,9 +16,11 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 ## Latest Conduit Episode
 
-### [97: Reducing Load with the Unicorn’s Busiest Internets](http://relay.fm/conduit/97)
+### [98: Presentation Advice: What is Even Happening!](http://relay.fm/conduit/98)
 
-Kathy and Jay share how they get a more accurate measurement of the work they have and some recent wins in the Saying No column. Also, did you know that empathy is a strong leadership trait?!  Like whaaaaaaaat
+Kathy is away so Jay and special guest Merlin Mann take a second to talk about Jay's upcoming presentation, 3D Printing, anxieties and more. 
+
+Editors Note: Many many seconds. Chaos ensues.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
