@@ -8,7 +8,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [Who I think is the perfect candidate for our new opening](https://kjaymiller.com/blog/who-i-think-is-the-perfect-candidate-for-our-new-opening.html)
+### Latest Blog Post - [I Deleted My Twitter Account but someone is pretending to be me.](https://kjaymiller.com/blog/i-deleted-my-twitter-account-but-someone-is-pretending-to-be-me.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
