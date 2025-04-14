@@ -1,10 +1,11 @@
 ## Status
 
-<p>Last week, I gave a 2 hour workshop called - Terraform Ain't Terrafying!</p>
+<p>It was an honor to be the afternoon Keynote at PyTexas today. Thank you to an amazing audience for playing my silly game and vibing (no-code) with me.</p>
 
-<p><a href="https://www.youtube.com/watch?v=yg8wyJt5O1k">https://www.youtube.com/watch?v=yg8wyJt5O1k</a></p>
+<p>Reminder, if you are doing something, it is helpful!</p>
 
-<p>I would love to give a modified version of this workshop at conferences as I have come to actually like writing terraform.</p>
+<p><img alt="Jay Speaking at PyTexas 2025" src="https://jmblogstorrage.blob.core.windows.net/media/jay-speaking-pytexas-2025.webp" />
+<img alt="Image of a person with hands on their head blurred with the reminder written above" src="https://jmblogstorrage.blob.core.windows.net/media/doing-something-pytexas.webp" /></p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
