@@ -1,11 +1,10 @@
 ## Status
 
-<p>It was an honor to be the afternoon Keynote at PyTexas today. Thank you to an amazing audience for playing my silly game and vibing (no-code) with me.</p>
+<p><strong>Note-to-self</strong></p>
 
-<p>Reminder, if you are doing something, it is helpful!</p>
+<p>If you try to ingest vectors into opensearch withouth creating the index settings for them first... it will not work.</p>
 
-<p><img alt="Jay Speaking at PyTexas 2025" src="https://jmblogstorrage.blob.core.windows.net/media/jay-speaking-pytexas-2025.webp" />
-<img alt="Image of a person with hands on their head blurred with the reminder written above" src="https://jmblogstorrage.blob.core.windows.net/media/doing-something-pytexas.webp" /></p>
+<p>Instructions for OpenSearch-RAG-Demo --> <a href="https://github.com/Aiven-Labs/preparing-data-for-opensearch-and-rag/blob/main/workshop/1-setup-your-index.ipynb">https://github.com/Aiven-Labs/preparing-data-for-opensearch-and-rag/blob/main/workshop/1-setup-your-index.ipynb</a></p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
