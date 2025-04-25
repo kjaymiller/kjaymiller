@@ -1,10 +1,10 @@
 ## Status
 
-<p><strong>Note-to-self</strong></p>
+<p>WOW! 30 people at your first meetup. That's a sign that the community is there but not being served!</p>
 
-<p>If you try to ingest vectors into opensearch withouth creating the index settings for them first... it will not work.</p>
+<p><img alt="attendees at first PG Madagascar meetup" src="https://jmblogstorrage.blob.core.windows.net/media/pg_madagascar_first_meetup.jpeg" /></p>
 
-<p>Instructions for OpenSearch-RAG-Demo --> <a href="https://github.com/Aiven-Labs/preparing-data-for-opensearch-and-rag/blob/main/workshop/1-setup-your-index.ipynb">https://github.com/Aiven-Labs/preparing-data-for-opensearch-and-rag/blob/main/workshop/1-setup-your-index.ipynb</a></p>
+<p>I want to make sure that BPD is sponsoring their next conference (oh yeah they've also successfully ran a conference too!)</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
