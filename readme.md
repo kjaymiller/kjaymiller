@@ -8,7 +8,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [Shut up and Dribble](https://kjaymiller.com/blog/shut-up-and-dribble.html)
+### Latest Blog Post - [A Python Community Vet becomes a newbie at a PostgreSQL event](https://kjaymiller.com/blog/a-python-community-vet-becomes-a-newbie-at-a-postgresql-event.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
