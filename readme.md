@@ -8,7 +8,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [I Deleted My Twitter Account but someone is pretending to be me.](https://kjaymiller.com/blog/i-deleted-my-twitter-account-but-someone-is-pretending-to-be-me.html)
+### Latest Blog Post - [Shut up and Dribble](https://kjaymiller.com/blog/shut-up-and-dribble.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
