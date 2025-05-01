@@ -16,9 +16,11 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 ## Latest Conduit Episode
 
-### [99: Expecting Expectations](http://relay.fm/conduit/99)
+### [100: It's Episode 100!!](http://relay.fm/conduit/100)
 
-Kathy is back and so they discuss expectations and what to do when life falls short of them.
+Grab your tissues, it's our most guest filled episode ever. 
+
+We also discuss what Conduit is, what it means to us, and how it has affected our lives.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
