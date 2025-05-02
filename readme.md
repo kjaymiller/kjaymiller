@@ -8,7 +8,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [A Python Community Vet becomes a newbie at a PostgreSQL event](https://kjaymiller.com/blog/a-python-community-vet-becomes-a-newbie-at-a-postgresql-event.html)
+### Latest Blog Post - [Reflecting on 100 Episodes of Conduit](https://kjaymiller.com/blog/reflecting-on-100-episodes-of-conduit.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
