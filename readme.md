@@ -8,7 +8,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [Reflecting on 100 Episodes of Conduit](https://kjaymiller.com/blog/reflecting-on-100-episodes-of-conduit.html)
+### Latest Blog Post - [An IC's take on DevRel in 2025](https://kjaymiller.com/blog/an-ic-s-take-on-devrel-in-2025.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
