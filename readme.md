@@ -16,11 +16,9 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 ## Latest Conduit Episode
 
-### [100: It's Episode 100!!](http://relay.fm/conduit/100)
+### [101: Systems Check Spring 2025](http://relay.fm/conduit/101)
 
-Grab your tissues, it's our most guest filled episode ever. 
-
-We also discuss what Conduit is, what it means to us, and how it has affected our lives.
+Jay and Kathy are back with another systems check where Jay reveals some of the changes to both tools and mindset that has them feeling more focused  Kathy dives deeper into what makes her system adaptable to adding clients systems to it.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
