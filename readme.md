@@ -8,7 +8,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [An IC's take on DevRel in 2025](https://kjaymiller.com/blog/an-ic-s-take-on-devrel-in-2025.html)
+### Latest Blog Post - [I'm making public notes](https://kjaymiller.com/blog/i-m-making-public-notes.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
