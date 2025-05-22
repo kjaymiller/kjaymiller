@@ -8,7 +8,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [I'm making public notes](https://kjaymiller.com/blog/i-m-making-public-notes.html)
+### Latest Blog Post - [Fixing the double logging issue with a logging.filter](https://kjaymiller.com/blog/fixing-the-double-logging-issue-with-a-logging-filter.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
