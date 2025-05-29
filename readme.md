@@ -16,9 +16,11 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 ## Latest Conduit Episode
 
-### [101: Systems Check Spring 2025](http://relay.fm/conduit/101)
+### [102: Planning/Doing things for Me/We](http://relay.fm/conduit/102)
 
-Jay and Kathy are back with another systems check where Jay reveals some of the changes to both tools and mindset that has them feeling more focused  Kathy dives deeper into what makes her system adaptable to adding clients systems to it.
+Kathy is a pro at contextualizing processes for clients, teams and herself. 
+
+Jay changes jobs and roles so regularly that they have to change context and processes.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
