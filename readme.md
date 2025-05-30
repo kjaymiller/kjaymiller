@@ -8,7 +8,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [pgvectorscale is easy to add onto pgvector](https://kjaymiller.com/blog/pgvectorscale-is-easy-to-add-onto-pgvector.html)
+### Latest Blog Post - [I Am No Longer a Developer Advocate](https://kjaymiller.com/blog/i-am-no-longer-a-developer-advocate.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
