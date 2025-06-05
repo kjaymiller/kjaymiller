@@ -8,7 +8,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [I Am No Longer a Developer Advocate](https://kjaymiller.com/blog/i-am-no-longer-a-developer-advocate.html)
+### Latest Blog Post - [Using llm and PostgreSQL to Add Missing Tags to Blog Posts](https://kjaymiller.com/blog/using-llm-and-postgresql-to-add-missing-tags-to-blog-posts.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
