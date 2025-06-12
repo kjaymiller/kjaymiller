@@ -16,11 +16,9 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 ## Latest Conduit Episode
 
-### [102: Planning/Doing things for Me/We](http://relay.fm/conduit/102)
+### [103: The Privilege of Doing This](http://relay.fm/conduit/103)
 
-Kathy is a pro at contextualizing processes for clients, teams and herself. 
-
-Jay changes jobs and roles so regularly that they have to change context and processes.
+Kathy and Jay are privileged to bring you an episode talking about privilege. Does privilege impact productivity? Let's find out.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
