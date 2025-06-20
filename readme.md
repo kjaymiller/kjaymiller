@@ -8,7 +8,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [Using llm and PostgreSQL to Add Missing Tags to Blog Posts](https://kjaymiller.com/blog/using-llm-and-postgresql-to-add-missing-tags-to-blog-posts.html)
+### Latest Blog Post - [I wish more folks new to OSS would question my issues](https://kjaymiller.com/blog/i-wish-more-folks-new-to-oss-would-question-my-issues.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
