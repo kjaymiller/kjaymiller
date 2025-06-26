@@ -16,9 +16,9 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 ## Latest Conduit Episode
 
-### [103: The Privilege of Doing This](http://relay.fm/conduit/103)
+### [104: Checking In on Checking Out](http://relay.fm/conduit/104)
 
-Kathy and Jay are privileged to bring you an episode talking about privilege. Does privilege impact productivity? Let's find out.
+The world is a little chaotic and our hosts are choosing their battles. How do they check out and still keep up with the things and people that are important to them?
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
