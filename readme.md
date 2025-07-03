@@ -8,7 +8,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [I wish more folks new to OSS would question my issues](https://kjaymiller.com/blog/i-wish-more-folks-new-to-oss-would-question-my-issues.html)
+### Latest Blog Post - [Don't forget about help() and vars()](https://kjaymiller.com/blog/don-t-forget-about-help-and-vars.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
