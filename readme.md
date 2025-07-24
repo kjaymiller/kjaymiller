@@ -16,9 +16,9 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 ## Latest Conduit Episode
 
-### [105: Is It OK to Not Plan For The Future??](http://relay.fm/conduit/105)
+### [106: This Is Not an Episode (But We're Sorry)](http://relay.fm/conduit/106)
 
-Kathy is dealing with some frustrating news, and Jay is upset due to his lack of fan appreciation. But most importantly, the crew talks about planning for the now versus planning for the future.
+You're not mistaken...this audio will be very short. And we're sorry. We'll see you in a fortnight!
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
