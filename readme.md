@@ -16,9 +16,11 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 ## Latest Conduit Episode
 
-### [106: This Is Not an Episode (But We're Sorry)](http://relay.fm/conduit/106)
+### [107: Bored as a Benefit](http://relay.fm/conduit/107)
 
-You're not mistaken...this audio will be very short. And we're sorry. We'll see you in a fortnight!
+Jay was bored while sick, and that inspired all kinds of ideas. Kathy sits in silence and it may just drive her mad. 
+
+Also, Jay is not a doctor.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
