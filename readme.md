@@ -16,11 +16,9 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 ## Latest Conduit Episode
 
-### [107: Bored as a Benefit](http://relay.fm/conduit/107)
+### [108: Systems Check Summer 2025](http://relay.fm/conduit/108)
 
-Jay was bored while sick, and that inspired all kinds of ideas. Kathy sits in silence and it may just drive her mad. 
-
-Also, Jay is not a doctor.
+Kathy is thinking about things with some help from doula death cards and Jay reorganized and is giving up on a lot of software (and screens)
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
