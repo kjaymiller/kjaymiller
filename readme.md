@@ -1,14 +1,12 @@
 ## Status
 
-<p>WOW! 30 people at your first meetup. That's a sign that the community is there but not being served!</p>
+<p>I'm testing render-engine's new cli. We moved it to its own repo and it's now using click and has some nice options.</p>
 
-<p><img alt="attendees at first PG Madagascar meetup" src="https://jmblogstorrage.blob.core.windows.net/media/pg_madagascar_first_meetup.jpeg" /></p>
-
-<p>I want to make sure that BPD is sponsoring their next conference (oh yeah they've also successfully ran a conference too!)</p>
+<p><a href="https://github.com/render-engine/render-engine-cli">https://github.com/render-engine/render-engine-cli</a></p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [Don't forget about help() and vars()](https://kjaymiller.com/blog/don-t-forget-about-help-and-vars.html)
+### Latest Blog Post - [Don't forget about help() and vars()](http://localhost:8000/blog/don-t-forget-about-help-and-vars.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
