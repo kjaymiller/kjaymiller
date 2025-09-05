@@ -1,12 +1,12 @@
 ## Status
 
-<p>I'm testing render-engine's new cli. We moved it to its own repo and it's now using click and has some nice options.</p>
+<p>I use Echofeed to cross post my content so that when I inevitably break something (like forgetting I had an environment var that changed manually set my SITE_URL.), Rob will see that I broke something and make sure they they didn't mess something up on their end.</p>
 
-<p><a href="https://github.com/render-engine/render-engine-cli">https://github.com/render-engine/render-engine-cli</a></p>
+<p><img alt="Talking to Rob EchoFeed on Discord" src="https://jmblogstorrage.blob.core.windows.net/media/rob-echofeed.png" /></p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [Don't forget about help() and vars()](http://localhost:8000/blog/don-t-forget-about-help-and-vars.html)
+### Latest Blog Post - [Don't forget about help() and vars()](https://kjaymiller.com/blog/don-t-forget-about-help-and-vars.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
