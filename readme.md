@@ -6,7 +6,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [Don't forget about help() and vars()](https://kjaymiller.com/blog/don-t-forget-about-help-and-vars.html)
+### Latest Blog Post - [PostgreSQL Project Ideas for Beginners](https://kjaymiller.com/blog/postgresql-project-ideas-for-beginners.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
