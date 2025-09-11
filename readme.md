@@ -14,9 +14,9 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 ## Latest Conduit Episode
 
-### [109: Thinking About Things Differently](http://relay.fm/conduit/109)
+### [110: Conquering P and other letters.](http://relay.fm/conduit/110)
 
-Jay and Kathy took the bonus Conduit Episode to think about how things have changed for them and how they are thinking about it.
+We interviewed the the maker of one of Conduits favorite apps, P.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
