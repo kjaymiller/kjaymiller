@@ -1,12 +1,18 @@
 ## Status
 
-<p>I use Echofeed to cross post my content so that when I inevitably break something (like forgetting I had an environment var that changed manually set my SITE_URL.), Rob will see that I broke something and make sure they they didn't mess something up on their end.</p>
+<p>I'm so dang proud of my leaders!</p>
 
-<p><img alt="Talking to Rob EchoFeed on Discord" src="https://jmblogstorrage.blob.core.windows.net/media/rob-echofeed.png" /></p>
+<p>Thanks to the work from Tim Schilling, Ngazetungue Muheue, and others. We matched our fundraising from last year at DjangoCon US.</p>
+
+<p>I don't think you understand how amazing that is. This year neither myself nor Lazouich Ford (our US Executor) were involved which meant they handled booth stuff, swag, messaging and donations.</p>
+
+<p>This will be more and more important in the next years as we expand leadership and prepare for when our earliest leaders start to step down.</p>
+
+<p>Great work team!</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [PostgreSQL Project Ideas for Beginners](https://kjaymiller.com/blog/postgresql-project-ideas-for-beginners.html)
+### Latest Blog Post - [Mistakes In Learning PostgreSQL as a Python Developer (and Plant Person)](https://kjaymiller.com/blog/mistakes-in-learning-postgresql-as-a-python-developer-and-plant-person.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
