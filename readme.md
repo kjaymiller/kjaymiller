@@ -12,7 +12,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [Mistakes In Learning PostgreSQL as a Python Developer (and Plant Person)](https://kjaymiller.com/blog/mistakes-in-learning-postgresql-as-a-python-developer-and-plant-person.html)
+### Latest Blog Post - [Los Bravos Night and BPD's Commitment to LATAM](https://kjaymiller.com/blog/los-bravos-night-and-bpd-s-commitment-to-latam.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
