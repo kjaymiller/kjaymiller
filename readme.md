@@ -20,9 +20,11 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 ## Latest Conduit Episode
 
-### [110: Conquering P and other letters.](http://relay.fm/conduit/110)
+### [111: Human: How you doin?](http://relay.fm/conduit/111)
 
-We interviewed the the maker of one of Conduits favorite apps, P.
+Our hosts do a check in with each other in the midst of the busyness that is our summer/fall schedules.
+
+There is also a call for your messages! Send us the skills you work on and skills that other people are great at you wish you could have.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
