@@ -1,14 +1,19 @@
 ## Status
 
-<p>I'm so dang proud of my leaders!</p>
+<p>Fantastic Moments from 36th Birthday</p>
 
-<p>Thanks to the work from Tim Schilling, Ngazetungue Muheue, and others. We matched our fundraising from last year at DjangoCon US.</p>
-
-<p>I don't think you understand how amazing that is. This year neither myself nor Lazouich Ford (our US Executor) were involved which meant they handled booth stuff, swag, messaging and donations.</p>
-
-<p>This will be more and more important in the next years as we expand leadership and prepare for when our earliest leaders start to step down.</p>
-
-<p>Great work team!</p>
+<ul>
+<li>Eating Peruvian food with the game night crew!</li>
+<li>Geting an amazing virtual <a href="https://youtu.be/BioSDAgnAtU">birthday greetings video</a> from the BPD Crew!</li>
+<li>A 90 minute conversation with one of BPD's leaders where I got to talk about BPD and
+<ul>
+<li>its future with/without me (t - 3 years)</li>
+<li>the history of Python and</li>
+<li>why we can't solve all the worlds problems.</li>
+</ul></li>
+<li>playing "How well do you know your family?"</li>
+<li>5 minute uninterrupted dance party with my daughter</li>
+</ul>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
