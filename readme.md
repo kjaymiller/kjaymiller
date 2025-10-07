@@ -1,19 +1,8 @@
 ## Status
 
-<p>Fantastic Moments from 36th Birthday</p>
+<p>The video from the San Francisco user group is live.</p>
 
-<ul>
-<li>Eating Peruvian food with the game night crew!</li>
-<li>Geting an amazing virtual <a href="https://youtu.be/BioSDAgnAtU">birthday greetings video</a> from the BPD Crew!</li>
-<li>A 90 minute conversation with one of BPD's leaders where I got to talk about BPD and
-<ul>
-<li>its future with/without me (t - 3 years)</li>
-<li>the history of Python and</li>
-<li>why we can't solve all the worlds problems.</li>
-</ul></li>
-<li>playing "How well do you know your family?"</li>
-<li>5 minute uninterrupted dance party with my daughter</li>
-</ul>
+<p><a href="https://www.youtube.com/watch?v=cnxu0DETukI">https://www.youtube.com/watch?v=cnxu0DETukI</a></p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
