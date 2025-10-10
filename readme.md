@@ -1,8 +1,8 @@
 ## Status
 
-<p>The video from the San Francisco user group is live.</p>
+<p>So beautiful and powerful...</p>
 
-<p><a href="https://www.youtube.com/watch?v=cnxu0DETukI">https://www.youtube.com/watch?v=cnxu0DETukI</a></p>
+<p><a href="https://www.youtube.com/watch?v=icaZ7dSF8Cc">https://www.youtube.com/watch?v=icaZ7dSF8Cc</a></p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
