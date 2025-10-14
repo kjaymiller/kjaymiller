@@ -12,7 +12,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [Los Bravos Night and BPD's Commitment to LATAM](https://kjaymiller.com/blog/los-bravos-night-and-bpd-s-commitment-to-latam.html)
+### Latest Blog Post - [Why a PostgreSQL Event was my favorite Conference of the Year as a Python Developer (So Far)](https://kjaymiller.com/blog/pgconf-2025-md.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
