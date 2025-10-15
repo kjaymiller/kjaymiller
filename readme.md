@@ -1,14 +1,16 @@
 ## Status
 
-<p>Did you know that UUIDv7 is also supported by Python 3.14?</p>
+<p>I was guest on the Stats on Stats Podcast earlier this year and while I don't have any of my quotes from it just yet, you can check out the full episode on YouTube and wherever podcasts are listened.</p>
 
-<p>I along with my colleague Alexander Fridriksson are diving into some of the new features in #postgres18. We just released our look at UUIDv7.</p>
+<p><a href="https://www.youtube.com/watch?v=z6u0KX_7U7Y">https://www.youtube.com/watch?v=z6u0KX_7U7Y</a></p>
 
-<p>UUIDv7 is almost a no brainer for new projects, simplifying indexing strategies and giving you a time-based organizing feature across multiple sources.</p>
+<p>Shout out to Jordyn and Tiffiny for the warm welcome and the best description of what I do.</p>
 
-<p>Stay tuned as there will be more to explore in PostgreSQL 18 and you can try it all out for free on the Aiven Platform.</p>
+<blockquote>
+  <p>Building bridges in terms of what I'm doing in terms of open source, corporate tech, and grassroots organizations.</p>
+</blockquote>
 
-<p><a href="https://aiven.io/blog/exploring-postgresql-18-new-uuidv7-support">https://aiven.io/blog/exploring-postgresql-18-new-uuidv7-support</a></p>
+<p>🤯</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
