@@ -1,16 +1,10 @@
 ## Status
 
-<p>I was guest on the Stats on Stats Podcast earlier this year and while I don't have any of my quotes from it just yet, you can check out the full episode on YouTube and wherever podcasts are listened.</p>
+<p>In conversation with PyTexas Foundation, I was inspired to the accidental capitalism conversation to make this sticker. Should I make an accidental capitalism in making these stickers and selling them on Etsy?</p>
 
-<p><a href="https://www.youtube.com/watch?v=z6u0KX_7U7Y">https://www.youtube.com/watch?v=z6u0KX_7U7Y</a></p>
+<p><img alt="whoops I made a capitalism sticker" src="https://jmblogstorrage.blob.core.windows.net/media/whoops_capitalism.png" /></p>
 
-<p>Shout out to Jordyn and Tiffiny for the warm welcome and the best description of what I do.</p>
-
-<blockquote>
-  <p>Building bridges in terms of what I'm doing in terms of open source, corporate tech, and grassroots organizations.</p>
-</blockquote>
-
-<p>🤯</p>
+<p>No the answer is always no, but I should make like 20 of these stickers and put them out at conferences.</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
