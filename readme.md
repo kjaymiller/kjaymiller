@@ -8,7 +8,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [Why a PostgreSQL Event was my favorite Conference of the Year as a Python Developer (So Far)](https://kjaymiller.com/blog/pgconf-2025-md.html)
+### Latest Blog Post - [[Thoughts] Carol's PyBeach Keynote and AI's Polarization Problem](https://kjaymiller.com/blog/carols-pybeach-keynote-and-ai-internet-polarization-problem.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
