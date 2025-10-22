@@ -1,10 +1,12 @@
 ## Status
 
-<p>In conversation with PyTexas Foundation, I was inspired to the accidental capitalism conversation to make this sticker. Should I make an accidental capitalism in making these stickers and selling them on Etsy?</p>
+<p><a href="https://kjaymiller.com/@PavloGolub@fosstodon.org">@pashagolub</a> has made an interesting tool that uses the Elo system (yes from chess!) to help rate talks (for CFP Selection).</p>
 
-<p><img alt="whoops I made a capitalism sticker" src="https://jmblogstorrage.blob.core.windows.net/media/whoops_capitalism.png" /></p>
+<p>I made a fork of it because I would love to see this modified to fit a double-blind CFPs.</p>
 
-<p>No the answer is always no, but I should make like 20 of these stickers and put them out at conferences.</p>
+<p>Happy for people to submit a PR on mine as I have some thoughts on how I would want to use this with tools like sessionize or pretalx eventually.</p>
+
+<p>I also am not usually a conference organizer so I'm not the best person to offer much input.</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
