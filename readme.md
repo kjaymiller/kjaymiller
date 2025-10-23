@@ -18,9 +18,9 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 ## Latest Conduit Episode
 
-### [112: I Like Your Skillz](http://relay.fm/conduit/112)
+### [113: I Assure You, I Know Who I Am with Tiff Arment](http://relay.fm/conduit/113)
 
-Jay and Kathy talk about some of the skills that others had that they wish they could possess.
+Jay is off galavanting so Kathy is joined by Tiff Arment, to talk about losing creativity for a very good reason - stepping into the role of a restaurant owner. Also, a lot of Napkin Talk™️.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
