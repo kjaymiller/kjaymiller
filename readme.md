@@ -1,16 +1,12 @@
 ## Status
 
-<p><a href="https://kjaymiller.com/@PavloGolub@fosstodon.org">@pashagolub</a> has made an interesting tool that uses the Elo system (yes from chess!) to help rate talks (for CFP Selection).</p>
+<p>Jeff and I are back with another livestream! This pt2 is all from the DB side! We're starting in about an hour @ 2pm ET.</p>
 
-<p>I made a fork of it because I would love to see this modified to fit a double-blind CFPs.</p>
-
-<p>Happy for people to submit a PR on mine as I have some thoughts on how I would want to use this with tools like sessionize or pretalx eventually.</p>
-
-<p>I also am not usually a conference organizer so I'm not the best person to offer much input.</p>
+<p>https://www.youtube.com/watch?v=wBUm3126BwE</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [[Thoughts] Carol's PyBeach Keynote and AI's Polarization Problem](https://kjaymiller.com/blog/carols-pybeach-keynote-and-ai-internet-polarization-problem.html)
+### Latest Blog Post - [I vibe coded three features for my python packages and projects](https://kjaymiller.com/blog/vibe-coded-development.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
@@ -18,9 +14,9 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 ## Latest Conduit Episode
 
-### [113: I Assure You, I Know Who I Am with Tiff Arment](http://relay.fm/conduit/113)
+### [114: Productivity Fast and Slow](http://relay.fm/conduit/114)
 
-Jay is off galavanting so Kathy is joined by Tiff Arment, to talk about losing creativity for a very good reason - stepping into the role of a restaurant owner. Also, a lot of Napkin Talk™️.
+Productivity comes in many forms. Sometimes you have a lot to do in a little time.Our hosts tackle the challenges that come with Fast and Slow times in productivity.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
