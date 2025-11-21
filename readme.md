@@ -14,9 +14,9 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 ## Latest Conduit Episode
 
-### [114: Productivity Fast and Slow](http://relay.fm/conduit/114)
+### [115: Productivity Inside Systems You Don’t Control](http://relay.fm/conduit/115)
 
-Productivity comes in many forms. Sometimes you have a lot to do in a little time.Our hosts tackle the challenges that come with Fast and Slow times in productivity.
+Kathy is joined by the Nameless of the Show, Nameless, to talk about how to be productive when the system is one you don't control.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
