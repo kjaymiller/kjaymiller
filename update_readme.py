@@ -1,3 +1,11 @@
+# /// script
+# dependencies = [
+#   "jinja2",
+#   "episode_dl",
+#   "feedparser",
+# ]
+# ///
+
 from jinja2 import Environment, FileSystemLoader
 from episode_dl import get_episodes
 from pathlib import Path
