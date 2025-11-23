@@ -6,7 +6,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [I vibe coded three features for my python packages and projects](https://kjaymiller.com/blog/vibe-coded-development.html)
+### Latest Blog Post - [[Thoughts] Carol's PyBeach Keynote and AI's Polarization Problem](https://kjaymiller.com/blog/carols-pybeach-keynote-and-ai-internet-polarization-problem.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
