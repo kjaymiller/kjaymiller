@@ -1,8 +1,10 @@
 ## Status
 
-<p>Jeff and I are back with another livestream! This pt2 is all from the DB side! We're starting in about an hour @ 2pm ET.</p>
+<p>Join me later today with Alexis Roberson from Launch Darkly. We're exploring the idea of database routing, feature flags, and scaling strategies around PostgreSQL.</p>
 
-<p>https://www.youtube.com/watch?v=wBUm3126BwE</p>
+<p><a href="https://youtube.com/live/xm6rAkkQpO0?feature=share">Watch live</a></p>
+
+<p>Today at 2pm ET!</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
