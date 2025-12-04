@@ -1,10 +1,20 @@
 ## Status
 
-<p>Join me later today with Alexis Roberson from Launch Darkly. We're exploring the idea of database routing, feature flags, and scaling strategies around PostgreSQL.</p>
+<p>I just published a new post on the Aiven Blog.</p>
 
-<p><a href="https://youtube.com/live/xm6rAkkQpO0?feature=share">Watch live</a></p>
+<p>This was inspired by the Elephant in the room streams I did with @webology@mastodon.social.</p>
 
-<p>Today at 2pm ET!</p>
+<p>Some great links for this:</p>
+
+<ul>
+<li><a href="https://aiven.io/blog/different-ways-to-search-text-in-postgresql">Article: Different Ways to Search Text in PostgreSQL</a></li>
+<li><a href="https://github.com/Aiven-Labs/pg-text-search-comparisons">GitHub Repo with all Samples</a></li>
+<li><a href="https://www.youtube.com/watch?v=-GCASa5xWxw">EITR Episode 1</a></li>
+</ul>
+
+<p>Here is also an infographic for those that would like to use this as a reference:</p>
+
+<p><img alt="infographic" src="https://jmblogstorrage.blob.core.windows.net/media/pg-search-types-inforgraphic.png" /></p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
@@ -16,9 +26,9 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 ## Latest Conduit Episode
 
-### [115: Productivity Inside Systems You Don’t Control](http://relay.fm/conduit/115)
+### [116: End of the Year Celebration Planning](http://relay.fm/conduit/116)
 
-Kathy is joined by the Nameless of the Show, Nameless, to talk about how to be productive when the system is one you don't control.
+Jay and Kathy discuss their end-of-year plans as things slow down for the holidays. They talk about decluttering spaces, being kinder to themselves, preparing for next year's challenges, and the importance of celebrating wins throughout the year.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
