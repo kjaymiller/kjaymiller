@@ -1,20 +1,8 @@
 ## Status
 
-<p>I just published a new post on the Aiven Blog.</p>
+<p>Round 2 of Alexis Roberson and I trying to learn more about working with PostgreSQL and Launch Darkly is about to begin.</p>
 
-<p>This was inspired by the Elephant in the room streams I did with @webology@mastodon.social.</p>
-
-<p>Some great links for this:</p>
-
-<ul>
-<li><a href="https://aiven.io/blog/different-ways-to-search-text-in-postgresql">Article: Different Ways to Search Text in PostgreSQL</a></li>
-<li><a href="https://github.com/Aiven-Labs/pg-text-search-comparisons">GitHub Repo with all Samples</a></li>
-<li><a href="https://www.youtube.com/watch?v=-GCASa5xWxw">EITR Episode 1</a></li>
-</ul>
-
-<p>Here is also an infographic for those that would like to use this as a reference:</p>
-
-<p><img alt="infographic" src="https://jmblogstorrage.blob.core.windows.net/media/pg-search-types-inforgraphic.png" /></p>
+<p>&lt; https://www.youtube.com/watch?v=TyEimzf3NCQ></p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
