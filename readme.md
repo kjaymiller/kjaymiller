@@ -1,12 +1,8 @@
 ## Status
 
-<p>Thank you to Alexis Roberson for hanging out with me on a couple streams...</p>
+<p>Hey I'm going live to try and build a secret-santa management site... </p>
 
-<p>By the end we had made something really wonderful to monitor our databases.</p>
-
-<p><img alt="PostgreSQL Dashboard" src="https://jmblogstorrage.blob.core.windows.net/media/pg-dashboard.png" /></p>
-
-<p>Check out the repo - <a href="https://github.com/arober39/multi-region-dashboard-live-demo">multi-region-dashboard-live-demo</a></p>
+<p><a href="https://www.youtube.com/watch?v=zL8L-fCVEPg">https://www.youtube.com/watch?v=zL8L-fCVEPg</a></p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
