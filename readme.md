@@ -1,8 +1,12 @@
 ## Status
 
-<p>Round 2 of Alexis Roberson and I trying to learn more about working with PostgreSQL and Launch Darkly is about to begin.</p>
+<p>Thank you to Alexis Roberson for hanging out with me on a couple streams...</p>
 
-<p>&lt; https://www.youtube.com/watch?v=TyEimzf3NCQ></p>
+<p>By the end we had made something really wonderful to monitor our databases.</p>
+
+<p><img alt="PostgreSQL Dashboard" src="https://jmblogstorrage.blob.core.windows.net/media/pg-dashboard.png" /></p>
+
+<p>Check out the repo - <a href="https://github.com/arober39/multi-region-dashboard-live-demo">multi-region-dashboard-live-demo</a></p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
