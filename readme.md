@@ -1,8 +1,6 @@
 ## Status
 
-<p>Hey I'm going live to try and build a secret-santa management site... </p>
-
-<p><a href="https://www.youtube.com/watch?v=zL8L-fCVEPg">https://www.youtube.com/watch?v=zL8L-fCVEPg</a></p>
+<p>Aiven just launched Free Tier Kafka and there is a $5000 CASH prize to someone that builds something amazing with it - <a href="https://aiven.io/blog/just-free-kafka-in-the-cloud">https://aiven.io/blog/just-free-kafka-in-the-cloud</a></p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
