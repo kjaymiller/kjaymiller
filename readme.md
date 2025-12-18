@@ -12,9 +12,9 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 ## Latest Conduit Episode
 
-### [116: End of the Year Celebration Planning](http://relay.fm/conduit/116)
+### [117: The Year to be Selfish](http://relay.fm/conduit/117)
 
-Jay and Kathy discuss their end-of-year plans as things slow down for the holidays. They talk about decluttering spaces, being kinder to themselves, preparing for next year's challenges, and the importance of celebrating wins throughout the year.
+Kathy and Jay discuss end-of-year planning. Kathy's 2026 theme: "The Year to Be Selfish." Jay commits to boundaries and self-preservation. They cover nonprofit transitions and preparing for the annual systems check.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
