@@ -4,7 +4,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [[Thoughts] Carol's PyBeach Keynote and AI's Polarization Problem](https://kjaymiller.com/blog/carols-pybeach-keynote-and-ai-internet-polarization-problem.html)
+### Latest Blog Post - [Building a Circular Gift Assignment System with PostgreSQL Constraints](https://kjaymiller.com/blog/secret-santa.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
