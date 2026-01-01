@@ -12,9 +12,9 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 ## Latest Conduit Episode
 
-### [117: The Year to be Selfish](http://relay.fm/conduit/117)
+### [118: System Checks 2025](http://relay.fm/conduit/118)
 
-Kathy and Jay discuss end-of-year planning. Kathy's 2026 theme: "The Year to Be Selfish." Jay commits to boundaries and self-preservation. They cover nonprofit transitions and preparing for the annual systems check.
+It’s the last episode of the year (an the first of 2026), and Jay and Kathy are wrapping up 2025 with their annual Systems Check. The hosts review a year defined by "Environmental Hacking", looking back at how their tools and habits evolved.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
