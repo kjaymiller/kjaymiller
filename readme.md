@@ -14,7 +14,7 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 ### [118: System Checks 2025](http://relay.fm/conduit/118)
 
-It’s the last episode of the year (an the first of 2026), and Jay and Kathy are wrapping up 2025 with their annual Systems Check. The hosts review a year defined by "Environmental Hacking", looking back at how their tools and habits evolved.
+It’s the last episode of the year (and the first of 2026), and Jay and Kathy are wrapping up 2025 with their annual Systems Check. The hosts review a year defined by "Environmental Hacking", looking back at how their tools and habits evolved.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
