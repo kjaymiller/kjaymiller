@@ -4,7 +4,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [5 Years of Jaysies (2025) and Jaysies.com](https://kjaymiller.com/blog/jaysies-2025.html)
+### Latest Blog Post - [State of Black Python Devs H2 2025](https://kjaymiller.com/blog/state-of-bpd-end-2025.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
