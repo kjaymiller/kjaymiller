@@ -1,6 +1,6 @@
 ## Status
 
-<p>Aiven just launched Free Tier Kafka and there is a $5000 CASH prize to someone that builds something amazing with it - <a href="https://aiven.io/blog/just-free-kafka-in-the-cloud">https://aiven.io/blog/just-free-kafka-in-the-cloud</a></p>
+<p>Since 1996 I'm known every lyric for all the songs in Parappa the Rapper... <a href="https://www.youtube.com/watch?v=CMev6sdShmA">https://www.youtube.com/watch?v=CMev6sdShmA</a></p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
