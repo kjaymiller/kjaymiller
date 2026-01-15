@@ -12,9 +12,9 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 ## Latest Conduit Episode
 
-### [118: System Checks 2025](http://relay.fm/conduit/118)
+### [119: The "Jerk-Free" Guide to Networking](http://relay.fm/conduit/119)
 
-It’s the last episode of the year (and the first of 2026), and Jay and Kathy are wrapping up 2025 with their annual Systems Check. The hosts review a year defined by "Environmental Hacking", looking back at how their tools and habits evolved.
+"Networking" is a dirty word. Jay and Kathy break down how to build professional relationships without feeling slimy. From Jay’s strict rules to Kathy’s "vibes-based" approach, learn how to be authentic, add value, and network without being a jerk.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
