@@ -4,7 +4,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [State of Black Python Devs H2 2025](https://kjaymiller.com/blog/state-of-bpd-end-2025.html)
+### Latest Blog Post - [7 Rules for Authentic Networking](https://kjaymiller.com/blog/7-rules-for-authentic-networking.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
