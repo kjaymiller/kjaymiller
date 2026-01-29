@@ -12,9 +12,9 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 ## Latest Conduit Episode
 
-### [119: The "Jerk-Free" Guide to Networking](http://relay.fm/conduit/119)
+### [120: Sometimes, you're not ready for me. 💅🏻](http://relay.fm/conduit/120)
 
-"Networking" is a dirty word. Jay and Kathy break down how to build professional relationships without feeling slimy. From Jay’s strict rules to Kathy’s "vibes-based" approach, learn how to be authentic, add value, and network without being a jerk.
+Conduit is two people that AREN’T productivity pros giving you messy real world advice for messy real world lives. We haven’t spent much time talk about what we ACTUALLY DO! This episode is about Kathy, your business unicorn!
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
