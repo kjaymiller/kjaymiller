@@ -4,7 +4,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [7 Rules for Authentic Networking](https://kjaymiller.com/blog/7-rules-for-authentic-networking.html)
+### Latest Blog Post - [Flamethrowers Shouldn't Be Controlled by Those with Mental Health Issues](https://kjaymiller.com/blog/flamethrowers-shouldnt-be-controlled-by-those-with-mental-health-issues.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
