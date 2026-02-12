@@ -12,9 +12,9 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 ## Latest Conduit Episode
 
-### [120: Sometimes, you're not ready for me. 💅🏻](http://relay.fm/conduit/120)
+### [121: A Tie-Dye of Work Being Done](http://relay.fm/conduit/121)
 
-Conduit is two people that AREN’T productivity pros giving you messy real world advice for messy real world lives. We haven’t spent much time talk about what we ACTUALLY DO! This episode is about Kathy, your business unicorn!
+Conduit is two people that AREN’T productivity pros giving you messy real world advice for messy real world lives. We haven’t spent much time talk about what we ACTUALLY DO! This episode is about Jay, the Staff Developer Advocate.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
