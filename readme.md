@@ -1,6 +1,8 @@
 ## Status
 
-<p>Since 1996 I'm known every lyric for all the songs in Parappa the Rapper... <a href="https://www.youtube.com/watch?v=CMev6sdShmA">https://www.youtube.com/watch?v=CMev6sdShmA</a></p>
+<p>I had a great time chatting about <a href="https://github.com/tim-schilling/django-security-label">django-security-label</a> on Aiven's YouTube channel. </p>
+
+<p><a href="https://www.youtube.com/watch?v=ZrLz4MzMGtU">https://www.youtube.com/watch?v=ZrLz4MzMGtU</a></p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
