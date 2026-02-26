@@ -14,9 +14,9 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 ## Latest Conduit Episode
 
-### [121: A Tie-Dye of Work Being Done](http://relay.fm/conduit/121)
+### [122: There is No One True Anything with Merlin Mann](http://relay.fm/conduit/122)
 
-Conduit is two people that AREN’T productivity pros giving you messy real world advice for messy real world lives. We haven’t spent much time talk about what we ACTUALLY DO! This episode is about Jay, the Staff Developer Advocate.
+Jay is gone again, so Kathy brings back Merlin Mann to discuss productivity porn as well as a ton of other topics of import.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
