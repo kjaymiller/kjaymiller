@@ -1,8 +1,8 @@
 ## Status
 
-<p>I had a great time chatting about <a href="https://github.com/tim-schilling/django-security-label">django-security-label</a> on Aiven's YouTube channel. </p>
+<p>Dealing with the loss of some family members. Had to cancel my trip to SCaLE.</p>
 
-<p><a href="https://www.youtube.com/watch?v=ZrLz4MzMGtU">https://www.youtube.com/watch?v=ZrLz4MzMGtU</a></p>
+<p>I'm trying my best to get better and not overload myself. These felt like no-brainers, but I'm wondering about the non-no-brainers — the things I need someone to help me realize I shouldn't be doing.</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
