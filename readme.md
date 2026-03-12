@@ -14,9 +14,9 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 ## Latest Conduit Episode
 
-### [122: There is No One True Anything with Merlin Mann](http://relay.fm/conduit/122)
+### [123: The Art of Giving Feedback](http://relay.fm/conduit/123)
 
-Jay is gone again, so Kathy brings back Merlin Mann to discuss productivity porn as well as a ton of other topics of import.
+Jay and Kathy tackle how to give constructive feedback at work and interviews and peer reviews. They discussed assuming positive intent, cultural dynamics, power dynamics, and making criticism actionable.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
