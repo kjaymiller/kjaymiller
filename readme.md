@@ -14,9 +14,9 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 ## Latest Conduit Episode
 
-### [123: The Art of Giving Feedback](http://relay.fm/conduit/123)
+### [124: I’m a Failing Nuclear Power Plant with James Thomson](http://relay.fm/conduit/124)
 
-Jay and Kathy tackle how to give constructive feedback at work and interviews and peer reviews. They discussed assuming positive intent, cultural dynamics, power dynamics, and making criticism actionable.
+James joins Kathy again to give an update on the past years since he's last been on Conduit, and it's a lot. Warning: there is a lot of talk about serious medical conditions, death, dying, and burnout. It's okay to skip if you can't handle that.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
