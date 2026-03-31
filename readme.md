@@ -45,10 +45,10 @@ web-sites quickly that you can use for prototypes for full time use!
 This and much of the work that I do is made possible by those that [sponsor me
 on github](https://github.com/sponsors/kjaymiller).
 
-### Sponsors at $20/month and Higher
 
-- [Brian Douglas](https://github.com/bdougie)
-- [Carol Willing](https://github.com/willingc)
-- [Jason Brechin](https://github.com/brechin)
+- [bdougie](https://github.com/bdougie)
+
+- [nickh](https://github.com/nickh)
+
 
 [Render Engine]: https://render-engine.readthedocs.io

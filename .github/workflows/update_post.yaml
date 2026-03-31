@@ -19,7 +19,7 @@ jobs:
         with:
           python-version: "3.14"
       - name: generate update
-        run: uv run --no-dev update_readme.py
+        run: uv run update_readme.py
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN}}
       - name: verify diff
