@@ -161,3 +161,4 @@ content/.DS_Store
 tests/fakepath
 output
 .tool-versions
+.envrc
