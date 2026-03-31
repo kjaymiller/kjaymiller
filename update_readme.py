@@ -10,6 +10,8 @@ from jinja2 import Environment, FileSystemLoader
 from episode_dl import get_episodes
 from pathlib import Path
 import feedparser
+import json
+import subprocess
 
 environment = Environment(loader=FileSystemLoader("."))
 
@@ -29,6 +31,35 @@ latest_post = sorted(
     reverse=True,
 )[0]
 
+SPONSORS_QUERY = """{
+  viewer {
+    sponsorshipsAsMaintainer(first: 100, activeOnly: true) {
+      nodes {
+        sponsorEntity {
+          ... on User { login url }
+          ... on Organization { login url }
+        }
+        tier { monthlyPriceInDollars }
+      }
+    }
+  }
+}"""
+
+
+def get_sponsors():
+    result = subprocess.run(
+        ["gh", "api", "graphql", "-f", f"query={SPONSORS_QUERY}"],
+        capture_output=True,
+        text=True,
+    )
+    data = json.loads(result.stdout)
+    nodes = data["data"]["viewer"]["sponsorshipsAsMaintainer"]["nodes"]
+    return [
+        {"name": n["sponsorEntity"]["login"], "url": n["sponsorEntity"]["url"]}
+        for n in nodes
+    ]
+
+
 if __name__ == "__main__":
     template = environment.get_template(".readme_template.md")
     Path("./readme.md").write_text(
@@ -36,5 +67,6 @@ if __name__ == "__main__":
             latest_microblog_post=latest_microblog_post,
             latest_conduit_episode=latest_conduit_episode,
             latest_blog_post=latest_post,
+            sponsors=get_sponsors(),
         )
     )
