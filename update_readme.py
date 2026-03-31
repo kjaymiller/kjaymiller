@@ -52,7 +52,13 @@ def get_sponsors():
         capture_output=True,
         text=True,
     )
+    if result.returncode != 0:
+        print(f"gh api graphql failed (exit {result.returncode}): {result.stderr}")
+        return []
     data = json.loads(result.stdout)
+    if "errors" in data:
+        print(f"GraphQL errors: {data['errors']}")
+        return []
     nodes = data["data"]["viewer"]["sponsorshipsAsMaintainer"]["nodes"]
     return [
         {"name": n["sponsorEntity"]["login"], "url": n["sponsorEntity"]["url"]}
