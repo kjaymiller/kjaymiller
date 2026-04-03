@@ -48,7 +48,5 @@ on github](https://github.com/sponsors/kjaymiller).
 
 - [bdougie](https://github.com/bdougie)
 
-- [nickh](https://github.com/nickh)
-
 
 [Render Engine]: https://render-engine.readthedocs.io
