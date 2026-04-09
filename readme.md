@@ -14,9 +14,11 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 ## Latest Conduit Episode
 
-### [124: I’m a Failing Nuclear Power Plant with James Thomson](http://relay.fm/conduit/124)
+### [125: Systems Check Spring 2026](http://relay.fm/conduit/125)
 
-James joins Kathy again to give an update on the past years since he's last been on Conduit, and it's a lot. Warning: there is a lot of talk about serious medical conditions, death, dying, and burnout. It's okay to skip if you can't handle that.
+Permission to get out of bed denied! Kathy talks about how gym life has got her feeling confident and energized. Jay has declared bankruptcy and is letting AI do more and more. 
+
+Also: Live Show Info Announced!
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
