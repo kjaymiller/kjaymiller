@@ -1,8 +1,10 @@
 ## Status
 
-<p>Dealing with the loss of some family members. Had to cancel my trip to SCaLE.</p>
+<p>I haven't been on social media lately because I've been trying to preserve mental health, and joy.</p>
 
-<p>I'm trying my best to get better and not overload myself. These felt like no-brainers, but I'm wondering about the non-no-brainers — the things I need someone to help me realize I shouldn't be doing.</p>
+<p>I've been messing with my plants and crocheting. I even made a beanie that can fit with my hair!</p>
+
+<p><img alt="Me in the Beanie" src="https://jmblogstorrage.blob.core.windows.net/media/jay-with-beanine.png" /></p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
