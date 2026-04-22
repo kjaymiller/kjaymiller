@@ -1,8 +1,6 @@
 ## Status
 
-<p>I haven't been on social media lately because I've been trying to preserve mental health, and joy.</p>
-
-<p>I've been messing with my plants and crocheting. I even made a beanie that can fit with my hair!</p>
+<p>I always find it intriguing when artists reveal the depth of acting and persona that comes with things like content creation. I think this is why being in devrel has been strange for me because, I'm playing a role, but the role itself is also a part of me. #KnowWhatIMean</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
