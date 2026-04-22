@@ -4,8 +4,6 @@
 
 <p>I've been messing with my plants and crocheting. I even made a beanie that can fit with my hair!</p>
 
-<p><img alt="Me in the Beanie" src="https://jmblogstorrage.blob.core.windows.net/media/jay-with-beanine.png" /></p>
-
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
 ### Latest Blog Post - [Flamethrowers Shouldn't Be Controlled by Those with Mental Health Issues](https://kjaymiller.com/blog/flamethrowers-shouldnt-be-controlled-by-those-with-mental-health-issues.html)
