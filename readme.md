@@ -1,6 +1,6 @@
 ## Status
 
-<p>(A)I redesigned my website to have a home/away/city connect design that matches my favorite baseball team.</p>
+<p>So excited to see the Mets finally remembered that they were a baseball team and should probably play baseball....</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
@@ -12,11 +12,9 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 ## Latest Conduit Episode
 
-### [125: Systems Check Spring 2026](http://relay.fm/conduit/125)
+### [126: Precision and Pruning](http://relay.fm/conduit/126)
 
-Permission to get out of bed denied! Kathy talks about how gym life has got her feeling confident and energized. Jay has declared bankruptcy and is letting AI do more and more. 
-
-Also: Live Show Info Announced!
+This week, Jay and Kathy explore the power of scaling down, from mini watering cans and finding your own pond, they discuss why narrowing your scope and your tools can help you find better focus in the moment.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
