@@ -1,6 +1,6 @@
 ## Status
 
-<p>I always find it intriguing when artists reveal the depth of acting and persona that comes with things like content creation. I think this is why being in devrel has been strange for me because, I'm playing a role, but the role itself is also a part of me. #KnowWhatIMean</p>
+<p>(A)I redesigned my website to have a home/away/city connect design that matches my favorite baseball team.</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
