@@ -1,6 +1,10 @@
 ## Status
 
-<p>So excited to see the Mets finally remembered that they were a baseball team and should probably play baseball....</p>
+<p>With news that PGBackrest being EOL'd  I'm interested in hearing that the Enterprise #PostgreSQL Community is thinking about this. </p>
+
+<p>There are a couple companies that have forks. Is this project too important for one company to run and maintain? </p>
+
+<p>I don't know the maintainer, but the messaging is one that I resonated with. They mentioned that they thought someone would fork it. I wonder if the conversation of donating it to a foundation that could try to help with funding and maintenance of it would work?</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
