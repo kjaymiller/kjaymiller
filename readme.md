@@ -1,6 +1,12 @@
 ## Status
 
-<p>I was a little intrigued by cmux but I realized all I wanted was a sidebar for zellij. So (A)I forked cfal's plugin and added a pane layer.</p>
+<blockquote>
+  <p>They were not interested. They had RAM to buy and GPUs to provision. The AI gold rush has thoroughly reshuffled what companies consider worth paying for, and apparently “the person who makes sure your data survives a disaster” did not make the cut.</p>
+</blockquote>
+
+<p>To Companies, we are resources and are evaluated against other resources. AI resources, GPUs, RAM and data companies bring the possibility of "massively scalable attention" and "investment" of which we're just not capable.</p>
+
+<p>Its depressing to know but it's the reality of the situation.</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
