@@ -10,7 +10,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [Flamethrowers Shouldn't Be Controlled by Those with Mental Health Issues](https://kjaymiller.com/blog/flamethrowers-shouldnt-be-controlled-by-those-with-mental-health-issues.html)
+### Latest Blog Post - [On Companies Sponsoring Tech Communities](https://kjaymiller.com/blog/on-companies-sponsoring-communities.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
