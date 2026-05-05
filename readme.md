@@ -10,7 +10,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [On Companies Sponsoring Tech Communities](https://kjaymiller.com/blog/on-companies-sponsoring-communities.html)
+### Latest Blog Post - [Wytcher and why I don't want to download YouTube Videos anymore](https://kjaymiller.com/blog/wytcher-and-why-i-dont-want-to-download.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
