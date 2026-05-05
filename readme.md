@@ -1,12 +1,6 @@
 ## Status
 
-<blockquote>
-  <p>They were not interested. They had RAM to buy and GPUs to provision. The AI gold rush has thoroughly reshuffled what companies consider worth paying for, and apparently “the person who makes sure your data survives a disaster” did not make the cut.</p>
-</blockquote>
-
-<p>To Companies, we are resources and are evaluated against other resources. AI resources, GPUs, RAM and data companies bring the possibility of "massively scalable attention" and "investment" of which we're just not capable.</p>
-
-<p>Its depressing to know but it's the reality of the situation.</p>
+<p>To all my friends in and around Toronto (or those who want to hang out there). I'll be doing a live recording and meet and great for Conduit on July 18, 2026! Details here and get your tickets before they sell out!!!</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
