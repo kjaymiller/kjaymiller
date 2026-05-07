@@ -12,9 +12,9 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 ## Latest Conduit Episode
 
-### [126: Precision and Pruning](http://relay.fm/conduit/126)
+### [127: Different Browser, Different Brain](http://relay.fm/conduit/127)
 
-This week, Jay and Kathy explore the power of scaling down, from mini watering cans and finding your own pond, they discuss why narrowing your scope and your tools can help you find better focus in the moment.
+Two distractions, one focus, and a brain that's barely keeping up. Kathy and Jay get into context switching and why AI is making it harder instead of easier. Also, why a fake commute home might save your evenings, and how something as small as a different
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
