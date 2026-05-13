@@ -1,6 +1,12 @@
 ## Status
 
-<p>To all my friends in and around Toronto (or those who want to hang out there). I'll be doing a live recording and meet and great for Conduit on July 18, 2026! Details here and get your tickets before they sell out!!!</p>
+<p>We'll have our community booth at #PyConUS and we hope that you'll consider helping us support Black Python Devs.</p>
+
+<p>Starting today if you donate at the amounts on the graphic we have some amazing new swag that you can pickup in person at our PyCon Booth.</p>
+
+<p>It's first come first serve so you can reserve yours with a donation today.</p>
+
+<p>To Reserve: Donate and share your donation confirmation at our community booth!</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
