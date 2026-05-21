@@ -18,9 +18,11 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 ## Latest Conduit Episode
 
-### [127: Different Browser, Different Brain](http://relay.fm/conduit/127)
+### [128: Ways of Working](http://relay.fm/conduit/128)
 
-Two distractions, one focus, and a brain that's barely keeping up. Kathy and Jay get into context switching and why AI is making it harder instead of easier. Also, why a fake commute home might save your evenings, and how something as small as a different
+Jay and Kathy have worked together on conduit for years but how do they work with others. The gang does a “ways of working” exercise to find out.
+
+Visit YouConduitLive.com to get info on the live show in Toronto in July!
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
