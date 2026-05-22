@@ -1,16 +1,10 @@
 ## Status
 
-<p>We'll have our community booth at #PyConUS and we hope that you'll consider helping us support Black Python Devs.</p>
-
-<p>Starting today if you donate at the amounts on the graphic we have some amazing new swag that you can pickup in person at our PyCon Booth.</p>
-
-<p>It's first come first serve so you can reserve yours with a donation today.</p>
-
-<p>To Reserve: Donate and share your donation confirmation at our community booth!</p>
+<p>The photos from PyCon Asia are live! This was my favorite conference of the year!</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [Wytcher and why I don't want to download YouTube Videos anymore](https://kjaymiller.com/blog/wytcher-and-why-i-dont-want-to-download.html)
+### Latest Blog Post - [A dependabot PR broke my CI and the error message lied](https://kjaymiller.com/blog/dependabot-shallow-clone-setuptools-scm.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
