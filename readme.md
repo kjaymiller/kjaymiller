@@ -4,7 +4,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [A dependabot PR broke my CI and the error message lied](https://kjaymiller.com/blog/dependabot-shallow-clone-setuptools-scm.html)
+### Latest Blog Post - [On Companies Sponsoring Tech Communities](https://kjaymiller.com/blog/on-companies-sponsoring-communities.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
