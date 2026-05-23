@@ -1,6 +1,6 @@
 ## Status
 
-<p>The photos from PyCon Asia are live! This was my favorite conference of the year!</p>
+<p>The challenge of sending physical atoms across the world to some countries is utter madness.. This is why we're happy to support initiatives like books for techies! They get it.</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
