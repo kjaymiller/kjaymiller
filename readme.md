@@ -4,7 +4,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [On Companies Sponsoring Tech Communities](https://kjaymiller.com/blog/on-companies-sponsoring-communities.html)
+### Latest Blog Post - [Using AI to consider the options](https://kjaymiller.com/blog/using-ai-to-consider-the-options.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
