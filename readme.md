@@ -1,6 +1,6 @@
 ## Status
 
-<p>The challenge of sending physical atoms across the world to some countries is utter madness.. This is why we're happy to support initiatives like books for techies! They get it.</p>
+<p>A great recap and explainer for why PyCon US means so much to us as Black Python Devs!</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
