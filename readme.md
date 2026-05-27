@@ -1,6 +1,6 @@
 ## Status
 
-<p>A great recap and explainer for why PyCon US means so much to us as Black Python Devs!</p>
+<p>Happy to announce that we're sponsoring at local gaming workshop with Kids Next Code!</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
