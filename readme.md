@@ -1,6 +1,6 @@
 ## Status
 
-<p>Happy to announce that we're sponsoring at local gaming workshop with Kids Next Code!</p>
+<p>I'm a big fan of Nerando's but this is why I think I'm just not cut out for the next generation of development. My rambling nature barely allows me to write content that people want to read and now you're saying I gotta write for the bots? I'm good.</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
