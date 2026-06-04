@@ -12,11 +12,9 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 ## Latest Conduit Episode
 
-### [128: Ways of Working](http://relay.fm/conduit/128)
+### [129: Weekly Resets](http://relay.fm/conduit/129)
 
-Jay and Kathy have worked together on conduit for years but how do they work with others. The gang does a “ways of working” exercise to find out.
-
-Visit YouConduitLive.com to get info on the live show in Toronto in July!
+Kathy has been resetting weekly and there is something really powerful about it. Jay wants you to move every 10 years as a BIG RESET. Perhaps listen to Kathy on this one.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
