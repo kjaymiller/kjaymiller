@@ -12,9 +12,9 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 ## Latest Conduit Episode
 
-### [129: Weekly Resets](http://relay.fm/conduit/129)
+### [130: The Magic of Stationery](http://relay.fm/conduit/130)
 
-Kathy has been resetting weekly and there is something really powerful about it. Jay wants you to move every 10 years as a BIG RESET. Perhaps listen to Kathy on this one.
+Kathy is away so Jay has a magical moment with the Pen Wizard, Brad Dowdy.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
