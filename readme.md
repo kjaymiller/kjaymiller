@@ -1,6 +1,8 @@
 ## Status
 
-<p>I prompted a new thing into existence for Zellij. It's called zj and it's a smart session picker/switcher.</p>
+<p>Being in a stage of my life where I cry more and cherish more moments I can't help but think about the small things in life that remind me of the people that are no longer here.</p>
+
+<p>Angela Giratana's short film left me sobbing thinking about all the "Last Moments" I've missed out on and how I haven't even begun processing them until much later in life.</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
