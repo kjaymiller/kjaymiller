@@ -1,8 +1,8 @@
 ## Status
 
-<p>Being in a stage of my life where I cry more and cherish more moments I can't help but think about the small things in life that remind me of the people that are no longer here.</p>
+<p>My video of the day was Olurinatti's amazing review of many Black Revolutionaries around the world. </p>
 
-<p>Angela Giratana's short film left me sobbing thinking about all the "Last Moments" I've missed out on and how I haven't even begun processing them until much later in life.</p>
+<p>If you've never heard the stories of revolution in Haiti, Dem. Rep. of Congo, Burkina Faso, Granada and Guyana, take a couple hours and learn how historically black revolutions were and arguably are misrepresented and taught differently in the countries of their original oppressors.</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
