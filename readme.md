@@ -1,8 +1,8 @@
 ## Status
 
-<p>My video of the day was Olurinatti's amazing review of many Black Revolutionaries around the world. </p>
+<p>I learned recently about zizmor - a tool that audits your GH Actions..</p>
 
-<p>If you've never heard the stories of revolution in Haiti, Dem. Rep. of Congo, Burkina Faso, Granada and Guyana, take a couple hours and learn how historically black revolutions were and arguably are misrepresented and taught differently in the countries of their original oppressors.</p>
+<p>TIL there is a GH-Action for zizmor but it updates the GH Security Section with findings... I didn't know that was possible.</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
