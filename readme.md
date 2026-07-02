@@ -1,16 +1,15 @@
 ## Status
 
-<p>+1 for AI</p>
+<p>Y'all know how math works right?</p>
 
-<p>All-my-favs, the bookmarking system that I vibe-coded now accepts custom url pattern matching quicklinks that will send data to my cms (which was also vibe coded off of Render-Engine and the PG Content Manager) and wytchr, my alternative youtube subscription timeline (also vibe coded).</p>
+<p>I want to try something for July. </p>
 
-<p><img alt="wytchr with links for microblog and add to wythcr under the hobbies for programmers youtube entry" src="https://jmblogstorrage.blob.core.windows.net/media/cleanshot-2026-06-30-at-16-23-13-a7dccbf7.png" /></p>
+<p>For the month of July, each day, can I get 7 donations of $7 to Black Python Devs every day. </p>
 
-<p><img alt="cms-entry for that cozycoderhour video but now in a microblog entry with external link and the slug incorrectly filled out" src="https://jmblogstorrage.blob.core.windows.net/media/cleanshot-2026-06-30-at-16-23-50-b4f6fdbd.png" /></p>
+<p>If successful that would be over $1500 donated and that would cover a sponsorship of 1-2 events in South America or Africa. I'll start by being the first person to donate my $7 for the entire week!</p>
 
-<p><img alt="that same cozy coder hour video in the wytchr add channel dialog" src="https://jmblogstorrage.blob.core.windows.net/media/cleanshot-2026-06-30-at-16-24-22-a61098dd.png" /></p>
-
-<p>Eventually I will harden these and make them easier to use if your name isn't Jay</p>
+<p>SIDE NOTE: 
+If you were able to do $7 everyday to for the month - it would be enough to become a foundational supporter.</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
