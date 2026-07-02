@@ -1,15 +1,6 @@
 ## Status
 
-<p>Y'all know how math works right?</p>
-
-<p>I want to try something for July. </p>
-
-<p>For the month of July, each day, can I get 7 donations of $7 to Black Python Devs every day. </p>
-
-<p>If successful that would be over $1500 donated and that would cover a sponsorship of 1-2 events in South America or Africa. I'll start by being the first person to donate my $7 for the entire week!</p>
-
-<p>SIDE NOTE: 
-If you were able to do $7 everyday to for the month - it would be enough to become a foundational supporter.</p>
+<p>PyCon APAC Videos are up! This includes my keynote.</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
