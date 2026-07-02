@@ -21,9 +21,9 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 ## Latest Conduit Episode
 
-### [130: The Magic of Stationery](http://relay.fm/conduit/130)
+### [131: Stop, Collaborate, and Listen](http://relay.fm/conduit/131)
 
-Kathy is away so Jay has a magical moment with the Pen Wizard, Brad Dowdy.
+Conduit loves working together almost as much as we love your Mom.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
