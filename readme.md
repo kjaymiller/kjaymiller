@@ -1,10 +1,10 @@
 ## Status
 
-<p>PyCon APAC Videos are up! This includes my keynote.</p>
+<p>in render-engine's second engine of let's do things that we're actually going to do, not just the things that we can do</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [Using AI to consider the options](https://kjaymiller.com/blog/using-ai-to-consider-the-options.html)
+### Latest Blog Post - [My Problem with Commonplace Journaling](https://kjaymiller.com/blog/my-problem-with-commonplace-journaling.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
