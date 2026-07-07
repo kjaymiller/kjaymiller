@@ -1,6 +1,12 @@
 ## Status
 
-<p>in render-engine's second engine of let's do things that we're actually going to do, not just the things that we can do</p>
+<p>Plant update: Most of the plants are doing well. I even chopped and repotted a few in since it's summer</p>
+
+<p><img alt="IMG_1480" src="https://jmblogstorrage.blob.core.windows.net/media/img-1480-18cb715b.jpeg" /></p>
+
+<p><img alt="IMG_1481" src="https://jmblogstorrage.blob.core.windows.net/media/img-1481-9decbe5f.jpeg" /></p>
+
+<p><img alt="IMG_1482" src="https://jmblogstorrage.blob.core.windows.net/media/img-1482-2e6bd014.jpeg" /></p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
