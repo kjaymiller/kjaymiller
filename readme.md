@@ -18,9 +18,9 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 ## Latest Conduit Episode
 
-### [131: Stop, Collaborate, and Listen](http://relay.fm/conduit/131)
+### [132: The Productivity of Nothingness](http://relay.fm/conduit/132)
 
-Conduit loves working together almost as much as we love your Mom.
+This episode is brought to you by the letter V. Jay and Kathy explore downtime and doing nothing positively and negative impact them.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
