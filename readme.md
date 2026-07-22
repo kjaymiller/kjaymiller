@@ -10,7 +10,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [My Problem with Commonplace Journaling](https://kjaymiller.com/blog/my-problem-with-commonplace-journaling.html)
+### Latest Blog Post - [Testing against python 3.15 using nox and uv](https://kjaymiller.com/blog/testing-against-python-3-15-using-nox-and-uv.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
