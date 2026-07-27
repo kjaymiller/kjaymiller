@@ -1,12 +1,6 @@
 ## Status
 
-<p>Plant update: Most of the plants are doing well. I even chopped and repotted a few in since it's summer</p>
-
-<p><img alt="IMG_1480" src="https://jmblogstorrage.blob.core.windows.net/media/img-1480-18cb715b.jpeg" /></p>
-
-<p><img alt="IMG_1481" src="https://jmblogstorrage.blob.core.windows.net/media/img-1481-9decbe5f.jpeg" /></p>
-
-<p><img alt="IMG_1482" src="https://jmblogstorrage.blob.core.windows.net/media/img-1482-2e6bd014.jpeg" /></p>
+<p>It's been so great catching up with Jamal after all these years.</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
