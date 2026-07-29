@@ -1,6 +1,6 @@
 ## Status
 
-<p>It's been so great catching up with Jamal after all these years.</p>
+<p>I have my reservations about 3d printing a server rack</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
