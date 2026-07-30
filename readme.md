@@ -12,9 +12,9 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 ## Latest Conduit Episode
 
-### [132: The Productivity of Nothingness](http://relay.fm/conduit/132)
+### [133: You Conduit Live in Toronto](http://relay.fm/conduit/133)
 
-This episode is brought to you by the letter V. Jay and Kathy explore downtime and doing nothing positively and negative impact them.
+It's all a blur, but Jay and Kathy took Conduit's 5 year anniversary live in Toronto with our conductors, talking long-term planning (and why neither of us is great at it). As a gift, here is a preview of a membership show, pre- and post-show included.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
