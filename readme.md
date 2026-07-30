@@ -1,6 +1,6 @@
 ## Status
 
-<p>I have my reservations about 3d printing a server rack</p>
+<p>I've been trying to listen to my body more and I remember my great friend Melanie Arbor guiding a body scan meditation. This isn't Melanie but it's a really great meditation.</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
