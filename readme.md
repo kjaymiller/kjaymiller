@@ -4,7 +4,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [Testing against python 3.15 using nox and uv](https://kjaymiller.com/blog/testing-against-python-3-15-using-nox-and-uv.html)
+### Latest Blog Post - [My unscalable tools and how I want them to work together with my homelab](https://kjaymiller.com/blog/my-unscalable-tools.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
