@@ -1,6 +1,6 @@
 ## Status
 
-<p>I've been trying to listen to my body more and I remember my great friend Melanie Arbor guiding a body scan meditation. This isn't Melanie but it's a really great meditation.</p>
+<p>I wrote this post on the Aiven Blog because genuinely when someone asks me "Is PGVector enough", I'm almost certain they haven't considered their architecture and are looking for a simple solution. Sorry, but I don't think PGVector is that simple solution but it is a darn good one.</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
