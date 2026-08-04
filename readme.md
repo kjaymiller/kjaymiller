@@ -1,6 +1,8 @@
 ## Status
 
-<p>I wrote this post on the Aiven Blog because genuinely when someone asks me "Is PGVector enough", I'm almost certain they haven't considered their architecture and are looking for a simple solution. Sorry, but I don't think PGVector is that simple solution but it is a darn good one.</p>
+<p>Aiven is giving me more freedom to write. This time in prep for my workshop tomorrow I wrote about how I ingested the MICHELIN guide data and showed how I could explore the dataset with PG Studio.</p>
+
+<p>What things would you like me to write about in an official capacity (or maybe an unofficial one)?</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
