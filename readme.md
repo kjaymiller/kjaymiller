@@ -6,7 +6,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [My unscalable tools and how I want them to work together with my homelab](https://kjaymiller.com/blog/my-unscalable-tools.html)
+### Latest Blog Post - [The 7*7*31 Recap (With Numbers)](https://kjaymiller.com/blog/7-7-31-recap.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
