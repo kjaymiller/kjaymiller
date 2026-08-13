@@ -14,9 +14,9 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 ## Latest Conduit Episode
 
-### [133: You Conduit Live in Toronto](http://relay.fm/conduit/133)
+### [134: System Check Summer 2026](http://relay.fm/conduit/134)
 
-It's all a blur, but Jay and Kathy took Conduit's 5 year anniversary live in Toronto with our conductors, talking long-term planning (and why neither of us is great at it). As a gift, here is a preview of a membership show, pre- and post-show included.
+Kathy and Jay discuss their systems, how work is going, and just a little bit of woo.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
