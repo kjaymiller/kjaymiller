@@ -1,8 +1,10 @@
 ## Status
 
-<p>Aiven is giving me more freedom to write. This time in prep for my workshop tomorrow I wrote about how I ingested the MICHELIN guide data and showed how I could explore the dataset with PG Studio.</p>
+<p>Claude used something I was working on for work as a suggestion to tie into a new thing.  I got mad and I'm trying to better understand why.</p>
 
-<p>What things would you like me to write about in an official capacity (or maybe an unofficial one)?</p>
+<p>The suggestion wasn't a terrible one but at the same time, the fact that it's using my chat history to make suggestions tells me that it's collecting and connecting more information that I want it to. </p>
+
+<p>Nah.... don't do that. Local models the second they are good enough (and fast enough).</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
