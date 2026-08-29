@@ -1,10 +1,8 @@
 ## Status
 
-<p>Claude used something I was working on for work as a suggestion to tie into a new thing.  I got mad and I'm trying to better understand why.</p>
+<p>I’ve been wanting to talk about the fun I’m having with strudel (and the things I made for it). But work has been asking me to work on things I’m really enjoying. </p>
 
-<p>The suggestion wasn't a terrible one but at the same time, the fact that it's using my chat history to make suggestions tells me that it's collecting and connecting more information that I want it to. </p>
-
-<p>Nah.... don't do that. Local models the second they are good enough (and fast enough).</p>
+<p>I may post a few things on here that are work related but it’s because I’m having fun with them and I’d love feedback from amazing friends that are smarter than me.</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
