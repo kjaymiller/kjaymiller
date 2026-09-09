@@ -6,7 +6,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [The 7*7*31 Recap (With Numbers)](https://kjaymiller.com/blog/7-7-31-recap.html)
+### Latest Blog Post - [My DevRel Limit: I might be cooked.](https://kjaymiller.com/blog/my-devrel-limit-i-might-be-cooked.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
