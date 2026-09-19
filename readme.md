@@ -1,8 +1,8 @@
 ## Status
 
-<p>I’ve been wanting to talk about the fun I’m having with strudel (and the things I made for it). But work has been asking me to work on things I’m really enjoying. </p>
+<p>New Short and probably the start of a series I'm calling "What is wrong with this plant"?</p>
 
-<p>I may post a few things on here that are work related but it’s because I’m having fun with them and I’d love feedback from amazing friends that are smarter than me.</p>
+<p>This plant has edema and I don't know how to fix it because it's not over/under watered IMHO. I literally almost believe that it's just the nature of the plant.</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
