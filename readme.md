@@ -6,7 +6,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [My DevRel Limit: I might be cooked.](https://kjaymiller.com/blog/my-devrel-limit-i-might-be-cooked.html)
+### Latest Blog Post - [I'm Handing off Render Engine](https://kjaymiller.com/blog/im-handing-off-render-engine.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
