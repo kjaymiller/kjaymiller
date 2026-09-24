@@ -14,9 +14,11 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 ## Latest Conduit Episode
 
-### [136: 🍁 Fall Focus 🍂](http://relay.fm/conduit/136)
+### [137: Villainous Relinquishing](http://relay.fm/conduit/137)
 
-Kathy is feeling the Fall vibes and trying to figure out how to optimize focus. Will making everything a pumpkin spiced hue help?
+Jay is giving up on some projects because they cause more stress than purpose in life and work. 
+
+We talk about how to start those difficult conversations and how to embrace the role as the villain.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
