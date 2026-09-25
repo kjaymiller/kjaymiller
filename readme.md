@@ -6,7 +6,7 @@
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [I'm Handing off Render Engine](https://kjaymiller.com/blog/im-handing-off-render-engine.html)
+### Latest Blog Post - [Black Python Devs has a "New" website](https://kjaymiller.com/blog/black-python-devs-has-a-new-website.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
