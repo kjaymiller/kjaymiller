@@ -4,7 +4,7 @@
 
 <p>This plant has edema and I don't know how to fix it because it's not over/under watered IMHO. I literally almost believe that it's just the nature of the plant.</p>
 
-More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
+More updates at [kjaymiller.com](https://kjaymiller.com/microblog)
 
 ### Latest Blog Post - [Black Python Devs has a "New" website](https://kjaymiller.com/blog/black-python-devs-has-a-new-website.html)
 
