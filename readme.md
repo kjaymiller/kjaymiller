@@ -1,8 +1,6 @@
 ## Status
 
-<p>New Short and probably the start of a series I'm calling "What is wrong with this plant"?</p>
-
-<p>This plant has edema and I don't know how to fix it because it's not over/under watered IMHO. I literally almost believe that it's just the nature of the plant.</p>
+<p>I spoke with with Kristiyan Ivanov of BetterDB, the Valkey and Redis observability tool. Kristiyan is a regular contributor to the Valkey community and the ecosystem of tooling being built around it.</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
