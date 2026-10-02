@@ -2,7 +2,7 @@
 
 <p>I spoke with with Kristiyan Ivanov of BetterDB, the Valkey and Redis observability tool. Kristiyan is a regular contributor to the Valkey community and the ecosystem of tooling being built around it.</p>
 
-More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
+More updates at [kjaymiller.com](https://kjaymiller.com/microblog)
 
 ### Latest Blog Post - [Black Python Devs has a "New" website](https://kjaymiller.com/blog/black-python-devs-has-a-new-website.html)
 
