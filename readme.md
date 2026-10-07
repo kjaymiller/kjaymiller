@@ -1,6 +1,8 @@
 ## Status
 
-<p>I spoke with with Kristiyan Ivanov of BetterDB, the Valkey and Redis observability tool. Kristiyan is a regular contributor to the Valkey community and the ecosystem of tooling being built around it.</p>
+<p>The wonderful folks at Refactr.Tech were kind to feature me as their Community Voice this month! It was such a nice little birthday present.</p>
+
+<p>Check out some of the things I've been watching and thinking about lately.</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
