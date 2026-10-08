@@ -14,11 +14,9 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 ## Latest Conduit Episode
 
-### [137: Villainous Relinquishing](http://relay.fm/conduit/137)
+### [138: Childhood Lessons](http://relay.fm/conduit/138)
 
-Jay is giving up on some projects because they cause more stress than purpose in life and work. 
-
-We talk about how to start those difficult conversations and how to embrace the role as the villain.
+Kathy and Jay reflect on the tv shows, popular sayings and pop culture references that stand the test of time and taught us valuable lessons.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
