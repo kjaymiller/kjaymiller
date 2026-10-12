@@ -4,7 +4,7 @@
 
 <p>Check out some of the things I've been watching and thinking about lately.</p>
 
-More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
+More updates at [kjaymiller.com](https://kjaymiller.com/microblog)
 
 ### Latest Blog Post - [Black Python Devs has a "New" website](https://kjaymiller.com/blog/black-python-devs-has-a-new-website.html)
 
