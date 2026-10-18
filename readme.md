@@ -1,8 +1,10 @@
 ## Status
 
-<p>The wonderful folks at Refactr.Tech were kind to feature me as their Community Voice this month! It was such a nice little birthday present.</p>
+<p>The amazing Rachel Lee Nabors and crew made this social media tool. RL Nabors is an amazing Human so I absolutely trust this.</p>
 
-<p>Check out some of the things I've been watching and thinking about lately.</p>
+<p>I'm actively not doing social things outside my microblog. So I'm struggling to support directly but I figure I can at least do this, RIGHT!? </p>
+
+<p>So... Maybe go check this out?</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
