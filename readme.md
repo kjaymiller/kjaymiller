@@ -16,9 +16,9 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 ## Latest Conduit Episode
 
-### [138: Childhood Lessons](http://relay.fm/conduit/138)
+### [139: ADHD Braining with Mikah Sargent](http://relay.fm/conduit/139)
 
-Kathy and Jay reflect on the tv shows, popular sayings and pop culture references that stand the test of time and taught us valuable lessons.
+Jay is on location elsewhere and so Kathy brings in her dungeon buddy Mikah Sargent to discuss living with ADHD and being diagnosed. Also, Kathy recorded this episode hiding in the closet at the coast so any audio issues are her fault, not the editor's.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
