@@ -1,10 +1,6 @@
 ## Status
 
-<p>The amazing Rachel Lee Nabors and crew made this social media tool. RL Nabors is an amazing Human so I absolutely trust this.</p>
-
-<p>I'm actively not doing social things outside my microblog. So I'm struggling to support directly but I figure I can at least do this, RIGHT!? </p>
-
-<p>So... Maybe go check this out?</p>
+<p>When did Daniel Vogelbach become a hitting coach... wasn't he playing earlier this year?!</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
