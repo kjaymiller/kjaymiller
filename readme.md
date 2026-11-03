@@ -1,10 +1,12 @@
 ## Status
 
-<p>When did Daniel Vogelbach become a hitting coach... wasn't he playing earlier this year?!</p>
+<p>Voted this morning...</p>
+
+<p>Cobb Co Voter - I have real questions about our SPLOST usage as well as Bona Fide Conservancy that I I wish that people would be point AI at instead of of capitalism</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
-### Latest Blog Post - [Black Python Devs has a "New" website](https://kjaymiller.com/blog/black-python-devs-has-a-new-website.html)
+### Latest Blog Post - [I guess the phrase is Pragmatic Restitutionist](https://kjaymiller.com/blog/i-guess-the-phrase-is-pragmatic-restitutionist.html)
 
 More Posts: <https://kjaymiller.com/blog/blog1.html>.
 
