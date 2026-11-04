@@ -2,7 +2,7 @@
 
 <p>Voted this morning...</p>
 
-<p>Cobb Co Voter - I have real questions about our SPLOST usage as well as Bona Fide Conservancy that I I wish that people would be point AI at instead of of capitalism</p>
+<p>Cobb Co Voter - I have real questions about our SPLOST usage as well as Bona Fide Conservancy that I wish that people would be point AI at instead of of capitalism</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
