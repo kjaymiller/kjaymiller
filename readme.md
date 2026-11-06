@@ -14,9 +14,11 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 ## Latest Conduit Episode
 
-### [139: ADHD Braining with Mikah Sargent](http://relay.fm/conduit/139)
+### [140: Mining for Silver Linings](http://relay.fm/conduit/140)
 
-Jay is on location elsewhere and so Kathy brings in her dungeon buddy Mikah Sargent to discuss living with ADHD and being diagnosed. Also, Kathy recorded this episode hiding in the closet at the coast so any audio issues are her fault, not the editor's.
+When the feelings are not at their peak how do you get yourself to look at the silver linings and show them Gratitude. 
+
+Kathy talks shares her silver linings and how she put some of them in place.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
