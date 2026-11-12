@@ -1,8 +1,14 @@
 ## Status
 
-<p>Voted this morning...</p>
+<p>Refactr.Tech meetups in Atlanta feels like half tech event half Panther meeting. </p>
 
-<p>Cobb Co Voter - I have real questions about our SPLOST usage as well as Bona Fide Conservancy that I wish that people would be point AI at instead of of capitalism</p>
+<p>We talked about AI, organizing, anti-racism,  networking and education all at once. </p>
+
+<p>It’s great seeing many of the Refactr.Tech crew after a few years of not being outside. </p>
+
+<p><img alt="slides from Kim Clayton’s talk" src="https://jmblogstorrage.blob.core.windows.net/media/image-0663449e.jpeg" /></p>
+
+<p>I have longer feeling to express but want to get back to enjoying the event.</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
