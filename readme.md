@@ -1,14 +1,8 @@
 ## Status
 
-<p>Refactr.Tech meetups in Atlanta feels like half tech event half Panther meeting. </p>
+<p>Looking for a change....</p>
 
-<p>We talked about AI, organizing, anti-racism,  networking and education all at once. </p>
-
-<p>It’s great seeing many of the Refactr.Tech crew after a few years of not being outside. </p>
-
-<p><img alt="slides from Kim Clayton’s talk" src="https://jmblogstorrage.blob.core.windows.net/media/image-0663449e.jpeg" /></p>
-
-<p>I have longer feeling to express but want to get back to enjoying the event.</p>
+<p>Installs ASAHI LINUX</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
