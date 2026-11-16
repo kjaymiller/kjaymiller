@@ -1,8 +1,13 @@
 ## Status
 
-<p>Looking for a change....</p>
+<p>initial rice:
+- Asahi
+- Niri
+- Waybar
+- Rofi</p>
 
-<p>Installs ASAHI LINUX</p>
+<p><img alt="Screenshot of format screen" src="https://jmblogstorrage.blob.core.windows.net/media/screenshot-from-2026-11-15-21-50-30-661755c5.png" />
+<img alt="neofetch and htop" src="https://jmblogstorrage.blob.core.windows.net/media/screenshot-from-2026-11-15-21-53-02-22ec7d98.png" /></p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
