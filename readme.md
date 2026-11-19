@@ -19,11 +19,9 @@ Subscribe to the [RSS Feed](https://kjaymiller.com/allposts.rss)
 
 ## Latest Conduit Episode
 
-### [140: Mining for Silver Linings](http://relay.fm/conduit/140)
+### [141: The Age of Time with Pete Wright](http://relay.fm/conduit/141)
 
-When the feelings are not at their peak how do you get yourself to look at the silver linings and show them Gratitude. 
-
-Kathy talks shares her silver linings and how she put some of them in place.
+Jay is galavanting around again so Kathy brought a close friend and professional podcaster Pete Wright to hang out and talk about The Age of Time and how it can affect your productivity margin.
 
 <img src="https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png" height="200" width="200" alt="Conduit Podcast Logo"/>
 
