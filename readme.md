@@ -1,13 +1,8 @@
 ## Status
 
-<p>initial rice:
-- Asahi
-- Niri
-- Waybar
-- Rofi</p>
+<p>NVIDIA proved that money is more important than people which leads me to believe that these companies, REGARDLESS OF WHAT THEY SAY, DO NOT CARE ABOUT US.</p>
 
-<p><img alt="Screenshot of format screen" src="https://jmblogstorrage.blob.core.windows.net/media/screenshot-from-2026-11-15-21-50-30-661755c5.png" />
-<img alt="neofetch and htop" src="https://jmblogstorrage.blob.core.windows.net/media/screenshot-from-2026-11-15-21-53-02-22ec7d98.png" /></p>
+<p>I mean I knew this already but a reminder is always nice. I ask those defending them, would you let your daughter work at NVIDIA knowing who is at the top.</p>
 
 More updates at [kjaymiller.com](https://kjaymiller.com/microblog/microblog)
 
